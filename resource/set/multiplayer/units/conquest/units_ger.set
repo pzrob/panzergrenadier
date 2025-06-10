@@ -383,6 +383,7 @@
 }
 {"blitz3_6_transport"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+        {cost 30}
 }
 {"blitz3_6_mg"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
