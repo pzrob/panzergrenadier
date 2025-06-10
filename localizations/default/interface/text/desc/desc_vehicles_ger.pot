@@ -473,7 +473,7 @@ msgid "Opel Blitz (Transport)"
 msgstr ""
 
 msgctxt "desc/entity/blitz3_6_mg"
-msgid "Opel Blitz Mg"
+msgid "Opel Blitz (MG)"
 msgstr ""
 
 msgctxt "desc/entity/blitz3_6_transport"
@@ -721,7 +721,7 @@ msgid "Opel Maultier (Supply)"
 msgstr ""
 
 msgctxt "desc/entity/opel_maultier_mg"
-msgid "Opel Maultier Mg"
+msgid "Opel Maultier (MG)"
 msgstr ""
 
 msgctxt "desc/entity/opel_maultier_transport"
