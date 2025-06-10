@@ -1,0 +1,51 @@
+;SDL
+
+	; armor notes
+	; wheels 10mm (wheels did not deflate when piereced by bullet)
+
+	("armoredcar_tier1")
+
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelleft1")
+	("solid_wheel" args "wheelright2")
+	("solid_wheel" args "wheelleft2")
+
+	("turret" repair(45))
+
+	{volume "body1"		
+		{thickness 8
+			{top 6}
+			{front 15}
+			{rear 6}
+		}
+	}
+	{volume "body2"			
+		{thickness 8
+			{rear 6}
+			{bottom 4}
+		}
+	}
+	{volume "body3"			
+		{thickness 8
+			{top 6}
+			{front 15}
+		}
+	}
+	
+	{volume "engine"
+		{thickness 8
+			{top 6}
+			{front 6}		
+			{rear 4}
+			{bottom 4}
+		}
+	}
+	
+	{volume "turret"		; Turret 
+		{thickness 8}
+		{able {holed}}
+	}
+	
+	{volume "box"
+		{thickness 8}
+	}

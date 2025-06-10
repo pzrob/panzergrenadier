@@ -321,6 +321,9 @@
 	{"sdkfz221"
 		{vehicle_view "sdkfz221"}
 	}
+	{"sdkfz223"
+		{vehicle_view "sdkfz221"}
+	}	
 	{"sdkfz222a"
 		{vehicle_view "sdkfz222"}
 	}
