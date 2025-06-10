@@ -383,7 +383,11 @@
 }
 {"blitz3_6_transport"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
-	{cost 20}	
+        {cost 30}
+}
+{"blitz3_6_mg"
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+	{cost 80}	
 }
 {"kettenkrad_eng"
 	("vehicle2" side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(2) crew1(engineer_1:1) crew2(engineer_2:1))
@@ -528,6 +532,10 @@
 {"opel_maultier_engineering"
 	("vehicle2"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew1(miner-at:4) crew2(miner-ap:4))
 	{cost 10}
+}
+{"opel_maultier_mg"
+	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
+	{cost 110}
 }
 {"sdkfz6_ammo"
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
