@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction"}
+	{obstacleID "unbreakable"}
+	{Extension "scales_01.mdl"}
+	{Lodclass "concrete"}
+}

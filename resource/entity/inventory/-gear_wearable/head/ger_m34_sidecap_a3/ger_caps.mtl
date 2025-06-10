@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_human/K-Ger/ger_caps_a3"}
+	{bump "$/_human/headwear_ger/ger_caps_bp"}
+	{specular "$/_human/headwear_ger/ger_caps_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

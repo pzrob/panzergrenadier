@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/opel_blitz_shield"}
+	{bump "$/_vehicle/opel_blitz_shield_bp"}
+	{specular "$/_vehicle/opel_blitz_shield_sp"}
+	{color "230 230 230 30"}
+	{blend test}
+}

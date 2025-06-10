@@ -1,0 +1,54 @@
+;// TOC
+{game_entity
+	(include "/properties/construction.inc")
+	{props "inventory_box" "spread_items" "shed" "big" "wood"}
+	{extension "ammo_boxes_05.mdl"}
+	
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 12 10}
+			{item "mgun_ger belt ammo" 150}
+			{item "mgun_ger drum ammo" 75}
+			
+			{item "rifle_ger clip ammo" 25}
+			{item "rifle_ger gewehr ammo" 20}
+			
+			{item "bandage_ger" 5}
+			
+			{item "ammo panzershreck" 1}
+			{item "panzerfaust_100 weapon" filled}
+		}
+	}
+	{volume "body1"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body3"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body4"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body5"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{lodclass "decor_medium"}
+}

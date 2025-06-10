@@ -1,0 +1,61 @@
+;Exported by:	 Carlos
+;Date:			 02.09.2020 13:13:03
+;File:			 T:\GoH_3D_human_export\3d_weapons\mg42\mg34_ammo_drum.max
+{skeleton
+	{bone "drum"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "drum.ply"}
+			{VolumeView "drum_lod1.ply"}
+			{VolumeView "drum_lod2.ply"}
+		}
+	}
+}
+{volume "body"
+	{cylinder 1.06045 2.27988}
+	{bone "drum"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.0364 	 0.335 	 0.0006
+	}
+}
+{volume "select"
+	{cylinder 1.76994 3.537}
+	{bone "drum"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.0638 	 0.2711 	 -0.042
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 1.5503 	 -2.6745 	 9.2208}
+			{lookat -0.0786 	 -0.4515 	 0.0937}
+			{fov 17.5867}
+			{horizon 142.215}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.9203 	 0.7996 	 0.4255}
+			}
+			{"1"
+				{type directional}
+				{direction -0.2735 	 0.3178 	 -0.2724}
+			}
+			{"2"
+				{type point}
+				{position -0.2166 	 2.3553 	 11.0437}
+			}
+		}
+	}
+}

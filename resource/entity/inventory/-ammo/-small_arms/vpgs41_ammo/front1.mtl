@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "front"}
+	{specular "front_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

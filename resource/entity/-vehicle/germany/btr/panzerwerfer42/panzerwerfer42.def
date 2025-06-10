@@ -1,0 +1,107 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/tank_crew.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "tank" "halftrack" "hatch" "wheeled" "turret" "with_gun" "rocket" "nebelwerfer" "multi_board" "vision_lev06" "tractor" "tractor_heavy" "detect_spg" "artillery_minimap_medium" "c_rok_lite" "captor" "emplacement_halftrack_trench"}
+	{able "emit_passangers_on_enemy"}
+	{extension "panzerwerfer42.mdl"}
+	(include "panzerwerfer42.ext")
+	{patherId "maultier"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_bullet"}
+
+	("crew_4_human")
+	("gunner_visible")
+
+	{sensor
+		{visor "main"
+			{bone "foresight"}
+		}
+	}
+
+	{boarder
+		{anm "right"
+			{forward {begin "board_body"} {end "pose_jagdtiger_aa"} {base "board"}}
+			{reverse {end "emit_tank_1_hold" } {base "board"}}
+		}
+		{anm "left"
+			{forward {begin "board_body"} {end "pose_jagdtiger_aa"} {base "board"}}
+			{reverse {end "emit_tank_1_hold"} {base "board"}}
+		}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "ammo 150mm_nebelwerfer" 40}		;5 salvos (10 rockets each) (50 total)
+			{item "mg42_belt" filling "ammo mgun_ger belt ap" 100 {user "mgun"}}
+			{item "ammo mgun_ger belt ap" 2010}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{Barrels 10}
+			{weapon "150mm_panzerwerfer" filled}
+			{RestoreIKAfterAim}
+			{gunner "gunner"}
+			{charger "charger"}
+			{StationaryFiring}
+			("abm_dymamic_rocket"
+				zeroing(10.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+		{place "mgun"
+			{type "main"}
+			{gunner "commander"}
+			{charger "commander"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 8500}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.58) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(40) ;----------------------------------Max speed.
+			speedatmaxturn(12) ;-------------------------Max speed at max turn.
+			reverse(14) ;--------------------------------Max speed in Reverse.
+			weight(8.5) ;--------------------------------Weight in Tonnes.
+			power(68) ;----------------------------------Horse Power.
+			fuel(225) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(130) ;---------------------------------Range in Kilometers.
+		)
+		{DisableMoveWhileFiring}
+	}
+	{bone "gun_rot"
+		{limits -12 80}
+		{speed2 5}
+	}
+	{bone "turret"
+		{limits -135 135}
+		{speed2 6}
+	}
+	{bone "mgun_a_rot1"
+		{limits -20 20}
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{speed2 60}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

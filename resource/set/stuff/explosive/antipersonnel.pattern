@@ -1,0 +1,7 @@
+{item
+	{tag "smallitemin1hand dropboxed antipersonnel"}
+	{inventory
+		{weight 100}
+		{fsm "belt"}
+	}
+}

@@ -1,0 +1,28 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "soldier_foxhole_deep_20mm_l39_stage_1.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "20mm_l39_stat"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_00"
+			;{entity "sandbag_structured_straight_90_indestructible"}
+			;{Linkbone "sandbag_00"}
+			;{handlebone "body"}
+		;}
+		{place "floor_01"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "floor_02"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+		}
+	}
+}

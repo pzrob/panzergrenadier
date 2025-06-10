@@ -1,0 +1,15 @@
+{
+	(include "tripod.inc")
+	(include "/properties/fortified_emplacement.ext")
+
+	{extender "inventory"
+		{box
+			{item "mg34_belt" filling "ammo mgun_ger belt ap" 250 {user "mgun"}}
+		}
+	}
+	{volume "fortify_upgrade_ger"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+}

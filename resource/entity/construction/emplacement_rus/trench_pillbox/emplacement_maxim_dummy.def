@@ -1,0 +1,5 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	;{props "sand" "parts" "foxhole_spawned" "small" "no_scavenge" "trench"}
+	{extension "emplacement_trench_pillbox_dummy.mdl"}
+}

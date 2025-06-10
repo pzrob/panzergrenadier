@@ -1,0 +1,72 @@
+;Exported by:	 guita
+;Date:			 16.10.2020 17:20:20
+;File:			 D:\Git\3D_Scenes\GoH_3D_human_export\3d_equipment\entrenching_pickaxe\pickaxe_export.max
+{skeleton
+	{bone "pickaxe"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "pickaxe.ply"}
+			{VolumeView "pickaxe_lod1.ply"}
+			{VolumeView "pickaxe_lod2.ply"}
+			{VolumeView "pickaxe_lod3.ply"}
+		}
+	}
+}
+{volume "body1"
+	{box 1.54042 11.9295 1.37218}
+	{bone "pickaxe"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0.0128 	 8.848 	 0.0076
+	}
+}
+{volume "body"
+	{box 19.9201 1.52023 1.38581}
+	{bone "pickaxe"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 -1
+		-1 	 0 	 0
+		-0.1071 	 -0.2056 	 -0.0386
+	}
+}
+{volume "select"
+	{box 20.1329 1.73528 1.73141}
+	{bone "pickaxe"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 -1
+		-1 	 0 	 0
+		-0.1308 	 -0.118 	 -0.0334
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.7108 	 -0.1039 	 -53.8671}
+			{lookat -0.1101 	 -0.0333 	 0.64}
+			{fov 21.6438}
+			{horizon 174.513}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -23.1033 	 4.7683 	 0.1879}
+			}
+			{"1"
+				{type directional}
+				{direction 0.1679 	 -0.249 	 0.3998}
+			}
+			{"2"
+				{type point}
+				{position 3.9031 	 -16.3873 	 -9.6917}
+			}
+		}
+	}
+}

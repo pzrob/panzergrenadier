@@ -1,0 +1,16 @@
+{actor
+	(include "/properties/ammo_box.ext")
+	(include "/properties/resupply.inc")
+	{extension "inf_crate.mdl"}
+	{props "vision_lev00_can" "ammo_crate" "emplacement_light_inf_crate" "no_recrew_logic"}
+
+	("supply_ammo" supply(250))
+
+	{extender "inventory"
+		{Box
+		    {item "sandbag_vehicle" 1}
+		}
+	}
+
+	{mass 100}
+}

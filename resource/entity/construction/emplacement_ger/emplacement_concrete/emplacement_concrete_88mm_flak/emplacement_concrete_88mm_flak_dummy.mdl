@@ -1,0 +1,118 @@
+;Exported by:	 marc-
+;Date:			 14.02.2023 22:06:12
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_fortifications\bunk1.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0 ;z -x y
+		}
+		{bone "basis"
+			{matrix34
+				0 	 -1 	 0
+				-1 	 0 	 0
+				0 	 0 	 1
+				0 	 0 	 -40 ;z -x y
+			}
+			{bone "land"
+				{Position -1.8356 	 7.1647 	 29.9422}
+				{VolumeView "land.ply"}
+			}
+			{bone "foundation"
+				{matrix34
+					0.9898 	 -0.1376 	 0.0358
+					0.1351 	 0.9888 	 0.0641
+					-0.0442 	 -0.0586 	 0.9973
+					-6.4191 	 12.0719 	 26.883
+				}
+				{VolumeView "foundation.ply"}
+			}
+			{bone "p01"
+				{Position 78.3335 	 16.9157 	 49.6381}
+			}
+			{bone "p02"
+				{Position 1.189 	 -71.3109 	 49.6381}
+			}
+			{bone "p03"
+				{Position -83.441 	 -4.5516 	 49.6381}
+			}
+			{bone "p04"
+				{Position -3.025 	 66.435 	 61.6636}
+			}
+			{bone "stair_stages"
+				{matrix34
+					1.09 	 0	 0
+					0 	 0.4	 0
+					0 	 0 	 0.5
+					0 	 115 	 30 ;x z y
+				}
+				{bone "stair_stage_01"
+					{matrix34
+						0	 1	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						63 	 0 	 0.8 ; -x -z y
+					}
+					{bone "stair_02"
+						{matrix34
+							0 	 1	 0
+							1 	 0 	 0
+							0 	 0 	 1
+							-38 	 0 	 0 ;z x y
+						}
+						{LODView
+							{VolumeView "body01.ply"}
+							{VolumeView "body01_lod1.ply"}
+							{VolumeView "body01_lod2.ply"}
+							{VolumeView "body01_lod3.ply"}
+						}
+						{bone "stair_land_02"
+							{Position -4.1759 	 8.0721 	 -29.5276}
+							{VolumeView "stair_land.ply" {Ground}}
+						}			
+					}	
+				}	
+				{bone "stair_stage_02"
+					{matrix34
+						0	 1	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						-65.6 	0 	 0 ;-x -z y
+					}		
+				
+				{bone "stair_03"
+					{matrix34
+						0 	 -1	 0
+						-1 	 0 	 0
+						0 	 0 	 1
+						38 	 0 	 0 ;z x y
+					}	
+					{bone "stair_land_03"
+						{Position 0 	 0	 -29.5276}
+					}			
+				}	
+					{bone "stair_04"
+						{matrix34
+							0 	 1	 0
+							1 	 0 	 0
+							0 	 0 	 1
+							-38 	 0 	 0 ;z x y
+						}	
+						{LODView
+							{VolumeView "body01.ply"}
+							{VolumeView "body01_lod1.ply"}
+							{VolumeView "body01_lod2.ply"}
+							{VolumeView "body01_lod3.ply"}
+						}
+						{bone "stair_land_04"
+							{Position -4.1759 	 8.0721 	 -29.5276}
+						}			
+					}
+				}	
+			}	
+		}
+	}
+}
+

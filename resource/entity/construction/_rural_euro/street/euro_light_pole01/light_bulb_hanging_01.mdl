@@ -1,0 +1,63 @@
+;Exported by:	 carlos
+;Date:			 04.07.2024 22:38:32
+;File:			 C:\svn\Gates of Hell Source\GoH_3d_environment_west\3d_environment\light_pole01\light_pole_street01.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "post_lamp2"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		;{VolumeView "post_lamp2.ply"}
+		{bone "lamp_glass1"
+			{matrix34
+				-0.9659 	 0 	 -0.2588
+				0.2588 	 0 	 -0.9659
+				0 	 -1 	 0
+				7.6796 	 0.2249 	 85.7829
+			}
+			{VolumeView "lamp_glass1.ply"}
+		}
+		{bone "light_point"
+			{parameters "lastpose=undefined;"}
+			{matrix34
+				0.9659 	 0 	 0.2588
+				0 	 1 	 0
+				-0.2588 	 0 	 0.9659
+				7.0544 	 0 	 84.2396
+			}
+		}
+		{bone "lamp_light_point1"
+			{parameters "lastpose=undefined;"}
+			{matrix34
+				0.2588 	 0 	 -0.9659
+				0 	 1 	 0
+				0.9659 	 0 	 0.2588
+				7.0544 	 0 	 84.2396
+			}
+		}
+	}
+	}
+}
+{volume "lamp1"
+	{box 9.61454 9.10584 3.78452}
+	{bone "post_lamp2"}
+	{matrix34
+		0.9397 	 0 	 0.342
+		0 	 1 	 0
+		-0.342 	 0 	 0.9397
+		6.6257 	 0 	 85.1343
+	}
+}
+{volume "body"
+	{box 3.74016 3.74016 97.3859}
+	{bone "post_lamp2"}
+	{Position -0.0327 	 0 	 48.6929}
+}

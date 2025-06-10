@@ -1,0 +1,33 @@
+;Exported by: 97956
+;Date:        Sun Mar  2 14:53:54 2025
+;File:        C:\RFG\factory\CTA\?????\??????\??\at_bunker_large.max
+{Skeleton
+	{bone "basic"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0	0	0
+		}
+	{bone "bunker_basic"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			0	0	0
+		}
+		{bone "at_bunker_large_floor"
+			{Position 0	44.8643	-6.9976}
+			{VolumeView "at_bunker_large_floor.ply"}
+		}
+		{bone "at_bunker_large_wall"
+			{Position 0	44.8643	-6.9976}
+			{VolumeView "at_bunker_large_wall.ply"}
+		}
+		{bone "exterior01"
+			{Position 0	44.8643	-6.9976}
+			{VolumeView "exterior01.ply"}
+		}
+	}
+	}
+}

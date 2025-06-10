@@ -1,0 +1,26 @@
+;Exported by: caps
+;Date:        Fri Jul  5 09:46:56 2019
+;File:        F:\!_Work\tank_cover\3D\tank_cover_03.max
+{Skeleton
+	{bone "basic"
+
+		{Orientation
+			0	1	0
+			1	0	0
+			0	0	1
+		}
+	}
+}   
+
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex  -37.5 -67.0}	
+		{Vertex  -55.5 -85.0}		
+		{Vertex  -116 -90.0}
+		{Vertex  -116 94.0}
+		{Vertex  -58 94.0}	
+		{Vertex  -39 72.0}
+	}
+	{Rotate}
+}

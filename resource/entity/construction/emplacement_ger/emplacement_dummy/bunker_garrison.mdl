@@ -1,0 +1,493 @@
+;Exported by: caps
+;Date:        Thu Nov 17 16:25:58 2016
+;File:        I:\Work\hmg_pedestal\3D\Pedestal_m2.max
+{Skeleton
+	{bone "enumerator_logo1"
+				{parameters "LastPose = undefined;"}
+				{Matrix34
+					1	0	0
+					1	1	0
+					0	0	1
+					0	0.0	0.0
+				}
+				
+               {Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "bunker_stage"
+		{orientation
+			1 	 0  0
+			0 	 1 0
+			0 	 0 	 1
+		}
+		{bone "emit1"
+			{Matrix34
+			 0	 1.0 	 0
+			-1.0 	0  0
+			0 	 0 	 1
+			17.0	-59.0	0.0
+			}
+		}
+		{bone "emit2"
+			{Matrix34
+			 0	 1.0 	 0
+			-1.0 	0  0
+			0 	 0 	 1
+			17.0	-59.0	0.0
+			}
+		}
+		{bone "emit3"
+			{Matrix34
+			 0	 -1.0 	 0
+			1.0 	0  0
+			0 	 0 	 1
+			17.0	-54.0	0.0
+			}
+		}
+		{bone "emit4"
+			{Matrix34
+			 0	 -1.0 	 0
+			1.0 	0  0
+			0 	 0 	 1
+			17.0	-54.0	0.0
+			}
+		}
+		{bone "bunker"
+			{parameters "id=body;"}
+			{Position -1.4392 	 0.1808 	 0}
+			{VolumeView "bunker.ply"}
+                {bone "gunner"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	20.0	0 ; x z y
+					}
+				}
+				{bone "seat_stage"
+					{Matrix34
+						1	0	0
+						0	1	0
+						0	0	1
+						-0.0	0.0	0 ; x z y
+					}
+				{bone "seat_stage_01"
+					{Matrix34
+						1	0	0
+						0	1	0
+						0	0	1
+						-0.0	0.0	0 ; x z y
+					}
+				{bone "seat01"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	20.0	0 ; x z y
+					}
+				}
+				{bone "seat02"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-12.0	20.0	0
+					}
+				}
+				{bone "seat03"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						4.0	20.0	0
+					}
+				}
+				{bone "seat04"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						20.0	20.0	0
+					}
+				}
+				{bone "seat05"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	6.0	0 ; x z y
+					}
+				}
+				{bone "seat06"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-12.0	6.0	0
+					}
+				}
+				{bone "seat07"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						4.0	6.0	0
+					}
+				}
+				{bone "seat08"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						20.0 6.0	0
+					}
+				}
+				{bone "seat09"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	-8.0	0 ; x z y
+					}
+				}
+				{bone "seat10"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-12.0	-8.0	0
+					}
+				}
+				{bone "seat11"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						4.0	-8.0	0
+					}
+				}
+				{bone "seat12"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						20.0 -8.0	0
+					}
+				}
+				}
+				}
+		}
+                {bone "sandbag_00"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-21.5 -48.0	0
+					}
+				}  
+
+                {bone "sandbag_01"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						-49.0 -17.0	0 ;x z y
+					}
+				}    
+                {bone "sandbag_02"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						46.0 -18.5	0
+					}
+				}
+                {bone "sandbag_03"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						-49.0 20.0	0 ;x z y
+					}
+				} 	
+                {bone "sandbag_04"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						46.0 16.5	0
+					}
+				}
+                {bone "sandbag_05"
+					{Matrix34
+						0	-1	0
+						0.95	0	0
+						0	0	1
+						-17.0 47.0	0
+					}
+				} 
+                {bone "sandbag_06"
+					{Matrix34
+						0	-1	0
+						0.95	0	0
+						0	0	1
+						19.0 47.0	0
+					}
+				} 				
+		}	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {bone "basis"
+		{Position 0	0	-123.0034}
+		{bone "sandbag_cover"
+		}
+       
+		{bone "body"
+			{parameters "ID=body;"}
+			
+            {LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+                {Orientation
+                0	0	0
+                0	0	0
+                0	0	0
+            }
+            
+            
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{speed 0.04}
+				{Position 0	0	23.0034}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
+                {Orientation
+			0	0	0
+			0	0	0
+			0	0	0
+		}
+				{bone revolute "gun_rot"
+					{parameters "ID=body;"}
+					{limits -10 10}
+					{speed 0.05}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0	0	2.59009
+					}
+                    {Orientation
+			0	0	0
+			0	0	0
+			0	0	0
+		}
+					{LODView
+						{VolumeView "gun_rot.ply"}
+						{VolumeView "gun_rot_lod1.ply"}
+					}
+					{bone "mgun"
+						{Position -7.3247	1.67107	0}
+                        {Orientation
+			0	0	0
+			0	0	0
+			0	0	0
+		}
+					}
+				}
+				{bone "gunner"
+					{Position -13.58423	0	-23.0034}
+                    {Orientation
+			0	0	0
+			0	0	0
+			0	0	0
+		}
+				}
+				{bone "visor"
+					{Position 0	0	7.83691}
+                    {Orientation
+			0	0	0
+			0	0	0
+			0	0	0
+		}
+				}
+			}
+			{bone "enumerator_background1"
+				{Matrix34
+					0	-1	0
+					1	0	0
+					0	0	1
+					-6.45077	0.00567627	0.323991
+				}
+				{VolumeView "enumerator_background1.ply"}
+                {Orientation
+			0	0	0
+			0	0	0
+			0	0	0
+		}
+			}
+			
+		
+		{bone "emit1"
+			{parameters "Group=crew;"}
+			{Position -19.8053	0	0}
+			{visibility 0}
+            {Orientation
+			0	0	0
+			0	0	0
+			0	0	0
+		}
+		}
+        }
+		{bone "mortar"
+		  {matrix34
+			1 	 0.0 	 -0.15
+			0.0 	 -1  0
+			0.15	 	 0 	 1
+			-32.0	 0 	 0.90
+		  }
+		}
+	}
+
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0 0}
+		{Extent 2.06779 1.79076}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 1.66719 -4.95774}
+		{Extent 4.32173 2.87799}
+		{Axis 0.906401 0.422418}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 0.490293 4.60185}
+		{Extent 2.88028 4.32325}
+		{Axis 0.0879049 0.996129}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center 4.68986 0.234601}
+		{Extent 2.87703 5.1421}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Volume "body"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+}
+{Volume "body2"
+	{Cylinder 0.833281 10.8917}
+	{Bone "body"}
+	{Position 0	0	17.8867}
+}
+{Volume "body3"
+	{Box 5.99768 2.09002 2.93574}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0	-1.11611	0
+	}
+}
+{Volume "body4"
+	{Box 7.20196 3.64577 4.49169}
+	{Bone "gun_rot"}
+	{Matrix34
+		0	0	1
+		1	0	0
+		0	1	0
+		3.65942	-0.142302	-4.4788
+	}
+}
+{Volume "body5"
+	{Box 8.64218 5.75406 3.70605}
+	{Bone "body"}
+	{Matrix34
+		0.906308	-0.422618	0
+		0.422618	0.906308	0
+		0	0	1
+		1.66719	4.95774	1.85302
+	}
+}
+{Volume "body6"
+	{Box 8.64218 5.75406 3.70605}
+	{Bone "body"}
+	{Matrix34
+		0.996195	0.0871558	0
+		-0.0871558	0.996195	0
+		0	0	1
+		0.490293	-4.60185	1.85302
+	}
+}
+{Volume "body7"
+	{Box 10.2842 5.75406 5.67025}
+	{Bone "body"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		4.68986	-0.234601	2.83513
+	}
+}
+{Volume "touch"
+	{Box 9.84252 9.84252 18.7275}
+	{Bone "body"}
+	{Position 0	0	9.36376}
+}
+{Volume "bounds"
+	{Cylinder 33.4646 15.4788}
+	{Bone "basis"}
+	{Position 13.2357	0	7.73941}
+}
+
+
+{Obstacle "bunker"
+	{Obb2
+		{Center -1.96874 0.164063}
+		{Extent 37.7342 36.9139}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Volume "bunker"
+	{Box 75.4685 73.8278 45.9373}
+	{Bone "bunker"}
+	{Position -0.5295 	 -0.3449 	 22.9687}
+}

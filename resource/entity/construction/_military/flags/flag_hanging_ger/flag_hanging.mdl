@@ -1,0 +1,27 @@
+;Exported by:	 Usuario
+;Date:			 13.03.2016 13:56:00
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\Entourage\flags\flag_hang\window_flag.max
+{skeleton
+	{animation
+		{sequence "start" {speed 0.5}{autostart}}
+	}
+	{bone "flag"
+		{parameters "commonmesh;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "flag.ply"}
+	}
+}
+{Volume "body"
+	{Box 24.826 49.884 4.60789}
+	{Bone "flag"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		1.6472 	 -0.4641 	 33.7587
+	}
+}

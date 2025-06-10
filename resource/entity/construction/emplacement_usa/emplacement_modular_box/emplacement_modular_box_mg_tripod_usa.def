@@ -1,0 +1,68 @@
+{game_entity
+    (include "/properties/building.inc")
+	{props "-small" "construction" "wood" "big"}
+	("armor_heavy" args 0.8)
+	{obstacleid "unbreakable"}
+	;{collider "construction"}
+    {extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+        {NoNormals}
+	}
+	("armor_medium")
+	;{lodclass "decor_medium"}
+	{extension "emplacement_modular_box_mg_tripod_usa.mdl"}
+	{volume "floor_01"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1}{obstacle 0}{contact 0}}
+	}
+	{volume "floor_02"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1}{obstacle 0}{contact 0}}
+	}
+	{volume "box_00"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+	{volume "box_01"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+	{volume "box_02"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+	{volume "box_03_01"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+	{volume "box_03_02"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+	{volume "box_03_03"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 0}}
+	}
+
+	{placer
+		{place "roof_stage"
+			{entity "emplacement_modular_box_mgun_roof_stage"}
+			{Linkbone "roof_stage"}
+			{handlebone "body"}
+		}
+		{place "cut_entity"
+			{entity "emplacement_modular_box_mgun_cut_entity_dummy"}
+			{Linkbone "cut_entity"}
+			{handlebone "body"}
+		}
+	}
+
+}

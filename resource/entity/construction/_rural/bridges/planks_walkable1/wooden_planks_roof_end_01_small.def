@@ -1,0 +1,62 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "wooden_planks_roof_end_01_small.mdl"}
+    {placer
+		{place "plank_01"
+			{entity "wooden_planks_01_indestructible"}
+			{Linkbone "plank_01"}
+			{handlebone "body"}
+		}
+		{place "plank_02"
+			{entity "wooden_planks_01_inside_indestructible"}
+			{Linkbone "plank_02"}
+			{handlebone "body"}
+		}
+		{place "piller_01"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_01"}
+			{handlebone "body"}
+		}
+		{place "piller_02"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_02"}
+			{handlebone "body"}
+		}
+		{place "piller_03"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_03"}
+			{handlebone "body"}
+		}
+		{place "piller_04"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_04"}
+			{handlebone "body"}
+		}
+        {place "piller_07"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_07"}
+			{handlebone "body"}
+		}
+		{place "piller_08"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_08"}
+			{handlebone "body"}
+		}
+		{place "piller_09"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_09"}
+			{handlebone "body"}
+		}
+		{place "piller_10"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_10"}
+			{handlebone "body"}
+		}
+	}
+}

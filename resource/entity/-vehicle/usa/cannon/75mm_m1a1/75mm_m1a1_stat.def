@@ -1,0 +1,98 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/fortified_emplacement.ext")
+
+	{extension "75mm_m1a1_stat.mdl"}
+	(include "/properties/selection/cannon_elongated.inc" scale(0.8))
+	{props "stat_weapon" "wheeled" "vision_lev03_can" "muzzle_50mm_57mm" "cannon_sandbag_small" "trailer" "trailer_light" "detect_atgun" "c_sup_lite"}
+	{targetclass "howitzer"}
+	{targetSelector "cannon_howitzer"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("gun" repair(30) thickness(30))
+
+	("armor_medium_cannon")
+	("crew_wheeled_cannon_4")
+
+	{boarder
+		{anm "gunner"
+			{forward {end "cannon_small_gunner" 10}}
+		}
+		{anm "charger"
+			{forward {end "cannon_small_charger" 10}}
+		}
+		{anm "charger2"
+			{forward {end "cannon_small_charger2" 10}}
+		}
+		{anm "commander"
+			{forward {end "cannon_small_commander" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "charger" "charger2" "commander"
+			{move "" "" "" ""}
+			{aim "cannon_small_gunner_aim" "cannon_small_charger_aim" "cannon_small_charger2_aim" "cannon_small_commander_aim"}
+			{fire "cannon_small_gunner_fire" "cannon_small_charger_fire" "cannon_small_charger2_fire" "cannon_small_commander_fire"}
+			{reload "cannon_small_gunner_reload" "cannon_small_charger_reload" "cannon_small_charger2_reload" "cannon_small_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}			;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner" "charger" "charger2" "commander"} {obstacle "open"}}		;// fire/attack state: cannon aim, fire, and reload events
+		{trailing {workers "seat1" "seat2" "seat3" "seat4"}}								;// trailing state: cannon is being towed {obstacle} not needed. Uses "close"
+		{rotate_ik_Limit 25}
+	}
+
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+		{place "driver3" remove}
+		{place "driver4" remove}
+	}
+	
+	{extender "inventory"
+		{box
+			{item "ammo bulletusa_75x272 he" 34}	;50 rounds, 70/15/15%, HE/HEAT/WP
+			{item "ammo bulletusa_75x272 heat" 8}
+			{item "ammo bulletusa_75x272 wp" 8}
+			{item "usa_75mm_l16_shell_crate" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "75mm_m1a1_how" filling "bulletusa_75x272 he" 1}
+			{charger "charger charger2" minWorkers 1}
+			{RestoreIKAfterAim}
+			("abm_dymamic_gun"
+				zeroing(4.00)
+				dispersion(0.25)
+			)
+		}
+	}
+
+	{mass 653}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(8.6) ;----------------------------------Max speed.
+			weight(653) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 4}
+	}
+	{bone "gun_rot"
+		{limits -5 45}
+		{speed2 4}
+	}
+	{bone "turret"
+		{limits -3 3}
+		{speed2 3}
+	}
+}

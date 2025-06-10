@@ -1,0 +1,139 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{Extension "emplacement_light.mdl"}
+	{props "sand" "foxhole_spawned" "normal"}
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+
+	{volume "box006"
+		{able  {touch 1}}
+	}
+	{volume "box007"
+		{able  {touch 1}}
+	}
+	{volume "box008"
+		{able  {touch 1}}
+	}
+	{volume "box009"
+		{able  {touch 1}}
+	}
+	{volume "box010"
+		{able  {touch 1}}
+	}
+	{volume "box011"
+		{able  {touch 1}}
+	}
+	{volume "box012"
+		{able  {touch 1}}
+	}
+	{placer
+		{place "floor"
+			{entity "emplacement_light_floor_stage"}
+			{Linkbone "floor"}
+			{handlebone "body"}
+		}
+	}
+	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_20mm_itk35_cannon_stage"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_20mm_itk35_cannon_stage"}
+			}
+			{"ger"
+				{entity "emplacement_37mm_flak37_cannon_stage"}
+			}
+			;{"spa"
+				{entity "emplacement_37mm_flak37_cannon_stage"}
+			;}
+			{"ger_female_soldier"
+				{entity "emplacement_37mm_flak37_cannon_stage"}
+			}
+			{"rus"
+				{entity "emplacement_25mm_72k_cannon_stage"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_25mm_72k_cannon_stage"}
+			}
+			{"usa"
+				{entity "emplacement_50cal_quad_m45_cannon_stage"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_50cal_quad_m45_cannon_stage"}
+			}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_20mm_itk40_shell_crate_stage"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_20mm_itk40_shell_crate_stage"}
+			}
+			{"ger"
+				{entity "emplacement_37mm_flak37_shell_crate_stage"}
+			}
+			;{"spa"
+				{entity "emplacement_37mm_flak37_shell_crate_stage"}
+			;}
+			{"ger_female_soldier"
+				{entity "emplacement_37mm_flak37_shell_crate_stage"}
+			}
+			{"rus"
+				{entity "emplacement_25mm_72k_shell_crate_stage"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_25mm_72k_shell_crate_stage"}
+			}
+			{"usa"
+				{entity "emplacement_50cal_quad_m45_ammo_crate_stage"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_50cal_quad_m45_ammo_crate_stage"}
+			}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_20mm_itk40_roof_stage_dummy"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_20mm_itk40_roof_stage_dummy"}
+			}
+			{"ger"
+				{entity "emplacement_light_roof_stage_dummy"}
+			}
+			{"ger_female_soldier"
+				{entity "emplacement_light_roof_stage_dummy"}
+			}
+			{"rus"
+				{entity "emplacement_light_at_roof_stage_rus_dummy"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_light_at_roof_stage_rus_dummy"}
+			}
+			{"usa"
+				{entity "emplacement_20mm_itk40_roof_stage_dummy"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_20mm_itk40_roof_stage_dummy"}
+			}
+		}
+    }
+}

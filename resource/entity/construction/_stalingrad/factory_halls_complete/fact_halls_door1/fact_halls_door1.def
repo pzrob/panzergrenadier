@@ -1,0 +1,31 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props  "small" "steel" "parts" "construction" "no_destroyed_stamp" "door"}
+	{ObstacleId "construction"}
+	{Extension "fact_halls_door1.mdl"}
+    {tag "opened"}
+
+	{volume "door_l"
+		{Tags "body"}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		;{Tags "opened"}
+		{Tags "door_open"}
+		{thickness 8}
+	}
+	{volume "door_r"
+		{Tags "body"}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		;{Tags "opened"}
+		{Tags "door_open"}
+		{thickness 8}
+	}
+	{volume "door_lock"
+		{Tags "body"}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{Tags "door_lock"}
+		{thickness 8}
+	}
+}

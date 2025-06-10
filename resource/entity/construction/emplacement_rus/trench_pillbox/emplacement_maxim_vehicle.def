@@ -1,0 +1,70 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{props "sand" "parts" "foxhole_spawned" "small" "no_scavenge" "trench"}
+	{extension "emplacement_maxim_vehicle.mdl"}
+	{obstacleID "small_building"}
+	("boneLand"  args "trench_ground")
+	("boneAlign" args "wood")
+
+	;{placer
+		;{place "1" {attach snipe_cover} {linkbone "attach1"}}
+	;}
+	;{Boarder
+		;{door "attach1" {queue 0}}
+		;{link "1"		"attach1"}
+	;}
+	{volume "attach1"
+		{Tags "attach" "1"}
+		{able clear {hole}{touch 1}}
+	}
+	{volume "place01"
+		{Tags "attach" "1"}
+		{able clear {hole}{touch 1}}
+	}
+	{volume "body1"
+		{Tags "body" "fire"}
+		{thickness 200}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 200}
+	}
+	{volume "body3"
+		{Tags "body" "fire"}
+		{thickness 200}
+	}
+	{volume "body4"
+		{Tags "body" "fire"}
+		{thickness 200}
+	}
+	{volume "body5"
+		{Tags "body" "fire"}
+		{thickness 200}
+	}
+	{volume "body6"
+		{Tags "body" "fire"}
+		{thickness 200}
+	}
+	{volume "body7"
+		{Tags "body" "fire"}
+		{thickness 200}
+	}
+	{volume "roof"
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+		{material "ground"}
+	}
+	{extender "edifice"}
+	{placer
+		{place "mgun"
+			{entity "maxim_stand"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table"
+			{entity "crate_mg_platform"}
+			{Linkbone "table"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	(include "81mm_m1_stat.inc")
+	(include "/properties/fortified_emplacement.ext")
+
+	{extender "inventory"
+		{box
+			{item "ammo mortarusa_81 he" 25}
+			{item "ammo mortarusa_81 he2" 5}
+			{item "ammo mortarusa_81 wp" 10}
+		    {item "usa_81mm_mortar_round_crate" 1 }
+
+		}
+	}
+}

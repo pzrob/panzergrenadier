@@ -1,0 +1,10 @@
+{bitmap
+	{Axis  0 0 }
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend  none }
+	{Animation Loop Play }
+	{Frame  "icon_supplies_00.tga" 180 }
+	{Frame  "icon_supplies_00a.tga" 180 }
+	{Frame  "icon_supplies_00b.tga" 180 }
+}

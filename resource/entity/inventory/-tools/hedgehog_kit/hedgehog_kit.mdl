@@ -1,0 +1,88 @@
+;Exported by: sergienko
+;Date:        Fri Jun 30 12:39:48 2006
+;File:        D:\-projets1_5\3dwork\anima\construction\eg\eg_inv.max
+{Skeleton
+	{bone "hedgehog_kit"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "hedgehog_kit.ply"}
+		{bone "handle"
+			{Matrix34
+				0	0	-1
+				0.422618	0.906308	0
+				0.906308	-0.422618	0
+				-1.25853	1.06336	7.85597
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 3.41043 7.79922}
+	{Bone "hedgehog_kit"}
+	{Position -0.370789	0.349121	3.89961}
+}
+{Volume "select"
+	{Cylinder 4.09252 6.31737}
+	{Bone "hedgehog_kit"}
+	{Position -0.370789	0.349121	3.15868}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 10.2943	-10.6985	8.01862}
+			{lookat -59.4194	54.3113	-19.3147}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x6c6c6c}
+			}
+			{"1"
+				{type point}
+				{position -0.0878296	-12.7556	0}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 25.6314	-25.0007	14.0319}
+			{lookat -59.4194	54.3113	-19.3147}
+			{fov 45}
+			{horizon -0.0197823}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x6c6c6c}
+			}
+			{"1"
+				{type point}
+				{position -0.0878296	-12.7556	0}
+			}
+		}
+	}
+	{"stuff_secondary"
+		{camera
+			{origin 15.4536	-15.3707	10.2257}
+			{lookat -59.3911	54.4238	-19.1194}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x6c6c6c}
+			}
+			{"1"
+				{type point}
+				{position -0.0878296	-12.7556	0}
+			}
+		}
+	}
+}

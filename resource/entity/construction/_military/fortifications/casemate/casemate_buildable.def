@@ -1,0 +1,10 @@
+{game_entity
+	{Extension "casemate.mdl"}
+	{placer}
+	{extender "structure"
+		{place "p_01" "casemate_1"}
+		{place "p_02" "casemate_2"}
+		{place "p_03" "casemate_3"}
+		{place "p_04" "casemate_4"}
+	}
+}

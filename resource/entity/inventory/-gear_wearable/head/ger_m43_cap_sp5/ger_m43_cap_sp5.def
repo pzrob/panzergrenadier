@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "ger_m43_cap_camo.mdl"}
+	{extender "stuff"
+		{item "ger_m43_cap_sp5"}
+	}
+}

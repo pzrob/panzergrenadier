@@ -1,0 +1,33 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_concrete_bunker_lager_v2_37mm_flak37_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "37mm_flak37_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "sandbag"
+			{entity "emplacement_ground_floor_37mm_flak37"}
+			{Linkbone "sandbag"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_00"
+			{entity "sandbag_framed_curved_indestructible_no_obstacle"}
+			{Linkbone "sandbag_framed_curved_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_270_indestructible_no_obstacle"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_90_indestructible_no_obstacle"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+	}
+}

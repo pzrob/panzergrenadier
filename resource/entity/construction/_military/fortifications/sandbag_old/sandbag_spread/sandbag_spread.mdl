@@ -1,0 +1,45 @@
+;Exported by:	 Carlos
+;Date:			 12.09.2017 18:58:49
+;File:			 H:\GoH_3D_gem_export\3d_environment\_military\fortifications\sandbags_new\sandbag_spread.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				0.5406 	 0.8413 	 0
+				-0.8413 	 0.5406 	 0
+				0 	 0 	 1
+				-4.88 	 15.5982 	 2.3481
+			}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+		}
+	}
+}
+{obstacle "body"
+	{obb2
+		{center 4.70334 19.3689}
+		{extent 5.44022 12.4218}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body"
+	{box 10.8804 24.8436 8.16032}
+	{bone "body"}
+	{matrix34
+		0.5406 	 -0.8413 	 0
+		0.8413 	 0.5406 	 0
+		0 	 0 	 1
+		-24.2356 	 -26.9662 	 1.7321
+	}
+}

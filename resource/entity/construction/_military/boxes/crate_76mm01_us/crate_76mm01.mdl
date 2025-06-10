@@ -1,0 +1,62 @@
+;Exported by:	 marc-
+;Date:			 27.10.2023 23:05:33
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_environment\us_crates\us_crates_lm\us_crates_lm_12a.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position 4.8796 	 -1.3392 	 6.8123}
+			{VolumeView "body.ply"}
+		}
+	{bone "shell_01"
+			{matrix34
+			 1	 0 	 0.03          ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			-0.03 	 0   1			;0 	 0   1
+			7.0 5.0  14.2
+			}
+	}
+	{bone "shell_02"
+			{matrix34
+			 1	 0	 0.03          ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			-0.03 	 0   1			;0 	 0   1
+			7.0 1.0 14.2
+			}
+	}
+	{bone "shell_03"
+			{matrix34
+			 1	 0	 0.03          ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			-0.03 	 0   1			;0 	 0   1
+			7.0 -3.0 14.2
+			}
+	}
+	{bone "shell_04"
+			{matrix34
+			1	  0	 0.03         ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			-0.03 	 0   1			;0 	 0   1
+			7.0 -7.0 14.2
+			}
+	}
+	}
+}
+{obstacle "body01"
+	{obb2
+		{center 4.88055 1.29508}
+		{extent 13.9242 8.32477}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body01"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{Position 0.0009 	 0.0441 	 -0.389}
+}

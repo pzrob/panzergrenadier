@@ -1,0 +1,346 @@
+;Exported by:	 marc-
+;Date:			 18.05.2023 19:53:09
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_fortifications\Pillbox\pillbox backup.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0	 0.0 0.0
+		}
+		{bone "basis"
+			{matrix34
+				1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				0	 0.0 0.0
+			}
+			{bone "land"
+				{parameters "land;rotate;"}
+				{Position 0 	 0.9263 	 -87.9952}
+				{visibility 0}
+				{VolumeView "land.ply"}
+			}
+			{bone "exterior"
+				{Position -2.647 	 1.3247 	 67.5829}
+				{VolumeView "exterior.ply"}
+				{bone "roof01"
+					{Position 0.3676 	 -0.5723 	 -8.3224}
+				}
+			}
+			{bone "body"
+				{Position -6.1886 	 0.9581 	 28.1612}
+				{VolumeView "body.ply"}
+			}
+		}
+		{bone "mgun"
+				{matrix34
+					1 	 0 	 0
+					0 	 -1   0
+					0 	 0 	 1
+					36	 0 	11.2 ; z  -x    y
+				}	
+		}
+		{bone "Exit"
+				{matrix34
+					-1 	 0  0
+					 0	 1  0
+					0 	0	 1
+					40	 0 	 0
+				}	
+		}
+		{bone "floor_01"
+				{matrix34
+					 0  0	 0.6
+					0 	0.83    0
+					0.6 	 0 	 0
+					6.0	 -0.0 	13.6 ; z  -x    y
+				}
+		}
+		{bone "floor_02"
+				{matrix34
+					1.15 	 0 	 0
+					0 	 -1.15   0
+					0 	 0 	 0.2
+					24.8	 14.5 	13.50 ; z  -x    y
+				}
+		}
+		{bone "stair"
+				{matrix34
+					0 	 1   0 
+					1 	 0   0
+					0 	 0 	 1
+					-93	 10 	-48 ; -z  x    y
+				}
+		}
+		{bone "flag"
+			{matrix34
+				1 	 0 	 0
+				0 	 -1   0
+				0 	 0 	 1
+				0	 0 	76; z  x    y
+			}
+		}
+		{bone "weapon_stage"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				20 	 0 	 36 ;x z
+			}
+			{bone "mg_tripod_stage"
+				{matrix34
+					1 	 0	 0
+					0	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+				{bone "mg_tripod_slot"
+					{matrix34
+						-1 	 0 	 0
+						0 	 -1  0
+						0 	 0 	 1
+						-7	 0	 -16 ; -z -x y
+					}
+				}
+				{bone "mg_tripod_platform"
+					{matrix34
+						1 	 0 	 0
+						0 	 1 	 0
+						0 	 0 	 1
+						-7	 1.5 	 -38
+					}
+				}
+			}
+			{bone "maxim_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+				{bone "maxim_slot"
+					{matrix34
+						-1 	 0 	 0
+						0 	 -1  0
+						0 	 0 	 1
+						-4	 0	 0 ; -z -x y
+					}
+				}
+				{bone "maxim_platform"
+					{matrix34
+						1 	 0 	 0
+						0 	 1 	 0
+						0 	 0 	 1
+						-7	 0 	 -21
+					}
+				}
+			}
+			{bone "m2_30cal_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 1
+				}
+				{bone "m2_30cal_slot"
+					{matrix34
+						-1 	 0 	 0
+						0 	 -1  0
+						0 	 0 	 1
+						-3	 0	 0 ; -z -x y
+					}
+				}
+				{bone "m2_30cal_platform"
+					{matrix34
+						1 	 0 	 0
+						0 	 1 	 0
+						0 	 0 	 1
+						-5	 0 	 -21
+					}
+				}
+			}
+		}
+	}
+}
+{area "interior"
+	{obb2
+		{center -4.58636 -0.317291}
+		{extent 77.3735 78.6161}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{obstacle "body01"
+	{obb2
+		{center -58.7547 26.2612}
+		{extent 0.779566 8.61022}
+		{axis 0.866158 0.49977}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body02"
+	{obb2
+		{center 44.0339 -2.11626}
+		{extent 6.27629 22.7898}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body03"
+	{obb2
+		{center 44.0339 -32.1505}
+		{extent 6.27628 7.99641}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body04"
+	{obb2
+		{center 44.0339 31.6686}
+		{extent 6.27628 11.7043}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body07"
+	{obb2
+		{center -49.0418 31.6686}
+		{extent 6.27628 11.7043}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body08"
+	{obb2
+		{center -49.0418 -21.1674}
+		{extent 6.27629 22.5084}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body09"
+	{obb2
+		{center -2.40067 -44.5156}
+		{extent 52.4304 6.27628}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body10"
+	{obb2
+		{center -2.40067 42.7892}
+		{extent 52.4304 6.27628}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "fortify"
+	{box 1.55456 17.22 38.7928}
+	{bone "body"}
+	{matrix34
+		0.866 	 -0.5 	 0
+		0.5 	 0.866 	 0
+		0 	 0 	 1
+		-52.5661 	 -27.2193 	 7.2962
+	}
+}
+{volume "body01"
+	{box 1.55456 17.22 38.7928}
+	{bone "body"}
+	{matrix34
+		0.866 	 -0.5 	 0
+		0.5 	 0.866 	 0
+		0 	 0 	 1
+		-52.5661 	 -27.2193 	 7.2962
+	}
+}
+{volume "body02"
+	{box 45.5795 12.5526 40.478}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		50.2225 	 1.1581 	 -7.9222
+	}
+}
+{volume "body03"
+	{box 15.9928 12.5526 59.5265}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		50.2225 	 31.1924 	 1.602
+	}
+}
+{volume "body04"
+	{box 23.4087 12.5526 59.5265}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		50.2225 	 -32.6267 	 1.602
+	}
+}
+{volume "body05"
+	{box 48.456 12.5526 5.35739}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		50.0974 	 -0.2741 	 28.7156
+	}
+}
+{volume "body06"
+	{box 23.4087 12.5526 5.35739}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-42.8532 	 -11.9683 	 28.7156
+	}
+}
+{volume "body07"
+	{box 23.4087 12.5526 59.5265}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-42.8532 	 -32.6267 	 1.602
+	}
+}
+{volume "body08"
+	{box 45.0167 12.5526 59.5265}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-42.8532 	 20.2093 	 1.602
+	}
+}
+{volume "body09"
+	{box 104.861 12.5526 59.5265}
+	{bone "body"}
+	{Position 3.7879 	 43.5575 	 1.602}
+}
+{volume "body10"
+	{box 104.861 12.5526 59.5265}
+	{bone "body"}
+	{Position 3.7879 	 -43.7473 	 1.602}
+}

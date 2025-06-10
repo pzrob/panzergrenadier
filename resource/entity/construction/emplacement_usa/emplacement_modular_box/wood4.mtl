@@ -1,0 +1,6 @@
+{material multiply
+	{diffuse "$/_wood/wood218"}
+	{diffuse1 "$/_lm/woodplanks3_lm"}
+	{blend none}
+	{modulate2x}
+}

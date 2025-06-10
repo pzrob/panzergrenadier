@@ -1,0 +1,81 @@
+;Exported by: Mauzer
+;Date:        Tue Apr 10 18:00:35 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\ammo\type 97\type 97+.max
+{Skeleton
+	{bone "mortal_r"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mortal_r.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-7.84669	0.0303355	0.00743681
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 1.44042 14.5259}
+	{Bone "mortal_r"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-0.407516	0.0141864	-0.00596269
+	}
+}
+{Volume "select"
+	{Box 8.76563 17.842 3.71617}
+	{Bone "mortal_r"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.497214	0.04853	0.345888
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.03579	17.2294	-31.0935}
+			{lookat -0.13583	-0.190552	-0.0988194}
+			{fov 30.7453}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.000187147	0.376842	0.328618}
+				{diffuse 0xffeecb}
+			}
+			{"1"
+				{type directional}
+				{direction 0.00012033	-0.498486	0.0388878}
+				{diffuse 0xe2ecff}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 2.36573	13.7748	-24.6002}
+			{lookat -0.26576	-0.0425377	-0.0156453}
+			{fov 35.7453}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.000120337	-0.498485	0.0388878}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction -0.000187146	0.376842	0.328618}
+				{diffuse 0xffeecd}
+			}
+		}
+	}
+}

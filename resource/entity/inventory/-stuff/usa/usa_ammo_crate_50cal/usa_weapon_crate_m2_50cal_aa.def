@@ -1,0 +1,29 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_us_moded.inc")
+	("ammo_usa_crate_50cal")
+	{ObstacleId "construction"}
+	{props "-wood" "construction" "small" "parts"}
+	{extension "usa_weapon_crate_m2_50cal_aa.mdl"}
+
+	{Volume "body"
+		{thickness 200}
+		;{able {touch}}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	;{extender "stuff"
+		;{item "usa_ammo_crate_50cal"}
+	;}
+	;{placer
+		;{place "shell_01"
+			;{entity "76mm_rus_aphebc"}
+			;{Linkbone "shell_01"}
+			;{handlebone "body"}
+		;}
+	;}
+}

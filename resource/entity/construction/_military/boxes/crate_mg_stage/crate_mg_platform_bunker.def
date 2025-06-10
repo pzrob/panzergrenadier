@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "-wood" "mg_platform_hallway"} 
+	("armor_heavy" args 0.8)
+
+	{Extension "crate_mg_platform_bunker.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+	}
+	{Volume "body"
+		{able {obstacle 0}{visible 0}}
+		{Tags "body" "fire"}
+		{thickness 8}
+	}	
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	{lodclass "decor_medium"}
+}

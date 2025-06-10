@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_military/pillbox_earth"}
+	{bump "$/_military/pillbox_earth_bp"}
+	{specular "$/_military/pillbox_earth_sp"}
+	{color "230 230 230 25"}
+	{lightmap "$/construction/trench_pillbox/pillbox_trench_lm"}
+	{blend none}
+}

@@ -1,0 +1,307 @@
+;Exported by:	 guita
+;Date:			 04.03.2020 13:36:52
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\foxholes\mg_foxhole\revamp_mg_foxhole_simple.max
+{skeleton
+	{bone "foxhole"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "foxhole.ply"
+			{Layer entity_opaque_biased}
+		}
+		{bone "point001"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				-25.6479 	 23.4876 	 -0.1644
+			}
+		}
+		{bone "point002"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				-0.3579 	 25.1117 	 -0.1644
+			}
+		}
+		{bone "point003"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				26.3242 	 21.8635 	 -0.1644
+			}
+		}
+		{bone "point004"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				39.3173 	 2.3739 	 -0.1644
+			}
+		}
+		{bone "point005"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				32.1247 	 -17.1156 	 -0.1644
+			}
+		}
+		{bone "point006"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				7.2987 	 -25.9323 	 -0.1644
+			}
+		}
+		{bone "point007"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				-20.3115 	 -23.3801 	 -0.1644
+			}
+		}
+		{bone "link"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				27.7163 	 0.5178 	 -20.8165
+			}
+		}
+		{bone "plants"
+			{matrix34
+				-0.155 	 0.9879 	 0
+				0 	 0 	 1
+				0.9879 	 0.155 	 0
+				-42.0172 	 -25.7286 	 6.6389
+			}
+			;{VolumeView "plants.ply"}
+		}
+
+
+
+	
+		{bone "floor_stage"
+			{matrix34
+			1 	 0 	 0          ;1 	 0 	 0      
+			0	 1.0   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1 	 0.000 	 -7.0
+			}
+		
+		{bone "floor_01"
+			{matrix34
+			1.09   0 	 0          ;1 	 0 	 0      
+			0	 0.7   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			21 	 0.000 	 0.0
+			}
+		}
+		{bone "floor_02"
+			{matrix34
+			1.09 0 	 0          ;1 	 0 	 0      
+			0	 0.7   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-21 	 0.000 	 0.0
+			}
+		}
+	    {bone "cannon"
+		{matrix34
+			1 	 0 	 0
+			0 	 1  0
+			0 	 0 	 1
+			0.0	 0.0 	 0 ;z x y
+		}
+	    }
+		}
+		{bone "sandbag_stage"
+			{matrix34
+			1 	 0   0          ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			15.0 	 0.000 	 -18.0
+			}
+		{bone "side_sandbag_00"
+			{matrix34
+			1 	 -0.0  0          ;1 	 0 	 0      
+			0.0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			44.0 	 -2.000 	 -0.0 ;z
+			}
+		}
+		{bone "side_sandbag_01"
+			{matrix34
+			1 	 -0.15  0          ;1 	 0 	 0      
+			0.25	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			0.0 	 30.000 	 0.0
+			}
+		}
+		{bone "side_sandbag_02"
+			{matrix34
+			1 	 0.15   0          ;1 	 0 	 0      
+			-0.25	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			0.0 	 -30.000 	 0.0
+			}
+		}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex 5.77426 39.2651}
+		{vertex -40.5896 28.6339}
+		{vertex -50.9255 9.14337}
+		{vertex -49.1536 -19.7971}
+		{vertex -23.1662 -31.9049}
+		{vertex 14.3383 -31.9049}
+		{vertex 40.621 -19.7971}
+		{vertex 48.0038 3.23715}
+		{vertex 36.4866 26.8621}
+	}
+	{rotate}
+}
+{obstacle "box006"
+	{obb2
+		{center -1.10333 -25.3385}
+		{extent 13.4571 7.3521}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box007"
+	{obb2
+		{center -26.1611 -22.6396}
+		{extent 7.16131 13.4847}
+		{axis 0.242574 0.970133}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box008"
+	{obb2
+		{center 26.2012 -21.3203}
+		{extent 13.4769 7.25354}
+		{axis 0.933647 0.358194}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box009"
+	{obb2
+		{center 40.0978 -2.01473}
+		{extent 13.4675 7.31975}
+		{axis 0.0356777 0.999363}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box010"
+	{obb2
+		{center 28.9567 19.5441}
+		{extent 7.31043 13.4956}
+		{axis 0.616024 0.787727}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box011"
+	{obb2
+		{center 6.42368 26.7413}
+		{extent 7.07556 13.4841}
+		{axis 0.0531046 0.998589}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box012"
+	{obb2
+		{center -20.264 24.1931}
+		{extent 13.5163 7.16566}
+		{axis 0.974396 0.224839}
+	}
+	{rotate}
+	{Tags "body"}
+}
+
+{volume "box006"
+	{box 9.51276 24.1646 26.9142}
+	{bone "point002"}
+	{matrix34
+		0 	 -0.9744 	 -0.2249
+		0 	 -0.2249 	 0.9744
+		-1 	 0 	 0
+		0.7454 	 -0.2267 	 -6.5502
+	}
+}
+{volume "box007"
+	{box 9.51276 22.0023 26.9142}
+	{bone "point001"}
+	{matrix34
+		0.24 	 -0.9443 	 -0.2249
+		0.0554 	 -0.218 	 0.9744
+		-0.9692 	 -0.2464 	 0
+		0.5132 	 0.848 	 -5.3946
+	}
+}
+{volume "box008"
+	{box 9.51276 22.9583 26.9142}
+	{bone "point003"}
+	{matrix34
+		-0.3465 	 -0.9107 	 -0.2249
+		-0.08 	 -0.2102 	 0.9744
+		-0.9346 	 0.3556 	 0
+		0.1231 	 0.5431 	 -6.4085
+	}
+}
+{volume "box009"
+	{box 9.51276 23.7069 26.9142}
+	{bone "point004"}
+	{matrix34
+		-0.9738 	 -0.0334 	 -0.2249
+		-0.2248 	 -0.0077 	 0.9744
+		-0.0343 	 0.9994 	 0
+		-0.7805 	 0.3592 	 -7.317
+	}
+}
+{volume "box010"
+	{box 9.51276 23.1555 26.9142}
+	{bone "point005"}
+	{matrix34
+		-0.5961 	 0.7707 	 -0.2249
+		-0.1376 	 0.1779 	 0.9744
+		0.791 	 0.6118 	 0
+		3.168 	 2.4284 	 -6.6645
+	}
+}
+{volume "box011"
+	{box 9.51276 21.2436 26.9142}
+	{bone "point006"}
+	{matrix34
+		-0.0555 	 0.9728 	 -0.2249
+		-0.0128 	 0.2246 	 0.9744
+		0.9984 	 0.057 	 0
+		0.875 	 0.809 	 -5.3693
+	}
+}
+{volume "box012"
+	{box 9.51276 21.4965 26.9142}
+	{bone "point007"}
+	{matrix34
+		0.2271 	 0.9475 	 -0.2249
+		0.0524 	 0.2187 	 0.9744
+		0.9725 	 -0.2331 	 0
+		-0.0475 	 0.813 	 -5.3693
+	}
+}

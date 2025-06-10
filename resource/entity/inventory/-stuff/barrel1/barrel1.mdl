@@ -1,0 +1,50 @@
+;Exported by:	 Usuario
+;Date:			 29.06.2016 14:10:11
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\inventory\transportable_barrel\barrel.max
+{skeleton
+	{bone "barrel"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "barrel.ply"}
+			{VolumeView "barrel_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{cylinder 4.80457 18.3739}
+	{bone "barrel"}
+	{Position 0.0361 	 -0.041 	 9.187}
+}
+{volume "select"
+	{cylinder 6.19382 21.4582}
+	{bone "barrel"}
+	{Position 0.0361 	 -0.041 	 9.2827}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -38.4228 	 -7.5938 	 28.0747}
+			{lookat -1.5903 	 -0.5414 	 10.7014}
+			{fov 18.1451}
+			{horizon -0.201741}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -8.4704 	 16.0616 	 5.8586}
+			}
+			{"1"
+				{type directional}
+				{direction 0.3877 	 -0.197 	 -0.2467}
+			}
+			{"2"
+				{type point}
+				{position -6.1678 	 -12.8764 	 2.6323}
+			}
+		}
+	}
+}

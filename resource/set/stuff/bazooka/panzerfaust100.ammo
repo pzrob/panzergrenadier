@@ -1,0 +1,6 @@
+{from "pattern rpg_ammo"
+	{tag "no_ricochet heat_shell size2"}
+	{entity "panzerfaust_100_ammo"}
+	{view "panzerfaust_100_ammo"}
+	{mass 0.6}
+}

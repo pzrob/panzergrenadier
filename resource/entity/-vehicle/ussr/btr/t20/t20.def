@@ -1,0 +1,112 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	
+	(include "/properties/selection/vehicle_small.inc" scale(1.1))
+	{props "armored_car" "-turret" "vision_lev02" "tractor" "tractor_medium" "detect_tank_mg" "emplacement_tank_trench_t20"}
+	{extension "t20.mdl"}
+	(include "t20.ext")
+	{targetclass "armoredcar"}
+	{targetSelector "tank_bullet"}
+	{patherId "t20"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_tank_left"} {base "open_gunner"}}
+			{reverse {end "emit_tank_1_hold"}{base "open_gunner" -1}}
+		}
+		{anm "left_driver"
+			{forward {begin "board_tank_left"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"}{base "open_driver" -1}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {base "open_gunner"}}
+			{reverse {end "emit_tank_1_hold"}{base "open_gunner" -1}}
+		}
+		{anm "right_driver"
+			{forward {begin "board_tank_right"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"}{base "open_driver" -1}}
+		}
+		{anm "armor"
+			{forward {begin "board_body"} {end "seat_passenger"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_body"} {end "seat_passenger"}}
+			{reverse {end "emit_body"}}
+		}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "crew"} {visor "%visor"} {turnoff {sensor}}}
+		}
+		{boarder
+			{door "emit1"}
+			{door "emit2"}
+			{link "emit1" "%place" {anm "left%animation"} {forward putoff} {reverse puton}}
+			{link "emit2" "%place" {anm "right%animation"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{sensor
+		{visor "main"
+			{bone "foresight4"}
+			{vision "tank_main_mg"}
+		}
+	}
+
+	("crew_human" place(driver) visor(driver) animation(_driver))
+	("crew_human" place(gunner) visor(main)   animation())
+
+	("seat_human" place(seat1) bone(seat1) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat2) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat3) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat4) door(emit6)  animation(armor1))
+	("seat_human" place(seat5) bone(seat5) door(emit7)  animation(armor))
+	("seat_human" place(seat6) bone(seat6) door(emit8)  animation(armor1))
+
+	{extender "shield" {off}}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "ammo mgun_rus dt" 567}		; 10 drums
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		{place "mgun1"
+			{type "hull"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight4"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 3500}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.5))
+		("mobility_tank"
+			speed(50) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(12) ;--------Max speed in reverse on road, km/h.
+			traverse(55) ;-------Track traverse, per second, in degrees.
+			weight(3.5) ;--------Weight in Tonnes.
+			power(50) ;----------Engine Power, in hp.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(120) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(150) ;---------Range in km, off-road.
+		)
+	}
+}

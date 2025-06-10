@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{collider "nothing"}
+	(include "/properties/resupply_us_moded.inc")
+	("shells_usa_crate_57mm")
+	{props "-wood" "construction"}
+	{extension "usa_weapon_crate_57mm_m1.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+	}
+	{Volume "fortify"
+		{thickness 0}
+		{able {touch}}
+		{Tags "fortify"}
+	}
+}

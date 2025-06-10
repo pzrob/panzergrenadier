@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "rof-gate_doorr.mdl"}
+	{props  "small" "steel" "parts" "construction" "no_destroyed_stamp"}
+	{Volume "body"
+		{Tags "body"}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{thickness 40}
+		{able {visible 1}{holed}}
+	}
+	{Volume "hole1"
+		{able clear {hole}}
+	}
+	{lodclass "decor_medium"}
+}

@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "steel_crate_emplacement_concrete_block_fortress_ger_build_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "-remove_on_land_patch"}
+	("armor_heavy")
+	{placer
+		{place "fortress"
+			{entity "emplacement_concrete_block_fortress_ger_dummy"}
+			{Linkbone "fortress"}
+			{handlebone "body"}
+		}
+	}
+}

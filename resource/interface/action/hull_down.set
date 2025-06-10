@@ -1,0 +1,16 @@
+{action
+	{target ground}
+	{item "sandbag_vehicle"}
+	{item_in_box}
+	{able_vehicle}
+	{notifyselect}
+	{button "sandbag_vehicle"}
+	{instructions
+		{bind range 1}
+		{effect "hull_down"}
+		{remove_from_inventory}
+	}
+}
+
+
+

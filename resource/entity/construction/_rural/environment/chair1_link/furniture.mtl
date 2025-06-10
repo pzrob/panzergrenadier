@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_wood/furniture"}
+	{bump "$/_wood/furniture_bp"}
+	{specular "$/_wood/furniture_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

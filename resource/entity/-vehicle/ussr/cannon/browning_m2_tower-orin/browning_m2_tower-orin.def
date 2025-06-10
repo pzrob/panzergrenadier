@@ -1,0 +1,79 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+
+	(include "/properties/shadow/tank.inc" scale(0.3))
+	{extension "browning_m2_tower.mdl"}
+	{props "wheeled" "-carried" "vision_lev00_can" "maxim_" "detect_cannon_aa" "no_sandbags"}
+	{obstacleid "unbreakable"}
+	("solid_wheel" args "wheelleft")
+	("solid_wheel" args "wheelright")
+	("shield" args "shield" 8)
+
+
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_dshk_aa_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_dshk_aa_commander"}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{move "" ""}
+			;{fire "mg_maxim_gunner_fire" "mg_maxim_commander_fire"}
+			{aim "mg_dshk_aa_gunner_aim" "mg_dshk_aa_commander_aim"}
+			{reload "mg_dshk_aa_gunner_reload" "mg_dshk_aa_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+			{item "ammo hmgun_usa" 500}					; 6 boxes (100 rounds each)
+		}
+	}
+
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{weapon "browning_m2" filled}
+			{charger "gunner"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 64}
+	{Chassis ;// cannot move. this Maxim version is for fixed position use only.
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(64) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 20}
+	}
+	{bone "mgun_1_rot1"
+		{limits -45 45}
+		{speed2 40}
+	}
+	{bone "mgun_1_rot2"
+		{limits -45 45}
+		{speed2 40}
+	}
+}

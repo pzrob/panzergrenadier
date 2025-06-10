@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/regelbau_636_roof"}
+	{bump "$/_military/regelbau_636_roof_bp"}
+	{specular "$/_military/regelbau_636_roof_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

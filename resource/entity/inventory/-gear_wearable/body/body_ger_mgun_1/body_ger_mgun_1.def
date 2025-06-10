@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "body_ger_mgun_1"}
+	}
+	{Extension "body_ger_mgun_1.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

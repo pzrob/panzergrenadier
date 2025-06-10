@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "repair_kit"}
+	{bump "repair_kit_bp"}
+	{specular "repair_kit_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

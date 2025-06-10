@@ -1,0 +1,15 @@
+{game_entity	
+	(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	;{obstacleID "unbreakable"}
+	;{collider "nothing"}
+	{extension "fortress_cleaner_stage.mdl"}
+	{placer
+		{place "first_line_cleaner_01"
+			{entity "ground_cleaner"}
+			{Linkbone "first_line_cleaner_01"}
+			{handlebone "body"}
+		}
+	}
+}

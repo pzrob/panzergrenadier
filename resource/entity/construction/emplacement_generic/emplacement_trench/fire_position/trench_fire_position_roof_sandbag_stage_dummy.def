@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/construction.inc")
+	{extension "trench_fire_position_bunker_stage.mdl"}
+}

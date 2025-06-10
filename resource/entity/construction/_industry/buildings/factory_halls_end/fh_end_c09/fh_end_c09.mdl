@@ -1,0 +1,97 @@
+;Exported by:	 Tomi
+;Date:			 03.12.2020 19:09:49
+;File:			 D:\!WORK\BarbedWire Studios\Models\Factory_Felújítás\factory_end\factory_end_new\2015\factory_halls_end_export02.max
+{skeleton
+	{bone "door_open_default"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "c09.ply"}
+	}
+	{bone "door_open"
+		{matrix34
+			0.85 	 0.74 	 0
+			0.74 	 -0.85 	 0
+			0 	 0 	 1
+			-8.5 	2 	 0
+		}
+		{VolumeView "c09.ply"}
+	}
+	{bone "door_lock"
+		{matrix34
+			0.70 -0.85 	 0
+			-0.85	-0.70 	 0
+			0 	 0 	 1
+			4.5 	 -9.5 	 0
+		}
+		{VolumeView "c09.ply"}
+	}
+}
+{obstacle "default"
+	{obb2
+		{center 0.160523 0.114472}
+		{extent 12.8157 0.748123}
+		{axis 0.669446 0.742861}
+	}
+	{rotate}
+}
+{obstacle "open"
+	{obb2
+		{center -9.0 2}
+		{extent 0.7 13.0}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "close"
+	{obb2
+		{center 2.5 -9.5} ;z x
+		{extent 13 0.7}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "door_open_default"
+	{box 1.28189 25.6216 46.0699}
+	{bone "door_open_default"}
+	{matrix34
+		0.7484 	 0.6632 	 0
+		-0.6632 	 0.7484 	 0
+		0 	 0 	 1
+		0.1605 	 -0.1145 	 0.0735
+	}
+}
+{volume "door_open"
+	{box 1.28189 25.6216 46.0699}
+	{bone "door_open"}
+	{matrix34
+		0.7484 	 0.6632 	 0
+		-0.6632 	 0.7484 	 0
+		0 	 0 	 1
+		0.1605 	 -0.1145 	 0.0735
+	}
+}
+{volume "door_lock"
+	{box 1.28189 25.6216 46.0699}
+	{bone "door_lock"}
+	{matrix34
+		0.7484 	 0.6632 	 0
+		-0.6632 	 0.7484 	 0
+		0 	 0 	 1
+		0.1605 	 -0.1145 	 0.0735
+	}
+}
+{volume "switch"
+	{box 1.28189 25.6216 46.0699}
+	{bone "door_lock"}
+	{matrix34
+		0.7484 	 0.6632 	 0
+		-0.6632 	 0.7484 	 0
+		0 	 0 	 1
+		0.1605 	 -0.1145 	 0.0735
+	}
+}

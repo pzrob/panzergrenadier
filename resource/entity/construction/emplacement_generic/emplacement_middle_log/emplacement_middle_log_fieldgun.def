@@ -1,0 +1,51 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_middle_log_fieldgun.mdl"}
+	{props "sand" "emplacement_middle_exit"}
+	("boneLand"  args "trench")
+	("boneLand"  args "exit")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")	
+	("volume" args "body7")	
+	("volume" args "body8")	
+	("volume" args "body9")	
+	("volume" args "body10")
+	
+    {placer
+		{place "sandbag_pile_01"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "sandbag_pile_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_02"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "sandbag_pile_02"}
+			{handlebone "body"}
+		}
+	}
+    {extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_log_sandbag_stage_fieldgun_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_log_fieldgun_bush_cover_stage_dummy"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_log_roof_stage_dummy"}
+		}
+	}
+}

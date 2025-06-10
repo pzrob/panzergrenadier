@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "mpl50_shovel.mdl"}
+	{extender "stuff"
+		{item "shovel_rus"}
+	}
+	{Volume "body"
+		{thickness 1}
+	}
+	{Volume "select"
+	}
+}

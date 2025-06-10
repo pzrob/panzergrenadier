@@ -1,0 +1,24 @@
+;Exported by:	 guita
+;Date:			 30.08.2020 17:39:55
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\foxholes\soldier_foxhole\soldier_foxhole.max
+{skeleton
+	{bone "basic"
+		{orientation
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		}
+		{bone "inside"
+			{orientation
+				1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+			}
+			{VolumeView "inside.ply"}
+			{bone "land_outside"
+				{VolumeView "land_outside.ply"}
+			}
+		}
+	}
+}
+		

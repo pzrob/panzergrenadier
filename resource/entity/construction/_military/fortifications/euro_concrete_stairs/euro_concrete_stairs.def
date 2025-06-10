@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{extension "euro_concrete_stairs.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+	}
+	{Lodclass "concrete"}
+}

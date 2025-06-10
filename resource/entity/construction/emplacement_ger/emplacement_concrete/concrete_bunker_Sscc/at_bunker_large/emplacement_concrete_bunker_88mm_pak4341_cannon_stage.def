@@ -1,0 +1,6 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_concrete_bunker_88mm_pak4341_cannon_stage.mdl"}
+	;{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	;("armor_heavy")
+}

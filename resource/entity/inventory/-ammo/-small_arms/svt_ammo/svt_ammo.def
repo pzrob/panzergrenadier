@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo rifle_rus svt"}
+	}
+	{extension "svt_ammo.mdl"}
+	{volume "body"
+		{thickness 5}
+	}
+	{nogroupmesh 1}
+}

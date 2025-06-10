@@ -1,0 +1,59 @@
+;Exported by:	 Carlos
+;Date:			 17.02.2021 18:35:07
+;File:			 T:\GoH_3D_environment_export\3d_environment\_military\environment\mine_sign\mine_sign.max
+{skeleton
+	{bone "basic"
+		{orientation
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{orientation
+				1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{obstacle "body2"
+	{obb2
+		{center 0.156336 0.342348}
+		{extent 5.37159 0.266334}
+		{axis 0.998631 0.0523094}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body1"
+	{box 1.27565 0.438506 16.925}
+	{bone "body"}
+	{matrix34
+		0.9982 	 -0.0604 	 0
+		0.0604 	 0.9982 	 0
+		0 	 0 	 1
+		-0.0229 	 -0.0398 	 8.4625
+	}
+}
+{volume "body2"
+	{box 10.7399 8.66057 0.445656}
+	{bone "body"}
+	{matrix34
+		0.9982 	 -0.0604 	 0
+		0 	 0 	 1
+		-0.0604 	 -0.9982 	 0
+		0.1563 	 -0.3423 	 12.467
+	}
+}
+{volume "fortify"
+	{box 10.7399 8.66057 0.445656}
+	{bone "body"}
+	{matrix34
+		0.9982 	 -0.0604 	 0
+		0 	 0 	 1
+		-0.0604 	 -0.9982 	 0
+		0.1563 	 -0.3423 	 12.467
+	}
+}

@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_ger_moded.inc")
+	("shells_ger_crate_20mm_auto")
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}	
+	{extension "ger_37mm_shell_crate.mdl"}
+	
+	{volume "body"
+		{thickness 200}
+		{able {touch}}
+	}	
+	{extender "stuff"
+		{item "ger_37mm_auto_cannon_shell_crate"}
+	}	
+}

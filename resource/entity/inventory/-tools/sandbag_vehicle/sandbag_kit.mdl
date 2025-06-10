@@ -1,0 +1,83 @@
+;Exported by: butyvsky
+;Date:        Tue Mar 04 10:42:46 2008
+;File:        D:\-Projects-\-3D Work-\INVENTORY\lapata.max
+{Skeleton
+	{bone "sandbag_kit"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "sandbag_kit.ply"}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				4.72128	-0.0591831	0.746989
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 12.0367 1.33983 6.14779}
+	{Bone "sandbag_kit"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.452477	0.0970972	0.200797
+	}
+}
+{Volume "select"
+	{Box 14.5645 2.94227 8.17656}
+	{Bone "sandbag_kit"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.452477	0.134557	0.250458
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -8.04961	7.2519	10.7431}
+			{lookat 5.74209	-6.27605	-8.90933}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x757575}
+			}
+			{"1"
+				{type point}
+				{position -11.4845	0.540462	3.83742}
+			}
+			{"2"
+				{type point}
+				{position -0.897707	1.77645	23.4626}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -11.0762	10.4068	8.13356}
+			{lookat 7.1904	-7.82599	-5.87407}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.76045	12.9623	11.1898}
+			}
+			{"1"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x757575}
+			}
+		}
+	}
+}

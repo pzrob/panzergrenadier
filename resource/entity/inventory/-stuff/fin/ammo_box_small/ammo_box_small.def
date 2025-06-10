@@ -1,0 +1,11 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	(include "/properties/resupply_fin_moded.inc")
+	("ammo_box_small")
+	{Extension "ammo_box_small.mdl"}
+	{extender "stuff"
+		{item "ammo_box_small"}
+	}
+	{Volume "body"
+	}
+}

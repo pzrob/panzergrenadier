@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "watch_tower_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "mg34_tripod_stat"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "crate4_indestructible"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+	}
+}

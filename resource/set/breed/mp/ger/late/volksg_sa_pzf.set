@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_44_volksg_g43_3"}
+	{portrait "ger_volksgrenadier"}
+	{icon "autorifle"}
+	{icon_priority 1}
+	{tags "soldier_pzfaust"}
+	{nationality ger}
+	{armors
+		{head ger_fieldcap_m43_var2}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "g43_marksman" filling "rifle_ger gewehr ammo" 10}
+		{item "rifle_ger gewehr ammo" 100}
+
+        {item "panzerfaust_100 weapon" 3 filled}
+		{item "m24_splinter grenade" 1}
+		{item "m24_smoke grenade" 1}
+
+		{item "bandage_ger" 4}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

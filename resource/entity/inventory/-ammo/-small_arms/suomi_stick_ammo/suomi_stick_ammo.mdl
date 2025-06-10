@@ -1,0 +1,51 @@
+;Exported by:	 Carlos
+;Date:			 25.12.2021 10:45:39
+;File:			 T:\goh_3d_human_fin\Weapons\Suomi_kp31\New\kp31_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 0.667905 3.98812 0.753733}
+	{bone "magazine"}
+	{Position 0.0186 	 -0.0221 	 0.0035}
+}
+{volume "select"
+	{box 1.16246 5.09197 1.35205}
+	{bone "magazine"}
+	{Position 0.0003 	 0.0986 	 0.0353}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -0.8068 	 -16.3375 	 53.0639}
+			{lookat 0.0051 	 -0.813 	 2.5994}
+			{fov 2.17281}
+			{horizon -176.649}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.2085 	 6.0359 	 7.5118}
+			}
+			{"1"
+				{type directional}
+				{direction -0.2936 	 0.117 	 -0.3874}
+			}
+			{"2"
+				{type point}
+				{position -6.0502 	 -16.584 	 0.9034}
+			}
+		}
+	}
+}

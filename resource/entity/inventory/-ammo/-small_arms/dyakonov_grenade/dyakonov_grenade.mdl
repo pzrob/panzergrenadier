@@ -1,0 +1,46 @@
+;Exported by:	 Carlos
+;Date:			 17.06.2017 16:39:01
+;File:			 C:\Users\Carlos\Documents\3dsmax\scenes\GoH_3D_gem_export\3d_weapons\mosin_new\ammo_dyakonov_export.max
+{skeleton
+	{bone "grenade_frag"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "grenade_frag.ply"}
+			{VolumeView "grenade_frag_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 2.48637 0.797677 0.816371}
+	{bone "grenade_frag"}
+	{Position 0.0432 	 -0.0086 	 0.0094}
+}
+{volume "select"
+	{box 3.04644 1.55092 1.41442}
+	{bone "grenade_frag"}
+	{Position 0.0521 	 -0.0303 	 0.0491}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.1715 	 0.0228 	 5.0636}
+			{lookat 0.0829 	 0.0129 	 2.8838}
+			{fov 28.261}
+			{horizon 88.799}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.2277 	 0.1873 	 -0.4038}
+			}
+			{"1"
+				{type point}
+				{position 2.5424 	 -6.3147 	 1.3095}
+			}
+		}
+	}
+}

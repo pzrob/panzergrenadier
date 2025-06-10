@@ -1,0 +1,90 @@
+{game_entity
+	;(include "/properties/armoredcar.ext")
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/fortified_emplacement.ext")
+	{props "vision_lev00_can" "cannon_sandbag_standard" "detect_cannon_aa" "automatic" "15mm_mg151_x3"}
+	;{able "emit_passangers_on_enemy"}
+	{extension "15mm_mg151_x3_bunker.mdl"}
+	(include "15mm_mg151_x3_stat.ext")
+	;{patherId "sdkfz251"}
+	;{targetclass "armoredcar"}
+	;{targetSelector "cannon_zenite"}
+
+	;{extender "enumerator"
+		;{digit_folder "np"}
+	;}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "seat_251_21_gunner"} {base "mgun_aa"}}
+		}
+		{anm "commander"
+			{forward {end "pose_mg_lafette_commander" 10}}
+		}
+	}
+	;("crew" place(commander)		bone(commander)	door(emit1)		animation(commander)		visor(none)		off())
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "" ""}
+			;{fire "" "mg_lafette_commander_fire"}
+			{aim "" "mg_lafette_commander_aim"}
+			{reload "" "mg_lafette_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{sensor
+		{visor "human"
+			{vision "none"}
+		}
+		{visor "around"
+			{vision "none"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletger_15_auto he" 2225}
+			{item "bulletger_15_auto ap" 325}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "15mm_mg151_x3" filling "bulletger_15_auto he" 450}
+			{Barrels 3}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic_aaa"
+				zeroing(1.2)
+				dispersion(0.15)
+			)
+		}
+	}
+
+	{mass 8790} ;7810 + 350 + 630
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(32) ;---------------------------------Weight in Kilograms.
+		)
+	}
+	{bone "gun_rot"
+		{limits -5 49}
+		{speed2 20}
+	}
+	{bone "turret"
+		{speed2 25}
+	}
+}

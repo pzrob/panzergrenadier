@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands keepEntity"}
+	{entity "ammo_box_inf_ger"}
+	{inventory
+		{size 4 3}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 2}
+}

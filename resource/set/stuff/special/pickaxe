@@ -1,0 +1,10 @@
+{item
+	{tag "smallitemin1hand distributable trench"}
+	{entity "pickaxe"}
+	{inventory
+		{size 4 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 5}
+}

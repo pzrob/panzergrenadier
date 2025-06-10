@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "45mm_pillbox_reinforce_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "pillar_01"
+			{entity "concrete_block_pillar_02_inner"}
+			{Linkbone "pillar_01"}
+			{handlebone "body"}
+		}	
+		{place "pillar_02"
+			{entity "concrete_block_pillar_02_inner"}
+			{Linkbone "pillar_02"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_01"
+			;{entity "sandbag_one_stand_indestructible"}
+			;{Linkbone "sandbag_01"}
+			;{handlebone "body"}
+		;}
+	}
+}

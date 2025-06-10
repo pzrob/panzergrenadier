@@ -1,0 +1,92 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "wooden_planks_01.mdl"}
+    {placer
+		{place "plank_01"
+			{entity "wooden_planks_01_indestructible"}
+			{Linkbone "plank_01"}
+			{handlebone "body"}
+		}
+		{place "plank_02"
+			{entity "wooden_planks_01_inside_indestructible_roof"}
+			{Linkbone "plank_02"}
+			{handlebone "body"}
+		}
+		{place "piller_01"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_01"}
+			{handlebone "body"}
+		}
+		{place "piller_02"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_02"}
+			{handlebone "body"}
+		}
+		{place "piller_03"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_03"}
+			{handlebone "body"}
+		}
+		{place "piller_04"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_04"}
+			{handlebone "body"}
+		}
+		{place "piller_05"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_05"}
+			{handlebone "body"}
+		}
+		{place "piller_06"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_06"}
+			{handlebone "body"}
+		}
+        {place "piller_07"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_07"}
+			{handlebone "body"}
+		}
+		{place "piller_08"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_08"}
+			{handlebone "body"}
+		}
+		{place "piller_09"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_09"}
+			{handlebone "body"}
+		}
+		{place "piller_10"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_10"}
+			{handlebone "body"}
+		}
+		{place "piller_11"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_11"}
+			{handlebone "body"}
+		}
+		{place "piller_12"
+			{entity "fencewood_07_indestructible"}
+			{Linkbone "piller_12"}
+			{handlebone "body"}
+		}
+		{place "bench_01"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_01"}
+			{handlebone "body"}
+		}
+		{place "bench_02"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_02"}
+			{handlebone "body"}
+		}
+	}	
+}

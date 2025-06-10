@@ -1,0 +1,18 @@
+{from "pattern mortar_ammo"
+	{tag "shell big mortar ic"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "120mm_rus_mortar_ic"}
+	{view "120mm_rus_mortar_ic"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 16}
+
+	{damage fire
+		{radius 3.5}
+		{heating 15}
+		{time 1}
+		;{ground_interaction_radius 0.3} ;// crashes game if used with fire damage
+	}
+}

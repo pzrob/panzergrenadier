@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "ger_weapon_crate_50mm_flak41_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "weapon_crate"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "50mm_flak41_bunker_dummy"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "platform"
+			{entity "sand-shuttering-box_3"}
+			{Linkbone "platform"}
+			{handlebone "body"}
+		}
+	}
+}

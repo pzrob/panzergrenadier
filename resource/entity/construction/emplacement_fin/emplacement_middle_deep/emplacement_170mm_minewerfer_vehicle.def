@@ -1,0 +1,78 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{extension "emplacement_170mm_minewerfer_vehicle.mdl"}
+
+
+	{volume "body10_vol001"
+		{able {visible 1}}
+	}
+	{volume "body1_vol004"
+		{able {visible 1}}
+	}
+	{volume "body2_vol001"
+		{able {visible 1}}
+	}
+	{volume "body3_vol001"
+		{able {visible 1}}
+	}
+	{volume "body4_vol003"
+		{able {visible 1}}
+	}
+	{volume "body4_vol004"
+		{able {visible 1}}
+	}
+	{volume "body5_vol001"
+		{able {visible 1}}
+	}
+	{volume "body6_vol001"
+		{able {visible 1}}
+	}
+	{volume "body7_vol001"
+		{able {visible 1}}
+	}
+	{volume "body9_vol001"
+		{able {visible 1}}
+	}
+	{extender "land_patch"
+		{TerrainType "ground" "ground"}
+	}
+	
+	{placer
+		{place "cannon"
+			{entity "170mm_minewerfer_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "ammo_box_01"
+			{entity "fin_170mm_mortar_round_crate"}
+			{Linkbone "ammo_box_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_00"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_framed_straight_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_01"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_framed_straight_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_02"
+			{entity "sandbag_framed_straight_270_indestructible"}
+			{Linkbone "sandbag_framed_straight_02"}
+			{handlebone "body"}
+		}
+	}
+}

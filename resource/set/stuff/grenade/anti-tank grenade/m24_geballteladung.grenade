@@ -1,0 +1,29 @@
+{from "pattern anti-tank"
+	{entity "m24_geballteladung"}
+	{tag "size2"}		; Explosive Filling 		= 0.165 kg
+				; Explosive Filling Total, x7 	= 1.155kg of TNT
+	{mass 3}
+	{damage blastwave
+		{energy 12.1}                                      ;// = 240mm of penetration
+		{area 0.45 0.55}
+		{ground_interaction_radius 0}
+	}
+
+	{damage add blastwave
+		{energy 12.5}
+		{area 1 2}
+		{ground_interaction_radius 0.25}
+	}
+
+	{damage add blastwave
+		{energy 12.5}
+		{area 4.5 6}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+}

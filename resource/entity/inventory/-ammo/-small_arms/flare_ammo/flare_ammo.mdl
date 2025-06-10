@@ -1,0 +1,50 @@
+;Exported by:	 Carlos
+;Date:			 22.01.2021 19:42:28
+;File:			 T:\GoH_3D_human_export\3d_weapons\osp30\flare_ammo_export.max
+{skeleton
+	{bone "flare"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "flare.ply"}
+			{VolumeView "flare_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 1.50167 0.477874 1.85298}
+	{bone "flare"}
+	{Position 0.0177 	 -0.0042 	 0.038}
+}
+{volume "select"
+	{box 2.06832 1.02925 2.37384}
+	{bone "flare"}
+	{Position 0.0493 	 -0.0208 	 0.011}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.056 	 -5.7763 	 1.9209}
+			{lookat -0.032 	 0.0343 	 0.0998}
+			{fov 18.8566}
+			{horizon -0.626826}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 21.3554 	 -2.7533 	 4.6482}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0482 	 0.221 	 -0.4459}
+			}
+			{"2"
+				{type point}
+				{position -1.58 	 -8.7271 	 9.4364}
+			}
+		}
+	}
+}

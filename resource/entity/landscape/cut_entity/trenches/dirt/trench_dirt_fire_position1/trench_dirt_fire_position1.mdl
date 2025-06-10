@@ -1,0 +1,206 @@
+;Exported by:	 Alexey
+;Date:			 20.02.2017 17:29:55
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_fire_position1_v04.max
+{skeleton
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point7"
+			{matrix34
+				0.9962 	 0.0872 	 0
+				-0.0872 	 0.9962 	 0
+				0 	 0 	 1
+				18.6485 	 -11.6914 	 -3.6684
+			}
+		}
+		{bone "point6"
+			{matrix34
+				0.9848 	 -0.1736 	 0
+				0.1736 	 0.9848 	 0
+				0 	 0 	 1
+				-21.7324 	 -12.0813 	 -3.6684
+			}
+		}
+		{bone "point5"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				-29.1217 	 9.8056 	 -3.6684
+			}
+		}
+		{bone "point1"
+			{matrix34
+				0.866 	 0.5 	 0
+				-0.5 	 0.866 	 0
+				0 	 0 	 1
+				-15.9651 	 22.4179 	 -6.6684
+			}
+		}
+		{bone "point2"
+			{Position -1.0058 	 30.1316 	 -33.6684}
+		}
+		{bone "point3"
+			{matrix34
+				0.8192 	 -0.5736 	 0
+				0.5736 	 0.8192 	 0
+				0 	 0 	 1
+				11.2466 	 23.0722 	 -6.6684
+			}
+		}
+		{bone "point4"
+			{matrix34
+				0.9848 	 -0.1736 	 0
+				0.1736 	 0.9848 	 0
+				0 	 0 	 1
+				24.2561 	 12.8844 	 -3.6684
+			}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex -42.6325 -18.3476}
+		{vertex -10.135 -34.5148}
+		{vertex -2.13312 -36.4744}
+		{vertex 7.01191 -34.1881}
+		{vertex 39.836 -17.3678}
+		{vertex 39.836 19.0172}
+		{vertex -42.3059 19.0172}
+	}
+	{rotate}
+}
+{obstacle "body1"
+	{obb2
+		{center -17.2555 -25.8227}
+		{extent 2.25882 13.1889}
+		{axis 0.906401 0.422418}
+	}
+	{rotate}
+}
+{obstacle "body2"
+	{obb2
+		{center -2.11056 -34.2851}
+		{extent 2.35841 11.2}
+		{axis 0.0182398 0.999834}
+	}
+	{rotate}
+}
+{obstacle "body3"
+	{obb2
+		{center 12.8752 -25.2166}
+		{extent 13.0163 2.14645}
+		{axis 0.454487 0.890753}
+	}
+	{rotate}
+}
+{obstacle "body4"
+	{obb2
+		{center 28.7747 -16.173}
+		{extent 13.9148 2.26631}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body5"
+	{obb2
+		{center -32.1852 -14.397}
+		{extent 2.25032 14.5251}
+		{axis 0.0182398 0.999834}
+	}
+	{rotate}
+}
+{obstacle "body6"
+	{obb2
+		{center -21.4691 17.2798}
+		{extent 22.545 2.19163}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body7"
+	{obb2
+		{center 19.3408 16.601}
+		{extent 23.1946 2.21876}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 26.3312 6.81045 29.8762}
+	{bone "point1"}
+	{matrix34
+		0.8164 	 0.5774 	 0
+		-0.5731 	 0.8104 	 -0.1218
+		-0.0703 	 0.0995 	 0.9926
+		0.5848 	 3.5939 	 -6.432
+	}
+}
+{volume "body2"
+	{box 22.3722 6.81045 15.4702}
+	{bone "point2"}
+	{matrix34
+		0.9999 	 0.015 	 0
+		-0.0149 	 0.9924 	 -0.1218
+		-0.0018 	 0.1218 	 0.9926
+		-1.1048 	 4.1535 	 -5.622
+	}
+}
+{volume "body3"
+	{box 25.9839 6.81045 27.9782}
+	{bone "point3"}
+	{matrix34
+		0.8855 	 -0.4647 	 0
+		0.4613 	 0.8789 	 -0.1218
+		0.0566 	 0.1079 	 0.9926
+		0.1041 	 2.6907 	 -5.7899
+	}
+}
+{volume "body4"
+	{box 27.741 6.81045 24.9931}
+	{bone "point4"}
+	{matrix34
+		0.9863 	 0.1651 	 0
+		-0.1638 	 0.9789 	 -0.1218
+		-0.0201 	 0.1201 	 0.9926
+		3.879 	 4.0233 	 -11.2709
+	}
+}
+{volume "body5"
+	{box 28.9767 6.81045 24.9931}
+	{bone "point5"}
+	{matrix34
+		-0.9997 	 -0.0255 	 0
+		0.0253 	 -0.9922 	 -0.1218
+		0.0031 	 -0.1218 	 0.9926
+		3.0635 	 -4.5914 	 -11.2709
+	}
+}
+{volume "body6"
+	{box 45.0692 6.81045 24.9931}
+	{bone "point6"}
+	{matrix34
+		-0.9852 	 -0.1716 	 0
+		0.1704 	 -0.9778 	 -0.1218
+		0.0209 	 -0.12 	 0.9926
+		1.1621 	 -5.0738 	 -11.2709
+	}
+}
+{volume "body7"
+	{box 46.357 6.81045 24.9931}
+	{bone "point7"}
+	{matrix34
+		-0.9959 	 0.0903 	 0
+		-0.0896 	 -0.9885 	 -0.1218
+		-0.011 	 -0.1213 	 0.9926
+		0.2617 	 -4.9512 	 -11.2709
+	}
+}

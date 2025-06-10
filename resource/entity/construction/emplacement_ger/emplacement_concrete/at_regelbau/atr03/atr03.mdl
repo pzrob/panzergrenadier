@@ -1,0 +1,23 @@
+;Exported by:	 marc-
+;Date:			 14.02.2023 22:06:23
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_fortifications\bunk1.max
+{skeleton
+	{bone "c03"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "c03.ply"}
+	}
+}
+{volume "body10"
+	{box 25.438 40.0805 8.29016}
+	{bone "c03"}
+	{matrix34
+		0.9848 	 0 	 -0.1736
+		0 	 1 	 0
+		0.1736 	 0 	 0.9848
+		1.1962 	 -11.2726 	 3.1175
+	}
+}

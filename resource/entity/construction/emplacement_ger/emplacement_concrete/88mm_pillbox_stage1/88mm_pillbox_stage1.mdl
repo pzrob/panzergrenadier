@@ -1,0 +1,32 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:31
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "stage1"
+		{parameters "land;ground;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "stage1.ply" {Ground}}
+	}
+}
+{obstacle "body"
+	{obb2
+		{center -0.654816 2.53683}
+		{extent 91.0762 82.8936}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body"
+	{box 165.787 182.152 30.0021}
+	{bone "stage1"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-0.6548 	 -2.5368 	 -4.1141
+	}
+}

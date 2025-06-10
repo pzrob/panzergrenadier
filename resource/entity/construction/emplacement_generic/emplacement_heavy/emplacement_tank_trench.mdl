@@ -1,0 +1,45 @@
+;Exported by: caps
+;Date:        Fri Jul  5 09:46:56 2019
+;File:        F:\!_Work\tank_cover\3D\tank_cover_03.max
+{Skeleton
+	{bone "mark_stage"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0   0	0
+		}
+		{bone "emplacement_tank_trench_middle_stage"
+			{matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				-14   0	0
+			}
+			{bone "emplacement_tank_trench_middle_roof"
+				{matrix34
+					1	0	0
+					0	1	0
+					0	0	1
+					0   0	0
+				}
+			}
+			{bone "emplacement_tank_trench_middle_roof_sandbag"
+				{matrix34
+					1	0	0
+					0	1	0
+					0	0	1
+					-6  0	0
+				}
+			}
+			{bone "emplacement_tank_trench_middle_netting"
+				{matrix34
+					1	0	0
+					0	1	0
+					0	0	1
+					0   0	0
+				}
+			}
+		}
+    }
+}

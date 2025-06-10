@@ -1,0 +1,60 @@
+;Exported by:	 Tomi
+;Date:			 27.11.2020 18:43:37
+;File:			 D:\!WORK\BarbedWire Studios\Models\Factory_Felújítás\factory_end\factory_end_new\2015\factory_end_export01.max
+{skeleton
+	{bone "door_open"
+		{matrix34
+			0.95 	 0.25 	 0
+			0.25	 -0.95 	 0
+			0 	 0 	 1
+			-3.0	 0.6 	 0
+		}
+		{VolumeView "c06.ply"}
+	}
+}
+{obstacle "default"
+	{obb2
+		{center 0.0121444 -0.105773}
+		{extent 12.572 0.788122}
+		{axis 0.25946 0.965754}
+	}
+	{rotate}
+}
+{obstacle "close"
+	{obb2
+		{center 7.3 -11} ;z x
+		{extent 13 0.7}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "open"
+	{obb2
+		{center -2.9 1.5}
+		{extent 0.7 13.0}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "door_lock"
+	{box 25.1403 1.51486 45.9199}
+	{bone "door_lock"}
+	{matrix34
+		0.2571 	 -0.9664 	 0
+		0.9664 	 0.2571 	 0
+		0 	 0 	 1
+		0.0121 	 0.1058 	 0.2014
+	}
+}
+{volume "switch"
+	{box 25.1403 1.51486 45.9199}
+	{bone "door_lock"}
+	{matrix34
+		0.2571 	 -0.9664 	 0
+		0.9664 	 0.2571 	 0
+		0 	 0 	 1
+		0.0121 	 0.1058 	 0.2014
+	}
+}

@@ -1,0 +1,69 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "foxhole_spawned" "small"}
+	{extension "emplacement_small_deep_mgun_maxim.mdl"}
+	("boneLand" args "inside")
+	{placer
+		;{place "table_01"
+			;{entity "sand-shuttering-box_5"}
+			;{Linkbone "table_01"}
+			;{handlebone "body"}
+		;}
+		;{place "sandbag_00"
+			;{entity "sandbag_structured_straight_90_indestructible"}
+			;{Linkbone "sandbag_00"}
+			;{handlebone "body"}
+		;}
+		{place "sandbag_01"
+			{entity "sandbag_heap_straight_90_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_heap_straight_270_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+		
+		{place "wall_01"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		{place "bench_00"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_00"}
+			{handlebone "body"}
+		}
+		{place "bench_01"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_01"}
+			{handlebone "body"}
+		}
+		{place "bench_02"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_02"}
+			{handlebone "body"}
+		}
+		{place "bench_03"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_03"}
+			{handlebone "body"}
+		}
+		{place "bench_04"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_04"}
+			{handlebone "body"}
+		}
+		{place "bench_05"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_05"}
+			{handlebone "body"}
+		}
+	}
+}

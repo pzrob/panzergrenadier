@@ -1,0 +1,240 @@
+;Exported by:	 Usuario
+;Date:			 24.03.2016 14:04:23
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\fortifications\seelow_bunker\seelow_bunker.max
+{skeleton
+	{bone "basis"
+		{orientation
+			0 	 -1  0
+			-1 	 0 	 0
+			0 	 0 	 1
+		}
+		{bone "emit1"
+			{Matrix34
+			 0	 1.0 	 0
+			-1.0 	0  0
+			0 	 0 	 1
+			17.0	-59.0	0.0
+			}
+		}
+		{bone "emit2"
+			{Matrix34
+			 0	 1.0 	 0
+			-1.0 	0  0
+			0 	 0 	 1
+			17.0	-59.0	0.0
+			}
+		}
+		{bone "emit3"
+			{Matrix34
+			 0	 -1.0 	 0
+			1.0 	0  0
+			0 	 0 	 1
+			17.0	-54.0	0.0
+			}
+		}
+		{bone "emit4"
+			{Matrix34
+			 0	 -1.0 	 0
+			1.0 	0  0
+			0 	 0 	 1
+			17.0	-54.0	0.0
+			}
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -1.4392 	 0.1808 	 0}
+			{VolumeView "body.ply"}
+                {bone "gunner"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	20.0	0 ; x z y
+					}
+				}
+				{bone "seat_stage"
+					{Matrix34
+						1	0	0
+						0	1	0
+						0	0	1
+						-0.0	0.0	0 ; x z y
+					}
+				{bone "seat_stage_01"
+					{Matrix34
+						1	0	0
+						0	1	0
+						0	0	1
+						-0.0	0.0	0 ; x z y
+					}
+				{bone "seat01"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	20.0	0 ; x z y
+					}
+				}
+				{bone "seat02"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-12.0	20.0	0
+					}
+				}
+				{bone "seat03"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						4.0	20.0	0
+					}
+				}
+				{bone "seat04"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						20.0	20.0	0
+					}
+				}
+				{bone "seat05"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	6.0	0 ; x z y
+					}
+				}
+				{bone "seat06"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-12.0	6.0	0
+					}
+				}
+				{bone "seat07"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						4.0	6.0	0
+					}
+				}
+				{bone "seat08"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						20.0 6.0	0
+					}
+				}
+				{bone "seat09"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-28.0	-8.0	0 ; x z y
+					}
+				}
+				{bone "seat10"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-12.0	-8.0	0
+					}
+				}
+				{bone "seat11"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						4.0	-8.0	0
+					}
+				}
+				{bone "seat12"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						20.0 -8.0	0
+					}
+				}
+				}
+				}
+		}
+                {bone "sandbag_00"
+					{Matrix34
+						0	-1	0
+						1	0	0
+						0	0	1
+						-21.5 -48.0	0
+					}
+				}  
+
+                {bone "sandbag_01"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						-49.0 -17.0	0 ;x z y
+					}
+				}    
+                {bone "sandbag_02"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						46.0 -18.5	0
+					}
+				}
+                {bone "sandbag_03"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						-49.0 20.0	0 ;x z y
+					}
+				} 	
+                {bone "sandbag_04"
+					{Matrix34
+						0	-0.95	0
+						1	0	0
+						0	0	1
+						46.0 16.5	0
+					}
+				}
+                {bone "sandbag_05"
+					{Matrix34
+						0	-1	0
+						0.95	0	0
+						0	0	1
+						-17.0 47.0	0
+					}
+				} 
+                {bone "sandbag_06"
+					{Matrix34
+						0	-1	0
+						0.95	0	0
+						0	0	1
+						19.0 47.0	0
+					}
+				} 				
+	}	
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.96874 0.164063}
+		{Extent 37.7342 36.9139}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Volume "body"
+	{Box 75.4685 73.8278 45.9373}
+	{Bone "body"}
+	{Position -0.5295 	 -0.3449 	 22.9687}
+}

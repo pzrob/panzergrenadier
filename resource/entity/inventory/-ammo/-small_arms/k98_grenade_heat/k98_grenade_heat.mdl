@@ -1,0 +1,46 @@
+;Exported by:	 guita
+;Date:			 02.03.2020 01:06:50
+;File:			 D:\Git\3D_Scenes\GoH_3D_human_export\3d_weapons\k98\mauser_98k_grenade_launcher_heat.max
+{skeleton
+	{bone "grenade_heat"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "grenade_heat.ply"}
+			{VolumeView "grenade_heat_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 2.8866 0.646119 0.644933}
+	{bone "grenade_heat"}
+	{Position -0.0191 	 -0.0111 	 0.0071}
+}
+{volume "select"
+	{box 3.10768 1.41437 1.41442}
+	{bone "grenade_heat"}
+	{Position -0.0102 	 -0.0436 	 0.0138}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.1092 	 0.036 	 5.0777}
+			{lookat 0.0206 	 0.0261 	 2.8979}
+			{fov 28.261}
+			{horizon 88.7989}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.2277 	 0.1873 	 -0.4038}
+			}
+			{"1"
+				{type point}
+				{position 2.48 	 -6.3014 	 1.3236}
+			}
+		}
+	}
+}

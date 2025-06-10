@@ -1,0 +1,47 @@
+;Exported by: Ghosteron
+;Date:        Sat Jan 19 10:10:51 2019
+;File:        C:\Users\Ghosteron\Desktop\COHproject\coh_ger_soldiers_assault_body_1_2.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 0.122765	1.24989	-4.58687}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Position 0.122765	1.24989	-4.58687}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 20.3717	-5.34333	-0.309279}
+			{lookat 0.668587	-0.893116	-0.0595131}
+			{fov 22.6199}
+			{horizon 89.7469}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.30144	0.398233	0.0233202}
+			}
+			{"1"
+				{type directional}
+				{direction -0.164806	-0.469956	0.0444972}
+			}
+			{"2"
+				{type directional}
+				{direction -0.175248	0.408131	-0.229602}
+			}
+		}
+	}
+}

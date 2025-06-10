@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "zelt_variantfull"}
+	{specular "zelt_variantfull_spec"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_rus_moded.inc")
+	("mortar_rounds_rus_crate_82mm")
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}
+	{extension "rus_82mm_mortar_round_crate.mdl"}
+
+	{volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "rus_82mm_mortar_round_crate"}
+	}
+}

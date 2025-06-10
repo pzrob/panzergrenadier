@@ -1,0 +1,96 @@
+;Exported by: 97956
+;Date:        Mon Mar  3 01:12:48 2025
+;File:        C:\RFG\factory\CTA\?????\??????\??\house_city03_building.max
+{Skeleton
+	{bone "lampshade"
+		{Matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0	0	0
+		}
+	{bone "lampshade_stage"
+		{Matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0	0	10
+		}
+	{bone "lampshade"
+		{Matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0	0	0
+		}
+		{VolumeView "lampshade.ply"}
+		{bone "light_bulb"
+			{Matrix34
+				0.649626	-0.695786	-0.30638
+				-0.633834	-0.718208	0.287107
+				-0.41981	0.00768168	-0.90758
+				1.82451	0.560439	-3.11595
+			}
+			;{VolumeView "light_bulb.ply"}
+		}
+	}
+	{bone "post_lamp2"
+		{Matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			-5.0 	0.7 	 -87.6
+		}
+		;{VolumeView "post_lamp2.ply"}
+		{bone "lamp_glass1"
+			{matrix34
+				-0.9659 	 0 	 -0.2588
+				0.2588 	 0 	 -0.9659
+				0 	 -1 	 0
+				7.6796 	 0.2249 	 85.7829
+			}
+			{VolumeView "lamp_glass1.ply"}
+		}
+		{bone "light_point"
+			{parameters "lastpose=undefined;"}
+			{matrix34
+				0.9659 	 0 	 0.2588
+				0 	 1 	 0
+				-0.2588 	 0 	 0.9659
+				7.0544 	 0 	 84.2396
+			}
+		}
+		{bone "lamp_light_point1"
+			{parameters "lastpose=undefined;"}
+			{matrix34
+				0.2588 	 0 	 -0.9659
+				0 	 1 	 0
+				0.9659 	 0 	 0.2588
+				7.0544 	 0 	 84.2396
+			}
+		}
+	}
+	}
+	}
+}
+{Volume "lampshade"
+	{Polyhedron "lampshade.vol"}
+	{Bone "lampshade"}
+	{matrix34
+		0.843734	-0.520803	-0.129913
+		0.501207	0.851044	-0.156577
+		0.192107	0.066996	0.979084
+		0	0	10
+	}
+}
+{volume "lamp1"
+	;{box 9.61454 9.10584 3.78452}
+	{box 3.61454 3.10584 3.0}
+	{bone "post_lamp2"}
+	{matrix34
+		0.9397 	 0 	 0.342
+		0 	 1 	 0
+		-0.342 	 0 	 0.9397
+		6.6257 	 0 	 85.1343
+	}
+}

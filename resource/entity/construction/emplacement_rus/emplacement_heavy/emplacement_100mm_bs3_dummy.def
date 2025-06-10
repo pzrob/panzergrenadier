@@ -1,0 +1,6 @@
+{game_entity
+	;(include "/properties/trench.inc")
+	{Extension "emplacement_heavy_dummy.mdl"}
+	{props "sand"}
+	
+}

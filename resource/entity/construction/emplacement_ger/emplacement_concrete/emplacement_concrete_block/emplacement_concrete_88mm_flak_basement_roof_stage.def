@@ -1,0 +1,206 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/building.inc")
+	{extension "emplacement_concrete_88mm_flak_basement_roof_stage.mdl"}
+	{props  "concrete" "construction" "big"}
+	("armor_heavy")
+	{volume "exterior01"
+		{Tags "roof"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+
+	{volume "roof_front_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_front_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_front_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_side_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_side_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_rear_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_rear_left_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_rear_left_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_rear_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_rear_right_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_rear_right_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	
+	{placer
+		{place "wall_01"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		{place "wall_03"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_03"}
+			{handlebone "body"}
+		}
+		{place "wall_04"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_04"}
+			{handlebone "body"}
+		}
+		{place "wall_05"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_05"}
+			{handlebone "body"}
+		}
+		{place "wall_06"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_06"}
+			{handlebone "body"}
+		}
+		{place "wall_07"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_07"}
+			{handlebone "body"}
+		}
+		{place "wall_08"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_08"}
+			{handlebone "body"}
+		}
+		{place "wall_09"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_09"}
+			{handlebone "body"}
+		}
+		{place "wall_10"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_10"}
+			{handlebone "body"}
+		}
+		{place "wall_11"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_11"}
+			{handlebone "body"}
+		}
+		{place "wall_12"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_12"}
+			{handlebone "body"}
+		}
+		{place "wall_13"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_13"}
+			{handlebone "body"}
+		}
+		{place "wall_14"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_14"}
+			{handlebone "body"}
+		}
+		{place "wall_15"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_15"}
+			{handlebone "body"}
+		}
+		{place "wall_16"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_16"}
+			{handlebone "body"}
+		}
+		{place "wall_17"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_17"}
+			{handlebone "body"}
+		}
+		{place "wall_18"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_18"}
+			{handlebone "body"}
+		}
+		{place "wall_19"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_19"}
+			{handlebone "body"}
+		}
+		{place "wall_20"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_20"}
+			{handlebone "body"}
+		}
+		{place "wall_21"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_21"}
+			{handlebone "body"}
+		}
+		{place "wall_22"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_22"}
+			{handlebone "body"}
+		}
+		{place "wall_inner_01"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_inner_01"}
+			{handlebone "body"}
+		}
+		{place "wall_inner_02"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_inner_02"}
+			{handlebone "body"}
+		}
+		{place "wall_inner_03"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_inner_03"}
+			{handlebone "body"}
+		}
+		{place "wall_inner_04"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_inner_04"}
+			{handlebone "body"}
+		}
+		{place "wall_inner_05"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_inner_05"}
+			{handlebone "body"}
+		}
+	}
+}

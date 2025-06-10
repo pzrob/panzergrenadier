@@ -1,0 +1,152 @@
+;Exported by: 97956
+;Date:        Sun Mar  2 14:53:54 2025
+;File:        C:\RFG\factory\CTA\?????\??????\??\at_bunker_large.max
+{Skeleton
+	{bone "bunker_basic"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			0	0	0
+		}
+		{bone "at_bunker_large_floor"
+			{parameters "land;ground;"}
+			{Position 0	44.8643	-6.9976}
+			{VolumeView "at_bunker_large_floor.ply"}
+		}
+		{bone "at_bunker_large_wall"
+			{Position 0	44.8643	-6.9976}
+			{VolumeView "at_bunker_large_wall.ply"}
+		}
+		{bone "exterior01"
+			{Position 0	44.8643	-6.9976}
+			;{Position 0	44.8643	-36.9976}
+			{VolumeView "exterior01.ply"}
+		}
+	}
+}
+{Obstacle "obstacle_at_bunker_front"
+	{Obb2
+		{Center 1.68985 -148.641}
+		{Extent 22 42.8102}
+		;{Extent 18.6691 42.8102}
+		{Axis 4.46976e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_001"
+	{Obb2
+		{Center -57.4833 -148.002}
+		{Extent 14.3054 18.0155}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_002"
+	{Obb2
+		{Center 57.8286 -147.994}
+		{Extent 14.1005 17.8368}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_01"
+	{Obb2
+		{Center -1.41296 39.4008}
+		{Extent 4.19803 37.4726}
+		{Axis 5.6793e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_02"
+	{Obb2
+		{Center -53.3221 77.8524}
+		{Extent 3.89367 18.6376}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_03"
+	{Obb2
+		{Center 54.0711 77.8524}
+		{Extent 3.89367 18.6376}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_04"
+	{Obb2
+		{Center -35.5874 138.064}
+		{Extent 27.6405 4.31057}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_05"
+	{Obb2
+		{Center 35.8241 138.064}
+		{Extent 27.6405 4.31057}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_left"
+	{Obb2
+		{Center -68.6882 15.0166}
+		{Extent 3.90807 151.612}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_rear"
+	{Obb2
+		{Center -0.594091 160.224}
+		{Extent 4.07571 38.6514}
+		{Axis 4.3873e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_rear01"
+	{Obb2
+		{Center -0.594091 167.641}
+		{Extent 5.03174 10.9292}
+		{Axis 4.73829e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_right"
+	{Obb2
+		{Center 68.1414 15.0166}
+		{Extent 3.90807 151.612}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "at_bunker_large_floor_01"
+	{Polyhedron "at_bunker_large_floor_01.vol"}
+	{Bone "at_bunker_large_floor"}
+	{Position 0	130.801	21.9466}
+}
+{Volume "at_bunker_large_floor"
+	{Polyhedron "at_bunker_large_floor.vol"}
+	{Bone "at_bunker_large_floor"}
+	{Position 0	20.8199	21.9466}
+}
+{Volume "at_bunker_large_roof"
+	{Polyhedron "at_bunker_large_roof.vol"}
+	{Bone "exterior01"}
+}
+{Volume "at_bunker_large_wall"
+	{Polyhedron "at_bunker_large_wall.vol"}
+	{Bone "at_bunker_large_wall"}
+}
+{area "interior"
+	{obb2
+		{center -0.0 0}
+		{extent 100.0 300.0}
+		{axis -1 0}
+	}
+	{rotate}
+}

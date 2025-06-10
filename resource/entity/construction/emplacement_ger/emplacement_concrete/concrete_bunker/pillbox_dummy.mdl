@@ -1,0 +1,33 @@
+;Exported by:	 marc-
+;Date:			 18.05.2023 19:53:09
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_fortifications\Pillbox\pillbox backup.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			0	 0.0 0
+		}
+	{bone "basis"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			0	 0.0 -3.0
+		}
+		{bone "land"
+			{Position 0 	 0.9263 	 -87.9952}
+			{VolumeView "land.ply"}
+		}
+		{bone "exterior"
+			{Position -2.647 	 1.3247 	 67.5829}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "body"
+			{Position -6.1886 	 0.9581 	 28.1612}
+			{VolumeView "body.ply"}
+		}
+	}
+	}
+}

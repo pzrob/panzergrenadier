@@ -1,0 +1,89 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/fortified_emplacement.ext")
+
+	
+	{extension "150mm_sw34_stat_watch_tower.mdl"}
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "stat_weapon" "searchlight" "wheeled" "invisible" "vision_lev04_can" "trailer" "trailer_medium" "detect_atgun" "c_searchlight" "no_exp_blast"}
+	{PatherId "cannon.large"}
+	{targetclass "cannon_bullet"}
+	{targetSelector "searchlight"}
+
+	{sensor
+		{Visor "main"
+			{vision "searchlight"}
+		}
+	}
+
+	("lamp" args "lamp")
+
+	("gun" repair(30) thickness(2))
+
+	{volume "body7" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "body8" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "body9" {tags "invisible"}} ;// volume disabled on carriage hidden 
+
+	("armor_light_cannon")
+	("cannon_durability" body(150) gun(40) wheel(100) shield(200))
+	("crew_wheeled_cannon")
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_maxim_gunner_stand" 10}}
+		}
+	}
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+		{place "commander" remove}
+	}
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" 
+			{move ""}
+			{aim ""}
+		}
+		{move {workers clear} {obstacle "close"}}		;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner"} {obstacle "open"}}	;// fire/attack state: cannon aim, fire, and reload events
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{size 4 2}
+		}
+	}
+
+	{Weaponry
+		{place "gun"
+			;{weapon "searchlight"}
+			{weapon "binocular"}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{basic}
+			{ai_in_manual}
+			{rotate}
+		}
+	}
+
+	{mass 2000}
+	{Chassis "track"
+		("car_trace" fx("tracewheel02") step(0.1) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel02") step(0.1) wheell("wlf") wheelr("wrf") bonel("FXtraceL2") boner("FXtraceR2"))
+		("mobility_cannon"
+			speed(7.0) ;-----------------------------------Max speed.
+			weight(2000) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "turret"
+		{limits -75 75}
+		{speed2 40}
+	}
+	{bone "gun"
+		{limits -12 88}
+		{speed2 15}
+	}
+}

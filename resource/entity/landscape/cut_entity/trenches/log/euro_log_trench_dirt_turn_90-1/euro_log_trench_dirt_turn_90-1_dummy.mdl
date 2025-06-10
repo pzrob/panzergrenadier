@@ -1,0 +1,32 @@
+;Exported by:	 Alexey
+;Date:			 23.12.2019 09:57:24
+;File:			 K:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_2019\trench_dirt_turn_90-1_v01.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 -0.0  0 ; -x z
+		}
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+	{bone "self"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			6.5 	 -0.0  0 ; -x z
+		}
+	}
+	}
+	}
+}

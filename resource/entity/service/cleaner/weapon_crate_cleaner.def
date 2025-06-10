@@ -1,0 +1,15 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	
+	{Extension "weapon_crate_cleaner.mdl"}
+	{extender "stuff"
+		{item "weapon_crate_cleaner"}
+	}
+	{nogroupmesh 1}
+	{volume "basis"
+		{able clear {bullet} {select} {contact} {contact_ground} {touch} {blast}}
+		{thickness 1}
+		;{material "steel"}
+		{tags "body"}
+	}
+}

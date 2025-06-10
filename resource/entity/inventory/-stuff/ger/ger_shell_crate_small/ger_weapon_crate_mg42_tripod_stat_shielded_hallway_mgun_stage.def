@@ -1,0 +1,31 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "ger_weapon_crate_mg42_tripod_stat_shielded_hallway_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "weapon_crate"}
+	("armor_heavy")
+	
+	
+	{Volume "crate"
+		{thickness 200}
+		{able {touch 1}{contact 1}}
+	}
+	
+	
+	{placer
+		{place "mgun"
+			{entity "mg42_stat_shielded_tripod_bunker_entrance"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "crate"
+			{entity "ger_weapon_crate_mg42_tripod_stat_shielded_hallway"}
+			{Linkbone "crate"}
+			{handlebone "body"}
+		}
+		;{place "cleaner"
+			;{entity "weapon_crate_cleaner"}
+			;{Linkbone "cleaner"}
+			;{handlebone "body"}
+		;}
+	}
+}

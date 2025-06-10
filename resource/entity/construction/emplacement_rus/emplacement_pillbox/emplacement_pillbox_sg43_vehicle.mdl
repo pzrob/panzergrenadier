@@ -1,0 +1,91 @@
+;Exported by:	 guita
+;Date:			 01.04.2022 20:12:18
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\_military\fortifications\pillbox\earth_pillbox\earth_pillbox.max
+{skeleton
+	{bone "land"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			0 	 1 	 0
+			1 	 0 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "land.ply"}
+		{bone "outside"
+			{VolumeView "outside.ply"}
+		}
+		{bone "body"
+			{VolumeView "body.ply"}
+			{bone "attach1"
+				{matrix34
+					0 	 1 	 0
+					-1 	 0 	 0
+					0 	 0 	 1
+					-1.815 	 16.0322 	 0
+				}
+			}
+		}
+		{bone "exterior"
+			;{parameters "commonmesh;align;"}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "exterior2"
+			{VolumeView "exterior2.ply"}
+		}	
+        {bone "floor"
+	    	{matrix34
+	    		1 	 0 	 0
+	    		0 	 1   0
+	    		0 	 0 	 1
+	    		0	 0 	 0
+	    	}
+	    }
+        {bone "mgun_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 1
+				0	 20 	 -4  ;-x z y
+			}
+			{bone "mgun"
+				{matrix34
+					0	 1.0 	0
+					-1.0  0  0
+					0	 	 0 	 1
+					-2	 3	 15.3  ;x z y
+				}
+			}
+			{bone "tables"
+				{matrix34
+					0    -1   0          ;1 	 0 	 0      
+					1	 0    0          ;1 	 1 	 0 
+					0 	 0    1			;0 	 0   1
+					0 	 0.0 	 -0   ;x  -z  y
+				}
+				{bone "table_01"
+					{matrix34
+					0.9 0 	 0          ;1 	 0 	 0      
+					0	 1.35   0          ;1 	 1 	 0 
+					0 	 0   0.71			;0 	 0   1
+					-0 	 0.0 	 0.0
+					}			
+				}
+				{bone "table_02"
+					{matrix34
+					1 0 	 0          ;1 	 0 	 0      
+					0	 1   0          ;1 	 1 	 0 
+					0 	 0   1			;0 	 0   1
+					-0 	 0.0 	 0.0
+					}			
+				}
+			}
+        }		
+        {bone "flag"
+	    	{matrix34
+	    		1 	 0 	 0
+	    		0 	 1   0
+	    		0 	 0 	 1
+	    		-40  15	 24
+	    	}
+	    }	
+	}
+}

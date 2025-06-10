@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cta - Gates of Hell (desc_gear)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-04-28 12:16+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+msgctxt "desc/stuff/shovel_fin"
+msgid "Entrenching tool"
+msgstr "芬兰工兵铲"
+
+msgctxt "desc/stuff/shovel_fin_light"
+msgid "Entrenching tool（light)"
+msgstr "芬兰工兵铲(轻装工兵专用）"
+
+msgctxt "desc/stuff/fin_81mm_mortar_round_crate"
+msgid "81mm mortar Ammunition Carrycase"
+msgstr "迫击炮弹药箱"
+
+msgctxt "desc/stuff/mortar_round_box_81mm_fin"
+msgid "81mm mortar Ammunition Carrycase"
+msgstr "便携式迫击炮弹药箱"
+
+msgctxt "desc/stuff/plash_palatka_c_fin_female_border_01"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/plash_palatka_c_fin_female_civil_guard_01"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/plash_palatka_c_fin_female_jag_01"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/plash_palatka_c_fin_exclusive_07"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/plash_palatka_c_fin_exclusive_08"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/minefield_m39 mine"
+msgid "Anti-Tank M/39 mine"
+msgstr "M/39反坦克地雷"
+
+msgctxt "desc/stuff/minefield_luhas mine"
+msgid "Antipersonnel Luhas mine"
+msgstr "卢哈斯反步兵地雷"

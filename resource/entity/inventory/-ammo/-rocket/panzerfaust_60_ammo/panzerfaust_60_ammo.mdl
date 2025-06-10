@@ -1,0 +1,58 @@
+;Exported by:	 Carlos
+;Date:			 22.01.2021 14:15:38
+;File:			 T:\GoH_3D_human_export\3d_weapons\panzerfaust60\Panzerfaust60_ammo_export.max
+{skeleton
+	{bone "faust_projectile"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "faust_projectile.ply"}
+			{VolumeView "faust_projectile_lod1.ply"}
+			{VolumeView "faust_projectile_lod2.ply"}
+			{VolumeView "faust_projectile_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 8.33967 1.74355 1.67821}
+	{bone "faust_projectile"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-1.3072 	 0.3792 	 0.0351
+	}
+}
+{volume "select"
+	{box 10.5299 3.80435 3.83831}
+	{bone "faust_projectile"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-1.6085 	 -0.1394 	 -0.1343
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -4.8488 	 -1.8226 	 69.871}
+			{lookat -1.63 	 -0.1818 	 3.7807}
+			{fov 7.34567}
+			{horizon 63.7988}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0654 	 -0.286 	 -0.4049}
+			}
+			{"1"
+				{type point}
+				{position -0.3968 	 59.0548 	 13.9544}
+			}
+		}
+	}
+}

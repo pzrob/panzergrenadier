@@ -1,0 +1,35 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_rus_moded.inc")
+	("mortar_rounds_rus_crate_120mm")
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}	
+	{extension "rus_120mm_mortar_round_crate.mdl"}
+	
+	{volume "body"
+		{thickness 200}
+		{able {touch}}
+	}	
+	{extender "stuff"
+		{item "rus_120mm_mortar_round_crate"}
+	}	
+
+
+	{placer
+		{place "shell_01"
+			{entity "120mm_rus_mortar_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "120mm_rus_mortar_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "120mm_rus_mortar_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,626 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{extension "emplacement_concrete_platform_fortress_vehicle.mdl"}
+	{placer
+		{place "weapon_crates_part_01_aa_heavy"
+			{entity "weapon_crate_generic_aa_heavy"}
+			{Linkbone "weapon_crates_part_01_aa_heavy"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_01_aa_mg"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_part_01_aa_mg"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_01_mortar"
+			{entity "weapon_crate_generic_mortar_heavy"}
+			{Linkbone "weapon_crates_part_01_mortar"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_01_search_light_01"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_part_01_search_light_01"}
+			{handlebone "body"}
+		}	
+		{place "weapon_crates_part_02_aa_heavy"
+			{entity "weapon_crate_generic_aa_heavy"}
+			{Linkbone "weapon_crates_part_02_aa_heavy"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_02_aa_mg"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_part_02_aa_mg"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_02_mortar"
+			{entity "weapon_crate_generic_mortar"}
+			{Linkbone "weapon_crates_part_02_mortar"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_02_search_light_01"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_part_02_search_light_01"}
+			{handlebone "body"}
+		}	
+		{place "weapon_crates_part_03_aa_heavy"
+			{entity "weapon_crate_generic_aa_heavy"}
+			{Linkbone "weapon_crates_part_03_aa_heavy"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_03_aa_mg"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_part_03_aa_mg"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_03_mortar"
+			{entity "weapon_crate_generic_mortar_heavy"}
+			{Linkbone "weapon_crates_part_03_mortar"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_03_search_light_01"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_part_03_search_light_01"}
+			{handlebone "body"}
+		}	
+		{place "weapon_crates_part_04_aa_heavy"
+			{entity "weapon_crate_generic_aa_heavy"}
+			{Linkbone "weapon_crates_part_04_aa_heavy"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_04_aa_mg"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_part_04_aa_mg"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_04_mortar"
+			{entity "weapon_crate_generic_mortar"}
+			{Linkbone "weapon_crates_part_04_mortar"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_part_04_search_light_01"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_part_04_search_light_01"}
+			{handlebone "body"}
+		}	
+		{place "windows_part_01_first_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_first_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_first_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_first_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_first_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_first_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_first_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_first_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_first_floor_windows_05"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_first_floor_windows_05"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_first_floor_windows_06"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_first_floor_windows_06"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_top_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_top_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_top_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_top_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_top_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_top_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_01_top_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_01_top_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_first_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_first_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_first_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_first_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_first_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_first_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_first_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_first_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_first_floor_windows_05"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_first_floor_windows_05"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_first_floor_windows_06"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_first_floor_windows_06"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_top_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_top_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_top_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_top_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_top_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_top_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_02_top_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_02_top_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_first_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_first_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_first_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_first_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_first_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_first_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_first_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_first_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_first_floor_windows_05"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_first_floor_windows_05"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_first_floor_windows_06"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_first_floor_windows_06"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_top_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_top_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_top_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_top_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_top_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_top_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_03_top_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_03_top_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_first_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_first_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_first_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_first_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_first_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_first_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_first_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_first_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_first_floor_windows_05"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_first_floor_windows_05"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_first_floor_windows_06"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_first_floor_windows_06"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_top_floor_windows_01"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_top_floor_windows_01"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_top_floor_windows_02"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_top_floor_windows_02"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_top_floor_windows_03"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_top_floor_windows_03"}
+			{handlebone "body"}
+		}
+		{place "windows_part_04_top_floor_windows_04"
+			{entity "f_end_c06_windows_indestructible_opened_small"}
+			{Linkbone "windows_part_04_top_floor_windows_04"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_01_hallway_01_bunker"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_01_hallway_01_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_01_hallway_02_tower_01"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_01_hallway_02_tower_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_01_hallway_02_tower_02"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_01_hallway_02_tower_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_01_hallway_02_bunker_01"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_01_hallway_02_bunker_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_01_hallway_02_bunker_02"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_01_hallway_02_bunker_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_01_hallway_02_bunker_03"
+			{entity "emplacement_concrete_platform_bunker_v2_inner_dummy"}
+			{Linkbone "first_floor_part_01_hallway_02_bunker_03"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_01_hallway_03_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "first_floor_part_01_hallway_03_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_02_hallway_03_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "first_floor_part_02_hallway_03_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_03_hallway_03_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "first_floor_part_03_hallway_03_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_04_hallway_03_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "first_floor_part_04_hallway_03_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_02_hallway_01_bunker"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_02_hallway_01_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_02_hallway_02_tower_01"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_02_hallway_02_tower_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_02_hallway_02_tower_02"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_02_hallway_02_tower_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_02_hallway_02_bunker_01"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_02_hallway_02_bunker_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_02_hallway_02_bunker_02"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_02_hallway_02_bunker_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_02_hallway_02_bunker_03"
+			{entity "emplacement_concrete_platform_bunker_v2_inner_dummy"}
+			{Linkbone "first_floor_part_02_hallway_02_bunker_03"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_03_hallway_01_bunker"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_03_hallway_01_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_03_hallway_02_tower_01"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_03_hallway_02_tower_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_03_hallway_02_tower_02"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_03_hallway_02_tower_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_03_hallway_02_bunker_01"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_03_hallway_02_bunker_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_03_hallway_02_bunker_02"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_03_hallway_02_bunker_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_03_hallway_02_bunker_03"
+			{entity "emplacement_concrete_platform_bunker_v2_inner_dummy"}
+			{Linkbone "first_floor_part_03_hallway_02_bunker_03"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_04_hallway_01_bunker"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_04_hallway_01_bunker"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_04_hallway_02_tower_01"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_04_hallway_02_tower_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_04_hallway_02_tower_02"
+			{entity "emplacement_concrete_platform_tower_fortress_dummy"}
+			{Linkbone "first_floor_part_04_hallway_02_tower_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_04_hallway_02_bunker_01"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_04_hallway_02_bunker_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_04_hallway_02_bunker_02"
+			{entity "emplacement_concrete_platform_bunker_hallway_dummy"}
+			{Linkbone "first_floor_part_04_hallway_02_bunker_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_part_04_hallway_02_bunker_03"
+			{entity "emplacement_concrete_platform_bunker_v2_inner_dummy"}
+			{Linkbone "first_floor_part_04_hallway_02_bunker_03"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_01_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "second_floor_part_01_bunker"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_01_heavy_aa_stair"
+			{entity "euro_station_platform_stairs"}
+			{Linkbone "second_floor_part_01_heavy_aa_stair"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_02_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "second_floor_part_02_bunker"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_02_heavy_aa_stair"
+			{entity "euro_station_platform_stairs"}
+			{Linkbone "second_floor_part_02_heavy_aa_stair"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_03_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "second_floor_part_03_bunker"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_03_heavy_aa_stair"
+			{entity "euro_station_platform_stairs"}
+			{Linkbone "second_floor_part_03_heavy_aa_stair"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_04_bunker"
+			{entity "emplacement_concrete_platform_bunker_inner_dummy"}
+			{Linkbone "second_floor_part_04_bunker"}
+			{handlebone "body"}
+		}
+		{place "second_floor_part_04_heavy_aa_stair"
+			{entity "euro_station_platform_stairs"}
+			{Linkbone "second_floor_part_04_heavy_aa_stair"}
+			{handlebone "body"}
+		}
+		{place "third_floor_part_01_bunker"
+			{entity "emplacement_concrete_platform_bunker_dummy"}
+			{Linkbone "third_floor_part_01_bunker"}
+			{handlebone "body"}
+		}
+		{place "third_floor_part_02_bunker"
+			{entity "emplacement_concrete_platform_bunker_dummy"}
+			{Linkbone "third_floor_part_02_bunker"}
+			{handlebone "body"}
+		}
+		{place "third_floor_part_03_bunker"
+			{entity "emplacement_concrete_platform_bunker_dummy"}
+			{Linkbone "third_floor_part_03_bunker"}
+			{handlebone "body"}
+		}
+		{place "third_floor_part_04_bunker"
+			{entity "emplacement_concrete_platform_bunker_dummy"}
+			{Linkbone "third_floor_part_04_bunker"}
+			{handlebone "body"}
+		}
+        {place "entrance_stair_01"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "entrance_stair_01"}
+			{handlebone "body"}
+		}
+        {place "entrance_stair_02"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "entrance_stair_02"}
+			{handlebone "body"}
+		}
+        {place "entrance_stair_03"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "entrance_stair_03"}
+			{handlebone "body"}
+		}
+        {place "entrance_stair_04"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "entrance_stair_04"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_01_door_01_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_01_door_01_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_01_door_01_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_01_door_01_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_01_door_02_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_01_door_02_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_01_door_02_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_01_door_02_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_01_door_03_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_01_door_03_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_01_door_03_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_01_door_03_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_02_door_01_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_02_door_01_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_02_door_01_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_02_door_01_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_02_door_02_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_02_door_02_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_02_door_02_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_02_door_02_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_02_door_03_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_02_door_03_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_02_door_03_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_02_door_03_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_03_door_01_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_03_door_01_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_03_door_01_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_03_door_01_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_03_door_02_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_03_door_02_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_03_door_02_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_03_door_02_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_03_door_03_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_03_door_03_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_03_door_03_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_03_door_03_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_04_door_01_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_04_door_01_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_04_door_01_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_04_door_01_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_04_door_02_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_04_door_02_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_04_door_02_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_04_door_02_right"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_04_door_03_left"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_04_door_03_left"}
+			{handlebone "body"}
+		}
+        {place "entrance_door_part_04_door_03_right"
+			{entity "f_end_c07_indestructible_door_opened"}
+			{Linkbone "entrance_door_part_04_door_03_right"}
+			{handlebone "body"}
+		}
+	}
+}

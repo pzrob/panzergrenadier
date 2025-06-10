@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cta - Gates of Hell (desc_gear)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-04-28 12:16+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+msgctxt "desc/stuff/shovel_ger"
+msgid "German Shovel"
+msgstr "德国工兵铲"
+
+msgctxt "desc/stuff/shovel_ger_light"
+msgid "German Shovel（light)"
+msgstr "德国工兵铲(轻装工兵专用）"
+
+msgctxt "desc/stuff/shovel_ger_heavy"
+msgid "German Shovel(heavy)"
+msgstr "德国工兵铲(重型工事）"
+
+
+msgctxt "desc/stuff/ger_harness_mg_ger_standard_infantry_04"
+msgid "Veshmeshok Full"
+msgstr "德军机枪弹链"
+
+msgctxt "desc/stuff/ger_harness_mg_ger_standard_infantry_06"
+msgid "Veshmeshok Full"
+msgstr "德军机枪弹链"
+
+msgctxt "desc/stuff/ger_harness_rifle_ger_standard_infantry_04"
+msgid "Veshmeshok Full"
+msgstr "德军步兵携行具"
+
+msgctxt "desc/stuff/ger_harness_nco_smg_ger_standard_infantry_04"
+msgid "Veshmeshok Full"
+msgstr "德军步兵携行具"
+
+msgctxt "desc/stuff/ger_harness_smg_ger_standard_infantry_04"
+msgid "Veshmeshok Full"
+msgstr "德军步兵携行具"
+
+msgctxt "desc/stuff/ger_harness_stg_ger_standard_infantry_04"
+msgid "Veshmeshok Full"
+msgstr "德军步兵携行具"
+
+msgctxt "desc/stuff/ger_harness_rifle_ger_exclusive_02"
+msgid "Veshmeshok Full"
+msgstr "德军步兵携行具"
+
+msgctxt "desc/stuff/ger_backpack_gebirgsjaeger"
+msgid "ger gebirgsjaeger backpack"
+msgstr "德军山地猎兵背包"
+
+msgctxt "desc/stuff/ger_harness_engineer_01"
+msgid "ger engineer backpack"
+msgstr "德军工程兵背包"
+
+msgctxt "desc/stuff/ger_backpack_pionier_01_ger_realistic_14"
+msgid "ger pionier backpack"
+msgstr "德军先遣队背包"
+
+msgctxt "desc/stuff/ger_backpack_rifle_grenade_01_ger_realistic_14"
+msgid "ger rifle grenade backpack"
+msgstr "德军枪榴弹背包"
+
+msgctxt "desc/stuff/ger_harness_at_asst_ger_standard_02"
+msgid "Panzershreck Ammunition Carrycase"
+msgstr "坦克杀手弹药携带箱"
+
+msgctxt "desc/stuff/ger_harness_at_asst_ger_realistic_07"
+msgid "Panzershreck Ammunition Carrycase"
+msgstr "坦克杀手弹药携带箱"
+
+msgctxt "desc/stuff/ger_harness_at_asst_ger_realistic_12"
+msgid "Panzershreck Ammunition Carrycase"
+msgstr "坦克杀手弹药携带箱"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_gebirgsjaeger"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_blau_01"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_fallschirmjager_01"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_gebirgs_01"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_standard_03"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_standard_infantry_04"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_standard_infantry_08"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ger_standard_infantry_04"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ger_standard_infantry_06"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_realistic_07"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_ger_standard_12"
+msgid "German mg ammo box"
+msgstr "德军机枪备用弹药盒"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_no_belt_gebirgsjaeger"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_ger_exclusive_02"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_ger_standard_12"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_no_belt_ger_exclusive_02"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_no_belt_ger_standard_infantry_04"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_no_belt_ger_standard_05"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_no_belt_ger_standard_06"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_no_belt_ger_standard_10"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/ger_harness_mg_ammo_box_small_no_belt_ger_standard_12"
+msgid "German mg ammo box (small)"
+msgstr "德军机枪备用弹药盒(轻型)"
+
+msgctxt "desc/stuff/mortar_round_box_80mm_ger"
+msgid "80mm mortar Ammunition Carrycase"
+msgstr "迫击炮弹药携带箱"
+
+msgctxt "desc/stuff/ger_80mm_mortar_round_crate"
+msgid "80mm mortar Ammunition Carrycase"
+msgstr "迫击炮弹药箱"
+
+msgctxt "desc/stuff/ger_ammo_box"
+msgid "German ammo box"
+msgstr "便携弹药盒"
+
+msgctxt "desc/stuff/ger_backpack_medic"
+msgid "German Medic Pack"
+msgstr "德军医药背包"
+
+msgctxt "desc/stuff/german_radio_ger_realistic_07"
+msgid "German Feldfuss Radio"
+msgstr "德军 Feld.Fu.B 无线电"
+
+
+msgctxt "desc/stuff/minefield_tmi_35 mine"
+msgid "Anti-Tank Tellermine 35"
+msgstr "35型泰勒反坦克地雷"
+
+msgctxt "desc/stuff/minefield_tmi_43 mine"
+msgid "Anti-Tank Tellermine 43"
+msgstr "43型泰勒反坦克地雷"

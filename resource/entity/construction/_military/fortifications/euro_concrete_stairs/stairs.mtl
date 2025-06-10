@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/euro_concrete_stairs"}
+	{bump "$/_military/euro_concrete_stairs_bp"}
+	{specular "$/_military/euro_concrete_stairs_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,365 @@
+;Exported by:	 Carlos
+;Date:			 15.08.2020 18:35:43
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\platform_planks\planks_export.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "roof_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "exterior01"
+			{matrix34
+				1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 1
+				0 	 0 	 0
+			}
+		{bone "wooden_plank_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 1
+				0 	 0 	 0
+			}
+		{bone "wooden_plank_stage_01"
+			{matrix34
+				1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 1
+				0 	 0 	 0
+			}
+			{bone "wooden_plank_01"
+				{Position 17.5	 0 	 28.1437}
+				{VolumeView "exterior01.ply" {Ground}}
+			}
+			{bone "wooden_plank_03"
+				{Position -17.5 	 0  28.1437}
+				{VolumeView "exterior01.ply" {Ground}}
+			}
+		}
+		{bone "wooden_plank_stage_02"
+			{matrix34
+				-1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 -1
+				0 	 0 	113.2
+			}
+			{bone "wooden_plank_04"
+				{Position 17.5	 0 	 28.1437}
+				{VolumeView "exterior01.ply" {Ground}}
+			}
+			{bone "wooden_plank_06"
+				{Position -17.5 	 0  28.1437}
+				{VolumeView "exterior01.ply" {Ground}}
+			}
+		}
+		}
+		{bone "pillers_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 1
+				0 	 0 	 56
+			}
+			{bone "pillers_first_floor"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0	 1
+					0 	 -0.5 	 -3
+				}
+			{bone "piller_01"
+				{matrix34
+					-1 	 0	 0
+					0 	0 	 1
+					0 	1.40	 0
+					36.3 	 6.24	0 ;z -x y
+				}		
+				{VolumeView "exterior02.ply"}	
+ 		    }	
+			{bone "piller_02"
+				{matrix34
+					1 	 0	 0
+					0 	0 	 1
+					0 	-1.40 0
+					36.3 	-6.24 	0 ;z -x y
+				}		
+				{VolumeView "exterior02.ply"}	
+    		}	
+			{bone "piller_03"
+				{matrix34
+					0   1.00	 0
+					0 	0 	 1
+					1.1 	0	 0
+					4.8 	46.6 	 0
+				}	
+				{VolumeView "exterior02.ply"}		
+			}	
+			{bone "piller_04"
+				{matrix34
+					0   1.00	 0
+					0 	0 	 1
+					1.1 	0	 0
+					4.8 	-46.6	 	 0
+				}	
+				{VolumeView "exterior02.ply"}		
+			}	
+			{bone "piller_05"
+				{matrix34
+					0   -1.00	 0
+					0 	0 	 1
+					-1.1 	0	 0
+					-4.8 	46.6 	 0
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_06"
+				{matrix34
+					0   -1.00	 0
+					0 	0 	 1
+					-1.1 	0	 0
+					-4.8 	-46.6	 	 0
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_07"
+				{matrix34
+					-1 	 0	 0
+					0 	0 	 1
+					0 	1.40	 0
+					-36.3 	 6.24	0 ;z -x y
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_08"
+				{matrix34
+					1 	 0	 0
+					0 	0 	 1
+					0 	-1.40 0
+					-36.3 	-6.24 	0 ;z -x y
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			}
+			{bone "pillers_second_floor"
+				{matrix34
+					1 	0 	 0
+					0 	1 	 0
+					0 	0	 1
+					0 	-0.5 	 3
+				}
+			{bone "piller_09"
+				{matrix34
+					-1 	 0	 0
+					0 	0 	 1
+					0 	1.40	 0
+					36.3 	 6.24	0 ;z -x y
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_10"
+				{matrix34
+					1 	 0	 0
+					0 	0 	 1
+					0 	-1.40 0
+					36.3 	-6.24 	0 ;z -x y
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_11"
+				{matrix34
+					0   1.00	 0
+					0 	0 	 1
+					1.1 	0	 0
+					4.8 	46.6 	 0
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_12"
+				{matrix34
+					0   1.00	 0
+					0 	0 	 1
+					1.1 	0	 0
+					4.8 	-46.6	 	 0
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_13"
+				{matrix34
+					0   -1.00	 0
+					0 	0 	 1
+					-1.1 	0	 0
+					-4.8 	46.6 	 0
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_14"
+				{matrix34
+					0   -1.00	 0
+					0 	0 	 1
+					-1.1 	0	 0
+					-4.8 	-46.6	 	 0
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_15"
+				{matrix34
+					-1 	0	 0
+					0 	0 	 1
+					0 	1.40	 0
+					-36.3 	 6.24	0 ;z -x y
+				}		
+				{VolumeView "exterior02.ply"}	
+			}	
+			{bone "piller_16"
+				{matrix34
+					1 	0	 0
+					0 	0 	 1
+					0 	-1.40 0
+					-36.3 	-6.24 	0 ;z -x y
+				}	
+				{VolumeView "exterior02.ply"}	
+			}	
+			}
+		}
+		}
+	}
+	}
+}
+{volume "wooden_plank_01"
+	{box 92.3819 38.1491 4.10431}
+	{bone "wooden_plank_01"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 30.9668
+	}
+}
+{volume "wooden_plank_03"
+	{box 92.3819 38.1491 4.10431}
+	{bone "wooden_plank_03"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 30.9668
+	}
+}
+{volume "wooden_plank_04"
+	{box 92.3819 38.1491 4.10431}
+	{bone "wooden_plank_04"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 30.9668
+	}
+}
+{volume "wooden_plank_06"
+	{box 92.3819 38.1491 4.10431}
+	{bone "wooden_plank_06"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 30.9668
+	}
+}
+{volume "piller_01"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_01"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_02"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_02"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_03"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_03"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_04"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_04"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_05"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_05"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_06"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_06"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_07"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_07"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_08"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_08"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_09"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_09"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_10"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_10"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_11"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_11"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_12"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_12"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_13"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_13"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_14"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_14"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_15"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_15"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "piller_16"
+	{box 2.54889 2.6332 25.5906}
+	{bone "piller_16"}
+	{Position 0 	 0 	 12.7953}
+}
+{area "interior"
+	{obb2
+		{center -0.0 0}
+		{extent 48 70}
+		{axis -1 0}
+	}
+	{rotate}
+}

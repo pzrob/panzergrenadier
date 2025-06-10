@@ -1,0 +1,18 @@
+{game_entity
+	(include "cckw.inc")
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+		    {item "sandbag_vehicle" 1}
+			;{item "ammo mgun_usa belt" 2750}
+			{item "ammo bar_mag" 1000}
+			{item "ammo rifle_usa garand_clip ap" 1500}
+	 		{item "ammo m1_carbine_mag" 500}
+			{item "ammo thompson_mag stick 30" 150}
+			{item "ammo m3_grease_mag" 160}
+			{item "bazooka_m1a1" filling "bazooka heata" 1}
+			{item "bazooka heata" 4}
+		}
+	}
+}

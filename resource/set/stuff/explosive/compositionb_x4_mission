@@ -1,0 +1,22 @@
+{item
+	{entity "compositionb_x4_mission"}
+	{tag "dropboxed smallitemin1hand grenade dynamite size4 distributable"}
+	{mass 2}
+
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+
+	{damage blastwave
+		{energy 15}
+		{area 3 8}
+		{ground_interaction_radius 0.15}
+	}
+	{damage add blastwave
+		{energy 1.7}
+		{area 8 12}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+}

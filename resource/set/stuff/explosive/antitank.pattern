@@ -1,0 +1,24 @@
+{item
+	{tag "itemin2hands dropboxed antitank at_mine"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 8}
+	{damage blastwave
+		{energy 15}
+		{area 0.5 0.75}
+		{ground_interaction_radius 0.25}
+	}
+	{damage add blastwave
+		{energy 3}
+		{area 2 3}
+		{ground_interaction_radius 0}
+	}
+	{damage add blastwave
+		{energy 1.0}
+		{area 6 8}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+}

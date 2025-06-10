@@ -1,0 +1,85 @@
+;SDL
+
+	; armor notes
+
+	("armoredcar_tier1")
+
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelleft1")
+	("solid_wheel" args "wheelright2")
+	("solid_wheel" args "wheelleft2")
+
+	("turret" repair(45))
+	("gun" repair(30) thickness(20))
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 19
+			{top 16}
+			{front 15}
+			{rear 16}
+		}
+	}
+	{volume "body2"			; Lower Center Section
+		{thickness 19
+			{rear 16}
+			{bottom 14}
+		}
+		{tags "no_target"}
+	}
+	{volume "body3"			; Rear Top
+		{thickness 19
+			{top 16}
+		}
+		{tags "no_target"}
+	}
+	{volume "body4"			;
+		{thickness 19
+			{top 16}
+			{front 15}
+		}
+		{tags "no_target"}
+	}
+	{volume "body5"			; Driver Pot
+		{thickness 19
+			{top 16}
+			{front 15}
+		}
+		{tags "no_target"}
+	}
+	{volume "engine"
+		{thickness 19
+			{top 16}
+			{front 16}
+			{rear 14}
+			{bottom 14}
+		}
+	}
+	{volume "turret1"		; Turret
+		{thickness 10}
+		{able {holed}}
+	}
+	{volume "hole1"
+		{tags "sticky"}
+	}
+	{volume "grill_right"
+		{thickness 0.5}
+	}
+	{volume "grill_left"
+		{thickness 0.5}
+	}
+	{volume "shield_cover1"
+		{thickness 0.01}
+		{material "fabric"}
+		{able {NoWoundDecal}}
+	}
+	{volume "shield_cover2"
+		{thickness 0.01}
+		{material "fabric"}
+		{able {NoWoundDecal}}
+	}
+	{volume "detail6"
+		{thickness 10}
+	}

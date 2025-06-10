@@ -1,0 +1,34 @@
+;Exported by:	 guita
+;Date:			 01.04.2022 20:12:18
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\_military\fortifications\pillbox\earth_pillbox\earth_pillbox.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "land"
+			{matrix34
+				0 	 1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				0 	 0 	 -0
+			}
+			{VolumeView "land.ply"}
+			{bone "outside"
+				{VolumeView "outside.ply"}
+			}
+			{bone "body"
+				{VolumeView "body.ply"}
+			}
+			{bone "exterior"
+				{VolumeView "exterior.ply"}
+			}
+			{bone "exterior2"
+				{VolumeView "exterior2.ply"}
+			}	
+		}	
+	}	
+}

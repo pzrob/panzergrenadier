@@ -1,0 +1,62 @@
+;Exported by:	 Carlos
+;Date:			 05.01.2022 14:53:43
+;File:			 T:\GoH_3D_human_export\3d_weapons\MG 13\mg13_ammo_export.max
+{skeleton
+	{bone "mg_13_magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "mg_13_magazine.ply"}
+			{VolumeView "mg_13_magazine_lod1.ply"}
+			{VolumeView "mg_13_magazine_lod2.ply"}
+			{VolumeView "mg_13_magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 0.654571 3.68499 1.89389}
+	{bone "mg_13_magazine"}
+	{matrix34
+		0 	 0 	 1
+		-0.1138 	 0.9935 	 0
+		-0.9935 	 -0.1138 	 0
+		-0.0879 	 -0.4189 	 0.056
+	}
+}
+{volume "select"
+	{box 2.63878 4.7065 0.946433}
+	{bone "mg_13_magazine"}
+	{matrix34
+		0.9925 	 0.1221 	 0
+		-0.1221 	 0.9925 	 0
+		0 	 0 	 1
+		-0.1093 	 -0.4668 	 0.035
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -1.1066 	 -19.8641 	 65.784}
+			{lookat -0.0908 	 -0.4407 	 2.6455}
+			{fov 2.17281}
+			{horizon -176.649}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0209 	 6.329 	 7.5314}
+			}
+			{"1"
+				{type directional}
+				{direction -0.3964 	 0.1167 	 -0.2816}
+			}
+			{"2"
+				{type point}
+				{position -11.1048 	 -2.6304 	 -1.7985}
+			}
+		}
+	}
+}

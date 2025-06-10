@@ -1,0 +1,4 @@
+{from "pattern antitank"
+	{entity "minefield_tmd_44"}
+	{mass 8}
+}

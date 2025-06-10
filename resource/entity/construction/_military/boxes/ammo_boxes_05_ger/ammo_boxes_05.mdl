@@ -1,0 +1,77 @@
+;Exported by:	 Carlos
+;Date:			 28.08.2017 15:46:43
+;File:			 H:\GoH_3D_gem_export\3d_environment\_military\boxes\crate_pile\wood_crate1_v06.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "crates_ammo5"
+			{Position -2.6253 	 9.4256 	 5.2964}
+			{LODView
+				{VolumeView "crates_ammo5.ply"}
+				{VolumeView "crates_ammo5_lod1.ply"}
+			}
+		}
+	}
+}
+{obstacle "body1"
+	{obb2
+		{center -2.76932 -8.83538}
+		{extent 24.2365 7.68473}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" " fire"}
+}
+{obstacle "body5"
+	{obb2
+		{center 3.73314 7.61782}
+		{extent 16.9458 8.37438}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" " fire"}
+}
+{volume "body1"
+	{box 48.4729 15.3695 20.4926}
+	{bone "crates_ammo5"}
+	{Position -0.144 	 -0.5902 	 4.9499}
+}
+{volume "body2"
+	{box 20.8997 14.9085 8.22055}
+	{bone "crates_ammo5"}
+	{matrix34
+		0.866 	 0.5 	 0
+		-0.5 	 0.866 	 0
+		0 	 0 	 1
+		-11.485 	 -1.1608 	 26.0038
+	}
+}
+{volume "body3"
+	{box 20.8997 12.6722 6.98747}
+	{bone "crates_ammo5"}
+	{matrix34
+		0.7071 	 0.7071 	 0
+		-0.7071 	 0.7071 	 0
+		0 	 0 	 1
+		-12.1045 	 -2.4594 	 18.4951
+	}
+}
+{volume "body4"
+	{box 33.8916 16.7488 11.2315}
+	{bone "crates_ammo5"}
+	{matrix34
+		0 	 0.866 	 0.5
+		-1 	 0 	 0
+		0 	 -0.5 	 0.866
+		11.6504 	 -16.1464 	 15.2375
+	}
+}
+{volume "body5"
+	{box 33.8916 16.7488 11.2315}
+	{bone "crates_ammo5"}
+	{Position 6.3585 	 -17.0434 	 0.3194}
+}

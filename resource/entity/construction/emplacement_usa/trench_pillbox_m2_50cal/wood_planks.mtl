@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_tile/wood_planks"}
+	{bump "$/_tile/wood_planks_bp"}
+	{specular "$/_tile/wood_planks_sp"}
+	{color "230 230 230 25"}
+	{lightmap "$/construction/trench_pillbox/pillbox_trench_lm"}
+	{blend none}
+}

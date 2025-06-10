@@ -1,0 +1,37 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "foxhole_spawned" "normal"}
+	{Extension "emplacement_light_inf_crate.mdl"}
+	
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+	{placer
+		{place "side_sandbag_00"
+			{entity "sandbag_heap_curved_indestructible"}
+			{Linkbone "side_sandbag_00"}
+			{handlebone "body"}
+		}		
+		{place "side_sandbag_01"
+			{entity "sandbag_heap_curved_270_indestructible"}
+			{Linkbone "side_sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_02"
+			{entity "sandbag_heap_curved_90_indestructible"}
+			{Linkbone "side_sandbag_02"}
+			{handlebone "body"}
+		}
+		{place "netting_square"
+			{entity "netting_square_roof_indestructible"}
+			{Linkbone "netting_square"}
+			{handlebone "body"}
+		}
+	}
+}

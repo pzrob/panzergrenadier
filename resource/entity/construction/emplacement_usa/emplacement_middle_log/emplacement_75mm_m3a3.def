@@ -1,0 +1,64 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_75mm_fieldgun.mdl"}
+	{props "sand"}
+	("boneLand"  args "trench")
+	("boneLand"  args "exit")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")	
+	("volume" args "body7")	
+	("volume" args "body8")	
+	("volume" args "body9")	
+	("volume" args "body10")
+	("volume" args "body11")
+	("volume" args "body12")	
+   	{placer
+		{place "ammo_boxes_01"
+			{entity "crate_76mm02_us"}
+			{Linkbone "ammo_boxes_01"}
+			{handlebone "body"}
+		}
+		{place "ammo_boxes_02"
+			{entity "crate_76mm03_us"}
+			{Linkbone "ammo_boxes_02"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_75mm_m3a3_cannon_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_log_usa_75mm_l16_shell_crate_stage"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_log_sandbag_stage_at_dummy"}
+		}
+		{level ;// level 4
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_log_roof_stage_tall_dummy"}
+		}
+		{level ;// level 5
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_log_fieldgun_bush_cover_stage_dummy"}
+		}
+	}
+}

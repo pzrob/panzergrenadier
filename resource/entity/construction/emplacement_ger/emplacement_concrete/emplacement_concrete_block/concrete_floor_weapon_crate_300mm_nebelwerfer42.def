@@ -1,0 +1,24 @@
+{game_entity	
+(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{extension "concrete_block_03_floor.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+		{RemoveEntities 1}
+	}
+	{Lodclass "concrete"}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "concrete_floor_300mm_nebelwerfer42_shell_crate_stage_dummy"}
+		}
+	}
+}

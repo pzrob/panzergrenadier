@@ -1,0 +1,64 @@
+;Exported by:	 Carlos
+;Date:			 06.08.2018 12:42:04
+;File:			 T:\GoH_3D_environment_export\3d_environment\_military\fortifications\sandbags_new\smart_set\sandbag_framed.max
+{skeleton
+	{bone "basis"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "self"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			6.5 	 -0.0  -0.4 ; -x z
+		}
+	}
+	{bone "sandbag"
+		{matrix34
+			1 	 0 	 0
+			0 	 1   0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{Position 0 0 -0.5}
+		{bone "wood_frame"
+			{Position -9.0417 	 0.6843 	 -12.0}
+			{LODView
+				{VolumeView "wood_frame.ply"}
+				{VolumeView "wood_frame_lod1.ply"}
+				{VolumeView "wood_frame_lod2.ply"}
+			}
+			{bone "body"
+				{parameters "id=body;"}
+				{Position 6.6556 	 -0.1259 	3.5} ;{Position 6.6556 	 -0.1259 	4}
+				{LODView
+					{VolumeView "body.ply"}
+					{VolumeView "body_lod1.ply"}
+					{VolumeView "body_lod2.ply"}
+					{VolumeView "body_lod3.ply"}
+				}
+				{bone "fx_sandbag1"
+					{matrix34
+						0.998 	 0.0629 	 0
+						-0.0629 	 0.998 	 0
+						0 	 0 	 1
+						3.1432 	 0.5051 	 3.5
+					}
+				}
+			}
+		}
+	}
+	}
+	}
+}

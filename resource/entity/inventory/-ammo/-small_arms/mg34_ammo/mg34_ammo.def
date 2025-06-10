@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Extension "mg34_ammo.mdl"}
+	{extender "stuff"
+		{item "ammo mgun_ger drum"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+}

@@ -1,0 +1,50 @@
+;Exported by:	 Carlos
+;Date:			 31.03.2020 23:12:11
+;File:			 T:\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\sebastian\default2.max
+{skeleton
+	{bone "trench"
+		{parameters "land;ground;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply" {Ground}}
+	}
+}
+{area "body1"
+	{obb2
+		{center 23.577 5.32717}
+		{extent 10.879 2.44162}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{area "body2"
+	{obb2
+		{center -15.7005 5.32716}
+		{extent 10.879 2.44162}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 21.758 4.88323 23.1953}
+	{bone "trench"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		23.577 	 -5.3272 	 11.5977
+	}
+}
+{volume "body2"
+	{box 21.758 4.88323 23.1953}
+	{bone "trench"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		-15.7005 	 -5.3272 	 11.5977
+	}
+}

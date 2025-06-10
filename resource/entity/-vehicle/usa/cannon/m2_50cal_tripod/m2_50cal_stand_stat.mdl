@@ -1,0 +1,200 @@
+;Exported by:	 guita
+;Date:			 26.11.2023 15:04:33
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_usa\vehicles\cannon\mg_tripods\m2_50cal_tripod.max
+{skeleton
+	{animation
+		{sequence "recoil" {speed 2}}
+		{sequence "close" {speed 0.6}}
+	}		
+	{bone revolute "basis"
+		{parameters "basis;"}
+		{speed 0.001}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "repair" {file "body_r.anm"}{speed 1}}
+			}
+			{Position 0 	 0 	 0.0}
+			{VolumeView "mg_mount.ply"}
+			{bone revolute "mgun_a_rot1"
+					{parameters "id=body;"}
+					{limits -45 45}
+					{Position 0.0802 	 0 	 15.9814}
+					{VolumeView "mgun_a_rot1.ply"}
+				{VolumeView "mgun_1_rot1.ply"}
+				{bone "shield"
+                    {Position 0.000 	 0.00 	 -0.30}
+					{parameters "id=body;"}
+					{VolumeView "shield.ply"}
+				}
+					{bone revolute "gun_rot"
+						{parameters "id=body;"}
+						{limits -10 45}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							-1.3263 	 0.2764 	 4.2912
+						}
+						{VolumeView "mgun_a_rot2.ply"}
+						{bone "holder_50"
+							{parameters "id=body;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								0.4201 	 0.2198 	 -1.371
+							}
+							{VolumeView "holder_50.ply"}
+						}
+						{bone "mgun"
+							{Position -10.0 	 0.64 	 0.27} ;z y x 
+						}
+					}
+				{bone "commander"
+					{matrix34
+						1 	 0 	 0
+						0	 1 	 0
+						0 	 0 	 1
+						-9.0 	  12.5 	 -22.0
+					}
+				}
+				{bone "gunner"
+					{matrix34
+						1 	 0.0034 	 0
+						-0.0034 	 1 	 0
+						0 	 0 	 1
+						-18.711 	 -0.7296 	 -6.7582 ;z y x 
+					}
+				}
+				{bone "visor"
+					{Position -6.3999 	 -0.0355 	 5.0946}
+				}
+			}
+		}
+
+		{bone "visor2"
+			{Position -1.0022 	 6.8406 	 12.8914}
+		}
+
+		{bone "handle1"
+			{Position 7.7848 	 0 	 9.8425}
+		}
+		{bone "handle2"
+			{Position -11.9145 	 0 	 9.8425}
+		}
+		{bone "emit1"
+			{Position -27.0353 	 0.647 	 0}
+		}
+		{bone "emit2"
+			{Position -27.0353 	 0.647 	 0}		
+			;{matrix34
+				;0.4067 	 -0.9135 	 0
+				;0.9135 	 0.4067 	 0
+				;0 	 0 	 1
+				;-10.8654 	 16.5048 	 0
+			;}
+		}
+		{bone "holder"
+			{Position -0.1333 	 0 	 0.1151}
+		}
+	}
+
+		{bone "visor2"
+			{Position -1.0022 	 6.8406 	 12.8914}
+		}
+
+		{bone "handle1"
+			{Position 7.7848 	 0 	 9.8425}
+		}
+		{bone "handle2"
+			{Position -11.9145 	 0 	 9.8425}
+		}
+		{bone "emit1"
+			{Position -27.0353 	 0.647 	 0}
+		}
+		{bone "emit2"
+			{Position -27.0353 	 0.647 	 0}		
+			;{matrix34
+				;0.4067 	 -0.9135 	 0
+				;0.9135 	 0.4067 	 0
+				;0 	 0 	 1
+				;-10.8654 	 16.5048 	 0
+			;}
+		}
+		{bone "holder"
+			{Position -0.1333 	 0 	 0.1151}
+		}
+}
+{obstacle "close"
+	{obb2
+		{center -8.28536 0.231229}
+		{extent 13.9001 1.66197}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "close"}
+}
+{obstacle "open1"
+	{obb2
+		{center 2.44921 0.023062}
+		{extent 8.35337 2.38393}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "open"}
+}
+{obstacle "open2"
+	{obb2
+		{center -10.2492 5.70631}
+		{extent 0.457877 9.79568}
+		{axis 0.485282 0.874358}
+	}
+	{rotate}
+	{Tags "open"}
+}
+{obstacle "open3"
+	{obb2
+		{center -10.505 -5.89632}
+		{extent 9.33784 0.455233}
+		{axis 0.866158 0.49977}
+	}
+	{rotate}
+	{Tags "open"}
+}
+{volume "body1"
+	{box 5.07617 1.29609 2.85692}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-0.3659 	 0.0386 	 -0.6082
+	}
+}
+
+{volume "select"
+	{box 22.7933 38.6997 15.5318}
+	{bone "body"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0.2138 	 0 	 0.0878
+	}
+}
+{volume "shield"
+	{box 15.5721 10.4824 0.484735}
+	{bone "shield"}
+	{matrix34
+		0 	 -1 	 0
+		-0.3584 	 0 	 0.9336
+		-0.9336 	 0 	 -0.3584
+		2.4017 	 1.2969 	 6.5833
+	}
+}

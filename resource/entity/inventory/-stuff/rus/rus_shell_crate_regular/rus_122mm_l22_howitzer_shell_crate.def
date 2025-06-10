@@ -1,0 +1,38 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_rus_moded.inc")
+	("howitzer_shells_rus_crate_122mm_l22")
+	{props  "inventory_box" "spread_items" "shed" "small" "-wood" "burning" "break_on_burn"}
+	{extension "rus_122mm_l22_howitzer_shell_crate.mdl"}
+	
+	{volume "body"
+		{thickness 200}
+		{able {touch}}
+	}	
+	{extender "stuff"
+		{item "rus_122mm_l22_howitzer_shell_crate"}
+	}
+	{placer
+		{place "shell_01"
+			{entity "122mm_rus_l22_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "122mm_rus_l22_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "122mm_rus_l22_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "122mm_rus_l22_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+	}
+}

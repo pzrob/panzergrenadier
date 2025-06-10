@@ -1,0 +1,30 @@
+;Exported by:	 Alexey
+;Date:			 25.02.2017 08:15:44
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_fire_position2_v03.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "trench"
+			{orientation
+				-1 	 0 	 0
+				0 	 1  0
+				0 	 0 	 1
+			}
+			{VolumeView "trench.ply"}
+			{bone "exit"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					30 	 0 	 0        ;-z x y
+				}
+				{VolumeView "exit.ply"}
+			}
+		}
+	}
+}

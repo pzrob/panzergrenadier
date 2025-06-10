@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "flag"}
+	{bump "$/_military/flag_bp"}
+	{blend none}
+}

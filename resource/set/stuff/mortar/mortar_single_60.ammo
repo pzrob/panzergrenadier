@@ -1,0 +1,11 @@
+{from "pattern mortar_ammo"
+	{tag "small mortar pierce he fg 50to57"}
+	{inventory
+		{noView}
+	}
+	{entity "mortar_single_60"}
+
+	("he_light")
+
+	("he_level_1" weight(1.33) filler(0.15))
+}

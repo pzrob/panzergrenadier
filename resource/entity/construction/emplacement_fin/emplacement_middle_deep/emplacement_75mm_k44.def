@@ -1,0 +1,126 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "parts"}
+	{extension "emplacement_75mm_k44.mdl"}
+	{volume "body10_vol001"
+		{able {visible 1}}
+	}
+	{volume "body1_vol004"
+		{able {visible 1}}
+	}
+	{volume "body2_vol001"
+		{able {visible 1}}
+	}
+	{volume "body3_vol001"
+		{able {visible 1}}
+	}
+	{volume "body4_vol003"
+		{able {visible 1}}
+	}
+	{volume "body4_vol004"
+		{able {visible 1}}
+	}
+	{volume "body5_vol001"
+		{able {visible 1}}
+	}
+	{volume "body6_vol001"
+		{able {visible 1}}
+	}
+	{volume "body7_vol001"
+		{able {visible 1}}
+	}
+	{volume "body9_vol001"
+		{able {visible 1}}
+	}
+	{extender "land_patch"
+		{TerrainType "ground" "ground"}
+	}
+	
+	{placer
+
+		;{place "Exit"
+			;{entity "euro_log_trench_dirt_exit"}
+			;{Linkbone "Exit"}
+			;{handlebone "body"}
+		;}
+		{place "floor_01"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "floor_02"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+		}
+		{place "floor_03"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_03"}
+			{handlebone "body"}
+		}
+		;{place "trench_modular_01"
+			;{entity "trench_modular"}
+			;{Linkbone "trench_modular_01"}
+			;{handlebone "body"}
+		;}
+		;{place "trench_modular_02"
+			;{entity "trench_modular"}
+			;{Linkbone "trench_modular_02"}
+			;{handlebone "body"}
+		;}sandbag_framed_curved
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_01"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_framed_straight_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_02"
+			{entity "sandbag_framed_straight_270_indestructible"}
+			{Linkbone "sandbag_framed_straight_02"}
+			{handlebone "body"}
+		}
+		{place "cannon"
+			{entity "75mm_k44_dummy"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "netting_square"
+			{entity "netting_square"}
+			{Linkbone "netting_square"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_75mm_k44_cannon_stage"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_75mm_k44_shell_crate_stage"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_middle_atgun_bush_cover_stage"}
+		}
+	}
+}

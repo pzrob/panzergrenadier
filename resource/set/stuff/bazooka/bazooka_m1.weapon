@@ -1,0 +1,37 @@
+{from "pattern rpg_weapon"
+	{filling "ammo bazooka" 1}
+	{entity "bazooka_m1"}
+	{fireSound "reactive/d1/Shared/Rocket_Launcher/"}
+	{reloadsound "bazooka"}
+	{calibre 60}
+	{mass 8.2}
+
+	("velocity" mps(80.8))
+
+	("human health" damage(500))
+
+	{parameters "heat"			; M6 Rocket
+		{cursorReloading "gun_heat"}
+		("penetration" args 82)
+		("armor health" damage(300))
+		("pointed_slope")
+	}
+	{parameters "heata"			; M6A1 Rocket
+		{cursorReloading "gun_heat"}
+		("penetration" args 88)
+		("armor health" damage(300))
+		("pointed_slope")
+	}
+
+	{parameters "heatb"			; M6A3 Rocket
+		{cursorReloading "gun_heat"}
+		("penetration" args 102)
+		("armor health" damage(300))
+		("standard_slope")
+	}
+
+	{parameters "wp"			; M10 Rocket
+		{cursorReloading "gun_wp"}
+		("standard_slope")
+	}
+}

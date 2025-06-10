@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{tag "rifle_shell"}
+	{filling "ammo rifle_rus clip" 5}
+	{entity "mosin_m27"}
+	{fireSound "smallarms/s3/d1/FIN/M39/"}
+	{fireSoundclose "smallarms/s3/3p/FIN/M39/"}
+	{reloadSound "reload_clip"}
+	{calibre 7.62}
+	{mass 4.1}
+
+	("velocity" mps(847))
+	("bolt_action")
+	("mosin_rate")
+}

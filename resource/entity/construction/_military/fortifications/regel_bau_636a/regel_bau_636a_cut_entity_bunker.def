@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{Extension "regel_bau_636a_cut_entity_bunker.mdl"}
+	{props "sand"}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+}

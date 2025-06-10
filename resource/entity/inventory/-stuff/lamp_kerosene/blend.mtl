@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/_weapon/lamps"}
+	{mask "$/_weapon/lamp_sp"}
+	{blend blend}
+}

@@ -1,0 +1,30 @@
+{actor
+	(include "/properties/stuff_trap.ext")
+	{extension "fencewood_07_pillar_sharp_trap.mdl"}
+	{extender "stuff"
+		{item "fencewood_07_pillar_sharp_trap"}
+	}
+	{extender "mine"
+		{time 3}	;// actual mining time equals the lenght of time for the human animation + this value if value is less than animation lenght. Otherwise this value is an absolute and animation will loop.
+	}
+	{collider "mine.ap"}
+	{props "-bounding" "-antipersonnel" "-wood" "-burning" "trap_hidden"}
+	{volume "trap_touch"
+		{Tags "roof" "attach" "seat"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 1}{touch 1}}
+		{density 0}
+	}
+	{volume "trap_hidden"
+		{Tags "roof" "attach" "seat"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 1}{touch 1}}
+		{density 0}
+	}
+	{volume "trap_enable"
+		{Tags "roof" "attach" "seat"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 1}{touch 1}}
+		{density 0}
+	}
+}

@@ -1,0 +1,224 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/building.inc")
+	{extension "emplacement_concrete_maze_roof_stage.mdl"}
+	{props  "concrete" "construction" "big"}
+	("armor_heavy")
+	{volume "exterior01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_first_line_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_first_line_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_first_line_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_first_line_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_first_line_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_first_line_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_second_line_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_second_line_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_second_line_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_second_line_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_second_line_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_second_line_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_third_line_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_third_line_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_third_line_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_third_line_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_third_line_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_third_line_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fourth_line_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fourth_line_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fourth_line_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fourth_line_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_fourth_line_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fourth_line_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fifth_line_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fifth_line_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fifth_line_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fifth_line_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_fifth_line_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_fifth_line_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_sixth_line_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_sixth_line_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_sixth_line_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_sixth_line_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_sixth_line_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_sixth_line_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_seventh_line_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_seventh_line_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_seventh_line_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_seventh_line_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_seventh_line_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "roof_seventh_line_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}	
+	
+
+}

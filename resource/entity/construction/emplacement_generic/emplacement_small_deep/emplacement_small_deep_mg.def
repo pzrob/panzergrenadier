@@ -1,0 +1,102 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "foxhole_spawned" "small"}
+	{extension "emplacement_mgun.mdl"}
+	("boneLand" args "inside")
+	{placer
+		{place "sandbag_01"
+			{entity "sandbag_structured_curved_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_small_deep_mgun_bunker_stage_rus"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_small_deep_mgun_bunker_stage_rus"}
+			}
+			{"ger"
+				{entity "emplacement_small_deep_mgun_bunker_stage_ger"}
+			}
+			{"ger_female_soldier"
+				{entity "emplacement_small_deep_mgun_bunker_stage_ger"}
+			}
+			{"rus"
+				{entity "emplacement_small_deep_mgun_bunker_stage_rus"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_small_deep_mgun_bunker_stage_rus"}
+			}
+			{"usa"
+				{entity "emplacement_small_deep_mgun_bunker_stage_us"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_small_deep_mgun_bunker_stage_us"}
+			}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_maxim_fin_mgun_stage"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_maxim_fin_mgun_stage"}
+			}
+			{"ger"
+				{entity "emplacement_mg34_mgun_stage"}
+			}
+			{"ger_female_soldier"
+				{entity "emplacement_mg34_mgun_stage"}
+			}
+			{"rus"
+				{entity "emplacement_maxim_mgun_stage"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_maxim_mgun_stage"}
+			}
+			{"usa"
+				{entity "emplacement_m2_30cal_mgun_stage"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_m2_30cal_mgun_stage"}
+			}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_rus"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_rus"}
+			}
+			{"ger"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_ger"}
+			}
+			{"ger_female_soldier"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_ger"}
+			}
+			{"rus"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_rus"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_rus"}
+			}
+			{"usa"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_us"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_small_deep_mgun_roof_sandbag_stage_us"}
+			}
+		}
+	}
+}

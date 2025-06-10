@@ -1,0 +1,30 @@
+;Exported by:	 guita
+;Date:			 28.03.2022 22:35:48
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\_military\fortifications\watch_tower\watchtower.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "tower"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "tower.ply"}
+		{bone "exterior"
+			{matrix34
+				0 	 -1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				1.1097 	 0.9539 	 105.739
+			}
+			{VolumeView "exterior.ply"}
+		}
+	}
+	}
+}

@@ -1,0 +1,5 @@
+{from "browning_m19a4" ;// used for MG Jeeps
+	{filling "mgun_usa" 100}
+
+	("burst_long")
+}

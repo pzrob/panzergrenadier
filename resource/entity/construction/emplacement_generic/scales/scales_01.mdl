@@ -1,0 +1,23 @@
+;Exported by: 97956
+;Date:        Fri Feb 28 20:48:54 2025
+;File:        C:\RFG\factory\CTA\?????\??????\??\house_city03_building.max
+{Skeleton
+	{bone "basic"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0	0	0
+		}
+	{bone "scales_01"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			0.0324983	4.45761	9
+			;0.0324983	4.45761	-0.544381
+		}
+		{VolumeView "scales_01.ply"}
+	}
+	}
+}

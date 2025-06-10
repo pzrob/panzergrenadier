@@ -1,0 +1,58 @@
+;Exported by:	 Usuario
+;Date:			 27.06.2016 17:33:02
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\inventory\can\fuel_can.max
+{skeleton
+	{bone "jerrycan"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "jerrycan.ply"}
+			{VolumeView "jerrycan_lod1.ply"}
+		}
+		{bone "handle"
+			{matrix34
+				0 	 0 	 -1
+				1 	 0 	 0
+				0 	 -1 	 0
+				-0.4735 	 -0.3017 	 10.4453
+			}
+		}
+	}
+}
+{volume "body"
+	{box 7.90657 2.85753 9.76323}
+	{bone "jerrycan"}
+	{Position 0.0795 	 0.2322 	 4.8776}
+}
+{volume "select"
+	{box 8.8019 4.02781 10.7951}
+	{bone "jerrycan"}
+	{Position 0.0795 	 0.2779 	 4.9988}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 1.1768 	 -38.3813 	 4.677}
+			{lookat -1.8086 	 29.0743 	 5.338}
+			{fov 18.1451}
+			{horizon -0.201741}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -28.9115 	 13.3793 	 1.9215}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0082 	 0.4894 	 -0.102}
+			}
+			{"2"
+				{type point}
+				{position 20.5682 	 -16.4938 	 2.3932}
+			}
+		}
+	}
+}

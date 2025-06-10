@@ -1,0 +1,38 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_ger_moded.inc")
+	("howitzer_shells_ger_crate_155mm")
+	{props  "inventory_box" "spread_items" "shed" "small" "-wood" "burning" "break_on_burn"}	
+	{extension "ger_155mm_howitzer_shell_crate.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "ger_155mm_howitzer_shell_crate"}
+	}
+	{placer
+		{place "shell_01"
+			{entity "155mm_ger_gpf_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "155mm_ger_gpf_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "155mm_ger_gpf_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "155mm_ger_gpf_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+	}
+}

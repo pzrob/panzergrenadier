@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_military/us_crates_2"}
+	{bump "$/_military/us_crates_2_bp"}
+	{specular "$/_military/us_crates_2_sp"}
+	{color "230 230 230 25"}
+	{lightmap "$/_lm/us_crates_lm"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/ppsh41_stick"}
+	{bump "$/_weapon/ppsh41_stick_bp"}
+	{specular "$/_weapon/ppsh41_stick_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

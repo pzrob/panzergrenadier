@@ -1,0 +1,99 @@
+;Exported by:	 guita
+;Date:			 27.11.2023 11:45:31
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_west3\3d_environment\us_crates\us_crates_lm\us_crates_lm_12a.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position 11.2589 	 13.6988 	 6.7195}
+			{VolumeView "body.ply"}
+		}
+	}
+	{bone "shell_01"
+			{matrix34
+			 -1	 0 	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 5.000 	 13.0
+			}
+	}
+	{bone "shell_02"
+			{matrix34
+			 -1	  0	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 1.000 	 13.0
+			}
+	}
+	{bone "shell_03"
+			{matrix34
+			 -1	  0	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 -3.000 	 13.0
+			}
+	}
+	{bone "shell_04"
+			{matrix34
+			 -1	  0	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 -7.000 	 13.0
+			}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center 10.2214 -31.7678}
+		{extent 15.4433 10.0744}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{obstacle "obstacle"
+	{obb2
+		{center -0.152832 7.11581}
+		{extent 24.7361 28.5911}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{volume "body01"
+	{box 28.9263 55.6035 25.8908}
+	{bone "body"}
+	{Position 0.4536 	 -12.2494 	 6.2259}
+}
+{volume "body02"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{Position -0.3983 	 -40.9573 	 -0.2962}
+}
+{volume "body03"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{Position 0.1521 	 18.964 	 -0.2962}
+}
+{volume "body04"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{matrix34
+		0.1736 	 -0.9848 	 0
+		0.9848 	 0.1736 	 0
+		0 	 0 	 1
+		-24.894 	 -4.7847 	 -0.2962
+	}
+}
+{volume "body05"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{matrix34
+		-0.1736 	 -0.9848 	 0
+		0.9848 	 -0.1736 	 0
+		0 	 0 	 1
+		-24.3988 	 -37.5121 	 -0.2962
+	}
+}

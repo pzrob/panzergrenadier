@@ -1,0 +1,13 @@
+;// TOC
+{item
+	{tag "itemin2hands"}
+	{mass 5}
+	{inventory
+		;{link_bone "IK_UpDown"}
+		{fsm "hand-only"}
+		{size 7 2}
+		{weight 100}
+		{link_bone "stretcher"}
+	}
+	{entity "stretcher_no_blanket"}
+}

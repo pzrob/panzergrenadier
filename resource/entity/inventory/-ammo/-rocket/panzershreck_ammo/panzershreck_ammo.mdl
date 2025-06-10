@@ -1,0 +1,66 @@
+;Exported by:	 guita
+;Date:			 30.04.2021 20:56:49
+;File:			 D:\Git\3D_Scenes\GoH_3D_human_export\3d_weapons\pzschreck\Panzerschreck_ammo_export.max
+{skeleton
+	{bone "rocket"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "rocket.ply"}
+			{VolumeView "rocket_lod1.ply"}
+			{VolumeView "rocket_lod2.ply"}
+			{VolumeView "rocket_lod3.ply"}
+		}
+		{bone "tail"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				-5.7885 	 0 	 0
+			}
+		}
+	}
+}
+{volume "body"
+	{box 10.7405 1.7031 1.67821}
+	{bone "rocket"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-0.2652 	 0.0149 	 0.0396
+	}
+}
+{volume "select"
+	{box 11.267 2.7087 2.34137}
+	{bone "rocket"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-0.3227 	 -0.0076 	 0.1143
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.4785 	 -48.9735 	 12.545}
+			{lookat -0.5255 	 0.4916 	 -0.099}
+			{fov 12.7701}
+			{horizon -0.180226}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0533 	 0.3717 	 -0.3301}
+			}
+			{"1"
+				{type point}
+				{position 1.0423 	 39.7712 	 14.203}
+			}
+		}
+	}
+}

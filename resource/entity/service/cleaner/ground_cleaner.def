@@ -1,0 +1,11 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{props "immediate_explosive"}
+	{simulation {able 1} {state 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{extender "stuff"
+		{item "ground_cleaner"}
+	}
+}

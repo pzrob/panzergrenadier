@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "bunker_basecolor"}
+	{specular "bunker_metallic"}
+	{color "230 230 230 76"}
+	{blend none}
+}

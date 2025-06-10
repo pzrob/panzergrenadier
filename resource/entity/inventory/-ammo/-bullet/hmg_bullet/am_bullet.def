@@ -1,0 +1,6 @@
+{game_entity
+	{lodclass "stuff_small"}
+	{Extension "hmg_bullet.mdl"}
+	{constrain none}
+	{fogable never}
+}

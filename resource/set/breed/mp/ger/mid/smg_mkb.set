@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_43_mkb"}
+	{portrait "ger_regular"}
+	{icon "stg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_stalhelm_m43_cover}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mkb42h" filled}
+		{item "stg44 ammo" 300}
+
+        {item "panzerfaust_100 weapon" 2 filled}
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 1}
+		{item "m24_geballteladung grenade" 1}
+
+		{item "bandage_ger" 5}
+		{item "shovel_ger"}
+
+
+		{in_hands 0}
+	}
+}

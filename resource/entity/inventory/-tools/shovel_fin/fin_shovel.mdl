@@ -1,0 +1,57 @@
+;Exported by:	 User
+;Date:			 19.09.2021 11:11:53
+;File:			 D:\Working (GoH)\_Small props\Finnish shovel\Max\export.max
+{skeleton
+	{bone "lopoly_shovel"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "lopoly_shovel.ply"}
+	}
+}
+{volume "body"
+	{box 12.8682 3.54997 1.42264}
+	{bone "lopoly_shovel"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		0.1076 	 -1.3131 	 0.6041
+	}
+}
+{volume "select"
+	{box 13.6614 6.09992 4.48819}
+	{bone "lopoly_shovel"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		0.1534 	 -0.6243 	 1.9005
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.8139 	 1.2818 	 33.5976}
+			{lookat -0.2169 	 1.315 	 0.596}
+			{fov 22.6199}
+			{horizon -178.501}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0445 	 -0.4452 	 -0.2232}
+			}
+			{"1"
+				{type directional}
+				{direction 0.077 	 0.065 	 -0.4897}
+			}
+			{"2"
+				{type directional}
+				{direction -0.2682 	 0.1217 	 0.404}
+			}
+		}
+	}
+}

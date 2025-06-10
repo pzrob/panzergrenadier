@@ -1,0 +1,23 @@
+;Exported by:	 Usuario
+;Date:			 13.02.2016 17:44:05
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\Entourage\crates\crate_generic_01\crate_generic_01.max
+{skeleton
+	{bone "basis"
+		{orientation
+			0.7 	 0 	 0
+			0 	 -0.6 	 0
+			0 	 0 	 0.10
+		}
+		{bone "body"
+			{parameters "land;ground;"}
+			;{parameters "id=body;"}
+			{Position -0.1872 	 0.0008 	 0}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 24.6177 24.0061 22.0183}
+	{Bone "body"}
+	{Position 0.1108 	 -0.0773 	 11.0092}
+}

@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_fj_rifle"}
+	{portrait "ger_brandenburger"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_m38_helmet_camo}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")("tier4_standard")
+		("stealth")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "suomi_m31_stick" filled}
+		{item "suomi_stick ammo" 350}
+
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 1}
+		{item "pwm_l grenade" 1}
+		{item "m42_wp grenade" 2}
+		{item "panzerfaust_100 weapon" 1 filled}
+
+		{item "bandage_ger" 5}
+		{item "knife_ger"}
+
+		{in_hands 0}
+	}
+}

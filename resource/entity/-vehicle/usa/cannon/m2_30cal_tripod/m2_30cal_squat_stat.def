@@ -1,0 +1,69 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/fortified_emplacement.ext")
+
+	{extension "m2_30cal_squat_stat.mdl"}
+	{props "stat_weapon" "vision_lev00_can" "detect_cannon_aa" "no_sandbags" "c_mg_med"}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_mgun_251" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_mg_lafette_commander" 10}}
+		}
+	}
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "" ""}
+			;{fire "" "mg_lafette_commander_fire"}
+			{aim "" "mg_lafette_commander_aim"}
+			{reload "" "mg_lafette_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo mgun_usa belt" 1000}
+		}
+	}
+	
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{weapon "browning_m19a4" filling "ammo mgun_usa belt" 250}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{Rotate}
+		}
+	}
+
+	{mass 32}
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(32) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 20}
+	}
+	{bone "mgun_a_rot1"
+		{limits -35 35}
+		;{limits -13 13}
+		{speed2 60}
+	}
+
+}

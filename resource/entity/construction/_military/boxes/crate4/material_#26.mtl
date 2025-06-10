@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/box"}
+	{bump "$/_military/box_bp"}
+	{specular "$/_military/box_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

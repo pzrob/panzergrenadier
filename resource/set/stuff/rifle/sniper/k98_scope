@@ -1,0 +1,13 @@
+{from "pattern sniper_rifle"
+	{filling "ammo rifle_ger clip" 5}
+	{entity "k98_scope"}
+	{fireSound "smallarms/s3/d1/GER/K98k/"}
+	{fireSoundclose "smallarms/s3/3p/GER/K98k/"}
+	{reloadSound "weapon_reload_loose_rifle_cartridges"}
+	{calibre 7.92}
+	{mass 3.9}
+
+	("velocity" mps(760))
+
+	("scopeview_2" scope(zoom_vignette_scope_ger_k98))
+}

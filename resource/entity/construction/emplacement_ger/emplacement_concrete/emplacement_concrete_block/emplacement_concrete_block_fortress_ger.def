@@ -1,0 +1,693 @@
+{game_entity	
+    (include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{collider "nothing"}
+	("armor_heavy")
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_block_fortress_ger.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{volume "fortress_northeast_first_floor_hallway_01_stair"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_hallway_00_stair"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_at_bunker_wall_block_front_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_at_bunker_wall_block_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_at_bunker_wall_block_right_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_front_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_front_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_front_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_front_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_front_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_front_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_front_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_second_floor_garage_firing_position_wall_block_front_side"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_second_floor_garage_firing_position_wall_block_front_rear"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_10"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_rear_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_outer_wall_block_right_10"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_front_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_front_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_front_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_front_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_exit_wall_block_rear_10"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_wall_block_left_10"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_left_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_left_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_left_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_left_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_right_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_right_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_right_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_right_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_right_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_right_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_right_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_hallway_wall_block_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_hallway_wall_block_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_front_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_front_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_front_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_front_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_front_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_front_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_rear_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_rear_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_rear_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_rear_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_first_floor_inner_wall_block_rear_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_02_rear"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_04_rear"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_side_left"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_side_right"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_front_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_rear_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_rear_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_rear_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_rear_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_left_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_left_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_left_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_right_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_right_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_first_floor_wall_block_right_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_front_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_front_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_front_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_rear_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_rear_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_rear_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_rear_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_rear_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_left_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_left_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_right_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_right_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_second_floor_wall_block_right_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_third_floor_inner_wall_block_front"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_third_floor_inner_wall_block_left"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_third_floor_inner_wall_block_right"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortress_northeast_fortress_third_floor_inner_wall_block_rear"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{Lodclass "concrete"}
+	{placer	 
+		{place "fortress_northeast_first_floor_hallway_00_stair_land"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "fortress_northeast_first_floor_hallway_00_stair_land"}
+			{handlebone "body"}
+		}	 
+		{place "fortress_northeast_first_floor_hallway_01_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "fortress_northeast_first_floor_hallway_01_bunker"}
+			{handlebone "body"}
+		}	 
+		{place "fortress_northeast_second_floor_hallway_01_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "fortress_northeast_second_floor_hallway_01_bunker"}
+			{handlebone "body"}
+		}	 
+		{place "fortress_northeast_second_floor_garage_hallway_01_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "fortress_northeast_second_floor_garage_hallway_01_bunker"}
+			{handlebone "body"}
+		}	 
+		{place "fortress_northeast_second_floor_garage_hallway_02_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "fortress_northeast_second_floor_garage_hallway_02_bunker"}
+			{handlebone "body"}
+		}	
+		{place "fortress_northeast_second_floor_garage_hallway_03_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "fortress_northeast_second_floor_garage_hallway_03_bunker"}
+			{handlebone "body"}
+		}	
+		{place "fortress_northeast_second_floor_bunker_left"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_northeast_second_floor_bunker_left"}
+			{handlebone "body"}
+		}	
+		{place "fortress_northeast_second_floor_bunker_right"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_northeast_second_floor_bunker_right"}
+			{handlebone "body"}
+		}	
+		{place "fortress_northeast_second_floor_bunker_rear"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_northeast_second_floor_bunker_rear"}
+			{handlebone "body"}
+		}	
+		{place "fortress_northeast_second_floor_88mm_flak36_emplacement"
+			{entity "ger_weapon_crate_88mm_flak36_dummy"}
+			{Linkbone "fortress_northeast_second_floor_88mm_flak36_emplacement"}
+			{handlebone "body"}
+		} 
+		{place "fortress_northeast_third_floor_center_emplacement"
+			{entity "ger_weapon_crate_selection_fortress_01"}
+			{Linkbone "fortress_northeast_third_floor_center_emplacement"}
+			{handlebone "body"}
+		}	
+	}		
+;=====================emplacement end=====================	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_block_fortress_roof_stage_dummy"}
+		}
+	}	
+}

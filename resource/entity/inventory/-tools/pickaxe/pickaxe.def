@@ -1,0 +1,14 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "pickaxe.mdl"}
+	{extender "stuff"
+		{item "pickaxe"}
+	}
+	{volume "body"
+		{material "wood"}
+	}
+	{volume "body1" 
+		{able {visible 0} {obstacle 0} {touch}}
+		{thickness 1}
+	}
+}

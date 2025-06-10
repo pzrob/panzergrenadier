@@ -1,0 +1,83 @@
+;Exported by:	 marc-
+;Date:			 26.01.2024 04:57:06
+;File:			 T:\Programs\West\3d_buildings\city props\city_props_textured_export.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position -0.0502 	 -0.2015 	 0}
+			{VolumeView "body.ply"}
+			{bone "body91"
+				{matrix34
+					0 	 -1 	 0
+					0.9962 	 0 	 0.0872
+					-0.0872 	 0 	 0.9962
+					-4.5778 	 0.9976 	 32.4865
+				}
+			}
+		}
+	}
+}
+{obstacle "body89"
+	{obb2
+		{center -0.492737 0.101793}
+		{extent 1.02237 0.993936}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body87"
+	{box 0.225464 9.94005 2.21218}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0.9962 	 0 	 0.0872
+		-0.0872 	 0 	 0.9962
+		-4.0358 	 1.0432 	 31.433
+	}
+}
+{volume "body88"
+	{box 0.225464 7.50704 1.97271}
+	{bone "body"}
+	{Position 0.6758 	 2.8277 	 36.2583}
+}
+{volume "body89"
+	{box 2.04474 1.98787 40.6488}
+	{bone "body"}
+	{Position -0.4426 	 0.0997 	 20.3244}
+}
+{volume "body90"
+	{box 0.225464 11.9529 2.76523}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0.9962 	 -0.0872
+		0 	 0.0872 	 0.9962
+		0.5633 	 4.7614 	 38.7695
+	}
+}
+{volume "body92"
+	{box 0.225464 7.64987 1.98433}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		4.1848 	 0.7857 	 29.3981
+	}
+}
+{volume "body93"
+	{box 0.225464 11.9529 2.76523}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		4.3177 	 1.1147 	 34.0568
+	}
+}

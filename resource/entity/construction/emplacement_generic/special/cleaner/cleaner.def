@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "cleaner.mdl"}
+
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+		{RemoveEntities 1}
+	}
+}

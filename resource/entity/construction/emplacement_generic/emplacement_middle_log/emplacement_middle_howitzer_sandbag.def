@@ -1,0 +1,31 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_middle_howitzer_sandbag.mdl"}
+    {placer	
+	    {place "sandbag_framed_curved_front"
+			{entity "sandbag_framed_curved_indestructible"}
+			{Linkbone "sandbag_framed_curved_front"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_framed_curved_left"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_left"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_framed_curved_right"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_right"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_heap_curved_left"
+			{entity "sandbag_heap_curved_90_indestructible"}
+			{Linkbone "sandbag_heap_curved_left"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_heap_curved_right"
+			{entity "sandbag_heap_curved_270_indestructible"}
+			{Linkbone "sandbag_heap_curved_right"}
+			{handlebone "body"}
+	    }
+    }
+}

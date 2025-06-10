@@ -1,0 +1,79 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-58	 -55.0 7.0 ;x -z y
+		}
+	{bone "bush_00"
+		{matrix34
+			-1 	 -0.1 	 0
+			-0.1	 -1  0
+			0 	 0 	 1
+			70.0	 25.0 	0.0  ;x -z y
+		}
+	}
+	{bone "bush_01"
+		{matrix34
+			 -0.3  1 	 0
+			-1	 -0.3   0
+			0 	 0 	 1
+			20.0	 60.0 	0.0  ;x z y
+		}
+	}
+	{bone "bush_02"
+		{matrix34
+			 -0.3  -1 	 0
+			1	 -0.3   0
+			0 	 0 	 1
+			110.0	 60.0 	0.0  ;x z y
+		}
+	}
+    }
+	{bone "netting_stuff"
+			{matrix34
+			1 	 0 	 0            ;1 	 0 	 0      
+			0	 1   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			0.0  -2.0 	0.0       ;x 	 -z   y
+			}
+	
+	{bone "netting_square"
+			{matrix34
+			0 	 1 	 0            ;1 	 0 	 0      
+			1	 0   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			65.0  80.0 	-22.0     ;x 	 -z   y
+			}
+	}	
+	{bone "netting_square_front"
+			{matrix34
+			0 	 1 	 0            ;1 	 0 	 0      
+			1	 0   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			65.0  -4.0 	-22.0     ;x 	 -z   y
+			}
+	}
+	{bone "netting_square_left"
+			{matrix34
+			1 	 0	 0            ;1 	 0 	 0      
+			0	 1   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			-20.0  80.0 	-22.0     ;x 	 -z   y
+			}
+	}
+	{bone "netting_square_right"
+			{matrix34
+			-1 	 0 	 0            ;1 	 0 	 0      
+			0	 -1   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			147.0  80.0 	-22.0     ;x 	 -z   y
+			}
+	}
+	}
+}
+

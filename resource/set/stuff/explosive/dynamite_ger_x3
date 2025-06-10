@@ -1,0 +1,4 @@
+{from "pattern explosive"
+	{entity "dynamite_ger_x3"}
+	{inventory {size 3 1}}
+}

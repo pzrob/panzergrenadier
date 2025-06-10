@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_light_at_roof_stage_set.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "basic"
+			{entity "emplacement_light_roof_stage_low_set"}
+			{Linkbone "basic"}
+			{handlebone "body"}
+		}
+	}
+}

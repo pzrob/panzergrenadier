@@ -1,0 +1,61 @@
+;Exported by:	 guita
+;Date:			 10.06.2021 23:52:17
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\_military\fortifications\sandbags_new\smart_set\sandbag_framed_curved.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0	 0
+			0	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "mark_stage"
+			{matrix34
+				1 	 0	 0
+				0	 1 	 0
+				0 	 0 	 1
+				0 	 0 	 0
+			}
+			{bone "aa_sandbag_stage"
+				{matrix34
+					1 	 0	 0
+					0	 1 	 0
+					0 	 0 	 1
+					-26 	 0 	 0
+				}
+				{bone "aa_sandbag"
+					{matrix34
+						1 	 0	 0
+						0	 1 	 0
+						0 	 0 	 1
+						0 	 0 	 0
+					}
+				}
+				{bone "aa_sandbag_low"
+					{matrix34
+						1 	 0	 0
+						0	 1 	 0
+						0 	 0 	 1
+						0 	 0 	-2
+					}
+				}
+			}
+			{bone "fieldgun_sandbag_stage"
+				{matrix34
+					1 	 0	 0
+					0	 1 	 0
+					0 	 0 	 1
+					-26 	 0 	 0
+				}
+				{bone "fieldgun_sandbag"
+					{matrix34
+						1 	 0	 0
+						0	 1 	 0
+						0 	 0 	 1
+						0 	 0 	 -5
+					}
+				}
+			}
+		}
+	}
+}

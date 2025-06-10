@@ -1,0 +1,28 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "floor_weapon_crate_01.mdl"}
+	{Volume "floor0"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor1"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor2"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+		{RemoveEntities 1}
+	}
+	{lodclass "decor_medium"}
+}

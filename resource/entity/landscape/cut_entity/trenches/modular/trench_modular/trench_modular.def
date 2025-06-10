@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{extension "trench_modular.mdl"}
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{volume "body"
+		{thickness 40}
+		{able {contact 0}}
+	}
+	{extender "land_patch"
+	}
+}

@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand armor"}
+	{entity "ger_mgun_ammo"}
+	{inventory
+                {link_bone "IK_UpDown"}
+		{size 1 2}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

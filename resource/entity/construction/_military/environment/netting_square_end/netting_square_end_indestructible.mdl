@@ -1,0 +1,45 @@
+;Exported by:	 Carlos
+;Date:			 07.01.2017 18:52:55
+;File:			 C:\Users\Carlos\Documents\3dsmax\scenes\GoH_resources\3d_work\environment\nettings\netting_square2.max
+{skeleton
+	{animation
+		{sequence "start" {speed 0.5}{autostart}}
+	}
+	{bone "plane003"
+		{parameters "commonmesh;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "plane003.ply"}
+	}
+}
+{obstacle "body2"
+	{obb2
+		{center 37.5118 -34.1222}
+		{extent 1.01015 0.841793}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{obstacle "body3"
+	{obb2
+		{center 37.1715 36.9166}
+		{extent 1.01015 0.94281}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body2"
+	{box 2.02031 1.68359 62.9261}
+	{bone "plane003"}
+	{Position 37.5118 	 34.1222 	 30.1496}
+}
+{volume "body3"
+	{box 2.02031 1.88562 58.958}
+	{bone "plane003"}
+	{Position 37.1715 	 -36.9166 	 28.8861}
+}

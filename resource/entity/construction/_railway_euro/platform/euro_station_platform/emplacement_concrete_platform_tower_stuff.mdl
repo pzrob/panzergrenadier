@@ -1,0 +1,37 @@
+;Exported by:	 marc-
+;Date:			 06.05.2024 15:23:38
+;File:			 T:\Programs\GoH_3d_environment_west\3d_environment\train_platforms\export.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "basic_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				-8 	 0 	 0
+			}
+			{bone "door"
+				{matrix34
+					0 	 -1 	 0
+					1	 0	 0
+					0 	 0 	 1
+					-47 	 -10.3 	 24
+				}
+			}
+			{bone "windows_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0	 0	88.8
+				}
+			}
+		}
+	}
+}

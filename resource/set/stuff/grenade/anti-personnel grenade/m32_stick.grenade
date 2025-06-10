@@ -1,0 +1,18 @@
+{from "pattern anti-personnel"
+	{tag "size2"}		; Explosive filling - 0.200kg of TNT
+	{entity "m32_stick"}
+
+	{damage add blastwave
+		{energy 0.70}
+		{area 3 6}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{throw
+		{range 26.7}  ;in-game 28m
+	}
+	{special
+		{PrepareTime 5.5}
+	}
+}
+

@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_75mm_lg40_shell_crate_stage.mdl"}
+	{props  "concrete" "construction" "big" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "ammo_box_01"
+			{entity "ger_75mm_l24_shell_crate"}
+			{Linkbone "ammo_box_01"}
+			{handlebone "body"}
+		}
+		{place "bench_01"
+			{entity "bench_storage_rack_indestructible"}
+			{Linkbone "bench_01"}
+			{handlebone "body"}
+		}
+	}
+}

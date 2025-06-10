@@ -1,0 +1,20 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/construction.inc")
+	("armor_fence_wood")
+	{extension "fence_wooden_planks_roof.mdl"}
+	{props "construction" "wood" "burning" "sand" "sandbag" "jettison_sandbags4"}
+	
+	{volume "plank_01"
+		{Tags "roof"}
+		{thickness 0.2}
+		{able {visible 1}}
+	}
+	{volume "plank_02"
+		{Tags "roof"}
+		{thickness 0.2}
+		{able {visible 1}}
+	}
+	{lodclass "decor_medium"}
+	{obstacleID "trench_wall"}
+}

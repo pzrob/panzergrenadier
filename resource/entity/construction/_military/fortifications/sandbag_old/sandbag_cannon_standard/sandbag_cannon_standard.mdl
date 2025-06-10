@@ -1,0 +1,118 @@
+;Exported by:	 Carlos
+;Date:			 27.04.2017 18:35:36
+;File:			 C:\Users\Carlos\Documents\3dsmax\scenes\GoH_3D_gem_export\3d_environment\_military\fortifications\sandbags_new\sandbags_cannon_std.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position 18.0977 	 3.3028 	 6.6672}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "service_bone"
+				{Position -5.8385 	 -3.7644 	 -6.9777}
+			}
+		}
+	}
+}
+{obstacle "body1"
+	{obb2
+		{center 29.0149 14.9308}
+		{extent 5.45381 14.7619}
+		{axis 0.984823 0.173561}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body2"
+	{obb2
+		{center 29.9477 -13.3467}
+		{extent 14.5433 5.46344}
+		{axis 0.0879049 0.996129}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body3"
+	{obb2
+		{center 22.2581 -37.5407}
+		{extent 13.0277 5.45942}
+		{axis 0.50046 0.86576}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body4"
+	{obb2
+		{center 18.0616 36.8505}
+		{extent 5.45824 14.4163}
+		{axis 0.707388 0.706825}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body5"
+	{obb2
+		{center 10.2889 -51.633}
+		{extent 7.61957 5.77602}
+		{axis 0.766272 0.642516}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body1"
+	{box 10.905 29.5229 15.5558}
+	{bone "body"}
+	{matrix34
+		0.9848 	 -0.1736 	 0
+		0.1736 	 0.9848 	 0
+		0 	 0 	 1
+		10.9172 	 -18.2336 	 0.1107
+	}
+}
+{volume "body2"
+	{box 10.905 29.0783 15.5558}
+	{bone "body"}
+	{matrix34
+		0.9962 	 0.0872 	 0
+		-0.0872 	 0.9962 	 0
+		0 	 0 	 1
+		11.85 	 10.0439 	 0.1107
+	}
+}
+{volume "body3"
+	{box 10.905 26.0496 15.5558}
+	{bone "body"}
+	{matrix34
+		0.866 	 0.5 	 0
+		-0.5 	 0.866 	 0
+		0 	 0 	 1
+		4.1604 	 34.2379 	 0.1107
+	}
+}
+{volume "body4"
+	{box 10.905 28.8283 15.5558}
+	{bone "body"}
+	{matrix34
+		-0.7071 	 0.7071 	 0
+		-0.7071 	 -0.7071 	 0
+		0 	 0 	 1
+		-0.0362 	 -40.1533 	 0.1107
+	}
+}
+{volume "body5"
+	{box 11.5466 15.2351 9.38161}
+	{bone "body"}
+	{matrix34
+		0.6428 	 0.766 	 0
+		-0.766 	 0.6428 	 0
+		0 	 0 	 1
+		-7.8088 	 48.3302 	 -2.9764
+	}
+}

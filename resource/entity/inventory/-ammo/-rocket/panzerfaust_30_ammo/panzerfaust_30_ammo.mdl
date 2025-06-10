@@ -1,0 +1,53 @@
+;Exported by:	 carlos
+;Date:			 19.08.2021 17:52:23
+;File:			 E:\GoH_3D_human_export\3d_weapons\panzerfaust60\new\Panzerfaust30_ammo_export.max
+{skeleton
+	{bone "faustrocket"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "faustrocket.ply"}
+	}
+}
+{volume "body"
+	{box 8.33967 1.74355 1.67821}
+	{bone "faustrocket"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-2.0067 	 -0.0829 	 0.1256
+	}
+}
+{volume "select"
+	{box 10.5299 3.80435 3.83831}
+	{bone "faustrocket"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-2.3079 	 -0.1392 	 -0.1453
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -4.5259 	 -1.6081 	 62.6233}
+			{lookat -1.6611 	 -0.1477 	 3.803}
+			{fov 7.34567}
+			{horizon 63.7989}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0654 	 -0.286 	 -0.4049}
+			}
+			{"1"
+				{type point}
+				{position -1.0963 	 59.0547 	 13.9434}
+			}
+		}
+	}
+}

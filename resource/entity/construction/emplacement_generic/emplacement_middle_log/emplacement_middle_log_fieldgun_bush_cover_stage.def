@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_middle_log_fieldgun_bush_cover_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "bush_00"
+			{entity "emplacement_small_deep_bush_cover_stage"}
+			{Linkbone "bush_00"}
+			{handlebone "body"}
+		}
+		{place "bush_01"
+			{entity "emplacement_small_deep_bush_cover_stage"}
+			{Linkbone "bush_01"}
+			{handlebone "body"}
+		}
+		{place "bush_02"
+			{entity "emplacement_small_deep_bush_cover_stage"}
+			{Linkbone "bush_02"}
+			{handlebone "body"}
+		}
+	}
+}

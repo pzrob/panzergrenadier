@@ -1,0 +1,110 @@
+;Exported by:	 Alexey
+;Date:			 06.02.2017 17:43:05
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_straight_short_v03.max
+{skeleton
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point2"
+			{Position 30.3118 	 -14.3822 	 0.6684}
+		}
+		{bone "point3"
+			{Position -25.3371 	 -12.5111 	 0.6684}
+		}
+		{bone "point1"
+			{Position -27.8236 	 11.8509 	 0.6684}
+		}
+		{bone "point4"
+			{Position 22.2032 	 13.4702 	 0.6684}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex -58.7802 19.3524}
+		{vertex -58.4729 -18.8477}
+		{vertex 55.593 -18.1754}
+		{vertex 55.593 19.413}
+	}
+	{rotate}
+}
+{obstacle "body1"
+	{obb2
+		{center -30.2506 -14.7715}
+		{extent 2.04928 30.9992}
+		{axis 0.0705156 0.997511}
+	}
+	{rotate}
+}
+{obstacle "body2"
+	{obb2
+		{center 26.2073 15.4507}
+		{extent 30.1052 2.0384}
+		{axis 0.999848 0.0174436}
+	}
+	{rotate}
+}
+{obstacle "body3"
+	{obb2
+		{center -29.6619 15.4165}
+		{extent 2.06918 30.0964}
+		{axis 0.0182398 0.999834}
+	}
+	{rotate}
+}
+{obstacle "body4"
+	{obb2
+		{center 26.0689 -15.6891}
+		{extent 31.0015 2.06816}
+		{axis 0.998631 0.0523094}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 61.9882 6.81102 24.9961}
+	{bone "point1"}
+	{matrix34
+		0.9976 	 0.0692 	 0
+		-0.0692 	 0.997 	 -0.0348
+		-0.0024 	 0.0348 	 0.9994
+		-2.427 	 5.9206 	 -11.1258
+	}
+}
+{volume "body2"
+	{box 60.1772 6.81102 24.9961}
+	{bone "point2"}
+	{matrix34
+		-0.9998 	 0.0218 	 0
+		-0.0217 	 -0.9992 	 -0.0348
+		-0.0008 	 -0.0348 	 0.9994
+		-4.1045 	 -4.0686 	 -11.1258
+	}
+}
+{volume "body3"
+	{box 60.1772 6.81102 24.9961}
+	{bone "point3"}
+	{matrix34
+		-0.9998 	 -0.0203 	 0
+		0.0202 	 -0.9992 	 -0.0348
+		0.0007 	 -0.0348 	 0.9994
+		-4.3248 	 -5.9054 	 -11.1258
+	}
+}
+{volume "body4"
+	{box 61.9882 6.81102 24.9961}
+	{bone "point4"}
+	{matrix34
+		0.9987 	 -0.0504 	 0
+		0.0504 	 0.9981 	 -0.0348
+		0.0018 	 0.0348 	 0.9994
+		3.8657 	 5.2189 	 -11.1258
+	}
+}

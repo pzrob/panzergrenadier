@@ -1,0 +1,5 @@
+{from "pattern explosive"
+	{entity "compositionb_x4"}
+	{inventory {size 2 2}}
+	{mass 2}
+}

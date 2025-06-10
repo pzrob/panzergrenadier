@@ -1,0 +1,16 @@
+{from "pattern mortar_ammo"
+	{tag "big mortar pierce he fg 88to105 all_he"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "107mm_usa_mortar_he"}
+	{view "107mm_usa_mortar_he"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 11.11}
+
+	("he_heavy")
+
+	("he_level_3" weight(11.11) filler(3.64))
+
+}

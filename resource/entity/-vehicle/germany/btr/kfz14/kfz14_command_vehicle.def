@@ -1,0 +1,49 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "tank" "wheeled" "vision_lev01" "explosion_throw_crew" "detect_tank_mg" "emplacement_kfz15_trench" "command_vehicle"}
+	{extension "kfz14.mdl"}
+	{extension "crew.ext"}
+	(include "kfz14.ext")
+	{PatherId "kfz15"}
+	{collider "truck"}
+	{targetclass "armoredcar_l"}
+	{targetSelector "tank_bullet"}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+
+		}
+	}
+
+	{Weaponry
+		{place "mgun3"
+			{type "commander"}
+			{weapon "binocular"}
+			{foresight "vision_rot"}
+			{gunner "commander"}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 2100}
+	{Chassis "wheel"
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("mobility_btr"
+			speed(70) ;----------------------------------Max speed.
+			speedatmaxturn(12) ;-------------------------Max speed at max turn.
+			reverse(18) ;--------------------------------Max speed in Reverse.
+			weight(2.1) ;--------------------------------Weight in Tonnes.
+			power(50) ;----------------------------------Horse Power.
+			fuel(50) ;-----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(175) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "commander_rot"
+		{speed2 180}
+	}
+}

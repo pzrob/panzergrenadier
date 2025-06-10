@@ -1,0 +1,20 @@
+;SDL
+
+	; armor notes
+	; tracks 15mm
+
+	;("armoredcar_tier1")
+
+	;("shield_track" args "shield1" 15)
+	("gun_shield" args "gun_shield" 8)
+	("gun_shield" args "gun_shield1" 8)
+	("gun_shield" args "gun_shield2" 8)
+	("gun_shield" args "gun_shield3" 8)
+	("gun_shield" args "gun_shield4" 8)
+	;("wheel" args "wheelright1")
+	;("wheel" args "wheelleft1")
+
+	("gun" repair(30) thickness(8))
+	{volume "gun_shield"
+		{able {holed}}
+	}

@@ -1,0 +1,22 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "wooden_planks_roof_end_02_mgun_bunker.mdl"}
+    {placer
+		{place "planks_01"
+			{entity "wooden_planks_roof_end_01_small"}
+			{Linkbone "planks_01"}
+			{handlebone "body"}
+		}
+		{place "planks_02"
+			{entity "wooden_planks_roof_end_01_small"}
+			{Linkbone "planks_02"}
+			{handlebone "body"}
+		}
+	}	
+}

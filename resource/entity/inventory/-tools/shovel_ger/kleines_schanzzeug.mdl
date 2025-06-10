@@ -1,0 +1,84 @@
+;Exported by:	 User
+;Date:			 30.11.2019 22:54:46
+;File:			 D:\Working (GoH)\Small props\Kleines Schanzzeug\Max\Kleines_Schanzzeug(export) [2015].max
+{skeleton
+	{bone "kleines_schanzzeug"
+		{parameters "id=mgun;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "kleines_schanzzeug.ply"}
+			{VolumeView "kleines_schanzzeug_lod1.ply"}
+			{VolumeView "kleines_schanzzeug_lod2.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 3.16253 10.6179 1.13725}
+	{bone "kleines_schanzzeug"}
+	{matrix34
+		1 	 0 	 0
+		0 	 1 	 -0.0087
+		0 	 0.0087 	 1
+		0.0148 	 0.0181 	 0.0307
+	}
+}
+{volume "select"
+	{box 7.87402 15.748 3.93701}
+	{bone "kleines_schanzzeug"}
+	{matrix34
+		1 	 0 	 0
+		0 	 1 	 -0.0087
+		0 	 0.0087 	 1
+		-0.416 	 0.1591 	 -0.3515
+	}
+}
+{extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin -1.0029 	 -0.3032 	 30.8536}
+			{lookat -0.1414 	 -0.0186 	 -0.3791}
+			{fov 23.9132}
+			{horizon -17.487}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0811 	 -0.4852 	 0.0896}
+			}
+			{"1"
+				{type directional}
+				{direction -0.3878 	 0.0395 	 -0.3131}
+			}
+			{"2"
+				{type directional}
+				{direction 0.3518 	 0.2205 	 -0.2786}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin -1.3168 	 -0.2142 	 25.6592}
+			{lookat -0.141 	 0.0298 	 -0.4358}
+			{fov 23.9132}
+			{horizon -10.9413}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.3518 	 0.2205 	 -0.2786}
+			}
+			{"1"
+				{type directional}
+				{direction -0.3878 	 0.0395 	 -0.3131}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0811 	 -0.4852 	 0.0896}
+			}
+		}
+	}
+}

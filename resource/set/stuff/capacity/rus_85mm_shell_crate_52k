@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands keepEntity"}
+	{entity "rus_85mm_shell_crate_52k"}
+	{inventory
+		{size 4 3}
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 50}
+}

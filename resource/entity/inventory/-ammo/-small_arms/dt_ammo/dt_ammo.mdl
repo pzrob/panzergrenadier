@@ -1,0 +1,50 @@
+;Exported by:	 guita
+;Date:			 11.03.2020 02:26:46
+;File:			 D:\Git\3D_Scenes\GoH_3D_human_export\3d_weapons\dt29\dt_ammo_export.max
+{skeleton
+	{bone "body"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{cylinder 1.70725 0.828008}
+	{bone "body"}
+	{Position 0 	 0 	 0.0068}
+}
+{volume "select"
+	{cylinder 2.09663 1.31074}
+	{bone "body"}
+	{Position 0 	 0 	 0.0375}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.3824 	 0 	 8.7521}
+			{lookat 0 	 0 	 0.0416}
+			{fov 27.4906}
+			{horizon -0.422899}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.8085 	 5.1148 	 3.9656}
+			}
+			{"1"
+				{type directional}
+				{direction -0.1342 	 0.0135 	 -0.4815}
+			}
+			{"2"
+				{type point}
+				{position 5.0988 	 -5.9167 	 -2.7675}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand armor"}
+	{entity "zeltbahn"}
+	{inventory
+                {link_bone "IK_UpDown"}
+		{size 3 4}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

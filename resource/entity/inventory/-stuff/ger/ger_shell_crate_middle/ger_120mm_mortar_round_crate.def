@@ -1,0 +1,34 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_ger_moded.inc")
+	("mortar_rounds_ger_crate_120mm")
+	{props  "inventory_box" "spread_items" "shed" "small" "-wood" "burning" "break_on_burn"}
+	{extension "ger_120mm_mortar_round_crate.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "ger_80mm_mortar_round_crate"}
+	}
+	{Texmod "ger"}
+	{placer
+		{place "shell_01"
+			{entity "120mm_ger_mortar_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "120mm_ger_mortar_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "120mm_ger_mortar_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+	}
+}

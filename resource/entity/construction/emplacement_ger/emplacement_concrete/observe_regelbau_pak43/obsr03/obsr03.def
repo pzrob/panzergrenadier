@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "concrete" "parts" "construction"}
+	("armor_medium" args 1.0)
+		{obstacleID "unbreakable"}
+	{extension "obsr03.mdl"}
+	{volume "body11"
+		{Tags "body"}
+		{thickness 100}
+		{able {Obstacle 0}}
+	}
+	{volume "body12"
+		{Tags "body"}
+		{thickness 100}
+		{able {Obstacle 0}}
+	}
+}

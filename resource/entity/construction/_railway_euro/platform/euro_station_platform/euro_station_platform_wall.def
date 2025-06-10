@@ -1,0 +1,44 @@
+{game_entity
+	(include "/properties/building.inc")
+	{obstacleid "unbreakable"}
+	{props  "concrete" "construction" "ignore_obstacles"}
+	("armor_heavy")
+	{extension "euro_station_platform_wall.mdl"}
+	{Extender "land_patch"
+        {TerrainType "road" "bridge"}
+    }
+	{volume "wall_block_front_top"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}{touch 1}}
+		{Tags "cut"}
+		{thickness 300}
+	}
+	{volume "wall_block_front_base"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_block_front_left"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_block_front_right"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{placer	 
+		{place "windows_01"
+			{entity "f_end_c06_windows_indestructible_closed"}
+			{Linkbone "windows_01"}
+			{handlebone "body"}
+		}	
+		{place "windows_02"
+			{entity "f_end_c06_windows_indestructible_closed"}
+			{Linkbone "windows_02"}
+			{handlebone "body"}
+		}	
+	}	
+	
+}

@@ -1,0 +1,143 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{obstacleID "small_building"}
+	{props "wood" "big" "parts" "construction" "slow_on_crush" "no_scavenge" "tower_wood"}
+	("armor_use_volume_thickness")
+
+	{extension "watch_tower_mgun.mdl"}
+
+	{volume "roof01"
+		{Tags "roof" "fire"}
+		{thickness 2}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body02"
+		{Tags "body" "fire"}
+		{thickness 90}
+		{able {visible 0}}
+	}
+	{volume "body03"
+		{Tags "body" "fire"}
+		{thickness 90}
+		{able {visible 0}}
+	}
+	{volume "body04"
+		{Tags "body" "fire"}
+		{thickness 90}
+		{able {visible 0}}
+	}
+	{volume "body05"
+		{Tags "body" "fire"}
+		{thickness 90}
+		{able {visible 0}}
+	}
+	{volume "body06"
+		{Tags "body" "fire"}
+		{thickness 90}
+		{able {visible 0}{holed}{Obstacle 0}}
+	}
+	{volume "body07"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body08"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body09"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body10"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body11"
+		{Tags "body" "fire"}
+		{thickness 40}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body12"
+		{Tags "body" "fire"}
+		{thickness 40}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body13"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body14"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body15"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body16"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body17"
+		{Tags "body" "fire"}
+		{thickness 40}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "hole1"
+		{able clear {hole}{touch 1}}
+	}
+	{volume "place1"
+		{Tags "attach" "1"}
+		{able clear {touch 1}{Obstacle 0}}
+	}
+	{volume "place2"
+		{Tags "attach" "2"}
+		{able clear {touch 1}{Obstacle 0}}
+	}
+	{volume "place3"
+		{Tags "attach" "3"}
+		{able clear {touch 1}{Obstacle 0}}
+	}
+	{volume "place4"
+		{Tags "attach" "4"}
+		{able clear {touch 1}{Obstacle 0}}
+	}
+
+	{mass 30000}
+
+	{placer
+		{place "sandbag"
+			{entity "sandbag_watchtower_unbreakable"}
+			{Linkbone "sandbag"}
+			{handlebone "body"}
+		}
+	    {place "sandbag_ground"
+			{entity "sandbag_framed_curved_watchtower"}
+			{Linkbone "sandbag_ground"}
+			{handlebone "body"}
+	    }
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "watch_tower_mg42_mgun_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "watch_tower_search_light_ger_stage"}
+		}
+	}
+
+}

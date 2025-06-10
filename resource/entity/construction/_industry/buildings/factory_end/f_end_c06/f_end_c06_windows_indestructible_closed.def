@@ -1,0 +1,36 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	{props  "steel" "-shed" "-construction" "-big" "side_door"}
+	{obstacleID "unbreakable"}
+	;("armor_medium" args 0.7)
+	{extension "f_end_c06_windows.mdl"}
+    {tag "closed"}	
+
+	{volume "door_open_default"
+		{Tags "roof"}
+		{thickness 200}
+		{able {visible 0} {touch 1}}
+		{Tags "cut"}
+		{Tags "door_open_default"}
+	}
+	{volume "door_open"
+		{Tags "roof"}
+		{thickness 200}
+		{able {visible 0} {touch 1}}
+		{Tags "cut"}
+		{Tags "door_open"}
+	}
+	{volume "door_lock"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0} {touch 1}}
+		{Tags "cut"}
+		{Tags "door_lock"}
+	}
+	{volume "switch"
+		{thickness 0}
+		{able {visible 0} {touch 1} {contact 0}}
+		{Tags "cut"}
+		{Tags "door_lock"}
+	}
+}

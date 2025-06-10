@@ -1,0 +1,31 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "stage1"
+		{matrix34
+			0 	-1 	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			8	 22.0 -0.5
+		}
+	
+		{bone "search_light"
+		  {matrix34
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+			17.5	 -15 	 0.0
+		  }
+		}
+		{bone "table_01"
+		{matrix34
+			0.50 	 0 	 0
+			0 	-0.85  0
+			0 	 0 	 0.9
+			16	 -15 	 0.0
+		}
+		}
+    }		
+}
+

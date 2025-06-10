@@ -1,0 +1,44 @@
+;Exported by:	 Usuario
+;Date:			 13.03.2016 18:09:21
+;File:			 C:\Users\Usuario\Documents\3dsMax\autoback\flag_mast_recover.max
+{skeleton
+	{animation
+		{sequence "start" {speed 0.6}{autostart}}
+	}
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "body"
+		{parameters "commonmesh;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "body.ply"}
+	}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.577594 0.378418}
+		{Extent 1.16009 1.2326}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Volume "body"
+	{Box 2.32019 2.4652 143.062}
+	{Bone "body"}
+	{Position 0.5776 	 -0.3784 	 71.531}
+}
+{Volume "fortify"
+	{Box 2.32019 2.4652 143.062}
+	{Bone "body"}
+	{Position 0.5776 	 -0.3784 	 71.531}
+}

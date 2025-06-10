@@ -1,0 +1,20 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{obstacleID "nothing"}
+	{Extension "fact_end_door_2.mdl"}
+	{props  "small" "steel" "parts" "construction" "no_destroyed_stamp"}
+	{Volume "box339"
+		{Tags "body"}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{thickness 5}
+		{able {visible 1}}
+	}
+	{Volume "box340"
+		{Tags "body"}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{thickness 5}
+		{able {visible 1}}
+	}
+}

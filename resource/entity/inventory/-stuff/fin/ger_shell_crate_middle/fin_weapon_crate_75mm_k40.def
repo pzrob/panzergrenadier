@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	(include "/properties/resupply_ger_moded.inc")
+	("shells_ger_crate_75mm_l43")
+	{props "-steel" "-wood" "weapon_crate" "construction"}
+	{extension "fin_weapon_crate_75mm_k40.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+	}
+	{Volume "fortify"
+		{thickness 0}
+		{able {touch}}
+		{Tags "fortify"}
+	}
+}

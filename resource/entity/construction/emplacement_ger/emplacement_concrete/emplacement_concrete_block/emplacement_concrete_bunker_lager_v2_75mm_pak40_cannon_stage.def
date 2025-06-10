@@ -1,0 +1,29 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_concrete_bunker_lager_v2_75mm_pak40_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "75mm_pak40_stat_bunker"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "floor_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "wall_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		
+	}
+}

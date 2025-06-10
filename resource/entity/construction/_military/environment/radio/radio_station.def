@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{ObstacleId "stuff"}
+	{props "steel" "construction" "break_on_burn" "small" "parts" "burning"}
+	("armor_fragile")
+	{lodclass "decor_small"}
+	{extension "radio.mdl"}
+	{volume "body"
+		{thickness 15}
+		{able {visible 0}{obstacle 0}}
+		{tags "body"}
+	}
+}

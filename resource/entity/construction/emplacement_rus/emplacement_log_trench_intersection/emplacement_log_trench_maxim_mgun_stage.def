@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_log_trench_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "maxim_stand_dummy"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "floor_01"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+	}
+}

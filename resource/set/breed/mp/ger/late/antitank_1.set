@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_ver1_44_at_rkt"}
+	{portrait "ger_regular"}
+	{icon "bazooka"}
+	{icon_priority 0}
+	{tags "soldier_pzscheck"}
+	{nationality ger}
+	{armors
+		{head ger_fieldcap_m43}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+		("at_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "panzershreck_54 weapon" filled}
+		{item "panzershreck ammo" 10}
+
+		{item "p38" filled}
+		{item "pistol ammo" 100}
+
+		{item "m24_smoke grenade" 1}
+		{item "m24_geballteladung grenade" 1}
+
+		{item "bandage_ger" 4}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

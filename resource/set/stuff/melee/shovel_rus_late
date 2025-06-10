@@ -1,0 +1,10 @@
+{from "knife_stab"
+	{tag "foxhole foxhole_rus"}
+	{entity "shovel_rus"}
+	{inventory
+		{size 4 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 0.8}
+}

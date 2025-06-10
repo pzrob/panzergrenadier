@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{obstacleID "unbreakable"}
+	{collider "nothing"}
+	(include "/properties/resupply_ger_moded.inc")
+	("shells_ger_crate_88mm_l71")
+	{props  "inventory_box" "spread_items" "shed" "small" "-wood" "burning" "break_on_burn" "weapon_crate"}
+	{extension "ger_88mm_l71_shell_crate.mdl"}
+	{Volume "body"
+		{thickness 200}
+		{Tags "fortify_upgrade_ger"}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "ger_88mm_l71_shell_crate"}
+	}
+}

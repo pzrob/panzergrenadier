@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_wood/watchtower"}
+	{bump "$/_wood/watchtower_bp"}
+	{specular "$/_wood/watchtower_sp"}
+	{color "230 230 230 25"}
+	{blend blend}
+}

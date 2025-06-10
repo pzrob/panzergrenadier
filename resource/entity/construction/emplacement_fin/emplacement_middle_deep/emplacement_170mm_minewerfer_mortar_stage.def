@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_170mm_minewerfer_mortar_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "170mm_minewerfer_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+	}
+}

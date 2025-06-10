@@ -1,0 +1,332 @@
+;Exported by:	 marc-
+;Date:			 14.02.2023 22:06:12
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_fortifications\bunk1.max
+{skeleton
+	{bone "basis"
+		{matrix34
+			0 	 -1 	 0
+			-1 	 0 	 0
+			0 	 0 	 1
+			0 	 0 	 -40 ;z -x y
+		}
+		{bone "land"
+			{parameters "land;rotate;"}
+			{Position -1.8356 	 7.1647 	 29.9422}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+		{bone "foundation"
+		{parameters "land;rotate;"}
+			{matrix34
+				0.9898 	 -0.1376 	 0.0358
+				0.1351 	 0.9888 	 0.0641
+				-0.0442 	 -0.0586 	 0.9973
+				-6.4191 	 12.0719 	 26.883
+			}
+			{VolumeView "foundation.ply"}
+		}
+		{bone "p01"
+			{Position 78.3335 	 16.9157 	 49.6381}
+		}
+		{bone "p02"
+			{Position 1.189 	 -71.3109 	 49.6381}
+		}
+		{bone "p03"
+			{Position -83.441 	 -4.5516 	 49.6381}
+		}
+		{bone "p04"
+			{Position -3.025 	 66.435 	 61.6636}
+		}
+        
+    {bone "stair_stages"
+		{matrix34
+			1.09 	 0	 0
+			0 	 0.4	 0
+			0 	 0 	 0.5
+			0 	 115 	 30 ;x z y
+		}
+    {bone "stair_stage_01"
+		{matrix34
+			0	 1	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			63 	 0 	 0.8 ; -x -z y
+		}
+    {bone "stair_01"
+		{matrix34
+			0 	 -1	 0
+			-1 	 0 	 0
+			0 	 0 	 1
+			38 	 0 	 0 ;z x y
+		}	
+			{bone "stair_land_01"
+				;{parameters "land;ground;"}
+				{Position -0 	0 	 -29.5276}
+				;{visibility 0}
+				;{VolumeView "stair_land.ply" {Ground}}
+			}		
+	}	
+    {bone "stair_02"
+		{matrix34
+			0 	 1	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			-38 	 0 	 0 ;z x y
+		}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+			{bone "stair_land_02"
+				{parameters "land;ground;"}
+				{Position -4.1759 	 8.0721 	 -29.5276}
+				{visibility 0}
+				{VolumeView "stair_land.ply" {Ground}}
+			}			
+	}	
+	}	
+    {bone "stair_stage_02"
+		{matrix34
+			0	 1	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			-65.6 	0 	 0 ;-x -z y
+		}		
+	
+    {bone "stair_03"
+		{matrix34
+			0 	 -1	 0
+			-1 	 0 	 0
+			0 	 0 	 1
+			38 	 0 	 0 ;z x y
+		}	
+			{bone "stair_land_03"
+				;{parameters "land;ground;"}
+				{Position 0 	 0	 -29.5276}
+				;{Position -4.1759 	 8.0721 	 -29.5276}
+				;{visibility 0}
+				;{VolumeView "stair_land.ply" {Ground}}
+			}			
+	}	
+    {bone "stair_04"
+		{matrix34
+			0 	 1	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			-38 	 0 	 0 ;z x y
+		}	
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+			{bone "stair_land_04"
+				{parameters "land;ground;"}
+				{Position -4.1759 	 8.0721 	 -29.5276}
+				{visibility 0}
+				{VolumeView "stair_land.ply" {Ground}}
+			}			
+	}
+	}	
+	}	
+    {bone "cannon"
+		{matrix34
+			0 	 -1	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			-2 	 10 	 35 ;-x -z y
+		}
+	}
+	}
+    {bone "cut_entity"
+		{matrix34
+			1 	 0	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0 ;z x y
+		}
+    {bone "cut_entity_01"
+		{matrix34
+			1 	 0	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0 ;z x y
+		}		
+	}	
+    {bone "cut_entity_02"
+		{matrix34
+			1 	 0	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			7 	 0 	 0 ;z x y
+		}		
+	}	
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex  59.5 -24.0}  ;y x   x0=-1.5
+		{Vertex  19 -68.5}
+		{Vertex  -40 -68.5}
+		{Vertex  -40 68.5}
+		{Vertex  19 68.5}
+		{Vertex  59.5 27.5}
+	}
+	{Rotate}
+}
+{obstacle "body01"
+	{obb2
+		{center  -90.2088 1.22754}
+		{extent 26.9073 -57.0399 }
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body02"
+	{obb2
+		{center -78.5927 98.0497}
+		{extent 38.1697 -10.1076}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body03"
+	{obb2
+		{center -78.4784 -94.428}
+		{extent 38.2839 -10.1076}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body04"
+	{obb2
+		{center 73.7195 3.08627}
+		{extent 28.2776 -34.4883}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body05"
+	{obb2
+		{center 49.1776 -51.353}
+		{extent 49.3181 -25.887}
+		{axis 0.682302 0.73107}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body06"
+	{obb2
+		{center 47.5538 57.002}
+		{extent 25.8848 -49.3169}
+		{axis 0.743393 0.668854}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body07"
+	{obb2
+		{center  -5.77788 79.1336}
+		{extent 34.4883 -25.7097}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body08"
+	{obb2
+		{center -5.77788 82.6946}
+		{extent 34.4883 -25.7098}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body01"
+	{polyhedron "body01.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.9898 	 0.1351 	 -0.0442
+		-0.1376 	 0.9888 	 -0.0586
+		0.0358 	 0.0641 	 0.9973
+		-6.4353 	 75.2392 	 -31.5612
+	}
+}
+{volume "body02"
+	{polyhedron "body02.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.9898 	 0.1351 	 -0.0442
+		-0.1376 	 0.9888 	 -0.0586
+		0.0358 	 0.0641 	 0.9973
+		-102.364 	 62.8025 	 -27.3186
+	}
+}
+{volume "body03"
+	{polyhedron "body03.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.9898 	 0.1351 	 -0.0442
+		-0.1376 	 0.9888 	 -0.0586
+		0.0358 	 0.0641 	 0.9973
+		88.1587 	 88.8095 	 -35.8287
+	}
+}
+{volume "body04"
+	{polyhedron "body04.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.9898 	 0.1351 	 -0.0442
+		-0.1376 	 0.9888 	 -0.0586
+		0.0358 	 0.0641 	 0.9973
+		13.5614 	 -81.9382 	 -22.1755
+	}
+}
+{volume "body05"
+	{polyhedron "body05.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.6307 	 0.7726 	 -0.0723
+		-0.7752 	 0.6316 	 -0.0128
+		0.0358 	 0.0641 	 0.9973
+		50.0343 	 -61.6068 	 -24.7915
+	}
+}
+{volume "body06"
+	{polyhedron "body06.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.8272 	 -0.5619 	 0.0064
+		0.5608 	 0.8247 	 -0.0731
+		0.0358 	 0.0641 	 0.9973
+		-51.2468 	 -53.5785 	 -21.6723
+	}
+}
+{volume "body07"
+	{polyhedron "body07.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.1376 	 0.9888 	 -0.0586
+		-0.9898 	 -0.1351 	 0.0442
+		0.0358 	 0.0641 	 0.9973
+		82.9632 	 3.3913 	 -30.1515
+	}
+}
+{volume "body08"
+	{polyhedron "body08.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.1376 	 -0.9888 	 0.0586
+		0.9898 	 0.1351 	 -0.0442
+		0.0358 	 0.0641 	 0.9973
+		-73.9728 	 -18.031 	 -23.1416
+	}
+}

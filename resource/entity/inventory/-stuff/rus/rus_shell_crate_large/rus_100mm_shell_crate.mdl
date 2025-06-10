@@ -1,0 +1,113 @@
+;Exported by:	 Carlos
+;Date:			 28.08.2017 15:46:47
+;File:			 H:\GoH_3D_gem_export\3d_environment\_military\boxes\crate_pile\wood_crate1_v06.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "box1"
+			{orientation
+				0  	 0.8	 0
+				1	 0 	 0
+				0 	 0 	 1
+			}
+			{LODView
+				{VolumeView "box1.ply"}
+				{VolumeView "box1_lod1.ply"}
+			}
+		}
+		{bone "shells"
+			{matrix34
+				0	 -1 	 -0.02          ;1 	 0 	 0      
+				-1	 0   0          ;1 	 1 	 0 
+				0.02 	 0   1			;0 	 0   1
+				-0.8	 0.000 	 11.24
+			}
+			{bone "shell_01"
+				{matrix34
+					1	 0 	 0          ;1 	 0 	 0      
+					0	 1   0          ;1 	 1 	 0 
+					0 	 0   1			;0 	 0   1
+					0 	 5.000 	0
+				}
+			}
+			{bone "shell_02"
+				{matrix34
+					1	  0	 0.02      ;1 	 0 	 0      
+					0	 1   0          ;1 	 1 	 0 
+					-0.02 	 0   1			;0 	 0   1
+					0 	 1.000 	0.05
+				}
+			}
+			{bone "shell_03"
+				{matrix34
+					1	  0	 0.02     ;1 	 0 	 0      
+					0	 1   0          ;1 	 1 	 0 
+					-0.02 	 0   1			;0 	 0   1
+					0 	 -3.000 	0.05
+				}
+			}	
+			{bone "shell_04"
+				{matrix34
+					1	 0	 0      ;1 	 0 	 0      
+					0	 1   0          ;1 	 1 	 0 
+					0 	 0   1			;0 	 0   1
+					0 	 -7.000 	0
+				}
+			}
+		}
+	}
+}
+{volume "body"
+	{box 35.1779 17.4901 9.88142}
+	{bone "box1"}
+	{Position 0.3141 	 0.9622 	 4.9407}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 10.7075	19.2562	12.5683}
+			{lookat 0.388288	2.47953	1.99089}
+			{fov 68}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 15.3124	26.7492	17.7988}
+			{lookat 0.274618	2.30109	2.38482}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin 10.3205	18.5231	12.3033}
+			{lookat 0.395563	2.38732	2.13006}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+}

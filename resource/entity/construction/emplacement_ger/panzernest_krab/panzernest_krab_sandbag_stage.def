@@ -1,0 +1,32 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "panzernest_krab_sandbag_stage.mdl"}
+    {placer
+		{place "sandbag_01"
+			{entity "sandbag_framed_straight_low_mod"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_framed_straight_low_mod"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_03"
+			{entity "sandbag_one_indestructible"}
+			{Linkbone "sandbag_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_04"
+			{entity "sandbag_one_indestructible"}
+			{Linkbone "sandbag_04"}
+			{handlebone "body"}
+		}
+	}
+}

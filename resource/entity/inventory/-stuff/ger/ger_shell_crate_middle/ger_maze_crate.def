@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	;(include "/properties/resupply_ger_moded.inc")
+	;("mortar_rounds_ger_crate_120mm")
+	{props  "inventory_box" "spread_items" "shed" "small" "-wood" "burning" "break_on_burn"}
+	{extension "ger_120mm_mortar_round_crate.mdl"}
+	{collider "nothing"}
+	
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{Texmod "ger"}
+}

@@ -1,0 +1,125 @@
+;Exported by:	 Alexey
+;Date:			 23.12.2019 09:57:24
+;File:			 K:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_2019\trench_dirt_turn_90-1_v01.max
+{skeleton
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point1"
+			{Position 29.5712 	 -14.7666 	 -3.6693}
+		}
+		{bone "point2"
+			{Position 33.3356 	 17.6209 	 -3.6693}
+		}
+		{bone "point3"
+			{Position -4.8942 	 -3.8069 	 -3.6693}
+		}
+		{bone "point4"
+			{Position -14.7159 	 31.0549 	 -3.6693}
+		}
+		{bone "point5"
+			{Position 15.5769 	 33.5515 	 -3.6693}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex 15.9438 -47.3686}
+		{vertex 47.5107 -16.1969}
+		{vertex 47.5107 16.0754}
+		{vertex 16.8792 16.0754}
+		{vertex 0.509165 11.7101}
+		{vertex -12.2751 1.26444}
+		{vertex -17.1081 -16.041}
+		{vertex -17.1081 -47.2127}
+	}
+	{rotate}
+}
+{obstacle "body1"
+	{obb2
+		{center 29.5712 14.7666}
+		{extent 23.8406 2.04331}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body2"
+	{obb2
+		{center 33.3356 -17.6209}
+		{extent 17.284 2.04331}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body3"
+	{obb2
+		{center -4.89422 3.80685}
+		{extent 17.9945 2.05127}
+		{axis 0.643126 0.76576}
+	}
+	{rotate}
+}
+{obstacle "body4"
+	{obb2
+		{center -14.7159 -31.0549}
+		{extent 2.04331 21.3454}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body5"
+	{obb2
+		{center 15.5769 -33.5515}
+		{extent 2.04331 17.284}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 47.6812 7.08661 24.9961}
+	{bone "point1"}
+	{Position 0 	 0 	 -10.9731}
+}
+{volume "body2"
+	{box 34.5679 7.08661 24.9961}
+	{bone "point2"}
+	{Position 0 	 0 	 -10.9731}
+}
+{volume "body3"
+	{box 35.9859 7.08661 24.9961}
+	{bone "point3"}
+	{matrix34
+		-0.6428 	 0.766 	 0
+		-0.766 	 -0.6428 	 0
+		0 	 0 	 1
+		0 	 0 	 -10.9731
+	}
+}
+{volume "body4"
+	{box 42.6908 7.08661 24.9961}
+	{bone "point4"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 -10.9731
+	}
+}
+{volume "body5"
+	{box 34.5679 7.08661 24.9961}
+	{bone "point5"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 -10.9731
+	}
+}

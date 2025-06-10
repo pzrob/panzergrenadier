@@ -1,0 +1,82 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+
+	{extension "browning_m2_tower.mdl"}
+	{props "vision_lev00_can" "cannon_sandbag_standard" "muzzle_hmg_dshk" "detect_cannon_aa" "maxim_" "c_mg_heavy"}
+	{targetclass "cannon_bullet"}
+	{targetSelector "cannon_zenite"}
+
+	
+
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_dshk_aa_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_dshk_aa_commander"}}
+		}
+	}
+
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+	
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "" ""}
+			;{fire "mg_maxim_gunner_fire" "mg_maxim_commander_fire"}
+			{aim "mg_dshk_aa_gunner_aim" "mg_dshk_aa_commander_aim"}
+			{reload "mg_dshk_aa_gunner_reload" "mg_dshk_aa_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo hmgun_usa" 500}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{weapon "browning_m2" filled}
+			{charger "gunner"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 157000}
+	{Chassis
+		("mobility_cannon"
+			speed(10.2) ;--------------------------------Max speed.
+			weight(157000) ;--------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 30}
+	}
+	{bone "gun_rot"
+		{limits -15 45}
+		{speed2 60}
+	}
+	{bone "turret"
+		{limits -45 45}
+		{speed2 60}
+	}
+}

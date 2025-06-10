@@ -1,0 +1,22 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{extension "bench.mdl"}
+	{volume "body1"
+		{Tags "fire" "climb"}
+		{thickness 20}
+		{able {visible 0}{touch 1}}
+	}
+	{volume "body2"
+		{Tags "fire"}
+		{thickness 30}
+		{able {visible 0}}
+	}
+	{volume "body3"
+		{Tags "fire"}
+		{thickness 30}
+		{able {visible 0}}
+	}
+}

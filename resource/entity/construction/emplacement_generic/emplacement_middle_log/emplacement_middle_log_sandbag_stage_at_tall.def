@@ -1,0 +1,26 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_middle_log_sandbag_stage_at_tall.mdl"}
+    {placer
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_03"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_04"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_04"}
+			{handlebone "body"}
+		}
+	}
+}

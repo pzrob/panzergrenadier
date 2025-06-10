@@ -1,0 +1,9 @@
+{from "browning_m19a4"
+	{filling "mgun_usa" 100}
+	{entity "browning_m19a6"}
+
+	{mass 15}
+
+	("burst_long")
+	("spreading_low")
+}

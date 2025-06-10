@@ -1,0 +1,13 @@
+;_________________________________________
+; Finnish(russian) light Mortar - 50mm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarrus_50"}
+	{fireSound "cannon/s1/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s1/d1/Shared/Mortar/"}
+	{calibre 50}
+	("light_mortar_range")
+	("reload time" seconds(2.6))
+}

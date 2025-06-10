@@ -1,0 +1,25 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "sand" "sandbag" "construction" "onestage" "jettison_sandbags3"}
+
+	{extension "sandbag_watchtower.mdl"}
+	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Lodclass "concrete"}
+	{volume "body1"
+		{Tags "body"}
+		{thickness 60}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body2"
+		{Tags "body"}
+		{thickness 60}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body3"
+		{Tags "body"}
+		{thickness 60}
+		{able {visible 0}{Obstacle 0}}
+	}
+}

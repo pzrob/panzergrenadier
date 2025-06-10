@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_ver2_44_volksg_mg_1"}
+	{portrait "ger_volksgrenadier"}
+	{icon "mg"}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+	    {body ger_mgun_ammo}
+		{head ger_stalhelm_m43_cover_ital}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mg42_belt" filling "mgun_ger belt ammo" 100}
+		{item "mgun_ger belt ammo" 600}
+
+		{item "m24_splinter grenade" 2}
+		{item "m24_smoke grenade" 2}
+		{item "m24_geballteladung grenade" 2}
+		{item "pwm_l grenade" 2}
+
+		{item "bandage_ger" 5}
+		{item "ger_m43_cap_camo"}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

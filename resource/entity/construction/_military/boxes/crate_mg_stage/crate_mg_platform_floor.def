@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "-wood" "burning"} 
+	("armor_heavy" args 0.8)
+
+	{Extension "crate_mg_platform_floor.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+	}
+	{Volume "body"
+		{able {obstacle 0}{visible 0}}
+		{Tags "body" "fire"}
+		{thickness 8}
+	}	
+	{lodclass "decor_medium"}
+}

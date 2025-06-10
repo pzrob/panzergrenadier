@@ -1,0 +1,268 @@
+;Exported by: caps
+;Date:        Fri Jul  5 09:46:56 2019
+;File:        F:\!_Work\tank_cover\3D\tank_cover_03.max
+{Skeleton
+	{bone "basic"
+		{matrix34
+			-1	0	0
+			0	-1	0
+			0	0	1
+			8   1	0
+		}
+	{bone "tank_cover"
+		{parameters "CommonMesh;Ground;Land;Align;"}
+		{matrix34
+			0	1	0
+			1	0	0
+			0	0	1
+			0 0	0  ;-52 0	0
+		}
+		{VolumeView "tank_cover.ply" {Ground}}
+    }
+	{bone "household"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0   0	0
+		}
+ 	{bone "tank"
+		{matrix34
+			-1.0	0	0
+			0	1	0
+			0	0	1
+			-20   0	-8
+		} 
+	}
+ 	{bone "flag"
+		{matrix34
+			0	-1	0
+			-1	0	0
+			0	0	1
+			-92   -40	79
+		} 
+	}
+ 	{bone "crate_01"
+		{matrix34
+			-1  0	0
+			0	1	0
+			0	0	1
+			60   0	-11.5
+		} 
+	}
+
+ 	{bone "generator"
+		{matrix34
+			0	1	0
+			1	0	0
+			0	0	1
+			100   0	-10
+		} 
+	}
+ 	{bone "gate_stage"
+		{matrix34
+			1.0	0	0
+			0	1	0
+			0	0	1
+			-103   0	-4
+		} 
+ 	{bone "gate"
+		{matrix34
+			0	1	0
+			1	0	0
+			0	0	1
+			0   0	0
+		}
+	} 
+ 	{bone "gate_left"
+		{matrix34
+			-1	0.26	0
+			-0.26	1	0
+			0	0	1
+			-24   61	4 ;-z -x y -24   61	4
+		}
+	} 
+ 	{bone "gate_right"
+		{matrix34
+			-1	0.26	0
+			-0.26	1	0
+			0	0	1
+			-24   -60	4 ;-z -x y -24   61	4
+		}
+	}
+	} 
+ 	{bone "5t_kran"
+		{matrix34
+			1	0	0
+			0	-1.3	0
+			0	0	1
+			0   0	-10
+		} 
+	} 
+ 	{bone "wall_stage"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0   0	0
+		} 
+ 	{bone "wall_01"
+		{matrix34
+			0.4	0	0
+			0	-1	0
+			0	0	0.5
+			10   65	-20
+		}  		
+    } 
+ 	{bone "wall_02"
+		{matrix34
+			-0.4	0	0
+			0	1	0
+			0	0	0.5
+			10   -65	-20 ;-z -x y
+		}  		
+    } 
+ 	{bone "wall_03"
+		{matrix34
+			0	0.25	0
+			1	0	0
+			0	0	0.5
+			120   0	-20 ;-z -x y
+		}  		
+    }
+    }
+ 	{bone "pillar_stage"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1.3
+			0   0	-4.3
+		} 
+ 	{bone "pillar_01"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			-100   68	0 ;-z -x y
+		}  		
+    } 
+ 	{bone "pillar_02"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			-100   -68	0 ;-z -x y
+		}  		
+    } 
+ 	{bone "pillar_03"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			120   -68	0 ;-z -x y
+		}  		
+    } 
+ 	{bone "pillar_04"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			120   68	0 ;-z -x y
+		}  		
+    }
+    }
+ 	{bone "roof_stage"
+		{matrix34
+			1.03	0	0
+			0	1	0
+			0	0	1
+			13   0	60
+		} 
+ 	{bone "roof_exterior01"  ;fh_exterior01
+		{matrix34
+			0	0.24	0
+			0.52	0	0
+			0	0	0.5
+			0   0	0
+		}  		
+    } 
+ 	{bone "roof_top"  ;fh_exterior01
+		{matrix34
+			0	0.72	0
+			1.13	-0	0
+			0	0	0.55
+			-1   0	32
+		}  		
+    }
+    }
+    }
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex  -98.727 36.2535}
+		{Vertex  -94.337 56.2579}
+		{Vertex  -72.3617 68.6462}
+		{Vertex  94.91 67.0021}
+		{Vertex  108.018 56.6466}
+		{Vertex  109.471 13.1672}
+		{Vertex  109.289 -50.0574}
+		{Vertex  99.3802 -62.9586}
+		{Vertex  54.8046 -71.3892}
+		{Vertex  -57.0545 -69.9286}
+		{Vertex  -88.3154 -64.3602}
+		{Vertex  -99.207 -37.0669}
+	}
+	{Rotate}
+}
+{volume "body" ;l/r , f/b, height
+	{box 200 260 30}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		0 5 15
+	}
+}
+{##volume "body1" ;l/r , f/b, height
+	{box 10 220 27}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		75 10 0
+	}
+}
+{##volume "body2" ;l/r , f/b, height
+	{box 10 220 27}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		-75 10 0
+	}
+}
+{##volume "body3" ;l/r , f/b, height
+	{box 140 10 27}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		0 115 0
+	}
+}
+{##volume "body4" ;l/r , f/b, height
+	{box 140 10 15}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		0 -115 0
+	}
+}

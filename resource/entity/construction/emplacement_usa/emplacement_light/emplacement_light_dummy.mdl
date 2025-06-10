@@ -1,0 +1,21 @@
+;Exported by:	 guita
+;Date:			 04.03.2020 13:36:52
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\foxholes\mg_foxhole\revamp_mg_foxhole_simple.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "foxhole"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "foxhole.ply"}
+	}
+	}
+}

@@ -1,0 +1,49 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "inventory_box" "spread_items" "big" "-wood"}  
+	("armor_heavy" args 0.8)
+	{extension "fin_crates_04.mdl"}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}
+		}
+	}
+
+	{volume "body01"
+		{Tags "body" " fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{volume "body02"
+		{Tags "body" " fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{volume "body03"
+		{Tags "body" " fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{volume "body04"
+		{Tags "body" " fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{volume "body05"
+		{Tags "body" " fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{volume "body06"
+		{Tags "body" " fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+}

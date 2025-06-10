@@ -1,0 +1,16 @@
+{
+	(include "tobruk.inc")
+	{extension "tobruk.mdl"}
+	{volume "place01"
+		{Tags "attach" "1"}
+		{able clear {touch 1}}
+	}
+	{placer
+		{place "1" {attach snipe_cover} {linkbone "attach1"}}
+	}
+	{Boarder
+		{door "attach1" {queue 0}}
+		{link "attach1" 	"1"}
+		{link "1" 		"attach1"}
+	}
+}

@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo 150mm_nebelwerfer"}
+	}
+	{extension "150mm_nebelwerfer.mdl"}
+	{constrain none}
+	{fogable never}
+	(include "/properties/shadow/round.inc")
+}

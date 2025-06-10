@@ -1,0 +1,151 @@
+;Exported by:	 Tomi
+;Date:			 27.11.2020 18:43:23
+;File:			 D:\!WORK\BarbedWire Studios\Models\Factory_Felújítás\factory_end\factory_end_new\2015\factory_end_export01.max
+{skeleton
+	{bone "base"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "base.ply"}
+		{bone "p03"
+			{Position -178.398 	 -1.9641 	 164.771}
+		}
+		{bone "p04"
+			{Position 0.0977 	 -1.9641 	 164.771}
+		}
+		{bone "p05"
+			{Position 176.146 	 -1.9641 	 164.771}
+		}
+		{bone "p02"
+			{Position 171.365 	 -1.9644 	 52.4021}
+		}
+		{bone "p01"
+			{Position 0.7655 	 -1.9644 	 55.3673}
+		}
+		{bone "p06"
+			{Position -191.941 	 -12.2118 	 21.8344}
+		}
+		{bone "p07"
+			{Position -152.026 	 -10.2518 	 21.8344}
+		}
+	}
+}
+{obstacle "body01"
+	{obb2
+		{center -230.305 1.88593}
+		{extent 35.5391 5.41023}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body02"
+	{obb2
+		{center 59.2565 1.88593}
+		{extent 205.395 5.41023}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body27"
+	{obb2
+		{center -88.0751 -0.0733719}
+		{extent 7.911 8.87049}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "body28"
+	{obb2
+		{center 86.5714 -0.0733719}
+		{extent 7.911 8.87049}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body01"
+	{box 71.0782 10.8205 136.535}
+	{bone "base"}
+	{Position -230.305 	 -1.8859 	 67.8537}
+}
+{volume "body02"
+	{box 410.791 10.8205 6.82675}
+	{bone "base"}
+	{Position 59.2565 	 -1.8859 	 1.9326}
+}
+{volume "body03"
+	{polyhedron "body03.vol"}
+	{bone "base"}
+	{Position -235.184 	 -1.8859 	 142.411}
+}
+{volume "body04"
+	{polyhedron "body04.vol"}
+	{bone "base"}
+	{Position -251.826 	 -1.8859 	 173.152}
+}
+{volume "body05"
+	{polyhedron "body05.vol"}
+	{bone "base"}
+	{Position -92.9185 	 -1.8859 	 70.4198}
+}
+{volume "body06"
+	{polyhedron "body06.vol"}
+	{bone "base"}
+	{Position 83.6875 	 -1.8851 	 101.435}
+}
+{volume "body07"
+	{polyhedron "body07.vol"}
+	{bone "base"}
+	{Position 242.09 	 -1.8842 	 101.173}
+}
+{volume "body08"
+	{polyhedron "body08.vol"}
+	{bone "base"}
+	{Position -88.7251 	 -1.8859 	 165.925}
+}
+{volume "body09"
+	{polyhedron "body09.vol"}
+	{bone "base"}
+	{Position -170.115 	 -1.8859 	 89.6505}
+}
+{volume "body10"
+	{polyhedron "body10.vol"}
+	{bone "base"}
+	{Position 1.4268 	 -1.8859 	 124.806}
+}
+{volume "body11"
+	{polyhedron "body11.vol"}
+	{bone "base"}
+	{Position 171.879 	 -1.8859 	 131.822}
+}
+{volume "body15"
+	{polyhedron "body15.vol"}
+	{bone "base"}
+	{Position 1.4268 	 -1.8859 	 48.2026}
+}
+{volume "body16"
+	{polyhedron "body16.vol"}
+	{bone "base"}
+	{Position 171.914 	 -1.8859 	 47.586}
+}
+{volume "body27"
+	{box 15.822 17.741 206.133}
+	{bone "base"}
+	{Position -88.0751 	 0.0734 	 101.345}
+}
+{volume "body28"
+	{box 15.822 17.741 206.133}
+	{bone "base"}
+	{Position 86.5714 	 0.0734 	 101.345}
+}
+{volume "hole04"
+	{polyhedron "hole04.vol"}
+	{bone "base"}
+	{Position 1.5587 	 -1.8859 	 52.4285}
+}
+{volume "hole05"
+	{polyhedron "hole05.vol"}
+	{bone "base"}
+	{Position 172.562 	 -1.8859 	 50.7904}
+}

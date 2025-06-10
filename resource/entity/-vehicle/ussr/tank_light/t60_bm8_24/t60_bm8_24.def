@@ -1,0 +1,92 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "light" "vision_lev03" "katusha" "rocket" "tractor" "tractor_medium" "detect_tank_light" "artillery_minimap_medium" "captor" "emplacement_tank_trench_panzer1f"}
+    {tag "emplacement_tank_trench_light"}
+	{Extension "t60_bm8_24.mdl"}
+	(include "t60_bm8_24.ext")
+	{targetclass "tank_light"}
+	{targetSelector "rocket"}
+	{PatherID "t60"}
+	{collider "tank.light"}
+
+	("crew_2_human")
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_LowArmor"} {end "seat_armor"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_LowArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat0) bone(seat00) door(emit3) animation(armor1))
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor1))
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "ammo 82mm_bm8" 48}		;3 salvos (24 rockets each) (72 total)
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		{place "gun"
+			{weapon "weapon 82mm_bm8_24" filled}
+			{Barrels 24}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{StationaryFiring}
+			("abm_dymamic_rocket"
+				zeroing(10.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+			{rotate}
+		}
+	}
+
+	{mass 5800}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.64))
+		("mobility_tank"
+			speed(45) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(15) ;--------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(5.8) ;--------Weight in Tonnes.
+			power(70) ;----------Engine Power, in hp.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(307) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(300) ;---------Range in km, off-road.
+		)
+		{DisableMoveWhileFiring}
+	}
+
+	{bone "gun_rot"
+		{limits -3 40}
+		{speed2 5}
+	}
+	{bone "turret"
+		{limits -6 6}
+		{speed2 5}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

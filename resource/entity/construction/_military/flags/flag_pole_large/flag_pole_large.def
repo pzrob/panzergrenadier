@@ -1,0 +1,14 @@
+{game_entity
+    (include "/properties/post.inc")
+	{Extension "flag_pole_large2.mdl"}
+	{props "steel" "flag"}
+
+	{Volume "body"
+		{thickness 5}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+}

@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo mp40"}
+	}
+	{Volume "body"
+		{thickness 4}
+	}
+	{extension "mp40_ammo.mdl"}
+	{nogroupmesh 1}
+}

@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_luft_39_flakman_rifle"}
+	{portrait "ger_luftwaffe"}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "crew"}
+	{nationality ger}
+	{armors
+		{head ger_fieldcap_m43_luft_var1}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+		("skilled_repair")
+		("expert_gun")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "k98" filled}
+		{item "rifle_ger clip ammo" 35 5}
+
+		{item "bandage_ger" 1.5 0.5}
+		{item "ger_stalhelm_lw_var2"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{props "-collectable" "-stuff"}
+	{extension "lamp_kerosene.mdl"}
+	{extender "stuff"
+		{item "lamp"}
+	}
+}

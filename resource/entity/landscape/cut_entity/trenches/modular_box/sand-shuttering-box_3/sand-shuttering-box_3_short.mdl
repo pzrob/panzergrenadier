@@ -1,0 +1,25 @@
+;Exported by:	 guita
+;Date:			 03.10.2024 12:08:01
+;File:			 G:\SVN\Working Resources\GatesOfHell\GoH_3d_environment_ostfront\3d_landscape\cut_entity\trenches\box-trench\boxtrench.max
+{skeleton
+	{bone "box_3"
+		{orientation
+			0.4 0 	 0
+			0 	 -0.8  0
+			0 	 0 	 0.4
+		}
+		{VolumeView "box_3.ply"}
+		{bone "land"
+			{parameters "land;rotate;"}
+			{Position -4.2525 	 -3.1726 	 2.5869}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+	}
+}
+{volume "body1"
+	{box 41.6963 19.7688 43}
+	;{box 41.6963 19.7688 39.3701}
+	{bone "box_3"}
+	{Position 0.224 	 -2.6438 	 -7.1966}
+}

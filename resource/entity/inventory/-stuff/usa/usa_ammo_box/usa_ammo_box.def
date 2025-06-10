@@ -1,0 +1,12 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	(include "/properties/resupply_us_moded.inc")
+	("usa_ammo_box")
+	{Extension "usa_mg_box_ammo.mdl"}
+	{Volume "body"
+		{thickness 5}
+	}
+	{extender "stuff"
+		{item "usa_ammo_box"}
+	}
+}

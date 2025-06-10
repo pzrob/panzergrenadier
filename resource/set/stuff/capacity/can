@@ -1,0 +1,11 @@
+{item	;// Jerry Can (20L)
+	{tag "capacity itemin1hand"}
+	{filling "liquid" 20}
+	{entity "can"}
+	{inventory
+		{weight 100}
+		{size 3 3}
+		{fsm "stuff"}
+	}
+	{mass 4.5} ;// empty weight
+}

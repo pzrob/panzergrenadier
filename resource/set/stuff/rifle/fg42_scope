@@ -1,0 +1,6 @@
+{from "fg42"
+	{entity "fg42_scoped"}
+
+	("accuracy_rifle")
+	("scopeview" scope(zoom_vignette_scope_ger_k98))
+}

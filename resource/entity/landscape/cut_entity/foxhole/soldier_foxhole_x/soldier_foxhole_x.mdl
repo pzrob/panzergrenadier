@@ -1,0 +1,294 @@
+;Exported by:	 Carlos
+;Date:			 05.01.2021 00:57:41
+;File:			 T:\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\foxholes\soldier_foxhole\soldier_foxhole_v2_x.max
+{skeleton
+	{bone "inside"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "inside.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "01"
+			{Position -0.2969 	 0.1488 	 -11.8228}
+		}
+		{bone "piece01"
+			{parameters "id=body;"}
+			{matrix34
+				0.9715 	 -0.0365 	 0.2341
+				0.137 	 0.8926 	 -0.4296
+				-0.1932 	 0.4495 	 0.8721
+				-9.0844 	 23.9768 	 3.5393
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{parameters "id=body;"}
+			{matrix34
+				0.8072 	 -0.3487 	 -0.4762
+				0.4291 	 0.9007 	 0.0677
+				0.4054 	 -0.259 	 0.8767
+				29.0158 	 -11.4339 	 4.5306
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{parameters "id=body;"}
+			{matrix34
+				0.9526 	 -0.1374 	 -0.2713
+				0.2294 	 0.9105 	 0.3441
+				0.1997 	 -0.3901 	 0.8989
+				14.6295 	 -23.6285 	 3.3071
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece04"
+			{parameters "id=body;"}
+			{matrix34
+				0.8959 	 -0.3424 	 -0.2833
+				0.2887 	 0.9331 	 -0.2145
+				0.3377 	 0.1104 	 0.9347
+				32.8711 	 6.6378 	 4.2021
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{parameters "id=body;"}
+			{matrix34
+				0.7651 	 0.4819 	 -0.4271
+				-0.5441 	 0.8386 	 -0.0284
+				0.3444 	 0.2541 	 0.9038
+				26.1005 	 22.2834 	 2.6621
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece06"
+			{parameters "id=body;"}
+			{matrix34
+				0.6573 	 0.6614 	 0.3613
+				-0.6396 	 0.7431 	 -0.1968
+				-0.3986 	 -0.1017 	 0.9115
+				-26.8667 	 13.4892 	 4.0773
+			}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece07"
+			{parameters "id=body;"}
+			{matrix34
+				0.6424 	 -0.7482 	 -0.1658
+				0.7656 	 0.6171 	 0.1818
+				-0.0337 	 -0.2437 	 0.9693
+				-19.3443 	 -18.734 	 6.6245
+			}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece08"
+			{parameters "id=body;"}
+			{matrix34
+				0.975 	 0.0449 	 -0.2174
+				-0.0826 	 0.9824 	 -0.1675
+				0.2061 	 0.1812 	 0.9616
+				27.6875 	 17.6046 	 7.4981
+			}
+			{VolumeView "piece08.ply"}
+		}
+		{bone "piece09"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0
+				0 	 0.9483 	 0.3173
+				0 	 -0.3173 	 0.9483
+				24.7877 	 -4.9945 	 9.93
+			}
+			{VolumeView "piece09.ply"}
+		}
+		{bone "piece10"
+			{parameters "id=body;"}
+			{Position 25.0244 	 -1.9722 	 5.5269}
+			{VolumeView "piece10.ply"}
+		}
+		{bone "piece11"
+			{parameters "id=body;"}
+			{matrix34
+				-0.8814 	 -0.38 	 0.2808
+				0.3946 	 -0.9189 	 -0.0049
+				0.2599 	 0.1065 	 0.9598
+				28.5229 	 1.1625 	 7.727
+			}
+			{VolumeView "piece11.ply"}
+		}
+		{bone "piece12"
+			{parameters "id=body;"}
+			{matrix34
+				-0.64 	 0.7153 	 0.2808
+				-0.7462 	 -0.6657 	 -0.0049
+				0.1834 	 -0.2126 	 0.9598
+				21.6913 	 -18.6942 	 7.5932
+			}
+			{VolumeView "piece12.ply"}
+		}
+		{bone "piece13"
+			{parameters "id=body;"}
+			{matrix34
+				0.9613 	 -0.1077 	 0.2537
+				0 	 0.9205 	 0.3907
+				-0.2756 	 -0.3756 	 0.8848
+				-6.5814 	 -23.5975 	 5.1099
+			}
+			{VolumeView "piece13.ply"}
+		}
+		{bone "fx_sandbag1"
+			{Position 27.0357 	 0.5594 	 6.8862}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex 5.10065 -19.6583}
+		{vertex 20.3109 -15.9321}
+		{vertex 24.1134 -2.33144}
+		{vertex 22.4838 9.03349}
+		{vertex 14.1543 17.4175}
+		{vertex 0.392708 20.5847}
+		{vertex -12.6446 16.6722}
+		{vertex -22.9659 10.5239}
+		{vertex -24.7766 -1.77254}
+		{vertex -20.2497 -14.628}
+		{vertex -8.66098 -19.2857}
+	}
+	{rotate}
+}
+{volume "piece01"
+	{box 13.1735 9.41246 3.71524}
+	{bone "piece01"}
+	{matrix34
+		0.866 	 0.5 	 0
+		-0.5 	 0.866 	 0
+		0 	 0 	 1
+		-0.1824 	 -0.3257 	 0.202
+	}
+}
+{volume "piece02"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece02"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0.0272 	 0.5759 	 0.0402
+	}
+}
+{volume "piece03"
+	{box 13.1735 9.41246 3.71524}
+	{bone "piece03"}
+	{matrix34
+		0.766 	 0.6428 	 0
+		-0.6428 	 0.766 	 0
+		0 	 0 	 1
+		-0.1776 	 -0.0317 	 0.0042
+	}
+}
+{volume "piece04"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece04"}
+	{matrix34
+		-0.6428 	 0.766 	 0
+		-0.766 	 -0.6428 	 0
+		0 	 0 	 1
+		0.1404 	 -0.4123 	 0.0322
+	}
+}
+{volume "piece05"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece05"}
+	{matrix34
+		-0.1736 	 0.9848 	 0
+		-0.9848 	 -0.1736 	 0
+		0 	 0 	 1
+		0.0513 	 -0.3495 	 0.1122
+	}
+}
+{volume "piece06"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece06"}
+	{matrix34
+		-0.766 	 0.6428 	 0
+		-0.6428 	 -0.766 	 0
+		0 	 0 	 1
+		-0.6694 	 0.008 	 -0.2926
+	}
+}
+{volume "piece07"
+	{box 13.1735 9.41246 3.71524}
+	{bone "piece07"}
+	{matrix34
+		0.8192 	 0.5736 	 0
+		-0.5736 	 0.8192 	 0
+		0 	 0 	 1
+		-0.2465 	 0.0118 	 -0.0332
+	}
+}
+{volume "piece08"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece08"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0811 	 0.1079 	 0.1777
+	}
+}
+{volume "piece09"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece09"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0.1876 	 0.0966 	 0.3999
+	}
+}
+{volume "piece10"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece10"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0056 	 -0.1369 	 0.062
+	}
+}
+{volume "piece11"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece11"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0056 	 -0.1369 	 0.062
+	}
+}
+{volume "piece12"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece12"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0056 	 -0.1369 	 0.062
+	}
+}
+{volume "piece13"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece13"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0811 	 0.1079 	 0.1777
+	}
+}

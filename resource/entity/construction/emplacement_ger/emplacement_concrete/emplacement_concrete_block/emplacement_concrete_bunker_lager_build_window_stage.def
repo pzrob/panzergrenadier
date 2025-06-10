@@ -1,0 +1,54 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_concrete_bunker_lager_build_window_stage.mdl"}
+	{props "cornered" "concrete" "construction" "wall" "parts"}
+	{obstacleID "unbreakable"}
+	("armor_heavy")
+	{placer
+		{place "window_01_shield_01"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_01_shield_01"}
+			{handlebone "body"}
+		}
+		{place "window_01_shield_02"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_01_shield_02"}
+			{handlebone "body"}
+		}
+		{place "window_01_shield_03"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_01_shield_03"}
+			{handlebone "body"}
+		}
+		{place "window_02_shield_01"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_02_shield_01"}
+			{handlebone "body"}
+		}
+		{place "window_02_shield_02"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_02_shield_02"}
+			{handlebone "body"}
+		}
+		{place "window_02_shield_03"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_02_shield_03"}
+			{handlebone "body"}
+		}
+		{place "window_03_shield_01"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_03_shield_01"}
+			{handlebone "body"}
+		}
+		{place "window_03_shield_02"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_03_shield_02"}
+			{handlebone "body"}
+		}
+		{place "window_03_shield_03"
+			{entity "concrete_block_pillar_02_no_vis"}
+			{Linkbone "window_03_shield_03"}
+			{handlebone "body"}
+		}
+	}
+}

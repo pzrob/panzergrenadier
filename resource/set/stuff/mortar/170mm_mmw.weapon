@@ -1,0 +1,18 @@
+;_________________________________________
+; German Heavy Mine Thrower - 17cm minenwerfer
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarfin_170"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s3/d1/Shared/Mortar/"}
+	{calibre 170}
+
+	("super_heavy_mortar_range")
+	("reload time" seconds(30))
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+}

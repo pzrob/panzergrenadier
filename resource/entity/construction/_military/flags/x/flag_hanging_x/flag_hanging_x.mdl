@@ -1,0 +1,14 @@
+;Exported by:	 Usuario
+;Date:			 13.03.2016 14:18:48
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\Entourage\flags\flag_hang\window_flag_x.max
+{skeleton
+	{bone "flag"
+		{parameters "commonmesh;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "flag.ply"}
+	}
+}

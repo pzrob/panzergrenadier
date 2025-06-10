@@ -1,0 +1,134 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0            ;1 	 0 	 0      
+			0	 1   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			0    0   0       	  ;x 	 -z   y
+		}
+		{bone "basis"
+			{matrix34
+				1 	 0 	 0            ;1 	 0 	 0      
+				0	 -1  0            ;1 	 1 	 0 
+				0 	 0   1			  ;0 	 0   1
+				0    0 	 0       ;x 	 -z   y
+			}
+			{bone "roof_stage"
+				{matrix34
+					1.16 	 0 	 0            ;1 	 0 	 0      
+					0	 1.02   0            ;1 	 1 	 0 
+					0 	 0   1.0			  ;0 	 0   1
+					0.0  0.0 	-9.0       ;-z 	 x   y
+				}		
+			}
+			{bone "pillers_stage"
+				{matrix34
+					1 	 0 	 0            ;1 	 0 	 0      
+					0	 1   0            ;1 	 1 	 0 
+					0 	 0   1.0			  ;0 	 0   1
+					0.0  0.0 	7.0       ;x 	 -z   y
+				}
+				{bone "piller_01"
+					{matrix34
+						1 	 0 	 0            ;1 	 0 	 0      
+						0	 1   0            ;1 	 1 	 0 
+						0 	 0   1			  ;0 	 0   1
+						36.0  -36.0 	0.0       ;-z 	 x   y
+					}
+				}
+				{bone "piller_02"
+					{matrix34
+						1 	 0.0 	 0            ;1 	 0 	 0      
+						-0.0	 1   0            ;1 	 1 	 0 
+						0 	 0   1			  ;0 	 0   1
+						36.0  36.0 	0.0       ;-z 	 x   y
+					}
+				}
+				{bone "piller_03"
+					{matrix34
+						1 	 0.0 	 0            ;1 	 0 	 0      
+						-0.0	 1   0            ;1 	 1 	 0 
+						0 	 0   1			  ;0 	 0   1
+						-36.0  -36.0 	0.0       ;-z 	 x   y
+					}
+				}
+				{bone "piller_04"
+					{matrix34
+						1 	-0.0 	 0            ;1 	 0 	 0      
+						0.0	 1   0            ;1 	 1 	 0 
+						0 	 0   1			  ;0 	 0   1
+						-36.0  36.0 	0.0       ;-z 	 x   y
+					}
+				}
+			}	
+		}
+	}
+	{bone "mark_stage"
+		{matrix34
+			1 	 0 	 0            ;1 	 0 	 0      
+			0	 1   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			0    0   -27       	  ;z 	 x   y
+		}
+		{bone "mark_roof"
+			{matrix34
+				1 	 0 	 0            ;1 	 0 	 0      
+				0	 1   0            ;1 	 1 	 0 
+				0 	 0   1			  ;0 	 0   1
+				-14    0   0     	  ;z 	 x   y
+			}
+		}
+		{bone "mark_roof_sandbag_stage"
+			{matrix34
+				1 	 0 	 0            ;1 	 0 	 0      
+				0	 1   0            ;1 	 1 	 0 
+				0 	 0   1			  ;0 	 0   1
+				0    0   45    	  ;z 	 x   y
+			}
+			{bone "mark_roof_sandbag_01"
+				{matrix34
+					1 	 0 	 0            ;1 	 0 	 0      
+					0	 1   0            ;1 	 1 	 0 
+					0 	 0   1			  ;0 	 0   1
+					0    0   0      	  ;z 	 x   y
+				}
+			}
+			{bone "mark_roof_sandbag_02"
+				{matrix34
+					1 	 0 	 0            ;1 	 0 	 0      
+					0	 1   0            ;1 	 1 	 0 
+					0 	 0   1			  ;0 	 0   1
+					-40    0  0        	  ;z 	 x   y
+				}
+			}
+		}
+		{bone "mark_roof_sandbag_stage_mg_tripod"
+			{matrix34
+				1 	 0 	 0            ;1 	 0 	 0      
+				0	 1   0            ;1 	 1 	 0 
+				0 	 0   1			  ;0 	 0   1
+				0    0   150    	  ;z 	 x   y
+			}
+			{bone "mark_roof_sandbag_03"
+				{matrix34
+					1 	 0 	 0            ;1 	 0 	 0      
+					0	 1   0            ;1 	 1 	 0 
+					0 	 0   1			  ;0 	 0   1
+					0    0   0      	  ;z 	 x   y
+				}
+			}
+			{bone "mark_roof_sandbag_04"
+				{matrix34
+					1 	 0 	 0            ;1 	 0 	 0      
+					0	 1   0            ;1 	 1 	 0 
+					0 	 0   1			  ;0 	 0   1
+					-40    0  0        	  ;z 	 x   y
+				}
+			}
+		}
+	}
+}
+

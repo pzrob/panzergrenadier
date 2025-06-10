@@ -1,0 +1,62 @@
+;Exported by:	 Carlos
+;Date:			 11.05.2020 13:58:19
+;File:			 T:\GoH_3D_human_export\3d_weapons\pps43\pps43_magazine_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+			{VolumeView "magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 0.884836 4.30591 0.540468}
+	{bone "magazine"}
+	{matrix34
+		0 	 0.932 	 -0.3625
+		0 	 0.3625 	 0.932
+		1 	 0 	 0
+		-0.0226 	 -0.1032 	 0.0186
+	}
+}
+{volume "select"
+	{box 2.00424 6.20366 1.41442}
+	{bone "magazine"}
+	{matrix34
+		0 	 0.96 	 -0.2799
+		0 	 0.2799 	 0.96
+		1 	 0 	 0
+		0.0065 	 0.0346 	 -0.0039
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 50.8928 	 -1.3132 	 14.2567}
+			{lookat 2.4391 	 0.0744 	 0.7334}
+			{fov 2.62178}
+			{horizon 4.68174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.1075 	 -8.6508 	 -9.0802}
+			}
+			{"1"
+				{type directional}
+				{direction -0.3875 	 0.316 	 -0.0026}
+			}
+			{"2"
+				{type point}
+				{position 0.7114 	 -0.3364 	 17.6118}
+			}
+		}
+	}
+}

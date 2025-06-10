@@ -1,0 +1,21 @@
+{from "pattern sniper_rifle"
+	{filling "ammo rifle_rus clip" 5}
+	{entity "mosin_m27"}
+	{fireSound "smallarms/s3/d1/FIN/M39/"}
+	{fireSoundclose "smallarms/s3/3p/FIN/M39/"}
+	{reloadSound "reload_clip"}
+	{calibre 7.62}
+	{mass 4.1}
+
+	("velocity" mps(847))
+	("fire rate" rpm(50))
+
+	{special
+		{mode aim}
+		{PrepareTime 3.5}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 3}
+		{damage 5}
+	}
+}

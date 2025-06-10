@@ -1,0 +1,79 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_heavy_sandbag_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+        {place "front_wall_01"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "front_wall_01"}
+			{handlebone "body"}
+		}
+		{place "front_wall_02"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "front_wall_02"}
+			{handlebone "body"}
+		}
+		{place "wall_01"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		{place "wall_03"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_03"}
+			{handlebone "body"}
+		}
+		{place "wall_04"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_04"}
+			{handlebone "body"}
+		}
+		
+		{place "sandbag_straight_heap_01"
+			{entity "sandbag_heap_straight_90_indestructible"}
+			{Linkbone "sandbag_straight_heap_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_straight_heap_02"
+			{entity "sandbag_heap_straight_90_indestructible"}
+			{Linkbone "sandbag_straight_heap_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_straight_heap_03"
+			{entity "sandbag_heap_straight_90_indestructible"}
+			{Linkbone "sandbag_straight_heap_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_straight_heap_04"
+			{entity "sandbag_heap_straight_90_indestructible"}
+			{Linkbone "sandbag_straight_heap_04"}
+			{handlebone "body"}
+		}
+		{place "front_sandbag_01"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "front_sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "front_sandbag_02"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "front_sandbag_02"}
+			{handlebone "body"}
+		}
+		{place "front_sandbag_pile_01"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "front_sandbag_pile_01"}
+			{handlebone "body"}
+		}
+		{place "front_sandbag_pile_02"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "front_sandbag_pile_02"}
+			{handlebone "body"}
+		}
+	}
+}

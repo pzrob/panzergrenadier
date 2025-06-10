@@ -1,0 +1,13 @@
+{item
+	{tag "keepEntity"}
+	{inventory
+		{size 6 2}
+		{weight 100}
+		{link_bone "dead"}
+		;{link_bone "wounded"}
+		;{fsm "belt"}
+		{fsm "hand-only"}
+	}
+	{entity "corpse"}
+	{mass 45}
+}

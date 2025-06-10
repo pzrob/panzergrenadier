@@ -1,0 +1,34 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props  "steel" "shed" "construction" "big" "side_door"}
+	("armor_medium" args 0.7)
+	{extension "f_end_c07.mdl"}
+	
+	{volume "door_open_default"
+		{Tags "body"}
+		{thickness 4}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{Tags "door_open_default"}
+	}
+	{volume "door_open"
+		{Tags "body"}
+		{thickness 4}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{Tags "door_open"}
+	}
+	{volume "door_lock"
+		{Tags "body"}
+		{thickness 4}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{Tags "door_lock"}
+	}
+	{volume "switch"
+		{thickness 0}
+		{able {visible 0} {touch 1} {contact 0}}
+		{Tags "cut"}
+		{Tags "door_lock"}
+	}
+}

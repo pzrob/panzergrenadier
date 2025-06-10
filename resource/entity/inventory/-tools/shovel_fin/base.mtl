@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "shovel_fin"}
+	{bump "shovel_fin_bp"}
+	{specular "shovel_fin_sp"}
+	{color "230 230 230 50"}
+	{blend test}
+}

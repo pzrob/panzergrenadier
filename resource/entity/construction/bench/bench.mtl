@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "bench"}
+	{bump "bench_bp"}
+	{specular "bench_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

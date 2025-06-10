@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_light_sandbag_stage_fieldgun.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "side_sandbag_00"
+			{entity "sandbag_heap_curved_indestructible"}
+			{Linkbone "side_sandbag_00"}
+			{handlebone "body"}
+		}		
+		{place "side_sandbag_01"
+			{entity "sandbag_heap_curved_270_indestructible"}
+			{Linkbone "side_sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_02"
+			{entity "sandbag_heap_curved_90_indestructible"}
+			{Linkbone "side_sandbag_02"}
+			{handlebone "body"}
+		}
+	}
+}

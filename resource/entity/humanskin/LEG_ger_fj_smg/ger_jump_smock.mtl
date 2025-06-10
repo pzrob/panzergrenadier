@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/ger/ger_fj_jump_smock"}
+	{bump "$/_hum/legacy/ger/ger_fj_jump_smock_bp"}
+	{specular "$/_hum/legacy/ger/ger_fj_jump_smock_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

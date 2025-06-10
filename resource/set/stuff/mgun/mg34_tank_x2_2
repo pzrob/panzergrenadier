@@ -1,0 +1,6 @@
+{from "mg34_tank"		; "panzer3e"
+	{filling "mgun_ger" 300}
+	{mass 24.2}
+	("fire rate" rpm(1600))
+	("reload time" seconds(10))
+}

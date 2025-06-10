@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_ver5_43_gdpz_nco_stg"}
+	{portrait "ger_pzgrenadier"}
+	{icon "stg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_fieldcap_camo}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "stg44_scope" filled}
+		{item "stg44 ammo" 320}
+
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 2}
+		{item "m24_geballteladung grenade" 2}
+		{item "hafthohlladung grenade" 1}
+
+		{item "bandage_ger" 5}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,120 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "halftrack" "wheeled" "turret" "with_gun" "shell_eject" "muzzle_100mm_105mm" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_spg" "open_death_fx" "muzzle_hmg_m2hb" "artillery_minimap_medium" "btr_large_ammo" "emplacement_tank_trench_assault_gun"}
+	{able "emit_passangers_on_enemy"}
+	{extension "t19_hmc.mdl"}
+	(include "t19_hmc.ext")
+	{patherId "m3halftrack"}
+	{targetclass "armoredcar"}
+	{targetSelector "cannon_howitzer"}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_big-midcar_driver"} {end "seat_kubel_driver"} {base "doorleft"}}
+			{reverse {end "board_big-midcar_driver" -1} {base "doorleft" -1}}
+		}
+		{anm "commander"
+			{forward {begin "board_big-midcar"} {end "seat_kubel_commander"} {base "doorright"}}
+			{reverse {end "board_big-midcar" -1} {base "doorright" -1}}
+		}
+		{anm "gunner"
+			{forward {begin "board_body"} {end "pose_m5_gunlayer"} {base "board"}}
+			{reverse {end "emit_tank_1_hold" 1} {base "board"}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_body"} {end "seat_m21_gunner2"} {base "board"}}
+			{reverse {end "emit_tank_1_hold" 1} {base "board"}}
+		}
+		{anm "charger"
+			{forward {begin "board_body"} {end "pose_pdr25_charger"} {base "board"}}
+			{reverse {end "emit_tank_1_hold" 1} {base "board"}}
+		}
+		{anm "passenger1"
+			{forward {begin "board_body"} {end "seat_m2_crew"} {base "board"}}
+			{reverse {end "emit_tank_1_hold"} {base "board"}}
+		}
+		{anm "passenger2"
+			{forward {begin "board_body"} {end "seat_m2_crew1"} {base "board"}}
+			{reverse {end "emit_tank_1_hold"} {base "board"}}
+		}
+	}
+
+	("crew" place(driver)		bone(driver)	door(emit1)	animation(driver)	 visor(driver) off({sensor}))
+	("crew" place(gunner)		bone(gunner)	door(emit3)	animation(gunner)	 visor(main) off({sensor}))
+	("crew" place(gunner2)		bone(gunner2)	door(emit4)	animation(gunner2)	 visor(none) off())
+	("crew" place(charger)		bone(charger)	door(emit4)	animation(charger)	 visor(none) off())
+	("crew" place(commander)	bone(seat01)	door(emit2)	animation(commander) visor(around) off({sensor}))
+
+	("crew_human" place(seat2)	bone(seat02)	door(emit4)	animation(passenger1) group(passenger))
+	("crew_human" place(seat3)	bone(seat03)	door(emit3)	animation(passenger2) group(passenger))
+	("crew_human" place(seat4)	bone(seat04)	door(emit4)	animation(passenger1) group(passenger))
+	("crew_human" place(seat5)	bone(seat05)	door(emit3)	animation(passenger2) group(passenger))
+
+	{extender "inventory"
+		{Box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletusa_105 he" 7}
+			{item "bulletusa_105 wp" 3}
+			{item "bulletusa_105 heat" 3}
+			{item "ammo hmgun_usa" 200}			; 300 rounds
+			;{item "ammo m1_carbine_mag" 450}
+			;{item "ammo thompson_mag stick 20" 500}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "105mm_m2a1" filling "bulletusa_105 he" 1}
+			{RestoreIKAfterAim}
+			("abm_dymamic_gun"
+				zeroing(8.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+		{place "mgun"
+			{type "main"}
+			{weapon "browning_m2" filled}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 9100}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.58) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(72) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(14) ;---------------------------------Max speed in Reverse.
+			weight(9.1) ;--------------------------------Weight in Tonnes.
+			power(147) ;---------------------------------Horse Power.
+			fuel(225) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(320) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "turret"
+		{speed2 6}
+		{limits -20 20}
+	}
+	{bone "gun_rot"
+		{speed2 5}
+		{limits -5 65}
+	}
+	{bone "mgun_1_rot1"
+		{speed2 60}
+		{limits -35 35}
+	}
+	{bone "mgun_1_rot2"
+		{speed2 60}
+		{limits -20 60}
+	}
+}

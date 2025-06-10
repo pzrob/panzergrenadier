@@ -1,0 +1,30 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "sand_shuttering_wall_2.mdl"}
+	{props "construction" "wood" "burning" "sandbag"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "small_building"}
+	{Volume "box020"
+		{Tags "body" "fire"}
+		{thickness 50}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{Volume "box015"
+		{Tags "body" "fire"}
+		{thickness 50}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{material "wood"}
+	}
+	{Volume "box016"
+		{Tags "body" "fire"}
+		{thickness 50}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{material "wood"}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+	}
+}

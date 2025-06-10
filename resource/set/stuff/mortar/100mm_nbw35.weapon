@@ -1,0 +1,12 @@
+;_________________________________________
+; German Heavy Mortar - 10cm Nbw35
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarger_100"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s3/d1/Shared/Mortar/"}
+	{calibre 105}
+	("medium_heavy_mortar_range")
+}

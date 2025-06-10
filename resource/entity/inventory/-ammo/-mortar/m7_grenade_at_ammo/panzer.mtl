@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m7_grenade_at"}
+	{specular "m7_grenade_at_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

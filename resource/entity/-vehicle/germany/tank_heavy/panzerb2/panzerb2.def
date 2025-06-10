@@ -1,0 +1,120 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle_elongated.inc" scale(1.20))
+	{props "heavy" "vision_lev05" "muzzle_37mm_47mm" "muzzle_75mm_76mm_2" "detect_tank_heavy" "multi_board" "emplacement_tank_trench_stug3g"}
+	{extension "panzerb2.mdl"}
+	(include "panzerb2.ext")
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+	{collider "tank.heavy"}
+	{PatherId "bis"}
+
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_MiddleArmor"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_daimler_gunner"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "armor"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_2"}}
+			{reverse {end "emit_body"}}
+		}
+	}
+	
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{extender "inventory"
+		{box
+			{item "bullet_47x193 ger apc" 41}	; 72 rounds
+			{item "bullet_47x193 ger he" 30}
+			{item "bullet_75x241 ger aphe" 7}	; 74 rounds
+			{item "bullet_75x241 ger he" 66}
+			{item "ammo mgun_ger belt" 4950}	; 35 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+		    {item "sandbag_vehicle" 1}
+		}
+	}
+	{sensor
+		{visor "main_2"
+			{vision "tank_range_200"}
+			{bone "foresight1a"}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "47mm_kwk173f" filling "bullet_47x193 ger apc" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic_td"
+				zeroing(1.5)
+				dispersion(0.25)
+			)
+		}
+		{place "gun1"
+			{RestoreIKAfterAim}
+			{weapon "75mm_kwk251f" filling "bullet_75x241 ger he"}
+			{foresight "foresight1a"}
+			{gunner "driver"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "mg31f" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 31500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.89))
+		("mobility_tank"
+			speed(28) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(5) ;---------Max speed in reverse on road, km/h.
+			traverse(20) ;-------Track traverse, per second, in degrees.
+			weight(31.5) ;-------Weight in Tonnes.
+			power(307) ;---------Engine Power, in hp.
+			track(3.4) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(400) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(100) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -18 18}
+		{speed2 6}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+	{bone "gun1_rot"
+		{limits -20 25}
+		{speed2 3}
+	}
+}
+

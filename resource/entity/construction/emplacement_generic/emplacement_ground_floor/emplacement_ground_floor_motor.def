@@ -1,0 +1,71 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "emplacement_ground_floor_motor.mdl"}
+	{Volume "floor0"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor1"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor2"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{lodclass "decor_medium"}
+    {placer
+		{place "sandbag_00"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "wall_00"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "wall_00"}
+			{handlebone "body"}
+		}		
+		{place "wall_01"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		{place "wall_03"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "wall_03"}
+			{handlebone "body"}
+		}
+;=======================ROOF begin========================
+		{place "bench_00"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_00"}
+			{handlebone "body"}
+		}	
+		{place "wooden_planks_roof_01"
+			{entity "wooden_planks_roof_end_02_mgun_bunker"}
+			{Linkbone "wooden_planks_roof_01"}
+			{handlebone "body"}
+		}	
+	}
+;=======================ROOF end========================
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_ground_floor_m72_roof_sandbag_stage_dummy"}
+		}
+	}
+}

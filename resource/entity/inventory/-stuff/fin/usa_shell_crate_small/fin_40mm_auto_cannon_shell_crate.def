@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_fin_moded.inc")
+	("shells_fin_crate_40mm_auto")
+	{ObstacleId "construction"}
+	{props "-wood" "construction" "break_on_burn" "small" "burning" "parts"}
+	{extension "usa_37mm_shell_crate.mdl"}
+
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "fin_40mm_auto_cannon_shell_crate"}
+	}
+}

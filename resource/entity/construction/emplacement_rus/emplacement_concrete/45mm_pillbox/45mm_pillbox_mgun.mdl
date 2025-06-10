@@ -1,0 +1,177 @@
+;Exported by:	 Carlos
+;Date:			 09.06.2022 14:02:34
+;File:			 T:\GoH_3d_environment_fin\3d_buildings\bunkers\45mm_pillbox\artillyry_bunker_45mm_Stand_lower.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "exterior"
+			{Position -2.5 	 0 	 50.6649}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "body"
+			{Position -2.5 	 0 	 25.1575}
+			{VolumeView "body.ply"}
+			{bone "land"
+				{parameters "land;ground;"}
+				{Position 0 	 0 	 -28.3939}
+				{VolumeView "land.ply" {Ground}}
+			}
+		}
+	}	
+	{bone "mgun_platform"
+		{matrix34
+			1  0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+			18.2	 2 	 8.0
+		}
+	    {bone "crate_01"
+		    {matrix34
+			    0.7  0 	 0
+			    0 	 1   0
+			    0 	 0 	 0.5
+			    0	 0 	 0
+		    }
+	    }	
+	    {bone "mgun"
+		    {matrix34
+			    1 	 0 	 0
+			    0 	 1   0
+			    0 	 0 	 1
+			    1.8	 0 	 10
+		    }
+	    }
+	}
+	{bone "reinforce_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1   0
+			0 	 0 	 1
+			11.5 	 -2 	 10
+		}
+	}
+	{bone "sandbag_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1   0
+		    0 	 0 	 1
+			1.8	 0 	 10
+		}
+	}
+	{bone "sandbag_02"
+		{matrix34
+			 0.1  0.5  0.9
+			0.5 	 0.1  0
+			-0.9	  0	 1
+			36.0	 15 	 24
+		}
+	}
+	{bone "pillar_01"
+		{matrix34
+			0.2  0.9	 0
+			0.9  -0.5   0
+		    0 	 0 	 0.5
+			37.5	 -24 	 14	
+		}
+	}
+	{bone "pillar_02"
+		{matrix34
+			0.2  -0.9	 0
+			-0.9  -0.5   0
+		    0 	 0 	 0.5
+			37.5	28.2 	 14	
+		}
+	}
+}
+{obstacle "body02"
+	{obb2
+		{center -2.5 -38.801}
+		{extent 52.5 11.0612}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body03"
+	{obb2
+		{center -2.5 38.9061}
+		{extent 52.5 10.9563}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body06"
+	{obb2
+		{center 37.9873 -0.26852}
+		{extent 12.0127 37.006}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body07"
+	{obb2
+		{center 41.1874 -0.26852}
+		{extent 8.61441 37.006}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body08"
+	{obb2
+		{center -44.8185 -19.3275}
+		{extent 10.3036 12.8739}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{area "interior"
+	{obb2
+		{center -3.53446 -1.27209}
+		{extent 98.4252 98.4252}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{volume "body02"
+	{polyhedron "body02.vol"}
+	{bone "body"}
+	{Position 0.2723 	 39.0276 	 -19.012}
+}
+{volume "body03"
+	{polyhedron "body03.vol"}
+	{bone "body"}
+	{Position 0.2574 	 -39.2376 	 -19.012}
+}
+{volume "body06"
+	{polyhedron "body06.vol"}
+	{bone "body"}
+	{Position 40.347 	 0.2685 	 -19.1036}
+}
+{volume "body07"
+	{polyhedron "body07.vol"}
+	{bone "body"}
+	{matrix34
+		0 	 0 	 -1
+		0 	 1 	 0
+		1 	 0 	 0
+		35.073 	 0.2685 	 26.2272
+	}
+}
+{volume "body08"
+	{box 20.6073 25.7478 37.6503}
+	{bone "body"}
+	{Position -42.3185 	 19.3275 	 0.3231}
+}
+{volume "roof"
+	{polyhedron "roof.vol"}
+	{bone "exterior"}
+	{Position 0.2713 	 0 	 -6.3132}
+}

@@ -1,0 +1,10 @@
+{action
+	{target ground}
+	{able_vehicle}
+	{button "vehicle/gun_shield_switch"}
+	{NotifySelect}
+	{instant
+		{effect "gun_shield_switch"}
+	}
+	{key "actions/gun_shield_switch"}
+}

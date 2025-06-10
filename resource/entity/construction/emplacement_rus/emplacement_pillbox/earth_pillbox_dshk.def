@@ -1,0 +1,57 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{extension "earth_pillbox_dshk.mdl"}
+	{props "cornered" "wood" "parts" "construction" "wall" "burning" "break_on_burn"}
+	{obstacleID "unbreakable"}
+	("armor_medium" args 0.7)
+	;{boarder
+		;{door "attach1"}
+		;{link "attach1" "1"}
+		;{link "1" "attach1"}
+	;}
+	{volume "attach"
+		{Tags "attach" "1"}
+		{able clear {hole}{touch 0}}
+	}
+	;{placer
+		;{place "1" {attach squat_lie} {linkbone "attach1"}}
+	;}
+    {placer	
+	{place "mg"
+			{entity "dshk_aa_fixed"}
+			{Linkbone "mg"}
+			{handlebone "body"}
+	}
+	{place "flag"
+			{entity "flag_stick"}
+			{Linkbone "flag"}
+			{handlebone "body"}
+	}	
+    }
+	{volume "body1"
+		{Tags "body" "fire"}
+		{thickness 40}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 40}
+	}
+	{volume "body3"
+		{material "ground"}
+		{Tags "body" "fire"}
+		{thickness 40}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body4"
+		{Tags "body" "fire"}
+		{thickness 40}
+	}
+	{volume "body5"
+		{Tags "body" "fire"}
+		{thickness 40}
+		{able {holed}}
+	}
+	{extender "land_patch"
+		{TerrainType "ground" "ground"} 
+	}
+}

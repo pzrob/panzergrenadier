@@ -1,0 +1,23 @@
+;Exported by:	 marc-
+;Date:			 10.10.2023 15:58:34
+;File:			 C:\Users\marc-\Desktop\trench_dirt_Mortar.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "trench001"
+			{parameters "commonmesh;land;align;"}
+			{orientation
+				-1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+			}
+			{VolumeView "trench001.ply"}
+		}
+	}
+}
+

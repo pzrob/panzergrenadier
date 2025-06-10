@@ -1,0 +1,38 @@
+{game_entity	
+    (include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	("armor_heavy")
+	{obstacleID "unbreakable"}
+	{extension "concrete_tower.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{able {visible 1}}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{placer
+		;{place "floor_01"
+			;{entity "concrete_block_03_floor"}
+			;{Linkbone "floor_01"}
+			;{handlebone "body"}
+		;}
+		{place "sandbag_00"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_01"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+	}	
+}

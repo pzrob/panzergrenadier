@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bunker_basecolor"}
+	{blend none}
+}

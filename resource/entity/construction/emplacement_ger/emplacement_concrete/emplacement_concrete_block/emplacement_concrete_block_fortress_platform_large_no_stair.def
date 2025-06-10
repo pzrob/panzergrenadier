@@ -1,0 +1,36 @@
+{game_entity	
+    (include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall" "big"}
+	("armor_heavy")
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_block_fortress_platform_large_no_stair.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{able {visible 1}}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{volume "wall_00"
+		{Tags "body"}
+		{thickness 300}
+		{able {visible 1}{Obstacle 1}}
+	}
+	{volume "wall_01"
+		{Tags "body"}
+		{thickness 300}
+		{able {visible 1}{Obstacle 1}}
+	}
+	{placer
+		;{place "wall_03"
+			;{entity "concrete_block_03"}
+			;{Linkbone "wall_03"}
+			;{handlebone "body"}
+		;}
+	}	
+	{extender "fortification"
+	}	
+	
+}

@@ -1,0 +1,23 @@
+	{game_entity
+	(include "/properties/building.inc")
+	{extension "ger_weapon_crate_155mm_gpf_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "weapon_crate"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "155mm_gpf_platform"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "floor_stage"
+			{entity "concrete_floor_weapon_crate_155mm_gpf"}
+			{Linkbone "floor_stage"}
+			{handlebone "body"}
+		}
+		{place "ammo_crate"
+			{entity "concrete_floor_155mm_gpf_shell_crate_stage_dummy"}
+			{Linkbone "ammo_crate"}
+			{handlebone "body"}
+		}
+	}
+}

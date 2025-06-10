@@ -1,0 +1,8 @@
+{from "pattern rpg_heat_ammo"
+	{tag "heat_shell size1"}
+	{entity "recoilless_heat_ammo"}
+	{view "recoilless_heat_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2.4}
+}

@@ -1,0 +1,32 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "-wood" "weapon_crate" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "ger_weapon_crate_selection_fortress_01.mdl"}
+
+	{lodclass "decor_medium"}
+    {placer
+		{place "weapon_crate_01"
+			{entity "ger_weapon_crate_120mm_sgrw42_dummy"}
+			{Linkbone "weapon_crate_01"}
+			{handlebone "body"}
+		}
+		{place "weapon_crate_02"
+			{entity "ger_weapon_crate_150mm_sig33_dummy"}
+			{Linkbone "weapon_crate_02"}
+			{handlebone "body"}
+		}
+		{place "weapon_crate_03"
+			{entity "ger_weapon_crate_155mm_gpf_dummy"}
+			{Linkbone "weapon_crate_03"}
+			{handlebone "body"}
+		}
+		{place "weapon_crate_04"
+			{entity "ger_weapon_crate_300mm_nebelwerfer42_dummy"}
+			{Linkbone "weapon_crate_04"}
+			{handlebone "body"}
+		}
+	}
+}

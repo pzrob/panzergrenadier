@@ -1,0 +1,54 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "sandbag_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-22	 0.0 1.0
+		}
+		{bone "sandbag_framed_straight_00"
+			{matrix34
+			0    1.0     0          ;1 	 0 	 0      
+			1 	 0   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-113.0 	0.000 	 0
+			}
+		}
+		{bone "sandbag_framed_curved_01"
+			{matrix34
+			1  0.44 0          ;1 	 0 	 0      
+			0.44	 -1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-69.0 	46.000 	0
+			}
+		}
+		{bone "sandbag_framed_straight_01"
+			{matrix34
+			1 	 -0.4 	 0          ;1 	 0 	 0      
+			-0.4	 -1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-8.0 	 57.0 	 0
+			}
+		}
+		{bone "sandbag_framed_curved_02"
+			{matrix34
+			1  -0.57 0          ;1 	 0 	 0      
+			-0.57	 -1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-71.8 	-46.000 	 0
+			}
+		}
+		{bone "sandbag_framed_straight_02"
+			{matrix34
+			1 	 0.5 	 0          ;1 	 0 	 0      
+			0.5	 -1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-4.0 	 -58.5 	 0
+			}
+		}	
+    }		
+}
+

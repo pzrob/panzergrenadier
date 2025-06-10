@@ -1,0 +1,45 @@
+;Exported by:	 Usuario
+;Date:			 28.02.2016 17:29:29
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\trenches\modular\trench_floor.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+			-24 	0	 	 0
+		}
+		{bone "sandbag_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 0.8
+				10 	 0 	 0
+			}
+			{bone "sandbag_front"
+				{matrix34
+					1 	 0	 0
+					0	 1 	 0
+					0 	 0 	 1
+					38 	 0 	 0 ; z
+				}
+			}
+			{bone "sandbag_left"
+				{matrix34
+					-1	 0	 0
+					0	 -0.8	 0
+					0 	 0 	 1
+					10 	 -28	 0 ; z x
+				}
+			}
+			{bone "sandbag_right"
+				{matrix34
+					-1 	 0	 0
+					0	 -0.8	 0
+					0 	 0 	 1
+					10 	 28 	 0 ; z x
+				}
+			}
+		}
+	}
+}

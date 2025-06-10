@@ -1,0 +1,26 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{extension "pillbox.mdl"}
+    {placer		
+	    {place "mgun"
+			{entity "mg42_tripod_stat_shielded"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+	    }
+	    {place "floor_01"
+			{entity "concrete_block_03_floor_inside"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+	    }
+	    {place "flag"
+			{entity "flag_hanging_ger"}
+			{Linkbone "flag"}
+			{handlebone "body"}
+	    }
+	   ;{place "stair"
+			;{entity "concrete_block_stair_02"}
+			;{Linkbone "stair"}
+			;{handlebone "body"}
+	   ;}
+	}	
+}

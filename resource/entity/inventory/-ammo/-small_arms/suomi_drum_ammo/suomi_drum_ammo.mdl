@@ -1,0 +1,48 @@
+;Exported by:	 Carlos
+;Date:			 25.12.2021 10:50:20
+;File:			 T:\goh_3d_human_fin\Weapons\Suomi_kp31\New\kp31_drum_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+			{VolumeView "magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{cylinder 1.43355 0.787031}
+	{bone "magazine"}
+	{Position 0.0045 	 -0.0657 	 -0.0219}
+}
+{volume "select"
+	{cylinder 1.62903 1.04937}
+	{bone "magazine"}
+	{Position 0.0045 	 -0.0657 	 -0.0212}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.3011 	 0.0469 	 8.4947}
+			{lookat 0.0743 	 0.0216 	 2.9171}
+			{fov 25.1609}
+			{horizon 83.7989}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.1553 	 0.0016 	 -0.4753}
+			}
+			{"1"
+				{type point}
+				{position -8.2506 	 -2.5442 	 15.6352}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand head distributable"}
+	{entity "ger_mask"}
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

@@ -1,0 +1,78 @@
+;Exported by:	 Carlos
+;Date:			 08.03.2019 10:45:13
+;File:			 T:\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\trenches_reinforced_dirt\trenches_reinforced_dirt_new_export.max
+{skeleton
+	{bone "trench_end1"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench_end1.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point2"
+			{matrix34
+				0.0658 	 0.9978 	 0
+				-0.9978 	 0.0658 	 0
+				0 	 0 	 1
+				-15.8733 	 14.7755 	 -4.9977
+			}
+		}
+		{bone "point3"
+			{matrix34
+				0.0359 	 -0.9994 	 0
+				0.9994 	 0.0359 	 0
+				0 	 0 	 1
+				16.2987 	 9.5275 	 -4.9977
+			}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex -26.8537 -37.2226}
+		{vertex 26.0104 -37.6113}
+		{vertex 26.3991 22.6382}
+		{vertex -25.6876 22.2495}
+	}
+	{rotate}
+}
+{obstacle "body2"
+	{obb2
+		{center -18.9496 -9.44525}
+		{extent 26.1502 1.50809}
+		{axis -0.00137955 0.999999}
+	}
+	{rotate}
+}
+{obstacle "body3"
+	{obb2
+		{center 18.7756 -10.0554}
+		{extent 26.1502 1.50809}
+		{axis 0.0111684 -0.999938}
+	}
+	{rotate}
+}
+{volume "body2"
+	{box 4.93337 56.0847 24.9265}
+	{bone "point2"}
+	{matrix34
+		0.0654 	 -0.9916 	 0.112
+		0.9978 	 0.0658 	 0
+		-0.0074 	 0.1117 	 0.9937
+		-6.5497 	 3.3488 	 -6.3213
+	}
+}
+{volume "body3"
+	{box 4.93337 56.0847 24.9265}
+	{bone "point3"}
+	{matrix34
+		0.0357 	 0.9957 	 -0.086
+		-0.9994 	 0.0359 	 0
+		0.0031 	 0.086 	 0.9963
+		1.1675 	 2.7799 	 -6.3535
+	}
+}

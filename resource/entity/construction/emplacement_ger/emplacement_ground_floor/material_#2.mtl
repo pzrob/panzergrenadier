@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/modular_trench1"}
+	{bump "$/_military/modular_trench_bp"}
+	{specular "$/_military/modular_trench1_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

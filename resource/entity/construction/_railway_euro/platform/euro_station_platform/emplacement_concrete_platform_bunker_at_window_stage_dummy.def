@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_concrete_platform_bunker_at_window_stage.mdl"}
+}

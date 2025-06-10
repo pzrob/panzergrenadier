@@ -1,0 +1,21 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_concrete_block_tower_window_stage.mdl"}
+	{placer	 
+		{place "windows_left"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_left"}
+			{handlebone "body"}
+		}	
+		{place "windows_right"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_right"}
+			{handlebone "body"}
+		}	 
+		{place "windows_front"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_front"}
+			{handlebone "body"}
+		}	  
+	}	
+}

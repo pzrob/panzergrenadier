@@ -1,0 +1,15 @@
+{from "pattern mortar_ammo"
+	{tag "shell wp_size1"}
+	{inventory
+		{size 2 1}
+	}
+	{entity "60mm_usa_mortar_wp"}
+	{view "60mm_usa_mortar_wp"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 1.8}
+
+	("minimum_range_medium")
+
+	("wp" cal(60))
+}

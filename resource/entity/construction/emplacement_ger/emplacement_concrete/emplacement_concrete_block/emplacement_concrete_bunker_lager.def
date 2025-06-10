@@ -1,0 +1,137 @@
+{game_entity	
+	(include "/properties/building_roof.inc")
+	{props "cornered" "concrete" "construction" "wall" "-parts"}
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_bunker_lager.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{volume "tower_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "tower_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "tower_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	;{volume "tower_block_04"
+		;{Tags "body"}
+		;{able {visible 1}{Obstacle 1}}
+		;{thickness 300}
+	;}	
+	{volume "tower_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "tower_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}	
+	{volume "tower_floor"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_10"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "exterior01"
+		{Tags "roof"}
+		{thickness 100}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{placer
+		{place "base_wall_block_stair_outside"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "base_wall_block_stair_outside"}
+			{handlebone "body"}
+		}
+		{place "tower_stair"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "tower_stair"}
+			{handlebone "body"}
+		}
+		;{place "tower_wooden_floor"
+			;{entity "wooden_planks_walkable_floor_x2"}
+			;{Linkbone "tower_wooden_floor"}
+			;{handlebone "body"}
+		;}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_bunker_lager_roof_stage_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_bunker_lager_mg42_mgun_stage_dummy"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_bunker_lager_window_stage_dummy"}
+		}
+	}
+}

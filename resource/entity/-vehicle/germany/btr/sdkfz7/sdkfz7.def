@@ -1,0 +1,52 @@
+{game_entity
+	(include "/properties/halftrack.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "truck" "vision_lev02" "tractor" "tractor_heavy" "explosion_throw_crew" "Captor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low"}
+	{able "emit_passangers_on_enemy" "emit_on_attack"}
+	{extension "sdkfz7.mdl"}
+	{extension "crew.ext"}
+	{collider "truck"}
+	{patherId "sdkfz7"}
+
+	("armoredcar_tier1")
+
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+
+	("glass" args "glass")
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("shield_cover")
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1" {able {holed}}}
+	{volume "body2" {able {holed}}}
+	{volume "transmission" {able {NoWoundDecal 0}}}
+
+	{extender "inventory"
+		{Box
+		}
+	}
+
+	{mass 9750}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.82) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(50) ;----------------------------------Max speed.
+			speedatmaxturn(20) ;-------------------------Max speed at max turn.
+			reverse(13) ;--------------------------------Max speed in Reverse.
+			weight(9.75) ;-------------------------------Weight in Tonnes.
+			power(130) ;---------------------------------Horse Power.
+			fuel(203) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(120) ;---------------------------------Range in Kilometers.
+		)
+	}
+}

@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_107mm_k10_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "107mm_k10_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "bench_01"
+			{entity "bench_storage_rack_indestructible"}
+			{Linkbone "bench_01"}
+			{handlebone "body"}
+		}
+	}
+}

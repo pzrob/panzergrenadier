@@ -1,0 +1,7 @@
+{game_entity
+	;(include "/properties/construction.inc")
+	{props "wood" "big" "-parts" "construction" "slow_on_crush" "tower_wood"}
+	{extension "watch_tower_dummy.mdl"}
+}
+
+	

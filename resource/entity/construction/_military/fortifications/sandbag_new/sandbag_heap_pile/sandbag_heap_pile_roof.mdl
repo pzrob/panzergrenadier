@@ -1,0 +1,48 @@
+;Exported by:	 Carlos
+;Date:			 04.08.2018 12:03:44
+;File:			 T:\GoH_3D_environment_export\3d_environment\_military\fortifications\sandbags_new\smart_set\sandbag_heap_pile.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "exterior01"
+			{parameters "id=body;"}
+			{Position -0.3742 	 -2.0314 	 13.1578}
+			{LODView
+				{VolumeView "exterior01.ply" {Ground}}
+				{VolumeView "exterior01_lod1.ply" {Ground}}
+				{VolumeView "exterior01_lod2.ply" {Ground}}
+				{VolumeView "exterior01_lod3.ply" {Ground}}
+			}
+			{bone "fx_sandbag1"
+				{Position -12.6569 	 -6.8281 	 -13.1578}
+			}
+			{bone "fx_sandbag2"
+				{Position 10.9481 	 -9.0702 	 -13.1578}
+			}
+			{bone "fx_sandbag3"
+				{Position 11.2765 	 9.7783 	 -13.1578}
+			}
+			{bone "fx_sandbag4"
+				{Position -12.6569 	 8.8169 	 -13.1578}
+			}
+		}
+	}
+}
+
+{volume "exterior01"
+	{polyhedron "exterior01.vol"}
+	{bone "exterior01"}
+	{Position -0.7406 	 0.5235 	 -0.0954}
+}
+{area "interior"
+	{obb2
+		{center -0.0 0}
+		{extent 50 50}
+		{axis -1 0}
+	}
+	{rotate}
+}

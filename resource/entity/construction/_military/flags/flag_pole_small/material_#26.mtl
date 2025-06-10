@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/mast"}
+	{bump "$/_military/mast_bp"}
+	{specular "$/_military/mast_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

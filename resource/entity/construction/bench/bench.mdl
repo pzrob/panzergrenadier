@@ -1,0 +1,67 @@
+;Exported by:	 Carlos
+;Date:			 11.09.2020 20:54:15
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\bench\bench.max
+{skeleton
+	{bone "basic"
+		{orientation
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		}
+		{bone "basis"
+			{orientation
+				1.5 	 0 	 0
+				0 	 -0.3 	 0
+				0 	 0 	 0.5
+			}
+			{bone "body"
+				{LODView
+					{VolumeView "body.ply"}
+					{VolumeView "body_lod1.ply"}
+					{VolumeView "body_lod2.ply"}
+				}
+				{bone "climb12"
+					{matrix34
+						-1 	 0 	 0
+						0 	 -1 	 0
+						0 	 0 	 1
+						13.2583 	 0.1658 	 9.9643
+					}
+				}
+				{bone "climb11"
+					{Position -11.7345 	 -0.2163 	 10.3004}
+				}
+			}
+		}
+	}
+}
+{volume "body1"
+	{box 8.03415 2.15564 70.1832}
+	{bone "body"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.3694 	 -0.0307 	 16.3005
+	}
+}
+{volume "body2"
+	{box 9.85231 16.6119 7.27555}
+	{bone "body"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.7137 	 -28.0911 	 7.5963
+	}
+}
+{volume "body3"
+	{box 9.97546 15.3891 6.62262}
+	{bone "body"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.2587 	 28.2495 	 7.6427
+	}
+}

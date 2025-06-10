@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/construction/trench_pillbox/trench_dirt"}
+	{bump "$/construction/trench_pillbox/trench_dirt_bp"}
+	{specular "$/construction/trench_pillbox/trench_dirt_sp"}
+	{color "230 230 230 25"}
+	{lightmap "$/construction/trench_pillbox/pillbox_trench_lm"}
+	{blend blend}
+}

@@ -1,0 +1,103 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+    ;(include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{Extension "emplacement_concrete_bunker_88mm_pak4341.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{Volume "at_bunker_large_floor_01"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 0}{obstacle 0}}
+	}
+	{Volume "at_bunker_large_floor"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 0}{obstacle 0}}
+	}
+	{Volume "at_bunker_large_roof"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 0}{obstacle 0}}
+	}
+	{Volume "at_bunker_large_wall"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 1}{obstacle 1}}
+	}
+	
+	{placer
+		;{place "pak_crate"
+			;{entity "ger_weapon_crate_88mm_pak4341"}
+			;{Linkbone "pak_crate"}
+			;{handlebone "body"}
+		;}
+		{place "lampshade_front_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_front_01"}
+			{handlebone "body"}
+		}
+		{place "lampshade_front_02"
+			{entity "lampshade"}
+			{Linkbone "lampshade_front_02"}
+			{handlebone "body"}
+		}
+		{place "lampshade_center_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_center_01"}
+			{handlebone "body"}
+		}
+		{place "lampshade_rear_center_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_rear_center_01"}
+			{handlebone "body"}
+		}
+		{place "table"
+			{entity "table3"}
+			{Linkbone "table"}
+			{handlebone "body"}
+		}
+		{place "chair_01"
+			{entity "chair1_link"}
+			{Linkbone "chair_01"}
+			{handlebone "body"}
+		}
+		{place "chair_02"
+			{entity "chair1_link"}
+			{Linkbone "chair_02"}
+			{handlebone "body"}
+		}
+		{place "door_01"
+			{entity "euro_stonewall6_arch"}
+			{Linkbone "door_01"}
+			{handlebone "body"}
+		}
+		{place "pillar_01"
+			{entity "euro_stonewall6_pillar"}
+			{Linkbone "pillar_01"}
+			{handlebone "body"}
+		}
+		{place "pillar_02"
+			{entity "euro_stonewall6_pillar"}
+			{Linkbone "pillar_02"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_bunker_88mm_pak4341_cannon_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_bunker_88mm_pak4341_shell_crate_stage"}
+		}
+	}
+}

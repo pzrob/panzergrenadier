@@ -1,0 +1,167 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "bunker_stage"
+		{matrix34
+			0	1 	 0
+			-1 	0   0
+			0 	 0 	 1
+			5.5	 40.0 15.3 ; -x z y
+		}
+		{bone "bunker"
+			{matrix34
+				1 	0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				-47	 0.0 2.0
+			}
+			{bone "sandbag"
+				{matrix34
+					1 	0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0 	0 	 -4
+				}
+				{bone "sandbag_00"
+					{matrix34
+						1 	 0.10 	 0
+						0.10  -0.95  0
+						0 	 0 	 1
+						35.7	 -4.2	 0.0
+					}
+				}
+				{bone "sandbag_01"
+					{matrix34
+						0.9 	0.03 	 0
+						0.03 	 -1  0
+						0 	 0 	 1
+						0	 -36.0	 0
+					}
+				}
+				{bone "sandbag_02"
+					{matrix34
+						0.9 	0.03 	 0
+						0.03 	 -1  0
+						0 	 0 	 1
+						0	 35.0	 0
+					}
+				}
+			} 
+			{bone "household"
+				{matrix34
+					1 	0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0	 -0.0	 12
+				}
+				{bone "sandbag_pile_01"
+					{matrix34
+						1 	 -0.05 	 0
+						-0.04 	 -1  0
+						0 	 0 	 1
+						11	 -16.0	 13
+					}
+				}
+				{bone "sandbag_pile_02"
+					{matrix34
+						1 	 -0.05 	 0
+						-0.04 	 -1  0
+						0 	 0 	 1
+						11	 12.0	 13
+					}
+				}
+				{bone "wall_01"
+					{matrix34
+						0.8 	 0 	 0
+						0 	 -0.6  0
+						0 	 0 	 1
+						0	 -28.0	 0
+					}
+				}
+				{bone "wall_02"
+					{matrix34
+						0.8 	 0 	 0
+						0 	 -0.6  0
+						0 	 0 	 1
+						0	 23.0 	 0
+					}
+				}
+			}	
+			{bone "roof_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1  0
+					0 	 0 	 1
+					0	 0.0 	 0
+				}
+			
+				{bone "bench_00"
+					{matrix34
+						0 	 0 	   0.7
+						0 	 0.90  0
+						1 	 0 	   0
+						15.3	 -1.0 	 20.6
+					}
+				}
+				{bone "planks_01"
+					{matrix34
+						0.92 	 0 	 0
+						0 	 -0.74  0
+						0 	 0 	 1.0
+						0	 -1.0 	-29.0  ;
+					}
+				}
+			}
+		}		
+    }
+	{bone "mark_stage"
+		{matrix34
+			1 	 0 	 0            ;1 	 0 	 0      
+			0	 1   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			0    0   0      	  ;z 	 x   y
+		}
+		{bone "mark_bunker"
+			{matrix34
+				0 	 1 	 0            ;1 	 0 	 0      
+				1	 0   0            ;1 	 1 	 0 
+				0 	 0   1			  ;0 	 0   1
+				-10    -6   1     	  ;-z 	 -x   y
+			}
+		}
+		{bone "mark_roof"
+			{matrix34
+				1 	 0 	 0            ;1 	 0 	 0      
+				0	 1   0            ;1 	 1 	 0 
+				0 	 0   1			  ;0 	 0   1
+				-14    0   0     	  ;z 	 x   y
+			}
+		}
+		{bone "mark_roof_sandbag_stage"
+			{matrix34
+				1 	 0 	 0            ;1 	 0 	 0      
+				0	 1   0            ;1 	 1 	 0 
+				0 	 0   1			  ;0 	 0   1
+				0    0   0    	  	  ;z 	 x   y
+			}
+			{bone "mark_roof_sandbag_01"
+				{matrix34
+					1 	 0 	 0            ;1 	 0 	 0      
+					0	 1   0            ;1 	 1 	 0 
+					0 	 0   1			  ;0 	 0   1
+					-14   -20   3       ;-x 	 z   y
+				}
+			}
+			{bone "mark_roof_sandbag_02"
+				{matrix34
+					1 	 0 	 0            ;1 	 0 	 0      
+					0	 1   0            ;1 	 1 	 0 
+					0 	 0   1			  ;0 	 0   1
+					0    0  0        	  ;z 	 x   y
+				}
+			}
+		}
+	}		
+}
+

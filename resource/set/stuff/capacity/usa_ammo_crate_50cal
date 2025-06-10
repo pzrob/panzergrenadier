@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands keepEntity"}
+	{entity "usa_ammo_crate_50cal"}
+	{inventory
+	    {size 3 2}
+		{weight 10}
+		{fsm "stuff"}
+	}
+	{mass 4}
+}

@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{volume "body"
+		{able {blast} {contact}}
+		{tags "pour_over"}
+		{thickness 2}
+	}
+	{props "wood"}
+	{props "cord_wood"}
+	{extension "sugar.mdl"}
+	{extender "stuff"
+		{item "sugar"}
+	}
+}

@@ -1,0 +1,88 @@
+{game_entity
+	(include "/properties/tank.ext")
+	
+	(include "/properties/selection/vehicle_elongated.inc" scale(0.9))
+	{props "light" "vision_lev03" "muzzle_37mm_47mm" "detect_tank_light" "emplacement_tank_trench_light"}
+    {tag "emplacement_tank_trench_light"}
+	{extension "ft17_fin.mdl"}
+	(include "ft17_fin.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "ft17"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	("crew_2_human_extended")
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "armor1"
+			{forward {begin "board_LowArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat1) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat2) door(emit4)  animation(armor1))
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bullet_37x94 fin aphe" 116}			; 233 rounds
+			{item "bullet_37x94 fin he" 116}
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_psvk18" filling "bullet_37x94 fin aphe" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic"
+				zeroing(2.5)
+				dispersion(0.20)
+			)
+		}
+	}
+
+	{mass 6800}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.4) len(0.7))
+		("mobility_tank"
+			speed(7.7) ;---------Max speed when fully accelerated on road, km/h.
+			reverse(4) ;---------Max speed in reverse on road, km/h.
+			traverse(20) ;-------Track traverse, per second, in degrees.
+			weight(6.8) ;--------Weight in Tonnes.
+			power(35) ;----------Engine Power, in hp.
+			track(25.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(95) ;-----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(35) ;----------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 20}
+		{speed2 8}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+}

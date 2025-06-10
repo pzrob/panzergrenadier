@@ -1,0 +1,43 @@
+;Exported by: sergienko
+;Date:        Tue Aug 16 17:33:22 2005
+;File:        D:\tmp\rifle_cartridge\патроны.max
+{Skeleton
+	{bone "rifle_cartridge"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "rifle_cartridge.ply"}
+	}
+}
+{Volume "select"
+	{Box 2.28375 3.00978 0.352521}
+	{Bone "rifle_cartridge"}
+	{Position -0.0187789	0.00394979	0.0139304}
+}
+{Volume "body"
+	{Box 1.59703 2.04747 0.352521}
+	{Bone "rifle_cartridge"}
+	{Position -0.0187789	0.00394979	0.0139304}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.699042	-2.47786	2.82491}
+			{lookat -0.0539975	-0.325598	0.17431}
+			{fov 30.2681}
+			{horizon 83}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.036389	0.286532	-0.408137}
+			}
+			{"1"
+				{type point}
+				{position 0.00293729	-3.07477	1.49842}
+			}
+		}
+	}
+}

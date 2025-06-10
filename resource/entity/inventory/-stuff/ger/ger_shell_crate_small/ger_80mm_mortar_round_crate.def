@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_ger_moded.inc")
+	("mortar_rounds_ger_crate_80mm")
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}
+	{Extension "inf_ammo_box.mdl"}
+
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "ger_80mm_mortar_round_crate"}
+	}
+	{Texmod "ger"}
+}

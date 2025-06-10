@@ -1,0 +1,291 @@
+
+(include "\set\small_firearms_accuracy.inc")
+
+(define "penetration"
+	{projectileDamageTable 	{20 %0} {100 %1} {155 %2} {250 %3} {400 %4}}
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "semi_rifle"
+	{tag "auto_eject semi_auto"}
+	{range 120 120}
+	{spreading 
+		{BurstAccuracy 100 80 60 40}
+	}
+	{burst
+		{short 1}		; burst shots on long distance, rand (+-)shots
+		{long 1}		; burst shots on short distance, rand (+-)shots
+		{rangeKoef 1}	; rangeKoef * aimRange = max long burst distance
+	}
+	{Automatic}
+	("accuracy_rifle_auto")
+	{LockFireDistanceTime 0.5}
+	("human health" damage(70))
+	("fire rate" rpm(150))
+	;("zeroing_boost")
+	{FiringTimeout 2.0 0.5}
+	{FiringTimeoutDistanceFactor
+		{0.2 0.55}	;24m, 1.1s
+		{0.4 0.75}	;48m, 1.5s
+		{0.8 1.0}	;96m, 2.0s
+	}
+	{curve "autorifle"}
+	("recoil_rifle_semi")
+	("ap_7_62_slope_multiplier")
+	{AccuracyByMotionK 1.2}
+)
+
+(define "auto_rifle" ;full size rifle calibers with full auto capability; AVT40
+	{tag "autorifle_sup auto_eject rifle_shell"}
+	{range 120 120}
+	{spreading
+		{BurstAccuracy 100 80 60 40}
+	}
+	{burst
+		{short 1}		; burst shots on long distance, rand (+-)shots
+		{long 2.25 0.5}			; burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.4}		; rangeKoef * aimRange = max long burst distance
+	}
+
+	{Automatic}
+	("accuracy_rifle_auto")
+	{LockFireDistanceTime 0.5}
+	("human health" damage(70))
+	{SyncedProjectiles 0}		;// not for automatic weapons
+	{FiringTimeout 2.0 0.5}
+	{FiringTimeoutDistanceFactor
+		{0.2 0.65}	;24m, 1.3s
+		{0.399 0.85};47.9m, 1.7s //still fires bursts
+		{0.4 0.75}	;48m, 1.5s // switches to single fire only
+		{0.8 1.0}	;96m, 2.0s
+	}
+	{curve "autorifle"}
+	("recoil_rifle_semi")
+	("ap_7_62_slope_multiplier")
+	{AccuracyByMotionK 1.2}
+)
+
+(define "battle_rifle" ;full size rifle calibers with full auto capability; BAR
+	{tag "autorifle_sup auto_eject rifle_shell"}
+	{range 120 120}
+	{spreading
+		{BurstAccuracy 100 90 80 60 40}
+	}
+	{burst
+		{short 3 1}		; burst shots on long distance, rand (+-)shots
+		{long 3 1}			; burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.33}		; rangeKoef * aimRange = max long burst distance
+	}
+
+	{Automatic}
+	("accuracy_battle_rifle")
+	{LockFireDistanceTime 0.5}
+	("human health" damage(70))
+	{SyncedProjectiles 0}		;// not for automatic weapons
+	{FiringTimeout 2.0 0.5}
+	{FiringTimeoutDistanceFactor
+		{0.2 0.65}	;24m, 1.3s
+		{0.6 1.0}	;72m, 2.0s
+	}
+	{curve "autorifle"}
+	("recoil_rifle_semi")
+	("ap_7_62_slope_multiplier")
+	{AccuracyByMotionK 1.2}
+)
+
+(define "battle_rifle_fg42" ;full size rifle calibers with full auto capability; FG42
+	{tag "autorifle_sup auto_eject rifle_shell"}
+	{range 120 120}
+	{spreading
+		{BurstAccuracy 100 90 80 70 60 50}
+	}
+	{burst
+		{short 1}			; burst shots on long distance, rand (+-)shots
+		{long 3 1}			; burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.65}	; rangeKoef * aimRange = max long burst distance
+	}
+
+	{Automatic}
+	("accuracy_rifle_auto")
+	{LockFireDistanceTime 0.5}
+	("human health" damage(70))
+	{SyncedProjectiles 0}		;// not for automatic weapons
+	{FiringTimeout 1.75 0.5}
+	{FiringTimeoutDistanceFactor
+		{0.2 0.65}	;24m, 1.1375s
+		{0.649 1.0}	;77.9m, 1.75s //still fires bursts
+		{0.65 0.6}	;78m, 1.05s // switches to single fire only
+		{0.8 0.7}	;96m, 1.225s
+	}
+	{curve "autorifle"}
+	("recoil_fg42")
+	("ap_7_62_slope_multiplier")
+	{AccuracyByMotionK 1.2}
+)
+
+(define "assault_rifle" ;small size rifle calibers with full auto capability; stg44
+	{tag "autorifle_sup auto_eject"}
+	{range 100 100}
+	{spreading
+		{BurstAccuracy 100 95 90 85 80 75 70 60 50}
+	}
+
+	{Automatic}
+	("accuracy_assault_rifle")
+	{LockFireDistanceTime 0.5}
+	("human health" damage(65))
+	{SyncedProjectiles 0}		;// not for automatic weapons
+	{FiringTimeout 1.5 0.5}
+	{FiringTimeoutDistanceFactor
+		{0.2 0.7}	;20m, 1.05s
+		{0.499 0.95};49.9m, 1.425s //still fires bursts
+		{0.5 0.5}	;50m, 0.75s //switches to single fire only
+		{1.0 0.7}	;100m, 1.05s
+	}
+	{burst
+		{short 1}			; burst shots on long distance, rand (+-)shots
+		{long 2.5 0.5}		; burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.5}		; rangeKoef * aimRange = max long burst distance
+	}
+
+	{curve "assaultrifle"}
+	("recoil_stg")
+	("ap_7_62_slope_multiplier")
+)
+
+(define "carbine_rifle" ;small size rifle calibers; m1 carbine
+	{tag "autorifle_sup auto_eject"}
+	{range 100 100}
+	{spreading
+		{BurstAccuracy 100 95 90 85 80 75 70 60 50}
+	}
+
+	{Automatic}
+	("accuracy_assault_rifle")
+	{LockFireDistanceTime 0.5}
+	("human health" damage(65))
+	{SyncedProjectiles 0}		;// not for automatic weapons
+	{FiringTimeout 1.5 0.5}
+	{FiringTimeoutDistanceFactor
+		{0.2 0.6}	;20m, 0.9s
+		{0.4 0.7}	;40m, 1.05s
+		{1.0 1.0}	;100m, 1.5s
+	}
+	{burst
+		{short 1}			; burst shots on long distance, rand (+-)shots
+		{long 1}		; burst shots on short distance, rand (+-)shots
+		{rangeKoef 1}		; rangeKoef * aimRange = max long burst distance
+	}
+
+	{curve "assaultrifle"}
+	("recoil_stg")
+	("ap_7_62_slope_multiplier")
+)
+
+(define "marksman"
+	{ZeroingAccuracy 0.9 0.85 0.8 0.75 0.7 0.65 0.6}
+)
+
+(define "k98_rate"
+	{FiringTimeout 3.5 0.5}		;// 3.5 0.5
+	{FiringTimeoutDistanceFactor
+		{0.2 0.5}	;24m, 1.75s
+		{0.4 0.8}	;48m, 2.8s
+		{0.6 0.9}	;72m, 3.15s
+		{0.8 1.0}	;96m, 3.5s
+	}
+	("fire rate" rpm(50))
+)
+
+(define "finnish_rate"
+	{FiringTimeout 3.5 0.5}		;// 3.5 0.5
+	{FiringTimeoutDistanceFactor
+		{0.2 0.5}	;24m, 1.75s
+		{0.4 0.8}	;48m, 2.8s
+		{0.6 0.9}	;72m, 3.15s
+		{0.8 1.0}	;96m, 3.5s
+	}
+	("fire rate" rpm(50))
+
+)
+
+(define "mosin_rate"
+	{FiringTimeout 4 0.5}		;// 4 0.5
+	{FiringTimeoutDistanceFactor
+		{0.2 0.5}	;24m, 2.0s
+		{0.4 0.8}	;48m, 3.2s
+		{0.6 0.9}	;72m, 3.6s
+		{0.8 1.0}	;96m, 4.0s
+	}
+	("fire rate" rpm(40))
+)
+
+(define "bolt_action"
+	{range 120 120}
+	{Automatic}
+	{tag "bolt_action rifle_shell"}
+	("human health" damage(70))
+	("fire rate" rpm(40)) 
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+	{burst
+		{short 1}		; burst shots on long distance, rand (+-)shots
+		{long 1}			; burst shots on short distance, rand (+-)shots
+		{rangeKoef 1}	; rangeKoef * aimRange = max long burst distance
+	}
+	("recoil_rifle_bolt")
+	("ap_7_62_slope_multiplier")
+	{AccuracyByMotionK 1.2}
+)
+
+(define "zeroing_boost"
+	{ZeroingAccuracy 0.95 0.9 0.85 0.825 0.8 0.775 0.75 0.725 0.7}
+)
+
+(define "scopeview"
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{distanceset 		0		}
+			{distance			35		}	; activation distance
+			{delta 				20		}
+			{linkBone			"head"	}
+
+			{zoom}
+			{vision_modes_active}
+			{vignette_recoil 2.75 1.1}		; speed, scale
+			{vignette_fade_speed 5}			; factoring the speed at which the vignette fades in/out
+			{drop_zoom_on_reload}
+			{blur_strength 10}
+			{mouse_speed_factor 0.6}
+			{ManualAccuracyZoom}
+
+			{camera "human_zoom4"}	; magnification x4
+			{scope_vignette "/texture/common/environment/lens_effects/%scope"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_scope_01_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/%scope"}
+			{refraction_mask "/texture/common/environment/lens_effects/zoom_vignette_scope_01_bp"}
+			{lens_dirt_mask "/texture/common/environment/lens_effects/dirty_lens_scope_01"}
+			{vignette_gloss 10}
+			{offset 35 2.25 0.75}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff "skin"}
+			}
+			{with_weapon
+				{viewon "foresight3"}
+			}
+			{hide_crosshair}
+			{weapon_sway_active}
+			{aimer_type "sniper"}
+		}
+	}
+)
+

@@ -1,0 +1,36 @@
+;Exported by:	 Carlos
+;Date:			 15.09.2017 23:32:41
+;File:			 H:\GoH_3D_gem_export\3d_environment\_military\fortifications\sandbags_new\sandbag_pile.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -0.3742 	 -2.0314 	 13.1578}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+				{VolumeView "body_lod3.ply"}
+			}
+		}
+	}
+}
+{obstacle "body"
+	{obb2
+		{center -1.11476 1.5079}
+		{extent 22.499 17.862}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body"
+	{polyhedron "body.vol"}
+	{bone "body"}
+	{Position -0.7406 	 0.5235 	 -0.0954}
+}

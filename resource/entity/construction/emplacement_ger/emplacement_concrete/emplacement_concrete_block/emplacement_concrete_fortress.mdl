@@ -1,0 +1,1041 @@
+;Exported by:	 Carlos
+;Date:			 22.04.2022 14:05:10
+;File:			 T:\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_blocks_export01.max
+{skeleton
+	{bone "basis"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			0 	 0 	 -0
+		}
+	
+    {bone "tower_stage"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			0 	 0 	 -3
+		}	
+    {bone "concrete_tower_01"
+		{matrix34
+			0    1 	 0
+			-1 	 0	 0
+			0 	 0 	 1
+			213 	 327 	 -0 ; z -x y
+		}		
+	}	
+    {bone "concrete_tower_02"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			327 	 213 	 -0 ; z -x y
+		}		
+	}	
+    {bone "concrete_tower_03"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			327 	 -163 	 -0 ; z -x y
+		}		
+	}	
+    {bone "concrete_tower_04"
+		{matrix34
+			0    -1  0
+			1 	 0	 0
+			0 	 0 	 1
+			213 	 -277 	 -0 ; z -x y
+		}		
+	}	
+    {bone "concrete_tower_05"
+		{matrix34
+			0    -1  0
+			1 	 0	 0
+			0 	 0 	 1
+			-161 	 -277 	 -0 ; z -x y
+		}		
+	}	
+    {bone "concrete_tower_06"
+		{matrix34
+			-1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			-275 	 -163 	 -0 ; z -x y
+		}		
+	}
+    {bone "concrete_tower_07"
+		{matrix34
+			-1    0  0
+			0 	 -1	 0
+			0 	 0 	 1
+			-275 	 213 	 -0 ; z -x y
+		}		
+	}
+    {bone "concrete_tower_08"
+		{matrix34
+			0    1 	 0
+			-1 	 0	 0
+			0 	 0 	 1
+			-161 	 327 	 -0 ; z -x y
+		}		
+	}
+    {bone "concrete_tower_aa_01"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			298 	 286.4 	 -0 ; z -x y
+		}		
+	}
+    {bone "concrete_tower_aa_02"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			298 	 -236 	 -0 ; z -x y
+		}		
+	}
+    {bone "concrete_tower_aa_03"
+		{matrix34
+			0    -1  0
+			1 	 0	 0
+			0 	 0 	 1
+			-234.5 	 -248 	 -0 ; z -x y
+		}		
+	}
+    {bone "concrete_tower_aa_04"
+		{matrix34
+			0    1 	 0
+			-1 	 0	 0
+			0 	 0 	 1
+			-234.5 	 298.5 	 -0 ; z -x y
+		}		
+	}
+	}	
+    {bone "first_floor"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			0 	 0 	 50
+		}
+    {bone "first_floor_stage"
+		{matrix34
+			0    0 	 -1
+			1 	 0	 0
+			0 	 1.0   0
+			0 	 0 	 -0
+		}	
+    {bone "first_floor_01"
+		{matrix34
+			1    0 	 0
+			0 	 0	 1.7
+			0 	 1 	 0
+			0 	240 	 154 ;y z -x
+		}		
+	}		
+    {bone "first_floor_02"
+		{matrix34
+			1    0 	 0
+			0 	 0	1.7
+			0 	 1 	 0
+			0 	240 	 -100
+		}		
+	}	
+    {bone "first_floor_03"
+		{matrix34
+			1    0 	 0
+			0 	 -1.7	 0
+			0 	 0 	 1
+			0 	 152 	 -251
+		}		
+	}	
+    {bone "first_floor_04"
+		{matrix34
+			1    0 	 0
+			0 	 -1.7	 0
+			0 	 0 	 1
+			0 	 -102 	 -251
+		}		
+	}
+    {bone "first_floor_05"
+		{matrix34
+			1    0 	 0
+			0 	 0	 1.71
+			0 	 1 	 0
+			0 	-248 	 -103
+		}		
+	}		
+    {bone "first_floor_06"
+		{matrix34
+			1    0 	 0
+			0 	 0	 1.73
+			0 	 1 	 0
+			0 	-248 	 158
+		}		
+	}
+    {bone "first_floor_07"
+		{matrix34
+			1    0 	 0
+			0 	 -1.7	 0
+			0 	 0 	 1
+			0 	 -102 	 240   ;-y z -x
+		}		
+	}	
+    {bone "first_floor_08"
+		{matrix34
+			1    0 	 0
+			0 	 -1.7	 0
+			0 	 0 	 1
+			0 	 155 	 240   ;-y z -x
+		}		
+	}	
+   {bone "first_floor_bunker_exit_01"
+		{matrix34
+			1    0 	 0
+			0 	 0	 1.5
+			0 	 1.3 	 0
+			0 	 165 	 25   ;-y z -x
+		}		
+	}	
+    {bone "first_floor_bunker_exit_02"
+		{matrix34
+			1.0    0 	 0
+			0 	 -1.5	 0
+			0 	 0 	 1.3
+			0 	 26 	 -195   ;-y z -x
+		}		
+	}		
+    {bone "first_floor_bunker_exit_03"
+		{matrix34
+			1.0    0 	 0
+			0 	 -1.5	 0
+			0 	 0 	 1.3
+			0 	 26 	 165   ;-y z -x
+		}		
+	}	
+    {bone "first_floor_stairs_exit_01"
+		{matrix34
+			1    0 	 0
+			0 	 0	 1.5
+			0 	 1.3 	 0
+			0 	-190	 26.5
+		}		
+	}	
+
+	}	
+    {bone "first_floor_stairs"
+		{matrix34
+			0    1 	 0
+			-1 	 0	 0
+			0 	 0 	 1
+			-217 25	 	-50
+		}		
+	}
+    {bone "first_floor_wall"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1.60
+			0 	 0 	 21
+		}
+    {bone "first_floor_wall_01"
+		{matrix34
+			1   0  	 0
+			0	-0.77  0
+			0 	 0 	 1
+			304 	-147 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_02"
+		{matrix34
+			1   0  	 0
+			0	-1.15  0
+			0 	 0 	 1
+			304 	-25 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_03"
+		{matrix34
+			1   0  	 0
+			0	-0.77  0
+			0 	 0 	 1
+			304 	98 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_04"
+		{matrix34
+			0    1 	 0
+			0.77 	 0	 0
+			0 	 0 	 1
+			150 	254 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_05"
+		{matrix34
+			0    1 	 0
+			1.15 	 0	 0
+			0 	 0 	 1
+			28 	   254 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_06"
+		{matrix34
+			0    1 	 0
+			0.77 	 0	 0
+			0 	 0 	 1
+			-95.5 	254 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_07"
+		{matrix34
+			1   0  	 0
+			0	-1.36	 0
+			0 	 0 	 1
+			-252 	68.5 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_08"
+		{matrix34
+			1   0  	 0
+			0	-1.36	 0
+			0 	 0 	 1
+			-252 	-120.5 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_09"
+		{matrix34
+			0    1 	 0
+			1.4 	 0	 0
+			0 	 0 	 1
+			-125 	-302 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_10"
+		{matrix34
+			0    1 	 0
+			1.15 	 0	 0
+			0 	 0 	 1
+			28 	-302 	 -50 ; z x y
+		}
+	}
+    {bone "first_floor_wall_11"
+		{matrix34
+			0    1 	 0
+			0.76 	 0	 0
+			0 	 0 	 1
+			148 	-302 	 -50 ; z x y 181 	-302 	 -50
+		}
+	}
+    {bone "first_floor_stairs_wall_01"
+		{matrix34
+			0    -1   0
+			0 	 0	 0.7
+			1 	 0 	 0
+			-246 	-63	 -24 ;z x y
+		}		
+	}		
+    {bone "first_floor_stairs_wall_02"
+		{matrix34
+			0    -1   0
+			0 	 0	 0.7
+			1 	 0 	 0
+			-246 	12	 -24 ;z x y
+		}		
+	}	
+	}
+    {bone "first_floor_bunker"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}	
+    {bone "first_floor_bunker_01"
+		{matrix34
+			1   0	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			250 	-23	 0 ;-z x y
+		}	
+	}	
+    {bone "first_floor_bunker_02"
+		{matrix34
+			0   1 	 0
+			1 	 0	 0
+			0 	 0 	 1
+			26 	200 	 0 ;z -x y
+		}	
+	}	
+    {bone "first_floor_bunker_03"
+		{matrix34
+			0   -1 	 0
+			-1 	 0	 0
+			0 	 0 	 1
+			26 	-250 	 0 ;z -x y
+		}	
+	}
+	}
+    {bone "emplacement_88mm_flak"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}	
+    {bone "emplacement_88mm_flak_01"
+		{matrix34
+			1   0	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			430 	-25 	 -35 ;z -x y
+		}	
+		
+	}
+    {bone "emplacement_88mm_flak_02"
+		{matrix34
+			0   1 	 0
+			1 	 0	 0
+			0 	 0 	 1
+			27 	379 	 -35 ;z -x y
+		}	
+	}	
+    {bone "emplacement_88mm_flak_03"
+		{matrix34
+			0   -1 	 0
+			-1 	 0	 0
+			0 	 0 	 1
+			26 	-430 	 -35 ;z -x y
+		}	
+	}		
+	}
+
+    }
+    {bone "second_floor"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			0 	 0 	 100
+		}
+    {bone "second_floor_stage"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0   1
+			0 	 0 	 0
+		}
+	{bone "second_floor_01_stage"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			118    170	 -10
+		}
+    {bone "second_floor_01"
+		{matrix34
+			0    0 	 -1
+			0 	 1.15	 0
+			1.78 	 0 	 0
+			0 0 0
+		}		
+	}	
+	{bone "second_floor_01_wall"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			0    0	 0
+		}	
+    {bone "second_floor_01_wall_01"
+		{matrix34
+			0    1.0 	 0
+			0.93 0	 0	 
+			0 	 0 	 -1
+			45  48	 20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_01_wall_02"
+		{matrix34
+			-1.0    0	0 
+			0   0.95   0
+			0   0	 -1 	 
+			95  9	20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_01_wall_03"
+		{matrix34
+			0    1.0 	 0
+			0.8 0	 0	 
+			0 	 0 	 -1
+			70  -46	 20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_01_wall_04"
+		{matrix34
+			-1.0    0	0 
+			0   0.63   0
+			0   0	 -1 	 
+			8  8	20.5 ;z -x y
+		}		
+	}	
+	}
+	{bone "second_floor_main_emplacement_01"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			50  0 11 ;z -x y
+		}
+	}			
+    }	
+	{bone "second_floor_02_stage"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			118    -122	 -10
+		}
+    {bone "second_floor_02"
+		{matrix34
+			0    0 	 -1
+			0 	 1.15	 0
+			1.78 	 0 	 0
+			0 0 0
+		}		
+	}	
+	{bone "second_floor_02_wall"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			0    0	 0
+		}	
+    {bone "second_floor_02_wall_01"
+		{matrix34
+			0    1.0 	 0
+			0.76 0	 0	 
+			0 	 0 	 -1
+			69  48	 20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_02_wall_02"
+		{matrix34
+			-1.0    0	0 
+			0   0.9   0
+			0   0	 -1 	 
+			95  -6	20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_02_wall_03"
+		{matrix34
+			0    1.0 	 0
+			0.72 0	 0	 
+			0 	 0 	 -1
+			53.5  -46	 20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_02_wall_04"
+		{matrix34
+			-1.0    0	0 
+			0   0.95   0
+			0   0	 -1 	 
+			8  -5	20.5 ;z -x y
+		}		
+	}		
+	}
+	{bone "second_floor_main_emplacement_02"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			50  0 11 ;z -x y
+		}
+	}			
+    }	
+	{bone "second_floor_03_stage"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			-169  -117	 -10
+		}
+    {bone "second_floor_03"
+		{matrix34
+			0    0 	 -1
+			0 	 1.15	 0
+			1.78 	 0 	 0
+			0 	 0 	 0
+		}		
+	}	
+	{bone "second_floor_03_wall"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			0    0	 0
+		}	
+    {bone "second_floor_03_wall_01"
+		{matrix34
+			0    1.0 	 0
+			0.73 0	 0	 
+			0 	 0 	 -1
+			37  44	 20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_03_wall_02"
+		{matrix34
+			-1.0    0	0 
+			0   0.85   0
+			0   0	 -1 	 
+			94  -15	20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_03_wall_03"
+		{matrix34
+			0    1.0 	 0
+			0.70 0	 0	 
+			0 	 0 	 -1		
+
+			53  -46	 20.5 ;z -x y
+		}		
+	}
+
+    {bone "second_floor_03_wall_04"
+		{matrix34
+			-1.0    0	0 
+			0   0.95   0
+			0   0	 -1 	 
+			8  -9	20.5 ;z -x y
+		}		
+	}	
+	}
+	{bone "second_floor_main_emplacement_03"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			50  0 9 ;z -x y
+		}
+	}			
+    }
+	{bone "second_floor_04_stage"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			-169  170	 -10
+		}
+    {bone "second_floor_04"
+		{matrix34
+			0    0 	 -1
+			0 	 1.15	 0
+			1.78 	0 	 0
+			0    0	 0
+		}		
+	}	
+	{bone "second_floor_04_wall"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0	 0 	 1
+			0    0	 0
+		}	
+    {bone "second_floor_04_wall_01"
+		{matrix34
+			0    1.0 	 0
+			0.71 0	 0	 
+			0 	 0 	 -1
+			53  44	 20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_04_wall_02"
+		{matrix34
+			-1.0    0	0 
+			0   0.85   0
+			0   0	 -1 	 
+			95  12	20.5 ;z -x y
+		}		
+	}
+    {bone "second_floor_04_wall_03"
+		{matrix34
+			0    1.0 	 0
+			0.8 0	 0	 
+			0 	 0 	 -1		
+
+			36  -42	 20.5 ;z -x y
+		}		
+	}
+
+    {bone "second_floor_04_wall_04"
+		{matrix34
+			-1.0    0	0 
+			0   0.95   0
+			0   0	 -1 	 
+			8  12	20.5 ;z -x y
+		}		
+	}	
+	}
+	{bone "second_floor_main_emplacement_04"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			45  3 20 ;z -x y
+		}
+	}			
+    }	
+    		
+    {bone "second_floor_05"
+		{matrix34
+			0    0 	 -1
+			0 	 2.53	 0
+			1.38 	 0 	 0
+			69  28	 0
+		}		
+	} 		
+    {bone "second_floor_06"
+		{matrix34
+			0    0 	 -1
+			0 	 1.54	 0
+			1.57 	 0 	 0
+			-20  25	 0
+		}		
+	}    
+	{bone "second_floor_07"
+		{matrix34
+			0    0 	 -1
+			0 	 2.53	 0
+			1.38 	 0 	 0
+			-100  28	 0
+		}		
+	}
+    {bone "second_floor_ground_stage"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0   1
+			0 	 0 	 15
+		}
+    {bone "second_floor_pillars"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			0  0	 0 ;z x y
+		}		
+	
+    {bone "second_floor_pillar_01"
+		{matrix34
+			0    1   0
+			0 	 0	 1.3
+			1 	 0 	 0
+			91  105	 10 ;z -x y
+		}		
+	}	
+    {bone "second_floor_pillar_02"
+		{matrix34
+			0    0.5   0
+			0 	 0	 1.3
+			1 	 0 	 0
+			91  50	 10 ;z -x y
+		}		
+	}	
+    {bone "second_floor_pillar_03"
+		{matrix34
+			0    0.5   0
+			0 	 0	 1.3
+			1 	 0 	 0
+			91  0	 15 ;z -x y
+		}		
+	}	
+    {bone "second_floor_pillar_04"
+		{matrix34
+			0    1   0
+			0 	 0	 1.3
+			1 	 0 	 0
+			91  -55	 10 ;z -x y
+		}		
+	}		
+    }	
+    {bone "second_floor_emplacements"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			0    0	 0 ;z -x y
+		}	
+    {bone "front_mortar_emplacements"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			118  0 -4 ;z -x y
+		}
+    {bone "front_mortar_emplacement_01"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			0  75	 0 ;z -x y
+		}			
+	}	
+    {bone "front_mortar_emplacement_02"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			0  25	 0 ;z -x y
+		}			
+	}	
+    {bone "front_mortar_emplacement_03"
+		{matrix34
+			1    0   0
+			0 	 1	 0
+			0 	 0 	 1
+			0  -25	 0 ;z -x y
+		}			
+	}		
+	}
+
+	}	
+	}
+	}
+    {bone "second_floor_stairs_01"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			26  130	 	-50
+		}		
+	}
+    {bone "second_floor_stairs_02"
+		{matrix34
+			-1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			26  -81 	-50
+		}		
+	}
+    {bone "second_floor_wall"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1.60
+			0 	 0 	 21
+		}
+    {bone "second_floor_wall_01"
+		{matrix34
+			1   0  	 0
+			0	-1.31 0
+			0 	 0 	 1
+			234 	-178 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_02"
+		{matrix34
+			0   1  	 0
+			0.95	0 0
+			0 	 0 	 1
+			197 	-102 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_03"
+		{matrix34
+			1   0  	 0
+			0	-1.49 0
+			0 	 0 	 1
+			160 	-27	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_04"
+		{matrix34
+			0   1  	 0
+			0.95	0 0
+			0 	 0 	 1
+			197 	58 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_05"
+		{matrix34
+			1   0  	 0
+			0	-1.31 0
+			0 	 0 	 1
+			234 	127 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_06"
+		{matrix34
+			0   1  	 0
+			1.12	0 0
+			0 	 0 	 1
+			173 	184 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_07"
+		{matrix34
+			1   0  	 0
+			0	-0.9 0
+			0 	 0 	 1
+			112 	148 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_08"
+		{matrix34
+			0   1  	 0
+			0.68	0 0
+			0 	 0 	 1
+			86 	110 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_09"
+		{matrix34
+			0   1  	 0
+			0.68	0 0
+			0 	 0 	 1
+			-30 	110 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_10"
+		{matrix34
+			1   0  	 0
+			0	-0.9 0
+			0 	 0 	 1
+			-54 	148 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_11"
+		{matrix34
+			0   1  	 0
+			1.14	0 0
+			0 	 0 	 1
+			-115 	184 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_12"
+		{matrix34
+			1   0  	 0
+			0	-1.31 0
+			0 	 0 	 1
+			-178 	127 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_13"
+		{matrix34
+			0   1  	 0
+			0.9	0 0
+			0 	 0 	 1
+			-145 	56 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_14"
+		{matrix34
+			1   0  	 0
+			0	-1.49 0
+			0 	 0 	 1
+			-110 	-27	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_15"
+		{matrix34
+			0   1  	 0
+			0.9	0 0
+			0 	 0 	 1
+			-145 	-107	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_16"
+		{matrix34
+			1   0  	 0
+			0	-1.31 0
+			0 	 0 	 1
+			-178  	-178 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_17"
+		{matrix34
+			0   1  	 0
+			1.14	0 0
+			0 	 0 	 1
+			-115 	-232 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_18"
+		{matrix34
+			1   0  	 0
+			0	-0.9 0
+			0 	 0 	 1
+			-54 	-198	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_19"
+		{matrix34
+			0   1  	 0
+			0.68	0 0
+			0 	 0 	 1
+			-31 	-154	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_20"
+		{matrix34
+			0   1  	 0
+			0.68	0 0
+			0 	 0 	 1
+			86 	-154	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_21"
+		{matrix34
+			1   0  	 0
+			0	-0.9 0
+			0 	 0 	 1
+			109 	-198	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_wall_22"
+		{matrix34
+			0   1  	 0
+			1.12	0 0
+			0 	 0 	 1
+			173 	-232 	 -50 ; z x y
+		}
+	}
+    {bone "second_floor_stairs_wall_01"
+		{matrix34
+			1    0   0
+			0 	 0	 0.7
+			0 	 1 	 0
+			62  -156	 -24 ;z x y
+		}		
+	}		
+    {bone "second_floor_stairs_wall_02"
+		{matrix34
+			1    0   0
+			0 	 0	 0.7
+			0 	 1 	 0
+			-7  -156	 -24 ;z x y
+		}		
+	}
+    {bone "second_floor_stairs_wall_03"
+		{matrix34
+			1    0   0
+			0 	 0	 0.7
+			0 	 1 	 0
+			62  49	 -24 ;z x y
+		}		
+	}		
+    {bone "second_floor_stairs_wall_04"
+		{matrix34
+			1    0   0
+			0 	 0	 0.7
+			0 	 1 	 0
+			-5.0  49	 -24 ;z x y
+		}		
+	}	
+	}
+    
+    }	
+	}
+}	

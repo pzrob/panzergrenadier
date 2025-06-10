@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/_tile/wood_01"}
+	{bump "$/_tile/wood_01_bp"}
+	{lightmap "$/_lm/fence0ldwood_lm"}
+	{blend none}
+}

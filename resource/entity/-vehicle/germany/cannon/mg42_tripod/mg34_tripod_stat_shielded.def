@@ -1,0 +1,13 @@
+{
+	(include "tripod_shielded.inc")
+	(include "/properties/fortified_emplacement.ext")
+    ;(include "/properties/unbreakable.ext")
+	{props "stat_weapon" "gun_shield"}
+    {tag "gun_shield_on"}	
+	{extender "inventory"
+		{box
+			{item "mg34_belt" filling "ammo mgun_ger belt ap" 250 {user "mgun"}}
+		}
+	}
+	{extender "shield" {on}}
+}

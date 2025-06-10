@@ -1,0 +1,66 @@
+;Exported by:	 carlos
+;Date:			 29.09.2023 21:13:27
+;File:			 F:\GoH_3D_human_usa\ammo\30cal_ammo\30cal_export.max
+{skeleton
+	{bone "box_lo"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "box_lo.ply"}
+	}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	1	0
+				-0.015056	-0.533102	5.51735
+			}
+		}
+}
+{volume "body"
+	{box 2.12402 5.55118 4.11514}
+	{bone "box_lo"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-0.0483 	 0.0205 	 1.9507
+	}
+}
+{volume "select"
+	{box 3.93701 7.87402 5.19685}
+	{bone "box_lo"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		0.3107 	 0.0375 	 2.2551
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 11.2894 	 19.5117 	 7.2032}
+			{lookat 0.0581 	 -0.817 	 1.3832}
+			{fov 22.6199}
+			{horizon 1.49998}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.45 	 -0.1446 	 -0.163}
+			}
+			{"1"
+				{type directional}
+				{direction -0.1777 	 -0.0282 	 -0.4665}
+			}
+			{"2"
+				{type directional}
+				{direction -0.2212 	 -0.3791 	 0.2395}
+			}
+		}
+	}
+}

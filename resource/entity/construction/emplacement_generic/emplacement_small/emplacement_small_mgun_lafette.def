@@ -1,0 +1,61 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_small_mgun_lafette.mdl"}
+	{props "sand" "foxhole_spawned" "small" "foxhole_destroy" "jettison_sandbags1" }
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+
+	("foxhole" args "body1")
+	("foxhole" args "body2")
+	("foxhole" args "body3")
+	("foxhole" args "body4")
+
+	{placer
+		{place "sandbag_00"
+			{entity "sandbag_structured_straight_90_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_01"
+			{entity "sandbag_heap_straight_90_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_heap_straight_270_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+		{place "wall_01"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+;=======================ROOF begin========================
+		{place "bench_00"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_00"}
+			{handlebone "body"}
+		}	
+		{place "wooden_planks_roof_01"
+			{entity "wooden_planks_roof_end_02_mgun_bunker"}
+			{Linkbone "wooden_planks_roof_01"}
+			{handlebone "body"}
+		}	
+	}
+;=======================ROOF end========================
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_mgun_roof_sandbag_stage_dummy"}
+		}
+	}
+}

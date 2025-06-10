@@ -1,0 +1,3 @@
+{from "pattern antitank"
+	{entity "mine_tmi_43"}
+}

@@ -1,0 +1,81 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "parts"}
+	{extension "emplacement_middle_atgun.mdl"}
+	{volume "body10_vol001"
+		{able {visible 1}}
+	}
+	{volume "body1_vol004"
+		{able {visible 1}}
+	}
+	{volume "body2_vol001"
+		{able {visible 1}}
+	}
+	{volume "body3_vol001"
+		{able {visible 1}}
+	}
+	{volume "body4_vol003"
+		{able {visible 1}}
+	}
+	{volume "body4_vol004"
+		{able {visible 1}}
+	}
+	{volume "body5_vol001"
+		{able {visible 1}}
+	}
+	{volume "body6_vol001"
+		{able {visible 1}}
+	}
+	{volume "body7_vol001"
+		{able {visible 1}}
+	}
+	{volume "body9_vol001"
+		{able {visible 1}}
+	}
+	{extender "land_patch"
+		{TerrainType "ground" "ground"}
+	}
+	
+	{placer
+		{place "netting_square"
+			{entity "netting_square"}
+			{Linkbone "netting_square"}
+			{handlebone "body"}
+		}
+		{place "floor_01"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "floor_02"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+		}
+		{place "floor_03"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_01"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_framed_straight_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_02"
+			{entity "sandbag_framed_straight_270_indestructible"}
+			{Linkbone "sandbag_framed_straight_02"}
+			{handlebone "body"}
+		}
+	}
+}

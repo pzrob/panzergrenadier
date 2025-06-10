@@ -1,0 +1,105 @@
+;Exported by:	 Carlos
+;Date:			 15.08.2020 18:35:43
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\platform_planks\planks_export.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "floor_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				0 	 0 	 -17
+			}
+			{bone "floor_01"
+				{matrix34
+					1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					-17.5 	 0 	 -28.1437
+				}
+				{parameters "land;rotate;"}
+				{VolumeView "planks.ply"}
+			}
+			{bone "floor_02"
+				{matrix34
+					1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					17.5 	 0 	 -28.1437
+				}
+				{parameters "land;rotate;"}
+				{VolumeView "planks.ply"}
+			}
+		}
+		{bone "box_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				0 	 0 	 0
+			}
+			{bone "box_00"
+				{matrix34
+					0 	 1.3 	 0
+					1 	 0 	 0
+					0 	 0 	 1
+					40 	 0 	 1
+				}
+				{VolumeView "box_3.ply"}
+				{bone "land_00"
+					{Position -4.2525 	 -3.1726 	 2.5869}
+					{visibility 0}
+					{VolumeView "land.ply"}
+				}
+			}
+			{bone "box_01"
+				{matrix34
+					1.04 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					5 	 -40 	 13
+				}
+				{VolumeView "box_1.ply"}
+				{bone "land"
+					{Position 0.52 	 -3.1726 	 2.5869}
+					{visibility 0}
+					{VolumeView "land.ply"}
+				}
+			}
+			{bone "box_02"
+				{matrix34
+					1.04	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					5 	 35 	 13
+				}
+				{VolumeView "box_1.ply"}
+				{bone "land"
+					{Position 0.52 	 -3.1726 	 2.5869}
+					{visibility 0}
+					{VolumeView "land.ply"}
+				}
+			}
+			{bone "box_03"
+				{matrix34
+					0 	 1.10	 0
+					1 	 0 	 0
+					0 	 0 	 1
+					-42.2 	 0 	 -11.0
+				}
+				{VolumeView "box_5.ply"}
+				{bone "land_03"
+					{Position -2.4588 	 -3.1726 	 2.5869}
+					{VolumeView "land.ply"}
+				}
+			}
+		}
+	}
+}
+	

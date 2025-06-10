@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "steel_crate_t3476_42_01_build_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "-remove_on_land_patch"}
+	("armor_heavy")
+	{placer
+		{place "tank"
+			{entity "t3476_42_no_scavenge_dummy"}
+			{Linkbone "tank"}
+			{handlebone "body"}
+		}
+		{place "crate"
+			{entity "steel_crate_t3476_42_01_dummy"}
+			{Linkbone "crate"}
+			{handlebone "body"}
+		}
+	}
+}

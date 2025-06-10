@@ -1,0 +1,82 @@
+{game_entity	
+    (include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall" "big" "parts"}
+	("armor_heavy")
+	{obstacleID "unbreakable"}
+	{extension "concrete_tower_mg42.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{able {visible 1}}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{volume "wall_00"
+		;{Tags "roof"}
+		{thickness 200}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "wall_01"
+		;{Tags "roof"}
+		{thickness 200}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "wall_02"
+		;{Tags "roof"}
+		{thickness 200}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{placer
+		;{place "floor_01"
+			;{entity "concrete_block_03_floor"}
+			;{Linkbone "floor_01"}
+			;{handlebone "body"}
+		;}
+		{place "stairs"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "stairs"}
+			{handlebone "body"}
+		}
+		{place "sandbag_00"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_01"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+	    {place "lampshade_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_01"}
+			{handlebone "body"}
+	    }
+	    {place "windows_stage"
+			{entity "emplacement_concrete_block_tower_window_stage_dummy"}
+			{Linkbone "windows_stage"}
+			{handlebone "body"}
+	    }
+	}	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_tower_mg42_mgun_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_tower_search_light_stage_dummy"}
+		}
+	}	
+}

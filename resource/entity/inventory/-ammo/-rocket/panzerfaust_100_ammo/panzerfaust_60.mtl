@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_weapon/panzerfaust100"}
+	{bump "$/_weapon/panzerfaust60_bp"}
+	{specular "$/_weapon/panzerfaust60_sp"}
+	{color "230 230 230 150"}
+	{blend none}
+	{specular_intensity 1.2}
+}

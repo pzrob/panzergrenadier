@@ -1,0 +1,109 @@
+;Exported by:	 Carlos
+;Date:			 22.04.2022 14:05:10
+;File:			 T:\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_blocks_export01.max
+{skeleton
+	{bone "basis"
+		{matrix34
+			1 	 0 	 0
+			0 	 1  0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "cleaner_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1  0
+				0 	 0 	 1
+				0 	 0 	 0
+			}
+		{bone "cleaner_first_line_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1   0
+				0 	 0 	 1
+				300    0 	 0
+			}
+			{bone "first_line_cleaner_01"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_02"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_03"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_04"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_05"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_06"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_07"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_08"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_09"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+			{bone "first_line_cleaner_10"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+			}
+		}
+		}
+	}
+}

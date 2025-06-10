@@ -1,0 +1,60 @@
+;Exported by:	 Carlos
+;Date:			 11.08.2020 20:05:38
+;File:			 T:\GoH_3D_human_export\3d_equipment\repair_kit\repair_kit.max
+{skeleton
+	{bone "kit"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "kit.ply"}
+			{VolumeView "kit_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 10.7816 4.71127 4.19786}
+	{bone "kit"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		0.0021 	 -0.1018 	 2.0989
+	}
+}
+{volume "select"
+	{box 12.8352 6.16089 6.04008}
+	{bone "kit"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-0.1791 	 0.1398 	 2.7002
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -35.4297 	 -7.6079 	 14.0819}
+			{lookat 1.2442 	 0.2775 	 1.8115}
+			{fov 20.1932}
+			{horizon -1.1896}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.5996 	 25.2345 	 -2.0642}
+			}
+			{"1"
+				{type directional}
+				{direction 0.4114 	 -0.0376 	 -0.2817}
+			}
+			{"2"
+				{type point}
+				{position -1.914 	 -15.1731 	 2.2419}
+			}
+		}
+	}
+}

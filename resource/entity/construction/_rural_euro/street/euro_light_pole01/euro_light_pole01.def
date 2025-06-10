@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/post.inc")
+	{extension "euro_light_pole01.mdl"}
+	{props "wood"}
+
+	{extender "light"
+		{lamp "1"
+			{preset "lamp_spot"}
+		}
+	}
+}

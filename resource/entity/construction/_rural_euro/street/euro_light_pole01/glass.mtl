@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/_euro/lightpole"}
+	{envmap "$/_vehicle/envmap_gold01"}
+	{mask "$/_euro/lightpole_sp"}
+	{blend blend}
+}

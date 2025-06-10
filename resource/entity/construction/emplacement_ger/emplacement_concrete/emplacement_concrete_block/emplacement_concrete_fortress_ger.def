@@ -1,0 +1,546 @@
+{game_entity	
+    (include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	("armor_heavy")
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_fortress.mdl"}
+
+	{Lodclass "concrete"}
+	{placer
+;=====================first_floor begin=====================
+;=======floor_stage begin========
+		{place "first_floor_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_02"}
+			{handlebone "body"}
+		}		
+		{place "first_floor_03"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_03"}
+			{handlebone "body"}
+		}	
+		{place "first_floor_04"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_04"}
+			{handlebone "body"}
+		}
+		{place "first_floor_05"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_05"}
+			{handlebone "body"}
+		}
+		{place "first_floor_06"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_06"}
+			{handlebone "body"}
+		}		
+		{place "first_floor_07"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_07"}
+			{handlebone "body"}
+		}	
+		{place "first_floor_08"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_08"}
+			{handlebone "body"}
+		}
+;=======floor_stage end========
+;=======wall_stage begin========
+        {place "first_floor_wall_01"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_01"}
+			{handlebone "body"}
+		}
+        {place "first_floor_wall_02"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_02"}
+			{handlebone "body"}
+		}
+		{place "first_floor_wall_03"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_03"}
+			{handlebone "body"}
+		}
+        {place "first_floor_wall_04"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_04"}
+			{handlebone "body"}
+		}
+        {place "first_floor_wall_05"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_05"}
+			{handlebone "body"}
+		}
+        {place "first_floor_wall_06"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_06"}
+			{handlebone "body"}
+		}
+		{place "first_floor_wall_07"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_07"}
+			{handlebone "body"}
+		}
+		{place "first_floor_wall_08"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_08"}
+			{handlebone "body"}
+		}
+        {place "first_floor_wall_09"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_09"}
+			{handlebone "body"}
+		}
+		{place "first_floor_wall_10"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_10"}
+			{handlebone "body"}
+		}
+		{place "first_floor_wall_11"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_wall_11"}
+			{handlebone "body"}
+		}
+		{place "first_floor_stairs_wall_01"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_stairs_wall_01"}
+			{handlebone "body"}
+		}
+		{place "first_floor_stairs_wall_02"
+			{entity "concrete_block_03"}
+			{Linkbone "first_floor_stairs_wall_02"}
+			{handlebone "body"}
+		}
+;=======wall_stage end========
+		{place "first_floor_bunker_exit_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_bunker_exit_01"}
+			{handlebone "body"}
+		}	
+		{place "first_floor_bunker_exit_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_bunker_exit_02"}
+			{handlebone "body"}
+		}	
+		{place "first_floor_bunker_exit_03"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_bunker_exit_03"}
+			{handlebone "body"}
+		}
+		{place "first_floor_stairs_exit_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "first_floor_stairs_exit_01"}
+			{handlebone "body"}
+		}	
+        {place "first_floor_stairs"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "first_floor_stairs"}
+			{handlebone "body"}
+		}
+;=====================first_floor end=====================		
+;=====================second_floor begin=====================	
+;===========floor_stage begin==========	
+		{place "second_floor_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_01"}
+			{handlebone "body"}
+		}
+		{place "second_floor_01_wall_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_01_wall_01"}
+			{handlebone "body"}
+		}
+		{place "second_floor_01_wall_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_01_wall_02"}
+			{handlebone "body"}
+		}
+		{place "second_floor_01_wall_03"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_01_wall_03"}
+			{handlebone "body"}
+		}
+		{place "second_floor_01_wall_04"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_01_wall_04"}
+			{handlebone "body"}
+		}
+		{place "second_floor_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_02"}
+			{handlebone "body"}
+		}
+		{place "second_floor_02_wall_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_02_wall_01"}
+			{handlebone "body"}
+		}
+		{place "second_floor_02_wall_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_02_wall_02"}
+			{handlebone "body"}
+		}
+		{place "second_floor_02_wall_03"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_02_wall_03"}
+			{handlebone "body"}
+		}
+		{place "second_floor_02_wall_04"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_02_wall_04"}
+			{handlebone "body"}
+		}
+		{place "second_floor_03"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_03"}
+			{handlebone "body"}
+		}	
+		{place "second_floor_03_wall_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_03_wall_01"}
+			{handlebone "body"}
+		}
+		{place "second_floor_03_wall_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_03_wall_02"}
+			{handlebone "body"}
+		}
+		{place "second_floor_03_wall_03"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_03_wall_03"}
+			{handlebone "body"}
+		}
+		{place "second_floor_03_wall_04"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_03_wall_04"}
+			{handlebone "body"}
+		}	
+	
+
+		{place "second_floor_04"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_04"}
+			{handlebone "body"}
+		}	
+		{place "second_floor_04_wall_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_04_wall_01"}
+			{handlebone "body"}
+		}
+		{place "second_floor_04_wall_02"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_04_wall_02"}
+			{handlebone "body"}
+		}
+		{place "second_floor_04_wall_03"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_04_wall_03"}
+			{handlebone "body"}
+		}
+		{place "second_floor_04_wall_04"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_04_wall_04"}
+			{handlebone "body"}
+		}	
+		{place "second_floor_05"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_05"}
+			{handlebone "body"}
+		}	
+		{place "second_floor_06"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_06"}
+			{handlebone "body"}
+		}	
+		{place "second_floor_07"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "second_floor_07"}
+			{handlebone "body"}
+		}	 
+;===========floor_stage end==========	
+;===========wall_stage begin==========	 
+		{place "second_floor_wall_01"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_01"}
+			{handlebone "body"}
+		}	 
+		{place "second_floor_wall_02"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_02"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_03"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_03"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_04"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_04"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_05"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_05"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_06"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_06"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_07"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_07"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_08"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_08"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_09"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_09"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_10"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_10"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_11"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_11"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_12"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_12"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_13"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_13"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_14"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_14"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_15"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_15"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_16"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_16"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_17"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_17"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_18"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_18"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_19"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_19"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_20"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_20"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_21"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_21"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_wall_22"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_wall_22"}
+			{handlebone "body"}
+		}
+		{place "second_floor_stairs_wall_01"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_stairs_wall_01"}
+			{handlebone "body"}
+		}
+		{place "second_floor_stairs_wall_02"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_stairs_wall_02"}
+			{handlebone "body"}
+		}	      
+		{place "second_floor_stairs_wall_03"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_stairs_wall_03"}
+			{handlebone "body"}
+		}
+		{place "second_floor_stairs_wall_04"
+			{entity "concrete_block_03"}
+			{Linkbone "second_floor_stairs_wall_04"}
+			{handlebone "body"}
+		}	
+		{place "second_floor_pillar_01"
+			{entity "concrete_block_pillar_01"}
+			{Linkbone "second_floor_pillar_01"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_pillar_02"
+			{entity "concrete_block_pillar_01"}
+			{Linkbone "second_floor_pillar_02"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_pillar_03"
+			{entity "concrete_block_pillar_01"}
+			{Linkbone "second_floor_pillar_03"}
+			{handlebone "body"}
+		}		
+		{place "second_floor_pillar_04"
+			{entity "concrete_block_pillar_01"}
+			{Linkbone "second_floor_pillar_04"}
+			{handlebone "body"}
+		}	
+		
+;===========wall_stage end==========	  			
+		{place "second_floor_stairs_01"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "second_floor_stairs_01"}
+			{handlebone "body"}
+		}
+		{place "second_floor_stairs_02"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "second_floor_stairs_02"}
+			{handlebone "body"}
+		}
+
+
+		
+;=====================second_floor end=====================			
+;=====================emplacement begin=====================			
+		{place "concrete_tower_01"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_01"}
+			{handlebone "body"}
+		}
+		{place "concrete_tower_02"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_02"}
+			{handlebone "body"}
+		}
+		{place "concrete_tower_03"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_03"}
+			{handlebone "body"}
+		}
+		{place "concrete_tower_04"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_04"}
+			{handlebone "body"}
+		}	
+		{place "concrete_tower_05"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_05"}
+			{handlebone "body"}
+		}
+		{place "concrete_tower_06"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_06"}
+			{handlebone "body"}
+		}	
+		{place "concrete_tower_07"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_07"}
+			{handlebone "body"}
+		}
+		{place "concrete_tower_08"
+			{entity "emplacement_concrete_tower_mg42_no_stair"}
+			{Linkbone "concrete_tower_08"}
+			{handlebone "body"}
+		}
+		{place "concrete_tower_aa_01"
+			{entity "emplacement_concrete_tower_50mm_flak41_no_stair_01"}
+			{Linkbone "concrete_tower_aa_01"}
+			{handlebone "body"}
+		}	
+		{place "concrete_tower_aa_02"
+			{entity "emplacement_concrete_tower_50mm_flak41_no_stair_02"}
+			{Linkbone "concrete_tower_aa_02"}
+			{handlebone "body"}
+		}		
+		{place "concrete_tower_aa_03"
+			{entity "emplacement_concrete_tower_50mm_flak41_no_stair_02"}
+			{Linkbone "concrete_tower_aa_03"}
+			{handlebone "body"}
+		}
+		{place "concrete_tower_aa_04"
+			{entity "emplacement_concrete_tower_50mm_flak41_no_stair_01"}
+			{Linkbone "concrete_tower_aa_04"}
+			{handlebone "body"}
+		}		
+		{place "first_floor_bunker_01"
+			{entity "emplacement_concrete_bunker_50mm_kwk39"}
+			{Linkbone "first_floor_bunker_01"}
+			{handlebone "body"}
+		}		
+		{place "first_floor_bunker_02"
+			{entity "emplacement_concrete_bunker_50mm_kwk39"}
+			{Linkbone "first_floor_bunker_02"}
+			{handlebone "body"}
+		}				
+		{place "first_floor_bunker_03"
+			{entity "emplacement_concrete_bunker_50mm_kwk39"}
+			{Linkbone "first_floor_bunker_03"}
+			{handlebone "body"}
+		}	
+		{place "emplacement_88mm_flak_01"
+			{entity "emplacement_concrete_88mm_flak36_tall"}
+			{Linkbone "emplacement_88mm_flak_01"}
+			{handlebone "body"}
+		}
+		{place "emplacement_88mm_flak_02"
+			{entity "emplacement_concrete_88mm_flak36_tall"}
+			{Linkbone "emplacement_88mm_flak_02"}
+			{handlebone "body"}
+		}		
+		{place "emplacement_88mm_flak_03"
+			{entity "emplacement_concrete_88mm_flak36_tall"}
+			{Linkbone "emplacement_88mm_flak_03"}
+			{handlebone "body"}
+		}			
+		{place "second_floor_main_emplacement_01"
+			{entity "ger_weapon_crate_selection_fortress_01"}
+			{Linkbone "second_floor_main_emplacement_01"}
+			{handlebone "body"}
+		}			
+		{place "second_floor_main_emplacement_02"
+			{entity "ger_weapon_crate_selection_fortress_01"}
+			{Linkbone "second_floor_main_emplacement_02"}
+			{handlebone "body"}
+		}			
+		{place "second_floor_main_emplacement_03"
+			{entity "ger_weapon_crate_selection_fortress_01"}
+			{Linkbone "second_floor_main_emplacement_03"}
+			{handlebone "body"}
+		}			
+		{place "second_floor_main_emplacement_04"
+			{entity "ger_weapon_crate_selection_fortress_01"}
+			{Linkbone "second_floor_main_emplacement_04"}
+			{handlebone "body"}
+		}			
+;=====================emplacement end=====================			
+	}	
+}

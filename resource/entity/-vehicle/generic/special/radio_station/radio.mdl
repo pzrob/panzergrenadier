@@ -1,0 +1,94 @@
+;Exported by:	 Carlos
+;Date:			 28.03.2022 21:25:27
+;File:			 T:\GoH_3d_environment_fin\3d_environment\radio\Radio.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+	{bone "set"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "radio_set"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 1.5
+		}
+		{bone "table"
+		{matrix34
+			0.35 	 0 	 0
+			0 	 0.8 	 0
+			0 	 0 	 0.85
+			-2.0 	 -0.5 	 -2.0
+		}
+		}
+		{bone "radio"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-0.3 	 0.0057 	 12.9
+		}
+			{LODView
+				{VolumeView "radio.ply"}
+				{VolumeView "radio_lod1.ply"}
+			}
+		}
+	}
+	{bone "radio_operator"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "chair"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 0.92
+			-20.0 	 0.0057 	 -0.2
+		}
+		}
+		{bone "commander"
+			;{Position -30.1443 	 -0.1542 	 -1.0}
+			{Position -16.0 	 -0.0 	 -0.2} ;moto
+		}
+		{bone "emit2"
+			{Position -30.4181 	 -0.2123 	 0.0408}
+		}
+	}	
+	}
+	}
+}
+{obstacle "body"
+	{obb2
+		{center 0.161098 -0.00132632}
+		{extent 3.87728 6.81891}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body"
+	{box 7.75455 13.6378 7.45033}
+	{bone "radio"}
+	{Position 0.062 	 -0.0044 	 3.8697}
+}
+{volume "select"
+	{box 8.98923 20.1106 18.8469}
+	{bone "radio"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-1.2047 	 0 	 -5.5708
+	}
+}

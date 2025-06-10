@@ -1,0 +1,38 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_ger_moded.inc")
+	("shells_ger_crate_50mm_l60")
+	{props  "inventory_box" "spread_items" "shed" "small" "-wood" "burning" "break_on_burn"}	
+	{extension "ger_50mm_l60_shell_crate.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "ger_50mm_l60_shell_crate"}
+	}
+	{placer
+		{place "shell_01"
+			{entity "50mm_ger_l60_apche"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "50mm_ger_l60_apche"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "50mm_ger_l60_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "50mm_ger_l60_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{item
+	{tag "smallitemin1hand" "engineering_fin" "shovel_heavy"}
+	{entity "shovel_engineer_fin"}
+	{inventory
+		{size 4 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 5}
+}

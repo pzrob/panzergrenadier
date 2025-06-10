@@ -1,0 +1,33 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "regel_bau_636a_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun_01"
+			{entity "mg42_tripod_fixed_shielded"}
+			{Linkbone "mgun_01"}
+			{handlebone "body"}
+		}
+		{place "mgun_02"
+			{entity "mg42_tripod_fixed_shielded"}
+			{Linkbone "mgun_02"}
+			{handlebone "body"}
+		}
+		{place "mgun_03"
+			{entity "mg42_fixed_shielded_tripod_bunker_entrance"}
+			{Linkbone "mgun_03"}
+			{handlebone "body"}
+		}
+		{place "mg_platform_01"
+			{entity "concrete_block_03_floor_inside"}
+			{Linkbone "mg_platform_01"}
+			{handlebone "body"}
+		}
+		{place "mg_platform_03"
+			{entity "crate_mg_platform"}
+			{Linkbone "mg_platform_03"}
+			{handlebone "body"}
+		}
+	}
+}

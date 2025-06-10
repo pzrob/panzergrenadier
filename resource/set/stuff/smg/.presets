@@ -1,0 +1,65 @@
+(include "\set\small_firearms_accuracy.inc")
+
+(define "burst_short"
+	{burst
+		{short 3 1}
+		{long 5 2}
+		{rangeKoef 0.4}
+	}
+	{FiringTimeoutDistanceFactor
+		{0.25 0.5}	;20m, 1.0s
+		{0.7 0.75}	;56m, 1.5s
+		{1.0 0.85}	;80m, 1.7s
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 4 1}
+		{long 6 2}
+		{rangeKoef 0.4}
+	}
+	{FiringTimeoutDistanceFactor
+		{0.25 0.55}	;20m, 1.1s
+		{0.7 0.85}	;56m, 1.7s
+		{1.0 0.95}	;80m, 1.9s
+	}
+)
+
+(define "stick_reload"
+	("reload time" seconds(3.25))
+)
+
+(define "spreading_mounted"
+	{spreading
+		{BurstAccuracy 100 95 90 85 80 75}
+	}
+)
+(define "spreading_low"
+	{spreading
+		{BurstAccuracy 100 95 90 85 80 75 70}
+	}
+)
+(define "spreading_medium"
+	{spreading 
+		{BurstAccuracy 100 93 86 79 72 66 60 55}
+	}
+)
+(define "spreading_high"
+	{spreading 
+		{BurstAccuracy 100 92 84 76 69 62 56 50 45}
+	}
+)
+(define "spreading_max"
+	{spreading 
+		{BurstAccuracy 100 91 82 73 65 57 51 45	40}
+	}
+)
+
+(define "penetration"
+	{projectileDamageTable 	{25 %0} {100 0}}
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)

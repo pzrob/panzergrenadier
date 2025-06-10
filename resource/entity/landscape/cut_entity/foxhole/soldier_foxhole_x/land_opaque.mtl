@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/soldier_foxhole"}
+	{bump "$/_military/soldier_foxhole_bp"}
+	{specular "$/_military/soldier_foxhole_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

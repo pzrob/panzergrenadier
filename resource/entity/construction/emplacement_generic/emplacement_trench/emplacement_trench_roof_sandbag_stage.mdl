@@ -1,0 +1,118 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0            ;1 	 0 	 0      
+			0	 1   0            ;1 	 1 	 0 
+			0 	 0   1			  ;0 	 0   1
+			0.0  0.0 	0.0       ;x 	 -z   y
+		}
+	{bone "sandbag_piles"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1.0 	 0    ;x -z y
+			0 	 0 	 1
+			0 	 0 	 0 ;-z x y
+		}
+	{bone "sandbag_piles_first_rank"
+		{matrix34
+			1 	 0 	 0
+			0 	 1.05 	 0    
+			0 	 0 	 1
+			0 	 0   0 ;-z x y
+		}		
+    {bone "sandbag_pile_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	-38 	 0 ;-z x y
+		}
+	}	
+    {bone "sandbag_pile_02"
+		{matrix34
+			0 	 -1  0
+			1.1 	 0 	 0
+			0 	 0 	 1
+		    2	 -1 	  0  ;z x y
+		}
+	}
+    {bone "sandbag_pile_03"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    1	  38 	 	 0
+		}
+	}
+    }
+    {bone "sandbag_piles_second_rank"
+		{matrix34
+			1 	 0 	 0
+			0 	 1.0 	 0    
+			0 	 0 	 1
+			33 	0 0 ;-z x y
+		}		
+    {bone "sandbag_pile_04"
+		{matrix34
+			0 	 1  0
+			-1 	 0 	 0
+			0 	 0 	 1
+		    0	-33 	 0 ;-z x y
+		}
+	}	
+    {bone "sandbag_pile_05"
+		{matrix34
+			1 	 0 	 0
+			0 	 1.0 	 0    
+			0 	 0 	 1
+		    0	 -1 	  0
+		}
+	}
+    {bone "sandbag_pile_06"
+		{matrix34
+			0 	 -1  0
+			1 	 0 	 0
+			0 	 0 	 1
+		    3  33 	 	 0
+		}
+	}
+    }
+    {bone "sandbag_piles_third_rank"
+		{matrix34
+			1 	 0 	 0
+			0 	 1.0 	 0    
+			0 	 0 	 1
+			68 	0 0 ;-z x y
+		}		
+    {bone "sandbag_pile_07"
+		{matrix34
+			0 	 -1  0
+			1 	 0 	 0
+			0 	 0 	 1
+		    2	-33 	 0 ;-z x y
+		}
+	}	
+    {bone "sandbag_pile_08"
+		{matrix34
+			0 	 1  0
+			-1 	 0 	 0
+			0 	 0 	 1
+		    0	 -1 	  0
+		}
+	}
+    {bone "sandbag_pile_09"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    -3  37 	 0
+		}
+	}
+    }	
+	}
+	}
+}
+

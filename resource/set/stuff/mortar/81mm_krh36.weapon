@@ -1,0 +1,12 @@
+;_________________________________________
+; Finnish(German) Medium Mortar - 8cm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarfin_81"}
+	{fireSound "cannon/s2/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s2/d1/Shared/Mortar/"}
+	{calibre 81}
+	("medium_mortar_range")
+}

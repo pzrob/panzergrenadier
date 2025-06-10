@@ -1,0 +1,11 @@
+{item
+	{tag "itemin2hands distributable drop_to_vehicle_when_board"}
+	{entity "repair_kit"}
+	{inventory
+		{size 3 2}
+		{weight 100}
+		{block 5}
+		{fsm "stuff"}
+	}
+	{mass 5}
+}

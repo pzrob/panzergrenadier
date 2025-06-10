@@ -1,0 +1,124 @@
+;Exported by:	 Carlos
+;Date:			 22.04.2022 14:05:10
+;File:			 T:\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_blocks_export01.max
+{skeleton
+	{bone "basis"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 -2
+		}
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-45 	 0 	 0
+		}
+	{bone "block_size"
+		{matrix34
+			1.1 	 0 	 0
+			0 	 1.1	 0
+			0 	 0 	 1
+			0 	 0 	 0 ;z x
+		}
+	{bone "block"
+		{matrix34
+			0 	 0 	 1
+			0 	 1.8   0
+			3.1	 0 	 0
+			-50 	 0 	 0 ;z x
+		}
+		{bone "body01"
+			{parameters "land;ground;"}
+			{Position -1.0261 	 -1.1054 	 29.5276}
+			{LODView
+				{VolumeView "body01.ply"{Ground}}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+	}
+	}
+	{bone "crate_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			12    19   5  ;z x y
+		}
+	{bone "crate_fortress_northeast"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			63    45   0  ;z x y
+		}
+	}
+	{bone "crate_fortress_northwest"
+		{matrix34
+			0 	 -1 	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			100   -54   0  ;z x y
+		}
+	}
+	{bone "crate_fortress_southwest"
+		{matrix34
+			-1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			0    -90   0  ;z x y
+		}
+	}
+	{bone "crate_fortress_southeast"
+		{matrix34
+			0 	 1 	 0
+			-1 	 0 	 0
+			0 	 0 	 1
+			-38    10   0  ;z x y
+		}
+	}
+	{bone "crate_maze_northeast"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			33    45   0  ;z x y
+		}
+	}
+	{bone "crate_maze_northwest"
+		{matrix34
+			0 	 -1 	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			100   -24   0  ;z x y
+		}
+	}
+	{bone "crate_maze_southwest"
+		{matrix34
+			-1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			30    -90   0  ;z x y
+		}
+	}
+	{bone "crate_maze_southeast"
+		{matrix34
+			0 	 1 	 0
+			-1 	 0 	 0
+			0 	 0 	 1
+			-38    -20  0  ;z x y
+		}
+	}
+	}
+	}
+	}
+}
+{volume "body01"
+	{box 19.111 100.139 59.7904}
+	{bone "body01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}

@@ -1,0 +1,85 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "foxhole_spawned" "normal"}
+	{Extension "emplacement_light_mortar.mdl"}
+	
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+	{placer
+		{place "sandbag_00"
+			{entity "emplacement_light_sandbag_stage_mortar"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_81mm_krh36_mortar_stage"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_81mm_krh36_mortar_stage"}
+			}
+			{"ger"
+				{entity "emplacement_80mm_sgrw34_mortar_stage"}
+			}
+			;{"spa"
+				{entity "emplacement_80mm_sgrw34_mortar_stage"}
+			;}
+			{"ger_female_soldier"
+				{entity "emplacement_80mm_sgrw34_mortar_stage"}
+			}
+			{"rus"
+				{entity "emplacement_82mm_bm37_mortar_stage"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_82mm_bm37_mortar_stage"}
+			}
+			{"usa"
+				{entity "emplacement_81mm_m1_mortar_stage"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_81mm_m1_mortar_stage"}
+			}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_81mm_krh36_round_crate_stage"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_81mm_krh36_round_crate_stage"}
+			}
+			;{"spa"
+				{entity "emplacement_80mm_sgrw34_round_crate_stage"}
+			;}
+			{"ger_female_soldier"
+				{entity "emplacement_80mm_sgrw34_round_crate_stage"}
+			}
+			{"rus"
+				{entity "emplacement_82mm_bm37_round_crate_stage"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_82mm_bm37_round_crate_stage"}
+			}
+			{"usa"
+				{entity "emplacement_81mm_m1_round_crate_stage"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_81mm_m1_round_crate_stage"}
+			}
+		}
+	}
+}

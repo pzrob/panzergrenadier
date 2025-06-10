@@ -1,0 +1,55 @@
+{
+	(include "/properties/trench.inc")
+	{extension "euro_log_trench_dirt_intersection2.mdl"}
+	{props "sand"}
+	("boneLand"  args "trench")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")	
+	("volume" args "body7")	
+	("volume" args "body8")	
+	{volume "body1"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	{volume "body3"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	{volume "body5"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	{volume "body6"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	{volume "body7"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	
+    {extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "euro_log_trench_dirt_intersection2_roof_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "euro_log_trench_dirt_intersection2_roof_sandbag_stage"}
+		}
+	}
+	
+}

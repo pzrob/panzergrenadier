@@ -1,0 +1,36 @@
+;Exported by:	 Alexey
+;Date:			 06.02.2017 17:43:05
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_straight_short_v03.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point2"
+			{Position 30.3118 	 -14.3822 	 0.6684}
+		}
+		{bone "point3"
+			{Position -25.3371 	 -12.5111 	 0.6684}
+		}
+		{bone "point1"
+			{Position -27.8236 	 11.8509 	 0.6684}
+		}
+		{bone "point4"
+			{Position 22.2032 	 13.4702 	 0.6684}
+		}
+	}
+	}
+}

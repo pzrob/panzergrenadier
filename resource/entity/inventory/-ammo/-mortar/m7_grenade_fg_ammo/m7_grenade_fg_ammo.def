@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff.ext")
+	{Extension "m7_grenade_fg_ammo.mdl"}
+	{extender "stuff"
+		{item "ammo m7_grenade he"}
+	}
+}
+

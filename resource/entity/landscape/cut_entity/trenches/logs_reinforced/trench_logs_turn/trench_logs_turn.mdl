@@ -1,0 +1,157 @@
+;Exported by:	 Carlos
+;Date:			 08.03.2019 10:45:14
+;File:			 T:\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\trenches_reinforced_dirt\trenches_reinforced_dirt_new_export.max
+{skeleton
+	{bone "trench_turn1"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench_turn1.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point5"
+			{matrix34
+				0.5266 	 -0.8501 	 0
+				0.8501 	 0.5266 	 0
+				0 	 0 	 1
+				-21.0078 	 9.5039 	 -3.4719
+			}
+		}
+		{bone "point2"
+			{matrix34
+				0.5134 	 -0.8581 	 0
+				0.8581 	 0.5134 	 0
+				0 	 0 	 1
+				2.4986 	 31.3081 	 -3.4719
+			}
+		}
+		{bone "point3"
+			{matrix34
+				0.371 	 -0.9286 	 0
+				0.9286 	 0.371 	 0
+				0 	 0 	 1
+				20.5602 	 0.3889 	 -3.4719
+			}
+		}
+		{bone "point4"
+			{matrix34
+				-0.085 	 -0.9964 	 0
+				0.9964 	 -0.085 	 0
+				0 	 0 	 1
+				25.4123 	 -33.6876 	 -3.4719
+			}
+		}
+		{bone "point8"
+			{matrix34
+				0.0237 	 -0.9997 	 0
+				0.9997 	 0.0237 	 0
+				0 	 0 	 1
+				-6.2867 	 -35.0371 	 -3.4719
+			}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex -40.6992 -25.3164}
+		{vertex 4.23596 -56.2726}
+		{vertex 33.4996 -2.81504}
+		{vertex 38.6467 61.1569}
+		{vertex -15.3868 60.7511}
+	}
+	{rotate}
+}
+{obstacle "body2"
+	{obb2
+		{center 4.85041 -31.8989}
+		{extent 22.9772 1.50809}
+		{axis -0.567623 -0.823288}
+	}
+	{rotate}
+}
+{obstacle "body3"
+	{obb2
+		{center 21.3844 -0.516373}
+		{extent 22.9772 1.50809}
+		{axis -0.326951 -0.945041}
+	}
+	{rotate}
+}
+{obstacle "body4"
+	{obb2
+		{center 25.7506 35.8911}
+		{extent 22.9772 1.5081}
+		{axis -0.0142782 -0.999898}
+	}
+	{rotate}
+}
+{obstacle "body5"
+	{obb2
+		{center -24.2893 -7.59146}
+		{extent 22.9772 1.50809}
+		{axis -0.539448 -0.842019}
+	}
+	{rotate}
+}
+{obstacle "body8"
+	{obb2
+		{center -10.0848 35.0251}
+		{extent 22.9772 1.50809}
+		{axis -0.0389138 -0.999243}
+	}
+	{rotate}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "point2"}
+	{matrix34
+		0.9973 	 0.0729 	 -0.0122
+		-0.0738 	 0.9921 	 -0.1017
+		0.0047 	 0.1024 	 0.9947
+		1.2341 	 2.1577 	 -19.3935
+	}
+}
+{volume "body3"
+	{polyhedron "body3.vol"}
+	{bone "point3"}
+	{matrix34
+		0.9973 	 -0.0718 	 -0.0173
+		0.0697 	 0.9924 	 -0.1017
+		0.0245 	 0.1002 	 0.9947
+		0.0477 	 0.585 	 -19.3603
+	}
+}
+{volume "body4"
+	{polyhedron "body4.vol"}
+	{bone "point4"}
+	{matrix34
+		0.9927 	 0.1201 	 -0.0106
+		-0.1205 	 0.9875 	 -0.1019
+		-0.0018 	 0.1024 	 0.9947
+		1.6276 	 1.9861 	 -19.3245
+	}
+}
+{volume "body5"
+	{box 4.67372 46.3923 27.2355}
+	{bone "point5"}
+	{matrix34
+		-0.0257 	 0.9984 	 0.0498
+		-0.9997 	 -0.0259 	 0.0038
+		0.0051 	 -0.0497 	 0.9988
+		-0.1386 	 -5.6505 	 -7.172
+	}
+}
+{volume "body8"
+	{box 4.67372 46.3923 27.2355}
+	{bone "point8"}
+	{matrix34
+		-0.0257 	 0.9984 	 0.0498
+		-0.9997 	 -0.0259 	 0.0038
+		0.0051 	 -0.0497 	 0.9988
+		-0.1386 	 -5.6505 	 -7.172
+	}
+}

@@ -1,0 +1,177 @@
+;Exported by:	 Carlos
+;Date:			 15.08.2020 18:35:43
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\platform_planks\planks_export.max
+{skeleton
+	{bone "sandbag_piles"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1.0 	 0    ;x -z y
+			0 	 0 	 1.1
+			18 	 -10 	 62 ;-z x y
+		}
+	{bone "sandbag_piles_first_rank"
+		{matrix34
+			1.2 	 0 	 0
+			0 	 1.2 	 0    
+			0 	 0 	 1
+			-66 -13.5   0 ;-z x y
+		}		
+    {bone "sandbag_pile_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	-42 	 0 ;-z x y
+		}
+	}	
+    {bone "sandbag_pile_02"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 -7 	  0
+		}
+	}
+    {bone "sandbag_pile_03"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		   0	 28 	 	 0
+		}
+	}
+    {bone "sandbag_pile_04"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	52.5 	 0 ;-z x y
+		}
+	}	
+    }
+    {bone "sandbag_piles_second_rank"
+		{matrix34
+			1.2 	 0 	 0
+			0 	 1.2 	 0    
+			0 	 0 	 1
+			-25 -13.5   0 ;-z x y
+		}		
+	
+      {bone "sandbag_pile_05"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	-42 	 0 ;-z x y
+		}
+	}	
+    {bone "sandbag_pile_06"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 -7 	  0
+		}
+	}
+    {bone "sandbag_pile_07"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 28  0
+		}
+	}
+    {bone "sandbag_pile_08"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 -7 	  0
+		}
+	}
+    }
+    {bone "sandbag_piles_third_rank"
+		{matrix34
+			1.2 	 0 	 0
+			0 	 1.2 	 0    
+			0 	 0 	 1
+			16 -13.5   0 ;-z x y
+		}		
+
+    {bone "sandbag_pile_09"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	-42 	 0 ;-z x y
+		}
+	}	
+    {bone "sandbag_pile_10"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 -7  0
+		}
+	}
+    {bone "sandbag_pile_11"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 28  0
+		}
+	}
+    {bone "sandbag_pile_12"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	52.5 	 0 ;-z x y
+		}
+	}
+    }	
+	{bone "sandbag_piles_fourth_rank"
+		{matrix34
+			1.2 	 0 	 0
+			0 	 1.2 	 0    
+			0 	 0 	 1
+			57 -13.5   0 ;-z x y
+		}		
+
+    {bone "sandbag_pile_13"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	-42 	 0 ;-z x y
+		}
+	}	
+    {bone "sandbag_pile_14"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 -7  0
+		}
+	}
+    {bone "sandbag_pile_15"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	 28  0
+		}
+	}
+    {bone "sandbag_pile_16"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		    0	52.5 	 0 ;-z x y
+		}
+	}
+    }
+	}
+}
+

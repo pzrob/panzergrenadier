@@ -1,0 +1,40 @@
+;Exported by:	 Carlos
+;Date:			 31.07.2018 19:35:58
+;File:			 T:\GoH_3D_environment_export\3d_environment\_military\fortifications\sandbags_new\smart_set\sandbags_few.max
+{skeleton
+	{bone "basis"
+		{orientation
+			 0	     0.2        -1
+			0  	     1 	        0.2
+			-1 	     -0.2	        0
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -0.187 	 -0.4071 	 0}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+		}
+	}
+}
+{area "body"
+	{obb2
+		{center 1.32483 0.245682}
+		{extent 6.42609 9.59164}
+		{axis 0.945573 0.325409}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body"
+	{box 12.7555 19.1189 4.73583}
+	{bone "body"}
+	{matrix34
+		0.9472 	 -0.3206 	 0
+		0.3206 	 0.9472 	 0
+		0 	 0 	 1
+		1.5119 	 0.1615 	 2.3679
+	}
+}

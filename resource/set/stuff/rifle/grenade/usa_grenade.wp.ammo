@@ -1,0 +1,24 @@
+;// M19 WP
+{bullet
+	{tag "ammo fg dropboxed rifle_grenade shell"}
+	{tag  "wp_size1"}	; Explosive Filling 		= 0.0168 kg of TNT (13.5g of Tetryl in detonator)
+	{detonationThickness 0.5}
+	{inventory
+		{weight 20}
+		{size 3 1}
+	}
+	{entity "usa_grenade_wp"}
+	{view "usa_grenade_wp"}
+	{mass 0.712}
+
+	{damage fire
+		{radius 1.05}
+		{heating 10}
+		{time 0.5}
+	}
+	{damage blastwave
+		{energy 1}
+		{area 1.53 2.55}
+		{ground_interaction_radius 0.2}		;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

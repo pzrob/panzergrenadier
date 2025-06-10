@@ -1,0 +1,16 @@
+{game_entity
+	;(include "/properties/building_roof.inc")
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning" "sand" "sandbag" "jettison_sandbags4"}
+	("armor_heavy" args 0.8)
+	{obstacleID "unbreakable"}
+
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "wooden_planks_01.mdl"}
+	{volume "exterior01"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 1}}
+	}
+}

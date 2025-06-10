@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{extension "sandbag_pile.mdl"}
+	{props "sand" "sandbag" "heap" "construction" "parts" "no_destroyed_stamp"}
+	{volume "body"
+		{Tags "body"}
+		{thickness 140}
+		{able {visible 1}}
+	}
+	{lodclass "decor_medium"}
+}

@@ -1,0 +1,100 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "20mm_flakvierling38_xx.mdl"}
+	{volume "barrel10"
+		{thickness 10}
+	}
+	{volume "barrel1"
+		{thickness 10}
+	}
+	{volume "barrel2"
+		{thickness 10}
+	}
+	{volume "barrel3"
+		{thickness 10}
+	}
+	{volume "barrel4"
+		{thickness 10}
+	}
+	{volume "barrel5"
+		{thickness 10}
+	}
+	{volume "barrel6"
+		{thickness 10}
+	}
+	{volume "barrel7"
+		{thickness 10}
+	}
+	{volume "barrel8"
+		{thickness 10}
+	}
+	{volume "barrel9"
+		{thickness 10}
+	}
+	{volume "body1"
+		{thickness 10}
+	}
+	{volume "body2"
+		{thickness 10}
+	}
+	{volume "body3"
+		{thickness 10}
+	}
+	{volume "body4"
+		{thickness 10}
+	}
+	{volume "body5"
+		{thickness 10}
+	}
+	{volume "body6"
+		{thickness 10}
+	}
+	{volume "body7"
+		{thickness 10}
+	}
+	{volume "body8"
+		{thickness 10}
+	}
+	{volume "shield1"
+		{thickness 5}
+		{able {holed}}
+	}
+	{volume "shield2"
+		{thickness 5}
+		{able {holed}}
+	}
+	{volume "shield3"
+		{thickness 5}
+		{able {holed}}
+	}
+	{volume "shield41"
+		{thickness 5}
+	}
+	{volume "shield42"
+		{thickness 5}
+	}
+	{volume "shield43"
+		{thickness 5}
+	}
+	{volume "shield4"
+		{thickness 5}
+	}
+	{volume "shield61"
+		{thickness 5}
+	}
+	{volume "shield62"
+		{thickness 5}
+	}
+	{volume "shield63"
+		{thickness 5}
+	}
+	{volume "shield6"
+		{thickness 5}
+	}
+	{volume "wheelleft"
+		{thickness 2}
+	}
+	{volume "wheelright"
+		{thickness 2}
+	}
+}

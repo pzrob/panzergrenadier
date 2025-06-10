@@ -1,0 +1,47 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_light_roof_stage_low_set.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "roof_stage"
+			{entity "wooden_planks_roof_x2"}
+			{Linkbone "roof_stage"}
+			{handlebone "body"}
+		}
+		{place "piller_01"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_01"}
+			{handlebone "body"}
+		}
+		{place "piller_02"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_02"}
+			{handlebone "body"}
+		}
+		{place "piller_03"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_03"}
+			{handlebone "body"}
+		}
+		{place "piller_04"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_04"}
+			{handlebone "body"}
+		}
+	}
+    {extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_roof_sandbag_stage_low_set_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_netting_stage_low_set_dummy"}
+		}
+	}
+}

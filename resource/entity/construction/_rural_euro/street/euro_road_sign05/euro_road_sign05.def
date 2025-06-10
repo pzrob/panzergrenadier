@@ -1,0 +1,32 @@
+{game_entity
+	(include "/properties/construction.inc")
+	("armor_fence_wood")
+	{props "fence" "wood" "construction" "small" "shed" "no_destroyed_stamp"}
+	{lodclass "decor_medium"}
+	{extension "euro_road_sign05.mdl"}
+
+	{volume "body77"
+		{Tags "body" "fire"}
+		{thickness 1}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body78"
+		{Tags "body" "fire"}
+		{thickness 1}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body79"
+		{Tags "body" "fire"}
+		{thickness 1}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body80"
+		{Tags "body" "fire"}
+		{thickness 1}
+	}
+	{volume "body81"
+		{Tags "body" "fire"}
+		{thickness 1}
+		{able {visible 0}{Obstacle 0}}
+	}
+}

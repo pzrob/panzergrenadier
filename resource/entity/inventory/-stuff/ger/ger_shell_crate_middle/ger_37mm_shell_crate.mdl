@@ -1,0 +1,139 @@
+;Exported by:	 Carlos
+;Date:			 28.08.2017 15:46:47
+;File:			 H:\GoH_3D_gem_export\3d_environment\_military\boxes\crate_pile\wood_crate1_v06.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			0    -1	 0
+			1    0   0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "box2"
+		{orientation
+			0  0.5	 0
+			0.5 	0   0
+			0 	 0 	 0.6
+		}
+		{LODView
+			{VolumeView "box2.ply"}
+			{VolumeView "box2_lod1.ply"}
+		}
+	}
+    {bone "shells"
+			{matrix34
+			0	 1	 -0.07      ;1 	 0 	 0      
+			1	 0   0          ;1 	 1 	 0 
+			0  0.07   1			;0 	 0   1
+			0	 -1.70 	 5.1   ;-x -z y
+			}
+	
+	{bone "shell_01"
+			{matrix34
+			 -1	  0	 0.0      ;1 	 0 	 0      
+			0	 -1   0          ;1 	 1 	 0 
+			0.0  0   1			;0 	 0   1
+			0 	 4.00 	 0
+			}
+	}
+	{bone "shell_02"
+			{matrix34
+			 -1	  0	 0.0      ;1 	 0 	 0      
+			0	 -1   0          ;1 	 1 	 0 
+			0.0  0   1			;0 	 0   1
+			0 	 2.500 	 0
+			}
+	}
+	{bone "shell_03"
+			{matrix34
+			 -1	  0	 0.0	      ;1 	 0 	 0      
+			0	 -1   0          ;1 	 1 	 0 
+			0.0  0   1			;0 	 0   1
+			0 	 1.000  0
+			}
+	}
+	{bone "shell_04"
+			{matrix34
+			 -1	  0	 0.0	      ;1 	 0 	 0      
+			0	 -1   0          ;1 	 1 	 0 
+			0.0  0   1			;0 	 0   1
+			0 	 -0.500  0
+			}
+	}
+	{bone "shell_05"
+			{matrix34
+			 -1	  0	 0.0	      ;1 	 0 	 0      
+			0	 -1   0          ;1 	 1 	 0 
+			0.0  0   1			;0 	 0   1
+			0 	 -2.00  0
+			}
+	}
+	{bone "shell_06"
+			{matrix34
+			 -1	  0	 0.0	      ;1 	 0 	 0      
+			0	 -1   0          ;1 	 1 	 0 
+			0.0  0   1			;0 	 0   1
+			0 	 -3.500  0
+			}
+	}
+	}
+	}
+}
+{obstacle "body"
+	{obb2
+		{center -0.0187683 -0.217398}
+		{extent 10.8302 6.70773}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" " fire"}
+}
+{volume "body"
+	{box 21.6604 13.4155 8.24492}
+	{bone "box2"}
+	{Position -0.0188 	 0.2174 	 4.1225}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 10.7075	19.2562	12.5683}
+			{lookat 0.388288	2.47953	1.9909}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 15.3124	26.7492	17.7988}
+			{lookat 0.274618	2.30109	2.38482}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin 10.3205	18.5231	12.3033}
+			{lookat 0.395563	2.38732	2.13006}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+}

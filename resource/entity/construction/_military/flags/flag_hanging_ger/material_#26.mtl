@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "flag_hanging_ger"}
+	{bump "hanging_flag_bp"}
+	{blend test}
+}

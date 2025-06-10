@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_ds39_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "ds39_stand_stat_dummy"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "crate_mg_platform"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+		;{place "table_02"
+			;{entity "sand-shuttering-box_3_new"}
+			;{Linkbone "table_02"}
+			;{handlebone "body"}
+		;}
+	}
+}

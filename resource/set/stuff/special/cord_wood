@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands"}
+	{entity "cord_wood"}
+	{inventory
+		{size 4 2}
+		{weight 100}
+		{fsm "hand-only"}
+	}	
+	{mass 16}
+}

@@ -1,0 +1,68 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/resupply.inc")
+	{extension "infantry_cart_if8.mdl"}
+	(include "/properties/selection/vehicle_small.inc" scale(0.8))
+	{props "cannon_small" "wheeled" "vision_lev00_can" "trailer" "trailer_light" "c_supply" "blast_small" "ammo_map"}
+	{collider "cannon_small"}
+	{targetclass "car"}
+
+	("supply_ammo" supply(250))
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("armor_light_cannon")
+	("crew_wheeled_cannon")
+
+	{Volume "body1"
+		{thickness 5}
+		{able {holed}}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "ammo_trailer_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "ammo_trailer_commander" 10}}
+		}
+		{anm "driver1"
+			{forward {end "ammo_trailer_gunner_push" 10}}
+		}
+		{anm "driver2"
+			{forward {end "ammo_trailer_commander_push" 10}}
+		}
+		{anm "seat1"
+			{forward {end "seat_ammo_tr_1" 10}}
+		}
+		{anm "seat2"
+			{forward {end "seat_ammo_tr_2" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "ammo_trailer_gunner_push" "ammo_trailer_commander_push"}
+			{aim "cannon_pak40_gunlayer" "" "" "" ""}
+			{fire  "cannon_gunlayer_fire-alert" "cannon_zis3_charger_fire 0.2" "" "" ""}
+			{reload  "" "cannon_pak40_charger" "" "" ""}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box}
+	}
+
+	{mass 81.5}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(11.6) ;--------------------------------Max speed.
+			weight(81.5) ;-------------------------------Weight in Kilograms.
+		)
+	}
+}

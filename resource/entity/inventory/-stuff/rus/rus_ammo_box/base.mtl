@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/ds39_inventory"}
+	{bump "$/_weapon/ds39_inventory_bp"}
+	{specular "$/_weapon/ds39_inventory_sp"}
+	{color "230 230 230 30"}
+	{blend none}
+}

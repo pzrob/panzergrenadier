@@ -1,0 +1,69 @@
+;Exported by:	 Carlos
+;Date:			 09.06.2022 14:02:34
+;File:			 T:\GoH_3d_environment_fin\3d_buildings\bunkers\45mm_pillbox\artillyry_bunker_45mm_Stand_lower.max
+{skeleton
+	{bone "reinforce_stage"
+		{matrix34
+			0 	 1 	 0
+			-1 	 0   0
+			0 	 0 	 1
+			12 	 -45 	 -5 ;x -z y
+		}
+	    {bone "pillars"
+		{matrix34
+			1 	 0 	 0
+			0 	 1   0
+			0 	 0 	 0.34
+			28.7	 0 	 15.5
+		}
+	    
+	    {bone "pillar_01"
+		{matrix34
+			0.2  -0.9	 0
+			-0.9  -0.5   0
+		    0 	 0 	 1
+			0	 -13.8 	 0	
+		}
+	    }
+	    {bone "pillar_02"
+		{matrix34
+			-0.2  -0.9	 0
+			-0.9  0.5   0
+		    0 	 0 	 1
+			0	21.5 	 0	
+		}
+	    }
+		}
+		
+		
+		
+		
+		
+		
+		
+	    {bone "sandbag"
+		{matrix34
+			1 	 0 	 0
+			0 	 1   0
+			0 	 0 	 0.5
+			35.0	 0 	 20
+		}
+	    {bone "sandbag_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1   0
+			0 	 0 	 1
+			0	 -18 	 0
+		}
+		}
+	    {bone "sandbag_02"
+		{matrix34
+			1 	 0 	 0
+			0 	 1   0
+			0 	 0 	 1
+			0	 17 	 0
+		}
+		}
+	    }
+	}	
+}	

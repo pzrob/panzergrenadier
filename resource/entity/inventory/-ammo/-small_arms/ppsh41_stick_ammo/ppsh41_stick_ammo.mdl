@@ -1,0 +1,53 @@
+;Exported by:	 Carlos
+;Date:			 11.06.2021 15:01:35
+;File:			 T:\GoH_3D_human_export\3d_weapons\ppsh41_stick\ppsh41_stick_ammo.max
+{skeleton
+	{bone "group001"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "group001.ply"}
+	}
+}
+{volume "body"
+	{box 1.10986 4.60654 0.506508}
+	{bone "group001"}
+	{matrix34
+		0.976 	 0 	 -0.2179
+		0.2179 	 0 	 0.976
+		0 	 -1 	 0
+		0.0741 	 -0.0029 	 -0.0067
+	}
+}
+{volume "select"
+	{box 1.78421 5.29488 1.06827}
+	{bone "group001"}
+	{matrix34
+		0.976 	 0 	 -0.2179
+		0.2179 	 0 	 0.976
+		0 	 -1 	 0
+		0.0741 	 -0.0289 	 -0.0067
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.0614 	 16.1128 	 0.0556}
+			{lookat 0.0063 	 -0.331 	 0.0618}
+			{fov 9.71758}
+			{horizon -3.58938}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -9.5957 	 25.5755 	 -1.8836}
+			}
+			{"1"
+				{type directional}
+				{direction -0.091 	 -0.4917 	 -0.0009}
+			}
+		}
+	}
+}

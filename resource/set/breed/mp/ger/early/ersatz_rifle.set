@@ -1,0 +1,80 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_39_rfl_2"}
+	{portrait ger_regular}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_m34_sidecap}
+	}
+	{perks
+		{"rocketlauncher" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"mgun_light" lvl_1
+		}
+		{"melee" lvl_1
+		}
+		{"avoidance" lvl_1
+		}
+		{"barricade"
+			{fortifications "foxhole" "medic_rally" "auto_medic_place_flag"}
+			{factor 1}
+		}
+		{"resources" "10%"
+		}
+		{"mechanic"}
+		{"tank_gun" lvl_1
+		}
+		{"health" "300%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "175%"
+		}
+		{"stamina_regeneration" "175%"
+		}
+		{"personage" 0}
+		{"vision" human
+		}
+		{"speed" 1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 3
+		}
+		{"lvl_3" 5
+		}
+		{"lvl_4" 8
+		}
+		{"lvl_5" 10
+		}
+		{"lvl_6" 15
+		}
+		{"lvl_7" 20
+		}
+		{"lvl_8" 35
+		}
+	}
+	{inventory
+		{item "rifle_ger clip ammo" 60 5}
+		{item "m24 grenade" 1.25 0.5}
+		{item "m24_smoke grenade" 1.25 0.5}
+		{item "m24_geballteladung grenade" 0.15 0.5}
+		{item "bandage_ger" 2.5 0.5}
+		{item "shovel_ger"}
+		{item "k98_bayonet" filled}
+		{in_hands 0}
+	}
+}

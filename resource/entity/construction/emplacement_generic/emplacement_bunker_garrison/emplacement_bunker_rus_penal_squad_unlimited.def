@@ -1,0 +1,55 @@
+{game_entity
+	(include "/properties/emplacement_wooden.ext")
+	(include "/properties/bunker_garrison.ext")
+	;(include "/properties/unbreakable.ext")
+	{props "wood" "vision_lev03_can" "no_scavenge" "emit_passangers_on_enemy"}
+	{Extension "bunker_garrison.mdl"}
+    {tag "garrison_unlimited"}
+
+
+
+
+
+	("bunker_passenger_12_human")
+
+	{mass 100000}	
+
+
+	{placer
+	   {place "sandbag_00"
+		   {entity "sandbag_framed_straight_indestructible"}
+		   {Linkbone "sandbag_00"}
+		   {handlebone "body"}
+	   }
+	   {place "sandbag_01"
+		   {entity "sandbag_framed_straight_90_indestructible"}
+		   {Linkbone "sandbag_01"}
+		   {handlebone "body"}
+	   }
+	   {place "sandbag_02"
+		   {entity "sandbag_framed_straight_270_indestructible"}
+		   {Linkbone "sandbag_02"}
+		   {handlebone "body"}
+	   }
+	   {place "sandbag_03"
+		   {entity "sandbag_framed_straight_90_indestructible"}
+		   {Linkbone "sandbag_03"}
+		   {handlebone "body"}
+	   }
+	   {place "sandbag_04"
+		   {entity "sandbag_framed_straight_270_indestructible"}
+		   {Linkbone "sandbag_04"}
+		   {handlebone "body"}
+	   }
+	   {place "sandbag_05"
+		   {entity "sandbag_framed_straight_180_indestructible"}
+		   {Linkbone "sandbag_05"}
+		   {handlebone "body"}
+	   }
+	   {place "sandbag_06"
+		   {entity "sandbag_framed_straight_180_indestructible"}
+		   {Linkbone "sandbag_06"}
+		   {handlebone "body"}
+	   }
+	}
+}

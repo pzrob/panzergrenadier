@@ -1,0 +1,58 @@
+{game_entity
+	(include "/properties/building.inc")
+	{obstacleid "unbreakable"}
+	{props  "concrete" "construction" "big" "-parts" "mg_bunker"}
+	("armor_heavy")
+	{extension "pillbox.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 50}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body08"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body09"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body10"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+    {extender "land_patch"
+        {TerrainType "ground" "rock"} 
+        {NoNormals}
+	}
+}

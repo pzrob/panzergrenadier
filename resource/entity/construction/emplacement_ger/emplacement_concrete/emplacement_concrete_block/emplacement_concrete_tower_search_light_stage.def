@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "concrete_tower_search_light_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "search_light"
+			{entity "150mm_sw34_stat"}
+			{Linkbone "search_light"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "crate4_indestructible"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+	}
+}

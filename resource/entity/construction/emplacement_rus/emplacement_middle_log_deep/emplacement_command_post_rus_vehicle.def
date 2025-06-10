@@ -1,0 +1,85 @@
+{
+	(include "/properties/emplacement_foxhole.ext")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{extension "emplacement_command_post_vehicle.mdl"}
+
+	("boneLand"  args "trench")
+	("boneLand"  args "exit")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")	
+	("volume" args "body7")	
+	("volume" args "body8")	
+	("volume" args "body9")	
+	("volume" args "body10")	
+	("volume" args "body11")
+	("volume" args "body12")
+	{placer
+        {place "sandbag_framed_straight_0"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_0"}
+			{handlebone "body"}
+		}	
+		{place "sandbag_framed_straight_00"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_00"}
+			{handlebone "body"}
+		}		
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_03"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_04"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_04"}
+			{handlebone "body"}
+		}
+
+		{place "sandbag_pile_01"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "sandbag_pile_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_02"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "sandbag_pile_02"}
+			{handlebone "body"}
+		}
+		{place "roof"
+			{entity "emplacement_command_post_roof_stage_tall"}
+			{Linkbone "roof"}
+			{handlebone "body"}
+		}
+		{place "roof_sandbag"
+			{entity "emplacement_command_post_roof_sandbag_stage_tall"}
+			{Linkbone "roof_sandbag"}
+			{handlebone "body"}
+		}
+		;{place "roof_netting"
+			;{entity "emplacement_command_post_netting_stage_tall"}
+			;{Linkbone "roof_netting"}
+			;{handlebone "body"}
+		;}
+		{place "radio"
+			{entity "emplacement_command_post_rus_radio_stage"}
+			{Linkbone "radio"}
+			{handlebone "body"}
+		}
+
+	}	
+}

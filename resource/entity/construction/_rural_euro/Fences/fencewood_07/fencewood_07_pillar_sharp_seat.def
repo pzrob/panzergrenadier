@@ -1,0 +1,28 @@
+{game_entity
+	;(include "/properties/building_roof.inc")
+	;(include "/properties/building.inc")
+	(include "/properties/stuff_mine.ext")
+	{props "construction" "wood" "burning"} 
+	{obstacleID "unbreakable"}
+	{extension "fencewood_07_pillar_sharp_seat.mdl"}
+	
+	
+	{placer
+		{place "seat" {attach} {pose "sex_idle\009_cros_paling2"} {linkbone "seat"}}
+	}
+	{boarder
+		{door "emit"}
+		{link "emit" "seat" {forward putoff}}
+	}
+	
+	{volume "trap_hidden"
+		{Tags "roof" "attach" "seat"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 1}{touch 1}}
+	}
+	{volume "trap_enable"
+		{Tags "roof" "attach" "seat"}
+		{thickness 30}
+		{able {visible 0}{obstacle 1}{contact 0}{touch 1}}
+	}
+}

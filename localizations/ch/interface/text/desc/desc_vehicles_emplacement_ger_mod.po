@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cta - Gates of Hell (desc_vehicles_rus)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-04-28 12:16+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+msgctxt "desc/entity/emplacement_bunker_ger_osttruppen_squad"
+msgid "Osttruppen Rally Point"
+msgstr "东方营集结点"
+
+msgctxt "info/special/emplacement_bunker_ger_osttruppen_squad"
+msgid "<c(c3baae)>Middle Garrison Fortification</c>"
+msgstr "<c(c3baae)>中型加固集结点</c>"
+
+msgctxt "desc/entity/emplacement_bunker_ger_osttruppen_squad_unlimited"
+msgid "Osttruppen Rally Point（unlimited）"
+msgstr "东方营集结点"
+
+msgctxt "info/special/emplacement_bunker_ger_osttruppen_squad_unlimited"
+msgid "<c(c3baae)>Middle Garrison Fortification</c>"
+msgstr "<c(c3baae)>中型加固集结点</c>"
+
+msgctxt "desc/entity/emplacement_bunker_ger_strafbatallion_squad_unlimited"
+msgid "Strafbatallion Rally Point（unlimited）"
+msgstr "缓刑营集结点"
+
+msgctxt "info/special/emplacement_bunker_ger_strafbatallion_squad_unlimited"
+msgid "<c(c3baae)>Middle Garrison Fortification</c>"
+msgstr "<c(c3baae)>中型加固集结点</c>"
+
+msgctxt "desc/entity/emplacement_bunker_ger_luftwaffe_squad_unlimited"
+msgid "Luftwaffe Field Division Rally Point（unlimited）"
+msgstr "空军野战师集结点"
+
+msgctxt "info/special/emplacement_bunker_ger_luftwaffe_squad_unlimited"
+msgid "<c(c3baae)>Middle Garrison Fortification</c>"
+msgstr "<c(c3baae)>中型加固集结点</c>"
+
+msgctxt "desc/entity/emplacement_bunker_ger_kriegsmarine_squad_unlimited"
+msgid "kriegsmarine Rally Point（unlimited）"
+msgstr "海军步兵驻防据点"
+
+msgctxt "info/special/emplacement_bunker_ger_kriegsmarine_squad_unlimited"
+msgid "<c(c3baae)>Middle Garrison Fortification</c>"
+msgstr "<c(c3baae)>中型加固集结点</c>"
+
+msgctxt "desc/entity/emplacement_bunker_ger_volkssturm_squad_unlimited"
+msgid "volkssturm Rally Point（unlimited）"
+msgstr "人民冲锋队集结点"
+
+msgctxt "info/special/emplacement_bunker_ger_volkssturm_squad_unlimited"
+msgid "<c(c3baae)>Middle Garrison Fortification</c>"
+msgstr "<c(c3baae)>中型加固集结点</c>"
+
+msgctxt "desc/entity/emplacement_watch_tower_mg34_vehicle"
+msgid "Watch Tower(MG 34)"
+msgstr "哨戒塔(MG34)"
+
+msgctxt "info/special/emplacement_watch_tower_mg34_vehicle"
+msgid "<c(c3baae)>Middle Fortification</c>"
+msgstr "<c(c3baae)>中型驻防点</c>"
+
+msgctxt "desc/entity/emplacement_watch_tower_mg42_vehicle"
+msgid "Watch Tower(MG 42)"
+msgstr "哨戒塔(MG42)"
+
+msgctxt "info/special/emplacement_watch_tower_mg42_vehicle"
+msgid "<c(c3baae)>Middle Fortification</c>"
+msgstr "<c(c3baae)>中型驻防点</c>"
+
+msgctxt "desc/entity/emplacement_concrete_platform_tower_vehicle"
+msgid "Concrete Watch Tower"
+msgstr "混泥土哨塔"
+
+msgctxt "info/special/emplacement_concrete_platform_tower_vehicle"
+msgid "<c(c3baae)>Middle Fortification</c>"
+msgstr "<c(c3baae)>重型驻防点</c>"
+
+msgctxt "desc/entity/emplacement_mg34_vehicle"
+msgid "MG 34 Emplacement"
+msgstr "MG34 机枪阵地"
+
+msgctxt "info/special/emplacement_mg34_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>重机枪阵地</c>" 
+
+msgctxt "desc/entity/emplacement_mg42_vehicle"
+msgid "MG 42 Emplacement"
+msgstr "MG42 机枪阵地"
+
+msgctxt "info/special/emplacement_mg42_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>重机枪阵地</c>" 
+
+msgctxt "desc/entity/emplacement_concrete_bunker_mg34_vehicle"
+msgid "MG 34 MG Bunker"
+msgstr "MG34 机枪碉堡"
+
+msgctxt "info/special/emplacement_concrete_bunker_mg34_vehicle"
+msgid "<c(c3baae)>Concrete Bunker</c>"
+msgstr "<c(c3baae)>混凝土碉堡</c>" 
+
+msgctxt "desc/entity/emplacement_concrete_bunker_vehicle"
+msgid "Concrete Bunker"
+msgstr "混凝土碉堡"
+
+msgctxt "info/special/emplacement_concrete_bunker_vehicle"
+msgid "<c(c3baae)>Concrete Bunker</c>"
+msgstr "<c(c3baae)>混凝土碉堡</c>" 
+
+msgctxt "desc/entity/emplacement_concrete_platform_bunker_vehicle"
+msgid "Concrete Bunker"
+msgstr "混凝土碉堡"
+
+msgctxt "info/special/emplacement_concrete_platform_bunker_vehicle"
+msgid "<c(c3baae)>Concrete Bunker</c>"
+msgstr "<c(c3baae)>混凝土碉堡</c>" 
+
+msgctxt "desc/entity/emplacement_concrete_bunker_50mm_flak41_vehicle"
+msgid "5cm Flak 41 Bunker"
+msgstr "5cm Flak 41 机炮碉堡"
+
+msgctxt "info/special/emplacement_concrete_bunker_50mm_flak41_vehicle"
+msgid "<c(c3baae)>Concrete Bunker</c>"
+msgstr "<c(c3baae)>混凝土碉堡</c>" 
+
+msgctxt "desc/entity/emplacement_concrete_50mm_flak41_vehicle"
+msgid "50mm Flak 41 Concrete Emplacement"
+msgstr "50mm Flak 41 防空炮炮台"
+
+msgctxt "info/special/emplacement_concrete_50mm_flak41_vehicle"
+msgid "<c(c3baae)>Concrete Emplacement</c>"
+msgstr "<c(c3baae)>混凝土炮台</c>"
+
+msgctxt "desc/entity/emplacement_20mm_flak30_vehicle"
+msgid "2cm FlaK 30 Emplacement"
+msgstr "2cm FlaK 30 防空炮阵地"
+
+msgctxt "info/special/emplacement_20mm_flak30_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_20mm_flak38_vehicle"
+msgid "2cm FlaK 38 Emplacement"
+msgstr "2cm FlaK 38 防空炮阵地"
+
+msgctxt "info/special/emplacement_20mm_flak38_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_20mm_flakvierling38_vehicle"
+msgid "2cm Flakvierling 38 Emplacement"
+msgstr "2cm 四联防空炮阵地"
+
+msgctxt "info/special/emplacement_20mm_flakvierling38_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_37mm_flak37_vehicle"
+msgid "3.7cm FlaK 37 Emplacement"
+msgstr "3.7cm FlaK 37 防空炮阵地"
+
+msgctxt "info/special/emplacement_37mm_flak37_vehicle"
+msgid "<c(c3baae)>Middle Emplacement</c>"
+msgstr "<c(c3baae)>中型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_concrete_88mm_flak18_vehicle"
+msgid "8.8cm FlaK 18 Concrete Emplacement"
+msgstr "8.8cm FlaK 18 防空炮炮台"
+
+msgctxt "info/special/emplacement_concrete_88mm_flak18_vehicle"
+msgid "<c(c3baae)>Concrete Emplacement</c>"
+msgstr "<c(c3baae)>混凝土炮台</c>"
+
+msgctxt "desc/entity/emplacement_concrete_88mm_flak36_vehicle"
+msgid "8.8cm FlaK 36 Concrete Emplacement"
+msgstr "8.8cm FlaK 36 防空炮炮台"
+
+msgctxt "info/special/emplacement_concrete_88mm_flak36_vehicle"
+msgid "<c(c3baae)>Concrete Emplacement</c>"
+msgstr "<c(c3baae)>混凝土炮台</c>"
+
+msgctxt "desc/entity/emplacement_37mm_pak36_vehicle"
+msgid "3.7cm Pak Emplacement"
+msgstr "3.7cm Pak36 反坦克炮阵地"
+
+msgctxt "info/special/emplacement_37mm_pak36_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型反坦克炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_50mm_pak38_vehicle"
+msgid "5cm Pak 38 Emplacement"
+msgstr "5cm Pak 38 反坦克炮阵地"
+
+msgctxt "info/special/emplacement_50mm_pak38_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型反坦克炮</c>"
+
+msgctxt "desc/entity/emplacement_75mm_lg40_vehicle"
+msgid "7.5cm LG 40 Emplacement"
+msgstr "7.5cm LG 40 无后座力炮阵地"
+
+msgctxt "info/special/emplacement_75mm_lg40_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型无后座力炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_75mm_pak40_vehicle"
+msgid "7.5cm Pak 40 Emplacement"
+msgstr "7.5cm Pak 40 反坦克炮阵地"
+
+msgctxt "info/special/emplacement_75mm_pak40_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型反坦克炮</c>"
+
+msgctxt "desc/entity/emplacement_75mm_leig18_vehicle"
+msgid "7.5cm le Gebirg IG 18 Emplacement"
+msgstr "7.5cm le Gebirg IG 18 步兵炮阵地"
+
+msgctxt "info/special/emplacement_75mm_leig18_vehicle"
+msgid "<c(c3baae)>middle Emplacement</c>"
+msgstr "<c(c3baae)>中型步兵炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_80mm_sgrw34_vehicle"
+msgid "8cm sGrW 34 Emplacement"
+msgstr "8cm sGrW 34 迫击炮阵地"
+
+msgctxt "info/special/emplacement_80mm_sgrw34_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型迫击炮阵地</c>"
+
+
+msgctxt "desc/entity/emplacement_88mm_pak43_vehicle"
+msgid "8.8cm Pak 43 Emplacement"
+msgstr "8.8cm Pak 43 反坦克炮碉堡"
+
+msgctxt "info/special/emplacement_88mm_pak43_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>混凝土碉堡</c>"
+
+msgctxt "desc/entity/emplacement_100mm_nbw35_vehicle"
+msgid "10cm NbW 35 Emplacement"
+msgstr "10cm NbW 35 迫击炮阵地"
+
+msgctxt "info/special/emplacement_100mm_nbw35_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型迫击炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_105mm_lefh18_vehicle"
+msgid "10.5cm LeFH 18 Emplacement"
+msgstr "10.5cm LeFH 18 榴弹炮阵地"
+
+msgctxt "info/special/emplacement_105mm_lefh18_vehicle"
+msgid "<c(c3baae)>Heavy Emplacement</c>"
+msgstr "<c(c3baae)>重型榴弹炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_120mm_sgrw42_vehicle"
+msgid "12cm sGrW 42 Emplacement"
+msgstr "12cm sGrW 42 迫击炮阵地"
+
+msgctxt "info/special/emplacement_120mm_sgrw42_vehicle"
+msgid "<c(c3baae)>Heavy Emplacement</c>"
+msgstr "<c(c3baae)>重型迫击炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_150mm_sig33_vehicle"
+msgid "15cm sIG 33 Emplacement"
+msgstr "15cm sIG 33 步兵炮阵地"
+
+msgctxt "info/special/emplacement_150mm_sig33_vehicle"
+msgid "<c(c3baae)>Heavy Emplacement</c>"
+msgstr "<c(c3baae)>重型步兵炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_concrete_block_fortress_v3_ger_vehicle"
+msgid "Concrete Fortress"
+msgstr "混凝土要塞"
+
+msgctxt "info/special/emplacement_concrete_block_fortress_v3_ger_vehicle"
+msgid "<c(c3baae)>Super Heavy Concrete Fortress</c>"
+msgstr "<c(c3baae)>超重型混凝土战斗要塞</c>"
+
+msgctxt "desc/entity/emplacement_concrete_platform_fortress_vehicle"
+msgid "Concrete Fortress"
+msgstr "混凝土要塞"
+
+msgctxt "info/special/emplacement_concrete_platform_fortress_vehicle"
+msgid "<c(c3baae)>Super Heavy Concrete Fortress</c>"
+msgstr "<c(c3baae)>超重型混凝土战斗要塞</c>"
+
+msgctxt "desc/squad/squad_artilleryman_con(ger)"
+msgid "Weapon Operator Squad"
+msgstr "武器操作员小队"

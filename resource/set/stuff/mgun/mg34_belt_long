@@ -1,0 +1,7 @@
+{from "mg34_belt"
+	{filling "mgun_ger" 300}
+	{entity "mg34_belt_long"}
+
+	("burst_stand")
+	("spreading_mounted")
+}

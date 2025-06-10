@@ -1,0 +1,34 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	;(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall" "mg_bunker"}
+	{extension "emplacement_concrete_platform_bunker_dummy.mdl"}
+
+	{placer
+		{place "lampshade_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_01"}
+			{handlebone "body"}
+		}
+		{place "door_right"
+			{entity "emplacement_concrete_platform_bunker_door_stage_dummy"}
+			{Linkbone "door_right"}
+			{handlebone "body"}
+		}
+		{place "door_rear"
+			{entity "emplacement_concrete_platform_bunker_door_stage_dummy"}
+			{Linkbone "door_rear"}
+			{handlebone "body"}
+		}
+		{place "door_left"
+			{entity "emplacement_concrete_platform_bunker_door_stage_dummy"}
+			{Linkbone "door_left"}
+			{handlebone "body"}
+		}
+		{place "windows_stage"
+			{entity "emplacement_concrete_platform_bunker_window_stage_dummy"}
+			{Linkbone "windows_stage"}
+			{handlebone "body"}
+		}	  
+	}
+}

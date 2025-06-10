@@ -1,0 +1,10 @@
+{from "pattern rpg_he_ammo"
+	{tag "size1 50to57"}
+	{entity "recoilless_he_ammo"}
+	{view "recoilless_he_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2.4}
+
+	("he_level_1" weight(1.25) filler(0.270))
+}

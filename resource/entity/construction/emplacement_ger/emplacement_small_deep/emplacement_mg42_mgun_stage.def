@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "mg42_tripod_stat_shielded"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "sandbag_00"
+			{entity "sandbag_structured_straight_90_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{tag "-rifle smg assaultrifle battlerifle"}
+	{filling "ammo bar_mag" 20}
+	{entity "bar_bipod"}
+	{fireSound "smallarms/s3/d1/USA/M1918A2_BAR/"}
+	{fireSoundclose "smallarms/s3/3p/USA/M1918A2_BAR/"}
+	{reloadSound "svt"}
+	{calibre 7.62}
+	{mass 8.8}
+
+	("fire rate" rpm(500))
+	("velocity" mps(860))
+	("battle_rifle")
+	("penetration" args 17.3 8 4 2 0) ;// AP, M2
+}

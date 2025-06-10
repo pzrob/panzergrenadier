@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props  "steel" "shed" "construction" "big"}
+	("armor_medium" args 0.7)
+	{extension "f_v1_c21.mdl"}
+	{volume "roof15"
+		{Tags "roof"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "roof16"
+		{Tags "roof"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "roof17"
+		{Tags "roof"}
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+}

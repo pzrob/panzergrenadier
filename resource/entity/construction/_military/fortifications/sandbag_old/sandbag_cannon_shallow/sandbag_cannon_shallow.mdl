@@ -1,0 +1,90 @@
+;Exported by:	 Carlos
+;Date:			 24.04.2017 19:11:14
+;File:			 C:\Users\Carlos\Documents\3dsmax\scenes\GoH_3D_gem_export\3d_environment\_military\fortifications\sandbags_new\sandbags_cannon_shallow.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{matrix34
+				0 	 -1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				12.8328 	 0.8981 	 6.1459
+			}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "service_bone"
+				{matrix34
+					0 	 1 	 0
+					-1 	 0 	 0
+					0 	 0 	 1
+					1.2973 	 2.1977 	 -5.458
+				}
+			}
+		}
+	}
+}
+{obstacle "body1"
+	{obb2
+		{center 27.3623 -1.21312}
+		{extent 4.48167 30.0568}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body2"
+	{obb2
+		{center 16.4518 -37.0024}
+		{extent 15.529 5.12671}
+		{axis 0.81933 0.573323}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body3"
+	{obb2
+		{center 12.6911 35.3092}
+		{extent 5.53237 19.4222}
+		{axis 0.50046 0.86576}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body1"
+	{box 8.96333 60.1136 11.5222}
+	{bone "body"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.315 	 14.5295 	 -0.5079
+	}
+}
+{volume "body2"
+	{box 31.0548 10.2438 10.3512}
+	{bone "body"}
+	{matrix34
+		0.5736 	 0.8192 	 0
+		-0.8192 	 0.5736 	 0
+		0 	 0 	 1
+		-36.1043 	 3.619 	 -1.0934
+	}
+}
+{volume "body3"
+	{box 38.8384 11.0441 11.2024}
+	{bone "body"}
+	{matrix34
+		-0.5 	 0.866 	 0
+		-0.866 	 -0.5 	 0
+		0 	 0 	 1
+		36.2073 	 -0.1417 	 -0.6678
+	}
+}

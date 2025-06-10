@@ -1,0 +1,28 @@
+{from "pattern throwable"
+	{tag "smallitemin1hand grenade dynamite size4 distributable"}
+	{mass 3}
+
+	{damage blastwave
+		{energy 15}
+		{area 3 8}
+		{ground_interaction_radius 1.15}
+	}
+	{damage add blastwave
+		{energy 12}
+		{area 8 12}
+		{ground_interaction_radius 1} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{special
+		{PrepareTime 8}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+
+	{throw
+		{range 6.2} ;in-game 7m
+		{startAngle 60}
+	}
+
+	{possibleDamageRadius 1}
+}

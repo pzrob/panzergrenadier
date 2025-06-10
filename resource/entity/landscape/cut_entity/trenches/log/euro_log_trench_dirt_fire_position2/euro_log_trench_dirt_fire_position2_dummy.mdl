@@ -1,0 +1,64 @@
+;Exported by:	 Alexey
+;Date:			 25.02.2017 08:15:44
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_fire_position2_v03.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0.0  0 ; -x z
+		}
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point5"
+			{matrix34
+				0.9962 	 0.0872 	 0
+				-0.0872 	 0.9962 	 0
+				0 	 0 	 1
+				13.6919 	 -11.6914 	 0.6684
+			}
+		}
+		{bone "point1"
+			{matrix34
+				-0.5 	 0.866 	 0
+				-0.866 	 -0.5 	 0
+				0 	 0 	 1
+				-7.5912 	 -13.5756 	 0.6684
+			}
+		}
+		{bone "point2"
+			{matrix34
+				0 	 1 	 0
+				-1 	 0 	 0
+				0 	 0 	 1
+				-15.3049 	 1.3837 	 0.6684
+			}
+		}
+		{bone "point3"
+			{matrix34
+				0.5736 	 0.8192 	 0
+				-0.8192 	 0.5736 	 0
+				0 	 0 	 1
+				-8.2454 	 13.6361 	 0.6684
+			}
+		}
+		{bone "point4"
+			{matrix34
+				0.9848 	 -0.1736 	 0
+				0.1736 	 0.9848 	 0
+				0 	 0 	 1
+				12.5709 	 12.8844 	 0.6684
+			}
+		}
+	}
+	}
+}

@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{extension "concrete_block_01_land.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+	}
+	{Lodclass "concrete"}
+}

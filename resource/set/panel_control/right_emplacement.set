@@ -1,0 +1,309 @@
+;SDL
+
+; {position column row}
+
+;-----------------------------------------------------------------------------------------------------------------------;
+; conditions																											;
+;-----------------------------------------------------------------------------------------------------------------------;
+; "vehicle" "tank" "cannon" "tractor" "human"	:	show this control based on actors properties						;
+; "single"										:	show this control only if a single actor is selected				;
+; "multiple"									:	show this control only if multiple actors (squad) is selected		;
+; "commander"									:	show this control only if the selected actor is a squad commander	;
+; "disabled"									:	show this control even if it is disabled							;
+;-----------------------------------------------------------------------------------------------------------------------;
+
+{panel_control
+
+; // first row-------------------------
+;// ==================================================================Emplacement_first_row begin==================================================================
+; // first row-------------------------
+;=====================heavy_{position 0 0} begin =====================
+	{emplacement_concrete_fortress
+		{position 0 0}
+		{condition "human barricade"}
+	}
+	{littledavid
+		{position 0 0}
+		{condition "human barricade"}
+	}
+;=====================heavy_{position 0 0} end =====================
+;=====================middle_{position 0 0} begin =====================
+	{ger_concrete_tower_mg34
+		{position 0 0}
+		{condition "human barricade"}
+	}
+	{watch_tower
+		{position 0 0}
+		{condition "human barricade"}
+	}
+;=====================middle_{position 0 0} end =====================
+;=====================light_{position 0 0} begin =====================
+	{ger_minefield_at
+		{position 0 0}
+		{condition "human barricade"}
+	}
+	{rus_minefield_at
+		{position 0 0}
+		{condition "human barricade"}
+	}
+	{usa_minefield_at
+		{position 0 0}
+		{condition "human barricade"}
+	}
+	{fin_minefield_at
+		{position 0 0}
+		{condition "human barricade"}
+	}
+;=====================light_{position 0 0} end =====================
+;// ==================================================================Emplacement_first_row end==================================================================
+	{barricade_sq
+		{position 0 0}
+		{condition "human barricade"}
+	}
+	{bush_cover
+		{position 0 0}
+		{condition "human barricade"}
+	}
+	{barricade
+		{position 1 0}
+		{condition "human barricade"}
+	}
+	{foxhole
+		{position 1 0}
+		{condition "human barricade"}
+	}
+	{concrete_wall
+		{position 2 0}
+		{condition "human barricade"}
+	}
+	{barricade_wall
+		{position 2 0}
+		{condition "human barricade"}
+	}
+	{medic_rally
+		{position 3 0}
+		{condition "human"}
+	}
+	{barbwire
+		{position 3 0}
+		{condition "human barricade"}
+	}	
+;// second row-------------------------
+	{hedgehog
+		{position 0 1}
+		{condition "human barricade disabled"}
+	}
+	{trench_short
+		{position 3 1}
+		{condition "human barricade"}
+	}
+	{trench_short_soldier
+		{position 3 1}
+		{condition "human barricade"}
+	}
+	{foxhole_big
+		{position 3 1}
+		{condition "human barricade"}
+	}
+;// ==================================================================Emplacement_second_row begin==================================================================	
+;=====================heavy_{position 1 1} begin =====================
+	{fin_75mm_k44_emplacement
+		{position 1 1}
+		{condition "human barricade"}
+	}
+	{ger_bunker_88mm_pak4341
+		{position 1 1}
+		{condition "human barricade"}
+	}
+	{rus_100mm_bs3_emplacement
+		{position 1 1}
+		{condition "human barricade"}
+	}	
+	{usa_76mm_m5_emplacement
+		{position 1 1}
+		{condition "human barricade"}
+	}
+;=====================heavy_{position 1 1} end =====================
+;=====================middle_{position 1 1} begin =====================
+	{emplacement_concrete_bunker_at
+		{position 1 1}
+		{condition "human barricade"}
+	}
+	{emplacement_middle_at
+		{position 1 1}
+		{condition "human barricade"}
+	}
+;=====================middle_{position 1 1} end =====================
+;=====================light_{position 1 1} begin =====================
+	{fin_37mm_pstk36_emplacement
+		{position 1 1}
+		{condition "human barricade"}
+	}
+	{ger_37mm_pak36_emplacement
+		{position 1 1}
+		{condition "human barricade"}
+	}
+	{rus_45mm_m42_emplacement
+		{position 1 1}
+		{condition "human barricade"}
+	}	
+	{usa_37mm_m3a1_emplacement
+		{position 1 1}
+		{condition "human barricade"}
+	}	
+	{trench_turn
+		{position 1 1}
+		{condition "human barricade"}
+	}
+	{trench_turn_soldier
+		{position 1 1}
+		{condition "human barricade"}
+	}
+;=====================light_{position 1 1} end =====================
+;=====================heavy_{position 2 1} begin =====================
+	{fin_coastal_gun
+		{position 2 1}
+		{condition "human barricade"}
+	}	
+	{ger_concrete_flak_pillbox
+		{position 2 1}
+		{condition "human barricade"}
+	}	
+	{emplacement_middle_aa_heavy
+		{position 2 1}
+		{condition "human barricade"}
+	}	
+;=====================heavy_{position 1 1} end =====================
+;=====================middle_{position 2 1} begin =====================
+	{emplacement_light_aa
+		{position 2 1}
+		{condition "human barricade"}
+	}
+	{emplacement_middle_aa
+		{position 2 1}
+		{condition "human barricade"}
+	}
+	{trench_intersection
+		{position 2 1}
+		{condition "human barricade"}
+	}
+	{trench_intersection_soldier
+		{position 2 1}
+		{condition "human barricade"}
+	}
+;=====================middle_{position 2 1} end =====================
+;=====================light_{position 2 1} begin =====================	
+;=====================light_{position 2 1} end =====================
+;// ==================================================================Emplacement_second_row end==================================================================	
+; // third row-------------------------
+;// ==================================================================Emplacement_third_row begin==================================================================
+;=====================heavy_{position 0 2} begin =====================
+	{mortar_pit_heavy
+		{position 0 2}
+		{condition "human barricade"}
+	}
+;=====================heavy_{position 0 2} end =====================
+;=====================middle_{position 0 2} begin =====================
+	{mortar_pit
+		{position 0 2}
+		{condition "human barricade"}
+	}
+;=====================middle_{position 0 2} end =====================
+;=====================light_{position 0 2} begin =====================
+	{fin_50mm_krh38_foxhole
+		{position 0 2}
+		{condition "human barricade"}
+	}
+	{ger_75mm_lg40_foxhole
+		{position 0 2}
+		{condition "human barricade"}
+	}
+	;{rus_76mm_bpk76_foxhole
+		;{position 0 2}
+		;{condition "human barricade"}
+	;}
+	{usa_60mm_m2_foxhole
+		{position 0 2}
+		{condition "human barricade"}
+	}
+	{trench_end
+		{position 0 2}
+		{condition "human barricade"}
+	}
+	{trench_end_soldier
+		{position 0 2}
+		{condition "human barricade"}
+	}
+;=====================light_{position 0 2} end =====================
+;=====================heavy_{position 1 2} begin =====================
+    {emplacement_middle_howitzer
+		{position 1 2}
+		{condition "human barricade"}
+	}
+;=====================heavy_{position 1 2} end =====================
+;=====================middle_{position 1 2} begin=====================
+    {emplacement_middle_fieldgun
+		{position 1 2}
+		{condition "human barricade"}
+	}
+	{fighting_position_shallow
+		{position 1 2}
+		{condition "human barricade"}
+	}
+;=====================middle_{position 1 2} end  =====================
+;=====================heavy_{position 2 2} begin =====================
+	{fin_bunker
+		{position 2 2}
+		{condition "human barricade"}
+	}
+	{emplacement_light_aa_mg
+		{position 2 2}
+		{condition "human barricade"}
+	}
+;=====================heavy_{position 2 2} end =====================
+;=====================middle_{position 2 2} begin =====================
+	{ger_bunker_mg34
+		{position 2 2}
+		{condition "human barricade"}
+	}
+    {rus_maxim_pillbox
+		{position 2 2}
+		{condition "human barricade"}
+	}
+	{emplacement_small_deep_mg
+		{position 2 2}
+		{condition "human barricade"}
+	}
+;=====================middle_{position 2 2} end =====================
+;=====================light_{position 2 2} begin =====================
+	{rus_76mm_m43_emplacement
+		{position 2 2}
+		{condition "human barricade"}
+	}
+	{usa_75mm_m1a1_emplacement
+		{position 2 2}
+		{condition "human barricade"}
+	}	
+	{fighting_position_deep
+		{position 2 2}
+		{condition "human barricade"}
+	}	
+;=====================light_{position 2 2} end =====================
+;// ==================================================================Emplacement_third_row end==================================================================
+;	{mortar_pit
+;		{position 0 2}
+;		{condition "human barricade disabled"}
+;	}	
+	{tank_cover
+		{position 1 2}
+		{condition "human barricade"}
+	}
+	{gc_cp_browse_back
+		{position 3 2}
+	}
+	
+;=====================bush_cover=====================
+	
+;=====================bush_cover=====================
+
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "tent_kit"}
+	{bump "tent_kit_bp"}
+	{specular "tent_kit_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

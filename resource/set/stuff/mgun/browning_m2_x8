@@ -1,0 +1,20 @@
+{from "browning_m2"		; "p47"
+	{tag "aa" "gun"}
+	{filling "hmgun_usa" 2560}
+	{entity "browning_m2"}
+	{fireSound " "}
+	{fireSound " "}
+	{mass 224}
+
+	("burst_aa")
+	("airborne_mg")
+	("human health" damage(250))
+	{traceFreq 4}
+
+	("fire rate" rpm(6800)) ;// 850 rpm per gun
+	("reload time" seconds(30))
+
+	{Spreading {BurstAccuracy 100}}
+
+	{projectileDamageTable {25 43} {125 28} {200 19} {250 12} {300 8}} ;// M8 API + 350mph airspeed and reduced curve
+}

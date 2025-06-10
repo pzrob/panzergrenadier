@@ -1,0 +1,17 @@
+{
+	(include "/properties/trench.inc")
+	{extension "soldier_foxhole.mdl"}
+	{props "sand" "foxhole_spawned" "small"}
+	("boneLand" args "inside")
+	{placer
+		{place "1" {attach  squat_lie} 	{linkbone "01"}}
+	}
+	{boarder
+		{door "emit1"}
+		{link "emit1" "1"}
+	}
+	{volume "attach"
+		{Tags "attach" "1"}
+		{able clear {touch 1}}
+	}
+}

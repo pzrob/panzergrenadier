@@ -1,0 +1,44 @@
+;// TOC
+{game_entity
+		(include "/properties/construction.inc")
+	{ObstacleId "construction"}
+	{props "wood" "construction" "break_on_burn" "small" "burning" "parts" "ammo box"}
+	{mass 150}
+	{props "inventory_box" "spread_items"}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 18 18}
+		}
+	}
+	
+	(include "/properties/resupply.inc")
+	("supply_base_usa")
+	
+	{lodclass "decor_medium"}
+	{extension "crates_set08.mdl"}
+	{volume "body01"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body02"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body03"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body04"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+}

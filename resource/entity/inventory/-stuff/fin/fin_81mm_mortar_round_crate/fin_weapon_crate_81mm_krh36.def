@@ -1,0 +1,24 @@
+{game_entity
+	(include "/properties/construction.inc")
+	;(include "/properties/stuff.ext")
+	{obstacleID "unbreakable"}
+	{collider "nothing"}
+	(include "/properties/resupply_fin_moded.inc")
+	("mortar_rounds_fin_crate_81mm")
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}
+	{Extension "fin_81mm_mortar_round_crate.mdl"}
+
+	{Volume "body"
+		{thickness 200}
+		;{able {touch}}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	;{extender "stuff"
+		;{item "fin_81mm_mortar_round_crate"}
+	;}
+}
+

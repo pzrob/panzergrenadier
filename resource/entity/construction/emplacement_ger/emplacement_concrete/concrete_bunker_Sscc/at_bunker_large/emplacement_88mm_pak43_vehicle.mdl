@@ -1,0 +1,114 @@
+;Exported by: 97956
+;Date:        Sun Mar  2 14:53:54 2025
+;File:        C:\RFG\factory\CTA\?????\??????\??\at_bunker_large.max
+{Skeleton
+	{bone "basic"
+		{matrix34
+			0	1	0
+			-1	0	0
+			0	0	1
+			0	0	0
+		}
+	{bone "bunker_basic"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			0	0	0
+		}
+		{bone "at_bunker_large_floor"
+			{parameters "land;ground;"}
+			{Position 0	44.8643	-6.9976}
+			{VolumeView "at_bunker_large_floor.ply"}
+		}
+		{bone "at_bunker_large_wall"
+			{Position 0	44.8643	-6.9976}
+			{VolumeView "at_bunker_large_wall.ply"}
+		}
+		{bone "exterior01"
+			{Position 0	44.8643	-6.9976}
+			;{Position 0	44.8643	-36.9976}
+			{VolumeView "exterior01.ply"}
+		}
+	}
+	{bone "pak_crate"
+		{matrix34
+			0	-1	0
+			-1	0	0
+			0	0	1
+			0	17	0 ;x -z 
+		}
+	}
+	{bone "cannon"
+		{matrix34
+			0	-1	0
+			-1	0	0
+			0	0	1
+			0	-63	0 ;x -z 
+		}
+	}{bone "lampshade_stage"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0	0	36
+		}
+		{bone "lampshade_front_01"
+			{matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				-61.9	-85	0 ;x -z
+			}
+		}
+		{bone "lampshade_front_02"
+			{matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				61.9	-85	0 ;x -z
+			}
+		}
+		{bone "lampshade_center_01"
+			{matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				0	33.2	0 ;x -z
+			}
+		}
+		{bone "lampshade_center_02"
+			{matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0	41.2	0 ;x -z
+			}
+		}
+		{bone "lampshade_rear_01"
+			{matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-52	85.2	0 ;x -z
+			}
+		}
+		{bone "lampshade_rear_02"
+			{matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				52	85.2	0 ;x -z
+			}
+		}
+		{bone "lampshade_rear_center_01"
+			{matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				0	154.8	0 ;x -z
+			}
+		}
+	}
+	}
+}

@@ -1,0 +1,65 @@
+{game_entity	
+(include "/properties/building_roof.inc")
+;(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_block_bunker.mdl"}
+	{volume "wall_front"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_rear_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_rear_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_right"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_left"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "exterior01"
+		{Tags "roof"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_front_01"
+		{Tags "roof"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}	
+	{volume "pillar_front"
+		{Tags "roof"}
+		{able {visible 0}}
+		{thickness 300}
+	}	
+	{volume "pillar_rear"
+		{Tags "roof"}
+		{able {visible 0}}
+		{thickness 300}
+	}	
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+
+	}
+	{Lodclass "concrete"}
+	{extender "fortification"
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_block_bunker_window_stage_dummy"}
+		}
+	}	
+}

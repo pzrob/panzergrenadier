@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo chauchat"}
+	}
+	{extension "chauchat_ammo.mdl"}
+	{Volume "body"
+		{thickness 10}
+	}
+	{nogroupmesh 1}
+}
+

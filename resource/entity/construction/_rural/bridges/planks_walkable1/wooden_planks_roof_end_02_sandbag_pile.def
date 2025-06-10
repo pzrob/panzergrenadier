@@ -1,0 +1,46 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "wooden_planks_01.mdl"}
+    {placer
+		{place "plank_01"
+			{entity "wooden_planks_01_indestructible"}
+			{Linkbone "plank_01"}
+			{handlebone "body"}
+		}
+		{place "plank_02"
+			{entity "wooden_planks_01_inside_indestructible"}
+			{Linkbone "plank_02"}
+			{handlebone "body"}
+		}
+		{place "table_wood_01"
+			{entity "table_wood_indestructible"}
+			{Linkbone "table_wood_01"}
+			{handlebone "body"}
+		}
+		{place "table_wood_02"
+			{entity "table_wood_indestructible"}
+			{Linkbone "table_wood_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_01"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_02"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_03"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_03"}
+			{handlebone "body"}
+		}
+	}	
+}

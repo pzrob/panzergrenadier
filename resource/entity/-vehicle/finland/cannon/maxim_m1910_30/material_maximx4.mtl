@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/maxim_fin"}
+	{bump "$/_vehicle/maxim_fin_bp"}
+	{specular "$/_vehicle/maxim_fin_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

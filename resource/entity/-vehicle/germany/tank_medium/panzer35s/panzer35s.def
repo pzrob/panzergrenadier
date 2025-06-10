@@ -1,0 +1,96 @@
+{game_entity
+	(include "/properties/tank.ext")
+	
+	(include "/properties/selection/vehicle_elongated.inc" scale(1.1))
+	{props "medium" "vision_lev04" "muzzle_37mm_47mm" "diesel" "shield" "emplacement_tank_trench_bt"}
+	{extension "panzer35s.mdl"}
+	(include "panzer35s.ext")
+	{PatherId "panzer3"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("crew_3_human_2")
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_cromwell"} {end "pose_mgun_pz6"}}
+			{reverse {end "board_cromwell" -1}}
+		}
+		{anm "right"
+			{forward {begin "board_cromwell"} {end "pose_mgun_pz6"}}
+			{reverse {end "board_cromwell" -1}}
+		}
+		{anm "armor"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+			{item "bullet_47x193 ger apc" 58} 		; 118 rounds
+			{item "bullet_47x193 ger he" 59}
+			{item "ammo mgun_ger belt" 3600}	; 25 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+		    {item "sandbag_vehicle" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "47mm_kwk173f" filling "bullet_47x193 ger apc" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic_td"
+				zeroing(1.5)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "mg31f" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 19500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.42) len(0.60))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(8) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(19.5) ;-------Weight in Tonnes.
+			power(190) ;---------Engine Power, in hp. //engine was governed to 2500 max rpm which reduced it from 700HP to 600HP
+			track(3.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(510) ;----------Fuel capacity in Litres.
+			type(diesel) ;-------Fuel type. (diesel OR fuel)
+			range(130) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -18 18}
+		{speed2 6}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+}

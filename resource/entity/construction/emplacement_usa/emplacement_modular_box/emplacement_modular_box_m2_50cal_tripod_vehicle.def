@@ -1,0 +1,62 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{props "wood" "parts" "no_scavenge" "trench"}
+	;("armor_heavy" args 0.8)
+	{obstacleid "unbreakable"}
+	;{collider "construction"}
+    {extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+        {NoNormals}
+	}
+	;{lodclass "decor_medium"}
+	{extension "emplacement_modular_box_mg_tripod_vehicle.mdl"}
+	{volume "floor_01"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1}{obstacle 0}{contact 0}}
+	}
+	{volume "floor_02"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1}{obstacle 0}{contact 0}}
+	}
+	{volume "box_00"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+	{volume "box_01"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+	{volume "box_02"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 1} {obstacle 1}}
+	}
+
+	{placer
+		{place "mgun"
+			{entity "m2_50cal_tripod_stand_stat"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "crate_mg_platform"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+		{place "roof"
+			{entity "emplacement_modular_box_mgun_roof_stage"}
+			{Linkbone "roof"}
+			{handlebone "body"}
+		}
+		{place "roof_sandbag"
+			{entity "emplacement_modular_box_mgun_roof_sandbag_stage"}
+			{Linkbone "roof_sandbag"}
+			{handlebone "body"}
+		}
+	}
+
+}

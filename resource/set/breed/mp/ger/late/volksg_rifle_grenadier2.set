@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_ver4_44_volksg_g43_3"}
+	{portrait "ger_volksgrenadier"}
+	{icon "rifle"}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_stalhelm_m43_cover_ital}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "k98_grenade_launcher" filling "k98_grenade heata ammo" 1}
+		{item "k98_grenade he ammo" 20}
+		{item "k98_grenade heata ammo" 10}
+
+		{item "k98" filled}
+		{item "rifle_ger clip ammo" 60 5}
+		{item "m24_splinter grenade" 1}
+		{item "pwm_l grenade" 1}
+
+		{item "bandage_ger" 4}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

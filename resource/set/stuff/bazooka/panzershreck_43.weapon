@@ -1,0 +1,17 @@
+{from "pattern rpg_weapon"
+	{filling "ammo panzershreck" 1}
+	{entity "panzershreck_43"}
+	{fireSound "reactive/d1/Shared/Rocket_Launcher/"}
+	{reloadsound "panzershreck"}
+	{calibre 88}
+	{mass 9.5}
+
+	("velocity" mps(110))
+        
+        {range 150 150}
+	("penetration" args 400)
+	("armor health" damage(550))
+	("human health" damage(700))
+	("standard_slope")
+}
+

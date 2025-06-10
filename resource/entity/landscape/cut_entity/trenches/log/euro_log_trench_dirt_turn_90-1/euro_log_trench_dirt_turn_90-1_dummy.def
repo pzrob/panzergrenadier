@@ -1,0 +1,7 @@
+{
+	(include "/properties/trench.inc")
+	{extension "euro_log_trench_dirt_turn_90-1_dummy.mdl"}
+	{props "sand" "dummy_emplacement"}
+	("boneLand"  args "trench")
+	
+}

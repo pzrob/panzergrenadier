@@ -1,0 +1,432 @@
+;Exported by:	 guita
+;Date:			 23.09.2023 10:00:11
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_west\3d_buildings\bunker_reg694\Export.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "land"
+			{parameters "land;rotate;"}
+			{Position -37.9514 	 -1.215 	 7.6034}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+		{bone "foundation"
+			{matrix34
+				-0.9954 	 -0.0565 	 -0.0769
+				0.059 	 -0.9978 	 -0.0304
+				-0.075 	 -0.0348 	 0.9966
+				-103.419 	 9.7945 	 19.9918
+			}
+			{VolumeView "foundation.ply"}
+		}
+		{bone "exterior"
+			{matrix34
+				0.1555 	 -0.9867 	 0.0468
+				0.7207 	 0.1457 	 0.6778
+				-0.6756 	 -0.0717 	 0.7338
+				-100.133 	 -13.8629 	 94.57
+			}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "p01"
+			{Position -31.5436 	 -69.8693 	 89.0649}
+		}
+		{bone "p02"
+			{Position 26.9811 	 -4.4704 	 89.0649}
+		}
+		{bone "p03"
+			{Position 35.9689 	 75.1579 	 89.0649}
+		}
+		{bone "p04"
+			{Position -93.4269 	 -9.4772 	 89.0649}
+		}
+		{bone "p05"
+			{Position -97.4014 	 1.9352 	 6.6496}
+		}
+		{bone "attach1"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				-30.6705 	 0 	 -8.75
+			}
+		}
+	}
+}
+{obstacle "body13"
+	{obb2
+		{center 104.014 73.865}
+		{extent 19.6112 53.0333}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body14"
+	{obb2
+		{center 104.014 -64.2451}
+		{extent 19.6112 53.0333}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body15"
+	{obb2
+		{center 111.243 -129.867}
+		{extent 12.3819 12.6741}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body16"
+	{obb2
+		{center 14.474 -74.1439}
+		{extent 71.4422 20.3169}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body17"
+	{obb2
+		{center 14.474 76.1387}
+		{extent 71.4422 20.3169}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body18"
+	{obb2
+		{center -6.25642 -46.4328}
+		{extent 39.4902 7.69993}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body19"
+	{obb2
+		{center -6.25642 47.6417}
+		{extent 39.4902 8.39908}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body20"
+	{obb2
+		{center 92.3031 18.0458}
+		{extent 7.94643 3.06079}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body21"
+	{obb2
+		{center 92.3031 -10.6585}
+		{extent 7.94643 3.06079}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body22"
+	{obb2
+		{center 42.1071 -20.2845}
+		{extent 21.3169 5.12274}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body23"
+	{obb2
+		{center 41.9717 20.5153}
+		{extent 21.4523 5.54719}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body24"
+	{obb2
+		{center 27.6838 35.2502}
+		{extent 17.414 9.35779}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body25"
+	{obb2
+		{center 27.224 -32.8725}
+		{extent 17.4189 9.36113}
+		{axis 0.50046 0.86576}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body26"
+	{obb2
+		{center 79.4761 -99.0216}
+		{extent 5.10433 4.94846}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body27"
+	{obb2
+		{center 79.476 101.122}
+		{extent 4.94846 5.10433}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{area "interior"
+	{obb2
+		{center 10.9751 -9.57234}
+		{extent 144.616 151.259}
+		{axis -1 -5.27564e-008}
+	}
+	{rotate}
+}
+{volume "body01"
+	{box 22.3323 20.6676 16.6493}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		-113.45 	 150.243 	 -180.001
+	}
+}
+{volume "body02"
+	{polyhedron "body02.vol"}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		20.7798 	 114.459 	 -174.699
+	}
+}
+{volume "body03"
+	{polyhedron "body03.vol"}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		1.6612 	 52.8725 	 -116.18
+	}
+}
+{volume "body04"
+	{polyhedron "body04.vol"}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		-9.4365 	 -1.9319 	 -32.6601
+	}
+}
+{volume "body05"
+	{polyhedron "body05.vol"}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		-9.7465 	 -12.2756 	 -49.4247
+	}
+}
+{volume "body06"
+	{polyhedron "body06.vol"}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		-8.6728 	 -9.7887 	 -59.1494
+	}
+}
+{volume "body07"
+	{polyhedron "body07.vol"}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		-7.3492 	 -6.5978 	 -70.884
+	}
+}
+{volume "body08"
+	{polyhedron "body08.vol"}
+	{bone "exterior"}
+	{matrix34
+		0.1555 	 0.7207 	 -0.6756
+		-0.9867 	 0.1457 	 -0.0717
+		0.0468 	 0.6778 	 0.7338
+		-6.0923 	 -3.5018 	 -81.8931
+	}
+}
+{volume "body13"
+	{polyhedron "body13.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-197.862 	 94.578 	 -54.0567
+	}
+}
+{volume "body14"
+	{polyhedron "body14.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-205.668 	 -43.2278 	 -58.8572
+	}
+}
+{volume "body15"
+	{polyhedron "body15.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-209.517 	 -111.167 	 -61.2239
+	}
+}
+{volume "body16"
+	{polyhedron "body16.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-117.77 	 -55.9791 	 -52.857
+	}
+}
+{volume "body17"
+	{polyhedron "body17.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-109.276 	 93.9723 	 -47.6333
+	}
+}
+{volume "body18"
+	{polyhedron "body18.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-97.2536 	 -30.218 	 -28.4828
+	}
+}
+{volume "body19"
+	{polyhedron "body19.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-91.9365 	 63.6491 	 -25.2129
+	}
+}
+{volume "body20"
+	{box 15.8929 6.12157 51.344}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-193.693 	 39.1539 	 -8.0481
+	}
+}
+{volume "body21"
+	{box 15.8929 6.12157 51.344}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-195.315 	 10.5128 	 -9.0458
+	}
+}
+{volume "body22"
+	{polyhedron "body22.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-144.281 	 -1.2525 	 -31.2279
+	}
+}
+{volume "body23"
+	{polyhedron "body23.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-141.975 	 39.4574 	 -29.8097
+	}
+}
+{volume "body24"
+	{polyhedron "body24.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-126.484 	 52.1983 	 -28.2266
+	}
+}
+{volume "body25"
+	{polyhedron "body25.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.4488 	 -0.8936 	 0.0074
+		0.8903 	 0.4478 	 0.0823
+		-0.0769 	 -0.0304 	 0.9966
+		-128.843 	 -14.2237 	 -30.4322
+	}
+}
+{volume "body26"
+	{polyhedron "body26.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.9954 	 0.059 	 -0.075
+		-0.0565 	 -0.9978 	 -0.0348
+		-0.0769 	 -0.0304 	 0.9966
+		-183.851 	 -76.9551 	 -58.9864
+	}
+}
+{volume "body27"
+	{polyhedron "body27.vol"}
+	{bone "foundation"}
+	{matrix34
+		-0.0565 	 -0.9978 	 -0.0348
+		0.9954 	 -0.059 	 0.075
+		-0.0769 	 -0.0304 	 0.9966
+		-172.539 	 122.747 	 -52.0296
+	}
+}

@@ -1,0 +1,53 @@
+;Exported by:	 Carlos
+;Date:			 24.05.2022 20:37:57
+;File:			 T:\goh_3d_human_fin\Weapons\chauchat\chauchat_ammo_export.max
+{skeleton
+	{bone "body"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{volume "body"
+	{polyhedron "body.vol"}
+	{bone "body"}
+	{matrix34
+		0 	 0 	 1
+		0 	 1 	 0
+		-1 	 0 	 0
+		0.2654 	 -0.0131 	 0.39
+	}
+}
+{volume "select"
+	{box 6.00316 2.89554 0.985643}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		0.0225 	 0.0218 	 0.1935
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -160.89 	 -2.5632 	 49.5217}
+			{lookat -2.5682 	 -0.0161 	 0.8167}
+			{fov 2.17281}
+			{horizon 0.218503}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.3874 	 -0.2936 	 -0.117}
+			}
+			{"1"
+				{type point}
+				{position -14.1667 	 -1.7478 	 16.2768}
+			}
+		}
+	}
+}

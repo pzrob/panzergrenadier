@@ -1,0 +1,89 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/fortified_emplacement.ext")
+
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{extension "dshk_stat.mdl"}
+	{props "stat_weapon" "vision_lev00_can" "cannon_sandbag_standard" "muzzle_hmg_dshk" "detect_cannon_aa" "maxim" "gun_shield"}
+    {tag "gun_shield_on"}
+	{targetclass "cannon_bullet"}
+	{targetSelector "cannon_zenite"}
+
+	("shield" args "shield" 8)
+	{extender "shield" {on}}
+
+	{volume "shield"
+		{able {holed}}
+	}
+
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_dshk_aa_gunner"}}
+		}
+		{anm "commander"
+			{forward {end "pose_dshk_aa_commander"}}
+		}
+	}
+
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{switch "close"}
+			{move "" ""}
+			;{fire "mg_maxim_gunner_fire" "mg_maxim_commander_fire"}
+			{aim "mg_dshk_aa_gunner_aim" "mg_dshk_aa_commander_aim"}
+			{reload "mg_dshk_aa_gunner_reload" "mg_dshk_aa_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+
+
+	{extender "inventory"
+		{box
+	        {item "rus_ammo_box"}
+			{item "ammo hmgun_rus ap" 500}
+			{item "ammo hmgun_rus api" 500}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+
+	{Weaponry
+		{place "mgun1"
+			{type "main"}
+			{charger "gunner"}
+			{weapon "dshk" filling "hmgun_rus ap" 50}
+			("abm_mgun")
+			{Rotate}
+			{basic}
+		}
+	}
+
+	{mass 157}
+	{Chassis
+		("mobility_cannon"
+			speed(10.2) ;--------------------------------Max speed.
+			weight(157) ;--------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 30}
+	}
+	{bone "gun_rot"
+		{limits -15 45}
+		{speed2 70}
+	}
+	{bone "turret"
+		{limits -35 35}
+		{speed2 70}
+	}
+}

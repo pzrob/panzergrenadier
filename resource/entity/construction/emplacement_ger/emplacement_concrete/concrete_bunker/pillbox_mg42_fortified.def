@@ -1,0 +1,80 @@
+{game_entity
+	(include "/properties/emplacement_building.inc")
+	{obstacleid "unbreakable"}
+	{props  "concrete" "construction" "big"}
+	("armor_heavy")
+	{extension "pillbox.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 50}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body08"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body09"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body10"
+		{Tags "body"}
+		{thickness 200}
+	}
+    {extender "land_patch"
+        {TerrainType "ground" "rock"} 
+        {NoNormals}
+	}
+    {placer		
+	    {place "mgun"
+			{entity "mg42_tripod_fixed_shielded"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+	    }
+	    ;{place "Exit"
+			;{entity "trench_dirt_exit_pillbox"}
+			;{Linkbone "Exit"}
+			;{handlebone "body"}
+	    ;}
+	    {place "floor_01"
+			{entity "concrete_block_03_floor"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+	    }
+	    {place "flag"
+			{entity "flag_hanging_ger"}
+			{Linkbone "flag"}
+			{handlebone "body"}
+	    }
+	    {place "stair"
+			{entity "concrete_block_stair_02"}
+			{Linkbone "stair"}
+			{handlebone "body"}
+	    }
+	}	
+}

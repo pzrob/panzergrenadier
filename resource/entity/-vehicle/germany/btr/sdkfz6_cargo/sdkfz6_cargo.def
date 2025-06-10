@@ -1,0 +1,55 @@
+{game_entity
+	(include "/properties/halftrack.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "truck" "vision_lev02" "tractor" "tractor_heavy" "explosion_throw_crew" "emplacement_halftrack_trench_tall"}
+	{able "emit_passangers_on_enemy"}
+	{extension "sdkfz6_cargo.mdl"}
+	{extension "crew.ext"}
+	{collider "truck"}
+	{patherId "sdkfz6_cargo"}
+	{targetclass "car"}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+
+	("glass" args "glass1")
+	("glass" args "glass2")
+	("fuel" args "fuel1")
+	("transmission" args "transmission")
+
+	("bodyback" repair(30))
+
+	("shield_cover")
+
+	{volume "body1" {able {holed}}}
+	{volume "body2" {able {holed}}}
+	{volume "transmission" {able {NoWoundDecal 0}}}
+	{volume "bodyback5" {material "wood"}{tags "wood"}{thickness 2}}
+	{volume "bodyback6" {material "wood"}{tags "wood"}{thickness 2}}
+	{volume "detail9" {thickness 0.5}}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "repair_kit" 5}
+		}
+	}
+
+	{mass 15050}	; 7.5tons empty + equipment
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.82) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(20) ;----------------------------------Max speed.
+			speedatmaxturn(10) ;-------------------------Max speed at max turn.
+			reverse(10) ;--------------------------------Max speed in Reverse.
+			weight(15.05) ;------------------------------Weight in Tonnes.
+			power(115) ;---------------------------------Horse Power.
+			fuel(190) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(110) ;---------------------------------Range in Kilometers.
+		)
+	}
+}

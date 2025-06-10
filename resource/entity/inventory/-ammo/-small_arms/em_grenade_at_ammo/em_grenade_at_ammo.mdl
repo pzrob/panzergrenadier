@@ -1,0 +1,70 @@
+;Exported by: Normand
+;Date:        Wed Sep 23 17:22:36 2020
+;File:        C:\Users\Normand\grenade_no68.max
+{Skeleton
+	{bone "em_grenade_at_ammo"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "em_grenade_at_ammo.ply"}
+	}
+}
+{Volume "body"
+	{Box 5.5 1.1 1.1}
+	{Bone "em_grenade_at_ammo"}
+	{Position 2.58194	0.00429028	0.0703854}
+}
+{Volume "select"
+	{Box 5.5 2 2}
+	{Bone "em_grenade_at_ammo"}
+	{Position 2.63184	-0.0282007	0.444885}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 4.22899	-1.12664	7.17972}
+			{lookat 3.91066	0.171762	-0.732638}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.81086	0.0757734	-4.36302}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -0.572391	0.354813	-5.08535}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 3.04867	-1.13184	7.0329}
+			{lookat 2.73623	0.142569	-0.733282}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.92632	0.0587608	-4.48544}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -0.631192	0.343601	-5.22278}
+			}
+		}
+	}
+}

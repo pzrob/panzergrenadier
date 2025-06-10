@@ -1,0 +1,45 @@
+{
+	(include "/properties/trench.inc")
+	{extension "euro_log_trench_dirt_straight_short.mdl"}
+	{props "sand"}
+	("boneLand"  args "trench" "-ignore_obstacles"}
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	{volume "body1"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	{volume "body2"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	{volume "body3"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+	{volume "body4"
+		{Tags "body"}
+		{able {touch 1} {contact 1}}
+		{thickness 200}
+	}
+    {extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "euro_log_trench_dirt_straight_short_roof_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "euro_log_trench_dirt_straight_short_roof_sandbag_stage"}
+		}
+	}
+	
+}

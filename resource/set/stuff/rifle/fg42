@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{tag "-rifle rifle_shell smg battlerifle assaultrifle"}
+	{inventory {size 5 2}}
+	{filling "ammo fg42" 25}
+	{entity "fg42"}
+	{fireSound "smallarms/s3/d1/GER/FG42/"}
+	{fireSoundclose "smallarms/s3/3p/GER/FG42/"}
+	{reloadSound "svt"}
+	{calibre 7.92}
+	{mass 4.2}
+
+	("fire rate" rpm(850))
+	("velocity" mps(740))
+	("battle_rifle_fg42")
+}

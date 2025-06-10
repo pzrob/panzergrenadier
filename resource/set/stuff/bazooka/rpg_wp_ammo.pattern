@@ -1,0 +1,11 @@
+{bullet
+	{tag "ammo shell fg wp smoke wp_size1 dropboxed no_ricochet"}
+	{inventory
+		{weight 100}
+		{size 3 1}
+		{fsm "belt"}
+	}
+
+	{detonationThickness 0.5}
+	{possibleDamageRadius 3}
+}

@@ -1,0 +1,6 @@
+;SDL
+{from "binocular"
+	{range 300 300}
+	{speed 1000}			; m/s
+}
+

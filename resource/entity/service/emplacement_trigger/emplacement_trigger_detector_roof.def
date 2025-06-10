@@ -1,0 +1,16 @@
+{actor
+	;(include "/properties/building.inc")
+	(include "/properties/stuff_grenade.ext")
+	{props "detector"}
+	{Extension "emplacement_trigger_detector.mdl"}
+	{extender "stuff"
+		{item "emplacement_trigger_detector_roof"}
+	}
+	{nogroupmesh 1}
+	{volume "basis"
+		{able clear {bullet} {select} {contact_ground} {contact} {touch} {blast}}
+		{thickness 1}
+		;{material "steel"}
+		{tags "body"}
+	}
+}

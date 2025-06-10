@@ -1,0 +1,18 @@
+{from "pattern mgun"		;BF110 4x MG Barrels
+	{tag "gun aa"}
+	{filling "mgun_ger belt" 4000}
+	{entity "mg13_no_bipod"}
+	{fireSound "smallarms/s3/d1/GER/MG13/"}
+	{fireSoundclose "smallarms/s3/3p/GER/MG13/"}
+	{reloadSound "blank"}
+	{calibre 7.92}
+	{mass 20.4}
+
+	("fire rate" rpm(2400))
+	("velocity" mps(855))
+
+	("reload time" seconds(0.25))
+
+	("burst_aa")
+	("airborne_mg")
+}

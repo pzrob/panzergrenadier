@@ -1,0 +1,5 @@
+{from "suomi_m31_drum"
+	{entity "suomi_m31_tank"}
+	{fireSoundClose "smallarms/s1/int/FIN/KP31/"}
+	("spreading_mounted")
+}

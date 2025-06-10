@@ -1,0 +1,13 @@
+{from "pattern mortar_ammo"
+	{tag "shell wp_size3"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "107mm_usa_mortar_wp"}
+	{view "107mm_usa_mortar_wp"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 11.38}
+
+	("wp" cal(107))
+}

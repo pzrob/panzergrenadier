@@ -1,0 +1,30 @@
+;Exported by:	 Carlos
+;Date:			 22.04.2022 14:05:10
+;File:			 T:\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_blocks_export01.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "exterior01"
+			;{parameters "land;ground;"}
+			{Position -1.0261 	 -1.1054 	 29.5276}
+            {VolumeView "exterior01.ply"}
+		}
+	}
+}
+{volume "exterior01"
+	{box 19.111 100.139 59.7904}
+	{bone "exterior01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{area "interior"
+	{obb2
+		{center -0.625824 7.7828}
+		{extent 308.168 326.819}
+		{axis -1 0}
+	}
+	{rotate}
+}

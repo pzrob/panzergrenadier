@@ -1,0 +1,40 @@
+;Exported by:	 Usuario
+;Date:			 13.03.2016 19:37:37
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\Entourage\flags\flag_mast\flag_pole.max
+{skeleton
+	{animation
+		{sequence "start" {speed 0.6}{autostart}}
+	}
+	{bone "body"
+		{parameters "commonmesh;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "body.ply"}
+		{bone "fix01"
+			{Position -7 0 0}  ; +right , +forward, +up
+		}
+	}
+}
+{Volume "body"
+	{Box 1.35597 41.2287 1.47656}
+	{Bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0.6914 	 0.7225
+		0 	 -0.7225 	 0.6914
+		-6.8232 	 13.1286 	 15.5544
+	}
+}
+{Volume "fortify"
+	{Box 1.35597 41.2287 1.47656}
+	{Bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0.6914 	 0.7225
+		0 	 -0.7225 	 0.6914
+		-6.8232 	 13.1286 	 15.5544
+	}
+}

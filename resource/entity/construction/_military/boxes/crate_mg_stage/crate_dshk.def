@@ -1,0 +1,31 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "-wood" "burning"} 
+	("armor_heavy" args 0.8)
+
+	{Extension "crate_mg_platform.mdl"}
+	{Volume "body"
+		{able {obstacle 0}{visible 0}}
+		{Tags "body" "fire"}
+		{thickness 8}
+	}	
+	{lodclass "decor_medium"}
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+	}
+
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "trench_fire_position_bunker_stage_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_dshk_mgun_stage"}
+		}
+	}
+}

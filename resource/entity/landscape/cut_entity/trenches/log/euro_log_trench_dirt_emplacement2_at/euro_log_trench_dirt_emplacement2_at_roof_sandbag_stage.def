@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "euro_log_trench_dirt_emplacement2_at_roof_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "-target_emplacement" "roof_sandbag_stage_trigger"}
+	("armor_heavy")
+	{placer
+		{place "trigger"
+			{entity "emplacement_trigger_roof_sandbag"}
+			{Linkbone "trigger"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cta - Gates of Hell (desc_breed_mp_rus)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-04-28 12:16+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+msgctxt "desc/human/mp/fin/mid/engineer_light"
+msgid "Light Engineer [Maavoimat]"
+msgstr "战斗工程兵[芬兰陆军]"
+
+msgctxt "desc/human/mp/ger/mid/engineer_light"
+msgid "Light Engineer [Heer]"
+msgstr "先遣工程兵[纳粹德国陆军]"
+
+msgctxt "desc/human/mp/rus/mid/engineer_light"
+msgid "Light Engineer [SSV]"
+msgstr "突击工程兵[苏联红军陆军]"
+
+msgctxt "desc/human/mp/usa/mid/engineer_light"
+msgid "Light Engineer [USAGF]"
+msgstr "战斗工程兵[美国陆军]"
+
+msgctxt "desc/human/mp/rus/mid/engineer_heavy"
+msgid "Heavy Engineer [SSV]"
+msgstr "重装工程兵[苏联红军陆军]"
+
+msgctxt "desc/human/mp/ger/mid/engineer_heavy"
+msgid "Heavy Engineer [Heer]"
+msgstr "重装工程兵[纳粹德国陆军]"
+
+msgctxt "desc/human/mp/usa/mid/engineer_heavy"
+msgid "Heavy Engineer [USAGF]"
+msgstr "重装工程兵[美国陆军]"

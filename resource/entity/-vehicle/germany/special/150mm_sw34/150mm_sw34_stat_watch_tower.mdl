@@ -1,0 +1,175 @@
+;Exported by:	 guita
+;Date:			 23.04.2022 13:33:01
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\special\150cm_sw34\150cm_sw34.max
+{skeleton
+	{animation
+		{sequence "close" {speed 0.2} {events {1 "close"}}}
+		{sequence "aim_v" {speed 0.9}{resume}}
+		{sequence "aim_h" {speed 0.9}{resume}}
+	}
+	{bone "basis"
+		{parameters "wheelradius=0.49;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "repair" {file "body_r.anm"}{speed 0.7}}
+			}
+			{Position -0.184 	 0.013 	 4.6454}
+			;{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{speed 0.05}
+				{limits 15 15}
+				{matrix34
+					0 	 -0.17 	 0
+					0.17 	 0 	 0
+					0 	 0 	 0.17
+					0.0066 	 -0.0045 	 14.0
+				}
+				{bone "turret_1"
+					{parameters "id=body;"}
+					{matrix34
+						0 	 1 	 0
+						-1 	 0 	 0
+						0 	 0 	 1
+						-0.0112 	 -0.0109 	 0.1
+					}
+					{VolumeView "turret_1.ply"}
+					{bone "aim_hor"
+						{parameters "id=turret;"}
+						{matrix34
+							0 	 1 	 0
+							-1 	 0 	 0
+							0 	 0 	 1
+							-8.3273 	 -24.1505 	 12.984
+						}
+						{VolumeView "aim_hor.ply"}
+					}
+					{bone "aim_ver"
+						{parameters "id=turret;"}
+						{matrix34
+							0 	 1 	 0
+							-1 	 0 	 0
+							0 	 0 	 1
+							-8.3273 	 21.4905 	 12.984
+						}
+						{VolumeView "aim_ver.ply"}
+					}
+					{bone revolute "gun"
+						{parameters "id=gun;"}
+						{animation
+							{sequence "repair" {file "gun_r.anm"}{speed 0.7}}
+						}
+						{limits -30 88}
+						{speed 0.05}
+						{matrix34
+							2.03 	 0 	 0
+							0 	 0 	 2.03
+							0 	 -2.03 	 0
+							0 	 0.0065 	 56
+						}
+						{VolumeView "gun.ply"}
+						{bone "lamp_glass1"
+							{parameters "id=lamp;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								14.0 	 -0.198 	 0.0022
+							}
+							{VolumeView "lamp_glass1.ply"}
+						}
+						{bone "foresight3"
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								17.0911 	 -0.1778 	 0.0016
+							}
+						}
+						{bone "lamp_light_spot1"
+							{parameters "id=lamp;"}
+							{matrix34
+								2.9 	 0 	 0
+								0 	 0 	 -2.9
+								0 	 2.9 	 0
+								6.8885 	 -0.2837 	 0.0022
+							}
+							{VolumeView "lamp_light_spot1.ply"}
+						}
+						{bone "visor"
+							{matrix34
+								1 	 0 	 0
+								0 	 -0.0231 	 -0.9997
+								0 	 0.9997 	 -0.0231
+								13.1488 	 -0.1778 	 0.0016
+							}
+						}
+					}
+
+				}
+			}
+		}
+					{bone "gunner"
+						{matrix34
+							1 	 0 	 0
+							0 	 1 	 0
+							0 	 0 	 1
+							-18.0 	 0.0 	 0.5
+						}
+					}
+					{bone "commander"
+						{matrix34
+							0.6018 	 -0.7986 	 0
+							0.7986 	 0.6018 	 0
+							0 	 0 	 1
+							-13.0562 	 36.2232 	 -3.0815
+						}
+					}
+		{bone "emit1"
+			{Position -22.7022 	 -0.0 	 -0.0199}
+		}
+		{bone "emit2"
+			{Position -21.1081 	 30.1717 	 -0.0199}
+		}
+	}
+}
+{volume "barrel1"
+	{polyhedron "barrel1.vol"}
+	{bone "gun"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		0.5073 	 0 	 0
+	}
+}
+{volume "barrel2"
+	{box 11.9364 4.43392 11.4691}
+	{bone "gun"}
+	{matrix34
+		0 	 0 	 -1
+		0 	 1 	 0
+		1 	 0 	 0
+		0.104 	 -16.551 	 -0.1845
+	}
+}
+{volume "hole1"
+	{box 34.5767 22.9426 11.6838}
+	{bone "turret_1"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 1
+		1 	 0 	 0
+		-0.0516 	 0.051 	 19.8307
+	}
+}
+{volume "lamp"
+	{polyhedron "lamp.vol"}
+	{bone "lamp_glass1"}
+	{Position 0.1203 	 0.2001 	 -0.1114}
+}

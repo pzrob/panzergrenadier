@@ -1,0 +1,39 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}
+	(include "/properties/resupply_rus_moded.inc")
+	("shells_rus_crate_76mm_l55")
+
+	{extension "rus_76mm_l55_shell_crate.mdl"}
+		
+	{volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "rus_76mm_l55_shell_crate"}
+	}
+	{placer
+		{place "shell_01"
+			{entity "76mm_rus_l55_aphebc"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "76mm_rus_l55_aphebc"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "76mm_rus_l55_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "76mm_rus_l55_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+	}
+}

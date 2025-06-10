@@ -1,0 +1,71 @@
+;Exported by: 97956
+;Date:        Sun Mar  2 21:47:31 2025
+;File:        C:\RFG\factory\CTA\gates_of_hell\output\asset\euro_light_hanging\euro_light_hanging.max
+{Skeleton
+	{bone "basic"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0	0	0
+		}
+	{bone "lampshade"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "lampshade.ply"}
+		;{bone "light_bulb"
+			;{Position 0.000366211	0	-0.000244141}
+			;{VolumeView "light_bulb.ply"}
+		;}
+		
+	{bone "post_lamp2"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "post_lamp2.ply"}
+		{bone "lamp_glass1"
+			{matrix34
+				-0.9659 	 0 	 -0.2588
+				0.2588 	 0 	 -0.9659
+				0 	 -1 	 0
+				7.6796 	 0.2249 	 85.7829
+			}
+			{VolumeView "lamp_glass1.ply"}
+		}
+		{bone "light_point"
+			{parameters "lastpose=undefined;"}
+			{matrix34
+				0.9659 	 0 	 0.2588
+				0 	 1 	 0
+				-0.2588 	 0 	 0.9659
+				7.0544 	 0 	 84.2396
+			}
+		}
+		{bone "lamp_light_point1"
+			{parameters "lastpose=undefined;"}
+			{matrix34
+				0.2588 	 0 	 -0.9659
+				0 	 1 	 0
+				0.9659 	 0 	 0.2588
+				7.0544 	 0 	 84.2396
+			}
+		}
+	}
+	}
+	}
+}
+{Volume "lampshade"
+	{Polyhedron "lampshade.vol"}
+	{Bone "lampshade"}
+	{Position 0.000244141	0	-0.000244141}
+}
+{volume "body"
+	{box 3.74016 3.74016 97.3859}
+	{bone "post_lamp2"}
+	{Position -0.0327 	 0 	 48.6929}
+}

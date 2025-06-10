@@ -1,0 +1,86 @@
+;SDL
+
+	; armor notes
+	; wheels 10mm (wheels did not deflate when piereced by bullet)
+	; gun 20mm
+	; shields 2-8mm
+
+	("armoredcar_tier1")
+
+	("solid_wheel" args "wheelleft1")
+	("solid_wheel" args "wheelleft2")
+	("solid_wheel" args "wheelleft3")
+	("solid_wheel" args "wheelleft4")
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelright2")
+	("solid_wheel" args "wheelright3")
+	("solid_wheel" args "wheelright4")
+
+	("turret" repair(45))
+	("mantlet" repair(30))
+	("gun" repair(30) thickness(20))
+
+	("shield_group" args "shield1" 8 "shield1")
+	("shield_group" args "shield1a" 2 "shield1")
+	("shield_group" args "shield1b" 2 "shield1")
+	("shield" args "shield2" 8)
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "transmission" {able {NoWoundDecal 0}}}
+
+	{volume "body1"			; Hull
+		{thickness 18
+			{front 14.5}
+			{top 15.5}
+			{bottom 15.5}
+			{rear 15.5}
+		}
+		{tags "no_target"}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 18
+			{front 14.5}
+			{top 15.5}		; Glacis
+			{bottom 15.5}
+			{rear 15.5}
+		}
+	}
+	{volume "body3"			; Top Superstructure
+		{thickness 18
+			{top 15.5}
+			{bottom 15.5}
+		}
+		{tags "no_target"}
+	}
+	{volume "body4"			; Lower Front Hull
+		{thickness 18}
+		{tags "no_target"}
+	}
+	{volume "turret"
+		{thickness 18
+			{front 14.5}
+			{top 15.5}
+		}
+	}
+	{volume "mantlet"
+		{thickness 14.5}
+	}
+	{volume "engine1"		; Hull
+		{thickness 10
+			{front 15.5}
+			{top 15.5}
+			{bottom 15.5}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 10
+			{front 15.5}
+			{top 15.5}
+			{bottom 15.5}
+		}
+	}
+	{volume "engine3"		; Lower Rear Hull
+		{thickness 10}
+	}

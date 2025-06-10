@@ -1,0 +1,68 @@
+{
+	(include "/properties/emplacement_foxhole.ext")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{extension "emplacement_107mm_k10_vehicle.mdl"}
+
+	("boneLand"  args "trench")
+	("boneLand"  args "exit")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")	
+	("volume" args "body7")	
+	("volume" args "body8")	
+	("volume" args "body9")	
+	("volume" args "body10")
+	("volume" args "body11")
+	("volume" args "body12")	
+   	{placer
+		{place "sandbag_framed_straight_0"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_0"}
+			{handlebone "body"}
+		}	
+		{place "sandbag_framed_straight_00"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_00"}
+			{handlebone "body"}
+		}		
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_03"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_04"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_04"}
+			{handlebone "body"}
+		}
+		{place "cannon"
+			{entity "107mm_k10_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "ammo_boxes_01"
+			{entity "fin_crates_04_indestructible"}
+			{Linkbone "ammo_boxes_01"}
+			{handlebone "body"}
+		}
+		{place "ammo_boxes_02"
+			{entity "fin_crates_05_indestructible"}
+			{Linkbone "ammo_boxes_02"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,126 @@
+;Exported by: 97956
+;Date:        Sun Mar  2 06:46:05 2025
+;File:        C:\Users\97956.LAPTOP-BSB0EJN6\Desktop\at_bunker_large.max
+{Skeleton
+	{bone "basic"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			0	0	0
+		}
+		{bone "at_bunker_large_floor"
+			{parameters "land;ground;"}
+			{Position 0	0.00038147	0}
+			{VolumeView "at_bunker_large_floor.ply"}
+		}
+		{bone "at_bunker_large_wall"
+			{Position 0	0.00038147	0}
+			{VolumeView "at_bunker_large_wall.ply"}
+		}
+		{bone "exterior01"
+			{Position 0	0.00038147	0}
+			{VolumeView "exterior01.ply"}
+		}
+	}
+}
+{Obstacle "obstacle_at_bunker_front"
+	{Obb2
+		{Center 1.58502 -99.82}
+		{Extent 21.4008 72.2927}
+		{Axis 4.45626e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_01"
+	{Obb2
+		{Center -1.5178 85.8501}
+		{Extent 4.19803 37.4726}
+		{Axis 5.6793e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_02"
+	{Obb2
+		{Center -53.4275 122.803}
+		{Extent 3.89367 18.6376}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_03"
+	{Obb2
+		{Center 53.9661 122.803}
+		{Extent 3.89367 18.6376}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_04"
+	{Obb2
+		{Center -35.8257 185.281}
+		{Extent 30.7116 4.78952}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_front_05"
+	{Obb2
+		{Center 35.7834 185.281}
+		{Extent 30.7116 4.78952}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_left"
+	{Obb2
+		{Center -69.9211 61.4663}
+		{Extent 6.51344 156.301}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_rear"
+	{Obb2
+		{Center -0.698924 206.673}
+		{Extent 5.03174 38.6514}
+		{Axis 4.73829e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_rear01"
+	{Obb2
+		{Center -0.698924 214.091}
+		{Extent 5.03174 10.9292}
+		{Axis 4.73829e-08 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_at_bunker_right"
+	{Obb2
+		{Center 69.7495 61.4663}
+		{Extent 6.51344 156.301}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "at_bunker_large_floor"
+	{Polyhedron "at_bunker_large_floor.vol"}
+	{Bone "at_bunker_large_floor"}
+}
+{Volume "exterior01"
+	{Polyhedron "at_bunker_large_roof.vol"}
+	{Bone "exterior01"}
+}
+{Volume "at_bunker_large_wall"
+	{Polyhedron "at_bunker_large_wall.vol"}
+	{Bone "at_bunker_large_wall"}
+}
+{area "interior"
+	{obb2
+		{center -0.0 0}
+		{extent 100.0 300.0}
+		{axis -1 0}
+	}
+	{rotate}
+}

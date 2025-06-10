@@ -1,0 +1,92 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "emplacement_ground_floor_75mm_itk37.mdl"}
+	{Volume "floor1"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor2"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor3"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor4"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor5"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor6"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor7"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor8"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor9"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor10"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{lodclass "decor_medium"}
+    {placer
+		{place "sandbag_framed_straight_01"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_01"}
+			{handlebone "body"}
+		}	
+		{place "sandbag_framed_straight_02"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_02"}
+			{handlebone "body"}
+		}		
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_03"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_03"}
+			{handlebone "body"}
+		}
+
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_04"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_04"}
+			{handlebone "body"}
+		}
+	}
+}

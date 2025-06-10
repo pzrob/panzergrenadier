@@ -1,0 +1,22 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "sand" "foxhole_spawned" "onestage" "jettison_sandbags4" "ignore_obstacles" "sandbag" "-construction"}
+	{extension "sandbag_framed_straight_low.mdl"}
+	{volume "body"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{material "wood"}
+	}
+	{volume "frame"
+		{Tags "fire"}
+		{thickness 10}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{material "wood"}
+	}
+	;{extender "land_patch"
+	;}
+	;{lodclass "decor_medium"}
+}

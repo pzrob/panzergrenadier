@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{Extension "vpgs41_ammo.mdl"}
+	{extender "stuff"
+		{item "ammo vpgs41"}
+	}
+}

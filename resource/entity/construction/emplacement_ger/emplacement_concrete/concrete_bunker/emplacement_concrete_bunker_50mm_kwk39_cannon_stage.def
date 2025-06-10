@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_concrete_bunker_50mm_kwk39_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "50mm_kwk39_platform_bunker"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+	    {place "floor_01"
+			{entity "concrete_block_03_floor_inside"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+	    }	
+	}
+}

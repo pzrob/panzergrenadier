@@ -1,0 +1,13 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke wp_size3"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "120mm_rus_mortar_sm"}
+	{view "120mm_rus_mortar_sm"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 16}
+
+	("wp" cal(120))
+}

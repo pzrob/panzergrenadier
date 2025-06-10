@@ -1,0 +1,91 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_middle_log.mdl"}
+	{props "sand" "emplacement_middle_exit"}
+	("boneLand"  args "trench")
+	("boneLand"  args "exit")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")	
+	("volume" args "body7")	
+	("volume" args "body8")	
+	("volume" args "body9")	
+	("volume" args "body10")	
+	{placer
+		;{place "exit"
+			;{entity "euro_log_trench_dirt_exit"}
+			;{Linkbone "exit"}
+			;{handlebone "body"}
+		;}
+		;{place "netting_square"
+			;{entity "netting_square"}
+			;{Linkbone "netting_square"}
+			;{handlebone "body"}
+		;}
+		{place "sandbag_framed_straight_0"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_0"}
+			{handlebone "body"}
+		}	
+		{place "sandbag_framed_straight_00"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_00"}
+			{handlebone "body"}
+		}		
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_03"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_03"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_framed_straight_01"
+			;{entity "sandbag_framed_straight_90_indestructible"}
+			;{Linkbone "sandbag_framed_straight_01"}
+			;{handlebone "body"}
+		;}
+		;{place "sandbag_framed_straight_03"
+			;{entity "sandbag_framed_straight_90_indestructible"}
+			;{Linkbone "sandbag_framed_straight_03"}
+			;{handlebone "body"}
+		;}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_04"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_04"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_framed_straight_02"
+			;{entity "sandbag_framed_straight_270_indestructible"}
+			;{Linkbone "sandbag_framed_straight_02"}
+			;{handlebone "body"}
+		;}	
+		;{place "sandbag_framed_straight_04"
+			;{entity "sandbag_framed_straight_270_indestructible"}
+			;{Linkbone "sandbag_framed_straight_04"}
+			;{handlebone "body"}
+		;}
+
+		{place "sandbag_pile_01"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "sandbag_pile_01"}
+			{handlebone "body"}
+		}		
+		{place "sandbag_pile_02"
+			{entity "sandbag_pile_indestructible"}
+			{Linkbone "sandbag_pile_02"}
+			{handlebone "body"}
+		}
+	}
+}

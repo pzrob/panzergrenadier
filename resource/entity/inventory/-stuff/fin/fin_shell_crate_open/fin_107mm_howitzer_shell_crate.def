@@ -1,0 +1,114 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_fin_moded.inc")
+	("howitzer_shells_fin_crate_107mm")
+	{props "-wood" "construction" "break_on_burn" "small" "burning" "parts"}
+	{extension "fin_107mm_howitzer_shell_crate.mdl"}
+	{volume "body"
+		{thickness 200}
+		{able {touch}}
+	}	
+	{extender "stuff"
+		{item "fin_107mm_howitzer_shell_crate"}
+	}	
+
+
+	{placer
+		{place "shell_01"
+			{entity "107mm_fin_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "107mm_fin_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+		{place "shell_05"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_05"}
+			{handlebone "body"}
+		}
+		{place "shell_06"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_06"}
+			{handlebone "body"}
+		}
+		{place "shell_07"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_07"}
+			{handlebone "body"}
+		}
+		{place "shell_08"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_08"}
+			{handlebone "body"}
+		}
+		{place "shell_09"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_09"}
+			{handlebone "body"}
+		}
+		{place "shell_10"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_10"}
+			{handlebone "body"}
+		}
+		{place "shell_11"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_11"}
+			{handlebone "body"}
+		}
+		{place "shell_12"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_12"}
+			{handlebone "body"}
+		}
+		{place "shell_13"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_13"}
+			{handlebone "body"}
+		}
+		{place "shell_14"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_14"}
+			{handlebone "body"}
+		}
+		{place "shell_15"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_15"}
+			{handlebone "body"}
+		}
+		{place "shell_16"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_16"}
+			{handlebone "body"}
+		}
+		{place "shell_17"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_17"}
+			{handlebone "body"}
+		}
+		{place "shell_18"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_18"}
+			{handlebone "body"}
+		}
+		{place "shell_19"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_19"}
+			{handlebone "body"}
+		}
+	}
+}

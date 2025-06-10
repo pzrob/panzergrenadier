@@ -1,0 +1,69 @@
+;// TOC
+{game_entity
+	(include "/properties/construction.inc")
+	{props "inventory_box" "spread_items" "shed" "big" "wood"}
+	{extension "ammo_boxes_01.mdl"}
+
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 12 10}
+			{item "panzershreck ammo" 1}
+			{item "k98_grenade heat ammo" 1}
+			{item "k98_grenade he ammo" 1}
+			{item "panzerfaust_60 weapon" filled}
+			{item "panzerfaust_30 weapon" filled}
+			{item "panzerfaust_100 weapon" filled}
+			{item "faustpatrone_30 weapon" filled}
+			
+			{item "stg44 ammo" 45}
+			{item "fg42 ammo" 40}
+			{item "mp40 ammo" 45}
+			
+			{item "bandage_ger" 7}
+		}
+	}
+	{volume "body1"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body3"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body4"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body5"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body6"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{lodclass "decor_medium"}
+}

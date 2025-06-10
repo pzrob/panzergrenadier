@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "fact_door_1ii.mdl"}
+	{props "parts" "small" "wood" "construction" "no_destroyed_stamp" "disable_area" "burning" "break_on_burn"}
+
+	{volume "door1"
+		{Tags "body" "fire"}
+		{thickness 4}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{volume "door2"
+		{Tags "body" "fire"}
+		{thickness 4}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+}

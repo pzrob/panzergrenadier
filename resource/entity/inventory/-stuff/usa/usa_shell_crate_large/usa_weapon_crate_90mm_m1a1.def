@@ -1,0 +1,22 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{obstacleID "unbreakable"}
+	{collider "nothing"}
+	(include "/properties/resupply_us_moded.inc")
+	("shells_usa_crate_90mm_l53")
+	{props "-wood" "construction"}
+	{extension "usa_weapon_crate_90mm_m1a1.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+		;{able {touch}}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	;{extender "stuff"
+		;{item "usa_90mm_l53_shell_crate"}
+	;}
+}

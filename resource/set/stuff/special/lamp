@@ -1,0 +1,11 @@
+;SDL
+{item
+	{tag "flag to_hand nokeep keepentity"}
+	{entity "lamp_kerosene"}
+	{inventory
+		{size 2 3}
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 1.5}
+}

@@ -1,0 +1,55 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "sand" "sandbag" "onestage"  "construction"  "jettison_sandbags3"}
+	{extension "sandbag_heap_curved_emplacement_light_mortar_stage.mdl"}
+
+	{volume "body1"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{volume "body2"
+		{Tags "body" "climb"}
+		{thickness 120}
+		{able {visible 1}{touch 1}}
+	}
+	{volume "body3"
+		{Tags "body" "climb"}
+		{thickness 120}
+		{able {visible 1}{touch 1}}
+	}
+	{volume "body4"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{volume "body5"
+		{Tags "body" "climb"}
+		{thickness 120}
+		{able {visible 1}{touch 1}}
+	}
+	{volume "body6"
+		{Tags "body" "climb"}
+		{thickness 120}
+		{able {visible 1}{touch 1}}
+	}	
+	{volume "body7"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{volume "body8"
+		{Tags "body" "climb"}
+		{thickness 120}
+		{able {visible 1}{touch 1}}
+	}
+	{volume "body9"
+		{Tags "body" "climb"}
+		{thickness 120}
+		{able {visible 1}{touch 1}}
+	}
+	{lodclass "decor_medium"}
+}

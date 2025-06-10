@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{tag "rifle_shell"}
+	{inventory {size 5 2}}
+	{filling "ammo rifle_rus clip" 5}
+	{entity "mosin_carbine"}
+	{fireSound "smallarms/s3/d1/RUS/M9130/"}
+	{fireSoundclose "smallarms/s3/3p/RUS/M9130/"}
+	{reloadSound "reload_clip"}
+	{calibre 7.62}
+	{mass 3}
+
+	("velocity" mps(765))
+	("bolt_action")
+	("accuracy_rifle_auto")
+	("mosin_rate")
+}

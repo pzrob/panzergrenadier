@@ -1,0 +1,5 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction"}
+	{extension "emplacement_concrete_88mm_flak_dummy.mdl"}
+}

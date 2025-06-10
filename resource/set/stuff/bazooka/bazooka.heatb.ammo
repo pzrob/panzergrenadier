@@ -1,0 +1,8 @@
+{from "pattern rpg_heat_ammo"
+	{tag "heatb heat_shell size1"}
+	{entity "bazooka_heatb_ammo"}
+	{view "bazooka_heatb_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 1.59}
+}

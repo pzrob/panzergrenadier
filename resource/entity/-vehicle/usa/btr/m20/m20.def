@@ -1,0 +1,118 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	(include "/properties/tank_crew.ext")
+	{props "tank" "turret" "wheeled" "vision_lev02" "tractor" "tractor_light" "muzzle_hmg_m2hb" "detect_tank_mg" "emplacement_halftrack_trench"}
+	(include "m20.ext")
+	{Extension "m20.mdl"}
+	{targetclass "armoredcar"}
+	{targetSelector "car_bullet"}
+	{patherId "sdkfz232"}
+
+	{extender "shield" {off}}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_MiddleArmor"} {end "seat_m8_driver"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "commander"
+			{forward {begin "board_MiddleArmor"} {end "seat_m8_driver"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "gunner"
+			{forward {begin "board_MiddleArmor"} {end "seat_m3a1_gunner50"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "passenger"
+			{forward {begin "board_body"} {end "seat_m2_crew"}}
+			{reverse {end "emit_body" 1}}
+		}
+		{anm "armor1"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	(define "crew"
+		{placer
+			{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {shadow} %off}}
+		}
+		{boarder
+			{door "emit1"}
+			{door "emit2"}
+			{link "emit1" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+			{link "emit2" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{##sensor
+		{visor "main"
+			{vision ""}
+			{bone ""}
+		}
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+	("crew" place(driver)		door(emit1) bone(driver)	animation(driver)		group(crew)	off({sensor}))
+	("crew" place(gunner)		door(emit4) bone(gunner)	animation(gunner)		group(crew)	off())
+	("crew" place(commander)	door(emit2) bone(commander)	animation(commander)	group(crew)	off({sensor}))
+
+	("seat_human" place(seat1) bone(seat01) door(emit2)  animation(passenger))
+	("seat_human" place(seat2) bone(seat02) door(emit1)  animation(passenger))
+	("seat_human" place(seat3) bone(seat03) door(emit2)  animation(passenger))
+	("seat_human" place(seat4) bone(seat04) door(emit1)  animation(passenger))
+
+	("seat_human" place(seat5) bone(seat05) door(emit3)  animation(armor1))
+	("seat_human" place(seat6) bone(seat06) door(emit4)  animation(armor1))
+	("seat_human" place(seat7) bone(seat07) door(emit5)  animation(armor1))
+	("seat_human" place(seat8) bone(seat08) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{Box
+		    {item "sandbag_vehicle" 1}
+			{item "ammo hmgun_usa" 900}			; 1000 rounds
+			{item "bazooka_m1a1" filling "bazooka heata" 1}
+			{item "ammo bazooka heata" 12}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "mgun"
+			{type "main"}
+			{weapon "browning_m2" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+	{mass 7100}
+	{Chassis "wheel"
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("mobility_car"
+			speed(88) ;----------------------------------Max speed.
+			speedatmaxturn(22) ;-------------------------Max speed at max turn. 
+			reverse(17) ;--------------------------------Max speed in Reverse.
+			weight(7.1) ;--------------------------------Weight in Tonnes.
+			power(110) ;---------------------------------Horse Power.
+			fuel(200) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(500) ;---------------------------------Range in Kilometers.
+		)
+	}
+
+	{bone "mgun_1_rot1"
+		{speed2 60}
+		{limits -10 10}
+	}
+	{bone "mgun_1_rot2"
+		{speed2 60}
+	}
+}

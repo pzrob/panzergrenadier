@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "at_bunker_large.mdl"}
+	{placer}
+	{extender "structure"
+	}
+	{Volume "floor"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 1}{obstacle 0}}
+	}
+	{Volume "roof_hatch"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 1}{obstacle 0}}
+	}
+	{Volume "roof_main"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 1}{obstacle 0}}
+	}
+	{Volume "wall_inner"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 1}{obstacle 0}}
+	}
+	{Volume "wall_outer"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 1}{obstacle 0}}
+	}
+}

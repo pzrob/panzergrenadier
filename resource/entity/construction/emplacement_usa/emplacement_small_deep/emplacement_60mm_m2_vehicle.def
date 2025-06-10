@@ -1,0 +1,20 @@
+{
+	(include "/properties/emplacement_foxhole.ext")
+	{extension "emplacement_60mm_m2_vehicle.mdl"}
+	{props "sand" "foxhole_spawned" "small" "foxhole_destroy" "no_scavenge" "jettison_sandbags1"}
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+	{placer
+		{place "mortar"
+			{entity "60mm_m2_stat"}
+			{Linkbone "mortar"}
+			{handlebone "body"}
+		}
+		{place "sandbag_00"
+			{entity "sandbag_structured_curved_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+	}
+}

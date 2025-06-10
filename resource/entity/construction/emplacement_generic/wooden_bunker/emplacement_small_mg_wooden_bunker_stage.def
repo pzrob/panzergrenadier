@@ -1,0 +1,8 @@
+{
+	(include "/properties/building.inc")
+	{extension "emplacement_small_mg_wooden_bunker_stage.mdl"}
+	{props  "wood" "construction" "big" "parts"}
+
+	{obstacleid "construction"}
+	{collider "construction"}	
+}

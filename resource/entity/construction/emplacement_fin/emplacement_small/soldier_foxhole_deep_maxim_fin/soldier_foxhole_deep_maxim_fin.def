@@ -1,0 +1,19 @@
+{
+	(include "/properties/trench.inc")
+	{extension "soldier_foxhole.mdl"}
+	{props "sand" "foxhole_spawned" "small"}
+	("boneLand" args "inside")
+
+	{placer
+		{place "mgun"
+			{entity "maxim_stand_fin_fixed"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+	}
+}

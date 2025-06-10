@@ -1,0 +1,31 @@
+{from "pattern anti-tank"
+	{entity "hafthohlladung"}
+	{tag "size3"}	; Explosive Filling 		= 1.5 kg
+	{mass 3}
+
+	{damage blastwave
+		{energy 14}					  ;// = 240mm of penetration
+		{area 0.35 0.8}
+		{ground_interaction_radius 0.4}
+	}
+
+	{damage add blastwave
+		{energy 14.5}
+		{area 1 2}
+		{ground_interaction_radius 0}
+	}
+
+	{damage add blastwave
+		{energy 13.7}
+		{area 4 6}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+
+	{possibleDamageRadius 0.1}
+}

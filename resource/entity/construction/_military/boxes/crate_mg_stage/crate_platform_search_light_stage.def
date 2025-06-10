@@ -1,0 +1,11 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "crate_platform_search_light_stage.mdl"}
+	{placer
+		{place "search_light"
+			{entity "150mm_sw34_stat"}
+			{Linkbone "search_light"}
+			{handlebone "body"}
+		}
+	}
+}

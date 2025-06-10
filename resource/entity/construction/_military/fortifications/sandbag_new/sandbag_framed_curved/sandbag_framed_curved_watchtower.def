@@ -1,0 +1,23 @@
+{game_entity
+	;(include "/properties/construction.inc")
+	;{props "sand" "sandbag" "construction"  "onestage" "jettison_sandbags4"}
+	{extension "sandbag_framed_curved_watchtower.mdl"}
+
+    {placer	
+	    {place "sandbag_front"
+			{entity "sandbag_framed_curved_indestructible"}
+			{Linkbone "sandbag_front"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_left"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_left"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_right"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_right"}
+			{handlebone "body"}
+	    }
+    }
+}

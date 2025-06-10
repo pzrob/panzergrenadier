@@ -1,0 +1,83 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/fortified_emplacement.ext")
+
+	{extension "20mm_l39_stand_stat.mdl"}
+	{props "stat_weapon" "cannon_small" "vision_lev00_can" "magazine" "muzzle_20mm_25mm_auto" "no_sandbags" "detect_atgun_small" "c_at_lite"}
+	{collider "cannon_small"}
+	{targetclass "cannon_zenite"}
+	{targetSelector "cannon_zenite"}
+
+	("armor_light_cannon")
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_lie_rifle" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_mg_lafette_commander" 10}}
+		}
+	}
+	
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+	
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "commander"
+			{move "" ""}
+			{aim "" "mg_lafette_commander_aim"}
+			;{fire "" "mg_maxim_commander_fire"}
+			{reload "" "mg_lafette_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 25}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletfin_20 ap" 50}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "20mm_lahti_l39" filling "bulletfin_20 ap" 10}
+			{RestoreIKAfterAim}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic_gun"
+				zeroing(1.00)
+				dispersion(0.35)
+			)
+			{basic}
+		}
+	}
+
+	{mass 40}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(12.0) ;---------------------------------Max speed.
+			weight(40) ;----------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 15}
+	}
+	{bone "gun_rot"
+		{limits -5 12}
+		{speed2 30}
+	}
+	{bone "body"
+		{limits -5 5}
+		{speed2 25}
+	}
+}
+

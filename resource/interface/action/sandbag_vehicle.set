@@ -1,0 +1,15 @@
+{action
+	{target ground}
+	{item "sandbag_vehicle"}
+	{item_in_box}
+	{able_vehicle}
+	{notifyselect}
+	{button "sandbag_vehicle"}
+;	{ShowCount}
+	{instant ; only instant instructions supported
+;	{instructions
+		;{bind range 1}
+		{effect "dig_in"}
+		{remove_from_inventory}
+	}
+}

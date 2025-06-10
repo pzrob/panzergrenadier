@@ -1,0 +1,33 @@
+;Exported by:	 Usuario
+;Date:			 24.03.2016 14:04:23
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\fortifications\seelow_bunker\seelow_bunker.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -1.4392 	 0.1808 	 0}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -1.96874 0.164063}
+		;{Extent 37.7342 36.9139}
+		{Extent 17.7342 16.9139}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Volume "body"
+	;{Box 75.4685 73.8278 45.9373}
+	{Box 55.4685 53.8278 35.9373}
+	{Bone "body"}
+	{Position -0.5295 	 -0.3449 	 22.9687}
+}

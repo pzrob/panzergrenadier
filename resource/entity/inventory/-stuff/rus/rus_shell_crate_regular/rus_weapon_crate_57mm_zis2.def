@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{obstacleID "unbreakable"}
+	{collider "nothing"}
+	(include "/properties/resupply_rus_moded.inc")
+	("shells_rus_crate_57mm")
+	{props "-wood" "construction"}
+	{extension "rus_weapon_crate_57mm_zis2.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+	}
+	{Volume "fortify"
+		{thickness 0}
+		{able {touch}}
+		{Tags "fortify"}
+	}
+}

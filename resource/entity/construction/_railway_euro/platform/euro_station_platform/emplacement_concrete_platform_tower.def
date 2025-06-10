@@ -1,0 +1,151 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall" "tower"}
+	{extension "emplacement_concrete_platform_tower.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{volume "exterior"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_block_front"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_block_rear"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_block_left"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_block_right"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_front"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_left"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_right"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_rear_left"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_rear_center"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_rear_right"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_left_stair"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_right_stair"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_front_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_front_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_front_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_front_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_left_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_left_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_left_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_right_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_right_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_right_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	{placer
+		{place "lampshade_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_01"}
+			{handlebone "body"}
+		}
+        {place "stair"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "stair"}
+			{handlebone "body"}
+		}
+        {place "door"
+			{entity "emplacement_concrete_platform_tower_door_stage_dummy"}
+			{Linkbone "door"}
+			{handlebone "body"}
+		}
+        {place "windows_stage"
+			{entity "emplacement_concrete_platform_tower_window_stage_dummy"}
+			{Linkbone "windows_stage"}
+			{handlebone "body"}
+		}
+	}
+}

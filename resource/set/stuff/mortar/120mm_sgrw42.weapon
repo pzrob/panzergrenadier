@@ -1,0 +1,12 @@
+;_________________________________________
+; German Heavy Mortar - 12cm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarger_120"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s3/d1/Shared/Mortar/"}
+	{calibre 120}
+	("heavy_mortar_range")
+}

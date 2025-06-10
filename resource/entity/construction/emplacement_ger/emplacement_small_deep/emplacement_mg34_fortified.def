@@ -1,0 +1,25 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_mgun.mdl"}
+	{props "sand" "foxhole_spawned" "small" "foxhole_destroy" "jettison_sandbags1" }
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+	{placer
+		{place "sandbag_00"
+			{entity "sandbag_structured_curved_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "bunker_stage"
+			{entity "emplacement_small_deep_mg_bunker_stage_ger"}
+			{Linkbone "bunker_stage"}
+			{handlebone "body"}
+		}
+		{place "mgun"
+			{entity "mg34_tripod_fixed_shielded"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+	}	
+}

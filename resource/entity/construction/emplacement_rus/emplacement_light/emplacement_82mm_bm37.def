@@ -1,0 +1,37 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "foxhole_spawned" "normal"}
+	{Extension "emplacement_light_mortar.mdl"}
+	
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+	{placer
+		{place "sandbag_00"
+			{entity "emplacement_light_sandbag_stage_mortar"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+	}
+
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_82mm_bm37_mortar_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_82mm_bm37_round_crate_stage"}
+		}
+	}
+}

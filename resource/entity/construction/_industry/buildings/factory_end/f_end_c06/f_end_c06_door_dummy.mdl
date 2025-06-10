@@ -1,0 +1,30 @@
+;Exported by:	 Tomi
+;Date:			 27.11.2020 18:43:37
+;File:			 D:\!WORK\BarbedWire Studios\Models\Factory_Felújítás\factory_end\factory_end_new\2015\factory_end_export01.max
+{skeleton
+	{bone "basic_reset"
+		{matrix34
+			1	0 	 0
+			0	1    0
+			0 	0 	 1
+			-8.8	11	 0 ;z x
+		}
+		{bone "basic"
+			{matrix34
+				1	0 	 0
+				0	1    0
+				0 	0 	 1
+				0	0	 20 ;z x
+			}
+			{bone "door_lock"
+				{matrix34
+					0.26	 -0.97 	 0
+					-0.97	-0.26   0
+					0 	 0 	 1
+					8.8	 -11 	 0 ;z x
+				}
+				{VolumeView "c06.ply"}
+			}
+		}
+	}
+}

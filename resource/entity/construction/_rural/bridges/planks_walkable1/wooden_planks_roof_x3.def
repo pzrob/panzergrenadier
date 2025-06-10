@@ -1,0 +1,138 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/construction.inc")
+	{props "construction" "wood" "burning" "sand" "sandbag" "jettison_sandbags4"}
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "wooden_planks_roof_x3.mdl"}
+	{volume "exterior01"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 0}}
+		{material "sand"}
+	}
+	{volume "wooden_plank_01"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{volume "wooden_plank_02"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{volume "wooden_plank_03"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{volume "wooden_plank_04"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{volume "wooden_plank_05"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{volume "wooden_plank_06"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{volume "piller_01"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_02"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_03"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_04"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_05"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_06"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_07"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_08"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_09"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_10"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_11"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_10"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_12"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_13"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_14"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_15"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+	{volume "piller_16"
+		{Tags "body" "fire"}
+		{material "wood"}
+		{thickness 1}
+	}
+}

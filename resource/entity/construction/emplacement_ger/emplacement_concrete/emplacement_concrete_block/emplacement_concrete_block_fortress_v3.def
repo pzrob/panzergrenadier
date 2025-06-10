@@ -1,0 +1,1880 @@
+{game_entity	
+	(include "/properties/building_roof.inc")
+	;(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall" "fortress"}
+	{obstacleID "unbreakable"}
+	;{collider "nothing"}
+	{extension "emplacement_concrete_block_fortress_v3.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{placer	 
+		{place "weapon_crates_stage_part_01_aa_heavy"
+			{entity "weapon_crate_generic_aa_heavy"}
+			{Linkbone "weapon_crates_stage_part_01_aa_heavy"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_stage_part_01_aa_mg_rear"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_stage_part_01_aa_mg_rear"}
+			{handlebone "body"}
+		}	
+		{place "weapon_crates_stage_part_01_aa_mg_side"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_stage_part_01_aa_mg_side"}
+			{handlebone "body"}
+		}
+		{place "weapon_crates_stage_part_01_mortar_front"
+			{entity "weapon_crate_generic_mortar_heavy"}
+			{Linkbone "weapon_crates_stage_part_01_mortar_front"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_stage_part_01_mortar_rear"
+			{entity "weapon_crate_generic_mortar"}
+			{Linkbone "weapon_crates_stage_part_01_mortar_rear"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_stage_part_01_search_light_rear"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_stage_part_01_search_light_rear"}
+			{handlebone "body"}
+		}	
+		{place "weapon_crates_stage_part_01_search_light_side"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_stage_part_01_search_light_side"}
+			{handlebone "body"}
+		}
+		{place "weapon_crates_stage_part_02_aa_heavy"
+			{entity "weapon_crate_generic_aa_heavy"}
+			{Linkbone "weapon_crates_stage_part_02_aa_heavy"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_stage_part_02_aa_mg_rear"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_stage_part_02_aa_mg_rear"}
+			{handlebone "body"}
+		}	
+		{place "weapon_crates_stage_part_02_aa_mg_side"
+			{entity "weapon_crate_generic_aa_mg"}
+			{Linkbone "weapon_crates_stage_part_02_aa_mg_side"}
+			{handlebone "body"}
+		}
+		{place "weapon_crates_stage_part_02_mortar_front"
+			{entity "weapon_crate_generic_mortar_heavy"}
+			{Linkbone "weapon_crates_stage_part_02_mortar_front"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_stage_part_02_mortar_rear"
+			{entity "weapon_crate_generic_mortar"}
+			{Linkbone "weapon_crates_stage_part_02_mortar_rear"}
+			{handlebone "body"}
+		}	 
+		{place "weapon_crates_stage_part_02_search_light_rear"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_stage_part_02_search_light_rear"}
+			{handlebone "body"}
+		}	
+		{place "weapon_crates_stage_part_02_search_light_side"
+			{entity "crate_search_light_platform_small"}
+			{Linkbone "weapon_crates_stage_part_02_search_light_side"}
+			{handlebone "body"}
+		}	 
+		{place "first_floor_part_01_hallway_01_stair_02"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "first_floor_part_01_hallway_01_stair_02"}
+			{handlebone "body"}
+		}	 
+		{place "first_floor_part_01_hallway_01_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "first_floor_part_01_hallway_01_bunker"}
+			{handlebone "body"}
+		}	 
+		{place "first_floor_part_01_hallway_02_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "first_floor_part_01_hallway_02_bunker"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_01_bunker_01"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_01_bunker_01"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_01_bunker_02"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_01_bunker_02"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_02_bunker_01"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_02_bunker_01"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_02_bunker_02"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_02_bunker_02"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_03_bunker_01"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_03_bunker_01"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_03_bunker_02"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_03_bunker_02"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_04_bunker_01"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_04_bunker_01"}
+			{handlebone "body"}
+		}	
+		{place "fortress_part_04_bunker_02"
+			{entity "emplacement_concrete_block_bunker_side_exit_dummy"}
+			{Linkbone "fortress_part_04_bunker_02"}
+			{handlebone "body"}
+		}	
+		{place "first_floor_part_01_hallway_05_tower"
+			{entity "emplacement_concrete_tower_mg34_no_stair"}
+			{Linkbone "first_floor_part_01_hallway_05_tower"}
+			{handlebone "body"}
+		}	
+		{place "first_floor_part_02_hallway_05_tower"
+			{entity "emplacement_concrete_tower_mg34_no_stair"}
+			{Linkbone "first_floor_part_02_hallway_05_tower"}
+			{handlebone "body"}
+		}	
+		{place "first_floor_part_02_hallway_01_stair_02"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "first_floor_part_02_hallway_01_stair_02"}
+			{handlebone "body"}
+		}	 
+		{place "first_floor_part_02_hallway_01_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "first_floor_part_02_hallway_01_bunker"}
+			{handlebone "body"}
+		}	 
+		{place "first_floor_part_02_hallway_02_bunker"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "first_floor_part_02_hallway_02_bunker"}
+			{handlebone "body"}
+		}
+		{place "door_stage_part_01_hallway_01_dark_spot"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_01_hallway_01_dark_spot"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_01_hallway_01_front_left"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_01_hallway_01_front_left"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_01_hallway_01_front_right"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_01_hallway_01_front_right"}
+			{handlebone "body"}
+		}	
+		{place "door_stage_part_01_hallway_01_rear_left"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_01_hallway_01_rear_left"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_01_hallway_01_rear_right"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_01_hallway_01_rear_right"}
+			{handlebone "body"}
+		} 
+		{place "door_stage_part_01_hallway_04_door_01"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_04_door_01"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_01_hallway_04_door_02"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_04_door_02"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_01_hallway_04_door_03"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_04_door_03"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_01_hallway_04_door_04"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_04_door_04"}
+			{handlebone "body"}
+		}	
+		{place "door_stage_part_01_hallway_04_door_05"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_04_door_05"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_01_hallway_04_window_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_04_window_01"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_04_window_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_04_window_02"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_04_window_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_04_window_03"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_04_window_04"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_04_window_04"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_04_window_05"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_04_window_05"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_01_hallway_05_door_01"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_05_door_01"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_01_hallway_05_door_02"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_05_door_02"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_01_hallway_05_door_03"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_05_door_03"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_01_hallway_05_door_04"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_05_door_04"}
+			{handlebone "body"}
+		}	
+		{place "door_stage_part_01_hallway_05_door_05"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_05_door_05"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_01_hallway_05_door_06"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_05_door_06"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_01_hallway_05_door_07"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_01_hallway_05_door_07"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_05_window_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_01"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_01_hallway_05_window_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_02"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_01_hallway_05_window_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_03"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_01_hallway_05_window_04"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_04"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_01_hallway_05_window_05"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_05"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_05_window_06"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_06"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_05_window_07"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_07"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_hallway_05_window_08"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_hallway_05_window_08"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_01_dark_spot"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_02_hallway_01_dark_spot"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_01_front_left"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_02_hallway_01_front_left"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_01_front_right"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_02_hallway_01_front_right"}
+			{handlebone "body"}
+		}	
+		{place "door_stage_part_02_hallway_01_rear_left"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_02_hallway_01_rear_left"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_01_rear_right"
+			{entity "f_end_c06_indestructible"}
+			{Linkbone "door_stage_part_02_hallway_01_rear_right"}
+			{handlebone "body"}
+		} 
+		{place "door_stage_part_02_hallway_04_door_01"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_04_door_01"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_02_hallway_04_door_02"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_04_door_02"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_02_hallway_04_door_03"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_04_door_03"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_04_door_04"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_04_door_04"}
+			{handlebone "body"}
+		}	
+		{place "door_stage_part_02_hallway_04_door_05"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_04_door_05"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_02_hallway_04_window_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_04_window_01"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_04_window_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_04_window_02"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_04_window_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_04_window_03"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_04_window_04"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_04_window_04"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_04_window_05"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_04_window_05"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_02_hallway_05_door_01"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_05_door_01"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_02_hallway_05_door_02"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_05_door_02"}
+			{handlebone "body"}
+		}	  
+		{place "door_stage_part_02_hallway_05_door_03"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_05_door_03"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_05_door_04"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_05_door_04"}
+			{handlebone "body"}
+		}	
+		{place "door_stage_part_02_hallway_05_door_05"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_05_door_05"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_05_door_06"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_05_door_06"}
+			{handlebone "body"}
+		}	 
+		{place "door_stage_part_02_hallway_05_door_07"
+			{entity "f_end_c06_indestructible_door_opened"}
+			{Linkbone "door_stage_part_02_hallway_05_door_07"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_05_window_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_01"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_02_hallway_05_window_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_02"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_02_hallway_05_window_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_03"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_02_hallway_05_window_04"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_04"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_02_hallway_05_window_05"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_05"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_05_window_06"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_06"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_05_window_07"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_07"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_hallway_05_window_08"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_hallway_05_window_08"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_01_fortress_window_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_fortress_window_01"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_fortress_window_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_fortress_window_02"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_01_fortress_window_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_fortress_window_03"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_01_fortress_window_04"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_01_fortress_window_04"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_02_fortress_window_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_fortress_window_01"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_fortress_window_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_fortress_window_02"}
+			{handlebone "body"}
+		}	
+		{place "windows_stage_part_02_fortress_window_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_fortress_window_03"}
+			{handlebone "body"}
+		}	 
+		{place "windows_stage_part_02_fortress_window_04"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "windows_stage_part_02_fortress_window_04"}
+			{handlebone "body"}
+		}	 
+	}	 
+	
+	
+
+	{volume "floor_wall_part_01_wall_block_01"
+		{Tags "body" "gun_shield"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_01_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_01_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_01_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_01_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_01_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_01_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_01_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_01_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_02_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_side_outer_block_part_02_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_02_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_01_part_02_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_02_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_rear_outer_block_part_02_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_02_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_02_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "floor_wall_hallway_03_part_02_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_01_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_stair_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_stair_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_stair_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_block_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_block_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_block_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_block_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_bunker_block_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_bunker_block_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_part_01_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_part_01_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_01_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_01_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_01_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_side_block_part_01_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_outer_block_part_02_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_outer_block_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_stair_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_stair_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_stair_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_block_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_rear_block_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_block_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_block_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_bunker_block_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_side_bunker_block_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_part_02_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_part_02_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_02_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_02_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_rear_block_part_02_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+
+
+	{volume "fortress_wall_inner_side_block_part_02_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_windows_wall_block_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_01_cover_floor_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_windows_wall_block_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "floor_wall_side_outer_part_02_cover_floor_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	
+	{volume "roof_part_01_side_outer_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_side_outer_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_side_outer_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_side_outer_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_side_outer_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_side_outer_block_06"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_outer_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_outer_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_outer_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_outer_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_outer_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_rear_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_block_06"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_06"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_07"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_08"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_09"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_10"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_11"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_01_fortress_roof_wall_block_12"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_side_outer_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_side_outer_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_side_outer_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_side_outer_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_side_outer_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_side_outer_block_06"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_outer_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_outer_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_outer_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_outer_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_outer_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_rear_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_block_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_block_02"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_block_03"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_block_04"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_block_05"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_block_06"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_01"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_02"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_03"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_04"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_05"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_06"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_07"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_08"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_09"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_10"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_11"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_part_02_fortress_roof_wall_block_12"
+		{Tags "body"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+
+
+}

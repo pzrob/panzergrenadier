@@ -1,0 +1,91 @@
+;Exported by:	 guita
+;Date:			 27.11.2023 11:45:37
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_west3\3d_environment\us_crates\us_crates_lm\us_crates_lm_12a.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position 13.7252 	 -2.8572 	 6.7195}
+			{VolumeView "body.ply"}
+		}
+	}
+	{bone "shell_01"
+			{matrix34
+			 -1	 0 	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 5.000 	 13.0
+			}
+	}
+	{bone "shell_02"
+			{matrix34
+			 -1	  0	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 1.000 	 13.0
+			}
+	}
+	{bone "shell_03"
+			{matrix34
+			 -1	  0	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 -3.000 	 13.0
+			}
+	}
+	{bone "shell_04"
+			{matrix34
+			 -1	  0	 0      ;1 	 0 	 0      
+			0	 1   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-1.0 	 -7.000 	 13.0
+			}
+	}
+}
+{obstacle "body01"
+	{obb2
+		{center -10.7095 -0.538977}
+		{extent 8.326 13.925}
+		{axis 0.984823 0.173561}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{obstacle "body02"
+	{obb2
+		{center 14.0515 3.29308}
+		{extent 13.9242 8.32477}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body01"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{matrix34
+		-0.1736 	 -0.9848 	 0
+		0.9848 	 -0.1736 	 0
+		0 	 0 	 1
+		-24.4347 	 3.3962 	 -0.2962
+	}
+}
+{volume "body02"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{Position 0.3263 	 -0.4359 	 -0.2962}
+}
+{volume "body03"
+	{box 27.8484 16.6495 12.8466}
+	{bone "body"}
+	{matrix34
+		0.9848 	 -0.1736 	 0
+		0.1736 	 0.9848 	 0
+		0 	 0 	 1
+		-17.6207 	 -0.1869 	 12.3907
+	}
+}

@@ -1,0 +1,165 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "stage2"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "stage2.ply"}
+	}
+}
+{obstacle "body1"
+	{obb2
+		{center 76.3741 0.432312}
+		{extent 9.1559 89.5669}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body2"
+	{obb2
+		{center 24.554 -81.7667}
+		{extent 44.5571 9.12402}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body3"
+	{obb2
+		{center 24.9457 82.8788}
+		{extent 44.5571 9.12402}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body4"
+	{obb2
+		{center -62.1644 82.8788}
+		{extent 42.5531 9.12403}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body5"
+	{obb2
+		{center -62.3603 -81.7667}
+		{extent 42.3572 9.12404}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body6"
+	{obb2
+		{center -71.2146 0.0224457}
+		{extent 8.88662 45.5632}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body7"
+	{obb2
+		{center -97.7996 -33.7798}
+		{extent 17.6983 9.12404}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body8"
+	{obb2
+		{center -97.7996 36.0919}
+		{extent 17.6983 9.12404}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body1"
+	{box 18.3118 179.134 49.5079}
+	{bone "stage2"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		76.3741 	 -0.4323 	 -1.3205
+	}
+}
+{volume "body2"
+	{box 18.248 89.1142 49.5079}
+	{bone "stage2"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		24.554 	 81.7667 	 -1.3205
+	}
+}
+{volume "body3"
+	{box 18.248 89.1142 49.5079}
+	{bone "stage2"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		24.9457 	 -82.8788 	 -1.3205
+	}
+}
+{volume "body4"
+	{polyhedron "body4.vol"}
+	{bone "stage2"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-62.1374 	 -82.9167 	 -30.6909
+	}
+}
+{volume "body5"
+	{polyhedron "body5.vol"}
+	{bone "stage2"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-62.5798 	 81.7149 	 -30.6909
+	}
+}
+{volume "body6"
+	{box 17.7732 91.1264 49.5124}
+	{bone "stage2"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		-71.2146 	 -0.0224 	 -1.3182
+	}
+}
+{volume "body7"
+	{polyhedron "body7.vol"}
+	{bone "stage2"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-73.3602 	 33.7279 	 -30.6909
+	}
+}
+{volume "body8"
+	{polyhedron "body8.vol"}
+	{bone "stage2"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-73.3602 	 -36.1437 	 -30.6909
+	}
+}

@@ -1,0 +1,70 @@
+;Exported by:	 guita
+;Date:			 30.08.2020 17:39:55
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\foxholes\soldier_foxhole\soldier_foxhole.max
+{skeleton
+	{bone "inside"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+		}
+		{VolumeView "inside.ply"
+			{Layer entity_opaque_biased}
+		}
+		{bone "land_outside"
+			{parameters "commonmesh;land;align;"}
+			{VolumeView "land_outside.ply"}
+		}
+		{bone "01"
+			{Position -0.1608 	 0.0307 	 -11.8228}
+		}
+		{bone "emit1"
+			{Position -0.1662 	 0.1174 	 -10.4548}
+		}
+	}
+	{bone "table_01"
+		{matrix34
+			1 	 0 	 0
+			0 	1    0
+			0 	 0 	 1
+			-20	 0 	 -3.0
+		}
+	}	
+	{bone "sandbag_00"
+		{matrix34
+			1 	 0 	 0.0
+			0 	-1   -0.05
+			0.0 -0.05  1
+			20	 0 	 -5.0
+		}
+	}	
+    {bone "mgun"
+		{matrix34
+			1 	 0 	 0
+			0 	-1  0
+			0 	 0 	 1
+			12.0 3 	-12.0
+		}
+
+	   {bone "table_01"
+		{matrix34
+			0 	 -0.6 	 0
+			1 	0  0
+			0 	 0 	 1
+			9.5	 0 	 -14.0
+		}
+	   }
+    }
+	{bone "bunker_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+			16	 0.0 3.5
+		}
+	}
+}
+
+
+

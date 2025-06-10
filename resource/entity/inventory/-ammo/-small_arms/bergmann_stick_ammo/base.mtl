@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/bergmann_m20"}
+	{bump "$/_weapon/bergmann m20_bp"}
+	{specular "$/_weapon/bergmann_m20_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

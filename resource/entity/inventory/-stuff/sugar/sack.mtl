@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sugar_sack"}
+	{bump "sugar_sack_bp"}
+	{specular "sugar_sack_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

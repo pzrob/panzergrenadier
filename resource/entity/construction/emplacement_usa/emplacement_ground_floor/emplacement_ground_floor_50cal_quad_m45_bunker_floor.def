@@ -1,0 +1,26 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "-construction" "wood" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "emplacement_ground_floor_50cal_quad_m45_bunker_floor.mdl"}
+	{lodclass "decor_medium"}
+    {placer
+	    {place "sandbag_front"
+			{entity "sandbag_framed_straight_indestructible"}
+			{Linkbone "sandbag_front"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_left"
+			{entity "sandbag_framed_straight_270_indestructible"}
+			{Linkbone "sandbag_left"}
+			{handlebone "body"}
+	    }
+	    {place "sandbag_right"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_right"}
+			{handlebone "body"}
+	    }
+	}
+}

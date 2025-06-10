@@ -1,0 +1,39 @@
+;Exported by:	 Carlos
+;Date:			 18.07.2018 12:28:29
+;File:			 T:\GoH_3D_environment_export\3d_environment\_military\entourage\lamp_kerosene.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "object04.ply"}
+		{bone "glass1"
+			{Position 0 	 0 	 4.8103}
+			{VolumeView "glass1.ply"}
+		}
+		{bone "glass2"
+			{Position 0 	 0 	 4.8103}
+			{VolumeView "glass2.ply"}
+		}
+		{bone "light"
+			{matrix34
+				0 	 -1 	 0
+				0 	 0 	 1
+				-1 	 0 	 0
+				-0.0002 	 -0.0443 	 3.9747
+			}
+		}
+	}
+}
+{volume "body"
+	{cylinder 2.13966 6.95253}
+	{bone "basis"}
+	{Position -0.0205 	 0.0486 	 4.4034}
+}
+{volume "select"
+	{cylinder 3.03132 9.28571}
+	{bone "basis"}
+	{Position 0.0166 	 0.03 	 4.5977}
+}

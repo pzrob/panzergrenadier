@@ -1,0 +1,8 @@
+{action
+	{able_vehicle}
+	{NotifySelect}
+	{button "change_paint_scheme_toggle"}
+	{instant
+		{effect "change_paint_scheme_toggle"}
+	}
+}

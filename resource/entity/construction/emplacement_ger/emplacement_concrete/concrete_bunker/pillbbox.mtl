@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/pillbox"}
+	{bump "$/_military/pillbox_bp"}
+	{specular "$/_military/pillbox_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,35 @@
+{game_entity
+	(include "/properties/construction.inc")
+	(include "/properties/resupply.inc")
+	{extension "medic_rally.mdl"}
+	{props "spread_items" "shed" "fence" "small" "wood" "construction" "disable_area" "no_destroyed_stamp"}
+	{obstacleID "small_building"}
+
+	("armor_fence_wood")
+	("supply_medic")
+
+	{extender "inventory"
+		{box
+			{weight 100}
+			{size 8 6}
+			;{item "morphine" 3}
+		}
+	}
+
+	{volume "body1"
+		{Tags "fire" "body"}
+		{thickness 0.01}
+		{material "fabric"}
+		{able {touch} {contact 1}}
+	}
+	{volume "body2"
+		{Tags "fire" "body"}
+		{thickness 3}
+		{able {touch} {contact 1}}
+	}
+	{volume "body3"
+		{Tags "fire" "body"}
+		{thickness 3}
+		{able {touch} {contact 1}}
+	}
+}

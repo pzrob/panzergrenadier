@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/30cal_ammo"}
+	{bump "$/_weapon/30cal_ammo_bp"}
+	{specular "$/_weapon/30cal_ammo_sp"}
+	{color "230 230 230 30"}
+	{blend test}
+}

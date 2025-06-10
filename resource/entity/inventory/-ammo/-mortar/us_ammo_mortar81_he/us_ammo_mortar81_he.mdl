@@ -1,0 +1,84 @@
+;Exported by: Sergey
+;Date:        Mon Jan 06 19:20:17 2014
+;File:        D:\Documents\3dsmax\scenes\81mm Brandt mle 27-31\мины\US\M56.max
+{Skeleton
+	{bone "m56"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "m56.ply"}
+			{VolumeView "m56_lod1.ply"}
+		}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-5.38034	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.837292 10.7989}
+	{Bone "m56"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-0.126078	-0.00712034	-0.00982525
+	}
+}
+{Volume "select"
+	{Cylinder 0.883649 10.908}
+	{Bone "m56"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-0.12361	-0.00712033	-0.00982526
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.03579	17.2294	-31.0935}
+			{lookat -0.13583	-0.190552	-0.0988194}
+			{fov 18.7453}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.000187147	0.376842	0.328618}
+				{diffuse 0xffeecb}
+			}
+			{"1"
+				{type directional}
+				{direction 0.00012033	-0.498486	0.0388878}
+				{diffuse 0xe2ecff}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 2.36573	13.7748	-24.6002}
+			{lookat -0.26576	-0.0425377	-0.0156453}
+			{fov 21.7453}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.000120337	-0.498485	0.0388878}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction -0.000187146	0.376842	0.328618}
+				{diffuse 0xffeecd}
+			}
+		}
+	}
+}

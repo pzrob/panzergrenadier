@@ -1,0 +1,71 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{props  "concrete" "construction" "big" "no_scavenge"}
+	{obstacleid "unbreakable"}
+
+
+	{extension "emplacement_concrete_bunker_50mm_flak41.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 50}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body08"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body09"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body10"
+		{Tags "body"}
+		{thickness 200}
+	}
+    {extender "land_patch"
+        {TerrainType "ground" "rock"} 
+        {NoNormals}
+	}
+    {placer
+		{place "cannon"
+			{entity "50mm_flak41_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+	    {place "floor_01"
+			{entity "concrete_block_03_floor_inside"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+	    }
+	    {place "flag"
+			{entity "flag_hanging_ger"}
+			{Linkbone "flag"}
+			{handlebone "body"}
+	    }
+	}
+}

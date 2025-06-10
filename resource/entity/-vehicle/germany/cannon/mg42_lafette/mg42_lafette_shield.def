@@ -1,0 +1,12 @@
+{
+	(include "lafette.inc")
+	(include "/properties/fortified_emplacement.ext")
+	{props "gun_shield"}
+    {tag "gun_shield_on"}	
+	{extender "inventory"
+		{box
+			{item "mg42_belt" filled {user "mgun"}}
+		}
+	}
+	{extender "shield" {on}}
+}

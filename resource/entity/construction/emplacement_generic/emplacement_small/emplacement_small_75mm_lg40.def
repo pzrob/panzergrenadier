@@ -1,0 +1,91 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_small_75mm_lg40.mdl"}
+	{props "sand" "foxhole_spawned" "small" "foxhole_destroy" "jettison_sandbags1" }
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+
+	("foxhole" args "body1")
+	("foxhole" args "body2")
+	("foxhole" args "body3")
+	("foxhole" args "body4")
+
+	{placer
+		{place "floor_01"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "floor_02"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+		}
+        {place "sandbag_00"
+			{entity "sandbag_structured_straight_90_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_01"
+			{entity "sandbag_heap_straight_90_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_heap_straight_270_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_pile_01"
+			;{entity "sandbag_pile_indestructible"}
+			;{Linkbone "sandbag_pile_01"}
+			;{handlebone "body"}
+		;}
+		;{place "sandbag_pile_02"
+			;{entity "sandbag_pile_indestructible"}
+			;{Linkbone "sandbag_pile_02"}
+			;{handlebone "body"}
+		;}
+		{place "wall_01"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "sand-shuttering-box_2_new"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		{place "bench_00"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_00"}
+			{handlebone "body"}
+		}
+		{place "bench_01"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_01"}
+			{handlebone "body"}
+		}
+		{place "bench_02"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_02"}
+			{handlebone "body"}
+		}
+		{place "bench_03"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_03"}
+			{handlebone "body"}
+		}
+		{place "bench_04"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_04"}
+			{handlebone "body"}
+		}
+		{place "bench_05"
+			{entity "bench_indestructible"}
+			{Linkbone "bench_05"}
+			{handlebone "body"}
+		}
+	}
+}

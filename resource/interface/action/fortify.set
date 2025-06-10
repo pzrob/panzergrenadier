@@ -1,0 +1,530 @@
+; // YOU NEED A GAME RESTART FOR CHANGES IN THIS FILE TO TAKE EFFECT.
+
+(define "digging"
+	{Action "%name"
+		{Cursor "dig"}
+		{Button}
+		{fx "flashred"}
+		{Entity "%entity"}
+		{item "%item"}
+		{item_in_box}
+		{RequireSelect}
+		{NotifySelect}
+		{Spacing %spacing}
+		{Cost %cost}
+		{Rotation %rotation}
+		{AbleRotate}
+		{AbleEnqueue}
+		%d
+		{ShowCount}
+		{TerrainRestrictions %restrictions}
+		{Instructions
+			{bind range 1}
+			{disable_action_restart}
+			{free_hands}
+			{take_item}
+			{reserve_hands}
+			{animations "%animation %animation" random loop totaltime %time paint 1}
+			{install "%entity" %rotation}
+			{unreserve_hands}
+			{free_hands}
+			{fsm_request nocheck "hold-nothing"}
+			%e
+		}
+	}
+)
+
+(define "construction"
+	{Action "%name"
+		{Button}
+		{cursor "use"}
+		{fx "flashred"}
+		{Entity "%entity"}
+		{item "%item"}
+		{item_in_box}
+		{RequireSelect}
+		{NotifySelect}
+		{Spacing %spacing}
+		{Cost %cost}
+		{Rotation %rotation}
+		{AbleRotate}
+		{AbleEnqueue}
+		%d
+		{TerrainRestrictions %restrictions}
+		{Instructions
+			{bind range 1}
+			{disable_action_restart}
+			{free_hands}
+			{reserve_hands}
+			;{install_begin "%entity" %rotation}
+			{animations "%animation %animation" random loop totaltime %time paint 1}
+			;{install_end}
+			{install "%entity" %rotation}
+			{unreserve_hands}
+			{fsm_request nocheck "hold-nothing"}
+			%e
+		}
+	}
+)
+
+(define "fortify"
+	{Action "%name"
+		{Cursor "barricade"}
+		%b
+		{fx "flashred"}
+		{Entity "%entity"}
+		{Spacing %spacing}
+		{Cost %cost}
+		{Rotation %rotation}
+		{AbleRotate}
+		{AbleEnqueue}
+		%d
+		{ShowCount}
+		{TerrainRestrictions %restrictions}
+		{Instructions
+			{bind range 1}
+			{disable_action_restart}
+			{free_hands}
+			{reserve_hands}
+			{animations "%animation %animation" random loop totaltime %time paint 1}
+			{install "%entity" %rotation}
+			{unreserve_hands}
+			{fsm_request nocheck "hold-nothing"}
+		}
+	}
+)
+
+(define "fortify_mp"
+	{Action "%name"
+		{Cursor "barricade"}
+		{fx "flashred"}
+		{Entity "%entity"}
+		{Cost %cost}
+		{Rotation %rotation}
+		{AbleRotate}
+		;{AbleEnqueue} not supported yet. leads to negative mp.
+		{ShowCount}
+		{TerrainRestrictions %restrictions}
+		{Instructions
+			{bind range 1}
+			{disable_action_restart}
+			{free_hands}
+			{reserve_hands}
+			{install_begin "%entity" %rotation}
+
+			{install_end}
+			{unreserve_hands}
+			{fsm_request nocheck "hold-nothing"}
+		}
+	}
+)
+;================================Fixed_emplacement=====================================
+(define "digging_foxhole"
+	{Action "%name"
+		{Cursor "dig"}
+		%b
+		{fx "flashred"}
+		{Entity "%entity"}
+		{Spacing %spacing}
+		{Cost %cost}
+		{Rotation %rotation}
+		{AbleRotate}
+		{AbleEnqueue}
+		{item "%item"}
+		{item_in_box}
+		%d
+		{ShowCount}
+		{TerrainRestrictions %restrictions}
+		{Instructions
+			{bind range 1}
+			{disable_action_restart}
+			{free_hands}
+			{take_item}
+			{reserve_hands}
+			{animations "%animation %animation" random loop totaltime %time paint 1}
+			{install "%entity" %rotation}
+			{unreserve_hands}
+			{free_hands}
+			{fsm_request nocheck "hold-nothing"}
+			%e
+		}
+	}
+)
+(define "digging_trench"
+	{Action "%name"
+		{Cursor "dig"}
+		%b
+		{fx "flashred"}
+		{Entity "%entity"}
+		{Spacing %spacing}
+		{Cost %cost}
+		{Rotation %rotation}
+		{AbleRotate}
+		{AbleEnqueue}
+		{item "%item"}
+		{item_in_box}
+		%d
+		{ShowCount}
+		{TerrainRestrictions %restrictions}
+		{Instructions
+			{bind range 1}
+			{disable_action_restart}
+			{free_hands}
+			{take_item}
+			{reserve_hands}
+			{animations "%animation %animation" random loop totaltime %time paint 1}
+			{install "%entity" %rotation}
+			{unreserve_hands}
+			{free_hands}
+			{fsm_request nocheck "hold-nothing"}
+			%e
+		}
+	}
+)
+
+(define "fortification_draggable_trench"
+	("digging_trench"		name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions("water") cost(%cost) b({Button}) d({AbleDrag}) spacing(%spacing) item(%item) e())
+)
+(define "fortification_draggable_foxhole"
+	("digging_trench"		name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions("water") cost(%cost) b({Button}) d({AbleDrag}) spacing(%spacing) item(%item) e())
+)
+;================================Fixed_emplacement=====================================
+
+
+(define "entrenchment"
+	("digging"		name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions(%restrictions) cost(%cost) d({AbleDrag}) spacing(%spacing) item(%item))
+)
+
+(define "entrenchment_rotate"
+	("digging"		name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions(%restrictions) cost(%cost) d() spacing(%spacing) item(%item) e())
+)
+
+(define "entrenchment_rotate_expendable"
+	("digging"		name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions(%restrictions) cost(%cost) d() spacing(%spacing) item(%item) e({remove_from_inventory}))
+)
+
+(define "building"
+	("construction"	name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions(%restrictions) cost(%cost) d() spacing(%spacing) item(%item) e())
+)
+
+(define "building_expendable"
+	("construction"	name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions(%restrictions) cost(%cost) d() spacing(%spacing) item(%item) e({remove_from_inventory}) )
+)
+
+(define "fortification_draggable"
+	("fortify"		name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions("water") cost(%cost) b({Button}) d({AbleDrag})	spacing(%spacing))
+)
+
+(define "fortification_mp"
+	("fortify_mp"	name(%name) entity(%entity) animation(%animation) time(%time) rotation(%rotation) restrictions("water") cost(0))
+)
+
+
+
+;foxhole
+("entrenchment_rotate"		name(foxhole)			entity(soldier_foxhole)		 			animation(stand_dig_trench)			time(30)	rotation(-90.0)	spacing(100) cost(1)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(foxhole_middle)	entity(trench_dirt_fire_position)		animation(stand_dig_trench)			time(30)	rotation(180.0)	spacing(100) cost(2)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(foxhole_big)		entity(trench_engineer_old)				animation(dig_pickaxe_01)			time(60)	rotation(180.0)	spacing(180) cost(20)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(tank_cover)		entity(tank_cover)						animation(dig_pickaxe_01)			time(120)	rotation(-90.0)	spacing(180) cost(50)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+
+
+
+
+; medic rally
+("building_expendable"		name(medic_rally)		entity(medic_rally)			animation(squat_construct_sandbag)	time(30)	rotation(0.0)	spacing(100) cost(1)	item(tent_kit)	restrictions("shallow_water water"))
+
+;barricade
+("fortification_draggable"	name(barricade_sq)		entity(sandbag_framed_straight_low_mod_dummy)		animation(squat_construct_sandbag)	time(10)	rotation(180.0)	spacing(0.5)	cost(1))
+("fortification_draggable"	name(barricade)			entity(sandbag_framed_straight_mod_dummy)			animation(squat_construct_sandbag)	time(10)	rotation(-90.0)	spacing(-0.0)	cost(2))
+
+;hedgehog
+("fortification_draggable"	name(hedgehog)			entity(hedgehog_service)	animation(squat_repair_1)			time(10)	rotation(0.0)	spacing(2)	cost(5))
+;("fortification_draggable"	name(hedgehog_ger)		entity(dot_element_omaha10)	animation(squat_repair_1)			time(10)	rotation(0.0)	spacing(2)	cost(5))
+
+;barbwire
+("fortification_draggable"	name(barbwire)			entity(barbwire)			animation(squat_repair_1)			time(5)		rotation(0.0)	spacing(0)	cost(2))
+
+
+
+
+
+("fortification_mp"			name(heavy_mg_mg34)		entity(heavy_mg_mg34)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_maxim)	entity(heavy_mg_maxim)			time(30)	rotation(-90.0))
+
+
+
+;//-------------------------------- MOD BEGIN ---------------------------------------------------------------------
+
+; new
+;("entrenchment_rotate"		       name(mortar_pit)		    entity(mg_foxhole)		    animation(dig_pickaxe_01)			time(20)	rotation(90.0)	spacing(180) cost(20)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		       name(fighting_position_shallow)		entity(euro_log_trench_dirt_emplacement2_at_dummy)	animation(dig_pickaxe_01)			time(20)	rotation(90.0)	spacing(180) cost(20)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		       name(fighting_position_deep)		    entity(euro_log_trench_dirt_emplacement2_dummy)		animation(dig_pickaxe_01)			time(20)	rotation(90.0)	spacing(180) cost(20)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+;("entrenchment_rotate"		       name(guard_tower_small)	entity(guard_tower_small)	animation(dig_pickaxe_01)			time(45)	rotation(180.0)	spacing(180) cost(25)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+;("entrenchment_rotate"		       name(placement_nest)	    entity(placement_nest)		animation(dig_pickaxe_01)			time(40)	rotation(180.0)	spacing(180) cost(20)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+;("entrenchment_rotate"		       name(watch_tower)		entity(watch_tower)		    animation(dig_pickaxe_01)			time(40)	rotation(180.0)	spacing(180) cost(25)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+;("entrenchment_rotate"		       name(trench_modular)	    entity(trench_modular)		animation(stand_dig_trench)			time(15)	rotation(180.0)	spacing(0) cost(10)	item(foxhole)     restrictions("rock "))
+;("fortification_draggable"		   name(pillbox_earth)		entity(trench_modular)		animation(squat_construct_sandbag)	time(15)	rotation(180.0)	spacing(0) cost(10)	item(foxhole))
+;("entrenchment_rotate" 		   name(foxhole_group)		entity(soldier_foxhole)		animation(stand_dig_trench)			time(20)	rotation(0.0)	spacing(2) cost(1)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+
+("fortification_draggable_trench"  name(trench_short)		entity(euro_log_trench_dirt_straight_short)		animation(dig_pickaxe_01)			time(15)	rotation(0.0)	spacing(2) cost(1)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate" 		       name(trench_intersection) entity(euro_log_trench_dirt_intersection2_dummy)		animation(dig_pickaxe_01)			time(15)	rotation(0.0)	spacing(2) cost(1)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate" 		       name(trench_end)		    entity(euro_log_trench_dirt_fire_position2_dummy)		animation(dig_pickaxe_01)			time(15)	rotation(-90.0)	spacing(2) cost(1)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate" 		       name(trench_turn)		entity(euro_log_trench_dirt_turn_90-1_dummy)			animation(dig_pickaxe_01)			time(15)	rotation(-90.0)	spacing(2) cost(1)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("fortification_draggable_foxhole" 		       name(trench_short_soldier)			entity(euro_log_trench_dirt_straight_short_dummy)		animation(stand_dig_trench)		time(30)	rotation(0.0)	spacing(2) cost(1)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate" 		       name(trench_intersection_soldier)	entity(euro_log_trench_dirt_intersection2_dummy)		animation(stand_dig_trench)		time(30)	rotation(0.0)	spacing(2) cost(1)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate" 		       name(trench_end_soldier)		    entity(euro_log_trench_dirt_fire_position2_dummy)			animation(stand_dig_trench)		time(30)	rotation(-90.0)	spacing(2) cost(1)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate" 		       name(trench_turn_soldier)			entity(euro_log_trench_dirt_turn_90-1_dummy)			animation(stand_dig_trench)		time(30)	rotation(-90.0)	spacing(2) cost(1)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+
+("fortification_draggable_foxhole"	       name(concrete_wall)	    entity(euro_station_platform_wall)		animation(stand_dig_trench)	time(10)	rotation(180.0)	spacing(2.5)	cost(10) item(shovel_heavy) restrictions("shallow_water"))
+("fortification_draggable"	       		   name(barricade_wall)	    entity(sand_shuttering_wall_2_dummy)	animation(squat_construct_sandbag)	time(10)	rotation(90.0)	spacing(1.5)	cost(10) restrictions("shallow_water"))
+("entrenchment_rotate"		      		   name(bush_cover)			entity(bush_generic_4)		        animation(stand_dig_trench)			time(10)	rotation(180.0)	spacing(100) cost(2)	item(foxhole)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+
+("fortification_draggable"		   		   name(iron_door)			entity(f_end_c06_door_dummy)		animation(squat_repair_1)			time(10)	rotation(0.0)	spacing(2)	cost(5))
+
+
+;//-------------------------------- Emplacement Vehicle ---------------------------------------------------------------------
+;//-------------------------------- FIN BEGIN ---------------------------------------------------------------------
+("fortification_mp"			      name(fin_emplacement_watch_tower)	               entity(watch_tower_dummy)		                                 time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_maxim)	                   entity(emplacement_small_deep_mg_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_concrete_bunker_ds39)	   entity(emplacement_concrete_bunker_ds39_fin_dummy)		                             time(15)	rotation(-90.0))
+
+
+("fortification_mp"			      name(fin_emplacement_20mm_itk35)	               entity(emplacement_light_aa_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_20mm_itk40)	               entity(emplacement_20mm_itk40_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_40mm_itk38b)	               entity(emplacement_middle_aa_dummy)		                                         	 time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_75mm_itk37)	               entity(emplacement_75mm_itk37_dummy)		                                             time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(fin_emplacement_37mm_pstk36)	               entity(emplacement_37mm_pstk36_dummy)		                                         time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_75mm_k40)	               entity(emplacement_75mm_k40_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_75mm_k44)	               entity(emplacement_75mm_k44_dummy)		                                             time(15)	rotation(90.0))
+("fortification_mp"			      name(fin_emplacement_76mm_k36)	               entity(emplacement_middle_at_dummy)		                                             time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(fin_emplacement_50mm_krh38)	               entity(emplacement_50mm_krh38_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_81mm_krh36)	               entity(emplacement_light_mortar_dummy)		                                         time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_120mm_krh40)	               entity(emplacement_middle_mortar_dummy)		                                         time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_170mm_minewerfer)	       entity(emplacement_170mm_minewerfer_dummy)		                                     time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(fin_emplacement_76mm_m1927_fin)	           entity(emplacement_middle_fieldgun_dummy)		                                     time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_84mm_k18)	               entity(emplacement_84mm_k18_dummy)		                                             time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(fin_emplacement_107mm_k10)	               entity(emplacement_107mm_k10_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(fin_emplacement_120mm_k78_31)	           entity(emplacement_middle_howitzer_dummy)		                                     time(15)	rotation(-90.0))
+
+;//-------------------------------- FIN END ---------------------------------------------------------------------
+;//-------------------------------- GER BEGIN ---------------------------------------------------------------------
+("fortification_mp"			      name(ger_emplacement_watch_tower_mg34)	       entity(watch_tower_dummy)		                                         				 time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_concrete_tower)	       	   entity(emplacement_concrete_platform_tower_dummy)		                                 time(15)	rotation(-90.0))
+
+
+("fortification_mp"			      name(ger_emplacement_mg34)	                   entity(emplacement_small_deep_mg_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_concrete_bunker)	   		   entity(emplacement_concrete_platform_bunker_dummy)		                                 time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(ger_emplacement_20mm_flak30)	               entity(emplacement_20mm_flak30_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_20mm_flak38)	               entity(emplacement_20mm_flak38_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_20mm_flakvierling38)	       entity(emplacement_20mm_flakvierling38_dummy)		                                     time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_37mm_flak37)	               entity(emplacement_light_aa_dummy)		                                            	 time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_concrete_bunker_50mm_flak41) entity(emplacement_concrete_50mm_flak41_dummy)		                                     time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_concrete_88mm_flak18)	   entity(emplacement_concrete_88mm_flak18_dummy)		                                     time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_concrete_88mm_flak36)	   entity(emplacement_concrete_88mm_flak36_dummy)		                                     time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(ger_emplacement_37mm_pak36)	               entity(emplacement_37mm_pak36_dummy)                                                     time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_50mm_pak38)	               entity(emplacement_50mm_pak38_dummy)		                                                time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_75mm_pak40)	               entity(emplacement_middle_at_dummy)		                                                time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_88mm_pak43)	               entity(emplacement_concrete_bunker_88mm_pak4341_dummy)		                            time(15)	rotation(0.0))
+
+("fortification_mp"			      name(ger_emplacement_80mm_sgrw34)	               entity(emplacement_light_mortar_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_100mm_nbw35)	               entity(emplacement_100mm_nbw35_dummy)		                                             time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_120mm_sgrw42)	           entity(emplacement_middle_mortar_dummy)		                                             time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(ger_emplacement_75mm_leig18)	               entity(emplacement_middle_fieldgun_dummy)		                                         time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_75mm_lg40)	               entity(emplacement_75mm_lg40_dummy)		                                                 time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_150mm_sig33)	               entity(emplacement_150mm_sig33_dummy)		                                             time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(ger_emplacement_105mm_lefh18)	           entity(emplacement_middle_howitzer_dummy)		                                         time(15)	rotation(-90.0))
+("fortification_mp"			      name(ger_emplacement_concrete_fortress)	       entity(emplacement_concrete_platform_fortress_dummy)		                                 time(15)	rotation(-90.0))
+
+("entrenchment_rotate"	          name(ger_emplacement_bunker_osttruppen_unlimited)     entity(emplacement_bunker_ger_osttruppen_squad_unlimited)	     animation(stand_dig_trench)  time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_ger)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"	          name(ger_emplacement_bunker_strafbatallion_unlimited) entity(emplacement_bunker_ger_strafbatallion_squad_unlimited)	 animation(stand_dig_trench)  time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_ger)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"	          name(ger_emplacement_bunker_luftwaffe_unlimited) 		entity(emplacement_bunker_ger_luftwaffe_squad_unlimited)	 	 animation(stand_dig_trench)  time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_ger)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"	          name(ger_emplacement_bunker_kriegsmarine_unlimited)   entity(emplacement_bunker_ger_kriegsmarine_squad_unlimited)	     animation(stand_dig_trench)  time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_ger)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"	          name(ger_emplacement_bunker_volkssturm_unlimited)     entity(emplacement_bunker_ger_volkssturm_squad_unlimited)	     animation(stand_dig_trench)  time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_ger)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+;//-------------------------------- GER END ---------------------------------------------------------------------
+;//-------------------------------- RUS BEGIN ---------------------------------------------------------------------
+
+("fortification_mp"			      name(rus_emplacement_watch_tower)	               entity(watch_tower_dummy)		                                    time(15)	rotation(-90.0))
+
+
+("fortification_mp"			      name(rus_emplacement_maxim)	                   entity(emplacement_maxim_dummy)		                                                time(15)	rotation(0.0))
+("fortification_mp"			      name(rus_emplacement_ds39)	                   entity(emplacement_ds39_dummy)		                                                time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_sg43)	                   entity(emplacement_sg43_dummy)		                                                time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_pillbox_sg43)	           entity(emplacement_pillbox_sg43_dummy)		                                        time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(rus_emplacement_dshk)	                   entity(emplacement_light_aa_mg_dummy)		                                        time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_dshk_aa)	                   entity(emplacement_dshk_aa_dummy)		                                            time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(rus_emplacement_25mm_72k)	               entity(emplacement_light_aa_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_37mm_61k)	               entity(emplacement_middle_aa_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_76mm_m1938)	               entity(emplacement_76mm_m1938_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_85mm_52k)	               entity(emplacement_middle_aa_heavy_dummy)		                                    time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(rus_emplacement_45mm_m37)	               entity(emplacement_45mm_m37_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_45mm_m42)	               entity(emplacement_45mm_m42_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_57mm_zis2)	               entity(emplacement_57mm_zis2_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_76mm_zis3)	               entity(emplacement_middle_at_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_100mm_bs3)	               entity(emplacement_100mm_bs3_dummy)		                                            time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(rus_emplacement_82mm_bm37)	               entity(emplacement_light_mortar_dummy)		                                        time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_120mm_pm38)	               entity(emplacement_middle_mortar_dummy)		                                        time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(rus_emplacement_76mm_m1927)	               entity(emplacement_middle_fieldgun_dummy)		                                    time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_76mm_m43)	               entity(emplacement_76mm_m43_dummy)		                                            time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_small_76mm_m43)	           entity(emplacement_small_76mm_m43_dummy)		                                        time(15)	rotation(-90.0))
+
+("fortification_mp"			      name(rus_emplacement_122mm_m30)	               entity(emplacement_middle_howitzer_dummy)		                                  	time(15)	rotation(-90.0))
+("fortification_mp"			      name(rus_emplacement_command_post)	           entity(emplacement_command_post_rus_dummy)		                                    time(15)	rotation(-90.0))
+
+;("entrenchment_rotate"	          name(rus_emplacement_bunker_border_unlimited)    entity(emplacement_bunker_rus_border_squad_unlimited)	 animation(stand_dig_trench)	time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_rus)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"	          name(rus_emplacement_bunker_conscript_unlimited) entity(emplacement_bunker_rus_conscript_squad_unlimited)	 animation(stand_dig_trench)	time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_rus)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"	          name(rus_emplacement_bunker_penal_unlimited)     entity(emplacement_bunker_rus_penal_squad_unlimited)	     animation(stand_dig_trench)	time(15)	rotation(-180.0)	spacing(180) cost(50)	item(shovel_rus)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+
+("fortification_mp"			      name(rus_factory_t3476_42)	                   entity(factory_t3476_42_dummy)		                                                time(15)	rotation(-90.0))
+;//-------------------------------- RUS End ---------------------------------------------------------------------
+;//-------------------------------- USA BEGIN ---------------------------------------------------------------------
+
+("fortification_mp"     name(usa_emplacement_watch_tower)	            entity(watch_tower_dummy)	     					 time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_m2_30cal)	                entity(emplacement_small_deep_mg_dummy)	                 time(15)	rotation(-90.0))
+
+("fortification_mp"     name(usa_emplacement_m2_50cal)	                entity(emplacement_m2_50cal_dummy)	                	time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_modular_box_m2_50cal)	    entity(emplacement_modular_box_m2_50cal_tripod_dummy) 	time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_m2_50cal_aa)	            entity(emplacement_light_aa_mg_dummy)	            	 	time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_50cal_quad_m45)	        entity(emplacement_light_aa_dummy)	         			time(15)	rotation(-90.0))
+
+("fortification_mp"     name(usa_emplacement_40mm_m1)	                entity(emplacement_middle_aa_dummy)	                 time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_90mm_m1a1)	                entity(emplacement_middle_aa_heavy_dummy)	         time(15)	rotation(-90.0))
+
+("fortification_mp"     name(usa_emplacement_37mm_m3a1)	                entity(emplacement_37mm_m3a1_dummy)	                 time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_57mm_m1)	                entity(emplacement_middle_at_dummy)	                 time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_76mm_m5_m1)	            entity(emplacement_76mm_m5_m1_dummy)	             time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_76mm_m5_m6)	            entity(emplacement_76mm_m5_m6_dummy)	             time(15)	rotation(-90.0))
+
+("fortification_mp"     name(usa_emplacement_60mm_m2)	                entity(emplacement_60mm_m2_dummy)	                 time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_81mm_m1)	                entity(emplacement_light_mortar_dummy)	             time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_107mm_m2)	                entity(emplacement_middle_mortar_dummy)	                 time(15)	rotation(-90.0))
+
+("fortification_mp"     name(usa_emplacement_75mm_m1a1)	                entity(emplacement_middle_fieldgun_dummy)	                 time(15)	rotation(-90.0))
+("fortification_mp"     name(usa_emplacement_small_75mm_m1a1)	        entity(emplacement_small_75mm_m1a1_dummy)	         time(15)	rotation(180.0))
+("fortification_mp"     name(usa_emplacement_75mm_m3a3)	                entity(emplacement_75mm_m3a3_dummy)	                 time(15)	rotation(-90.0))
+
+("fortification_mp"     name(usa_emplacement_105mm_m2a1)	            entity(emplacement_middle_howitzer_dummy)	             time(15)	rotation(-90.0))
+
+("entrenchment_rotate"	name(usa_emplacement_bunker_national_guard_unlimited)	entity(emplacement_bunker_usa_national_guard_squad_unlimited) animation(stand_dig_trench)	time(15)	rotation(-180.0) spacing(180) cost(50)	item(shovel_usa)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+;//-------------------------------- Emplacement Building ---------------------------------------------------------------------
+;//-------------------------------- Generic BEGIN ---------------------------------------------------------------------
+("entrenchment_rotate"		      name(emplacement_small_deep_mg)		entity(emplacement_small_deep_mg_dummy)						animation(stand_dig_trench)		time(20)	rotation(-90.0)	spacing(180) cost(60)	item(foxhole)				restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(watch_tower)		   				entity(watch_tower_dummy)		      						animation(stand_dig_trench)		time(40)	rotation(180.0)	spacing(180) cost(60)	item(foxhole)				restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(mortar_pit)						entity(emplacement_light_mortar_dummy)						animation(stand_dig_trench)		time(40)	rotation(-90.0)	spacing(180) cost(75)	item(foxhole)				restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(mortar_pit_heavy)				entity(emplacement_middle_mortar_dummy)						animation(stand_dig_trench)		time(40)	rotation(-90.0)	spacing(180) cost(75)	item(shovel_heavy)			restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_middle_at)	        entity(emplacement_middle_at_dummy)	                        animation(stand_dig_trench)		time(40)	rotation(-90.0)	spacing(180) cost(65)	item(foxhole)				restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_light_aa_mg)			entity(emplacement_light_aa_mg_dummy)	 					animation(stand_dig_trench)		time(45)	rotation(-90.0)	spacing(180) cost(75)	item(shovel_heavy)			restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_light_aa)  			entity(emplacement_light_aa_dummy)	   						animation(stand_dig_trench)		time(40)	rotation(-90.0)	spacing(180) cost(75)	item(emplacement_light_aa)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_middle_aa)	    	entity(emplacement_middle_aa_dummy)	    					animation(stand_dig_trench)	    time(40)	rotation(-90.0)	spacing(180) cost(60)	item(foxhole)				restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_middle_fieldgun)	    entity(emplacement_middle_fieldgun_dummy)					animation(stand_dig_trench)		time(40)	rotation(-90.0)	spacing(180) cost(75)	item(foxhole)				restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_middle_aa_heavy)	    entity(emplacement_middle_aa_heavy_dummy)					animation(stand_dig_trench)		time(45)	rotation(-90.0)	spacing(180) cost(100)	item(shovel_heavy)			restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_middle_howitzer)	    entity(emplacement_middle_howitzer_dummy)					animation(stand_dig_trench)	    time(45)	rotation(-90.0)	spacing(180) cost(100)	item(shovel_heavy)			restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+
+("entrenchment_rotate"		      name(emplacement_concrete_fortress)   entity(emplacement_concrete_platform_fortress_dummy)	    animation(stand_dig_trench)		time(30)	rotation(-90.0)	spacing(180) cost(100)	item(shovel_heavy)			restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(emplacement_concrete_fortress)   entity(emplacement_concrete_block_fortress_v3_dummy)	    animation(stand_dig_trench)		time(30)	rotation(-90.0)	spacing(180) cost(100)	item(shovel_heavy)			restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+;//-------------------------------- Generic BEGIN ---------------------------------------------------------------------
+;//-------------------------------- FIN BEGIN ---------------------------------------------------------------------
+; finland_light
+;("entrenchment_rotate"		      name(fin_20mm_l39_position)		        entity(soldier_foxhole_deep_20mm_l39)	              animation(stand_dig_trench)		    time(30)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(fin_20mm_itk35_emplacement)		    entity(emplacement_light_aa)	                      animation(stand_dig_trench)		    time(30)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(fin_20mm_itk40_emplacement)		    entity(emplacement_20mm_itk40)	                      animation(stand_dig_trench)		    time(30)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(fin_minefield_at)		            entity(mine_sign_at_fin)	                          animation(stand_dig_trench)			time(8)	    rotation(180.0)	spacing(180) cost(10)	item(shovel_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+
+;("entrenchment_rotate"		      name(fin_37mm_pstk36_emplacement)		    entity(emplacement_37mm_pstk36)		                  animation(stand_dig_trench)			time(30)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(fin_50mm_krh38_foxhole)		        entity(emplacement_50mm_krh38)		                  animation(stand_dig_trench)			time(30)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+; finland_mid 
+
+; finland_heavy
+("entrenchment_rotate"		      name(fin_bunker)		                    entity(emplacement_concrete_bunker_ds39_fin)	  animation(stand_dig_01)		    time(45)	rotation(-90.0)	spacing(180) cost(60)	item(engineering_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(fin_coastal_gun)	                    entity(75mm_pillbox_stage1)	                      animation(stand_dig_01)			time(45)	rotation(180.0)	spacing(180) cost(100)	item(engineering_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(fin_75mm_k44_emplacement)		    entity(emplacement_75mm_k44_fortified)            animation(stand_dig_01)			time(45)	rotation(-90.0)	spacing(180) cost(85)	item(engineering_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(fin_170mm_minewerfer_position)		entity(emplacement_170mm_minewerfer)              animation(stand_dig_01)		    time(45)	rotation(-90.0)	spacing(180) cost(100)	item(engineering_fin)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+;//-------------------------------- GER BEGIN ---------------------------------------------------------------------
+; ger_light
+("entrenchment_rotate"		      name(ger_minefield_at)		            entity(mine_sign_at_ger)	               animation(stand_dig_trench)			time(8)	    rotation(180.0)	spacing(180) cost(10)	item(shovel_ger)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+; ger_mid
+("entrenchment_rotate"		      name(emplacement_concrete_bunker)		    entity(emplacement_concrete_platform_bunker_dummy)   		animation(stand_dig_trench)		time(45)	rotation(180.0)	spacing(180) cost(60)	item(shovel_ger)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(emplacement_concrete_bunker_at)  	entity(emplacement_concrete_platform_bunker_at_dummy) 		animation(stand_dig_trench)		time(45)	rotation(-90.0)	spacing(140) cost(80)	item(shovel_ger)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+; ger_heavy
+("entrenchment_rotate"		      name(emplacement_concrete_tower)	        entity(emplacement_concrete_platform_tower_dummy)   	animation(stand_dig_trench)			time(45)	rotation(-180.0)	spacing(180) cost(75)	item(shovel_ger)		restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(ger_bunker_88mm_pak4341)         	entity(emplacement_concrete_bunker_88mm_pak4341) 		animation(stand_dig_trench)   		time(45)	rotation(-90.0)		spacing(140) cost(80)	item(shovel_ger_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(ger_concrete_flak_pillbox)	    	entity(emplacement_concrete_88mm_flak36)   				animation(stand_dig_trench)			time(45)	rotation(-90.0)		spacing(180) cost(100)	item(shovel_ger_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+;//-------------------------------- RUS BEGIN ---------------------------------------------------------------------
+
+; rus_light
+("entrenchment_rotate"		      name(rus_maxim_pillbox)		            entity(emplacement_maxim)					animation(stand_dig_trench)				time(20)	rotation(0.0)	spacing(180) cost(60)	item(shovel_rus)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_maxim_foxhole)		            entity(emplacement_log_trench_maxim)		animation(stand_dig_trench)				time(20)	rotation(180.0)	spacing(180) cost(60)	item(shovel_rus)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_25mm_72k_emplacement)		    entity(emplacement_25mm_72k)		        animation(stand_dig_trench)				time(30)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_rus)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_45mm_m42_emplacement)		    entity(emplacement_45mm_m42)		        animation(stand_dig_trench)				time(30)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_rus)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_76mm_bpk76_foxhole)		        entity(soldier_foxhole_bunker_76mm_bpk76)	animation(stand_dig_trench)				time(30)	rotation(-90.0)	spacing(180) cost(75)	item(shovel_rus)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_76mm_m43_emplacement)		    entity(emplacement_76mm_m43)		        animation(stand_dig_trench)				time(30)	rotation(-90.0)	spacing(180) cost(75)	item(shovel_rus)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(rus_minefield_at)		            entity(mine_sign_at_rus)	                animation(stand_dig_trench)				time(8)	    rotation(180.0)	spacing(180) cost(10)	item(shovel_rus)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+; rus_mid
+
+; rus_heavy
+;("entrenchment_rotate"		      name(rus_pillbox_earth_dshk)		   entity(emplacement_pillbox_dshk)		          animation(stand_dig_trench)				time(45)	rotation(-90.0)	spacing(180) cost(60)	item(shovel_rus_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_bunker_maxim)               entity(soldier_foxhole_bunker_maxim_fortified) animation(stand_dig_trench)			    time(45)	rotation(-90.0)	spacing(180) cost(80)	item(shovel_rus_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_bunker_ds39)                entity(45mm_pillbox_ds39_fortified)		      animation(stand_dig_trench)			    time(45)	rotation(-90.0)	spacing(180) cost(80)	item(shovel_rus_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		      name(rus_bunker_dshk)                entity(45mm_pillbox_dshk)		              animation(stand_dig_trench)			    time(45)	rotation(-90.0)	spacing(180) cost(80)	item(shovel_rus_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		      name(rus_100mm_bs3_emplacement)	   entity(emplacement_100mm_bs3)	              animation(stand_dig_trench)			    time(45)	rotation(-90.0)	spacing(180) cost(100)	item(shovel_rus_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+;//-------------------------------- USA BEGIN ---------------------------------------------------------------------
+; usa_light
+("entrenchment_rotate"		       name(usa_37mm_m3a1_emplacement)		entity(emplacement_37mm_m3a1)	            animation(stand_dig_trench)		time(30)	rotation(-90.0)  	spacing(180) cost(60)	item(shovel_usa)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		       name(usa_60mm_m2_foxhole)		    entity(emplacement_60mm_m2)		            animation(stand_dig_trench)		time(30)	rotation(-90.0)	    spacing(180) cost(60)	item(shovel_usa)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		       name(usa_75mm_m1a1_emplacement)		entity(emplacement_75mm_m1a1)	            animation(stand_dig_trench)		time(30)	rotation(-90.0)	    spacing(90)  cost(60)	item(shovel_usa)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		       name(usa_minefield_at)		        entity(mine_sign_at_usa)	                animation(stand_dig_trench)		time(8)	    rotation(180.0)	    spacing(180) cost(10)	item(shovel_usa)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+; usa_mid
+
+; usa_heavy
+;("entrenchment_rotate"		       name(usa_trench_pillbox_m2_50cal)	entity(trench_pillbox_m2_50cal)	         animation(stand_dig_trench)		time(45)	rotation(-90.0)	spacing(180) cost(75)	item(shovel_usa_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;("entrenchment_rotate"		       name(usa_bunker_m2_50cal)		    entity(emplacement_modular_box_m2_50cal_tripod)  animation(stand_dig_trench) time(45)	rotation(-90.0)	spacing(180) cost(75)	item(shovel_usa_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+("entrenchment_rotate"		       name(usa_76mm_m5_emplacement)	    entity(emplacement_76mm_m5_m6)           animation(stand_dig_trench)	    time(45)	rotation(-90.0)	spacing(120) cost(90)	item(shovel_usa_heavy)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+
+;---------------------- MACE script
+;("entrenchment_rotate_expendable" name(littledavid)	entity(little_david_stage1)	animation(dig_pickaxe_01)			time(150)	rotation(-90.0)	spacing(180) cost(100)	item(engineering_usa)	restrictions("bridge bridge_wood -rock shallow_water ice water"))
+;---------------------- MACE script
+
+; Automatic medic 
+
+(define "automedic"
+	{Action "%name"
+		{Cursor "medkit"}
+		{Button}
+		{fx "flashred"}
+		{Entity "medic_zone_vis"}
+		{AbleRotate}
+		{ScaleFromSize 10} ; <- must match medic tent extender radius to fit visuals
+		{HideLdragArrow}
+		{TerrainRestrictions %restrictions}
+		{Key "actions/%name"}
+		{Instructions
+			{install "%entity"}
+		}
+	}
+)
+
+("automedic"		name(auto_medic_place_flag) entity(medic_zone) restrictions("water") )

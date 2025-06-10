@@ -1,0 +1,36 @@
+;SDL
+game_entity
+
+{extender "mine"}
+
+{props "stuff" "minefield" "steel" "collectable" "nocover" "no_blast_physics"}
+
+{obstacleID "nothing"}
+{collider "nothing"}
+{simulation {able 1}}
+{constrain ground}
+
+{lodclass "stuff_mine"}
+
+{volume "select"
+	{able clear {touch}}
+	{density 0}
+}
+
+{skeleton
+	{bone "mined_view"
+		{matrix34
+			0  0  1
+			0 -1  0
+			1  0  0
+			0  0  0
+		}
+	}
+}
+
+{armor
+	{setting "body"
+		{thickness 20}
+		{volumes "body*"}
+	}
+}

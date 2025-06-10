@@ -1,0 +1,16 @@
+{game_entity ;march 45
+	(include "m36b1_gmc.inc")
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "ammo bulletusa_90x600 apcbche" 24}		;47 rounds ;70% AP
+			{item "ammo bulletusa_90x600 apbc" 5}
+			{item "ammo bulletusa_90x600 he" 14}
+			{item "ammo bulletusa_90x600 hvap" 3}
+			{item "ammo hmgun_usa" 900} 	;1000 rounds
+			{item "ammo mgun_usa belt" 1750} 	;2000 rounds
+			{item "satchel_charge_usa" 1}
+		}
+	}
+}

@@ -1,0 +1,130 @@
+;Exported by:	 Carlos
+;Date:			 08.03.2019 10:55:21
+;File:			 T:\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\trenches_reinforced_dirt\trenches_reinforced_dirt_new_export.max
+{skeleton
+	{bone "trench_straight2"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench_straight2.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point1"
+			{matrix34
+				0.049 	 -0.9988 	 0
+				0.9988 	 0.049 	 0
+				0 	 0 	 1
+				18.3438 	 -21.1045 	 0
+			}
+		}
+		{bone "point2"
+			{matrix34
+				0.0082 	 -1 	 0
+				1 	 0.0082 	 0
+				0 	 0 	 1
+				-15.6976 	 -20.6831 	 0
+			}
+		}
+		{bone "point3"
+			{matrix34
+				-0.0976 	 -0.9952 	 0
+				0.9952 	 -0.0976 	 0
+				0 	 0 	 1
+				-16.4961 	 15.7342 	 0
+			}
+		}
+		{bone "point4"
+			{matrix34
+				-0.0706 	 -0.9975 	 0
+				0.9975 	 -0.0706 	 0
+				0 	 0 	 1
+				16.8857 	 20.8907 	 0
+			}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex -26.8076 -27.3364}
+		{vertex 27.5433 -27.3364}
+		{vertex 27.0607 30.7505}
+		{vertex -27.7728 30.2679}
+	}
+	{rotate}
+}
+{obstacle "body016"
+	{obb2
+		{center 20.6547 -11.3161}
+		{extent 14.2031 1.5081}
+		{axis 0.00620666 -0.999981}
+	}
+	{rotate}
+}
+{obstacle "body017"
+	{obb2
+		{center 20.7383 15.6073}
+		{extent 14.2031 1.50809}
+		{axis -0.00199301 -0.999998}
+	}
+	{rotate}
+}
+{obstacle "body018"
+	{obb2
+		{center -20.8597 -11.5975}
+		{extent 14.2031 1.50809}
+		{axis 0.00255986 -0.999997}
+	}
+	{rotate}
+}
+{obstacle "body019"
+	{obb2
+		{center -21.4244 17.3781}
+		{extent 14.2031 1.50809}
+		{axis 0.0419 -0.999122}
+	}
+	{rotate}
+}
+{volume "body1"
+	{polyhedron "body1.vol"}
+	{bone "point1"}
+	{matrix34
+		0.9973 	 -0.0718 	 -0.0173
+		0.0697 	 0.9924 	 -0.1017
+		0.0245 	 0.1002 	 0.9947
+		0.0477 	 0.585 	 -19.3603
+	}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "point2"}
+	{matrix34
+		-0.999 	 0.0426 	 -0.0101
+		-0.0415 	 -0.9947 	 -0.0939
+		-0.0141 	 -0.0934 	 0.9955
+		1.79 	 -3.7766 	 -19.3433
+	}
+}
+{volume "body3"
+	{polyhedron "body3.vol"}
+	{bone "point3"}
+	{matrix34
+		-0.9961 	 -0.0878 	 -0.0101
+		0.0884 	 -0.9916 	 -0.0939
+		-0.0018 	 -0.0945 	 0.9955
+		-1.2619 	 -2.6374 	 -19.3433
+	}
+}
+{volume "body4"
+	{polyhedron "body4.vol"}
+	{bone "point4"}
+	{matrix34
+		0.9973 	 0.0729 	 -0.0122
+		-0.0738 	 0.9921 	 -0.1017
+		0.0047 	 0.1024 	 0.9947
+		1.2341 	 2.1577 	 -19.3935
+	}
+}

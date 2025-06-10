@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/trench_ridge"}
+	{bump "$/_military/trench_ridge_bp"}
+	{specular "$/_military/trench_ridge_sp"}
+	{color "230 230 230 25"}
+	{blend blend}
+}

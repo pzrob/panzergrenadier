@@ -1,0 +1,6 @@
+{from "bazooka_m1"
+	{entity "bazooka_m9a1"}
+	{mass 7.2}
+
+	{spreading 1.5}	;// improved accuracy due to reflex sight
+}

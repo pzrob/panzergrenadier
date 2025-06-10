@@ -1,0 +1,14 @@
+{game_entity
+    (include "/properties/construction.inc")
+	{props "small" "construction" "wood"}
+	("armor_heavy" args 0.8)
+	{ObstacleId "construction"}
+	{extension "euro_plank_stair_short.mdl"}
+	{volume "body06"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+	}
+	{extender "land_patch"
+	}
+}

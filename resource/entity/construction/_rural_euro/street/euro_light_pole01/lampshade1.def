@@ -1,0 +1,14 @@
+{game_entity	
+	(include "/properties/post.inc")
+	{Extension "lampshade.mdl"}
+	{Volume "lampshade"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {visible 1}{contact 1}{obstacle 0}}
+	}
+	{extender "light"
+		{lamp "1"
+			{preset "lamp_spot"}
+		}
+	}
+}

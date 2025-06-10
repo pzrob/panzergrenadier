@@ -1,0 +1,11 @@
+{item
+	{tag "itemin1hand"}
+	{entity "ger_mask_sniper"}
+	{inventory
+		{size 2 2}
+		{weight 50}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

@@ -1,0 +1,11 @@
+{
+	(include "/properties/trench.inc")
+	{extension "trench_dirt_straight_short.mdl"}
+	{props "sand"}
+	("boneLand"  args "trench")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	
+}

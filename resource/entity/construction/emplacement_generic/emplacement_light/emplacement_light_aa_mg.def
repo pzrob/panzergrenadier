@@ -1,0 +1,110 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{Extension "emplacement_light.mdl"}
+	{props "sand" "foxhole_spawned" "normal"}
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+
+	{volume "box006"
+		{able  {touch 1}}
+	}
+	{volume "box007"
+		{able  {touch 1}}
+	}
+	{volume "box008"
+		{able  {touch 1}}
+	}
+	{volume "box009"
+		{able  {touch 1}}
+	}
+	{volume "box010"
+		{able  {touch 1}}
+	}
+	{volume "box011"
+		{able  {touch 1}}
+	}
+	{volume "box012"
+		{able  {touch 1}}
+	}
+	{placer
+		{place "floor"
+			{entity "emplacement_light_floor_stage"}
+			{Linkbone "floor"}
+			{handlebone "body"}
+		}
+	}
+	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_maxim_x4_mgun_stage"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_maxim_x4_mgun_stage"}
+			}
+			;{"spa"
+				{entity "emplacement_mg151_x3_stat_mgun_stage"}
+			;}
+			{"ger"
+				{entity "emplacement_mg151_x3_stat_mgun_stage"}
+			}
+			{"ger_female_soldier"
+				{entity "emplacement_mg151_x3_stat_mgun_stage"}
+			}
+			{"rus"
+				{entity "emplacement_dshk_aa_mgun_stage"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_dshk_aa_mgun_stage"}
+			}
+			{"usa"
+				{entity "emplacement_m2_50cal_aa_mgun_stage"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_m2_50cal_aa_mgun_stage"}
+			}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_ds39_roof_stage_dummy"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_ds39_roof_stage_dummy"}
+			}
+			;{"spa"
+				{entity "emplacement_light_roof_stage_dummy"}
+			;}
+			{"ger"
+				{entity "emplacement_light_roof_stage_dummy"}
+			}
+			{"ger_female_soldier"
+				{entity "emplacement_light_roof_stage_dummy"}
+			}
+			{"rus"
+				{entity "emplacement_ds39_roof_stage_dummy"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_ds39_roof_stage_dummy"}
+			}
+			{"usa"
+				{entity "emplacement_ds39_roof_stage_dummy"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_ds39_roof_stage_dummy"}
+			}
+		}
+    }
+}

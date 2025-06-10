@@ -1,0 +1,27 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{obstacleID "small_building"}
+	{props "wood" "construction" "shed" "big" "no_destroyed_stamp" "burning"}
+	{extension "netting_square_roof_indestructible.mdl"}
+	{volume "body1"
+		{Tags "body" "fire"}
+		{thickness 5}
+		{able {visible 0}}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 5}
+		{able {visible 0}}
+	}
+	{volume "body3"
+		{Tags "body" "fire"}
+		{thickness 5}
+		{able {visible 0}}
+	}
+	{volume "body4"
+		{Tags "body" "fire"}
+		{thickness 5}
+		{able {visible 0}}
+	}
+	{lodclass "decor_medium"}
+}

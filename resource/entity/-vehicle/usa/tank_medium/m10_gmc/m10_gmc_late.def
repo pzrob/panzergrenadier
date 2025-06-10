@@ -1,0 +1,78 @@
+{game_entity	; aug 44
+	(include "m10_gmc.inc")
+
+	{extension "m10_gmc_late.mdl"}
+
+	{extender "inventory"
+		{weapon "mgun1" {mask "mountable"}}
+		{box
+			{item "bulletusa_76x585 apcbche" 35}	;54 rounds
+			{item "bulletusa_76x585 he" 13}
+			{item "bulletusa_76x585 sm" 3}
+			{item "bulletusa_76x585 hvap" 2}
+			{item "ammo hmgun_usa" 900}				; 9 boxes + 1 loaded
+			{item "ammo mgun_usa belt" 750}			; 4 belts (250 rounds each)
+			{item "browning_m19a4" filling "ammo mgun_usa belt" 250 {user "mgun1"}}
+			{item "satchel_charge_usa" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_m7" filling "bulletusa_76x585 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger charger2" minWorkers 1}
+			("abm_dymamic_td"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m2" filled}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun1"
+			{type "coaxial"}
+			{gunner "charger2"}
+			{charger "charger2"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{bone "gun_rot"
+		{limits -10 30}
+		{speed2 5}
+	}
+	{bone "turret"
+		{speed2 4.5} ;// manual handcrack, extremely slow
+	}
+	{bone "mgun_a_rot1"
+		{limits -45 45}
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{limits -7 55}
+		{speed2 60}
+	}
+	{bone "mgun_a1_rot1"
+		{limits -15 15}
+		{speed2 60}
+	}
+	{bone "mgun_a1_rot2"
+		{limits -10 30}
+		{speed2 60}
+	}
+}

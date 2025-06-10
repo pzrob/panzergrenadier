@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_fin_moded.inc")
+	("mortar_rounds_fin_crate_81mm")
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}
+	{Extension "fin_81mm_mortar_round_crate.mdl"}
+
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "fin_81mm_mortar_round_crate"}
+	}
+}
+

@@ -1,0 +1,4 @@
+{weapon_bullet		;// required for AT-Grenades with cumaltive damage
+	{curve "gun_std"}
+	{calibre 120}
+}

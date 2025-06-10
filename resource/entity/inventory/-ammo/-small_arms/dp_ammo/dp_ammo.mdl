@@ -1,0 +1,46 @@
+;Exported by:	 Carlos
+;Date:			 11.06.2021 13:19:49
+;File:			 T:\GoH_3D_human_export\3d_weapons\dp27\dp_ammo_export.max
+{skeleton
+	{bone "body"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{cylinder 2.75503 0.377442}
+	{bone "body"}
+	{Position -0.0109 	 -0.0153 	 0.0016}
+}
+{volume "select"
+	{cylinder 2.92551 1.03293}
+	{bone "body"}
+	{Position -0.0109 	 -0.0153 	 0.0073}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.0865 	 0 	 7.2832}
+			{lookat 0 	 0 	 -0.1151}
+			{fov 45}
+			{horizon -0.300014}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.1342 	 0.0135 	 -0.4815}
+			}
+			{"1"
+				{type point}
+				{position -31.2821 	 -1.8229 	 3.3747}
+			}
+		}
+	}
+}

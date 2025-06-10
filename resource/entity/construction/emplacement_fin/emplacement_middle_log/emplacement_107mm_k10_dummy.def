@@ -1,0 +1,5 @@
+{actor
+	;(include "/properties/emplacement_foxhole.ext")
+	{Extension "emplacement_middle_log_dummy.mdl"}
+	{props "sand" "foxhole_spawned" "normal" "no_scavenge" "trench" "vision_lev02_can"}
+}

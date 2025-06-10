@@ -1,0 +1,154 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "mortar" "tank" "halftrack" "wheeled" "with_gun" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_artillery_small" "open_death_fx_low" "artillery_minimap_light"}
+	{able "emit_passengers_on_enemy"}
+	{extension "sdkfz251c_2.mdl"}
+	(include "sdkfz251c.ext")
+	{patherId "sdkfz251"}
+	{targetclass "armoredcar"}
+	{targetSelector "cannon_howitzer"}
+
+	{boarder
+		{anm "passenger3"
+			{forward {begin "halftrack_pass_l_02_board"} {end "halftrack_pass_l_02_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger4"
+			{forward {begin "halftrack_pass_r_02_board"} {end "halftrack_pass_r_02_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "driver"
+			{forward {begin "halftrack_driver_board"} {end "halftrack_driver_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_sd232_driver"} {end "pose_mgun_251"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner"
+			{forward {begin "halftrack_pass_l_01_board"} {end "pose_mortar_gunner"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "commander"
+			{forward {begin "halftrack_pass_r_01_board"} {end "pose_mortar_commander"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner4"
+			{forward {begin "halftrack_gunner_board"} {end "halftrack_gunner_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+	}
+
+	("crew" place(driver)		bone(driver)	door(emit1)	animation(driver)		visor(driver)	off({sensor}))
+	("crew" place(gunner)		bone(gunner)	door(emit1)	animation(gunner)		visor(main)		off({sensor}))
+    ("crew" place(gunner2)		bone(gunner2)	door(emit2)	animation(gunner2)		visor(none)		off())
+	("crew" place(gunner4)		bone(gunner4)	door(emit2)	animation(gunner2)		visor(none)		off())
+	("crew" place(commander)	bone(commander) door(emit2)	animation(commander)	visor(none)		off({sensor}))
+
+	("passenger" place(seat9) bone(seat9) door(emit1)  animation(passenger9)  off())
+
+	{sensor
+		{visor "human"
+			{vision "none"}
+		}
+		{visor "around"
+			{vision "none"}
+		}
+		{visor "main"
+			{vision "cannon_mortar"}
+			{bone "visor"}
+		}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+                {weapon "mgun2" {mask "mountable"}}
+		{Box
+                        {item "repair_kit" 5}
+                        {item "mg34_belt_long" filling "ammo mgun_ger belt ap" 300 {user "mgun"}}
+			{item "mg34_drum" filling "ammo mgun_ger belt ap" 50 {user "mgun2"}} ;// doesn't work if same mg34_belt weapon is in both MG places
+			{item "ammo mgun_ger belt ap" 2010}
+			{item "mortarger_80 he" 80}
+			{item "mortarger_80 sm" 20}
+                        {item "panzerfaust_100 weapon" 5 filled}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{Barrels 1}
+			{weapon "weapon 80mm_sgrw34" filling "mortarger_80 he" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			{foresight "foresight"}
+			("abm_dymamic_mortar"
+				zeroing(3.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+        } 
+		{place "mgun"
+			{type "front"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+		{place "mgun2"
+			{type "rear"}
+			{gunner "gunner4"}
+			{charger "gunner4"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 8500}
+
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.46) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(53) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(9) ;---------------------------------Max speed in Reverse.
+			weight(8.5) ;--------------------------------Weight in Tonnes.
+			power(100) ;---------------------------------Horse Power.
+			fuel(160) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(150) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "leveler"
+		{limits -60 60}
+		{speed2 20}
+	}
+	{bone "turret"
+		{limits -30 30}
+		{speed2 20}
+	}
+	{bone "foresight"
+		{limits -25 20}
+		{speed2 10}
+	}
+	{bone "mgun_a_rot1"
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{speed2 60}
+	}
+	{bone "mgun_a2_rot1"
+		{speed2 60}
+	}
+	{bone "mgun_a2_rot2"
+		{speed2 60}
+	}
+}

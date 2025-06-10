@@ -1,0 +1,11 @@
+{game_entity
+	{extension "sandbag_spread.mdl"}
+	{obstacleID "nothing"}
+	{props "sand" "sandbag" "heap" "construction" "parts" "no_destroyed_stamp"}
+	{volume "body"
+		{Tags "body"}
+		{thickness 30}
+		{able {visible 1}}
+	}
+	{lodclass "decor_medium"}
+}

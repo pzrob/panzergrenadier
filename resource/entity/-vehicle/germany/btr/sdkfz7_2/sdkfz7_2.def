@@ -1,0 +1,62 @@
+{game_entity
+	(include "/properties/halftrack.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "td" "tank" "shell_eject" "open_top" "turret" "with_gun" "automatic" "vision_lev02" "muzzle_37mm_40mm_auto" "tractor" "tractor_heavy" "detect_tank_light" "emplacement_halftrack_trench"}
+	{extension "sdkfz7_2.mdl"}
+	(include "sdkfz7_2.ext")
+	{extension "crew.ext"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_zenite"}
+	{patherId "sdkfz7"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletger_37_auto ap" 102}		; 50 magazines (6 rounds each) 33/66 AP/HE
+			{item "bulletger_37_auto he" 186}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "37mm_flak37" filling "bulletger_37_auto he" 12}
+			("abm_dymamic_aa"
+				zeroing(1.95)
+				dispersion(0.24)
+			)
+		}
+	}
+
+	{mass 15000}
+	{Chassis "wheel"
+		("tank_trace" fx("tracks_mid") step(0.5) len(0.59) boneleft("FXtraceL2") boneright("FXtraceR2"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(40) ;----------------------------------Max speed.
+			speedatmaxturn(15) ;-------------------------Max speed at max turn.
+			reverse(25) ;--------------------------------Max speed in Reverse.
+			weight(15.0) ;-------------------------------Weight in Tonnes.
+			power(130) ;---------------------------------Horse Power.
+			fuel(203) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(110) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "gun_rot"
+		{limits -5 85}
+		;{limits -2 85}
+		{speed2 50}
+	}
+	{bone "turret"
+		;{limits -148 148}
+		{speed2 50}
+	}
+}

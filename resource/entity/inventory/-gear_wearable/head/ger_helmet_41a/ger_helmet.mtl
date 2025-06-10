@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_human/K-Ger/ger_helmet_41v"}
+	{bump "$/_human/Heer/uniforms_1943-1944/ger_helmet_bp"}
+	{specular "$/_human/K-Ger/ger_helmet_p_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

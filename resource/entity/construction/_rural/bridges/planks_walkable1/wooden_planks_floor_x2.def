@@ -1,0 +1,22 @@
+{game_entity
+    (include "/properties/construction.inc")
+	{props "small" "construction" "wood"}
+	("armor_heavy" args 0.8)
+	{ObstacleId "construction"}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+	}
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "wooden_planks_floor_x2.mdl"}
+	{volume "floor_01_body"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1}{obstacle 0}{contact 0}}
+	}
+	{volume "floor_02_body"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1}{obstacle 0}{contact 0}}
+	}
+}

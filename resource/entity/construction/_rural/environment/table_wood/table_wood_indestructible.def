@@ -1,0 +1,33 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "table_wood.mdl"}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}}
+	}
+	{Volume "body3"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}}
+	}
+	{Volume "body5"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}}
+	}
+	{Volume "body"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}}
+	}
+	{lodclass "decor_medium"}
+}

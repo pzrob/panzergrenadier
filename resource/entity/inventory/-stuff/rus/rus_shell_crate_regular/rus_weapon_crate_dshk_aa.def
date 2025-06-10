@@ -1,0 +1,20 @@
+{game_entity
+	(include "/properties/construction.inc")
+	;(include "/properties/stuff.ext")
+	{obstacleID "unbreakable"}
+	{collider "nothing"}
+	(include "/properties/resupply_rus_moded.inc")
+	("veshmeshok_basic_mg_rus")
+	{props "-steel" "-wood" "fence" "construction"}
+	{extension "rus_weapon_crate_dshk_aa.mdl"}
+
+	{volume "body"
+		{thickness 200}
+		;{able {touch}}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+}

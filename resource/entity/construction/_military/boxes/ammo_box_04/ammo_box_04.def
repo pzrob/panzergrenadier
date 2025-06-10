@@ -1,0 +1,24 @@
+;// TOC
+{game_entity
+	(include "/properties/construction.inc")
+	{props "inventory_box" "spread_items" "shed" "small" "wood" "burning" "break_on_burn"}
+	{ObstacleID "stuff"}
+	
+	{extension "ammo_box_04.mdl"}
+	
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 10 6}
+			{item "panzerfaust_100 weapon" 2 filled}
+		}
+	}
+	
+	{volume "body"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{lodclass "decor_medium"}
+}

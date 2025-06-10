@@ -1,0 +1,12 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke smoke_size3"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "107mm_usa_mortar_sm"}
+	{view "107mm_usa_mortar_sm"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 11.38}
+
+}

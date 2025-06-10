@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+    ;(include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{Extension "at_bunker_large.mdl"}
+	{Volume "at_bunker_large_floor_vol1"
+		{Tags  "body"}
+		{Thickness 300}
+		{able {visible 1}{contact 1}{obstacle 0}}
+	}
+}

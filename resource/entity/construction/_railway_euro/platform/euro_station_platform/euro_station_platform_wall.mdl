@@ -1,0 +1,225 @@
+;Exported by:	 marc-
+;Date:			 06.05.2024 15:23:38
+;File:			 T:\Programs\GoH_3d_environment_west\3d_environment\train_platforms\export.max
+{skeleton
+	{bone "basic"
+		{orientation
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		}
+		{bone "basic_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				15	 0 	 0
+			}
+			{bone "wall_block_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1   0
+					0	 0 	 1
+					0	 0 	 0
+				}
+				{bone "wall_block_base"
+					{matrix34
+						0.45  0 	 0
+						0 	  1     0
+						0	  0 	 1
+						14.9	 0 	 16.2
+					}
+					{bone "wall_block_front_top"
+						{matrix34
+							0  	0 	 0.3
+							0 	 -1  0
+							1 	0   0
+							0	 0 	 40.3
+						}
+						{bone "wall_block_front_top_ply"
+							{matrix34
+								1 	 0 	 0
+								0 	 -1  0
+								0 	 0   1
+								0 	 0	 8.85
+							}
+							{VolumeView "body.ply"}
+						}
+						{bone "wall_block_front_top_ply"
+							{matrix34
+								1 	 0 	 0
+								0 	 1   0
+								0 	 0   -1
+								0 	0	-8.85;y x  z 
+							}
+							{VolumeView "body.ply"}
+						}
+					}
+					{bone "wall_block_front_base"
+						{matrix34
+							0 	 0 	 1
+							0 	 -1   0
+							1 	 0   0
+							0 	 0 	 0
+						}
+						{bone "wall_block_front_base_front_ply"
+							{matrix34
+								1 	 0 	 0
+								0 	 -1  0
+								0 	 0   1
+								0 	 0	 8.85
+							}
+							{VolumeView "body.ply"}
+						}
+						{bone "wall_block_front_base_rear_ply"
+							{matrix34
+								1 	 0 	 0
+								0 	 1   0
+								0 	 0   -1
+								0 	0	-8.85;y x  z 
+							}
+							{VolumeView "body.ply"}
+						}
+					}
+					{bone "wall_block_front_side_stage"
+						{matrix34
+							1 	 0 	 0
+							0 	 0.145   0
+							0 	 0   0.13
+							-0.2	 0 	29.5   
+						}
+						{bone "wall_block_front_left"
+							{matrix34
+								0 	 0 	 1
+								0 	 -1   0
+								1 	 0   0
+								0 	 297.0 	0   ;y x z
+							}
+							{bone "wall_block_front_left_ply"
+								{matrix34
+									1 	 0 	 0
+									0 	 -1  0
+									0 	 0   1
+									0 	 0	 8.85
+								}
+								{VolumeView "body.ply"}
+							}
+							{bone "wall_block_front_left_ply"
+								{matrix34
+									1 	 0 	 0
+									0 	 1   0
+									0 	 0   -1
+									0 	0	-8.85;y x  z 
+								}
+								{VolumeView "body.ply"}
+							}
+						}
+						{bone "wall_block_front_right"
+							{matrix34
+								0 	 0 	 1
+								0 	 -1   0
+								1 	 0   0
+								0 	 -297.0  	0   ;y x z
+							}
+							{bone "wall_block_front_right_ply"
+								{matrix34
+									1 	 0 	 0
+									0 	 -1  0
+									0 	 0   1
+									0 	 0	 8.85
+								}
+								{VolumeView "body.ply"}
+							}
+							{bone "wall_block_front_right_ply"
+								{matrix34
+									1 	 0 	 0
+									0 	 1   0
+									0 	 0   -1
+									0 	0	-8.85;y x  z 
+								}
+								{VolumeView "body.ply"}
+							}
+						}
+					}
+				}
+				{bone "ramp"
+					{matrix34
+						1 	 0 	 0
+						0 	 -1 	 0
+						0 	 0 	 1
+						-14.9 	 1.1 	 0
+					}
+					{bone "ramp_body"
+						{Position -2.9401 	 1.1053 	 8.8744}
+						{parameters "land;rotate;"}
+						{VolumeView "ramp.ply"}
+					}
+				}
+				{bone "windows_stage"
+					{matrix34
+						1 	 0 	 0
+						0 	 1   0
+						0	 0 	 1
+						3	 0 	 51
+					}
+					{bone "windows_size_stage"
+						{matrix34
+							0.4 	 0 	 0
+							0 	 0.795   0
+							0	 0 	 0.4
+							0	 0 	 0
+						}
+						{bone "windows_01"
+							{matrix34
+								0 	 0 	 -1
+								1	 0   0
+								0	 1	 0
+								0	 -22.5	 0
+							}
+						}
+						{bone "windows_02"
+							{matrix34
+								0 	 0 	 -1
+								1	 0   0
+								0	 1	 0
+								0	 22.5 	 0
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+{volume "wall_block_front_top"
+	{box 52.5 101 33.0} ;y x z
+	{bone "wall_block_front_top"}
+	{Position 0.5 	 0 	 0.0}
+}
+{volume "wall_block_front_base"
+	{box 52.5 101 33.0} ;y x z
+	{bone "wall_block_front_base"}
+	{Position 0.5 	 0 	 0.0}
+}
+{volume "wall_block_front_left"
+	{box 52.5 101 33.0} ;y x z
+	{bone "wall_block_front_left"}
+	{Position 0.5 	 0 	 0.0}
+}
+{volume "wall_block_front_right"
+	{box 52.5 101 33.0} ;y x z
+	{bone "wall_block_front_right"}
+	{Position 0.5 	 0 	 0.0}
+}
+{##obstacle "wall_front"
+	{obb2
+		{center 15 0}
+		{extent 7 52}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}

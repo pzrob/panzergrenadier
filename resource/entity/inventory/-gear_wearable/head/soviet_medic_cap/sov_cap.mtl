@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_human/K-Sov/sov_cap_medic"}
+	{bump "$/_human/Soviet/sov_cap_bp"}
+	{specular "$/_human/Soviet/sov_cap_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

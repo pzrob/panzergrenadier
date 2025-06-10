@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_trench_roof_sandbag_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "roof_sandbag_stage"}
+	("armor_heavy")
+	{placer
+		{place "sandbag_pile_01"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_02"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_03"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_03"}
+			{handlebone "body"}
+		}
+	}
+}

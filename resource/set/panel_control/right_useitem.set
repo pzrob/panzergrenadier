@@ -1,0 +1,71 @@
+;SDL
+
+; {position column row}
+
+;-----------------------------------------------------------------------------------------------------------------------;
+; conditions																											;
+;-----------------------------------------------------------------------------------------------------------------------;
+; "vehicle" "tank" "cannon" "tractor" "human"	:	show this control based on actors properties						;
+; "single"										:	show this control only if a single actor is selected				;
+; "multiple"									:	show this control only if multiple actors (squad) is selected		;
+; "commander"									:	show this control only if the selected actor is a squad commander	;
+; "disabled"									:	show this control even if it is disabled							;
+;-----------------------------------------------------------------------------------------------------------------------;
+
+;// this menu only exists for humans
+
+{panel_control 
+
+; // first row-------------------------
+
+	{heal
+		{position 0 0}
+		{condition "human disabled"}
+	}
+	{mine_detection
+		{position 1 0}
+		{condition "human disabled"}
+	}
+	{repair
+		{position 2 0}
+		{condition "disabled"}
+	}
+	{burn
+		{position 3 0}
+		{condition "human disabled"}
+	}
+
+; // second row-------------------------
+
+	{mine_ap
+		{position 0 1}
+		{condition "human disabled"}
+	}
+	{mine_at
+		{position 1 1}
+		{condition "human disabled"}
+	}
+	{wirecutter
+		{position 2 1}
+		{condition "human disabled"}
+	}
+	{put_dynamite
+		{position 3 1}
+		{condition "human disabled"}
+	}
+
+; // third row-------------------------
+
+	{collect
+		{position 0 2}
+		{condition "human disabled"}
+	}
+	{drop
+		{position 1 2}
+		{condition "human disabled"}
+	}
+	; // empty {position 2 2} 
+	{gc_cp_browse_back
+		{position 3 2}
+	}
+}

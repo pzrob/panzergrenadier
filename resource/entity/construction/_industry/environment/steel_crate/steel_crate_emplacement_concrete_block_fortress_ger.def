@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "steel" "remove_on_land_patch" "-construction"}
+	{obstacleid "unbreakable"}
+	{collider "nothing"}
+	{Extension "steel_crate.mdl"}
+	{Volume "body"
+		{Tags "body"}
+		{thickness 20}
+		{able {visible 1}}
+	}
+
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 30}
+			{entity "steel_crate_emplacement_concrete_block_fortress_ger_build_stage_dummy"}
+		}
+	}
+}

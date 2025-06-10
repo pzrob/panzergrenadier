@@ -1,0 +1,60 @@
+;Exported by:	 Carlos
+;Date:			 03.01.2021 16:22:58
+;File:			 T:\GoH_3D_human_export\3d_weapons\shotgun\shotgun_ammo_export.max
+{skeleton
+	{bone "shells"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "shells.ply"}
+			{VolumeView "shells_lod1.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 2.27526 1.70336 0.715437}
+	{bone "shells"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		0.0737 	 -0.022 	 0.4169
+	}
+}
+{volume "select"
+	{box 2.71219 2.10481 1.41976}
+	{bone "shells"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		0.0758 	 -0.1193 	 0.6521
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -1.5041 	 4.9103 	 2.7742}
+			{lookat 0.1422 	 -0.1199 	 0.4789}
+			{fov 40.4959}
+			{horizon -5.56056}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -21.4202 	 3.1869 	 5.6468}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0162 	 -0.0396 	 -0.4982}
+			}
+			{"2"
+				{type point}
+				{position -7.8141 	 8.2262 	 -0.0266}
+			}
+		}
+	}
+}

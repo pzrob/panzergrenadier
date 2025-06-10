@@ -1,0 +1,14 @@
+{from "mg13_no_bipod"		; "panzer1b"
+	{filling "mgun_ger mg13" 250}
+	{fireSoundclose "smallarms/s3/int/GER/MG13/"}
+	{reloadSound "interior/small/mg34_reload_interior"}
+	{mass 26.6}
+	("fire rate" rpm(1100))
+	("reload time" seconds(6))
+
+	("burst_medium")
+	("spreading_mounted")
+
+	("penetration" args 22 10 5 3 0) ;// SmK(H)
+	("armor health" damage(25))
+}

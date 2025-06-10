@@ -1,0 +1,60 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "inventory_box" "spread_items" "big" "-wood"}  
+	{extension "ammo_boxes_02.mdl"}
+	("armor_heavy" args 0.8)
+	{placer
+		{place "seat" {attach} {pose "halftrack_pass_r_04_board_seat"} {linkbone "seat"}}
+		;{place "seat" {attach} {pose "halftrack_pass_r_04_board_seat"} {linkbone "seat02"}}
+		;{place "seat" {attach} {pose "halftrack_pass_r_04_board_seat"} {linkbone "seat02"}}
+		;{place "seat" {attach} {pose "pose_sit_chair"} {linkbone "seat"}}
+	}
+	{boarder
+		{door "emit"}
+		{link "emit" "seat" {forward putoff}}
+		;{link "emit02" "seat02" {forward putoff}}
+	}
+	;{extender "inventory"
+		;{box
+			;{weight 500000}
+			;{size 20 20}
+		;}
+	;}
+	{volume "body1"
+		{Tags "body" "fire" "seat" "attach"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body3"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body4"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body5"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{volume "body6"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+		{able {touch}}
+	}
+	{lodclass "decor_medium"}
+}

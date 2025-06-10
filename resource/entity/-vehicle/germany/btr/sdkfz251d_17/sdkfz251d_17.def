@@ -1,0 +1,135 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "halftrack" "wheeled" "multi_board" "with_gun" "muzzle_20mm_25mm_auto" "automatic" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low" "open_top" "emplacement_halftrack_trench_low"}
+	{able "emit_passangers_on_enemy"}
+	{extension "sdkfz251d_17.mdl"}
+	(include "sdkfz251d_17.ext")
+	{patherId "sdkfz251"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_zenite"}
+
+	{extender "enumerator"
+		{digit_folder "np"}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "halftrack_driver_board"} {end "halftrack_driver_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger1"
+			{forward {begin "halftrack_commander_board"} {end "halftrack_commander_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger2"
+			{forward {begin "halftrack_pass_l_03_board"} {end "halftrack_pass_l_03_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger3"
+			{forward {begin "halftrack_pass_r_03_board"} {end "halftrack_pass_r_03_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger4"
+			{forward {begin "halftrack_pass_l_04_board"} {end "halftrack_pass_l_04_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger5"
+			{forward {begin "halftrack_pass_r_04_board"} {end "halftrack_pass_r_04_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner"
+			{forward {begin "board_sd232_driver"} {end "seat_251_17_gunner"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner4"
+			{forward {begin "board_sd232_driver"} {end "pose_mgun_251"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "charger"
+			{forward {begin "board_sd232_driver"} {end "seat_251_21_charger"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+	}
+
+	("crew" place(driver)		bone(driver)	door(emit1)		animation(driver)		visor(driver)	off({sensor}))
+	("crew" place(gunner)		bone(gunner)	door(emit1)		animation(gunner)		visor(none)		off())
+;	("crew" place(gunner4)		bone(gunner4)	door(emit2)		animation(gunner4)		visor(none)		off())
+	("crew" place(charger)		bone(charger)	door(emit1)		animation(charger)		visor(none)		off())
+
+	("passenger" place(seat1) bone(seat1) door(emit1)  animation(passenger1)  off({sensor}))
+	("passenger" place(seat2) bone(seat2) door(emit2)  animation(passenger2)  off())
+	("passenger" place(seat3) bone(seat3) door(emit1)  animation(passenger3)  off())
+	("passenger" place(seat4) bone(seat4) door(emit2)  animation(passenger4)  off())
+	("passenger" place(seat5) bone(seat5) door(emit1)  animation(passenger5)  off())
+
+	{sensor
+		{visor "human"
+			{vision "none"}
+		}
+		{visor "around"
+			{vision "none"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletger_20_auto ap" 300}		; 600 rds total
+			{item "bulletger_20_auto he" 300}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "20mm_kwk38" filling "bulletger_20_auto ap" 10}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_autocannon"
+				zeroing(2)
+				dispersion(0.15)
+			)
+		}
+		{##place "mgun2"
+			{type "rear"}
+			{gunner "gunner4"}
+			{charger "gunner4"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 8800}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.49) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(53) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(9) ;---------------------------------Max speed in Reverse.
+			weight(8.8) ;--------------------------------Weight in Tonnes.
+			power(100) ;---------------------------------Horse Power.
+			fuel(160) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(150) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "gun_rot"
+		{limits -10 60}
+		{speed2 20}
+	}
+	{bone "turret"
+		{speed2 25}
+	}
+	{bone "mgun_a2_rot1"
+		{speed2 60}
+	}
+	{bone "mgun_a2_rot2"
+		{speed2 60}
+	}
+}

@@ -1,0 +1,17 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "watch_tower_mgun_stage.mdl"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "maxim_stand_dummy"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "crate4_indestructible"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_euro/street_signs"}
+	{bump "$/_euro/street_signs_bp"}
+	{specular "$/_euro/street_signs_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

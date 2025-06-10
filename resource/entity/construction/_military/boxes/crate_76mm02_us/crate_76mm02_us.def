@@ -1,0 +1,51 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "inventory_box" "spread_items" "big" "-wood"}  
+	("armor_heavy" args 0.8)
+	{ObstacleId "construction"}
+
+	{mass 150}
+
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 6 6}
+		}
+	}
+	{lodclass "decor_medium"}
+	{extension "crate_76mm02.mdl"}
+	{volume "body01"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+	}
+	{volume "body02"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+	}
+	{volume "body03"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+	}
+	{placer
+		;{place "shell_01"
+			;{entity "76x585mm_usa_apc"}
+			;{Linkbone "shell_01"}
+			;{handlebone "body"}
+		;}
+		;{place "shell_02"
+			;{entity "76x585mm_usa_apc"}
+			;{Linkbone "shell_02"}
+			;{handlebone "body"}
+		;}
+		;{place "shell_03"
+			;{entity "76x585mm_usa_apc"}
+			;{Linkbone "shell_03"}
+			;{handlebone "body"}
+		;}
+		;{place "shell_04"
+			;{entity "76x585mm_usa_apc"}
+			;{Linkbone "shell_04"}
+			;{handlebone "body"}
+		;}
+	}
+}

@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "$/_shell/130_380mm_shells"}
+	{bump "$/_shell/130_380mm_shells_bp"}
+	{specular "$/_shell/130_380mm_shells_sp"}
+	{color "255 255 255 255"}
+	{blend none}	
+	{full_specular}
+	{gloss_scale 0.9}
+	{specular_intensity 1}
+}

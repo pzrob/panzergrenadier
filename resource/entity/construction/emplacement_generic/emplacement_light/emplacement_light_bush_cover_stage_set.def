@@ -1,0 +1,28 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_light_bush_cover_stage_set.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "bush_00"
+			{entity "bush_generic_4"}
+			{Linkbone "bush_00"}
+			{handlebone "body"}
+		}
+		{place "bush_01"
+			{entity "bush_generic_4"}
+			{Linkbone "bush_01"}
+			{handlebone "body"}
+		}
+		{place "bush_02"
+			{entity "bush_generic_4"}
+			{Linkbone "bush_02"}
+			{handlebone "body"}
+		}
+		;{place "table_01"
+			;{entity "crate4_indestructible"}
+			;{Linkbone "table_01"}
+			;{handlebone "body"}
+		;}
+	}
+}

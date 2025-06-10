@@ -1,0 +1,13 @@
+{
+	(include "longtom.inc")
+
+	{extender "inventory"
+		{box
+			{item "bullet_155 usa he" 10}
+			{item "bullet_155 usa wp" 3}
+			{item "bullet_155 usa aphebc" 3}
+			{item "sandbag_vehicle" 1}
+		}
+	}
+}
+

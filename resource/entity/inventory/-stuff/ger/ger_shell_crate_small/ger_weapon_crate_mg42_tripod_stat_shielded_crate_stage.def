@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "ger_weapon_crate_mg42_tripod_stat_shielded_crate_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "weapon_crate"}
+	("armor_heavy")
+	{placer
+		{place "crate"
+			{entity "ger_weapon_crate_mg42_tripod_stat_shielded_dummy"}
+			{Linkbone "crate"}
+			{handlebone "body"}
+		}
+	}
+}

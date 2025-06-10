@@ -1,0 +1,91 @@
+;Exported by:	 guita
+;Date:			 26.03.2022 19:56:59
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\block2_factory\factory_halls\factory_halls_parts.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 -0.3	 0
+		}
+	{bone "door_open"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "door1.ply"}
+	}
+	{bone "door_lock"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			13 	 0 	 0
+		}
+		{VolumeView "door2.ply"}
+	}
+	}
+}
+{obstacle "left"
+	{obb2
+		{center -11.32089 22.6313}
+		;{center 1.67911 22.9313}
+		{extent 15.1938 1.14984}
+		{axis 0.874744 0.484585}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "right"
+	{obb2
+		{center -13.889677 -25.2158}
+		;{center -0.889677 -24.9158}
+		{extent 1.13012 15.1924}
+		{axis 0.375164 0.926958}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "door_l"
+	{box 30.381 58.2162 2.20644}
+	{bone "door_open"}
+	{matrix34
+		-0.8733 	 0.4873 	 0
+		0 	 0 	 1
+		0.4873 	 0.8733 	 0
+		1.6791 	 -22.9313 	 28.9717
+	}
+}
+{volume "door_r"
+	{box 30.381 58.2162 2.20644}
+	{bone "door_open"}
+	{matrix34
+		0.9276 	 0.3735 	 0
+		0 	 0 	 1
+		0.3735 	 -0.9276 	 0
+		-0.8897 	 24.9158 	 28.9717
+	}
+}
+
+{obstacle "close"
+	{obb2
+		{center -0.344421 -0.450238}
+		;{center -0.344421 -0.150238}
+		{extent 1.34712 30.2429}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "door_lock"
+	{box 2.69424 60.4857 57.6567}
+	{bone "door_lock"}
+	{Position -0.3444 	 0.1502 	 28.8284}
+}
+{volume "switch"
+	{box 2.69424 60.4857 57.6567}
+	{bone "door_lock"}
+	{Position -0.3444 	 0.1502 	 28.8284}
+}

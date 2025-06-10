@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "minedetector"}
+	{specular "minedetector sp"}
+	{color "229 229 229 25"}
+	{blend blend}
+}

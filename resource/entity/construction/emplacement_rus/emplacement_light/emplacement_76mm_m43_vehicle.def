@@ -1,0 +1,47 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{Extension "emplacement_light_at_vehicle.mdl"}
+	{props "sand" "foxhole_spawned" "normal" "no_scavenge" "trench" "vision_lev02_can"}
+	{collider "nothing"}
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+	{placer
+		{place "cannon"
+			{entity "76mm_m43_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "floor_01"
+			{entity "planks_walkable_01_indestructible"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "floor_02"
+			{entity "planks_walkable_01_indestructible"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_00"
+			{entity "sandbag_framed_straight_indestructible"}
+			{Linkbone "side_sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_01"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "side_sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_02"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "side_sandbag_02"}
+			{handlebone "body"}
+		}
+	}
+}

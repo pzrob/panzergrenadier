@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/construction.inc")
+	{props "sand" "sandbag" "construction"  "onestage" "jettison_sandbags4"}
+	{extension "sandbag_heap_pile_roof.mdl"}
+
+	{volume "exterior01"
+		{Tags "roof"}
+		{thickness 240}
+		{able {visible 0}{obstacle 0}{contact 1}}
+		{material "sand"}
+	}
+	{lodclass "decor_medium"}
+}

@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "cornered" "concrete" "parts" "construction" "wall" "red_destroyed_stamp" "slow_on_crush"}
+	{Extension "fence_industrial_02_column.mdl"}
+	{obstacleID "small_building"}
+	("armor_use_volume_thickness")
+	{Volume "body"
+		{Tags "body"}
+		{thickness 40}
+	}
+	{lodclass "decor_medium"}
+}

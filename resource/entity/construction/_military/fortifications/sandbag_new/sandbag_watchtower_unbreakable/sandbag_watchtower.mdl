@@ -1,0 +1,92 @@
+;Exported by:	 Carlos
+;Date:			 05.03.2021 20:13:02
+;File:			 T:\GoH_3D_environment_export\3d_environment\_military\fortifications\sandbags_new\watchtower_sandbags.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position -0.9679 	 -3.3309 	 -2.2466}
+			{VolumeView "body.ply"}
+			{bone "fx_sandbag1"
+				{matrix34
+					0.998 	 0.0629 	 0
+					-0.0629 	 0.998 	 0
+					0 	 0 	 1
+					-22.7729 	 -24.6729 	 -0.8445
+				}
+			}
+			{bone "fx_sandbag2"
+				{Position 1.5691 	 1.5196 	 0}
+			}
+			{bone "fx_sandbag3"
+				{matrix34
+					0.0766 	 0.9971 	 0
+					-0.9971 	 0.0766 	 0
+					0 	 0 	 1
+					-21.9789 	 24.5693 	 -0.8445
+				}
+			}
+		}
+	}
+}
+{obstacle "body1"
+	{obb2
+		{center 1.21589 3.30819}
+		{extent 4.97632 28.7883}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body2"
+	{obb2
+		{center -26.0577 28.1617}
+		{extent 22.3165 4.97631}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body3"
+	{obb2
+		{center -26.0577 -21.2797}
+		{extent 22.3165 4.97631}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body1"
+	{box 57.5766 20.5022 9.95262}
+	{bone "body"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 1
+		1 	 0 	 0
+		2.1838 	 0.0227 	 10.1833
+	}
+}
+{volume "body2"
+	{box 44.633 20.5022 9.95262}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-25.0898 	 -24.8308 	 10.1833
+	}
+}
+{volume "body3"
+	{box 44.633 20.5022 9.95262}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-25.0898 	 24.6106 	 10.1833
+	}
+}

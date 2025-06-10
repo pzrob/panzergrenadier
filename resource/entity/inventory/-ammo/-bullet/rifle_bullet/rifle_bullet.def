@@ -1,0 +1,7 @@
+{game_entity
+	{lodclass "stuff_small"}
+	{Extension "rifle_bullet.mdl"}
+	{props "steel" "stuff"}
+	{constrain none}
+	{fogable never}
+}

@@ -1,0 +1,138 @@
+;SDL
+actor
+(include "cannon_crew.ext")
+(include "mobility.inc")
+{tag "emplacement"}
+{mass 100000}
+
+{Volume "body"
+	{thickness 500}
+	{component "body"}
+}
+;(include "selection/cannon.inc" scale(1.0))
+
+;====================(include "vehicle.ext")=============================
+
+{PatherID  "vehicle.large"}
+{obstacleID "tank"}
+{Simulation {able 1}}
+{props "vehicle" "obstacle_ignore_height" "emit_on_sink"}
+{able "emit_passangers_on_enemy" "repaired" "minimap" "ally_crew"}
+{lodclass "vehicle"}
+{collider "vehicle"}
+{NoGroupMesh 1}
+{sensor
+	{Visor "hearing"
+		{vision "noise_detection"}
+		{bone "hearing_bone"}
+	}
+	{RecognizeTime 0.01}
+	{InformRange 50 75}		;// first = AI , second = USER
+}
+
+{Weaponry
+	{ManualAccuracy 1.00}
+	{ManualAccuracyZoom 1.25}
+}
+
+{RimLight}
+
+{extender "inventory"
+	{weapon "mgun"
+		{mask "mountable"}
+	}
+	{box
+		{Size 9 15}
+	}
+}
+{boarder}
+{placer {crew}}
+
+
+;=================================================
+
+
+(define "brain_vehicle"
+	{brain "vehicle"
+		{state "vehicle"}
+		{const "crush/min_danger_zone_time" 	1}
+		{const "crush/min_danger_zone_length"	1}
+	}
+)
+
+
+("brain_vehicle")
+
+;========================================================
+
+
+(define "make_component"
+	{volume %0
+		{component %1}
+		{tags %1}
+	}
+)
+
+
+
+(define "body"
+	("make_component" args "body" "body")
+	("make_component" args "body1" "body")
+	("make_component" args "body2" "body")
+	("make_component" args "body3" "body")
+	("make_component" args "body4" "body")
+	("make_component" args "body5" "body")
+	("make_component" args "body6" "body")
+	("make_component" args "body7" "body")
+	("make_component" args "body8" "body")
+	("make_component" args "body9" "body")
+	("make_component" args "body10" "body")
+	("make_component" args "body11" "body")
+	("make_component" args "body12" "body")
+	("make_component" args "body13" "body")
+	("make_component" args "body14" "body")
+	("make_component" args "body15" "body")
+	("make_component" args "body16" "body")
+	("make_component" args "body17" "body")
+	("make_component" args "body18" "body")
+	("make_component" args "body19" "body")
+	("make_component" args "body20" "body")
+
+	("make_component" args "standc" "body")
+	("make_component" args "standl" "body")
+	("make_component" args "standl1" "body")
+	("make_component" args "standl2" "body")
+	("make_component" args "standr" "body")
+	("make_component" args "standr1" "body")
+	("make_component" args "standr2" "body")
+
+	{component "body"
+		{RepairTime %repair}
+		{RepairOrder 0}
+	}
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+(define "emplacement_texmod"
+    {on spawn
+			{if terrain_fx "ice"
+				{tex_mod "win"}
+			else terrain_fx "snow"
+				{tex_mod "win"}
+			else
+				; do nothing
+			}
+	}
+)
+    ("emplacement_texmod")

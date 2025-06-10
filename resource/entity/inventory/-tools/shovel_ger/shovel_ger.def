@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "kleines_schanzzeug.mdl"}
+	{extender "stuff"
+		{item "shovel_ger"}
+	}
+	{Volume "body"
+		{thickness 1}
+	}
+	{Volume "select"
+	}
+}

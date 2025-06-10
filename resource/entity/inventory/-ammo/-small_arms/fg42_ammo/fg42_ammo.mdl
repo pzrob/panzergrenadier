@@ -1,0 +1,58 @@
+;Exported by:	 Carlos
+;Date:			 11.06.2021 13:58:36
+;File:			 T:\GoH_3D_human_export\3d_weapons\fg42\fg42_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+			{VolumeView "magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 1.84023 2.86379 0.506669}
+	{bone "magazine"}
+	{matrix34
+		0.9925 	 -0.1219 	 0
+		0.1219 	 0.9925 	 0
+		0 	 0 	 1
+		0.0044 	 0.0011 	 0.0079
+	}
+}
+{volume "select"
+	{box 2.55997 3.7158 1.23055}
+	{bone "magazine"}
+	{matrix34
+		0.9962 	 -0.0872 	 0
+		0.0872 	 0.9962 	 0
+		0 	 0 	 1
+		0.0488 	 0.0511 	 0.0164
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 1.042 	 -14.4967 	 44.3578}
+			{lookat 0.0386 	 -0.85 	 2.5421}
+			{fov 2.94934}
+			{horizon -176.649}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.1662 	 0.0375 	 -0.4701}
+			}
+			{"1"
+				{type point}
+				{position -0.0553 	 -17.7467 	 0.8133}
+			}
+		}
+	}
+}

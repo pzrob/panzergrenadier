@@ -1,0 +1,12 @@
+{game_entity
+	(include "m2_halftrack.inc")
+
+	{extender "inventory"
+		{Box
+		    {item "sandbag_vehicle" 1}
+			{Size 9 11}
+			{item "bazooka_m1a1" filling "bazooka heata" 1}
+			{item "bazooka heata" 4}
+		}
+	}
+}

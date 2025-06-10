@@ -1,0 +1,15 @@
+{from "pattern mgun_light"
+	{filling "ammo m26" 75}
+	{entity "lahti_m26"}
+	{fireSound "smallarms/s3/d1/FIN/LS26/"}
+	{fireSoundclose "smallarms/s3/3p/FIN/LS26/"}
+	{reloadSound "mg34"}
+	{calibre 7.62}
+	{mass 9.3}
+
+	("fire rate" rpm(550))
+	("velocity" mps(800))
+
+	("burst_short")
+	("spreading_low")
+}

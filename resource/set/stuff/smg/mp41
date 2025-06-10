@@ -1,0 +1,17 @@
+{from "pattern smg"
+	{tag "pistol_shell"}
+	{filling "ammo mp40" 32}
+	{entity "mp41"}
+	{fireSound "smallarms/s1/d1/GER/MP40/"}
+	{fireSoundclose "smallarms/s1/3p/GER/MP40/"}
+	{reloadSound "mp40"}
+	{calibre 9}
+	{mass 4}
+
+	("fire rate" rpm(500))
+	("velocity" mps(400))
+	("spreading_low")
+	("burst_short")
+	("recoil_smg_low")
+	("stick_reload")
+}

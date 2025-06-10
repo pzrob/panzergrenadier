@@ -1,0 +1,18 @@
+{from "pattern rpg_wp_ammo"
+	{entity "recoilless_wp_ammo"}
+	{view "recoilless_wp_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2.4}
+
+	{damage fire
+		{radius 1.35}
+		{heating 10}
+		{time 0.5}
+	}
+	{damage blastwave
+		{energy 1}
+		{area 1.71 2.85}
+		{ground_interaction_radius 0.2}		;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

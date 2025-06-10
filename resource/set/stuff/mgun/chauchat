@@ -1,0 +1,16 @@
+{from "pattern mgun_light"
+	{filling "ammo chauchat" 18}
+	{entity "chauchat"}
+	{fireSound "smallarms/s3/d1/Shared/MAC1931/"}
+	{fireSoundclose "smallarms/s3/3p/Shared/MAC1931/"}
+	{reloadSound "mg34"}
+	{calibre 8}
+	{mass 9.3}
+
+	("fire rate" rpm(240))
+	("velocity" mps(630))
+
+	("burst_short")
+	("spreading_mounted_low")
+	("reload time" seconds(4))
+}

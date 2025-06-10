@@ -1,0 +1,66 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+	{Extension "emplacement_ground_floor_25mm_72k.mdl"}
+	{Volume "floor0"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor1"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor2"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor3"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor4"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor5"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{lodclass "decor_medium"}
+    {placer
+		{place "sandbag_framed_straight_00"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_framed_straight_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_01"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_framed_straight_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_02"
+			{entity "sandbag_framed_straight_270_indestructible"}
+			{Linkbone "sandbag_framed_straight_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_03"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_framed_straight_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_straight_04"
+			{entity "sandbag_framed_straight_270_indestructible"}
+			{Linkbone "sandbag_framed_straight_04"}
+			{handlebone "body"}
+		}
+	}
+}

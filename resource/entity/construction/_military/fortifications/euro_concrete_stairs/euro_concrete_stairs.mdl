@@ -1,0 +1,27 @@
+;Exported by:	 marc-
+;Date:			 05.04.2023 03:05:40
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_environment\concrete walls\concrete_walls.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position 38.7459 	 -0.9108 	 0}
+			{VolumeView "body.ply"}
+		}
+		{bone "land"
+			{parameters "land;rotate;"}
+			{matrix34
+				0.8732 	 0 	 -0.4874
+				0 	 1 	 0
+				0.4874 	 0 	 0.8732
+				1.5463 	 -1.4463 	 25.2811
+			}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+	}
+}

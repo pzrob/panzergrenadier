@@ -1,0 +1,172 @@
+;Exported by:	 carlos
+;Date:			 19.11.2023 20:21:22
+;File:			 F:\GoH_3d_environment_west2\3d_environment\wounded stretcher\stretcher_export.max
+{skeleton
+	{animation
+		{sequence "close" {speed 1}}
+	}
+	{bone "basic"
+		{orientation
+				1 	 0   0
+				0 	 1   0
+				0 	 0 	 1
+		}
+		{bone revolute "basis"
+			{parameters "wheelradius=0.49;"}
+			{orientation
+				1	 0 	 0
+				0 	 -1  0
+				0 	 0 	 1
+			}
+			{bone "body"
+				{Position 0 	 0 	 1.2967}
+				{VolumeView "body.ply"}
+				{bone "shield"
+					{parameters "id=body;"}
+					{matrix34
+						1.1 	 0 	 0.05
+						0 	 1.1 	 0
+						0.05  0 	 1.03
+					  8.7 	 0.7 	 7.8} ;z 
+					{VolumeView "shield.ply"}
+				}
+				{bone "seat"
+					{matrix34
+						1 	 0   0
+						0	 1 	 0
+						0 	 0 	 1
+						0	 0 	 -18
+					}
+				}
+				{bone "dead"
+					{matrix34
+						-0.7 	 -0.75   0
+						0.75	 -0.7 	 0
+						0 	 0 	 1
+						0	 0 	 0
+					}
+				}
+				{bone "wounded"
+					{matrix34
+						-1 	 0   0
+						0	 -1 	 0
+						0 	 0 	 1
+						0	 2 	 1
+					}
+				}
+			}
+			{bone "emit2"
+				{Position -31.1602 	 0.302 	 0}
+			}
+			{bone "emit1"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					33.6548 	 1.0451 	 0
+				}
+			}
+			{bone "emit"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					33.6548 	 1.0451 	 0
+				}
+			}
+			{bone "visor2"
+				{Position -13.1707 	 -2.0956 	 18.0651}
+			}
+			{bone "commander"
+				{Position -22.2451 	 -0.1542 	 -0.65}
+			}
+			{bone "gunner"
+				{matrix34
+					-0.9994 	 -0.0346 	 0
+					0.0346 	 -0.9994 	 0
+					0 	 0 	 1
+					27.2446 	 0.4752 	 0.0407
+				}
+			}
+			{bone "driver1"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					24.2584 	 0.2901 	 0.0407
+				}
+			}
+			{bone "driver2"
+				{Position -19.7594 	 -0.2123 	 0.0408}
+			}
+			{bone "visor"
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 -1
+					0 	 1 	 0
+					28.203 	 -3.0709 	 18.2555
+				}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center -0.193023 1.95475 }
+		{extent  6.55292 22.167}
+		;{center 1.95475 -0.193023}
+		;{extent 22.167 6.55292}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 34.6614 9.30722 6.2583}
+	{bone "body"}
+	{Position 2.0699 	 -0.2059 	 2.4217}
+}
+
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 10.7075	19.2562	12.5683}
+			{lookat 0.388288	2.47953	1.99089}
+			{fov 58}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 15.3124	26.7492	17.7988}
+			{lookat 0.274618	2.30109	2.38482}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin 10.3205	18.5231	12.3033}
+			{lookat 0.395563	2.38732	2.13006}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.00355602	-0.499987}
+				{ambient 0x818181}
+			}
+		}
+	}
+}

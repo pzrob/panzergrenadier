@@ -1,0 +1,33 @@
+{game_entity 
+	(include "/properties/construction.inc")
+	{props  "small" "steel" "shed" "construction"}
+	{Extension "chair_school1_special.mdl"}
+
+	{placer
+		{place "seat" {attach} {pose "sex_idle\009_sit-2"} {linkbone "seat"}}
+	}
+	{boarder
+		{door "emit"}
+		{link "emit" "seat" {forward putoff}}
+	}
+	
+	{Volume "body1"
+		{Thickness 2}
+		{able {visible 0}}
+		{material "wood"}
+	}
+	{Volume "body2"
+		{Thickness 2}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{Volume "body3"
+		{Thickness 2}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{Volume "body"
+		{Thickness 2}
+		{Tags "body" "attach" "seat"}
+		{able {visible 0}{touch 1}}
+		{material "wood"}
+	}
+}

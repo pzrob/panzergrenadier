@@ -1,0 +1,16 @@
+{from "pattern mortar_ammo"
+	{tag "big mortar pierce he2 fg 88to105 all_he"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "81mm_usa_mortar_he2"}
+	{view "81mm_usa_mortar_he2"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 4.88}
+
+	("he_medium")
+
+	("he_level_2" weight(4.88) filler(1.95)) ;// M56 heavy HE
+
+}

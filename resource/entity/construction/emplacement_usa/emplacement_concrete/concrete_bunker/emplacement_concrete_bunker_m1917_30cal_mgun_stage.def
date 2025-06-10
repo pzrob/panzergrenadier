@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "45mm_pillbox_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "m2_50cal_tripod_squat_stat"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+	}
+}

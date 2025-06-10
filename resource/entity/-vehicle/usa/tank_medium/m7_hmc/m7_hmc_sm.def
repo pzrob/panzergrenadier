@@ -1,0 +1,10 @@
+{game_entity
+	(include "m7_hmc.inc")
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletusa_105 sm" 14}
+		}
+	}
+}

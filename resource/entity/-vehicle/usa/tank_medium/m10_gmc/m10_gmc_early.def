@@ -1,0 +1,56 @@
+{game_entity	;march 43
+	(include "m10_gmc.inc")
+	{props "m10_gmc"}
+	{extension "m10_gmc.mdl"}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletusa_76x585 ap" 37}	;54 rounds
+			{item "bulletusa_76x585 he" 16}
+			{item "ammo hmgun_usa" 900}			; 9 boxes + 1 loaded
+			{item "satchel_charge_usa" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_m7" filling "bulletusa_76x585 ap" 1}
+			{gunner "gunner"}
+			{charger "charger charger2" minWorkers 1}
+			("abm_dymamic_td"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m2" filled}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{bone "gun_rot"
+		{limits -10 30}
+		{speed2 5}
+	}
+	{bone "turret"
+		{speed2 4.5} ;// manual handcrack, extremely slow
+	}
+	{bone "mgun_a_rot1"
+		{limits -45 45}
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{limits -7 55}
+		{speed2 60}
+	}
+}

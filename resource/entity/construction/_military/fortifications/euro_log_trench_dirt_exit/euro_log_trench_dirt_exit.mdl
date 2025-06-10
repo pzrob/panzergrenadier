@@ -1,0 +1,73 @@
+;Exported by:	 Alexey
+;Date:			 07.02.2017 09:50:17
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_exit_v04.max
+{skeleton
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+		{bone "point1"
+			{Position 11.5774 	 -14.7956 	 -3}
+		}
+		{bone "point2"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				11.4622 	 12.4964 	 -3
+			}
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex -38.8867 19.2718}
+		{vertex -38.5794 -20.0783}
+		{vertex 30.9551 -18.8973}
+		{vertex 30.9551 19.7001}
+	}
+	{rotate}
+}
+{obstacle "body1"
+	{obb2
+		{center 9.34174 17.1616}
+		{extent 25.8612 2.37895}
+		{axis 0.999391 0.0348818}
+	}
+	{rotate}
+}
+{obstacle "body2"
+	{obb2
+		{center 9.13129 -15.9912}
+		{extent 2.29085 26.2024}
+		{axis 0.0356777 0.999363}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 51.6829 7.08344 24.9931}
+	{bone "point1"}
+	{matrix34
+		-0.9995 	 0.0311 	 0
+		-0.0309 	 -0.9921 	 -0.1218
+		-0.0038 	 -0.1218 	 0.9926
+		-2.2357 	 -4.366 	 -10.2782
+	}
+}
+{volume "body2"
+	{box 52.3486 6.81045 24.9931}
+	{bone "point2"}
+	{matrix34
+		-0.9995 	 -0.0301 	 0
+		0.0299 	 -0.9921 	 -0.1218
+		0.0037 	 -0.1218 	 0.9926
+		2.3309 	 -5.4948 	 -10.2781
+	}
+}

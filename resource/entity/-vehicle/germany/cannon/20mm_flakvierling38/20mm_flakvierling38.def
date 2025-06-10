@@ -1,0 +1,123 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{extension "20mm_flakvierling38.mdl"}
+	(include "/properties/selection/vehicle_small.inc" scale(1.1))
+	{props "wheeled" "invisible" "automatic" "vision_lev02_can" "cannon_sandbag_standard" "trailer" "trailer_medium" "detect_cannon_aa" "c_aa_lite"  "emplacement_ground_floor_37mm_flak37"}
+	{PatherID "cannon.medium"}
+	{targetclass "cannon_zenite"}
+	{targetSelector "cannon_zenite"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("gun" repair(30) thickness(15))
+	("armor_light_cannon")
+	("crew_wheeled_cannon_3")
+
+	("shield_group" args "shield1" 5 "shield")
+	
+	("shield_group" args "shield4" 5 "shield1")
+	("shield_group" args "shield41" 5 "shield1")
+	("shield_group" args "shield42" 5 "shield1")
+	("shield_group" args "shield43" 5 "shield1")
+	("shield_group" args "shield5" 5 "shield1")
+
+	("shield_group" args "shield6" 5 "shield6")
+	("shield_group" args "shield61" 5 "shield6")
+	("shield_group" args "shield62" 5 "shield6")
+	("shield_group" args "shield63" 5 "shield6")
+	("shield_group" args "shield7" 5 "shield6")
+
+	{volume "shield1" {able {holed}}}
+	{volume "shield2" {thickness 5} {able {holed}}}
+	{volume "shield3" {thickness 5} {able {holed}}}
+	{volume "body8" {tags "invisible"} {density 0} {able {visible 0}}} ;// volume disabled on carriage hidden 
+	{volume "wheelleft" {tags "invisible"} {able {visible 0}}}
+	{volume "wheelright" {tags "invisible"} {able {visible 0}}}
+
+	{extender "shield" {on}}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "seat_flakvierling_gunner" 10}}
+		}
+		{anm "charger"
+			{forward {end "seat_flakvierling_charger" 10}}
+		}
+		{anm "commander"
+			{forward {end "seat_flakvierling_commander" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "driver2"	;// charger
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver3"	;// commander
+			{forward {end "mortar_driver_l" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "seat_flakvierling_seat1" 10}}
+		}
+		{anm "seat2"	;// charger
+			{forward {end "seat_flakvierling_seat2" 10}}
+		}
+		{anm "seat3"	;// commander
+			{forward {end "seat_flakvierling_seat3" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "charger" "commander"
+			{move "cannon_pak40_pusher_right" "cannon_pak40_pusher_left" "mortar_driver_l"}
+			{aim "" "" ""}
+			{fire "" "" ""}
+			{reload "" "" ""}
+		}
+		{move {workers "driver1" "driver2" "driver3" minWorkers 2} {obstacle "close"}}		;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner" "charger" "commander"} {obstacle "open"}}		;// fire/attack state: cannon aim, fire, and reload events
+		{trailing {workers "seat1" "seat2" "seat3"}}							;// trailing state: cannon is being towed {obstacle} not needed. Uses "close"
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletger_20_auto ap" 140}		; 21 clips (20 rounds each) 33/66 AP/HE
+			{item "bulletger_20_auto he" 280}
+			{item "sandbag_vehicle" 1}
+			{item "ger_20mm_auto_cannon_shell_crate"}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "20mm_flak38_x4" filling "bulletger_20_auto he" 80}
+			{Barrels 4}
+			{charger "charger commander" minWorkers 1}
+			("abm_dymamic_aaa"
+				zeroing(1.2)
+				dispersion(0.15)
+			)
+		}
+	}
+
+	{mass 1500}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(6.4) ;--------------------------------Max speed.
+			weight(1500) ;------------------------------Weight in Kilograms.
+		)
+	}
+	{bone "gun_rot"
+		{limits -10 88}
+		{speed2 50}
+	}
+	{bone "turret"
+		{speed2 40}
+	}
+}

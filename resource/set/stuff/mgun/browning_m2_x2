@@ -1,0 +1,13 @@
+{from "browning_m2"
+	{filling "hmgun_usa" 400} ;//2x 200 rounds
+	{entity "browning_m2"}
+	{fireSound " "}
+	{fireSound " "}
+	{mass 76}
+
+	("fire rate" rpm(1000)) ;//400-500 rpm per gun in M33 mount
+
+	{rechargeTime 15}
+
+	("burst_aa_quad")
+}

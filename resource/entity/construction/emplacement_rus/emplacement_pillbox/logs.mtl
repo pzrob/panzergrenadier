@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "logs"}
+	{bump "logs_bp"}
+	{specular "logs_sp"}
+	{color "230 230 230 25"}
+	{lightmap "pillbox_earth_lm"}
+	{blend none}
+}

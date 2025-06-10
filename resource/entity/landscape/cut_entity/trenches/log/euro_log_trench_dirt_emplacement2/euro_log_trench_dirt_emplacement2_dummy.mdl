@@ -1,0 +1,94 @@
+;Exported by:	 Alexey
+;Date:			 07.02.2017 14:08:26
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_pit_v03.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0    1 	 0
+			0 	 0   1
+			0 	 0 	 0
+		}
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "trench.ply"
+			{DecalTargetDynamic}
+		}
+	{bone "self"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			6.5 	 -0.0  0 ; -x z
+		}
+	}
+		{bone "point8"
+			{Position 43.1675 	 -13.0303 	 0.6684}
+		}
+		{bone "point7"
+			{matrix34
+				0.8299 	 0.558 	 0
+				-0.558 	 0.8299 	 0
+				0 	 0 	 1
+				-1.8076 	 -29.9994 	 0.6684
+			}
+		}
+		{bone "point6"
+			{matrix34
+				0.9869 	 -0.1613 	 0
+				0.1613 	 0.9869 	 0
+				0 	 0 	 1
+				-44.6181 	 -44.8134 	 0.6684
+			}
+		}
+		{bone "point5"
+			{Position -74.4917 	 -23.5622 	 -4.6684}
+		}
+		{bone "point1"
+			{matrix34
+				0.84 	 0.5427 	 0
+				-0.5427 	 0.84 	 0
+				0 	 0 	 1
+				-71.2047 	 35.7507 	 0.6684
+			}
+		}
+		{bone "point2"
+			{matrix34
+				0.9951 	 -0.099 	 0
+				0.099 	 0.9951 	 0
+				0 	 0 	 1
+				-41.5459 	 45.6042 	 0.6684
+			}
+		}
+		{bone "point3"
+			{matrix34
+				0.7998 	 -0.6003 	 0
+				0.6003 	 0.7998 	 0
+				0 	 0 	 1
+				2.4832 	 30.8124 	 0.6684
+			}
+		}
+		{bone "point4"
+			{matrix34
+				0.9877 	 -0.1563 	 0
+				0.1563 	 0.9877 	 0
+				0 	 0 	 1
+				39.0811 	 16.0451 	 0.6684
+			}
+		}
+		{bone "point9"
+			{matrix34
+				0.2158 	 0.9764 	 0
+				-0.9764 	 0.2158 	 0
+				0 	 0 	 1
+				-87.54 	 14.0033 	 -5.6684
+			}
+		}
+	}
+	}
+}

@@ -1,0 +1,26 @@
+;Exported by:	 Carlos
+;Date:			 22.04.2022 14:08:58
+;File:			 T:\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_blocks_export01.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body01"
+			{Position 0.3592 	 1.0709 	 29.5276}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+	}
+}
+{volume "body01"
+	{box 9.49535 10.3675 59.215}
+	{bone "body01"}
+	{Position 0.1843 	 -0.2126 	 0.0799}
+}

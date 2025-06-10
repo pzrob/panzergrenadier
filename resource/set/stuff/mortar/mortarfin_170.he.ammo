@@ -1,0 +1,31 @@
+{from "pattern mortar_ammo"
+	{tag "bomb size2 pierce he fg 150to152 mortar big all_he"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "170mm_fin_mortar_he"}
+	{view "170mm_fin_mortar_he"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 51.4}
+
+	("he_heavy")
+
+	("he_level_5" weight(51.4) filler(10.3))
+
+	{##damage blastwave
+		{energy 17.74}
+		{area 0.4 0.5}
+		{ground_interaction_radius 1}
+	}
+	{##damage add blastwave
+		{energy 8.32}
+		{area 6.2 9.83}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+	{##damage add blastwave
+		{energy 1.444}
+		{area 17.61 22.38}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

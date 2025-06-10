@@ -1,0 +1,9 @@
+{
+	(include "/properties/trench.inc")
+	{extension "trench_dirt_exit.mdl"}
+	{props "sand"}
+	("boneLand"  args "trench")
+	("volume" args "body1")
+	("volume" args "body2")
+	
+}

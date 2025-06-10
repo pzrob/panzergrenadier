@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "bunker_baseColor_diff"}
+	{bump "bunker_baseColor_Normal"}
+	{specular "bunker_baseColor_spec"}
+	{color "230 230 230 25"}
+	{blend none}
+}

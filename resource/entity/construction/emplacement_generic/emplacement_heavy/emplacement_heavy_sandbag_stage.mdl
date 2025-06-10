@@ -1,0 +1,143 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "sandbag_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			62	 52.0 -5.0
+		}
+		
+	{bone "wall"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 2
+		}		
+	    {bone "front_wall_01"
+			{matrix34
+			 1	 0.05	 0          ;1 	 0 	 0      
+			0.05	  -0.97   0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			-45.0 	 -90.000 	 6.0
+			}
+	    }
+	    {bone "front_wall_02"
+			{matrix34
+			 1	 0.00  0          ;1 	 0 	 0      
+			0.00  -1  0          ;1 	 1 	 0 
+			0 	 0   1			;0 	 0   1
+			45.0 	 -90.000 	 6.0
+			}
+	    }
+		{bone "wall_01"
+			{matrix34
+			 -0.05	1	0
+			1	 0.05	0
+			0	0	1			;0 	 0   1
+			-73.0 	 -58.000 	 6.0
+			}
+		}
+		{bone "wall_02"
+			{matrix34
+			 0.00	1	0
+			1	 -0.00	0
+			0	0	1			;0 	 0   1
+			80.0 	 -58.000 	 6.0
+			}
+		}
+		{bone "wall_03"
+			{matrix34
+			 -0.05	1	0
+			1	 0.05	0
+			0	0	1			;0 	 0   1
+			-77.0 	 21.000 	 6.0
+			}
+		}
+		{bone "wall_04"
+			{matrix34
+			 0.00	1	0
+			1	 -0.00	0
+			0	0	1			;0 	 0   1
+			80.0 	 21.000 	 6.0
+			}
+		}
+	}
+	{bone "sandbag"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 -4
+		}	
+	    {bone "front_sandbag_pile_01"
+			{matrix34
+			 1	 0.05  0          ;1 	 0 	 0      
+			0.05  -1   0          ;1 	 1 	 0 
+			0 	  0    1			;0 	 0   1
+			-75.0 	 -114.000 	 0.0
+			}
+	    }
+	    {bone "front_sandbag_pile_02"
+			{matrix34
+			 1	 0  0          ;1 	 0 	 0      
+			0  -1   0          ;1 	 1 	 0 
+			0 	  0    1			;0 	 0   1
+			82.0 	 -114.000 	 0.0
+			}
+	    }
+		{bone "sandbag_straight_heap_01"
+			{matrix34
+			 -0.1	1	0
+			1	 0.1	0
+			0	0	1			;0 	 0   1
+			-94.5 	 -61.000 	-0
+			}
+		}
+		{bone "sandbag_straight_heap_02"
+			{matrix34
+			 -0.05	1	0
+			1	 0.05	0
+			0	0	1			;0 	 0   1
+			92.0 	 -61.000 	-0
+			}
+		}
+		{bone "sandbag_straight_heap_03"
+			{matrix34
+			 -0.1	1	0
+			1	 0.1	0
+			0	0	1			;0 	 0   1
+			-98.5 	 18.000 	-0
+			}
+		}
+		{bone "sandbag_straight_heap_04"
+			{matrix34
+			 -0.05	1	0
+			1	 0.05	0
+			0	0	1			;0 	 0   1
+			92.0 	 18.000 	-0
+			}
+		}
+	    {bone "front_sandbag_01"
+			{matrix34
+			 1	 0.1  0          ;1 	 0 	 0      
+			-0.1  -1   0          ;1 	 1 	 0 
+			0 	  0    1			;0 	 0   1
+			-35.0 	 -119.000 	 0.0
+			}
+	    }
+	    {bone "front_sandbag_02"
+			{matrix34
+			 1	 0.1  0          ;1 	 0 	 0      
+			0.1  -1   0          ;1 	 1 	 0 
+			0 	  0    1			;0 	 0   1
+			35.0 	 -118.000 	 0.0
+			}
+	    }
+    }		
+    }		
+}
+

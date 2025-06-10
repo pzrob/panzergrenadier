@@ -1,0 +1,8 @@
+{item
+	{desc "It will explode sooooooooon."}
+	{entity "ground_cleaner"}
+	{damage blastwave
+		{energy 0.01}
+		{area 600 600}
+	}
+}

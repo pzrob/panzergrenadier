@@ -1,0 +1,26 @@
+;_________________________________________
+; German Heavy Mortar - 20cm Ldg.W.40
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarger_200"}
+	{fillingVisible "rocket00"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s3/d1/Shared/Mortar/"}
+	{calibre 200}
+
+	("heavy_mortar_range")
+	("reload time" seconds(6))
+
+	{spreading
+		{radiusTable {0 5} {120 10} {159.99 15} {160 20}}
+	}
+	
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(8.0))
+	}
+}

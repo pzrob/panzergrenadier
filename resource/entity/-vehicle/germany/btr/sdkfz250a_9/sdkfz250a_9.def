@@ -1,0 +1,120 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "turret" "with_gun" "-hatch" "halftrack" "wheeled" "multi_board" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low" "muzzle_20mm_25mm_auto" "open_top" "emplacement_tank_trench_bt"}
+	{extension "sdkfz250a_9.mdl"}
+	(include "sdkfz250a_9.ext")
+	{patherId "sdkfz251"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_zenite"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_sdkfz250a"} {end "pose_sdkfz250a_driver"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner"
+			{forward {begin "board_sdkfz250a"} {end "seat_driver_car"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "commander"
+			{forward {begin "board_sdkfz250a"} {end "seat_driver_car"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger1"
+			{forward {begin "board_sdkfz250a"} {end "pose_sdkfz250a_passenger1"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place"
+				{group "crew"} {visor "%visor"} {LinkBone "%bone"} {turnoff {sensor}  %off}
+			}
+		}
+		{boarder
+			{door "%door"}
+			{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	("crew_human" place(driver)		bone(driver)	door(emit1)		animation(driver)		visor(driver)	off({targetable}))
+	("crew_human" place(gunner)		bone(gunner)	door(emit1)		animation(gunner)		visor(main)		off())
+	("crew_human" place(commander)	bone(commander)	door(emit1)		animation(commander)	visor(around)	off())
+
+	("passenger" place(seat1)		bone(seat01)	door(emit1)		animation(passenger1)  off())
+
+	{sensor
+		{visor "main"
+			{vision "recon_main"}
+		}
+	}
+
+	("shield_cover")
+
+	{extender "shield" {off}}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletger_20_auto ap" 70}		; 23 magazines (10 rounds each)
+			{item "bulletger_20_auto apcr" 30}
+			{item "bulletger_20_auto he" 120}
+			{item "ammo mgun_ger belt ap" 2010}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "20mm_kwk38" filling "bulletger_20_auto ap" 10}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic_autocannon"
+				zeroing(2)
+				dispersion(0.15)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "mg34_tank" filling "ammo mgun_ger belt ap" 150}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 5900}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.29) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+
+		("mobility_car"
+			speed(60) ;----------------------------------Max speed.
+			speedatmaxturn(18) ;-------------------------Max speed at max turn.
+			reverse(18) ;--------------------------------Max speed in Reverse.
+			weight(5.9) ;--------------------------------Weight in Tonnes.
+			power(100) ;---------------------------------Horse Power.
+			fuel(140) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(200) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "gun_rot"
+		{limits -10 85}		;// AA mode limits
+		;{limits -10 3}		;// hatch closed limits
+		{speed2 20}
+	}
+	{bone "turret"
+		{speed2 25}
+	}
+}

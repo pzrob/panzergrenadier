@@ -1,0 +1,62 @@
+;Exported by:	 Carlos
+;Date:			 25.12.2021 12:49:04
+;File:			 T:\goh_3d_human_fin\Weapons\Madsen\madsen_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+			{VolumeView "magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{polyhedron "body.vol"}
+	{bone "magazine"}
+	{matrix34
+		0.8898 	 0.4563 	 0
+		-0.4563 	 0.8898 	 0
+		0 	 0 	 1
+		0.1801 	 0.0761 	 -0.3609
+	}
+}
+{volume "select"
+	{box 2.63878 5.9576 0.946433}
+	{bone "magazine"}
+	{matrix34
+		0.9925 	 0.1221 	 0
+		-0.1221 	 0.9925 	 0
+		0 	 0 	 1
+		-0.0121 	 -0.23 	 0.06
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -1.1689 	 -23.8529 	 77.9011}
+			{lookat 0.0404 	 -0.7298 	 2.7363}
+			{fov 2.17281}
+			{horizon -176.649}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0384 	 5.8338 	 7.5563}
+			}
+			{"1"
+				{type directional}
+				{direction -0.2936 	 0.117 	 -0.3874}
+			}
+			{"2"
+				{type point}
+				{position -6.2971 	 -16.7861 	 0.948}
+			}
+		}
+	}
+}

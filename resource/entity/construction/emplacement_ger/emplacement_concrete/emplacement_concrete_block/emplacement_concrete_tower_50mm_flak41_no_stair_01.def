@@ -1,0 +1,48 @@
+{game_entity	
+    (include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "construction" "wall" "big" "parts"}
+	("armor_heavy")
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_tower_50mm_flak41_no_stair_01.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{able {visible 1}}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{volume "wall_00"
+		{Tags "body"}
+		{thickness 300}
+		{able {visible 1}{Obstacle 1}}
+	}
+	{volume "wall_01"
+		{Tags "body"}
+		{thickness 300}
+		{able {visible 1}{Obstacle 1}}
+	}
+	{placer
+		{place "wall_03"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_03"}
+			{handlebone "body"}
+		}
+	}	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_tower_50mm_flak41_cannon_stage_01_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_tower_50mm_flak41_shell_crate_stage_01_dummy"}
+		}
+	}	
+	
+}

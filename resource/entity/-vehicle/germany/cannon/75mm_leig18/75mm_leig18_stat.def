@@ -1,0 +1,100 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/fortified_emplacement.ext")
+
+	
+	{extension "75mm_leig18.mdl"}
+	(include "/properties/selection/cannon_elongated.inc" scale(0.9))
+	{props "stat_weapon" "wheeled" "vision_lev03_can" "muzzle_50mm_57mm" "cannon_sandbag_standard" "trailer" "trailer_light" "detect_atgun" "c_sup_lite"}
+	{targetclass "howitzer"}
+	{targetSelector "cannon_howitzer"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+	
+	("gun" repair(30) thickness(20))
+	("shield_group" args "shield1" 4.5 "shield")
+	("shield_group" args "shield2" 4.5 "shield")
+	("shield_group" args "shield3" 4.5 "shield")
+	("shield" args "shield_lower" 4.5)
+	("shield" args "shield_gun" 4.5)
+
+	("armor_light_cannon")
+	("crew_wheeled_cannon_4")
+
+	{boarder
+		{anm "gunner"
+			{forward {end "cannon_small_gunner" 10}}
+		}
+		{anm "charger"
+			{forward {end "cannon_small_charger" 10}}
+		}
+		{anm "charger2"
+			{forward {end "cannon_small_charger2" 10}}
+		}
+		{anm "commander"
+			{forward {end "cannon_small_commander" 10}}
+		}
+	}
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+		{place "driver3" remove}
+		{place "driver4" remove}
+	}
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "charger" "charger2" "commander"
+			{move "" "" "" ""}
+			{aim "cannon_small_gunner_aim" "cannon_small_charger_aim" "cannon_small_charger2_aim" "cannon_small_commander_aim"}
+			{fire "cannon_small_gunner_fire" "cannon_small_charger_fire" "cannon_small_charger2_fire" "cannon_small_commander_fire"}
+			{reload "cannon_small_gunner_reload" "cannon_small_charger_reload" "cannon_small_charger2_reload" "cannon_small_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}	;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner" "charger" "charger2" "commander"}}		;// fire/attack state: cannon aim, fire, and reload events
+		{trailing {workers "seat1" "seat2" "seat3" "seat4"}}				;// trailing state: cannon is being towed {obstacle} not needed. Uses "close"
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletger_75_l24 he" 40}
+			{item "bulletger_75_l24 heat" 10}
+			{item "ger_75mm_l24_shell_crate" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "75mm_leig18" filling "bulletger_75_l24 he" 1}
+			{charger "charger charger2" minWorkers 1}
+			{RestoreIKAfterAim}
+			("abm_dymamic_gun"
+				zeroing(4.0)
+				dispersion(0.25)
+			)
+		}
+	}
+
+	{mass 400}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(9.4) ;---------------------------------Max speed.
+			weight(400) ;--------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 5}
+	}
+	{bone "gun_rot"
+		{limits -10 75}
+		{speed2 4}
+	}
+	{bone "turret"
+		{limits -5.5 5.5}
+		{speed2 3}
+	}
+}

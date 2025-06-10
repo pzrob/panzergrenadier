@@ -1,0 +1,20 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "flag_stick.mdl"}
+	{props "steel" "construction" "shed" "crushable" "flag"}
+	("armor_fragile")
+	{Volume "body"
+		{tags "body" "fire"}
+		{thickness 1}
+		{able {visible 0}}
+	}
+	{extender "structure_bone"
+		{hold "01"}
+	}
+	{lodclass "decor_medium"}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+}

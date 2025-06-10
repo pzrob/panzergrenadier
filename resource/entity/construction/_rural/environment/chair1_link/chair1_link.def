@@ -1,0 +1,26 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{ObstacleId "construction"}
+	{props "wood" "construction" "break_on_burn" "small" "burning" "shed"}
+	{placer
+		{place "seat" {attach} {pose "pose_sit_chair"} {linkbone "seat"}}
+	}
+	{boarder
+		{door "emit"}
+		{link "emit" "seat" {forward putoff}}
+	}
+	{mass 5}
+	{lodclass "decor_small"}
+	{extension "chair1.mdl"}
+	{volume "body1"
+		{Tags "body" "fire" "attach" "seat"}
+		{thickness 10}
+		{able {visible 0} {touch 1}}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{lodclass "decor_small"}
+}

@@ -1,0 +1,23 @@
+;Exported by:	 Usuario
+;Date:			 28.02.2016 17:29:29
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\trenches\modular\trench_floor.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+			0 	 0	 0
+		}
+	{bone "floor0"
+		{parameters "land;ground;"}
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 -0 	 0
+		}
+		{VolumeView "body.ply"}
+	}
+	}
+}

@@ -1,0 +1,63 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{Extension "emplacement_light_aa.mdl"}
+	{props "sand" "foxhole_spawned" "normal"}
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+
+	{volume "box06"
+		{able  {touch 1}}
+	}
+	{volume "box07"
+		{able  {touch 1}}
+	}
+	{volume "box08"
+		{able  {touch 1}}
+	}
+	{volume "box09"
+		{able  {touch 1}}
+	}
+	{volume "box010"
+		{able  {touch 1}}
+	}
+	{volume "box011"
+		{able  {touch 1}}
+	}
+	{volume "box012"
+		{able  {touch 1}}
+	}
+	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_20mm_itk40_cannon_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_20mm_itk40_shell_crate_stage"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_bush_cover_stage_dummy"}
+	    }
+		{level ;// level 4
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_20mm_itk40_roof_stage_dummy"}
+	    }
+    }
+}

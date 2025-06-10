@@ -1,0 +1,23 @@
+;Exported by: Sergey
+;Date:        Tue Oct 09 15:49:47 2012
+;File:        D:\Documents\3dsmax\scenes\Gepanzert Faust\smg_bullet.max
+{Skeleton
+	{bone "smg_bullet"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "smg_bullet.ply"}
+	}
+}
+{Volume "body"
+	{Cylinder 0.105754 0.295276}
+	{Bone "smg_bullet"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		-0.00284107	0.000248248	0.000313204
+	}
+}

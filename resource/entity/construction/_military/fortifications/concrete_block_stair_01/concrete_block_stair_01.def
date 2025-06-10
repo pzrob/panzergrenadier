@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "concrete" }
+	{extension "concrete_block_stair_01.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+	}	
+	{Lodclass "concrete"}
+}

@@ -1,0 +1,147 @@
+;Exported by:	 Carlos
+;Date:			 09.09.2017 19:02:26
+;File:			 H:\GoH_3D_gem_export\3d_environment\_military\fortifications\sandbag_mount.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position 8.6612 	 -1.818 	 7.6672}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "climb21"
+				{matrix34
+					0.9373 	 -0.3484 	 0
+					0.3484 	 0.9373 	 0
+					0 	 0 	 1
+					-11.8116 	 -16.2682 	 -0.5061
+				}
+			}
+			{bone "climb22"
+				{matrix34
+					-0.9514 	 0.308 	 0
+					-0.308 	 -0.9514 	 0
+					0 	 0 	 1
+					28.8818 	 -30.9004 	 -0.5061
+				}
+			}
+			{bone "climb23"
+				{matrix34
+					-0.9989 	 -0.046 	 0
+					0.046 	 -0.9989 	 0
+					0 	 0 	 1
+					38.2897 	 5.5176 	 -0.5061
+				}
+			}
+			{bone "climb24"
+				{matrix34
+					1 	 0.0032 	 0
+					-0.0032 	 1 	 0
+					0 	 0 	 1
+					-4.9502 	 4.9134 	 -0.5061
+				}
+			}
+		}
+	}
+}
+{obstacle "body1"
+	{obb2
+		{center 19.5783 20.0516}
+		{extent 5.55747 14.7999}
+		{axis 0.97817 0.207808}
+	}
+	{rotate}
+	{Tags "body" "climb"}
+}
+{obstacle "body2"
+	{obb2
+		{center 20.5112 -8.22591}
+		{extent 14.571 5.53804}
+		{axis 0.122598 0.992456}
+	}
+	{rotate}
+	{Tags "body" "climb"}
+}
+{obstacle "body3"
+	{obb2
+		{center 11.9113 -31.5735}
+		{extent 13.0312 5.46779}
+		{axis 0.515485 0.856898}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body4"
+	{obb2
+		{center 6.75968 41.9713}
+		{extent 5.46004 14.417}
+		{axis 0.616024 0.787727}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body5"
+	{obb2
+		{center -0.228464 -45.1623}
+		{extent 7.64132 5.80474}
+		{axis 0.809204 0.587528}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body1"
+	{box 10.905 29.5229 15.5558}
+	{bone "body"}
+	{matrix34
+		0.9767 	 -0.2148 	 0
+		0.2148 	 0.9767 	 0
+		0 	 0 	 1
+		10.9172 	 -18.2336 	 0.1107
+	}
+}
+{volume "body2"
+	{box 10.905 29.0783 15.5558}
+	{bone "body"}
+	{matrix34
+		0.9917 	 0.1284 	 0
+		-0.1284 	 0.9917 	 0
+		0 	 0 	 1
+		11.85 	 10.0439 	 0.1107
+	}
+}
+{volume "body3"
+	{box 10.905 26.0496 15.5558}
+	{bone "body"}
+	{matrix34
+		0.8563 	 0.5165 	 0
+		-0.5165 	 0.8563 	 0
+		0 	 0 	 1
+		3.2501 	 33.3915 	 0.1107
+	}
+}
+{volume "body4"
+	{box 10.905 28.8283 15.5558}
+	{bone "body"}
+	{matrix34
+		-0.6156 	 0.788 	 0
+		-0.788 	 -0.6156 	 0
+		0 	 0 	 1
+		-1.9015 	 -40.1533 	 0.1107
+	}
+}
+{volume "body5"
+	{box 11.5466 15.2351 9.38161}
+	{bone "body"}
+	{matrix34
+		0.5909 	 0.8068 	 0
+		-0.8068 	 0.5909 	 0
+		0 	 0 	 1
+		-8.8896 	 46.9803 	 -2.9764
+	}
+}

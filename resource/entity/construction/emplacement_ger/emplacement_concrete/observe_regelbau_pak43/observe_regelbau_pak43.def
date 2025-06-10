@@ -1,0 +1,38 @@
+{game_entity
+    (include "/properties/emplacement_building.inc")
+	{props "cornered" "concrete" "parts" "construction"}
+	("armor_medium" args 1.0)
+		{obstacleID "unbreakable"}
+	{extension "observe_regelbau.mdl"}
+	{placer}
+	{extender "structure"
+		{place "p04" "obsr04"}
+		{place "p03" "obsr03"}
+		{place "p02" "obsr02"}
+		{place "p01" "obsr01"}
+	}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+	}
+}

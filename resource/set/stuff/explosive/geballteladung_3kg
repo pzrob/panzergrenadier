@@ -1,0 +1,4 @@
+{from "pattern explosive"
+	{entity "geballteladung_3kg"}
+	{inventory {size 2 2}}
+}

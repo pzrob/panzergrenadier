@@ -1,0 +1,6 @@
+{material multiply
+	{diffuse "$/construction/trench_pillbox/clay_19"}
+	{diffuse1 "$/construction/trench_pillbox/pillbox_trench_lm"}
+	{blend none}
+	{modulate2x}
+}

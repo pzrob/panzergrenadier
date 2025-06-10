@@ -1,0 +1,22 @@
+;Exported by:	 marc-
+;Date:			 06.05.2024 15:23:39
+;File:			 T:\Programs\GoH_3d_environment_west\3d_environment\train_platforms\export.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "land"
+			{parameters "land;rotate;"}
+			{Position 1.4628 	 -3.7141 	 16.6934}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+		{bone "body"
+			{Position 0.939 	 -2.9822 	 8.6757}
+			{VolumeView "body.ply"}
+		}
+	}
+}

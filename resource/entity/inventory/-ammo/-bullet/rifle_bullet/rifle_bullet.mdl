@@ -1,0 +1,23 @@
+;Exported by: Sergey
+;Date:        Tue Oct 09 15:35:07 2012
+;File:        D:\Documents\3dsmax\scenes\Gepanzert Faust\bullet_rifle.max
+{Skeleton
+	{bone "rifle_bullet"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "rifle_bullet.ply"}
+	}
+}
+{Volume "body"
+	{Cylinder 0.0827168 0.649606}
+	{Bone "rifle_bullet"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.00486395	-0.000498309	-0.000333593
+	}
+}

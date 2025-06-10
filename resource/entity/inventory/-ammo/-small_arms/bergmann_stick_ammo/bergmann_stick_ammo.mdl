@@ -1,0 +1,52 @@
+;Exported by:	 Carlos
+;Date:			 26.12.2021 12:38:13
+;File:			 T:\goh_3d_human_fin\Weapons\Bergmann_m20\bergmann_m20_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+			{VolumeView "magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 0.688143 6.15392 0.473733}
+	{bone "magazine"}
+	{Position -0.0105 	 0.1988 	 0.0112}
+}
+{volume "select"
+	{box 0.856964 6.92507 1.02323}
+	{bone "magazine"}
+	{Position -0.025 	 0.2083 	 0.0126}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -1.1429 	 -21.6934 	 69.7466}
+			{lookat -0.0647 	 -1.0762 	 2.7277}
+			{fov 2.17281}
+			{horizon -176.649}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.1832 	 5.2366 	 7.4758}
+			}
+			{"1"
+				{type directional}
+				{direction -0.2936 	 0.117 	 -0.3874}
+			}
+			{"2"
+				{type point}
+				{position -6.0755 	 -17.3833 	 0.8675}
+			}
+		}
+	}
+}

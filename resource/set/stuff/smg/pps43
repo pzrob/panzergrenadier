@@ -1,0 +1,16 @@
+{from "pattern smg"
+	{tag "pistol2_shell"}
+	{filling "ammo pps_stick" 35}
+	{entity "pps43"}
+	{fireSound "smallarms/s1/d1/RUS/PPS43/"}
+	{fireSoundclose "smallarms/s1/3p/RUS/PPS43/"}
+	{reloadSound "pps43"}
+	{calibre 7.62}
+	{mass 3.04}
+
+	("fire rate" rpm(550))
+	("velocity" mps(500))
+	("spreading_low")
+	("burst_short")
+	("stick_reload")
+}

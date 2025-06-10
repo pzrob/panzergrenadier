@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "watch_tower_search_light_stage.mdl"}
+}

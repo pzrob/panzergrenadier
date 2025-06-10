@@ -1,0 +1,81 @@
+{game_entity
+	(include "/properties/emplacement_building.inc")
+	{obstacleid "unbreakable"}
+	{props  "concrete" "construction" "big"}
+	("armor_heavy")
+	{extension "emplacement_concrete_bunker_50mm_flak41.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 50}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body08"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body09"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body10"
+		{Tags "body"}
+		{thickness 200}
+	}
+    {extender "land_patch"
+        {TerrainType "ground" "rock"} 
+        {NoNormals}
+	}
+    {placer		
+	
+	    {place "floor_02"
+			{entity "concrete_block_03_floor_inside"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+	    }
+	    {place "flag"
+			{entity "flag_hanging_ger"}
+			{Linkbone "flag"}
+			{handlebone "body"}
+	    }
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_bunker_50mm_flak41_cannon_stage_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_bunker_50mm_flak41_shell_crate_stage_dummy"}
+		}
+	}
+	
+}

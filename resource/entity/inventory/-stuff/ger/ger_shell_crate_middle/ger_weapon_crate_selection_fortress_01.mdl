@@ -1,0 +1,54 @@
+;Exported by:	 Usuario
+;Date:			 28.02.2016 17:29:29
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\trenches\modular\trench_floor.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1  0
+			0 	 0 	 1
+			0 	 0	 0
+		}
+    
+    {bone "weapon_crates"
+		{matrix34
+			-1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0   0 0.0 ;z -x y
+		}
+		{bone "weapon_crate_01"
+			{matrix34
+			-1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-30 	-12.000 	 0 ;-z x y
+			}
+		}
+		{bone "weapon_crate_02"
+			{matrix34
+			-1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-30 	23.000 	 0 ;-z x y
+			}
+		}
+		{bone "weapon_crate_03"
+			{matrix34
+			-1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	23.0 	 0 ;-z x y
+			}
+		}
+		{bone "weapon_crate_04"
+			{matrix34
+			-1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	-12.0 	 0 ;-z x y
+			}
+		}	
+    }
+	}
+}

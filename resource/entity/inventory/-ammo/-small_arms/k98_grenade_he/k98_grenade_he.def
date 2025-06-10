@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo k98_grenade he"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{extension "k98_grenade_he.mdl"}
+	{nogroupmesh 1}
+}

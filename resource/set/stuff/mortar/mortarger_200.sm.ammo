@@ -1,0 +1,13 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke smoke_size4"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "200mm_leldgw_ammo"}
+	{view "200mm_leldgw_ammo"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 16}
+
+	("smoke_blast" cal(200))
+}

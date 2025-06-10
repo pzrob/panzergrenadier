@@ -1,0 +1,35 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_small_deep_mortar.mdl"}
+	{props "sand" "foxhole_spawned" "small" "foxhole_destroy" "no_scavenge" "jettison_sandbags1" }
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+	{placer
+		{place "sandbag_00"
+			{entity "sandbag_structured_curved_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_60mm_m2_mortar_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_deep_mortar_sandbag_stage_dummy"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_60mm_m2_round_crate_stage"}
+		}
+	}	
+}

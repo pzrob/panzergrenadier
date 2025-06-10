@@ -1,0 +1,29 @@
+{actor
+	(include "/properties/stretcher.ext")
+	{extension "stretcher_no_blanket.mdl"}
+	{props "vision_lev00_can" "no_recrew_logic" "gun_shield" "collectable" "stretcher"}
+    {tag "gun_shield_off"}
+	{PatherId "cannon.strecher"}
+	{mass 19}
+	
+	{placer
+		{place "seat" {attach} {pose "sex_idle\009_lie-table-1"} {linkbone "seat"}}
+	}
+	{boarder
+		{door "emit"}
+		{link "emit" "seat" {forward putoff}}
+	}
+	{volume "body1"
+		{Tags "attach" "-seat"}
+		{thickness 30}
+		{able {visible 0}{obstacle 1}{contact 0}{touch 1}}
+	}
+	{extender "inventory"
+		{box
+			{size 6 2}
+		}
+	}
+	{extender "stuff"
+        {item "stretcher"}
+    }
+}

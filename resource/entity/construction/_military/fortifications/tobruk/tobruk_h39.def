@@ -1,0 +1,12 @@
+{
+	(include "tobruk.inc")
+	{extension "tobruk_turret.mdl"}
+	{placer
+		{place "1"
+			{entity "h39_turret"}
+			{linkbone "attach1"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+	}
+}

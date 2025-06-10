@@ -1,0 +1,19 @@
+;Exported by:	 Usuario
+;Date:			 28.02.2016 17:29:29
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\trenches\modular\trench_floor.max
+{skeleton
+	{bone "body"
+		{parameters "commonmesh;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Box 47.0998 24.478 3.13225}
+	{Bone "body"}
+	{Position 0.3642 	 -0.1564 	 1.5661}
+}

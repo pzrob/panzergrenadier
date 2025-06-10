@@ -1,0 +1,62 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0	 0
+			0 	 1   0
+			0 	 0 	 1
+			0	 0   0 
+		}
+		{bone "platform"
+			{matrix34
+				-0.5 	 -1	 0
+				1 	 -0.5   0
+				0 	 0 	 1
+				6	 35  6
+			}
+			{bone "ammo_crate_01"
+		       {matrix34
+					-1 	 0	 0
+					0 	 -1   0
+					0 	 0 	 1
+					1	 3.3   9
+		        }
+		    }
+	        {bone "storage_rack_01"
+		       {matrix34
+					1 	 0	 0
+					0 	 1   0
+					0 	 0 	 1
+					0	 0   0 
+		        }
+				{bone "benchs"
+					{matrix34
+						1 	 0	 0
+						0 	 1   0
+						0 	 0 	 1
+						0	 0   0 
+					}
+	       	        {bone "bench_01"
+					    {matrix34
+							1 	 0	 0
+							0 	 1   0
+							0 	 0 	 1
+							0	 0   0 
+					    }
+					}
+	       			{bone "bench_02"
+					    {matrix34
+							1 	 0	 0
+							0 	 1   0
+							0 	 0 	 1
+							0	 0   0
+					    }
+	    			}
+				}
+		    }
+		}		
+	}		
+}
+

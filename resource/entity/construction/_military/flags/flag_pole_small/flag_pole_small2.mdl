@@ -1,0 +1,36 @@
+;Exported by:	 Usuario
+;Date:			 13.03.2016 18:54:01
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\Entourage\flags\flag_mast\flag_mast_small.max
+{skeleton
+	{animation
+		{sequence "start" {speed 0.6}{autostart}}
+	}
+	{bone "body"
+		{parameters "commonmesh;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0312805 0.0511814}
+		{Extent 1.16009 1.2326}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Volume "body"
+	{Box 2.32019 2.4652 69.5567}
+	{Bone "body"}
+	{Position 0.0313 	 -0.0512 	 34.6763}
+}
+{Volume "fortify"
+	{Box 2.32019 2.4652 69.5567}
+	{Bone "body"}
+	{Position 0.0313 	 -0.0512 	 34.6763}
+}

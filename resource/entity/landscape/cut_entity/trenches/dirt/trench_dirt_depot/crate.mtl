@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_military/crate_one"}
+	{bump "$/_military/crate_one_bp"}
+	{specular "$/_military/crate_one_sp"}
+	{color "230 230 230 25"}
+	{lightmap "trench_dirt_depot2_lm"}
+	{blend none}
+}

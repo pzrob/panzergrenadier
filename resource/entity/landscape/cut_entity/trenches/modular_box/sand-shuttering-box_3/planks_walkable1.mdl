@@ -1,0 +1,27 @@
+;Exported by:	 Carlos
+;Date:			 15.08.2020 18:35:43
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\platform_planks\planks_export.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "land;ground;"}
+			{Position 0 	 0 	 -28.1437}
+			{VolumeView "body.ply" {Ground}}
+		}
+	}
+}
+{volume "body"
+	{box 92.3819 38.1491 4.10431}
+	{bone "body"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 30.9668
+	}
+}

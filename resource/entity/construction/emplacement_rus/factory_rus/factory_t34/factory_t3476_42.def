@@ -1,0 +1,83 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "no_scavenge" "trench"}
+
+	{obstacleID "nothing"}
+	{collider "nothing"}
+
+	{volume "body" {able clear {obstacle}}}
+	{Extension "factory_t3476.mdl"}
+	{placer
+		{place "5t_kran"
+			{entity "5t_kran_no_obstacle"}
+			{Linkbone "5t_kran"}
+			{handlebone "body"}
+		}
+		{place "flag"
+			{entity "flag_stick"}
+			{Linkbone "flag"}
+			{handlebone "body"}
+		}
+		{place "crate_01"
+			{entity "steel_crate_t3476_42_01_instance_dummy"}
+			{Linkbone "crate_01"}
+			{handlebone "body"}
+		}
+		{place "generator"
+			{entity "factory_generator"}
+			{Linkbone "generator"}
+			{handlebone "body"}
+		}
+		{place "gate"
+			{entity "rof-gate_base"}
+			{Linkbone "gate"}
+			{handlebone "body"}
+		}
+		{place "gate_right"
+			{entity "rof-gate_doorr"}
+			{Linkbone "gate_right"}
+			{handlebone "body"}
+		}
+		{place "gate_left"
+			{entity "rof-gate_doorr"}
+			{Linkbone "gate_left"}
+			{handlebone "body"}
+		}
+		{place "wall_01"
+			{entity "factory_wall_middle_indestructible"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "factory_wall_middle_indestructible"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		{place "wall_03"
+			{entity "factory_wall_middle_indestructible"}
+			{Linkbone "wall_03"}
+			{handlebone "body"}
+		}
+
+		{place "pillar_03"
+			{entity "fence_industrial_02_column_indestructible"}
+			{Linkbone "pillar_03"}
+			{handlebone "body"}
+		}
+		{place "pillar_04"
+			{entity "fence_industrial_02_column_indestructible"}
+			{Linkbone "pillar_04"}
+			{handlebone "body"}
+		}
+		{place "roof_exterior01"
+			{entity "fh_exterior01"}
+			{Linkbone "roof_exterior01"}
+			{handlebone "body"}
+		}
+		{place "roof_top"
+			{entity "f_v1_c21_roof_indestructible"}
+			{Linkbone "roof_top"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand dropboxed fortification"}
+	{entity "tent_kit"}
+	{inventory
+		{size 6 2}
+		{block 5}
+		{weight 50}  ; will stack up in 100/2 = 2 on humans
+		{fsm "stuff"}
+	}
+	{mass 5}
+}

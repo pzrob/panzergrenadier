@@ -1,0 +1,43 @@
+{game_entity
+	(include "/properties/building.inc")
+	{obstacleID "unbreakable"}
+	{props "steel" "parts" "construction" "medium" "disable_area" "no_destroyed_stamp" "crushable"}
+	{extension "5t_kran_no_obstacle.mdl"}
+	("armor_use_volume_thickness")
+
+	{volume "body01"
+		{Tags "body"}
+		{thickness 2}
+		{able {visible 0}}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 2}
+		{able {visible 0}}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 2}
+		{able {visible 0}}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 2}
+		{able {visible 0}}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 6}
+		{able {visible 0}}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 2}
+		{able {visible 0}}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 2}
+		{able {visible 0}}
+	}
+}

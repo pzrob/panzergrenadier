@@ -1,0 +1,33 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_trench_roof.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "roof_stage"}
+	("armor_heavy")
+	{placer
+		{place "roof"
+			{entity "fence_wooden_planks_roof"}
+			{Linkbone "roof"}
+			{handlebone "body"}
+		}
+		{place "piller_01"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_01"}
+			{handlebone "body"}
+		}
+		{place "piller_02"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_02"}
+			{handlebone "body"}
+		}
+		{place "piller_03"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_03"}
+			{handlebone "body"}
+		}
+		{place "piller_04"
+			{entity "fencewood_big03_pillar"}
+			{Linkbone "piller_04"}
+			{handlebone "body"}
+		}
+	}
+}

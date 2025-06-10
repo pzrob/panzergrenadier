@@ -1,0 +1,19 @@
+{from "pattern rifle"
+	{tag "rifle_shell"}
+	{filling "ammo rifle_ger" 10}
+	{entity "g43_marksman"}
+	{fireSound "smallarms/s3/d1/GER/G43/"}
+	{fireSoundclose "smallarms/s3/3p/GER/G43/"}
+	{reloadSound "g43"}
+	{calibre 7.92}
+	{mass 4.4}
+
+	("velocity" mps(776))
+	("semi_rifle")
+	("marksman")
+	("fire rate" rpm(150))
+
+	{parameters "clip"
+		("reload time" seconds(10))
+	}
+}

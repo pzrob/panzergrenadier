@@ -1,0 +1,8 @@
+{item
+	{desc "weapon crate cleaner."}
+	{entity "weapon_crate_cleaner"}
+	{damage blastwave
+		{energy 0.01}
+		{area 45 45}
+	}
+}

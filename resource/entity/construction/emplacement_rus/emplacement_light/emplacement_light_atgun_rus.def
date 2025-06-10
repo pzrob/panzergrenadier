@@ -1,0 +1,61 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{Extension "emplacement_light_atgun.mdl"}
+	{props "sand" "foxhole_spawned" "normal"}
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+	{placer
+		{place "floor_01"
+			{entity "planks_walkable_01_indestructible"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "floor_02"
+			{entity "planks_walkable_01_indestructible"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_00"
+			{entity "sandbag_framed_straight_indestructible"}
+			{Linkbone "side_sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_01"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "side_sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "side_sandbag_02"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "side_sandbag_02"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_at_roof_stage_set_rus_dummy"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_bush_cover_stage_set_dummy"}
+	    }
+		{level ;// level 4
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_rus_45mm_shell_crate_stage_set_dummy"}
+	    }
+    }
+}

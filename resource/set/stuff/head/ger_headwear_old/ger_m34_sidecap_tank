@@ -1,0 +1,4 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "ger_m34_sidecap_tank"}
+}

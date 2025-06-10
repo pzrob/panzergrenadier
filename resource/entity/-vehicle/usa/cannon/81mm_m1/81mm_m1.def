@@ -1,0 +1,13 @@
+{
+	(include "m1_mortar.inc")
+
+	{extender "inventory"
+		{box
+			{item "ammo mortarusa_81 he" 25}
+			{item "ammo mortarusa_81 he2" 5}
+			{item "ammo mortarusa_81 wp" 10}
+			{item "sandbag_vehicle" 2}
+		    {item "usa_81mm_mortar_round_crate" 1 }
+		}
+	}
+}

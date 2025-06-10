@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/_metal/metal_rusty"}
+	{specular "$/_metal/metal_rusty_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

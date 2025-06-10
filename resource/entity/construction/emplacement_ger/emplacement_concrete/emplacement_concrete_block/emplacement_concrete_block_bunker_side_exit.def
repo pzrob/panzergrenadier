@@ -1,0 +1,125 @@
+{game_entity	
+(include "/properties/building_roof.inc")
+;(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_block_bunker_side_exit.mdl"}
+	{volume "wall_front"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_rear"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_right"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "wall_left"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "roof_front_01"
+		{Tags "roof"}
+		{able {visible 0}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "pillar_front"
+		{Tags "roof"}
+		{able {visible 0}}
+		{thickness 300}
+	}	
+	{volume "pillar_rear"
+		{Tags "roof"}
+		{able {visible 0}}
+		{thickness 300}
+	}	
+	{volume "exterior01"
+		{Tags "roof"}
+		{able {visible 0}}
+		{thickness 300}
+	}
+	{volume "pillar_right"
+		{Tags "roof"}
+		{able {visible 0}}
+		{thickness 300}
+	}	
+	{volume "pillar_left"
+		{Tags "roof"}
+		{able {visible 0}}
+		{thickness 300}
+	}	
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+
+	}
+	{Lodclass "concrete"}
+	
+	{placer
+		{place "lampshade_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_01"}
+			{handlebone "body"}
+		}
+		{place "windows_stage"
+			{entity "emplacement_concrete_block_bunker_window_stage_dummy"}
+			{Linkbone "windows_stage"}
+			{handlebone "body"}
+		}	 
+		{place "door_left"
+			{entity "f_end_c06_door_small_dummy"}
+			{Linkbone "door_left"}
+			{handlebone "body"}
+		}	 
+		{place "door_right"
+			{entity "f_end_c06_door_small_dummy"}
+			{Linkbone "door_right"}
+			{handlebone "body"}
+		}	 
+		{place "door_rear"
+			{entity "f_end_c06_door_small_dummy"}
+			{Linkbone "door_rear"}
+			{handlebone "body"}
+		}	 
+	}
+	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{"fin"
+				{entity "emplacement_concrete_block_bunker_maxim_fin_mgun_stage"}
+			}
+			{"fin_female_regular_cn"
+				{entity "emplacement_concrete_block_bunker_maxim_fin_mgun_stage"}
+			}
+			{"ger"
+				{entity "emplacement_concrete_block_bunker_mg34_mgun_stage"}
+			}
+			;{"spa"
+				{entity "emplacement_concrete_block_bunker_mg34_mgun_stage"}
+			;}
+			{"ger_female_soldier"
+				{entity "emplacement_concrete_block_bunker_mg34_mgun_stage"}
+			}
+			{"rus"
+				{entity "emplacement_concrete_block_bunker_maxim_mgun_stage"}
+			}
+			{"rus_female_soldier"
+				{entity "emplacement_concrete_block_bunker_maxim_mgun_stage"}
+			}
+			{"usa"
+				{entity "emplacement_concrete_block_bunker_m2_30cal_mgun_stage"}
+			}
+			{"usa_female_soldier"
+				{entity "emplacement_concrete_block_bunker_m2_30cal_mgun_stage"}
+			}
+		}
+	}	
+}

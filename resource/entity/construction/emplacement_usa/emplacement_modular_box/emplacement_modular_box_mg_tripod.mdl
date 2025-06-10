@@ -1,0 +1,225 @@
+;Exported by:	 Carlos
+;Date:			 15.08.2020 18:35:43
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\platform_planks\planks_export.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "floor_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 -17
+		}
+	{bone "floor_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			-17.5 	 0 	 -28.1437
+		}
+			{parameters "land;rotate;"}
+			{VolumeView "planks.ply"}
+	}
+	{bone "floor_02"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			17.5 	 0 	 -28.1437
+		}
+			{parameters "land;rotate;"}
+			{VolumeView "planks.ply"}
+	}
+	}
+	{bone "box_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "box_00"
+		{matrix34
+			0 	 1.3 	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			40 	 0 	 1
+		}
+		{VolumeView "box_3.ply"}
+		{bone "land_00"
+			;{parameters "land;rotate;"}
+			{Position -4.2525 	 -3.1726 	 2.5869}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+	}
+	{bone "box_01"
+		{matrix34
+			1.04 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			5 	 -40 	 13
+		}
+		{VolumeView "box_1.ply"}
+		{bone "land"
+			;{parameters "land;rotate;"}
+			{Position 0.52 	 -3.1726 	 2.5869}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+	}
+	{bone "box_02"
+		{matrix34
+			1.04	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			5 	 35 	 13
+		}
+		{VolumeView "box_1.ply"}
+		{bone "land"
+			;{parameters "land;rotate;"}
+			{Position 0.52 	 -3.1726 	 2.5869}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+	}
+	{bone "box_03"
+		{matrix34
+			0 	 1.10	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			-42.2 	 0 	 -11.0
+		}
+		{VolumeView "box_5.ply"}
+		{bone "land_03"
+			{parameters "land;rotate;"}
+			{Position -2.4588 	 -3.1726 	 2.5869}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+	}
+	}
+	{bone "mgun_stage"
+		{matrix34
+			0 	 1   0
+			1 	 0 	 0
+			0 	 0 	 1
+			20 	 -6 	 -10  ;z x
+		}
+	}
+	{bone "roof_stage"
+		{matrix34
+			0 	 1  0
+			1 	 0 	 0
+			0 	 0 	 1
+			20 	 -6.5 	-12
+		}
+	}
+	{bone "cut_entity"
+		{matrix34
+			1 	 0   0
+			0 	 1 	 0
+			0 	 0 	 1
+			5 	 -0 	 -0  ;z x
+		}
+	}
+	}
+}
+
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex  30.0 43.0}  ;y x   x0=-1.5
+		{Vertex  30 -43.0}
+		{Vertex  -55 -43.0}
+		{Vertex  -55 43.0}
+	}
+	{Rotate}
+}
+{obstacle "body_00"
+	{obb2
+		{center 40.3 2.64385}
+		{extent 9.88442 20.8482}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box_01"
+	{obb2
+		{center 0.205627 -38.0}
+		{extent 38.7776 9.88442}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "box_02"
+	{obb2
+		{center 0.205627 42.0}
+		{extent 38.7776 9.88442}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "floor_01"
+	{box 92.3819 38.1491 4.10431}
+	{bone "floor_01"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 18
+	}
+}
+{volume "floor_02"
+	{box 92.3819 38.1491 4.10431}
+	{bone "floor_02"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 0 	 18
+	}
+}
+
+{volume "box_00"
+	{box 41.6963 19.7688 39.3701}
+	{bone "box_00"}
+	{Position 0.224 	 -2.6438 	 -7.1966}
+}
+
+{volume "box_01"
+	{box 81 19.7688 39.3701}
+	{bone "box_01"}
+	{Position 0.0 	 -2.6438 	 -7.1966}
+}
+{volume "box_02"
+	{box 81 19.7688 39.3701}
+	{bone "box_02"}
+	{Position 0.0 	 -2.6438 	 -7.1966}
+}
+
+
+{volume "box_03_01"
+	{box 13.1773 19.7638 39.3701}
+	{bone "box_03"}
+	{Position -32.9757 	 -2.8097 	 -7.1966}
+}
+{volume "box_03_02"
+	{box 13.4449 19.7638 39.3701}
+	{bone "box_03"}
+	{Position 33.1054 	 -2.8097 	 -7.1966}
+}
+{volume "box_03_03"
+	{box 52.8436 19.7638 39.3701}
+	{bone "box_03"}
+	{Position -0.0195 	 -2.8097 	 -7.1966}
+}

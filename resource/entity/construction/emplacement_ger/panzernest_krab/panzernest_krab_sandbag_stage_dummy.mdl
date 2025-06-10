@@ -1,0 +1,22 @@
+;Exported by:	 Carlos
+;Date:			 15.08.2020 18:35:43
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\platform_planks\planks_export.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0  ;x z y
+			0 	 0 	 1
+			0 	 0 	 0 ;x -z y
+		}
+    {bone "sandbag_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1  0
+			0 	 0 	 1
+		    0	0.0	 	 0 ;x z y
+		}
+	}	
+	}
+}
+

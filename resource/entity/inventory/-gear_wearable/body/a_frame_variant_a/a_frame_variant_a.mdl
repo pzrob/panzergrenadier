@@ -1,0 +1,96 @@
+;Exported by: Joe
+;Date:        Fri Jan 03 17:49:08 2014
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\BF2 Completed, Helmet & Equiptment\German_equiptment\AFRAME\Variation_A.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "zeltbahn"
+			{Matrix34
+				0.059807	-0.987059	0.148785
+				0.998049	0.0618069	0.00884955
+				-0.0179309	0.147965	0.98883
+				5.40171	3.21633	0.0890341
+			}
+			{VolumeView "zeltbahn.ply"}
+		}
+		{bone "a_frame_bag"
+			{Matrix34
+				0.0598075	-0.987059	0.148785
+				0.998049	0.0618073	0.00884955
+				-0.017931	0.147965	0.98883
+				6.70731	3.53647	1.26167
+			}
+			{VolumeView "a_frame_bag.ply"}
+		}
+		{bone "mess_tin"
+			{Matrix34
+				0.0598075	-0.987059	0.148785
+				0.998049	0.0618073	0.00884955
+				-0.017931	0.147965	0.98883
+				8.03419	3.41698	-0.0570455
+			}
+			{VolumeView "mess_tin.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-0.99855	-0.0532394	0.00797504
+				0.0538322	-0.988457	0.141618
+				0.000343278	0.141842	0.989889
+				9.8805	3.57448	0.612396
+			}
+		}
+		{bone "a_frame"
+			{Position 6.94483	2.99303	-1.16616}
+			{VolumeView "a_frame.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 6.51057 6.93979 3.33077}
+	{Bone "basis"}
+	{Matrix34
+		0.998962	0.045558	0
+		-0.044753	0.98131	-0.187157
+		-0.00852649	0.186963	0.98233
+		7.07294	3.20336	0.210925
+	}
+}
+{Volume "select"
+	{Box 6.51057 6.93979 3.33077}
+	{Bone "basis"}
+	{Matrix34
+		0.998962	0.045558	0
+		-0.044753	0.98131	-0.187157
+		-0.00852649	0.186963	0.98233
+		7.07294	3.20336	0.210925
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.68505	-5.25172	11.1618}
+			{lookat 6.40705	-4.2422	5.17705}
+			{fov 45}
+			{horizon -58.7499}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.93836	-6.34318	8.63437}
+			}
+			{"1"
+				{type point}
+				{position 6.20666	-3.34593	9.16039}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0243036	-0.0131483	0.0881618}
+				{ambient 0x1d1d1d}
+			}
+		}
+	}
+}

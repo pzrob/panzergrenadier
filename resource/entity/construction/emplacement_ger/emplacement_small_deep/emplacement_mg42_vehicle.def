@@ -1,0 +1,40 @@
+{
+	(include "/properties/emplacement_foxhole.ext")
+	{extension "emplacement_mgun_vehicle.mdl"}
+	{props "sand" "parts" "foxhole_spawned" "small" "no_scavenge" "trench"}
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+	{placer
+		{place "mgun"
+			{entity "mg42_tripod_stat"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "sandbag_00"
+			{entity "sandbag_structured_curved_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+	}	
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_mg42_mgun_stage"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_deep_mg_bunker_stage_ger"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_deep_bush_cover_stage"}
+		}
+	}
+}

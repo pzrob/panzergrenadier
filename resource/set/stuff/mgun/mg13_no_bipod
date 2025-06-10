@@ -1,0 +1,16 @@
+{from "pattern mgun_light"
+	{inventory {size 6 2}}
+	{filling "mgun_ger mg13" 100}
+	{entity "mg13_no_bipod"}
+	{fireSound "smallarms/s3/d1/GER/MG13/"}
+	{fireSoundclose "smallarms/s3/3p/GER/MG13/"}
+	{reloadSound "mg34"}
+	{calibre 7.92}
+	{mass 13.3}
+
+	("fire rate" rpm(600))
+	("velocity" mps(890))
+
+	("burst_short")
+	("spreading_low")
+}

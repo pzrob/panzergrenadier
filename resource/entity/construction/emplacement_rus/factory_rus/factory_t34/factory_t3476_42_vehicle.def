@@ -1,0 +1,71 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{Extension "factory_t3476_42_vehicle.mdl"}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{volume "body" {able clear {obstacle}}}
+	{placer
+		{place "tank"
+			{entity "t3476_42"}
+			{Linkbone "tank"}
+			{handlebone "body"}
+		}
+		{place "flag"
+			{entity "flag_stick"}
+			{Linkbone "flag"}
+			{handlebone "body"}
+		}
+		{place "5t_kran"
+			{entity "5t_kran"}
+			{Linkbone "5t_kran"}
+			{handlebone "body"}
+		}
+		{place "generator"
+			{entity "factory_generator"}
+			{Linkbone "generator"}
+			{handlebone "body"}
+		}
+		{place "gate"
+			{entity "red_october_entrance"}
+			{Linkbone "gate"}
+			{handlebone "body"}
+		}
+		{place "wall_01"
+			{entity "factory_wall_middle_indestructible"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "factory_wall_middle_indestructible"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+		{place "wall_03"
+			{entity "factory_wall_middle_indestructible"}
+			{Linkbone "wall_03"}
+			{handlebone "body"}
+		}
+
+		{place "pillar_03"
+			{entity "fence_industrial_02_column_indestructible"}
+			{Linkbone "pillar_03"}
+			{handlebone "body"}
+		}
+		{place "pillar_04"
+			{entity "fence_industrial_02_column_indestructible"}
+			{Linkbone "pillar_04"}
+			{handlebone "body"}
+		}
+		{place "roof_exterior01"
+			{entity "fh_exterior01"}
+			{Linkbone "roof_exterior01"}
+			{handlebone "body"}
+		}
+		{place "roof_top"
+			{entity "f_v1_c21_roof_indestructible"}
+			{Linkbone "roof_top"}
+			{handlebone "body"}
+		}
+	}
+}

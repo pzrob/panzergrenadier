@@ -1,0 +1,69 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_90mm_m1a1_sandbag_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+    {placer
+		;{place "exit"
+			;{entity "euro_log_trench_dirt_exit"}
+			;{Linkbone "exit"}
+			;{handlebone "body"}
+		;}
+		;{place "netting_square"
+			;{entity "netting_square"}
+			;{Linkbone "netting_square"}
+			;{handlebone "body"}
+		;}
+		{place "sandbag_framed_straight_0"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_0"}
+			{handlebone "body"}
+		}	
+		{place "sandbag_framed_straight_00"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_00"}
+			{handlebone "body"}
+		}		
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_03"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_03"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_framed_straight_01"
+			;{entity "sandbag_framed_straight_90_indestructible"}
+			;{Linkbone "sandbag_framed_straight_01"}
+			;{handlebone "body"}
+		;}
+		;{place "sandbag_framed_straight_03"
+			;{entity "sandbag_framed_straight_90_indestructible"}
+			;{Linkbone "sandbag_framed_straight_03"}
+			;{handlebone "body"}
+		;}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_04"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_04"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_framed_straight_02"
+			;{entity "sandbag_framed_straight_270_indestructible"}
+			;{Linkbone "sandbag_framed_straight_02"}
+			;{handlebone "body"}
+		;}	
+		;{place "sandbag_framed_straight_04"
+			;{entity "sandbag_framed_straight_270_indestructible"}
+			;{Linkbone "sandbag_framed_straight_04"}
+			;{handlebone "body"}
+		;}
+
+	}
+}

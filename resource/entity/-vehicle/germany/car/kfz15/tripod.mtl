@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/tripod"}
+	{bump "$/_vehicle/tripod_bp"}
+	{specular "$/_vehicle/tripod_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,5 @@
+{from "pattern heavy_headgear"
+	{tag "tex_mod4"}
+	{tag "armor"}
+	{entity "ger_helmet_43a"}
+}

@@ -1,0 +1,6 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "euro_log_trench_dirt_straight_short_roof_sandbag_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "target_emplacement" "roof_sandbag_stage"}
+	("armor_heavy")
+}

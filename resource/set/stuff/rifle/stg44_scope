@@ -1,0 +1,6 @@
+{from "stg44"
+	{entity "stg44_scope"}
+
+	("accuracy_rifle_auto")
+	("scopeview" scope(zoom_vignette_scope_ger_k98))
+}

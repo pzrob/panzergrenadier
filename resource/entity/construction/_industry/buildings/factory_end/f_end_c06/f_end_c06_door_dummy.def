@@ -1,0 +1,5 @@
+{game_entity
+	;(include "/properties/building.inc")
+	;{props  "steel" "shed" "construction" "big" "side_door"}
+	{extension "f_end_c06_door_dummy.mdl"}
+}

@@ -1,0 +1,109 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "wooden_tower.mdl"}
+	{props "-trench" "wood" "sandbag" "construction"}
+	{obstacleid "trench_wall"}
+	{collider "construction"}
+	{lodclass "decor_trench"}
+	{volume "box_3_01"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 0} {obstacle 1}}
+	}
+	{volume "box_3_02"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 0} {obstacle 1}}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+	}	
+	{volume "body1_01"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body2_01"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body3_01"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body1_02"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body2_02"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body3_02"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body1_03"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body2_03"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body3_03"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body1_04"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body2_04"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "body3_04"
+		{Tags "body"}
+		{thickness 60}
+		{material "sand"}
+		{able {visible 0} {obstacle 1}}
+	}
+	{volume "floor"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1}{obstacle 0}{contact 0}}
+	}
+	{volume "stair01"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+	}
+	{volume "stair02"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {Obstacle 0}}
+	}
+}
+

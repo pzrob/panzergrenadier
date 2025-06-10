@@ -1,0 +1,119 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "halftrack" "wheeled" "open_top" "turret" "with_gun" "muzzle_37mm_40mm_auto" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_light" "open_death_fx" "emplacement_halftrack_trench_reversed_low"}
+    {tag "emplacement_halftrack_trench"}
+	{able "emit_passangers_on_enemy"}
+	{extension "m15a1_cgmc.mdl"}
+	(include "m15a1_cgmc.ext")
+	{patherId "m3halftrack"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_zenite"}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_big-midcar_driver"} {end "seat_kubel_driver"} {base "doorleft"}}
+			{reverse {end "board_big-midcar_driver" -1} {base "doorleft" -1}}
+		}
+		{anm "commander"
+			{forward {begin "board_big-midcar"} {end "seat_kubel_commander"} {base "doorright"}}
+			{reverse {end "board_big-midcar" -1} {base "doorright" -1}}
+		}
+		{anm "gunner"
+			{forward {begin "board_body"} {end "seat_m15a1_gunner"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_body"} {end "seat_m15a1_gunner2"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "charger"
+			{forward {begin "board_body"} {end "seat_m15a1_charger"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "gunner4"
+			{forward {begin "board_body"} {end "pose_m3a1e1_gunner4"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "passenger"
+			{forward {begin "board_body"} {end "seat_passenger"}}
+			{reverse {end "emit_body" 1}}
+		}
+	}
+
+	{sensor
+		{visor "main"
+			{vision "cannon_main"}
+		}
+	}
+
+	("crew" place(driver)		bone(driver)	door(emit1)	animation(driver)	 visor(driver) off({sensor}))
+	("crew" place(gunner)		bone(gunner)	door(emit3)	animation(gunner)	 visor(none) off())
+	("crew" place(gunner2)		bone(gunner2)	door(emit4)	animation(gunner2)	 visor(none) off())
+	("crew" place(charger)		bone(charger)	door(emit3)	animation(charger)	 visor(none) off())
+	("crew" place(charger2)		bone(seat03)	door(emit4)	animation(passenger) visor(none) off())
+
+	("crew_human" place(seat1)	bone(seat01)	door(emit2)	animation(commander) group(passenger))
+	("crew_human" place(seat2)	bone(seat02)	door(emit2)	animation(commander) group(passenger))
+	;("crew_human" place(seat3)	bone(seat03)	door(emit4)	animation(passenger) group(passenger))
+
+
+	{extender "inventory"
+		{Box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletusa_37_auto apc" 40}		; 200 rounds
+			{item "bulletusa_37_auto he" 150}
+			{item "hmgun_usa api" 800}				; 1200 rounds
+			;{item "ammo m1_carbine_mag" 450}		; .30cal
+			;{item "ammo thompson_mag stick 30" 420}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_m1a2" filling "ammo bulletusa_37_auto he" 10}
+			{gunner "gunner gunner2" minWorkers 1}
+			{charger "charger charger2" minWorkers 1}
+			("abm_dymamic_aa"
+				zeroing(1.95)
+				dispersion(0.24)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{Barrels 2}
+			{weapon "browning_m2_x2" filling "hmgun_usa api" 400}
+			{foresight "foresight14"}
+			{gunner "gunner gunner2" minWorkers 1}
+			{charger "charger charger2" minWorkers 1}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 9100}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.58) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(72) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(14) ;--------------------------------Max speed in Reverse.
+			weight(9.1) ;--------------------------------Weight in Tonnes.
+			power(147) ;---------------------------------Horse Power.
+			fuel(225) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(320) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "gun_rot"
+		{limits -5 88}
+		{speed2 20}
+	}
+	{bone "turret"
+		{speed2 30}
+	}
+}

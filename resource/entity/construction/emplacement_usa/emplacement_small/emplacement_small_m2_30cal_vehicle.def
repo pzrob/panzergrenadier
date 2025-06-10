@@ -1,0 +1,40 @@
+{
+	(include "/properties/emplacement_foxhole.ext")
+	{extension "emplacement_small_m2_30cal_vehicle.mdl"}
+	{props "sand" "foxhole_spawned" "small" "foxhole_destroy" "jettison_sandbags1" "no_scavenge" "vision_lev02_can"}
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+
+	("foxhole" args "body1")
+	("foxhole" args "body2")
+	("foxhole" args "body3")
+	("foxhole" args "body4")
+
+	{placer
+		{place "floor_01"
+			{entity "sand-shuttering-box_5"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "mgun"
+			{entity "m2_30cal_squat_stat"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		;{level ;// level 1
+			;{steps 0}
+			;{radius 1.0}
+			;{buildTime 15}
+			;{entity "emplacement_small_m2_30cal_mgun_stage"}
+		;}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_mgun_bunker_stage"}
+		}
+	}
+}

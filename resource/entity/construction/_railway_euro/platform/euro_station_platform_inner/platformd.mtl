@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_euro/train_platforms_inner"}
+	{bump "$/_euro/train_platforms_bp"}
+	{specular "$/_euro/train_platforms_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,22 @@
+;// TOC
+{game_entity
+	(include "/properties/construction.inc")
+	{props "small" "wood" "construction" "parts" "no_destroyed_stamp" "burning" "break_on_burn"}
+
+	{Extension "crate_one.mdl"}
+	{props "inventory_box" "spread_items"}
+	{ObstacleID "stuff"}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}
+			{item "m24 grenade" 3}
+		}
+	}
+	{Volume "box002"
+		{Tags "body" "fire"}
+		{thickness 5}
+		{able {touch}}
+	}
+	{lodclass "decor_medium"}
+}

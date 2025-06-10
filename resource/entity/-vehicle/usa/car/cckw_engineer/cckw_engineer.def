@@ -1,0 +1,17 @@
+{game_entity
+	(include "engineer.inc")
+	{extension "cckw_engineer.mdl"}
+
+	{extender "inventory"
+		{box
+			{item "repair_kit" 5}
+			{item "m1a1" "mine" 60}
+			{item "mine_detector" 2}
+			{item "shovel_usa" 5}
+			{item "pickaxe" 5}
+			{item "satchel_charge_usa" 5}
+			{item "m2" "mine" 120}
+			{item "wirecutters" 2}
+		}
+	}
+}

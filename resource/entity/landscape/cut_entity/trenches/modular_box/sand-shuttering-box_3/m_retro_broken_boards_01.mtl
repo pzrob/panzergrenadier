@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_wood/euro_planks"}
+	{bump "$/_wood/euro_planks_bp"}
+	{specular "$/_wood/euro_planks_sp"}
+	{color "230 230 230 45"}
+	{blend none}
+}

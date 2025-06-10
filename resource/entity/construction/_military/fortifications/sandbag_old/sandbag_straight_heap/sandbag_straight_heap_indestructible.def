@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "sand" "sandbag" "heap" "construction" "no_destroyed_stamp" "no_stage"}
+	{extension "sandbag_straight_heap.mdl"}
+	{constrain surface}
+
+	{volume "body"
+		{Tags "body" "climb"}
+		{thickness 80}
+		{able {visible 1}{touch 1}}
+	}
+}

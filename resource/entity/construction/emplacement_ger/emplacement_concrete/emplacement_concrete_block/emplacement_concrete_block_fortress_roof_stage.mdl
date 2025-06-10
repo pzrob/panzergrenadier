@@ -1,0 +1,1853 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 0:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    0   0  ;x -z y
+		}
+		{bone "fortress_wall_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 0.5
+				285    -234   -40  ;x -z y
+			}
+			{bone "fortress_first_floor_wall_right_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	0.525 	 0
+					0 	 0 	 1
+					0    0   0  ;x -z y
+				}
+				{bone "fortress_first_floor_wall_right_wall_block_00"
+					{matrix34
+						0 	 1.8  0
+						0.45    0  0
+						0 	 0 	 1.5
+						-15    25   -28  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_right_wall_block_01"
+					{matrix34
+						1 	 0  0
+						0   -1.4  0
+						0 	 0 	 1
+						0    -38   0  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_right_wall_block_02"
+					{matrix34
+						1 	 0  0
+						0   -1  0
+						0 	 0 	 1
+						0    135   0  ;x -z  y
+					}
+				}
+				{bone "fortress_first_floor_wall_right_wall_block_03"
+					{matrix34
+						1 	 0  0
+						0   -1  0
+						0 	 0 	 1
+						0    270   0  ;x -z  y
+					}
+				}
+				{bone "fortress_first_floor_wall_right_wall_block_04"
+					{matrix34
+						1 	 0  0
+						0   -1  0
+						0 	 0 	 1
+						0    405   0  ;x -z  y
+					}
+				}
+			}
+			{bone "fortress_first_floor_wall_left_stage"
+				{matrix34
+					0.99 	 0 	 0
+					0 	0.515 	 0
+					0 	 0 	 1
+					-491    3   0  ;x -z y
+				}
+				{bone "fortress_first_floor_wall_left_wall_block_00"
+					{matrix34
+						0 	 1.8  0
+						0.5    0  0
+						0 	 0 	 1.5
+						14    25   -28  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_wall_block_01"
+					{matrix34
+						1 	 0  0
+						0   -1.5  0
+						0 	 0 	 1
+						0    -40   0  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_wall_block_02"
+					{matrix34
+						1 	 0  0
+						0   -1  0
+						0 	 0 	 1
+						0    135   0  ;x -z  y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_wall_block_03"
+					{matrix34
+						1 	 0  0
+						0   -1  0
+						0 	 0 	 1
+						0    270   0  ;x -z  y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_wall_block_04"
+					{matrix34
+						1 	 0  0
+						0   -1  0
+						0 	 0 	 1
+						0    405   0  ;x -z  y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_wall_block_05"
+					{matrix34
+						1 	 0  0
+						0   -1  0
+						0 	 0 	 1
+						0    540   0  ;x -z  y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_wall_block_06"
+					{matrix34
+						1 	 0  0
+						0   -0.97  0
+						0 	 0 	 1
+						0    680   0  ;x -z  y
+					}
+				}
+			}
+		}
+		{bone "outer_wall_stage"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				0    0   -105  ;x -z y
+			}
+			{bone "outer_wall_front_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					-239   -565   0  ;x -z y
+				}
+			{bone "outer_wall_front_block_stage"
+				{matrix34
+					0.55  0 	 0
+					0 	 0.9 0
+					0 	 0 	 0.5
+					0    0   0  ;x -z y
+				}
+				{bone "outer_wall_front_wall_block_01"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_02"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						135    0   0  ;x -z y
+						;130    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_03"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						270    0   0  ;x -z y
+						;260    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_04"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						405    0   0  ;x -z y
+						;390    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_05"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						540    0   0  ;x -z y
+						;520    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_06"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						675    0   0  ;x -z y
+						;650    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_07"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						810    0   0  ;x -z y
+						;780    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_08"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						945    0   0  ;x -z y
+						;910    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_09"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						1080    0   0  ;x -z y
+						;1040    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_front_wall_block_10"
+					{matrix34
+						0 	 1 	 0
+						2.4	 0 	 0
+						0 	 0 	 1
+						1230    0   0  ;x -z y
+					}
+				}
+			}
+			}
+			{bone "outer_wall_front_standing_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					-166   -537   -30  ;x -z y
+				}
+				{bone "outer_wall_front_standing_block_stage"
+					{matrix34
+						0    0.45 0
+						0.9  0   0
+						0 	 0 	 1
+						0    0   0  ;x -z y
+					}
+					{bone "outer_wall_front_standing_wall_block_01"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_front_standing_wall_block_02"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0   83   0  ;-z x y
+							
+						}
+					}
+					{bone "outer_wall_front_standing_wall_block_03"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0   166   0  ;-z x y
+							
+						}
+					}
+					{bone "outer_wall_front_standing_wall_block_04"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0   249   0  ;-z x y
+							
+						}
+					}
+					{bone "outer_wall_front_standing_wall_block_05"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0   332   0  ;-z x y
+							
+						}
+					}
+					{bone "outer_wall_front_standing_wall_block_06"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0   415   0  ;-z x y
+							
+						}
+					}
+					{bone "outer_wall_front_standing_wall_block_07"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0   498   0  ;-z x y
+							
+						}
+					}
+				}
+			}
+			{bone "outer_wall_right_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					493   -314   -30  ;x -z y
+				}
+				{bone "outer_wall_right_block_stage"
+					{matrix34
+						0    0.55 0
+						0.9  0   0
+						0 	 0 	 1
+						0    0   0  ;x -z y
+					}
+					{bone "outer_wall_right_wall_block_0"
+						{matrix34
+							0 	 -1  0
+							2.03 	 -0  0
+							0 	 0 	 1
+							-340    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_00"
+						{matrix34
+							0 	 -1  0
+							2.03 	 -0  0
+							0 	 0 	 1
+							-142    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_01"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							0    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_02"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							135    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_03"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							270    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_04"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							405    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_05"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							540    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_06"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							675    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_07"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							810    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_08"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							945    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_09"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							1080    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_10"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							1215    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_11"
+						{matrix34
+							0 	 -1  0
+							1 	 -0  0
+							0 	 0 	 1
+							1350    0   0  ; -z x y
+						}
+					}
+					{bone "outer_wall_right_wall_block_12"
+						{matrix34
+							0 	 -1  0
+							2.65 	 -0  0
+							0 	 0 	 1
+							1530    0   0  ; -z x y
+						}
+					}
+				}
+			}
+			{bone "outer_wall_right_standing_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					465   -240   -30  ;x -z y
+				}
+			{bone "outer_wall_right_standing_block_stage"
+				{matrix34
+					0.45  0 	 0
+					0 	 0.9 0
+					0 	 0 	 1
+					0    0   0  ;x -z y
+				}
+				{bone "outer_wall_right_standing_wall_block_01"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    0   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_right_standing_wall_block_02"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    83   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_right_standing_wall_block_03"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    166   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_right_standing_wall_block_04"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    249   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_right_standing_wall_block_05"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    332   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_right_standing_wall_block_06"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    415   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_right_standing_wall_block_07"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    498   0  ;x -z y
+					}
+				}
+				{bone "outer_wall_right_standing_wall_block_08"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    581   0  ;x -z y
+					}
+				}
+			}
+			}
+			{bone "fortress_first_floor_wall_left_standing_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					-175   -158   35  ;x -z y
+				}
+			{bone "fortress_first_floor_wall_left_standing_block_stage"
+				{matrix34
+					0.45  0 	 0
+					0 	 0.9 0
+					0 	 0 	 1
+					0    0   0  ;x -z y
+				}
+				{bone "fortress_first_floor_wall_left_standing_wall_block_01"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    0   0  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_standing_wall_block_02"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    77   0  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_standing_wall_block_03"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    154   0  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_left_standing_wall_block_04"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    231   0  ;x -z y
+					}
+				}
+			}
+			}
+			{bone "fortress_first_floor_wall_right_standing_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					255   -176   35  ;x -z y
+				}
+			{bone "fortress_first_floor_wall_right_standing_block_stage"
+				{matrix34
+					0.45  0 	 0
+					0 	 0.9 0
+					0 	 0 	 1
+					0    0   0  ;x -z y
+				}
+				{bone "fortress_first_floor_wall_right_standing_wall_block_01"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    0   0  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_right_standing_wall_block_02"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    77   0  ;x -z y
+					}
+				}
+				{bone "fortress_first_floor_wall_right_standing_wall_block_03"
+					{matrix34
+						0 	 1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						0    154   0  ;x -z y
+					}
+				}
+			}
+			}
+		}
+			
+		
+	{bone "exterior01"
+		{matrix34
+			1 	 0 	 0
+			0 	 1.0 	 0
+			0 	 0 	 1
+			0    0  50  ;x -z y
+		}
+	{bone "roof_front_stage"
+		{matrix34
+			1.33  	 0 	 0
+			0 	 1.8 	 0
+			0 	 0 	 1
+			-164    -522  -123  ;x -z y
+		}
+	{bone "roof_front_first_line_block_stage"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    0  0  ;x -z y
+		}
+	{bone "roof_front_first_line_block_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-198	0	 3 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_first_line_block_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-24	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_first_line_block_03"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			72	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_first_line_block_04"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			168	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_first_line_block_05"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			264	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_first_line_block_06"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			360	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_first_line_block_07"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			454	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+    }
+    {bone "roof_front_second_line_block_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    58  0  ;x -z y
+		}
+	{bone "roof_front_second_line_block_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-198	0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_second_line_block_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-24	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_second_line_block_03"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			72	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_second_line_block_04"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			168	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_second_line_block_05"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			264	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_second_line_block_06"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			360	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_second_line_block_07"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			454	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+		{VolumeView "exterior01_lod1.ply"}
+		{VolumeView "exterior01_lod2.ply"}
+		{VolumeView "exterior01_lod3.ply"}
+    }
+    }
+    }
+	{bone "roof_rear_stage"
+		{matrix34
+			1.18  	 0 	 0
+			0 	 2.01 	 0
+			0 	 0 	 1
+			-296    206  -126  ;x -z y
+		}
+	{bone "roof_rear_first_line_block_stage"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    0  0  ;x -z y
+		}
+	{bone "roof_rear_first_line_block_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-120	0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_first_line_block_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-24	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_first_line_block_03"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			72	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_first_line_block_04"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			168	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_first_line_block_05"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			264	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_first_line_block_06"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			360	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_first_line_block_07"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			454	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+    }
+    {bone "roof_rear_second_line_block_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    58  0  ;x -z y
+		}
+	{bone "roof_rear_second_line_block_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-120	0	 3 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_second_line_block_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-24	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_second_line_block_03"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			72	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_second_line_block_04"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			168	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_second_line_block_05"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			264	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_second_line_block_06"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			360	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_second_line_block_07"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			454	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+    }
+	{bone "roof_rear_third_line_block_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    116  0  ;x -z y
+		}
+	{bone "roof_rear_third_line_block_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-120	0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_third_line_block_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-24	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_third_line_block_03"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			72	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_third_line_block_04"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			168	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_third_line_block_05"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			264	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_third_line_block_06"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			360	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_third_line_block_07"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			454	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+    }
+	{bone "roof_rear_fourth_line_block_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    174  0  ;x -z y
+		}
+	{bone "roof_rear_fourth_line_block_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-120	0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_fourth_line_block_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-24	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_fourth_line_block_03"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			72	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_fourth_line_block_04"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			168	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_fourth_line_block_05"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			264	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_fourth_line_block_06"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			360	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_fourth_line_block_07"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			454	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+    }
+    }
+	{bone "roof_right_stage"
+		{matrix34
+			1.8  	 0 	 0
+			0 	 1.27 	 0
+			0 	 0 	 1
+			451    -305  -123  ;x -z y
+		}
+		{bone "roof_right_first_line_block_stage"
+			{matrix34
+				1	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				0    0  0  ;x -z y
+			}
+			{bone "roof_right_first_line_block_01"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	0	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_first_line_block_02"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	96	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_first_line_block_03"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	192	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_first_line_block_04"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	288	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_first_line_block_05"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	384	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_first_line_block_06"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	480	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_first_line_block_07"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	576	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_first_line_block_08"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	672	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+    	}
+		{bone "roof_right_second_line_block_stage"
+			{matrix34
+				1	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				-58    0  0  ;x -z y
+			}
+			{bone "roof_right_second_line_block_01"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	0	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_second_line_block_02"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	96	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_second_line_block_03"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	192	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_second_line_block_04"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	288	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_second_line_block_05"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	384	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_second_line_block_06"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	480	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_second_line_block_07"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	576	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_right_second_line_block_08"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	672	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+    	}
+    }
+	{bone "roof_left_stage"
+		{matrix34
+			2.37  	 0 	 0
+			0 	 1.35 	 0
+			0 	 0 	 1
+			-286    -307  -123  ;x -z y
+		}
+		{bone "roof_left_first_line_block_stage"
+			{matrix34
+				1	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				0    0  0  ;x -z y
+			}
+			{bone "roof_left_first_line_block_01"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	0	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_left_first_line_block_02"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	96	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_left_first_line_block_03"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	192	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_left_first_line_block_04"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	288	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+    	}
+		{bone "roof_left_second_line_block_stage"
+			{matrix34
+				1	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				-58    0  0  ;x -z y
+			}
+			{bone "roof_left_second_line_block_01"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	0	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_left_second_line_block_02"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	96	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_left_second_line_block_03"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	192	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "roof_left_second_line_block_04"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	288	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+    	}
+    }
+	{bone "fortress_roof_left_stage"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-158    -258  -57  ;x -z y
+		}
+		{bone "fortress_roof_left_block_stage"
+			{matrix34
+				1.7 	 0 	 0
+				0 	 0.9 	 0
+				0 	 0 	 0.6
+				0    0  0  ;x -z y
+			}
+			{bone "fortress_roof_left_block_01"
+				{matrix34
+					0 	0   -1
+					0 	-0.8	 0
+					0.37	0    0	
+					-18	12	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_left_block_02"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	96	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_left_block_03"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	192	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_left_block_04"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	288	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_left_block_05"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	384	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+    	}
+		
+    }
+	{bone "fortress_roof_right_stage"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			231    -250  -57  ;x -z y
+		}
+		{bone "fortress_roof_right_block_stage"
+			{matrix34
+				1.7 	 0 	 0
+				0 	 0.74 	 0
+				0 	 0 	 0.6
+				0    0  0  ;x -z y
+			}
+			{bone "fortress_roof_right_block_01"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					0.37	0    0	
+					18	5	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_right_block_02"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	96	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_right_block_03"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	192	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_right_block_04"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1	0    0	
+					0	288	 0  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+			{bone "fortress_roof_right_block_05"
+				{matrix34
+					0 	0   -1
+					0 	-1	 0
+					1.1	0    0	
+					-42	384	 12  ;x -z
+				}	
+        		{VolumeView "exterior01.ply"}
+    		}
+    	}
+		
+    }
+    }
+    }
+	
+}
+
+{area "interior"
+	{obb2
+		{center -0.625824 7.7828}
+		{extent 500.0 500.0}
+		{axis -1 0}
+	}
+	{rotate}
+}
+
+{volume "roof_front_first_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_first_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_first_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_first_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_first_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_first_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_first_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_first_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_first_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_first_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_first_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_first_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_first_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_first_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_second_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_second_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_second_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_second_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_second_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_second_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_second_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_second_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_second_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_second_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_second_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_second_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_front_second_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_front_second_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_first_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_first_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_first_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_first_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_first_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_first_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_first_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_first_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_first_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_first_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_first_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_first_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_first_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_first_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_second_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_second_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_second_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_second_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_second_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_second_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_second_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_second_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_second_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_second_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_second_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_second_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_second_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_second_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_third_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_third_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_third_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_third_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_third_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_third_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_third_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_third_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_third_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_third_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_third_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_third_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_third_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_third_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_fourth_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_fourth_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_fourth_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_fourth_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_fourth_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_fourth_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_fourth_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_fourth_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_fourth_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_fourth_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_fourth_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_fourth_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_rear_fourth_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_rear_fourth_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_first_line_block_08" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_first_line_block_08"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_06" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_06"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_07" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_07"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_right_second_line_block_08" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_right_second_line_block_08"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_first_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_first_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_first_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_first_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_first_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_first_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_first_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_first_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_second_line_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_second_line_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_second_line_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_second_line_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_second_line_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_second_line_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "roof_left_second_line_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "roof_left_second_line_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_left_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_left_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_left_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_left_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_left_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_left_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_left_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_left_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_left_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_left_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_right_block_01" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_right_block_01"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_right_block_02" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_right_block_02"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_right_block_03" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_right_block_03"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_right_block_04" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_right_block_04"}
+    {Position -0.1927    -0.8813    0.3677}
+}
+{volume "fortress_roof_right_block_05" 
+    {box 19.111 100.139 59.7904}
+    {bone "fortress_roof_right_block_05"}
+    {Position -0.1927    -0.8813    0.3677}
+}

@@ -1,0 +1,23 @@
+;Exported by:	 Alexey
+;Date:			 07.02.2017 14:08:26
+;File:			 I:\VTV_models\Models_For_WiW\-buildings\-FIELD_FORTIFICATION\trenches_bare_dirt_coop2012\-Fixed\trench_dirt_pit_v03.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "trench"
+		{parameters "commonmesh;land;align;"}
+		{matrix34
+			-1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-40 	 0 	 0
+		}
+		{VolumeView "trench.ply"}
+	}
+	}
+}

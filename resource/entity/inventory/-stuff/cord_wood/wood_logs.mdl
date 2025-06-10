@@ -1,0 +1,51 @@
+;Exported by:	 User
+;Date:			 29.11.2019 18:10:09
+;File:			 D:\Working (GoH)\Small props\Wood logs\Max\wood_logs [2015].max
+{skeleton
+	{bone "wood_logs"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "wood_logs.ply"}
+			{VolumeView "wood_logs_lod1.ply"}
+			{VolumeView "wood_logs_lod2.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 12.5376 16.3874 4.78239}
+	{bone "wood_logs"}
+	{Position 0.0133 	 0.0168 	 2.3765}
+}
+{volume "select"
+	{box 19.685 24.6063 8.87795}
+	{bone "wood_logs"}
+	{Position -0.4175 	 0.1611 	 2.7811}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -39.0544 	 31.7342 	 15.7268}
+			{lookat 0.4058 	 0.1146 	 0.8253}
+			{fov 23.9132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.3478 	 0.2207 	 -0.2834}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0716 	 -0.4918 	 -0.0552}
+			}
+			{"2"
+				{type directional}
+				{direction -0.4363 	 0.0441 	 -0.2403}
+				{diffuse 0xffbcbcbc}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/concrete_cut"}
+	{bump "$/_military/concrete_cut_bp"}
+	{specular "$/_military/concrete_cut_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

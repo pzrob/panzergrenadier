@@ -1,0 +1,105 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
+	{props "td" "medium" "-turret" "multi_board" "vision_lev04" "muzzle_85mm_93mm_sides" "shell_eject" "open_top" "ammo_open_top" "emplacement_tank_trench_ferdinand"}
+	{extension "nashorn.mdl"}
+	(include "nashorn.ext")
+	{patherId "nashorn"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_heavy"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_220"}
+			{bone "visor1"}
+		}
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_pz4_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "gunner3"
+			{forward {begin "board_MiddleArmor"} {end "pose_t26_driver"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "commander"
+			{forward {begin "board_tank_left"} {end "seat_nashorn_commander"} {base "board"}}
+			{reverse {end "emit_tank_1"} {base "board"}}
+		}
+		{anm "left" ;// gunner
+			{forward {begin "board_tank_left"} {end "seat_nashorn_gunner"} {base "board"}}
+			{reverse {end "emit_tank_2_hold"} {base "board"}}
+		}
+		{anm "right" ;// charger
+			{forward {begin "board_tank_right"} {end "seat_nashorn_charger"} {base "board"}}
+			{reverse {end "emit_tank_2_hold"} {base "board"}}
+		}
+	}
+
+	("crew_driver" door(emit0) door2(emit1) door3(emit2))
+	("crew_human_visible_anm"	place(gunner)	 door(emit1) door2(emit2) visor(main)	anm_left(left)		anm_right(left))
+	("crew_human_visible_anm"	place(charger)	 door(emit1) door2(emit2) visor(none)	anm_left(right)		anm_right(right))
+	("crew_human" 				place(gunner3)	 door(emit1) door2(emit2) visor(none))
+	("crew_human_visible_anm"	place(commander) door(emit1) door2(emit2) visor(around) anm_left(commander)	anm_right(commander))
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+			{item "bulletger_88_l71 apcbche" 19}	; 40 rounds
+			{item "bulletger_88_l71 he" 20}
+			{item "ammo mgun_ger drum" 550}			; 12 drums (50 rounds each)
+			{item "mg34_drum" filled}
+			{item "geballteladung_3kg" 1}
+		    {item "sandbag_vehicle" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "88mm_pak43" filling "bulletger_88_l71 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger gunner3" minWorkers 1}
+			("abm_dymamic_stabilised"
+				zeroing(3.0)
+				dispersion(0.20)
+			)
+		}
+	}
+
+	{mass 24000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.2) len(-0.52))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(10) ;--------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(24) ;---------Weight in Tonnes.
+			power(265) ;---------Engine Power, in hp.
+			track(4.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(600) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(130) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -5 20}
+		{speed2 8}
+	}
+	{bone "turret"
+		{limits -15 15}
+		{speed2 8}
+	}
+}

@@ -1,0 +1,7 @@
+{from "dt"
+	{filling "mgun_rus" 126}
+	{mass 24.2}
+	("fire rate" rpm(1600))
+
+	("reload time" seconds(10))
+}

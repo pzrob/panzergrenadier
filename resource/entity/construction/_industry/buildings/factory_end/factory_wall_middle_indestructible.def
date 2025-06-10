@@ -1,0 +1,82 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props  "concrete" "construction" "big"}
+	{obstacleID "unbreakable"}
+	{extension "factory_wall_middle.mdl"}
+	{placer}
+	{extender "structure"
+		{place "p03" "f_end_c03"}
+		{place "p04" "f_end_c04"}
+		{place "p05" "f_end_c05"}
+		{place "p02" "f_end_c02"}
+		{place "p01" "f_end_c01"}
+		{place "p06" "f_end_c06"}
+		{place "p07" "f_end_c07"}
+	}
+	{volume "body01"
+		{thickness 30}
+		{able {visible 1}}
+	}
+	{volume "body02"
+		{thickness 30}
+		{able {visible 1}}
+	}
+	{volume "body03"
+		{thickness 30}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "body04"
+		{thickness 30}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "body05"
+		{thickness 30}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "body06"
+		{thickness 30}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "body07"
+		{thickness 30}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "body08"
+		{thickness 30}
+		{able {visible 1}{Obstacle 0}}
+	}
+	{volume "body09"
+		{thickness 30}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body10"
+		{thickness 30}
+		{able {visible 0}{holed}{Obstacle 0}}
+	}
+	{volume "body11"
+		{thickness 30}
+		{able {visible 0}{holed}{Obstacle 0}}
+	}
+	{volume "body15"
+		{thickness 30}
+		{able {visible 1}{holed}{Obstacle 0}}
+	}
+	{volume "body16"
+		{thickness 30}
+		{able {visible 1}{holed}{Obstacle 0}}
+	}
+	{volume "body27"
+		{thickness 30}
+		{able {visible 1}}
+	}
+	{volume "body28"
+		{thickness 30}
+		{able {visible 1}}
+	}
+	{volume "hole04"
+		{able clear {hole}}
+	}
+	{volume "hole05"
+		{able clear {hole}}
+	}
+}

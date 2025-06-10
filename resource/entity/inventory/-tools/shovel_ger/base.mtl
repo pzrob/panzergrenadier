@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "kleines_schanzzeug"}
+	{bump "kleines_schanzzeug_bp"}
+	{specular "kleines_schanzzeug_sp"}
+	{color "230 230 230 63"}
+	{blend none}
+}

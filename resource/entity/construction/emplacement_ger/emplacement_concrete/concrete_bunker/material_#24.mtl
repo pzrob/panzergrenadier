@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/ger_bunker_door"}
+	{bump "$/_military/ger_bunker_door_bp"}
+	{specular "$/_military/ger_bunker_door_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

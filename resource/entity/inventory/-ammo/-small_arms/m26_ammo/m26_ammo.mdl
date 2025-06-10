@@ -1,0 +1,58 @@
+;Exported by:	 Carlos
+;Date:			 25.12.2021 13:05:59
+;File:			 T:\goh_3d_human_fin\Weapons\Lahti_M26\madsen_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+			{VolumeView "magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 0.667905 3.98812 0.753733}
+	{bone "magazine"}
+	{Position 0.0763 	 0.0657 	 -0.0236}
+}
+{volume "magazine"
+	{box 1.76655 3.22094 0.548067}
+	{bone "magazine"}
+	{matrix34
+		0.9972 	 0.0749 	 0
+		-0.0749 	 0.9972 	 0
+		0 	 0 	 1
+		0.1122 	 -0.0938 	 0.0048
+	}
+}
+{volume "select"
+	{box 2.33549 3.75328 1.09516}
+	{bone "magazine"}
+	{Position 0.1753 	 -0.1432 	 -0.0046}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -1.0506 	 -22.1802 	 71.7053}
+			{lookat 0.0616 	 -0.9116 	 2.569}
+			{fov 2.17281}
+			{horizon -176.649}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.2936 	 0.117 	 -0.3874}
+			}
+			{"1"
+				{type point}
+				{position -1.67 	 -16.3717 	 14.1675}
+			}
+		}
+	}
+}

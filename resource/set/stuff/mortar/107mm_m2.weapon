@@ -1,0 +1,12 @@
+;_________________________________________
+; US Heavy Mortar - 107mm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarusa_107"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s3/d1/Shared/Mortar/"}
+	{calibre 107}
+	("medium_heavy_mortar_range")
+}

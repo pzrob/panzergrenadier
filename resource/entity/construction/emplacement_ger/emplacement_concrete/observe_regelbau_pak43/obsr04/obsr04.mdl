@@ -1,0 +1,18 @@
+;Exported by:	 marc-
+;Date:			 14.02.2023 22:06:26
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_fortifications\bunk1.max
+{skeleton
+	{bone "c04"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "c04.ply"}
+	}
+}
+{volume "body13"
+	{box 23.1874 52.5902 9.17187}
+	{bone "c04"}
+	{Position 2.4709 	 0.4287 	 -6.8899}
+}

@@ -1,0 +1,28 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_tank_trench_jagdtiger_netting_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "netting_square"
+			{entity "netting_square"}
+			{Linkbone "netting_square"}
+			{handlebone "body"}
+		}
+		{place "netting_square_front"
+			{entity "netting_square_end"}
+			{Linkbone "netting_square_front"}
+			{handlebone "body"}
+		}
+		{place "netting_square_left"
+			{entity "netting_square_end"}
+			{Linkbone "netting_square_left"}
+			{handlebone "body"}
+		}
+		{place "netting_square_right"
+			{entity "netting_square_end"}
+			{Linkbone "netting_square_right"}
+			{handlebone "body"}
+		}
+	}
+}

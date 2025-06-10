@@ -1,0 +1,71 @@
+;Exported by: ART
+;Date:        Wed Sep 15 10:07:31 2021
+;File:        goh_3d_vehicles_fin\3d vehicles\Inventory\rus ammo box\maxim ammo box.max
+{Skeleton
+	{bone "maxim_ammo_box"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "maxim_ammo_box.ply"}
+			{VolumeView "maxim_ammo_box_lod1.ply"}
+			{VolumeView "maxim_ammo_box_lod2.ply"}
+			{VolumeView "maxim_ammo_box_lod3.ply"}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				-0.015056	-0.533102	5.51735
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.55906 5.90551 5.90551}
+	{Bone "maxim_ammo_box"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.41909	0.0315085	2.84558
+	}
+}
+{Volume "select"
+	{Box 3.93701 7.87402 7.87402}
+	{Bone "maxim_ammo_box"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.597398	0.0485312	3.59344
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 12.3511	20.1987	8.45325}
+			{lookat 0.528562	-1.19983	2.32687}
+			{fov 22.6199}
+			{horizon 1.49998}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.449997	-0.144642	-0.163038}
+			}
+			{"1"
+				{type directional}
+				{direction -0.177726	-0.0281698	-0.466497}
+			}
+			{"2"
+				{type directional}
+				{direction -0.221218	-0.379081	0.2395}
+			}
+		}
+	}
+}

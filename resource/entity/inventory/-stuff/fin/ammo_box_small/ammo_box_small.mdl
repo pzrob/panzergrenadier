@@ -1,0 +1,86 @@
+;Exported by: Verena
+;Date:        Wed Jan 31 09:22:53 2018
+;File:        D:\work in progress\Modeling\box_small\box_small_03.max
+{Skeleton
+	{bone "box_small"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box_small.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				-0.015056	-0.533102	5.51735
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 6.71408 4.10867 2.67394}
+	{Bone "box_small"}
+	{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+		-0.0119248	0.0121226	1.96937
+	}
+}
+{Volume "select"
+	{Box 8.70174 6.09769 3.15981}
+	{Bone "box_small"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0167581	0.0296479	2.18413
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.05239	11.8716	8.05228}
+			{lookat -1.30608	-2.55195	0.634349}
+			{fov 32.1543}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.884	17.4687	3.91041}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	-0.0363347	-0.498574}
+			}
+			{"2"
+				{type point}
+				{position 10.7366	1.74578	-29.6537}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 10.0148	19.2126	11.9176}
+			{lookat 2.65634	4.78912	4.49971}
+			{fov 32.1543}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.8353	25.2488	7.92515}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	-0.0363347	-0.498574}
+			}
+			{"2"
+				{type point}
+				{position 13.6879	9.52586	-25.6389}
+			}
+		}
+	}
+}

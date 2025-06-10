@@ -1,0 +1,107 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+(include "armor.ext")
+(include "cannon_crew.ext")
+(include "cannon_armor.ext")
+(include "mobility.inc")
+(include "selection/special.inc" scale(0.5))
+
+("brain_vehicle")
+
+{PatherID "cannon.carried"}
+{collider "cannon_small"}
+
+{targetClass "cannon_bullet"}
+{targetSelector "cannon_bullet"}
+
+{props "stretcher_vehicle" "no_exp_blast" "carried" "cannon" "cannon_small" "wood" "-steel"}
+{able "emit_crew_on_injure"}
+{lodclass "cannon"}
+
+{constrain ground}
+{simulation {able 1} {disableLinked 1}}
+{obstacleID "tank"}
+
+{extender "talk"
+	{talker "cannon"}
+}
+
+{extender "inventory"
+	{Box
+		{Size 6 2}
+		{weight 1000}
+	}
+}
+
+{Weaponry
+	{place "mgun"
+		{charger "gunner"}
+		{LinkBone "mgun"}
+		{LinkAnimation "off"}
+	}
+}
+
+("crew_carried_ammo")
+
+{boarder
+	{anm "gunner"
+		{forward {end "ammo_box_gunner"}}
+	}
+	{anm "commander"
+		{forward {end "ammo_box_commander"}}
+	}
+	{anm "driver1"
+		{forward {end "ammo_box_commander_push"}}
+	}
+	{anm "driver2"
+		{forward {end "ammo_box_gunner_push"}}
+	}
+	{link "driver1" "gunner"}
+	{link "driver2" "commander"}
+}
+
+{extender "cannon"
+	{animation
+		{switch "close"}
+		{move "ammo_box_commander_push" "ammo_box_gunner_push"}
+		{aim "" ""}
+		{fire "" ""}
+		{reload "" ""}
+	}
+	{move {workers "driver1" "driver2" minWorkers 2} {obstacle "close"}} ;// move state: cannon being pushed and which positions play animations
+	{attack {workers "gunner" "commander"}}
+}
+
+{Chassis "human_carrier"
+	("mobility_cannon"
+		speed(14) ;//----------------------------------Max speed.
+		weight(32) ;//---------------------------------Weight in Kilograms.
+	)
+	{FuelBag
+		{volume 1 } ; liters
+		{rate   0 } ; liters per kilometer
+		{remain 1 }
+		{fuel "fuel"}
+	}
+}
+
+{mass 50}
+
+("body" repair(15))
+
+{volume "body"
+	{thickness 5}
+}
+
+{perks
+	{component "body"
+		{health
+			{hp 60}
+			{hp_broken 1}
+		}
+		("global_damage_mod")
+	}
+	{blastwave_modifier 20.0}
+}

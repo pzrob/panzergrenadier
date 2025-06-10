@@ -1,0 +1,387 @@
+{game_entity
+	(include "/properties/building.inc")
+	{obstacleid "unbreakable"}
+	{props  "concrete" "construction" "big" }
+	("armor_heavy")
+	{extension "emplacement_regel_bau_636a.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body08"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body09"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body10"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body11"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body12"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body13"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body14"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body15"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body16"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body17"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body18"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body19"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body20"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body21"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body22"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body23"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body24"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body25"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body26"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body27"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body28"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body29"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body30"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body31"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body32"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body33"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body34"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body35"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body36"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body37"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body38"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body39"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body40"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body41"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body42"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body43"
+		{Tags "body"}
+		{thickness 100}
+		{able {visible 0}{holed}{Obstacle 0}}
+	}
+	{volume "body44"
+		{able clear {hole}}
+	}
+	{volume "body45"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body46"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body47"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body48"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body49"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body50"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body51"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body52"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body53"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body54"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body55"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body56"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body57"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body58"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body59"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body60"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body61"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body62"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body63"
+		{Tags "body"}
+		{thickness 200}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "holed01"
+		{able clear {hole}}
+	}
+	{volume "place01"
+		{Tags "attach" "1"}
+		{able clear {touch 1}}
+	}
+	{volume "place02"
+		{Tags "attach" "2"}
+		{able clear {touch 1}}
+	}
+	{volume "place03"
+		{Tags "attach" "3"}
+		{able clear {touch 1}}
+	}
+	{volume "place04"
+		{Tags "attach" "4"}
+		{able clear {touch 1}}
+	}
+	{volume "place05"
+		{Tags "attach" "5"}
+		{able clear {touch 1}}
+	}
+	{volume "place06"
+		{Tags "attach" "6"}
+		{able clear {touch 1}}
+	}
+	{volume "place07"
+		{Tags "attach" "7"}
+		{able clear {touch 1}}
+	}
+	{volume "place08"
+		{Tags "attach" "8"}
+		{able clear {touch 1}}
+	}
+	{volume "place09"
+		{Tags "attach" "9"}
+		{able clear {touch 1}}
+	}
+	{placer
+		{place "1" {attach snipe_cover} {linkbone "attach1"}}
+		{place "2" {attach snipe_cover} {linkbone "attach2"}}
+		{place "3" {attach snipe_cover} {linkbone "attach3"}}
+		{place "4" {attach snipe_cover} {linkbone "attach4"}}
+		{place "5" {attach snipe_cover} {linkbone "attach5"}}
+		{place "6" {attach snipe_cover} {linkbone "attach6"}}
+		{place "7" {attach snipe_cover} {linkbone "attach7"}}
+		{place "8" {attach snipe_cover} {linkbone "attach8"}}
+		{place "9" {attach snipe_cover} {linkbone "attach9"}}
+	}
+	{Boarder
+		{door "attach1" {queue 0}}
+		{door "attach2" {queue 0}}
+		{door "attach3" {queue 0}}
+		{door "attach4" {queue 0}}		
+		{door "attach5" {queue 0}}
+		{door "attach6" {queue 0}}
+		{door "attach7" {queue 0}}
+		{door "attach8" {queue 0}}
+		{door "attach9" {queue 0}}
+		
+		{link "attach1" 	"1"}
+		{link "attach2" 	"2"}
+		{link "attach3" 	"3"}
+		{link "attach4" 	"4"}		
+		{link "attach5" 	"5"}
+		{link "attach6" 	"6"}
+		{link "attach7" 	"7"}
+		{link "attach8" 	"8"}
+		{link "attach9" 	"9"}		
+		
+		{link "1" 		"attach1"}
+		{link "2" 		"attach2"}
+		{link "3" 		"attach3"}
+		{link "4" 		"attach4"}		
+		{link "5" 		"attach5"}
+		{link "6" 		"attach6"}
+		{link "7" 		"attach7"}
+		{link "8" 		"attach8"}
+		{link "9" 		"attach9"}	
+	}	
+    {Extender "land_patch"
+        {TerrainType "road" "bridge"}
+    }
+    {placer
+		{place "mg_tripod_entrance"
+			{entity "crate_mg_tripod_bunker_entrance"}
+			{Linkbone "mg_tripod_entrance"}
+			{handlebone "body"}
+		}
+		{place "stair"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "stair"}
+			{handlebone "body"}
+		}
+		{place "cut_entity_entry"
+			{entity "regel_bau_636a_cut_entity_entry_dummy"}
+			{Linkbone "cut_entity_entry"}
+			{handlebone "body"}
+		}
+		{place "cut_entity_bunker"
+			{entity "regel_bau_636a_cut_entity_bunker_dummy"}
+			{Linkbone "cut_entity_bunker"}
+			{handlebone "body"}
+		}
+	}
+}

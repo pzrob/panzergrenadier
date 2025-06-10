@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cta - Gates of Hell (desc_gear)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-04-28 12:16+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+msgctxt "desc/stuff/shovel_rus"
+msgid "Soviet Shovel"
+msgstr "苏联工兵铲"
+
+msgctxt "desc/stuff/shovel_rus_light"
+msgid "Soviet Shovel(light)"
+msgstr "苏联工兵铲(轻装工兵专用）"
+
+msgctxt "desc/stuff/shovel_rus_heavy"
+msgid "Soviet Shovel(heavy)"
+msgstr "苏联工兵铲(重型工事）"
+
+msgctxt "desc/stuff/rus_harness_rifle_01_rus_realistic_07"
+msgid "Harness Rifle"
+msgstr "苏军步枪手装具"
+
+msgctxt "desc/stuff/rus_harness_rifle_02_rus_realistic_07"
+msgid "Harness Rifle"
+msgstr "苏军步枪手装具"
+
+msgctxt "desc/stuff/rus_harness_rifle_03_rus_realistic_07"
+msgid "Harness Rifle"
+msgstr "苏军步枪手装具"
+
+msgctxt "desc/stuff/rus_harness_medic_01_rus_realistic_07"
+msgid "Harness Medic"
+msgstr "苏军医药箱"
+
+msgctxt "desc/stuff/rus_harness_smg_01_rus_realistic_07"
+msgid "Harness SMG(Drum)"
+msgstr "苏军冲锋枪手装具(弹鼓)"
+
+msgctxt "desc/stuff/rus_harness_smg_01_thompson_rus_realistic_07"
+msgid "Harness SMG(Thompson Drum)"
+msgstr "苏军冲锋枪手装具(汤姆森弹鼓)"
+
+msgctxt "desc/stuff/rus_harness_smg_02_rus_realistic_07"
+msgid "Harness SMG(Stick)"
+msgstr "苏军冲锋枪手装具(弹匣)"
+
+msgctxt "desc/stuff/rus_harness_smg_02_rus_standard_marine_01"
+msgid "Harness SMG(Stick)"
+msgstr "苏军冲锋枪手装具(弹匣)"
+
+msgctxt "desc/stuff/rus_harness_mg_01_rus_realistic_07"
+msgid "Harness MG"
+msgstr "苏军机枪手装具"
+
+msgctxt "desc/stuff/rus_harness_mg_01_rus_realistic_07_no_ammo"
+msgid "Harness MG"
+msgstr "苏军机枪手装具"
+
+msgctxt "desc/stuff/rus_harness_mg_01_rus_standard_marine_01"
+msgid "Harness MG"
+msgstr "苏军机枪手装具"
+
+msgctxt "desc/stuff/rus_harness_at_rifle_01_rus_realistic_07"
+msgid "Harness Anti-Tank Rifle"
+msgstr "苏军反坦克步枪手装具"
+
+msgctxt "desc/stuff/rus_harness_flamer_01_rus_realistic_07"
+msgid "Harness Flamer"
+msgstr "苏军喷火兵装具"
+
+msgctxt "desc/stuff/rus_harness_rifle_grenade_01_rus_realistic_07"
+msgid "Harness Rifle-Grenade Rifle"
+msgstr "苏军枪榴弹装具"
+
+msgctxt "desc/stuff/veshmeshok_basic_rus_realistic_07_a"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_14"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_15"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_17"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_07"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_rus_realistic_07_b_no_belt"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_17"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_14_rifleman"
+msgid "Veshmeshok Basic Rifleman"
+msgstr "苏军步枪手背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_14_smg_stick"
+msgid "Veshmeshok Basic SMG Stick"
+msgstr "苏军突击手背包(弹匣)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_14_smg_drum"
+msgid "Veshmeshok Basic SMG Drum"
+msgstr "苏军突击手背包(弹鼓)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_14_mg"
+msgid "Veshmeshok Basic MG"
+msgstr "基本苏军背包(机枪弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_14_at_rifle"
+msgid "Veshmeshok Basic AT-Rifle"
+msgstr "基本苏军背包(反坦克步枪弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_14_flamer"
+msgid "Veshmeshok Basic (flame thrower)"
+msgstr "基本苏军背包(喷火器燃料)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_17_rifleman"
+msgid "Veshmeshok Basic Rifleman"
+msgstr "苏军步枪手背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_17_smg_stick"
+msgid "Veshmeshok Basic SMG Stick"
+msgstr "苏军突击手背包(弹匣)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_10_smg_stick"
+msgid "Veshmeshok Basic SMG Stick"
+msgstr "苏军突击手背包(弹匣)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_10_smg_drum"
+msgid "Veshmeshok Basic SMG Drum"
+msgstr "苏军突击手背包(弹鼓)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_10_rifleman"
+msgid "Veshmeshok Basic Rifleman"
+msgstr "苏军步枪手背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_01_smg_drum"
+msgid "Veshmeshok Basic SMG Drum"
+msgstr "苏军突击手背包(弹鼓)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_01_rifleman"
+msgid "Veshmeshok Basic Rifleman"
+msgstr "苏军步枪手背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_17_smg_drum"
+msgid "Veshmeshok Basic SMG Drum"
+msgstr "苏军突击手背包(弹鼓)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_15_rifleman"
+msgid "Veshmeshok Basic Rifleman"
+msgstr "苏军步枪手背包"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_15_smg_drum"
+msgid "Veshmeshok Basic SMG Drum"
+msgstr "苏军突击手背包(弹鼓)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_standard_15_mg"
+msgid "Veshmeshok Basic MG"
+msgstr "基本苏军背包(机枪弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_07_mg"
+msgid "Veshmeshok Basic MG"
+msgstr "基本苏军背包(机枪弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_a_no_belt_rus_realistic_17_mg"
+msgid "Veshmeshok Basic(MG ammo)"
+msgstr "基本苏军背包(机枪弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_mg_rus_realistic_07_a"
+msgid "Veshmeshok Basic(MG ammo)"
+msgstr "基本苏军背包(机枪弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_at_rifle_rus_realistic_07_a"
+msgid "Veshmeshok Basic(Anti-Tank Rifle ammo)"
+msgstr "基本苏军背包(反坦克步枪弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_rifle_grenade_rus_realistic_07"
+msgid "Veshmeshok Basic(Rifle-Grenade)"
+msgstr "基本苏军背包(枪榴弹)"
+
+msgctxt "desc/stuff/veshmeshok_basic_bazooka_rus_realistic_07_a"
+msgid "Veshmeshok Basic(Bazooka-Heat)"
+msgstr "基本苏军背包(巴祖卡破甲弹)"
+
+msgctxt "desc/stuff/veshmeshok_basic_bazooka_rus_realistic_07_a"
+msgid "Veshmeshok Basic(Panzershreck-Ammunition)"
+msgstr "基本苏军背包(坦克杀手弹药)"
+
+msgctxt "desc/stuff/veshmeshok_basic_rus_realistic_07_b"
+msgid "Veshmeshok Basic"
+msgstr "基本苏军背包"
+
+msgctxt "desc/stuff/veshmeshok_full_rus_standard_infantry_01_ammo_box"
+msgid "Veshmeshok Full"
+msgstr "苏军弹药背包"
+
+msgctxt "desc/stuff/veshmeshok_full_ammo"
+msgid "Veshmeshok Full"
+msgstr "苏军弹药背包"
+
+msgctxt "desc/stuff/veshmeshok_full_rus_standard_infantry_01_engineer"
+msgid "Veshmeshok Full"
+msgstr "苏军工程兵背包"
+
+msgctxt "desc/stuff/veshmeshok_full_rus_realistic_22_engineer"
+msgid "Veshmeshok Full"
+msgstr "苏军工程兵背包"
+
+msgctxt "desc/stuff/ger_harness_at_asst_rus_standard_infantry_01"
+msgid "Panzershreck Ammunition Carrycase"
+msgstr "坦克杀手弹药携带箱"
+
+msgctxt "desc/stuff/ger_harness_at_asst_rus_realistic_07"
+msgid "Panzershreck Ammunition Carrycase"
+msgstr "坦克杀手弹药携带箱"
+
+msgctxt "desc/stuff/plash_palatka_c_rus_realistic_07"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/plash_palatka_b_rus_standard_infantry_01"
+msgid "Plash Palatka B"
+msgstr "防雨斗篷 B"
+
+msgctxt "desc/stuff/plash_palatka_c_rus_standard_infantry_01"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/plash_palatka_c_rus_standard_infantry_10"
+msgid "Plash Palatka C"
+msgstr "防雨斗篷 C"
+
+msgctxt "desc/stuff/plash_palatka_d_rus_realistic_07"
+msgid "Plash Palatka D"
+msgstr "防雨斗篷 D"
+
+msgctxt "desc/stuff/plash_palatka_d_rus_realistic_07_dark"
+msgid "Plash Palatka D"
+msgstr "防雨斗篷 D"
+
+msgctxt "desc/stuff/mortar_round_box_82mm_rus"
+msgid "82mm mortar Ammunition Carrycase"
+msgstr "迫击炮弹药携带箱"
+
+msgctxt "desc/stuff/rus_82mm_mortar_round_crate"
+msgid "82mm mortar Ammunition Carrycase"
+msgstr "迫击炮弹药箱"
+
+msgctxt "desc/stuff/rus_ammo_box"
+msgid "Soviet ammo box"
+msgstr "便携弹药盒"
+
+msgctxt "desc/stuff/rus_76mm_shell_crate"
+msgid "76mm Ammunition Carrycase"
+msgstr "76mm 弹药箱"
+
+msgctxt "desc/stuff/rus_85mm_shell_crate_52k"
+msgid "85mm 52k Ammunition Carrycase"
+msgstr "85mm 52k 弹药箱"
+
+msgctxt "desc/stuff/rus_100mm_shell_crate"
+msgid "100mm BS-3 Ammunition Carrycase"
+msgstr "100mm BS-3 弹药箱"
+
+msgctxt "desc/stuff/rus_120mm_mortar_round_crate"
+msgid "120mm mortar Ammunition Carrycase"
+msgstr "重型迫击炮弹药箱"
+
+msgctxt "desc/stuff/sn40_body_armor_light_rus_standard_14"
+msgid "SN40 Light Body Armor"
+msgstr "SN40 防弹衣(轻量化)"
+
+msgctxt "desc/stuff/minefield_tm_35 mine"
+msgid "Anti-Tank TM Obr.35 Mine"
+msgstr "TM-35 反坦克地雷"
+
+msgctxt "desc/stuff/minefield_tm_41 mine"
+msgid "Anti-Tank TM Obr.41 Mine"
+msgstr "TM-41 反坦克地雷"
+
+msgctxt "desc/stuff/minefield_tmd_44 mine"
+msgid "Anti-Tank TMD Obr.44 Mine"
+msgstr "TMD-44 反坦克地雷"

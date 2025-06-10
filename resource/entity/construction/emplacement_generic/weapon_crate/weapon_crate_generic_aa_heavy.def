@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props  "spread_items" "small" "-wood"}
+	{ObstacleID "stuff"}
+	{extension "weapon_crate.mdl"}
+	{volume "body"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {visible 1}}
+		;{able {touch}}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	{lodclass "decor_medium"}
+}

@@ -1,0 +1,9 @@
+{action
+	{target volume "door_open_default" able contact}
+	{cursor "open"}
+	{fx "flashred"}
+	{instructions
+		{bind volume "door_open_default"}
+		{effect_object "close"}
+	}
+}

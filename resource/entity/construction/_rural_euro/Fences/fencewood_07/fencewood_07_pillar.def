@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building_roof.inc")
+	;(include "/properties/building.inc")
+	{props "construction" "wood" "burning"} 
+	{obstacleID "unbreakable"}
+	("armor_fence_wood")
+	{extension "fencewood_07_pillar.mdl"}
+	{volume "exterior01"
+		{Tags "roof"}
+		{thickness 30}
+		{able {visible 0}{obstacle 0}{contact 1}}
+	}
+}

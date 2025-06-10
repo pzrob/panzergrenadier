@@ -1,0 +1,25 @@
+;// TOC
+{game_entity
+	(include "/properties/construction.inc")
+	{props  "inventory_box" "spread_items" "shed" "small" "wood" "burning" "break_on_burn"}
+	{ObstacleID "stuff"}
+	
+	{extension "ammo_box_01.mdl"}
+	
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}
+			{item "mgun_ger belt ammo" 125}
+			{item "mgun_ger drum ammo" 50}
+
+		}
+	}
+	
+	{volume "body"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {touch}}
+	}
+	{lodclass "decor_medium"}
+}

@@ -1,0 +1,86 @@
+;Exported by:	 guita
+;Date:			 30.11.2023 18:01:02
+;File:			 D:\SVN\Working Resources\GatesOfHell\GoH_3d_environment_west\3d_buildings\entourage\wood_fence001\woodfence01.max
+{skeleton
+	{bone "basic"
+		{orientation
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		}
+		{bone "basis"
+			{orientation
+				0.5 	 0 	 0
+				0 	 -0.5 	 0
+				0 	 0 	 2
+			}
+			{bone "trap_hidden"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 -25
+				}
+				{VolumeView "trap_hidden.ply"}
+			}
+			{bone "trap_enable"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 -5
+				}
+				{VolumeView "trap_enable.ply"}
+			}
+		}
+		{bone "seat"
+			{matrix34
+				0	1	0
+				1	0	0
+				0	0	1
+				0	0	5  ;   x -z
+			}
+		}
+		{bone "emit"
+			{matrix34
+				0	1	0
+				1	0	0
+				0	0	1
+				0	3	0
+			}
+			{visibility 0}
+		}
+	}
+}
+{area "interior"
+	{obb2
+		{center -0.0 0}
+		{extent 110 110}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{area "obstacle"
+	{obb2
+		{center -0.0085392 -0.00622559}
+		{extent 1.54178 1.53561}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{volume "trap_touch"
+	{box 2.54889 2.6332 25.5906}
+	{bone "trap_hidden"}
+	{Position 0 	 0 	 20}
+	;{Position 0 	 0 	 12.7953}
+}
+{volume "trap_hidden"
+	{box 2.54889 2.6332 25.5906}
+	{bone "trap_hidden"}
+	{Position 0 	 0 	 12.7953}
+}
+{volume "trap_enable"
+	{box 2.54889 2.6332 25.5906}
+	{bone "trap_enable"}
+	{Position 0 	 0 	 12.7953}
+}

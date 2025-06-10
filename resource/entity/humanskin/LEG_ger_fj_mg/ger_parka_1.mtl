@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/ger/ger_parka_1_lw_var3"}
+	{bump "$/_hum/legacy/ger/ger_parka_1_bp"}
+	{specular "$/_hum/legacy/ger/ger_tunic_1_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

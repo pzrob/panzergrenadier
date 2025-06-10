@@ -1,0 +1,38 @@
+;Exported by:	 Carlos
+;Date:			 02.08.2020 20:15:19
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\sawmill\Sawmill_p36_v19_export.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{VolumeView "body.ply"}
+		}
+	{bone "below"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}		
+    }		
+		
+	}
+}
+{obstacle "body"
+	{obb2
+		{center 0 0}
+		{extent 46.1909 46.1909}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body"
+	{box 92.3819 92.3819 37.8187}
+	{bone "body"}
+	{Position 0 	 0 	 18.8875}
+}

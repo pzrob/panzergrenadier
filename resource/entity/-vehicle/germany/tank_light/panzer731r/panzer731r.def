@@ -1,0 +1,104 @@
+{game_entity
+	(include "/properties/tank.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "light" "vision_lev02" "amphibia" "detect_tank_mg" "emplacement_tank_trench_light"}
+    {tag "emplacement_tank_trench_light"}
+	{extension "panzer731r.mdl"}
+	(include "t37a.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_bullet"}
+	{PatherID "t37"}
+	{collider "tank.light"}
+	("tank_light_tier1")
+
+	("crew_2_human")
+
+	{sensor
+		{visor "around"
+			{vision "tank_main_mg"}
+			{bone "visor1"}
+		}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_tank_left"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_LowArmor"} {end "seat_armor"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_LowArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit7)  animation(armor1))
+	("seat_human" place(seat6) bone(seat06) door(emit8)  animation(armor1))
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "ammo mgun_rus dt" 2079}		; 34 drums
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{LinkBone "mgun"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+		}
+	}
+
+	{mass 3200}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.35))
+		("mobility_tank"
+			speed(35) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(10) ;--------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(3.2) ;--------Weight in Tonnes.
+			power(40) ;----------Engine Power, in hp.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(100) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(100) ;---------Range in km, off-road.
+		)
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+	}
+	{chassis "water"
+		("chassis_defaults")
+		(mod not "mp" {ignorePatherBounds})
+		{waterline 0.7}
+		{switch
+			{terrain "water" "deep_water"}
+		}
+	}
+
+	{bone "turret"
+		{speed2 17}
+	}
+}

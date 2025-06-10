@@ -1,0 +1,35 @@
+;Exported by:	 guita
+;Date:			 13.04.2022 18:30:57
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\dirt\ground_pillbox\ground_pillbox_export.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "trench_ground"
+			{parameters "commonmesh;land;ground;align;"}
+			{orientation
+				1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+			}
+			{VolumeView "trench_ground.ply" {Ground}}
+			{bone "wood"
+				{VolumeView "wood.ply"}
+			}
+			{bone "ground_add"
+				{VolumeView "ground_add.ply"}
+			}
+			{bone "wood2"
+				{Position -24.1062 	 0.2099 	 0}
+				{VolumeView "wood2.ply"}
+			}
+			{bone "exterior"
+				{VolumeView "exterior.ply"}
+			}
+		}
+	}
+}

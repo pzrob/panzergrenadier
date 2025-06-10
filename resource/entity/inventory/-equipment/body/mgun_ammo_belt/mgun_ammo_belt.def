@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "armor_new_flectarn.mdl"}
+	{extender "stuff"
+		{item "mgun_ammo_belt"}
+	}
+}
+;mw2_afgn_armor_2

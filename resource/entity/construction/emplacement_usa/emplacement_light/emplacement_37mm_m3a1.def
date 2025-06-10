@@ -1,0 +1,61 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{Extension "emplacement_light_at.mdl"}
+	{props "sand" "foxhole_spawned" "normal"}
+	("boneLand"  args "foxhole")
+	("volume" args "box006")
+	("volume" args "box007")
+	("volume" args "box008")
+	("volume" args "box009")
+	("volume" args "box010")
+	("volume" args "box011")
+	("volume" args "box012")
+	
+	{placer
+		{place "floor_01"
+			{entity "planks_walkable_01_indestructible"}
+			{Linkbone "floor_01"}
+			{handlebone "body"}
+		}
+		{place "floor_02"
+			{entity "planks_walkable_01_indestructible"}
+			{Linkbone "floor_02"}
+			{handlebone "body"}
+		}
+		{place "side_snadbag_00"
+			{entity "sandbag_framed_straight_indestructible"}
+			{Linkbone "side_snadbag_00"}
+			{handlebone "body"}
+		}
+		{place "side_snadbag_01"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "side_snadbag_01"}
+			{handlebone "body"}
+		}
+		{place "side_snadbag_02"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "side_snadbag_02"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_37mm_m3a1_cannon_stage_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_usa_37mm_shell_crate_stage_dummy"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_light_roof_stage_low_dummy"}
+		}
+	}
+}

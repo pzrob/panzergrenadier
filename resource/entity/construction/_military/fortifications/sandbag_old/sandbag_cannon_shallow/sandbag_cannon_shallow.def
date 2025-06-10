@@ -1,0 +1,22 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{extension "sandbag_cannon_shallow.mdl"}
+	{props "sand" "sandbag" "heap" "construction" "no_destroyed_stamp" "no_stage"}
+	{constrain surface}
+
+	{volume "body1"
+		{Tags "body"}
+		{thickness 100}
+		{able {visible 1}}
+	}
+	{volume "body2"
+		{Tags "body"}
+		{thickness 100}
+		{able {visible 1}}
+	}
+	{volume "body3"
+		{Tags "body"}
+		{thickness 100}
+		{able {visible 1}}
+	}
+}

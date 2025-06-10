@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{props "wood" "-steel"}
+	{extension "wood_logs.mdl"}
+	{extender "stuff"
+		{item "cord_wood"}
+	}
+	{volume "body" 
+		{thickness 50}
+	}
+	{lodclass "decor_small"}
+}

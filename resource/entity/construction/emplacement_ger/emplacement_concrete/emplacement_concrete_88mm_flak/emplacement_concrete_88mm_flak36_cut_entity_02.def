@@ -1,0 +1,6 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{Extension "emplacement_concrete_88mm_flak36_cut_entity_02.mdl"}
+
+}

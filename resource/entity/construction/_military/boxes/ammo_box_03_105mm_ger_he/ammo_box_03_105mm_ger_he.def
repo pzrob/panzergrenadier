@@ -1,0 +1,44 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props  "inventory_box" "spread_items" "small" "-wood" "burning" "break_on_burn"}
+	{ObstacleID "stuff"}
+	
+	{extension "ammo_box_03.mdl"}
+	
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 6 3}
+		}
+	}
+	
+	{volume "body"
+		{Tags "body" "fire"}
+		{thickness 10}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{lodclass "decor_medium"}
+	{placer
+		{place "shell_01"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "105mm_ger_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+	}
+}

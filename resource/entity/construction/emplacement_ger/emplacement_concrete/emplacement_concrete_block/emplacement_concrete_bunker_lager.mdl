@@ -1,0 +1,865 @@
+;Exported by:	 Carlos
+;Date:			 22.04.2022 14:05:10
+;File:			 T:\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_blocks_export01.max
+{skeleton
+	{bone "basis"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			0 	 0 	 6
+		}
+	{bone "tower"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			0 	 0 	 -4
+		}
+	{bone "tower_blocks"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "tower_block_01"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				10 	 -55 	 0 ;z x y
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "tower_block_02"
+		    {matrix34
+				1    0 	 0
+				0 	 -1	 0
+				0 	 0 	 1
+				50 	 0 	 0
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "tower_block_03"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				10 	 55  0 ;z x y
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		;{bone "tower_block_04"
+		   ;{matrix34
+				;1    0 	 0
+				;0 	 -1	 0
+				;0 	 0 	 1
+				;-29.5 	 -0 	 -30
+			;}
+			;{parameters "land;ground;"}
+			;{LODView
+			;	{VolumeView "body01.ply"}
+			;	{VolumeView "body01_lod1.ply"}
+			;	{VolumeView "body01_lod2.ply"}
+			;	{VolumeView "body01_lod3.ply"}
+			;}
+		;}
+		{bone "tower_block_05"
+		    {matrix34
+				0.5    0 	 0
+				0 	 -0.47	 0
+				0 	  0 	 0.9
+				-41.5 	 -41.5 	 1
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "tower_block_06"
+		    {matrix34
+				0.5    0 	 0
+				0 	 -0.47	 0
+				0 	 0 	 0.9
+				-41.5 	 41.5 	 1
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "tower_stair"
+		    {matrix34
+				0    -0.65 	 0
+				-0.7  0	 0
+				0 	 0 	 0.55
+				-60 	 0 	-28
+			}
+		}
+		{bone "tower_floor"
+		    {matrix34
+				0 	0   -1
+				0 	1 	 0
+				-1.32	0    0	
+				1 	-0 	 -5
+			}
+			{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"{Ground}}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "tower_wooden_floor"
+		    {matrix34
+				1.06   0 	 0
+				0 	 -1	 0
+				0 	 0 	 1
+				1.0	-0 	 1.0
+			}
+		}
+		{bone "exterior01"
+		    {matrix34
+				0 	0   -0.5
+				0 	1.37 	 0
+				-1.65	0    0	
+				9	-0 	 48
+			}
+				{VolumeView "exterior01.ply"}
+		}
+	}
+	{bone "tower_pillars"
+		{matrix34
+			1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			0 	 0 	 20
+		}
+		{bone "pillar_01"
+		    {matrix34
+			    1.25	  0   0
+			    0 	 -1.25	  0
+			    0 	 0 	  1
+			    52	 -59	 0
+		    }
+			{LODView
+				{VolumeView "concrete_block_pillar_02.ply"}
+				{VolumeView "concrete_block_pillar_02_lod1.ply"}
+				{VolumeView "concrete_block_pillar_02_lod2.ply"}
+				{VolumeView "concrete_block_pillar_02_lod3.ply"}
+			}
+		}
+		{bone "pillar_02"
+		    {matrix34
+			    1.25	  0   0
+			    0 	 -1.25	  0
+			    0 	 0 	  1
+			    52	 59	 0
+		    }
+			{LODView
+				{VolumeView "concrete_block_pillar_02.ply"}
+				{VolumeView "concrete_block_pillar_02_lod1.ply"}
+				{VolumeView "concrete_block_pillar_02_lod2.ply"}
+				{VolumeView "concrete_block_pillar_02_lod3.ply"}
+			}
+		}
+		{bone "pillar_03"
+		    {matrix34
+			    1.25	  0   0
+			    0 	 -1.25	  0
+			    0 	 0 	  1
+			    -33.5	 -59	 0
+		    }
+			{LODView
+				{VolumeView "concrete_block_pillar_02.ply"}
+				{VolumeView "concrete_block_pillar_02_lod1.ply"}
+				{VolumeView "concrete_block_pillar_02_lod2.ply"}
+				{VolumeView "concrete_block_pillar_02_lod3.ply"}
+			}
+		}
+		{bone "pillar_04"
+		    {matrix34
+			    1.25	  0   0
+			    0 	 -1.25	  0
+			    0 	 0 	  1
+			    -33.5	 59	 0
+		    }
+			{LODView
+				{VolumeView "concrete_block_pillar_02.ply"}
+				{VolumeView "concrete_block_pillar_02_lod1.ply"}
+				{VolumeView "concrete_block_pillar_02_lod2.ply"}
+				{VolumeView "concrete_block_pillar_02_lod3.ply"}
+			}
+		}
+	}
+	}
+	{bone "base"
+		{matrix34
+			1    0 	 0
+			0 	 -1	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+		{bone "base_floor"
+			{matrix34
+				1    0 	 0
+				0 	 1	 0
+				0 	 0 	 1
+				0 	 0 	 -36
+			}
+			{bone "base_floor_block_01"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.5	0    0	
+					70 	-48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_02"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.5	0    0	
+					70 	48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_03"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	0.5 	 0
+				   -1.65	0    0	
+					7 	-68  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_04"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	0.5 	 0
+				   -1.65	0    0	
+					7 	68  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_05"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.8	0    0	
+					-62 	-48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_06"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.8	0    0	
+					-62 	48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_07"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.8	0    0	
+					-107 	-48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_08"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.8	0    0	
+					-107 	48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_09"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.8	0    0	
+					-153 	-48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_floor_block_10"
+				{parameters "land;ground;"}
+			    {matrix34
+					0 	0   -1
+					0 	1 	 0
+				   -0.8	0    0	
+					-153	48  0
+				}
+				{LODView
+					{VolumeView "body01.ply"{Ground}}
+					{VolumeView "body01_lod1.ply"}
+					{VolumeView "body01_lod2.ply"}
+					{VolumeView "body01_lod3.ply"}
+				}
+			}
+			{bone "base_wooden_floor"
+			    {matrix34
+					0.9  0 0
+					0 	 -0.85	 0
+					0 	 0 	 1
+					-112 	-0 	 8
+				}
+			}
+		}
+		{bone "base_wall"
+			{matrix34
+				1    0 	 0
+				0 	 1	 0
+				0 	 0 	 1
+				0 	 0 	 -31
+			}
+		{bone "base_wall_block_01"
+		    {matrix34
+				1    0	 0
+				0 	 -1	 0
+				0 	 0 	 1
+				89 	 -48 0 ;z x y
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_02"
+		    {matrix34
+				1    0	 0
+				0 	 -1	 0
+				0 	 0 	 1
+				89 	 48  0 ;z x y
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_03"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				49.5 	 102.5	 0
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_04"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				-46.5 	 102.5	 0
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_05"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				-142.5 	 102.5	 0
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_06"
+		    {matrix34
+				1    0	 0
+				0 	 -1	 0
+				0 	 0 	 1
+				-182 	 48  0 ;z x y
+			}
+			{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_07"
+		    {matrix34
+				1    0	 0
+				0 	 -1	 0
+				0 	 0 	 1
+				-182 	 -48 0 ;z x y
+			}
+			{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_08"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				49.5 	 -102.5	 0
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_09"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				-46.5 	 -102.5	 0
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_10"
+		    {matrix34
+				0    1	 0
+				1 	 0	 0
+				0 	 0 	 1
+				-142.5 	 -102.5	 0
+			}
+			;{parameters "land;ground;"}
+			{LODView
+				{VolumeView "body01.ply"}
+				{VolumeView "body01_lod1.ply"}
+				{VolumeView "body01_lod2.ply"}
+				{VolumeView "body01_lod3.ply"}
+			}
+		}
+		{bone "base_wall_block_stair"
+			{matrix34
+				0    0.65 	 0
+				0.6  0	 0
+				0 	 0 	 0.50
+				-150	 0	14.5
+			}
+			{LODView
+				{VolumeView "stair01.ply"}
+				{VolumeView "stair01_lod1.ply"}
+				{VolumeView "stair01_lod2.ply"}
+				{VolumeView "stair01_lod3.ply"}
+			}
+			{bone "base_wall_block_stair_land"
+				{parameters "land;ground;"}
+				{Position 1.1075 	 -0.2222 	 -29.4587}
+				{visibility 0}
+				{VolumeView "land.ply" {Ground}}
+			}
+		}
+		{bone "base_wall_block_stair_outside"
+			{matrix34
+				0    -0.65 	 0
+				-0.6  0	 0
+				0 	 0 	 0.50
+				;-220	 0	15.5
+				-211	 0	-0
+			}
+			;{LODView
+				;{VolumeView "stair01.ply"}
+				;{VolumeView "stair01_lod1.ply"}
+				;{VolumeView "stair01_lod2.ply"}
+				;{VolumeView "stair01_lod3.ply"}
+			;}
+			;{bone "base_wall_block_stair_outside_land"
+				;{parameters "land;ground;"}
+				;{Position 1.1075 	 -0.2222 	 -29.4587}
+				;{visibility 0}
+				;{VolumeView "land.ply" {Ground}}
+			;}
+		}
+	}
+    }
+    }
+}
+
+{volume "tower_block_01"
+	{box 19.111 100.139 59.7904}
+	{bone "tower_block_01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "tower_block_02"
+	{box 19.111 100.139 59.7904}
+	{bone "tower_block_02"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "tower_block_03"
+	{box 19.111 100.139 59.7904}
+	{bone "tower_block_03"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+;{volume "tower_block_04"
+	;{box 19.111 100.139 59.7904}
+	;{bone "tower_block_04"}
+	;{Position -0.1927 	 -0.8813 	 0.3677}
+;}
+{volume "tower_block_05"
+	{box 19.111 100.139 59.7904}
+	{bone "tower_block_05"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "tower_block_06"
+	{box 19.111 100.139 59.7904}
+	{bone "tower_block_06"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "tower_floor"
+	{box 19.111 100.139 59.7904}
+	{bone "tower_floor"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "exterior01"
+	{box 10.111 100.139 58.7904}
+	{bone "exterior01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "pillar_01"
+	{box 9.49535 10.3675 59.215}
+	{bone "pillar_01"}
+	{Position 0.1843 	 -0.2126 	 0.0799}
+}
+{volume "pillar_02"
+	{box 9.49535 10.3675 59.215}
+	{bone "pillar_02"}
+	{Position 0.1843 	 -0.2126 	 0.0799}
+}
+{volume "pillar_03"
+	{box 9.49535 10.3675 59.215}
+	{bone "pillar_03"}
+	{Position 0.1843 	 -0.2126 	 0.0799}
+}
+{volume "pillar_04"
+	{box 9.49535 10.3675 59.215}
+	{bone "pillar_04"}
+	{Position 0.1843 	 -0.2126 	 0.0799}
+}
+{volume "base_floor_block_01"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_02"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_02"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_03"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_03"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_04"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_04"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_05"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_05"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_06"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_06"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_07"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_07"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_08"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_08"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_09"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_09"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_floor_block_10"
+	{box 10.111 100.139 58.7904}
+	{bone "base_floor_block_10"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_01"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_02"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_02"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_03"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_03"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_04"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_04"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_05"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_05"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_06"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_06"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_07"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_07"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_08"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_08"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_09"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_09"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "base_wall_block_10"
+	{box 19.111 100.139 59.7904}
+	{bone "base_wall_block_10"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{obstacle "tower_wall_front"
+	{obb2
+		{center 48.0 -0.0}
+		{extent 6 64}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "tower_wall_left"
+	{obb2
+		{center -15.0 -65.0}
+		{extent 65 8}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "tower_wall_right"
+	{obb2
+		{center -15.0 65.0}
+		{extent 65 8}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "tower_wall_rear_left"
+	{obb2
+		{center -38.0 -35.0}
+		{extent 5 16}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "tower_wall_rear_right"
+	{obb2
+		{center -38.0 35.0}
+		{extent 5 16}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "base_wall_front"
+	{obb2
+		{center 100.0 -0.0}
+		{extent 20 94}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "base_wall_rear_left"
+	{obb2
+		{center -191.0 -67.0}
+		{extent 20 37}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "base_wall_rear_right"
+	{obb2
+		{center -191.0 67.0}
+		{extent 20 37}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "base_wall_left"
+	{obb2
+		{center -20.0 -104.0}
+		{extent 195 10}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "base_wall_right"
+	{obb2
+		{center -20.0 104.0}
+		{extent 195 10}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{area "interior"
+	{obb2
+		{center -0.625824 7.7828}
+		{extent 308.168 326.819}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex  95  110.0}  ;y x   x0=-1.5
+		{Vertex  95 -110.0}
+		{Vertex  -190 -110.0}
+		{Vertex  -190 110.0}
+	}
+	{Rotate}
+}

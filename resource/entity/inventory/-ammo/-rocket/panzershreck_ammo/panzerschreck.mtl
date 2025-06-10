@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/panzerschreck"}
+	{bump "$/_weapon/panzerschreck_bp"}
+	{specular "$/_weapon/panzerschreck_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

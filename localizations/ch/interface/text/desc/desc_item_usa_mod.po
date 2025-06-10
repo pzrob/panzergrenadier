@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cta - Gates of Hell (desc_gear)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-04-28 12:16+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+msgctxt "desc/stuff/shovel_usa"
+msgid "M1910 Field Shovel"
+msgstr "M1910野战工兵铲"
+
+msgctxt "desc/stuff/shovel_usa_light"
+msgid "M1910 Field Shovel(light)"
+msgstr "M1910野战工兵铲(轻装工兵专用）"
+
+msgctxt "desc/stuff/shovel_usa_heavy"
+msgid "M1910 Field Shovel(heavy)"
+msgstr "M1910野战工兵铲(重型工事）"
+
+msgctxt "desc/stuff/usa_81mm_mortar_round_crate"
+msgid "81mm mortar Ammunition Carrycase"
+msgstr "迫击炮弹药箱"
+
+msgctxt "desc/stuff/usa_ammo_box"
+msgid "usa ammo box"
+msgstr "便携弹药盒"
+
+msgctxt "desc/stuff/usa_radio_us_standard_12"
+msgid "SCR-300 Radio Transceiver Set"
+msgstr "SCR-300无线电台"
+
+msgctxt "desc/stuff/minefield_m1a1 mine"
+msgid "Anti-Tank M1A1 Mine"
+msgstr "M1A1反坦克地雷"
+
+msgctxt "desc/stuff/minefield_m2 mine"
+msgid "Anti-Personnel M2 Mine"
+msgstr "M2反人员地雷"
+
+msgctxt "desc/stuff/minefield_m6 mine"
+msgid "Heavy Anti-Tank M6 Mine"
+msgstr "M6重型反坦克地雷"
+
+msgctxt "desc/stuff/minefield_m7"
+msgid "Light Anti-Tank M7 Mine"
+msgstr "M7轻型反坦克地雷"

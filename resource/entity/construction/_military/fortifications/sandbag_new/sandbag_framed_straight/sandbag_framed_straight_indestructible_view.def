@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "sand" "sandbag" "onestage" "construction"  "jettison_sandbags4"}
+	{extension "sandbag_framed_straight.mdl"}
+
+	{volume "body"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{volume "frame"
+		{Tags "fire"}
+		{thickness 10}
+		{able {visible 1}{obstacle 0}{contact 0}}
+		{material "wood"}
+	}
+	{lodclass "decor_medium"}
+}

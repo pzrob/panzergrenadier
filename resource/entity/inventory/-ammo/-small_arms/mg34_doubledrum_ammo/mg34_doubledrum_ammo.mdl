@@ -1,0 +1,58 @@
+;Exported by:	 Carlos
+;Date:			 11.06.2021 14:46:19
+;File:			 T:\GoH_3D_human_export\3d_weapons\mg34\mg34_doubledrum_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "magazine.ply"}
+			{VolumeView "magazine_lod1.ply"}
+			{VolumeView "magazine_lod2.ply"}
+			{VolumeView "magazine_lod3.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 1.81918 2.16158 5.16637}
+	{bone "magazine"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0 	 -0.0007 	 -0.4383
+	}
+}
+{volume "select"
+	{cylinder 1.55755 5.59271}
+	{bone "magazine"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.086 	 -0.018 	 -0.3134
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -23.1121 	 0.265 	 3.0679}
+			{lookat 0.0506 	 -0.1438 	 -0.3063}
+			{fov 17.5867}
+			{horizon -0.252564}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.4832 	 0.0093 	 -0.1282}
+			}
+			{"1"
+				{type point}
+				{position 1.1727 	 2.5603 	 -12.0466}
+			}
+		}
+	}
+}

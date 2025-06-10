@@ -1,0 +1,86 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/fortified_emplacement.ext")
+
+	{extension "m2_50cal_tripod_stand_stat.mdl"}
+	{props "stat_weapon" "vision_lev00_can" "no_sandbags" "muzzle_hmg_m2hb" "detect_cannon_aa" "c_mg_heavy" "impregnable" "-gun_shield"}
+    {tag "gun_shield_on"}
+	{obstacleid "unbreakable"}
+	{targetclass "cannon_bullet"}
+	{targetSelector "cannon_zenite"}
+	{boarder
+		{anm "gunner"
+			{forward {end "seat_lvt4_gunner50_left"}}
+		}
+		{anm "commander"
+			{forward {end "pose_mg_lafette_commander" 10}}
+		}
+	}
+	
+	
+	;("shield" args "shield" 8)
+	;{volume "shield"
+		;{able {holed}}
+	;}
+	;{extender "shield" {on}}
+	
+	
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+	
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "" ""}
+			;{fire "mg_maxim_gunner_fire" "mg_maxim_commander_fire"}
+			{aim "" ""}
+			{reload "" "mg_lafette_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo hmgun_usa" 500}		;600 rounds
+			{item "sandbag_vehicle" 2}
+			{item "usa_ammo_crate_50cal"}
+		}
+	}
+	
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{weapon "browning_m2" filled}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{Rotate}
+		}
+	}
+
+	{mass 58}
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(58) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 30}
+	}
+	{bone "gun_rot"
+		{limits -35 35}
+		;{limits -13 13}
+		{speed2 60}
+	}
+	;{bone "mgun_a_rot1"
+		;{speed2 60}
+	;}
+}

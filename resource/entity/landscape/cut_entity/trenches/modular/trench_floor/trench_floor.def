@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{collider "particle.big"}	
+	{Extension "trench_floor.mdl"}
+	{Volume "body1"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{lodclass "decor_medium"}
+}

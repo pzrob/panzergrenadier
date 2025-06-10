@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_57mm_zis2_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "57mm_zis2_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+	}
+}

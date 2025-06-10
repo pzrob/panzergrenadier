@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/construction.inc")
+	("armor_fence_wood")
+	{props "fence" "wood" "construction" "small" "shed" "no_destroyed_stamp" "minefield_at_ger"}
+	{lodclass "decor_medium"}
+	{extension "mine_sign.mdl"}
+
+	{volume "body1"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+		{able {visible 0}}
+	}
+	{volume "body2"
+		{Tags "body" "fire"}
+		{thickness 0.2}
+		{able {visible 0}}
+	}
+}

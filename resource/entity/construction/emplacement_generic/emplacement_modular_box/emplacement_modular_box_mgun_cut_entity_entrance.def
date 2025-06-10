@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{Extension "emplacement_modular_box_mgun_cut_entity.mdl"}
+	{props "sand"}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+}

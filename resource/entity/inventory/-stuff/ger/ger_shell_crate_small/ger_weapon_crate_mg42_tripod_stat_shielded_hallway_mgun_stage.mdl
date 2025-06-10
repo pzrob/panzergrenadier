@@ -1,0 +1,49 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "stage"
+		{matrix34
+		   	1    0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			0	 0.0 0.0 ;x -z y
+		}
+	{bone "crate"
+		{matrix34
+			0 	 -1 0
+			-1 	 0  0
+			0 	 0 	 1
+			6.45	 20 0.0 ;x -z
+		}
+	}
+	{bone "cleaner"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+			5	 15.0 0.0 ; x -z y
+		}
+	}
+	
+		{bone "mgun"
+		  {matrix34
+			0 	 -1 	   0             ;1   0   0      
+			-1	 0     0             ;1   1   0 
+			0 	 0     1			 ;0   0   1
+			8.0  12   -4.3  ; x -z y
+			;8.0  17.6   -3.0  ; x -z y
+		  }
+		}
+    }		
+}
+{Volume "crate"
+	{Box 24.324 17.6712 6.57585}
+	{Bone "crate"}
+	{Matrix34
+		0.599673	0	0
+		0	0.599673	0
+		0	0	0.599673
+		0.0958555	0.0827632	1.85884
+	}
+}

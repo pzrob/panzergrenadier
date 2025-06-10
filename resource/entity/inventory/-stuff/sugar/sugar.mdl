@@ -1,0 +1,47 @@
+;Exported by:	 Carlos
+;Date:			 26.08.2018 17:27:18
+;File:			 T:\GoH_3D_human_export\3d_equipment\sugar_sack\sack.max
+{skeleton
+	{bone "sack"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "sack.ply"}
+	}
+}
+{volume "body"
+	{box 6.61798 8.06488 10.6601}
+	{bone "sack"}
+	{Position -0.5198 	 -0.2822 	 5.33}
+}
+{volume "select"
+	{box 10.4283 11.0107 13.3185}
+	{bone "sack"}
+	{Position -0.4455 	 -0.1337 	 6.0902}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -19.4653 	 -17.982 	 14.4859}
+			{lookat 7.9503 	 7.2341 	 1.34}
+			{fov 26.2025}
+			{horizon -0.201741}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -6.9201 	 15.9451 	 30.9922}
+			}
+			{"1"
+				{type directional}
+				{direction 0.4429 	 -0.0468 	 -0.2272}
+			}
+			{"2"
+				{type point}
+				{position 9.8679 	 -14.3119 	 2.2419}
+			}
+		}
+	}
+}

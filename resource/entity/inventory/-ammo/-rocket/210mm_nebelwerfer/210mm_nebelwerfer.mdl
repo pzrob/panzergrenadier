@@ -1,0 +1,91 @@
+;Exported by:	 TigerF
+;Date:			 12.11.2021 16:08:12
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\Early WW2 tanks\germany\nbw42\210mm_nebelwerfer ammo.max
+{skeleton
+	{bone "body"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+			{VolumeView "body_lod2.ply"}
+		}
+		{bone "tail"
+			{matrix34
+				-1 	 -0.0005 	 0
+				-0.0005 	 1 	 0
+				0 	 0 	 -1
+				-12.8931 	 -0.0165 	 0.0251
+			}
+		}
+	}
+}
+{volume "body"
+	{cylinder 2.25805 24.9293}
+	{bone "body"}
+	{matrix34
+		0.0005 	 -1 	 0
+		0 	 0 	 -1
+		1 	 0.0005 	 0
+		-0.0937 	 -0.0006 	 -0.001
+	}
+}
+{volume "select"
+	{cylinder 3.21874 26.3526}
+	{bone "body"}
+	{matrix34
+		0.0005 	 -1 	 0
+		0 	 0 	 -1
+		1 	 0.0005 	 0
+		0.1466 	 -0.0005 	 0.0019
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -1.5574 	 43.2589 	 27.076}
+			{lookat -0.3966 	 1.019 	 0.8068}
+			{fov 30.5282}
+			{horizon -0.736217}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 34.1072 	 25.5048 	 -22.9972}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0248 	 0.0807 	 -0.4928}
+			}
+			{"2"
+				{type point}
+				{position -61.8929 	 -1.8585 	 0.4323}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin -1.4601 	 42.3179 	 27.6447}
+			{lookat -0.3327 	 0.6479 	 1.6469}
+			{fov 29.9682}
+			{horizon -0.775312}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 34.1072 	 25.5048 	 -23.0949}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0257 	 0.0808 	 -0.4928}
+			}
+			{"2"
+				{type point}
+				{position -61.8929 	 -1.8585 	 0.4323}
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{game_entity	
+	(include "/properties/emplacement_foxhole.ext")
+	{props "cornered" "construction" "wall" "big" "-parts" "no_scavenge"}
+
+	{obstacleID "unbreakable"}
+	{extension "concrete_tower_mg42.mdl"}
+
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+
+	{placer
+		;{place "floor_01"
+			;{entity "concrete_block_03_floor"}
+			;{Linkbone "floor_01"}
+			;{handlebone "body"}
+		;}
+		{place "mgun"
+			{entity "mg42_tripod_stat"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "stairs"
+			{entity "concrete_block_stair_01"}
+			{Linkbone "stairs"}
+			{handlebone "body"}
+		}
+		{place "sandbag_00"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_00"}
+			{handlebone "body"}
+		}
+		{place "sandbag_01"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_structured_straight2_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+		{place "wall_03"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_03"}
+			{handlebone "body"}
+		}
+		{place "wall_04"
+			{entity "concrete_block_03"}
+			{Linkbone "wall_04"}
+			{handlebone "body"}
+		}
+	    {place "lampshade_01"
+			{entity "lampshade"}
+			{Linkbone "lampshade_01"}
+			{handlebone "body"}
+	    }
+	}	
+	
+	
+}

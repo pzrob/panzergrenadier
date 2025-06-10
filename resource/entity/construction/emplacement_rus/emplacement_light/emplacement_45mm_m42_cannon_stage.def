@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_light_at_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "45mm_m42_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		;{place "table_01"
+			;{entity "crate4_indestructible"}
+			;{Linkbone "table_01"}
+			;{handlebone "body"}
+		;}
+	}
+}

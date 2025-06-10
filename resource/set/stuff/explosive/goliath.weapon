@@ -1,0 +1,14 @@
+{weapon_bullet
+	{tag "gun"}
+	{fireSound ""}
+	{clickSound ""}
+
+	{filling "ammo goliath" 1}
+	{foresight "foresight1"}
+
+	{range 4 4.5}
+	{cursor "ironsights/tank"}
+	{speed 500}
+	{AimingTolerance 10}
+	{preloaded}
+}

@@ -1,0 +1,38 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_us_moded.inc")
+	("shells_usa_crate_75mm_l16")
+	{props "-wood" "construction" "break_on_burn" "small" "burning" "parts"}
+	{extension "usa_75mm_l16_shell_crate.mdl"}
+	
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "usa_75mm_l16_shell_crate"}
+	}
+	{placer
+		{place "shell_01"
+			{entity "75x272mm_usa_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "75x272mm_usa_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "75x272mm_usa_heat"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "75x272mm_usa_heat"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+	}
+}

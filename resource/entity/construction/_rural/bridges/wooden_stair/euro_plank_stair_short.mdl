@@ -1,0 +1,27 @@
+;Exported by:	 marc-
+;Date:			 09.10.2022 06:24:04
+;File:			 C:\Users\marc-\Desktop\Plank prefab exports.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position 0.4224 	 0.8889 	 8.4124}
+			{VolumeView "body.ply"}
+		}
+		{bone "land"
+			{parameters "land;rotate;"}
+			{Position 0.4336 	 1.1366 	 1.9405}
+			{visibility 0}
+			{VolumeView "land.ply"}
+		}
+	}
+}
+{volume "body06"
+	{polyhedron "body06.vol"}
+	{bone "body"}
+	{Position 0.0112 	 0.2477 	 -6.4718}
+}

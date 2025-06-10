@@ -1,0 +1,13 @@
+;{material bump
+;	{diffuse "bag_3"}
+;	{specular "bag_3_sp"}
+;	{color "229 229 229 25"}
+;	{blend none}
+;	{tile}
+;}
+
+{material simple
+	{diffuse "bag_3"}
+	{blend none}
+	{tile}
+}

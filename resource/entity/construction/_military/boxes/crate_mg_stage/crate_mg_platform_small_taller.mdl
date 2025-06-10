@@ -1,0 +1,100 @@
+;Exported by:	 Usuario
+;Date:			 13.02.2016 17:44:05
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\Entourage\crates\crate_generic_01\crate_generic_01.max
+{skeleton
+	{bone "basic"
+		{orientation
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		}
+		{bone "basis"
+			{orientation
+				0.8 	 0 	 0
+				0 	 -0.8 	 0
+				0 	 0 	 1
+			}
+			{bone "body"
+				{parameters "land;ground;"}
+				;{parameters "id=body;"}
+				{Position -0.1872 	 0.0008 	 0}
+				{VolumeView "body.ply"}
+			}
+		}
+		{bone "weapon_stage"
+			{matrix34
+				-1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+				0	 0 	17 ;z -x
+			}
+			{bone "mg_tripod_stage"
+				{matrix34
+					1 	 0	 0
+					0	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 0
+				}
+				{bone "mg_tripod_slot"
+					{matrix34
+						-1 	 0 	 0
+						0 	 -1  0
+						0 	 0 	 1
+						-2	 -1.5	 2 ; z x y
+					}
+				}
+			}
+			{bone "maxim_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 2
+				}
+				{bone "maxim_slot"
+					{matrix34
+						-1 	 0 	 0
+						0 	 -1  0
+						0 	 0 	 1
+						-1	 0	 0; -z -x y
+					}
+				}
+			}
+			{bone "m2_30cal_stage"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					0 	 0 	 1.4
+				}
+				{bone "m2_30cal_slot"
+					{matrix34
+						-1 	 0 	 0
+						0 	 -1  0
+						0 	 0 	 1
+						2.2	 0	 0 ; -z -x y
+					}
+				}
+			}
+			{bone "search_light"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					4 	 0 	 -18
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 24.6177 24.0061 22.0183}
+	{Bone "body"}
+	{Position 0.1108 	 -0.0773 	 11.0092}
+}
+{Volume "fortify"
+	{Box 24.6177 24.0061 22.0183}
+	{Bone "body"}
+	{Position 0.1108 	 -0.0773 	 11.0092}
+}
+

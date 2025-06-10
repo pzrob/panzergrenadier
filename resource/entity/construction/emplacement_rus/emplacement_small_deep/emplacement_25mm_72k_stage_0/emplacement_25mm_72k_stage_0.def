@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "emplacement_25mm_72k_stage_0.mdl"}
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "small_building"}
+
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_25mm_72k_cannon_stage"}
+		}
+	}
+}

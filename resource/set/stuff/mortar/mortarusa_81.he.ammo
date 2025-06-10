@@ -1,0 +1,16 @@
+{from "pattern mortar_ammo"
+	{tag "mortar pierce he fg 75to76 all_he"}
+	{inventory
+		{size 3 1}
+	}
+	{entity "81mm_usa_mortar_he"}
+	{view "81mm_usa_mortar_he"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 3.2}
+
+	("he_medium")
+
+	("he_level_1" weight(3.2) filler(0.55))
+
+}

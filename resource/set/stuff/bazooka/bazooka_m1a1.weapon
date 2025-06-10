@@ -1,0 +1,4 @@
+{from "bazooka_m1"
+	{entity "bazooka_m1a1"}
+	{mass 6}
+}

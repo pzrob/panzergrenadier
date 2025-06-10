@@ -1,0 +1,51 @@
+;Exported by:	 Carlos
+;Date:			 26.01.2021 22:24:08
+;File:			 T:\GoH_3D_environment_export\3d_environment\_rural\furniture\furniture.max
+{skeleton
+	{bone "chair1"
+		{matrix34
+			1	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			0    0    -3
+		}
+		{bone "prisoner_01"
+			{matrix34
+				1	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				1    0    -1
+			}
+		}
+		{LODView
+			{VolumeView "chair1.ply"}
+			{VolumeView "chair1_lod1.ply"}
+		}
+		{bone "seat"
+			{Position 2.95262	0.146469	4.00487889}
+		}
+		{bone "emit"
+			{Position 8.37136	0.15676	2.00487889}
+			{visibility 0}
+		}
+	}
+}
+{obstacle "body1"
+	{obb2
+		{center -0.537542 -0.116974}
+		{extent 6.08816 5.20794}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body1"
+	{box 12.1763 10.4159 12.9098}
+	{bone "chair1"}
+	{Position -0.5375 	 0.117 	 6.4549}
+}
+{volume "body2"
+	{box 0.733513 10.0491 11.4149}
+	{bone "chair1"}
+	{Position -6.0756 	 0.0436 	 20.3439}
+}

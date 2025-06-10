@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands keepEntity"}
+	{entity "fin_50mm_mortar_round_crate"}
+	{inventory
+		{size 4 3}
+		{weight 50}
+		{fsm "hand-only"}
+	}
+	{mass 50}
+}

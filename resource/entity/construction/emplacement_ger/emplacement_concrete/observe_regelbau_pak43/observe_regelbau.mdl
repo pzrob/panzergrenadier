@@ -1,0 +1,147 @@
+;Exported by:	 marc-
+;Date:			 14.02.2023 22:06:23
+;File:			 G:\Programs\GIT\goh-3d-environment-west3\3d_fortifications\bunk1.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "foundation"
+			{matrix34
+				0.8752 	 0.4838 	 0.0094
+				-0.4833 	 0.8749 	 -0.0308
+				-0.0232 	 0.0224 	 0.9995
+				-3.0599 	 4.5168 	 11.2869
+			}
+			{VolumeView "foundation.ply"}
+		}
+		{bone "p04"
+			{Position -72.6786 	 -27.002 	 27.0107}
+		}
+		{bone "p03"
+			{Position -76.2209 	 72.867 	 16.2072}
+		}
+		{bone "p02"
+			{Position 73.4851 	 72.1793 	 16.2072}
+		}
+		{bone "p01"
+			{Position 74.1593 	 -61.4726 	 16.2072}
+		}
+	}
+}
+{obstacle "body01"
+	{obb2
+		{center 71.4748 -9.01665}
+		{extent 9.8848 72.5624}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body02"
+	{obb2
+		{center 28.2683 56.152}
+		{extent 44.5889 10.2567}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body03"
+	{obb2
+		{center 8.58375 74.6134}
+		{extent 24.9312 8.23829}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body04"
+	{obb2
+		{center -10.0826 -68.739}
+		{extent 71.7852 12.8742}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body05"
+	{obb2
+		{center -71.5733 -4.64676}
+		{extent 10.4457 51.5594}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "body06"
+	{obb2
+		{center -62.496 64.5421}
+		{extent 19.649 18.4149}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "body01"
+	{polyhedron "body01.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.8752 	 -0.4833 	 -0.0232
+		0.4838 	 0.8749 	 0.0224
+		0.0094 	 -0.0308 	 0.9995
+		67.2997 	 -31.7372 	 -12.9063
+	}
+}
+{volume "body02"
+	{polyhedron "body02.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.8752 	 -0.4833 	 -0.0232
+		0.4838 	 0.8749 	 0.0224
+		0.0094 	 -0.0308 	 0.9995
+		-1.429 	 -66.7717 	 -13.3367
+	}
+}
+{volume "body03"
+	{polyhedron "body03.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.8752 	 -0.4833 	 -0.0232
+		0.4838 	 0.8749 	 0.0224
+		0.0094 	 -0.0308 	 0.9995
+		-28.1958 	 -74.5122 	 -13.3224
+	}
+}
+{volume "body04"
+	{polyhedron "body04.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.8752 	 -0.4833 	 -0.0232
+		0.4838 	 0.8749 	 0.0224
+		0.0094 	 -0.0308 	 0.9995
+		24.8151 	 59.9308 	 -9.6805
+	}
+}
+{volume "body05"
+	{box 20.8914 103.119 25.195}
+	{bone "foundation"}
+	{matrix34
+		0.8752 	 -0.4833 	 -0.0232
+		0.4838 	 0.8749 	 0.0224
+		0.0094 	 -0.0308 	 0.9995
+		-59.8846 	 33.1851 	 2.8994
+	}
+}
+{volume "body06"
+	{polyhedron "body06.vol"}
+	{bone "foundation"}
+	{matrix34
+		0.8752 	 -0.4833 	 -0.0232
+		0.4838 	 0.8749 	 0.0224
+		0.0094 	 -0.0308 	 0.9995
+		-85.5297 	 -31.3486 	 -11.4509
+	}
+}

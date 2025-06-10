@@ -1,0 +1,77 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_middle_log_deep_heavy_aa_set.mdl"}
+
+	{props "sand"}
+	("boneLand"  args "trench")
+	("boneLand"  args "exit")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")	
+	("volume" args "body7")	
+	("volume" args "body8")	
+	("volume" args "body9")	
+	("volume" args "body10")	
+	("volume" args "body11")
+	("volume" args "body12")
+	{placer
+        {place "sandbag_framed_straight_0"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_0"}
+			{handlebone "body"}
+		}	
+		{place "sandbag_framed_straight_00"
+			{entity "sandbag_framed_straight_180_indestructible"}
+			{Linkbone "sandbag_framed_straight_00"}
+			{handlebone "body"}
+		}		
+		{place "sandbag_framed_curved_01"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_03"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_framed_curved_03"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_02"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_framed_curved_04"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_framed_curved_04"}
+			{handlebone "body"}
+		}
+		{place "ammo_boxes_01"
+			{entity "crate_76mm02_us"}
+			{Linkbone "ammo_boxes_01"}
+			{handlebone "body"}
+		}
+		{place "ammo_boxes_02"
+			{entity "crate_76mm03_us"}
+			{Linkbone "ammo_boxes_02"}
+			{handlebone "body"}
+		}
+	}	
+	{extender "fortification"
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_90mm_m1a1_shell_crate_stage_dummy"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_90mm_m1a1_sandbag_stage_dummy"}
+		}
+	}
+}

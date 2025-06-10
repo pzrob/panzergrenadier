@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/_military/wood_crate2_ger"}
+	{bump "$/_military/wood_crate2_bp"}
+	{specular "$/_military/wood_crate2_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

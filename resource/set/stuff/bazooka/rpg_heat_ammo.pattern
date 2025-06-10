@@ -1,0 +1,18 @@
+{bullet
+	{tag "ammo rocketlauncher heat_shell dropboxed pierce no_ricochet"}
+	{inventory
+		{weight 100}
+		{size 3 1}
+		{fsm "belt"}
+	}
+
+	{damage blastwave
+		{energy 12}
+		{area 2 3.5}
+		{ground_interaction_radius 0.1} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{cumulative 3.0} ;// after hitting a volume, distance (meters) that piercing projectile travels before terminating
+
+	{possibleDamageRadius 3}
+}

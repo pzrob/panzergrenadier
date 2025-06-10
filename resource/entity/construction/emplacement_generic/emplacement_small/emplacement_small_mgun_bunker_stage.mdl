@@ -1,0 +1,106 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "stage_bunker"
+		{matrix34
+			0 	-1 	 0
+			1 	 0	 0
+			0 	 0 	 1
+			8	 20.0 5.0
+		}
+	
+	{bone "sandbag"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	0 	 -4.5
+		}
+		
+		{bone "sandbag_00"
+		{matrix34
+			1 	 0.10 	 0
+			0.10  -0.95  0
+			0 	 0 	 1.2
+			35.7	 -4.2	 1.0
+		}
+		}
+		{bone "sandbag_01"
+		{matrix34
+			0.9 	0.03 	 0
+			0.03 	 -1  0
+			0 	 0 	 1
+			0	 -36.0	 0
+		}
+		}
+		{bone "sandbag_02"
+		{matrix34
+			0.9 	0.03 	 0
+			0.03 	 -1  0
+			0 	 0 	 1
+			0	 35.0	 0
+		}
+		}
+    } 
+
+	{bone "household"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0	 -0.0	 12
+		}
+	{bone "wall"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0	 -0.0	 3
+		}
+		{bone "wall_01"
+		{matrix34
+			0.8 	 0 	 0
+			0 	 -0.6  0
+			0 	 0 	 1
+			0	 -28.0	 0
+		}
+		}
+		{bone "wall_02"
+		{matrix34
+			0.8 	 0 	 0
+			0 	 -0.6  0
+			0 	 0 	 1
+			0	 23.0 	 0
+		}
+		}
+	}	
+		
+    {bone "roof"
+		{matrix34
+			1 	 0 	   0
+			0 	 1     0
+			0 	 0 	   1
+			-7.2	1.0	 0
+		}
+		{bone "bench_00"
+		{matrix34
+			0 	 0 	   0.7
+			0 	 0.8  0
+			1 	 0 	   0
+			12.5	 0.0 	 9.6
+		}
+		}		
+		{bone "wooden_planks_roof_01"
+		{matrix34
+			1.1 	 0 	 0
+			0 	 -0.65  0
+			0 	 0 	 1.0
+			7.5	 -0.5 	17
+		}
+		}
+	}	
+	}	
+    }		
+}
+

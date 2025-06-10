@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{filling "ammo rifle_usa clip" 5}
+	{entity "m1903"}
+	{fireSound "smallarms/s3/d1/USA/M1903A3/"}
+	{fireSoundclose "smallarms/s3/3p/USA/M1903A3/"}
+	{reloadSound "reload_clip"}
+	{calibre 7.62}
+	{mass 3.9}
+
+	("velocity" mps(850))
+	("bolt_action")
+	("mosin_rate")
+	{parameters "ap"
+		("armor health" damage(5))
+		("penetration" args 17.3 8 4 2 0) ;// AP, M2
+	}
+}

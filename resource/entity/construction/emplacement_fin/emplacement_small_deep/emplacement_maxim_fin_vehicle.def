@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{props "sand" "parts" "foxhole_spawned" "small" "no_scavenge" "trench"}
+	{extension "emplacement_mgun_vehicle.mdl"}
+	;("boneLand" args "inside")
+	{placer
+		{place "mgun"
+			{entity "maxim_stand_stat_fin"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "crate_mg_platform"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+	}
+}

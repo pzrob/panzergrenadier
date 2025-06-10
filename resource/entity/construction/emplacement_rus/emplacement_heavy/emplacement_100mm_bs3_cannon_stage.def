@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_100mm_bs3_cannon_stage.mdl"}
+}

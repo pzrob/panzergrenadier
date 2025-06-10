@@ -1,0 +1,41 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_fin_moded.inc")
+	("shells_fin_crate_37mm_l45")
+	{props "-steel" "-wood" "fence" "construction" "inventory_box" "spread_items"}	
+	{extension "fin_37mm_shell_crate.mdl"}
+	
+	{volume "body"
+		{thickness 200}
+		{able {touch}}
+	}	
+	{extender "stuff"
+		{item "fin_37mm_l45_shell_crate"}
+	}	
+
+
+	{placer
+		{place "shell_02"
+			{entity "37x257mm_fin_ap"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "37x257mm_fin_ap"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "37x257mm_fin_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+		{place "shell_05"
+			{entity "37x257mm_fin_he"}
+			{Linkbone "shell_05"}
+			{handlebone "body"}
+		}
+
+	}
+}

@@ -1,0 +1,178 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 23:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "stage2"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-36	 1.0 1.4
+		}
+	
+	{bone "sandbag"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	0 	 -4
+		}
+		
+		{bone "sandbag_00"
+		{matrix34
+			1 	 0.10 	 0
+			0.10  -0.95  0
+			0 	 0 	 1
+			35.7	 -4.2	 0.0
+		}
+		}
+		{bone "sandbag_01"
+		{matrix34
+			0.9 	0.03 	 0
+			0.03 	 -1  0
+			0 	 0 	 1
+			0	 -36.0	 0
+		}
+		}
+		{bone "sandbag_02"
+		{matrix34
+			0.9 	0.03 	 0
+			0.03 	 -1  0
+			0 	 0 	 1
+			0	 35.0	 0
+		}
+		}
+    } 
+
+	{bone "household"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0	 -0.0	 12
+		}
+	{bone "wall"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0	 -0.0	 3
+		}
+		{bone "wall_01"
+		{matrix34
+			0.8 	 0 	 0
+			0 	 -0.6  0
+			0 	 0 	 1
+			0	 -28.0	 0
+		}
+		}
+		{bone "wall_02"
+		{matrix34
+			0.8 	 0 	 0
+			0 	 -0.6  0
+			0 	 0 	 1
+			0	 23.0 	 0
+		}
+		}
+	}	
+		
+	{bone "roof"
+		{matrix34
+			1 	 0 	   0
+			0 	 1     0
+			0 	 0 	   1
+			0	 -0.0	 -8
+		}
+		{bone "sandbag_pile_01"
+		{matrix34
+			1 	 -0.05 	 0
+			-0.04 	 -1  0
+			0 	 0 	 1
+			11	 -16.0	 13
+		}
+		}
+		{bone "sandbag_pile_02"
+		{matrix34
+			1 	 -0.05 	 0
+			-0.04 	 -1  0
+			0 	 0 	 1
+			11	 12.0	 13
+		}
+		}				
+		{bone "bench_00"
+		{matrix34
+			0 	 0 	   0.7
+			0 	 0.86  0
+			1 	 0 	   0
+			15.3	 -1.0 	 20.6
+		}
+		}
+		{bone "bench_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			26.6	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_02"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			18.6	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_03"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			10.6	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_04"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			2.6	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_05"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-5.4	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_06"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-13.4	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_07"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-21.4	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_08"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-29.4	 -1.0 	 8.0
+		}
+		}
+	}	
+	}	
+    }		
+}
+

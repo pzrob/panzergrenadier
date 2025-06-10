@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "sand_shuttering_wall_2_dummy.mdl"}
+	{props "construction" "wood" "burning" "dummy_emplacement"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "small_building"}
+	{collider "nothing"}
+	{extender "land_patch"
+	}
+
+	{placer
+		{place "self"
+			{entity "sand_shuttering_wall_2_dummy_02"}
+			{Linkbone "self"}
+			{handlebone "body"}
+		}
+	}
+}

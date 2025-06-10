@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "tent_kit"}
+	}
+	{extension "tent_kit.mdl"}
+	{volume "body"
+	}
+	{volume "select"
+	}
+}

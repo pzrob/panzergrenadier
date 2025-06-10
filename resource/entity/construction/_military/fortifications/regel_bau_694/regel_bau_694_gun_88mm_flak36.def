@@ -1,0 +1,20 @@
+{
+	(include "bau694.inc")
+
+	{extender "structure"
+		{place "p01" "rb694ext3"}
+		{place "p02" "rb694ext2"}
+		{place "p03" "rb694ext4"}
+		{place "p04" "rb694ext1"}
+		{place "p05" "rb6941"}
+		{place "attach1" ""}
+	}
+	{placer
+		{place "attach1"
+			{entity "155mm_gpf_platform"}
+			;{entity "regel_bau_694_gun_88mm_flak36"}
+			{linkbone "attach1"}
+			{handlebone "basis"}
+		}
+	}
+}

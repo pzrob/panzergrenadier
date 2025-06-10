@@ -1,0 +1,57 @@
+;// TOC
+{game_entity
+	(include "/properties/construction.inc")
+	{props "wood" "construction" "parts" "small" "break_on_burn" "burning" "no_destroyed_stamp"}
+	{mass 150}
+	{Extension "crate_group_01.mdl"}
+	{props "inventory_box" "spread_items"}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 12}
+			{item "molotov_cocktail grenade" 6}
+			{item "molotov_bundle_fin" 3}
+			{item "dynamite_ger_x3" 2}
+			{item "dynamite_ger_x7" 2}
+			{item "hafthohlladung grenade" 3}
+			
+			{item "m24_geballteladung grenade" 3}
+		}
+	}
+	{Volume "box001"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1} {touch}}
+	}
+	{Volume "box002"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1} {touch}}
+	}
+	{Volume "box003"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1} {touch}}
+	}
+	{Volume "box004"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1} {touch}}
+	}
+	{Volume "box005"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1} {touch}}
+	}
+	{Volume "box006"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1} {touch}}
+	}
+	{Volume "box007"
+		{Tags "body" "fire"}
+		{thickness 30}
+		{able {visible 1} {touch}}
+	}
+	{lodclass "decor_medium"}
+}

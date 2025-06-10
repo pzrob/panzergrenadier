@@ -1,0 +1,59 @@
+;Exported by:	 Carlos
+;Date:			 03.11.2017 20:44:49
+;File:			 H:\GoH_3D_gem_export\3d_weapons\mg42\mg42_ammobox_export_v2.max
+{skeleton
+	{bone "patronenkasten34"
+		{Orientation
+			1 	 0 	 0
+			0 	 -1  0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "patronenkasten34.ply"}
+			{VolumeView "patronenkasten34_lod1.ply"}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-0.015056	3.533102	0.41735
+			}
+		}
+	}
+}
+{volume "body"
+	{box 7.24304 3.50054 1.85899}
+	{bone "patronenkasten34"}
+	{Position 0.0476 	 -0.4178 	 0.0144}
+}
+{volume "select"
+	{box 7.24304 3.50054 1.85899}
+	{bone "patronenkasten34"}
+	{Position 0.0476 	 -0.4178 	 0.0144}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 17.9061 	 -6.6369 	 18.0056}
+			{lookat 0.3361 	 0.5629 	 -0.6107}
+			{fov 19.8933}
+			{horizon 106.218}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.1547 	 -8.5124 	 2.7306}
+			}
+			{"1"
+				{type directional}
+				{direction -0.1403 	 0.2504 	 -0.4094}
+			}
+			{"2"
+				{type point}
+				{position 7.8752 	 18.0432 	 -0.2608}
+			}
+		}
+	}
+}

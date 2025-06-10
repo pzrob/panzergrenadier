@@ -1,0 +1,5 @@
+{game_entity
+	;(include "/properties/emplacement_building.inc")
+	{extension "45mm_pillbox_dummy.mdl"}
+	{props  "concrete" "construction" "big" "parts"}
+}

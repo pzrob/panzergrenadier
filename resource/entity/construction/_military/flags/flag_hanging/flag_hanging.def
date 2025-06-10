@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "flag_hanging.mdl"}
+	{props "flag" "one" "staged" "wood" "construction" "disable_area" "no_destroyed_stamp"}
+	{Volume "body"
+		{Tags "body" "fire"}
+		{thickness 1}
+		{able {bullet 0} {visible 0}}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	{lodclass "decor_medium"}
+}

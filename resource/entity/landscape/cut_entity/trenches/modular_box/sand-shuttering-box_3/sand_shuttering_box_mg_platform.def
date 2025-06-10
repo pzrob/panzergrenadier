@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "sand-shuttering-box_3.mdl"}
+	{props "trench" "wood"}
+	{obstacleid "trench_wall"}
+	{collider "construction"}
+	{lodclass "decor_trench"}
+
+	{volume "body1"
+		{thickness 60}
+		{tags "body"}
+		{able {contact 0} {obstacle 1}}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+	}
+}

@@ -1,0 +1,98 @@
+;Exported by:	 guita
+;Date:			 12.06.2024 15:07:02
+;File:			 D:\SVN\Working Resources\GatesOfHell\GoH_3d_environment_ostfront\3d_environment\block2_factory\factory_halls\factory_halls_new\factory_halls_new_export03.max
+{skeleton
+	{bone "door_open_default"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "c14.ply"}
+	}
+	{bone "door_open"
+		{matrix34
+			0.9 	 -0.54 	 0
+			-0.54	 -0.90	 0
+			0 	 0 	 1
+			2.4	 -2.2	 0 ;-z -x
+		}
+		{VolumeView "c14.ply"}
+	}
+	{bone "door_lock"
+		{matrix34
+			0.58	 1 	 0
+			1 	-0.58  0
+			0 	 0 	 1
+			-9.2 	 7.1	 0 ;-z -x
+		}
+		{VolumeView "c14.ply"}
+	}
+}
+{obstacle "default"
+	{obb2
+		{center -0.0888061 -0.0114749}
+		{extent 12.9115 0.998519}
+		{axis 0.866158 0.49977}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "close"
+	{obb2
+		{center -10 5}
+		{extent 0.7 13.0}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{obstacle "open"
+	{obb2
+		{center 3.0 -1.5} ;z x
+		{extent 13 0.7}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body"}
+}
+{volume "door_open_default"
+	{box 25.8159 1.89738 46.1209}
+	{bone "door_open_default"}
+	{matrix34
+		0.8642 	 -0.5031 	 0
+		0.5031 	 0.8642 	 0
+		0 	 0 	 1
+		-0.0888 	 0.0115 	 0
+	}
+}
+{volume "door_open"
+	{box 25.8159 1.89738 46.1209}
+	{bone "door_open"}
+	{matrix34
+		0.8642 	 -0.5031 	 0
+		0.5031 	 0.8642 	 0
+		0 	 0 	 1
+		-0.0888 	 0.0115 	 0
+	}
+}
+{volume "door_lock"
+	{box 25.8159 1.89738 46.1209}
+	{bone "door_lock"}
+	{matrix34
+		0.8642 	 -0.5031 	 0
+		0.5031 	 0.8642 	 0
+		0 	 0 	 1
+		-0.0888 	 0.0115 	 0
+	}
+}
+{volume "switch"
+	{box 25.8159 1.89738 46.1209}
+	{bone "door_lock"}
+	{matrix34
+		0.8642 	 -0.5031 	 0
+		0.5031 	 0.8642 	 0
+		0 	 0 	 1
+		-0.0888 	 0.0115 	 0
+	}
+}

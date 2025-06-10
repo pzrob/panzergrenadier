@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "crate_mg_tripod_bunker_entrance_mgun_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "mgun"
+			{entity "mg_fixed_shielded_tripod_bunker_entrance"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{game_entity
+	(include "/properties/emplacement_foxhole.ext")
+	{props "sand" "parts" "no_scavenge" "trench"}
+	{extension "emplacement_concrete_88mm_flak_vehicle.mdl"}
+	{placer}
+	{extender "structure"
+		{place "p01" "aar01"}
+		{place "p02" "aar02"}
+		{place "p03" "aar03"}
+		{place "p04" "aar04"}
+	}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body08"
+		{Tags "body"}
+		{thickness 200}
+	}
+    {Extender "land_patch"
+        {TerrainType "road" "bridge"}
+    }
+    {placer
+		{place "cannon"
+			{entity "88mm_flak18_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+	}
+}

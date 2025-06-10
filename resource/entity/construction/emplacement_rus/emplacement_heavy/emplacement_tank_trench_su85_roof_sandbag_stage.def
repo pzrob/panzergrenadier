@@ -1,0 +1,75 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+
+	("armor_medium")
+	{lodclass "decor_medium"}
+	{extension "emplacement_tank_trench_su85_roof_sandbag_stage.mdl"}
+    {placer
+		{place "sandbag_pile_01"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_02"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_03"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_03"}
+			{handlebone "body"}
+		}
+
+		{place "sandbag_pile_05"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_05"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_06"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_06"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_07"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_07"}
+			{handlebone "body"}
+		}
+
+		{place "sandbag_pile_09"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_09"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_10"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_10"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_11"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_11"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_13"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_13"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_14"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_14"}
+			{handlebone "body"}
+		}
+		{place "sandbag_pile_15"
+			{entity "sandbag_heap_pile_indestructible_roof"}
+			{Linkbone "sandbag_pile_15"}
+			{handlebone "body"}
+		}
+
+	}
+}

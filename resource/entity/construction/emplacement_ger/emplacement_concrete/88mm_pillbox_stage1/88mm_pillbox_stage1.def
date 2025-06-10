@@ -1,0 +1,32 @@
+{actor
+	(include "/properties/building.inc")
+	{extension "88mm_pillbox_stage1.mdl"}
+	{props "concrete" "75mm_pillbox"}
+	{Lodclass "concrete"}
+	{collider "nothing"}
+	{ObstacleId "nothing"}
+
+	{volume "body"
+		{able clear {obstacle}{touch}}
+	}
+
+	{extender "land_patch"
+		{TerrainType "road" "bridge"} 
+		{RemoveEntities 1}
+	}
+
+	{extender "fortification"
+		{level ;// level 0
+			{steps 0}
+			{radius 0}
+			{buildTime 60}
+			{entity "88mm_pillbox_stage2"}
+		}
+		{level ;// level 1
+			{steps 0}
+			{radius 0}
+			{buildTime 150}
+			{entity "88mm_flak36_stat"}
+		}
+	}
+}

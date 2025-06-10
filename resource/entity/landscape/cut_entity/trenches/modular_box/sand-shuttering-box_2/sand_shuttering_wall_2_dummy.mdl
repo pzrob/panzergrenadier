@@ -1,0 +1,41 @@
+;Exported by:	 Usuario
+;Date:			 28.02.2016 23:34:19
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\trenches\box-trench\boxtrench_01.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "self"
+		{matrix34
+			1	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			6.5 	 -0.0  0 ; -x z
+		}
+	}
+	{bone "box011"
+		{parameters "commonmesh;land;"}
+		{matrix34
+			1	 0 	 0
+			0 	 -1.28 	 0
+			0 	 0 	 1.3
+			0 	 0 	 27
+		}
+		{VolumeView "box011.ply"}
+	}
+	{bone "box012"
+		{parameters "commonmesh;land;"}
+		{matrix34
+			1	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			-0 	 -23.5 	6.0   ;x z y
+		}
+		{VolumeView "box012.ply"}
+	}
+	}
+}

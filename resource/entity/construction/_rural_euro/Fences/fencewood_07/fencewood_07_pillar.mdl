@@ -1,0 +1,42 @@
+;Exported by:	 guita
+;Date:			 30.11.2023 18:01:02
+;File:			 D:\SVN\Working Resources\GatesOfHell\GoH_3d_environment_west\3d_buildings\entourage\wood_fence001\woodfence01.max
+{skeleton
+	{bone "basis07"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "exterior01"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				0 	 0 	 0
+			}
+			{VolumeView "exterior01.ply"}
+		}
+	}
+}
+{area "interior"
+	{obb2
+		{center -0.0 0}
+		{extent 110 110}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{area "obstacle"
+	{obb2
+		{center -0.0085392 -0.00622559}
+		{extent 1.54178 1.53561}
+		{axis -1 0}
+	}
+	{rotate}
+}
+{volume "exterior01"
+	{box 2.54889 2.6332 25.5906}
+	{bone "exterior01"}
+	{Position 0 	 0 	 12.7953}
+}

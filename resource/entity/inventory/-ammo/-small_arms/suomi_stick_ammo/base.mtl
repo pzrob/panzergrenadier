@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/suomi_kp31"}
+	{bump "$/_weapon/suomi_kp31_bp"}
+	{specular "$/_weapon/suomi_kp31_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

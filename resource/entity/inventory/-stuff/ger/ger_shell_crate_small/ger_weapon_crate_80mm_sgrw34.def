@@ -1,0 +1,24 @@
+{game_entity
+	(include "/properties/construction.inc")
+	;(include "/properties/stuff.ext")
+	{obstacleID "unbreakable"}
+	{collider "nothing"}
+	(include "/properties/resupply_ger_moded.inc")
+	("mortar_rounds_ger_crate_80mm")
+	{props "-steel" "-wood" "weapon_crate" "fence" "construction"}
+	{Extension "inf_ammo_box.mdl"}
+
+	{Volume "body"
+		{thickness 200}
+		;{able {touch 1}{contact 0}}
+	}
+	{volume "fortify"
+		{thickness 0}
+		{able  {touch 1}}
+		{Tags "fortify"}
+	}
+	;{extender "stuff"
+		;{item "ger_weapon_crate_80mm_sgrw34"}
+	;}
+	{Texmod "ger"}
+}

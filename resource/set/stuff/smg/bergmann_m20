@@ -1,0 +1,16 @@
+{from "pattern smg"
+	{tag "pistol2_shell"}
+	{filling "ammo bergmann_stick" 50}
+	{entity "bergmann_m20"}
+	{fireSound "smallarms/s1/d1/RUS/PPS43/"}	; Placeholder
+	{fireSoundclose "smallarms/s1/3p/RUS/PPS43/"}	; Placeholder
+	{reloadSound "mp40"}
+	{calibre 7.65}
+	{mass 4.2}
+
+	("fire rate" rpm(600))
+	("velocity" mps(370))
+	("spreading_medium")
+	("burst_long")
+	("stick_reload")
+}

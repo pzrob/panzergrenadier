@@ -1,0 +1,96 @@
+;Exported by: Ty2903
+;Date:        8/30/15
+;File:        
+{Skeleton
+	{bone "vpgs41"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "vpgs41.ply"}
+			{VolumeView "vpgs41_lod1.ply"}
+		}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-3.5375	0.0303365	0.00743681
+			}
+		}
+		{bone "rod"
+			{Matrix34
+				-1 0 0   
+				0 -0.66 0   
+				0 0 0.65
+				1.75	0.85	0.05
+				
+			}
+			{VolumeView "rod.ply"}
+		}
+		{bone "front"
+			{Matrix34
+				-0.8 0 0   
+				0 1.05 0   
+				0 0 -1.05 
+				-2.07	0	0
+			}
+			{VolumeView "front.ply"}
+		}
+		{bone "front2"
+			{Matrix34
+				-0.8 0 0   
+				0 1.05 0   
+				0 0 -1.05 
+				-3.22	0	0
+			}
+			{VolumeView "front.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.84779 5.91454}
+	{Bone "vpgs41"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-0.5	0.0141874	-0.00596254
+	}
+}
+{Volume "select"
+	{Box 5.06684 13 2.59872}
+	{Bone "vpgs41"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-2.35	0.04853	0.120077
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.22074	13.0411	14.971}
+			{lookat -2.332024	-0.0265843	-0.000238419}
+			{fov 29.6199}
+			{horizon 24.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.497682	0.0315293	-0.0362998}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0418598	-0.458432	-0.195161}
+			}
+			{"2"
+				{type directional}
+				{direction -0.267925	0.257213	-0.334749}
+			}
+		}
+	}
+}

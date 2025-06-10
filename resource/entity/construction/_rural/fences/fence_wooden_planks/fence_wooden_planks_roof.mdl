@@ -1,0 +1,67 @@
+;Exported by:	 guita
+;Date:			 30.11.2022 22:44:21
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\_rural\fences\WoodFence\wood_fence_rural.max
+{skeleton
+	{bone "exterior01"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0 	 0 	 0
+		}
+	{bone "plank_stage"
+		{matrix34
+			0 	 1 	 0
+			0 	 0 	 1
+			1 	 0 	 0
+			0 	 0 	 0
+		}
+	{bone "plank_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			-1.1	 -0.1 	 -11.0
+		}
+		{VolumeView "exterior01.ply"}
+	}
+	{bone "plank_02"
+		{matrix34
+			-1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 -1
+			1.1 	 0.1	 11.0 ;x y z
+		}
+		{VolumeView "exterior01.ply"}
+	}
+	}
+	}
+}
+{volume "plank_01"
+	{box 59.0142 25.307 1.59498}
+	{bone "plank_01"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		1.1246 	 -2.377 	 13.0528
+	}
+}
+{volume "plank_02"
+	{box 59.0142 25.307 1.59498}
+	{bone "plank_02"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		1.1246 	 -2.377 	 13.0528
+	}
+}
+{area "interior"
+	{obb2
+		{center -0.0 0}
+		{extent 20 70}
+		{axis -1 0}
+	}
+	{rotate}
+}

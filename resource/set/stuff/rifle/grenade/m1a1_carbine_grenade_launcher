@@ -1,0 +1,3 @@
+{from "m1_carbine_grenade_launcher"
+	{entity "m1a1_carbine_grenade_launcher"}
+}

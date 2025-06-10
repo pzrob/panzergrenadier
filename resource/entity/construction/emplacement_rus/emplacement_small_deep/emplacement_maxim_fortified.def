@@ -1,0 +1,38 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "foxhole_spawned" "small"}
+	{extension "emplacement_mgun.mdl"}
+	("boneLand" args "inside")
+	{placer
+		{place "mgun"
+			{entity "maxim_stand"}
+			{Linkbone "mgun"}
+			{handlebone "body"}
+		}
+		{place "table_01"
+			{entity "crate_mg_platform"}
+			{Linkbone "table_01"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_deep_mgun_bunker_stage_rus_dummy"}
+		}
+		{level ;// level 3
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_deep_mgun_roof_sandbag_stage_rus_dummy"}
+		}
+		{level ;// level 4
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_small_deep_bush_cover_stage_dummy"}
+		}
+	}
+}

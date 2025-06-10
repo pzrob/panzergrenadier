@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "ger_weapon_crate_300mm_nebelwerfer42_cannon_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox" "weapon_crate"}
+	("armor_heavy")
+	{placer
+		{place "cannon"
+			{entity "300mm_nebelwerfer42_stat"}
+			{Linkbone "cannon"}
+			{handlebone "body"}
+		}
+		{place "floor_stage"
+			{entity "concrete_floor_weapon_crate_300mm_nebelwerfer42"}
+			{Linkbone "floor_stage"}
+			{handlebone "body"}
+		}
+		{place "ammo_crate"
+			{entity "concrete_floor_300mm_nebelwerfer42_shell_crate_stage_dummy"}
+			{Linkbone "ammo_crate"}
+			{handlebone "body"}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "sand" "trench"}
+	{Extension "emplacement_halftrack_trench_reversed_tall.mdl"}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{volume "body" {able clear {obstacle}}}
+	{volume "body" {able {touch 1}}}
+	{placer
+        {place "sandbag_left_01"
+			{entity "sandbag_framed_straight_270_indestructible"}
+			{Linkbone "sandbag_left_01"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_left_02"
+			;{entity "sandbag_framed_straight_270_indestructible"}
+			;{Linkbone "sandbag_left_02"}
+			;{handlebone "body"}
+		;}
+		;{place "sandbag_left_03"
+			;{entity "sandbag_framed_straight_270_indestructible"}
+			;{Linkbone "sandbag_left_03"}
+			;{handlebone "body"}
+		;}
+
+		{place "sandbag_right_01"
+			{entity "sandbag_framed_straight_90_indestructible"}
+			{Linkbone "sandbag_right_01"}
+			{handlebone "body"}
+		}
+		;{place "sandbag_right_02"
+			;{entity "sandbag_framed_straight_90_indestructible"}
+			;{Linkbone "sandbag_right_02"}
+			;{handlebone "body"}
+		;}
+		;{place "sandbag_right_03"
+			;{entity "sandbag_framed_straight_90_indestructible"}
+			;{Linkbone "sandbag_right_03"}
+			;{handlebone "body"}
+		;}
+
+		{place "sandbag_front_01"
+			{entity "sandbag_framed_straight_indestructible"}
+			{Linkbone "sandbag_front_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_front_02"
+			{entity "sandbag_framed_straight_indestructible_view"}
+			{Linkbone "sandbag_front_02"}
+			{handlebone "body"}
+		}
+		{place "sandbag_front_03"
+			{entity "sandbag_framed_straight_indestructible"}
+			{Linkbone "sandbag_front_03"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_tank_trench_middle_roof_stage_dummy"}
+		}
+	}
+}

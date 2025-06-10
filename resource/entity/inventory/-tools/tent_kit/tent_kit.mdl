@@ -1,0 +1,61 @@
+;Exported by:	 Carlos
+;Date:			 07.01.2021 17:07:08
+;File:			 T:\GoH_3D_human_export\3d_equipment\tent_equipment\portable tent.max
+{skeleton
+	{bone "tent"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "tent.ply"}
+			{VolumeView "tent_lod1.ply"}
+			{VolumeView "tent_lod2.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 22.1022 4.19303 3.61016}
+	{bone "tent"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-0.4744 	 0.8699 	 1.8025
+	}
+}
+{volume "select"
+	{box 22.5723 4.42362 4.46966}
+	{bone "tent"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		-0.3918 	 0.796 	 1.915
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 68.7102 	 8.0313 	 59.771}
+			{lookat -1.7588 	 -1.1243 	 1.2154}
+			{fov 16.2041}
+			{horizon -4.18965}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.7679 	 -19.4477 	 -2.0642}
+			}
+			{"1"
+				{type directional}
+				{direction -0.3437 	 -0.0984 	 -0.3495}
+			}
+			{"2"
+				{type point}
+				{position -19.2039 	 3.0479 	 28.1136}
+			}
+		}
+	}
+}

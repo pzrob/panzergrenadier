@@ -1,0 +1,46 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "sand" "sandbag" "construction"  "onestage" "jettison_sandbags4"}
+	{extension "sandbag_framed_curved_180.mdl"}
+
+	{volume "body1"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{volume "body2"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{volume "body3"
+		{Tags "body"}
+		{thickness 120}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+	}
+	{volume "frame1"
+		{Tags "fire"}
+		{thickness 10}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{material "wood"}
+	}
+	{volume "frame2"
+		{Tags "fire"}
+		{thickness 10}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{material "wood"}
+	}
+	{volume "frame3"
+		{Tags "fire"}
+		{thickness 10}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{material "wood"}
+	}
+	{lodclass "decor_medium"}
+}

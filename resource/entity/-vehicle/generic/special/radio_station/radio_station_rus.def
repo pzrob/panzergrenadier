@@ -1,0 +1,32 @@
+{actor
+	(include "/properties/radio.ext")
+	;(include "/properties/resupply.inc")
+	(include "/properties/fortified_emplacement.ext")
+	{extension "radio.mdl"}
+	{props "stat_weapon" "vision_lev00_can"  "emplacement_light_inf_crate"  "radio_car"}
+	{tag "radio_car"}
+	{tag "radio_rus"}
+	{extender "stuff"
+		{item "radio_station_rus"}
+	}
+	;("supply_ammo" supply(400))
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+		}
+	}
+    {placer		
+	    {place "table"
+			{entity "table_ger01"}
+			{Linkbone "table"}
+			{handlebone "body"}
+	    }
+	    {place "chair"
+			{entity "chair"}
+			{Linkbone "chair"}
+			{handlebone "body"}
+	    }
+	}
+	{mass 50}
+}

@@ -1,0 +1,89 @@
+{game_entity
+	(include "/properties/halftrack.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "td" "tank" "shell_eject" "truck" "turret" "with_gun" "automatic" "vision_lev02" "tractor" "tractor_heavy" "muzzle_20mm_25mm_auto" "detect_tank_light" "explosion_throw_crew" "emplacement_tank_trench_light"}
+	{able "emit_passangers_on_enemy"}
+	{extension "sdkfz10_4.mdl"}
+	{extension "crew.ext"}
+	{collider "truck"}
+	{patherId "sdkfz251"}
+	{targetSelector "tank_zenite"}
+
+	("armoredcar_tier1")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+
+	("glass" args "glassr")
+	("glass" args "glassl")
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	("turret" repair(45))
+	("gun" repair(30) thickness(20))
+
+	{volume "body1" {thickness 4}}
+	{volume "body2" {able {holed}}{thickness 4}}
+	{volume "body3" {thickness 4}}
+	{volume "engine" {thickness 4}}
+	{volume "transmission" {able {NoWoundDecal 0}}}
+	{volume "trackleft1"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
+	{volume "trackright1"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
+	{volume "turret" {thickness 8} {able {holed}}}
+	{volume "turret2" {thickness 8}}
+	{volume "armor1" {thickness 2} {able {obstacle 0}}}
+	{volume "armor2" {thickness 2} {able {obstacle 0}}}
+	{volume "armor3" {thickness 2} {able {obstacle 0}}}
+	{volume "armor4" {thickness 2} {able {obstacle 0}}}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletger_20_auto ap" 140}		; 20 clips (20 rounds each) 33/66 AP/HE
+			{item "bulletger_20_auto he" 240}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "20mm_flak30" filling "bulletger_20_auto he" 20}
+			("abm_dymamic_aaa"
+				zeroing(2.9)
+				dispersion(0.08)
+			)
+		}
+	}
+
+	{mass 4700}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.50) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(65) ;----------------------------------Max speed.
+			speedatmaxturn(20) ;-------------------------Max speed at max turn.
+			reverse(15) ;--------------------------------Max speed in Reverse.
+			weight(4.7) ;--------------------------------Weight in Tonnes.
+			power(100) ;---------------------------------Horse Power.
+			fuel(110) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(150) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "gun_rot"
+		{limits -5 88}
+		{speed2 60}
+	}
+	{bone "turret"
+		{speed2 60}
+	}
+}

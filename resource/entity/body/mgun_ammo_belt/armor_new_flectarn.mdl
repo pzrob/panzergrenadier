@@ -1,0 +1,28 @@
+;Exported by: Ghosteron
+;Date:        Sat Jul 19 14:28:56 2014
+;File:        C:\Users\Ghosteron\Desktop\mw2_afgan_army_lmg_1_2.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+		{Orientation
+			1.1	0	0;Front-Back
+			0	-1	0;Height
+			0	0	1.25;
+		}
+	{Position 0	0	-5.5};,,Left-Right
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Position 0.122765	1.24989	-4.58687}
+}

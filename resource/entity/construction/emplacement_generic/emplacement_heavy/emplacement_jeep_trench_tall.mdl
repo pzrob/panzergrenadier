@@ -1,0 +1,215 @@
+;Exported by: caps
+;Date:        Fri Jul  5 09:46:56 2019
+;File:        F:\!_Work\tank_cover\3D\tank_cover_03.max
+{Skeleton
+	{bone "basic"
+		{matrix34
+			1	0	0
+			0	1	0
+			0	0	1
+			0   0	3   ;z -x y
+		}
+	{bone "tank_cover"
+		{parameters "CommonMesh;Ground;Land;Align;"}
+		{matrix34
+			0	0.6	0
+			0.5	0	0
+			0	0	0.8
+			0 0	0  ;-52 0	0
+		}
+		{VolumeView "tank_cover.ply" {Ground}}
+    }
+    {bone "sandbag_stage"
+		{matrix34
+			0 	 1.1  0
+			-0.9 	 0	 0
+			0 	 0 	 1.3
+			18	-4.0 2 ;-z x y  63	 55.0 5.0
+		}
+	{bone "sandbag"
+		{matrix34
+			1 	 0 	 0
+			0 	 1	 0
+			0 	 0 	 1
+			0 	 42 	 0  ;x -z
+		}	
+		{bone "sandbag_left"
+			{matrix34
+			 1.0	 0   0            
+			 0   1.1   0          
+			 0 	 0   1			
+			-40.85 	 53 	-0  ;x -z y
+			}
+		
+		{bone "sandbag_left_01"
+			{matrix34
+			 0	 -1   0            
+			 -1   0   0          
+			-0 	 0    1			
+			-0	 -60.000 	-0
+			}
+		}
+		{bone "sandbag_left_02"
+			{matrix34
+			 0	 -1   0            
+			 -1   0   0          
+			 0 	 0    1					
+			0 	 -17.0 	-0
+			}
+		}
+		{bone "sandbag_left_03"
+			{matrix34
+			 0	 -1   0            
+			 -1   0   0          
+			 0 	 0    1					
+			0 	 26.0 	-0
+			}
+		}
+		}
+		{bone "sandbag_right"
+			{matrix34
+			 1.0	 0   0            
+			 0   1.1   0          
+			 0 	 0   1
+			49.65	56 	-0 ;68.75	51.51 	-0
+			}
+		{bone "sandbag_right_01"
+			{matrix34
+			 0	 -1   0            
+			 -1   0   0          
+			 0 	 0    1		
+			0 	 -60.0 	-0
+			}
+		}
+		{bone "sandbag_right_02"
+			{matrix34
+			 0	 -1   0            
+			 -1   0   0          
+			 0 	 0    1				
+			0 	 -17.1 	-0
+			}
+		}
+		{bone "sandbag_right_03"
+			{matrix34
+			 0	 -1   0            
+			 -1   0   0          
+			 0 	 0    1				
+			0 	 25.8 	-0
+			}
+		}
+		}
+	    {bone "sandbag_front"
+			{matrix34
+			 1.0	 0   0            
+			 0   1.0  0          
+			 0 	 0   1	
+			5.0 	 -55.000 	 0.0 ;x -z y
+			}
+	    
+	    {bone "sandbag_front_01"
+			{matrix34
+			 -0.8	 -0.45   0            
+			 -0.45     0.8   0          
+			  0 	 0    1		
+			-36.15 	  -0.10 	 0.0
+			}
+	    }
+	    {bone "sandbag_front_02"
+			{matrix34
+			 0	 -1.0   0            
+			 -1.0  0   0          
+			 0 	 0    1				
+			0.0 	-19.8 	 -9.5
+			}
+	    }
+	    {bone "sandbag_front_03"
+			{matrix34
+			 0.77	 -0.50   0            
+			 -0.50   -0.77    0          
+			 0 	     0      1				
+			35.2 	  1.9 	 0.0
+			}
+	    }
+	    {bone "sandbag_pile_front_01"
+			{matrix34
+			0.7	 -0.7   0            
+			 -0.7   -0.7    0          
+			 0 	     0      1			
+			-54.2 	 -13.2 	0.5
+			}
+	    }
+	    {bone "sandbag_pile_front_02"
+			{matrix34
+			 -0.7	 -0.7   0            
+			 -0.7   0.7    0          
+			 0 	     0      1				
+			54.0 	 -13 	0.5
+			}
+	    }
+		}
+    }	
+    }		
+    }
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex  61.0 -30.0}
+		{Vertex  51.0 -40.0}
+		{Vertex  -51.0 -40.0}
+		{Vertex  -51.0 40.0}
+		{Vertex  51.0 40.0}
+		{Vertex  61.0 30.0}
+	}
+	{Rotate}
+}
+{volume "body" ;l/r , f/b, height
+	{box 200 260 30}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		0 5 15
+	}
+}
+{##volume "body1" ;l/r , f/b, height
+	{box 10 220 27}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		75 10 0
+	}
+}
+{##volume "body2" ;l/r , f/b, height
+	{box 10 220 27}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		-75 10 0
+	}
+}
+{##volume "body3" ;l/r , f/b, height
+	{box 140 10 27}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		0 115 0
+	}
+}
+{##volume "body4" ;l/r , f/b, height
+	{box 140 10 15}
+	{bone "tank_cover"}
+	{matrix34
+		1 0 0
+		0 1 0
+		0 0 1
+		0 -115 0
+	}
+}

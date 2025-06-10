@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_military/regelbau_636_walls"}
+	{bump "$/_military/regelbau_636_walls_bp"}
+	{specular "$/_military/regelbau_636_walls_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

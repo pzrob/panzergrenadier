@@ -1,0 +1,41 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "construction" "wood" "burning"} 
+	{collider "particle.big"}	
+	("armor_heavy" args 0.8)
+	{obstacleID "trench_wall"}
+    {Extender "land_patch"
+        {TerrainType "road" "bridge"}
+    }
+	{Extension "floor_80mm_sgrw34.mdl"}
+	{Volume "floor0"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor1"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{Volume "floor2"
+		{Tags "body" "fire"}
+		{able {obstacle 0}}
+		{thickness 10}
+	}
+	{lodclass "decor_medium"}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "floor_80mm_sgrw34_mortar_stage_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "floor_80mm_sgrw34_round_crate_stage_dummy"}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+(include "\set\small_firearms_accuracy.inc")
+(include "\set\blast.inc")
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "velocity"				;// muzzle velocity in meters per second
+	{speed (* 0.75 %mps)}
+)
+(define "penetration"			;// penetration table. penetration reduced after intended fire range to prevent explotation of Direct control
+	{projectileDamageTable {71 %0} {76 %0}}
+)
+(define "standard_slope"
+	{overmatchSlope
+		{0 1}
+		{90 1}
+	}
+)
+(define "pointed_slope"
+	{overmatchSlope
+		{0 1}
+		{50 1}
+		{60 2}
+		{90 99}
+	}
+)

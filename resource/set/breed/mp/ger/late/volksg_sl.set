@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_ver4_44_volksg_nco_smg_1"}
+	{portrait "ger_volksgrenadier"}
+	{icon "smg"}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_fieldcap_m43}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp40_unfolded" filled}
+		{item "mp40 ammo" 320}
+
+        {item "panzerfaust_100 weapon" 1 filled}
+		{item "m24_splinter grenade" 2}
+		{item "m24_smoke grenade" 2}
+		{item "m24_geballteladung grenade" 1}
+
+		{item "bandage_ger" 4}
+		{item "shovel_ger"}
+		{item "binocular"}
+
+		{in_hands 0}
+	}
+}

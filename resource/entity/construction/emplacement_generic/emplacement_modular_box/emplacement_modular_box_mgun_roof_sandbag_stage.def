@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_modular_box_mgun_roof_stage.mdl"}
+}

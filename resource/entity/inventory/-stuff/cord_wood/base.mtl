@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "wood_log"}
+	{bump "wood_log_bp"}
+	{specular "wood_log_sp"}
+	{color "230 230 230 63"}
+	{blend none}
+}

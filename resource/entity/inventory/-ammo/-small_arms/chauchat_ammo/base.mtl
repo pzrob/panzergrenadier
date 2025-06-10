@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/chauchat"}
+	{bump "$/_weapon/chauchat_bp"}
+	{specular "$/_weapon/chauchat_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

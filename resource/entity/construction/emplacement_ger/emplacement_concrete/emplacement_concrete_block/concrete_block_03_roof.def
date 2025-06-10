@@ -1,0 +1,12 @@
+{game_entity	
+(include "/properties/building_roof.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{extension "concrete_block_03_roof.mdl"}
+	{volume "exterior01"
+		{Tags "roof"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{Lodclass "concrete"}
+}

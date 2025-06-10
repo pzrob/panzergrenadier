@@ -1,0 +1,5 @@
+{game_entity
+	;(include "/properties/trench.inc")
+	{extension "fire_position_dummy.mdl"}
+	{props "sand" "trench"}
+}

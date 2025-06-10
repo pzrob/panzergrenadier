@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_weapon/mg13_magazine"}
+	{bump "$/_weapon/mg13_magazine_bp"}
+	{specular "$/_weapon/mg13_magazine_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

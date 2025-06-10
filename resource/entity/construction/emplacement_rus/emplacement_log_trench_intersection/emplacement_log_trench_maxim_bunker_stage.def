@@ -1,0 +1,37 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "emplacement_log_trench_bunker_stage.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+	{placer
+		{place "sandbag_01"
+			{entity "sandbag_structured_straight_90_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_structured_straight_90_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+		{place "wall_01"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "wall_01"}
+			{handlebone "body"}
+		}
+		{place "wall_02"
+			{entity "sand-shuttering-box_3_new"}
+			{Linkbone "wall_02"}
+			{handlebone "body"}
+		}
+;=======================ROOF begin========================
+
+		{place "wooden_planks_roof_01"
+			{entity "wooden_planks_roof_end_02"}
+			{Linkbone "wooden_planks_roof_01"}
+			{handlebone "body"}
+		}	
+	}
+;=======================ROOF end========================
+
+}

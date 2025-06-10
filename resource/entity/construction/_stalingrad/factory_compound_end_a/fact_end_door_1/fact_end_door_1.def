@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "fact_end_door_1.mdl"}
+	{props  "small" "steel" "parts" "construction" "no_destroyed_stamp"}
+	{Volume "body"
+		{Tags "body"}
+		{able {visible 1} {touch 1}}
+		{Tags "cut"}
+		{thickness 5}
+		{able {visible 1}}
+	}
+}

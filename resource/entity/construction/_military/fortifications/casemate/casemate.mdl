@@ -1,0 +1,24 @@
+;Exported by:	 Usuario
+;Date:			 12.03.2016 01:18:05
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\fortifications\casemate\casemate.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "p_01"
+			{Position -11.8382 	 -13.1041 	 0}
+		}
+		{bone "p_02"
+			{Position 16.2721 	 -7.4545 	 0}
+		}
+		{bone "p_03"
+			{Position 11.3508 	 17.7227 	 0}
+		}
+		{bone "p_04"
+			{Position -14.2004 	 13.4904 	 0}
+		}
+	}
+}

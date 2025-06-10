@@ -1,0 +1,70 @@
+;Exported by:	 marc-
+;Date:			 26.01.2024 04:57:06
+;File:			 T:\Programs\West\3d_buildings\city props\city_props_textured_export.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{Position -0.0577 	 0.0249 	 0}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{obstacle "body72"
+	{obb2
+		{center -0.0628662 -0.0591431}
+		{extent 1.02237 0.993936}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "body" "fire"}
+}
+{volume "body72"
+	{box 2.04474 1.98787 40.6488}
+	{bone "body"}
+	{Position -0.0051 	 0.0342 	 20.3244}
+}
+{volume "body73"
+	{box 0.225464 11.9529 2.76523}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0.9962 	 0 	 0.0872
+		-0.0872 	 0 	 0.9962
+		-4.3003 	 0.8917 	 32.9425
+	}
+}
+{volume "body74"
+	{box 0.225464 11.9529 2.76523}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0.9962 	 -0.0872
+		0 	 0.0872 	 0.9962
+		0.7888 	 4.1925 	 29.4945
+	}
+}
+{volume "body75"
+	{box 0.225464 11.9529 2.76523}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		1 	 0 	 0
+		0 	 0 	 1
+		4.1526 	 0.9768 	 39.1705
+	}
+}
+{volume "body76"
+	{box 0.225464 11.9529 2.76523}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0.9962 	 -0.0872
+		0 	 0.0872 	 0.9962
+		0.9706 	 -4.7875 	 36.3876
+	}
+}

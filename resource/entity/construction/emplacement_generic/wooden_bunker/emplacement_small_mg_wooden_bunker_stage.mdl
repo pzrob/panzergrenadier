@@ -1,0 +1,516 @@
+;Exported by:	 Usuario
+;Date:			 28.02.2016 23:34:19
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\trenches\box-trench\boxtrench_01.max
+{skeleton
+	{bone "stage_bunker"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-22	 1.0 2.2
+		}
+    {bone "household"
+		{matrix34
+			1 	0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0	 -0.0	 12
+		}
+	{bone "wall"
+	    {bone "wall_00"
+		    {parameters "commonmesh;land;"}
+		    {matrix34
+		    	1 	0 	 0
+		    	0 	 1 	 0
+		    	0 	 0 	 1
+		    	0	 -0.0	 3
+		    }
+		    {VolumeView "box011.ply"}
+	    }
+		{bone "wall_01"
+		    {parameters "commonmesh;land;"}
+		    {matrix34
+			    0.8 	 0 	 0
+			    0 	 -0.6  0
+			    0 	 0 	 1
+			    0	 -28.0	 0
+		    }
+		    {VolumeView "box011.ply"}
+		}
+		{bone "wall_02"
+		    {parameters "commonmesh;land;"}
+		    {matrix34
+			    0.8 	 0 	 0
+			    0 	 -0.6  0
+			    0 	 0 	 1
+		    	0	 23.0 	 0
+		    }
+		    {VolumeView "box011.ply"}
+		}
+	}
+	{bone "roof"
+		{matrix34
+			1 	 0 	   0
+			0 	 1     0
+			0 	 0 	   1
+			0	 -0.0	 -8
+		}
+        {bone "bench_00"
+		{matrix34
+			0 	 0 	   0.7
+			0 	 0.86  0
+			1 	 0 	   0
+			15.3	 -1.0 	 20.6
+		}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "climb12"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					13.2583 	 0.1658 	 9.9643
+				}
+			}
+			{bone "climb11"
+				{Position -11.7345 	 -0.2163 	 10.3004}
+			}
+		}
+		{bone "bench_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			26.6	 -1.0 	 8.0
+		}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "climb12"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					13.2583 	 0.1658 	 9.9643
+				}
+			}
+			{bone "climb11"
+				{Position -11.7345 	 -0.2163 	 10.3004}
+			}
+		}
+		{bone "bench_02"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			18.6	 -1.0 	 8.0
+		}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "climb12"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					13.2583 	 0.1658 	 9.9643
+				}
+			}
+			{bone "climb11"
+				{Position -11.7345 	 -0.2163 	 10.3004}
+			}
+		}
+		{bone "bench_03"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			10.6	 -1.0 	 8.0
+		}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "climb12"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					13.2583 	 0.1658 	 9.9643
+				}
+			}
+			{bone "climb11"
+				{Position -11.7345 	 -0.2163 	 10.3004}
+			}
+		}
+		{bone "bench_04"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			2.6	 -1.0 	 8.0
+		}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "climb12"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					13.2583 	 0.1658 	 9.9643
+				}
+			}
+			{bone "climb11"
+				{Position -11.7345 	 -0.2163 	 10.3004}
+			}
+		}
+		{bone "bench_05"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-5.4	 -1.0 	 8.0
+		}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+			{bone "climb12"
+				{matrix34
+					-1 	 0 	 0
+					0 	 -1 	 0
+					0 	 0 	 1
+					13.2583 	 0.1658 	 9.9643
+				}
+			}
+			{bone "climb11"
+				{Position -11.7345 	 -0.2163 	 10.3004}
+			}
+		}
+		{bone "bench_06"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-13.4	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_07"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-21.4	 -1.0 	 8.0
+		}
+		}
+		{bone "bench_08"
+		{matrix34
+			1 	 0 	 0
+			0 	 -0.90  0
+			0 	 0 	 1
+			-29.4	 -1.0 	 8.0
+		}
+		}		
+    }
+    }
+	}
+}
+{Obstacle "box020"
+	{Obb2
+		{Center 0.238571 2.64385}
+		{Extent 38.7776 9.88442}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Obstacle "box021"
+	{Obb2
+		{Center 0.238571 2.64385}
+		{Extent 38.7776 9.88442}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Obstacle "box022"
+	{Obb2
+		{Center 0.238571 2.64385}
+		{Extent 38.7776 9.88442}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags "body"}
+}
+{Volume "box020"
+	{Box 77.5552 19.7688 39.3701}
+	{Bone "wall_00"}
+	{Position 0.2386 	 -2.6438 	 -7.1966}
+}
+{Volume "box021"
+	{Box 77.5552 19.7688 39.3701}
+	{Bone "wall_01"}
+	{Position 0.2386 	 -2.6438 	 -7.1966}
+}
+{Volume "box022"
+	{Box 77.5552 19.7688 39.3701}
+	{Bone "wall_02"}
+	{Position 0.2386 	 -2.6438 	 -7.1966}
+}
+
+
+
+{obstacle "body1"
+	{obb2
+		{center 0.36939 0.0306931}
+		{extent 4.01708 35.0916}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "fire" "climb"}
+}
+{volume "body1"
+	{box 8.03415 2.15564 70.1832}
+	{bone "bench_00"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.3694 	 -0.0307 	 16.3005
+	}
+}
+{volume "body2"
+	{box 9.85231 16.6119 7.27555}
+	{bone "bench_00"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.7137 	 -28.0911 	 7.5963
+	}
+}
+{volume "body3"
+	{box 9.97546 15.3891 6.62262}
+	{bone "bench_00"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.2587 	 28.2495 	 7.6427
+	}
+}
+
+{obstacle "body4"
+	{obb2
+		{center 0.36939 0.0306931}
+		{extent 4.01708 35.0916}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "fire" "climb"}
+}
+{volume "body4"
+	{box 8.03415 2.15564 70.1832}
+	{bone "bench_01"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.3694 	 -0.0307 	 16.3005
+	}
+}
+{volume "body5"
+	{box 9.85231 16.6119 7.27555}
+	{bone "bench_01"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.7137 	 -28.0911 	 7.5963
+	}
+}
+{volume "body6"
+	{box 9.97546 15.3891 6.62262}
+	{bone "bench_01"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.2587 	 28.2495 	 7.6427
+	}
+}
+
+
+{obstacle "body7"
+	{obb2
+		{center 0.36939 0.0306931}
+		{extent 4.01708 35.0916}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "fire" "climb"}
+}
+{volume "body8"
+	{box 8.03415 2.15564 70.1832}
+	{bone "bench_02"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.3694 	 -0.0307 	 16.3005
+	}
+}
+{volume "body8"
+	{box 9.85231 16.6119 7.27555}
+	{bone "bench_02"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.7137 	 -28.0911 	 7.5963
+	}
+}
+{volume "body9"
+	{box 9.97546 15.3891 6.62262}
+	{bone "bench_02"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.2587 	 28.2495 	 7.6427
+	}
+}
+
+
+{obstacle "body10"
+	{obb2
+		{center 0.36939 0.0306931}
+		{extent 4.01708 35.0916}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "fire" "climb"}
+}
+{volume "body11"
+	{box 8.03415 2.15564 70.1832}
+	{bone "bench_03"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.3694 	 -0.0307 	 16.3005
+	}
+}
+{volume "body11"
+	{box 9.85231 16.6119 7.27555}
+	{bone "bench_03"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.7137 	 -28.0911 	 7.5963
+	}
+}
+{volume "body12"
+	{box 9.97546 15.3891 6.62262}
+	{bone "bench_03"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.2587 	 28.2495 	 7.6427
+	}
+}
+
+
+{obstacle "body13"
+	{obb2
+		{center 0.36939 0.0306931}
+		{extent 4.01708 35.0916}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "fire" "climb"}
+}
+{volume "body14"
+	{box 8.03415 2.15564 70.1832}
+	{bone "bench_04"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.3694 	 -0.0307 	 16.3005
+	}
+}
+{volume "body14"
+	{box 9.85231 16.6119 7.27555}
+	{bone "bench_04"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.7137 	 -28.0911 	 7.5963
+	}
+}
+{volume "body15"
+	{box 9.97546 15.3891 6.62262}
+	{bone "bench_04"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.2587 	 28.2495 	 7.6427
+	}
+}
+
+{obstacle "body16"
+	{obb2
+		{center 0.36939 0.0306931}
+		{extent 4.01708 35.0916}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "fire" "climb"}
+}
+{volume "body17"
+	{box 8.03415 2.15564 70.1832}
+	{bone "bench_05"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.3694 	 -0.0307 	 16.3005
+	}
+}
+{volume "body17"
+	{box 9.85231 16.6119 7.27555}
+	{bone "bench_05"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.7137 	 -28.0911 	 7.5963
+	}
+}
+{volume "body18"
+	{box 9.97546 15.3891 6.62262}
+	{bone "bench_05"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		0.2587 	 28.2495 	 7.6427
+	}
+}

@@ -1,0 +1,69 @@
+;Exported by:	 Carlos
+;Date:			 11.06.2021 13:12:33
+;File:			 T:\GoH_3D_human_export\3d_equipment\canv2\fuel_can.max
+{skeleton
+	{bone "jerrycan"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "jerrycan.ply"}
+			{VolumeView "jerrycan_lod1.ply"}
+			{VolumeView "jerrycan_lod2.ply"}
+		}
+		{bone "handle"
+			{matrix34
+				0 	 0 	 -1
+				0 	 1 	 0
+				1 	 0 	 0
+				0.141 	 -0.4627 	 11.0425
+			}
+		}
+	}
+}
+{volume "body"
+	{box 7.90657 3.45761 9.76323}
+	{bone "jerrycan"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0.0224 	 0.0904 	 4.8816
+	}
+}
+{volume "select"
+	{box 8.8019 4.02781 10.7951}
+	{bone "jerrycan"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0233 	 0.0904 	 5.0028
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -46.9563 	 -2.0741 	 4.7231}
+			{lookat 29.3495 	 1.3028 	 5.4708}
+			{fov 18.1451}
+			{horizon -0.200769}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.6339 	 28.9006 	 1.9255}
+			}
+			{"1"
+				{type directional}
+				{direction 0.4894 	 0.0082 	 -0.102}
+			}
+			{"2"
+				{type point}
+				{position -16.2392 	 -20.5791 	 2.3972}
+			}
+		}
+	}
+}

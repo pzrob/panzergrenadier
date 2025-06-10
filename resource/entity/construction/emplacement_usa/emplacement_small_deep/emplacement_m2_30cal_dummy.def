@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/trench.inc")
+	{extension "emplacement_small_deep_dummy.mdl"}
+}

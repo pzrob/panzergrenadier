@@ -1,0 +1,31 @@
+;Exported by:	 Carlos
+;Date:			 09.06.2022 14:02:34
+;File:			 T:\GoH_3d_environment_fin\3d_buildings\bunkers\45mm_pillbox\artillyry_bunker_45mm_Stand_lower.max
+{skeleton
+	{bone "basic"
+		{orientation
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+		}
+		{bone "basis"
+			{orientation
+				1 	 0 	 0
+				0 	 -1 	 0
+				0 	 0 	 1
+			}
+			{bone "exterior"
+				{Position -2.5 	 0 	 50.6649}
+				{VolumeView "exterior.ply"}
+			}
+			{bone "body"
+				{Position -2.5 	 0 	 25.1575}
+				{VolumeView "body.ply"}
+				{bone "land"
+					{Position 0 	 0 	 -28.3939}
+					{VolumeView "land.ply" {Ground}}
+				}
+			}
+		}	
+	}	
+}	

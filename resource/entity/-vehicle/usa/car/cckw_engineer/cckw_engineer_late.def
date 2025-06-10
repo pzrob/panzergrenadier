@@ -1,0 +1,32 @@
+{game_entity
+	(include "engineer.inc")
+	{props "hatch" "muzzle_hmg_m2hb"}
+	{extension "cckw_engineer_late.mdl"}
+
+	("board_animation"
+		place(commander)
+		board_begin(board_big-midcar)
+		board_end(seat_cckw_gunner_a)
+		base(doorright)
+	)
+
+	{extender "inventory"
+		{box
+			{item "ammo hmgun_usa" 200}		; 300 rounds
+		}
+	}
+
+	{Weaponry
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m2" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+}

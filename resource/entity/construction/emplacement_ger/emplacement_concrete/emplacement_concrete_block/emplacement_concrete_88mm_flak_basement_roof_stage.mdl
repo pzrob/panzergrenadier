@@ -1,0 +1,508 @@
+;Exported by:	 guita
+;Date:			 04.06.2022 0:36:30
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_environment\Concrete_blocks\Concrete_bunker_modular.max
+{skeleton
+	{bone "basic"
+		{matrix34
+			0 	 -1 	 0
+			1 	 0 	 0
+			0 	 0 	 1
+			0    0   8  ;x -z y
+		}
+
+	{bone "exterior01"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 0.4
+			11  0  13  ;x -z y
+		}
+	{bone "roof_front_stage_01"
+		{matrix34
+			1.05 	 0 	 0
+			0 	 1.5 	 0
+			0 	 0 	 1
+			0    -78  0  ;x -z y
+		}
+	{bone "roof_front_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-120	0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-24	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_front_03"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			72	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+    }
+	{bone "roof_rear_stage_01"
+		{matrix34
+			0.93 	 0 	 0
+			0 	 1.4 	 0
+			0 	 0 	 1
+			-25 238  0  ;x -z y
+		}
+	{bone "roof_rear_01"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			48.5	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	{bone "roof_rear_02"
+		{matrix34
+			0 	0   -1.0
+			1 	0.0	 0
+			0	1    0	;x -z
+			-48.5	-0	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }
+	}
+	
+	
+	{bone "roof_rear_right_stage_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 1.5 	 0
+			0 	 0 	 1
+			95 	 -55 	 0
+		}
+	{bone "roof_rear_right_01"
+		{matrix34
+			0 	 0   -1.0
+			0  0.75	 0
+			-1	 0   0	;x -z
+			0	50	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }	
+	{bone "roof_rear_right_02"
+		{matrix34
+			0 	 0   -1.0
+			0  0.75	 0
+			-1	 0   0	;x -z
+			0	123	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }	
+	{bone "roof_rear_right_03"
+		{matrix34
+			0 	 0   -1.0
+			0  0.75	 0
+			-1	 0   0	;x -z
+			0	196	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }	
+    }	
+	{bone "roof_rear_left_stage_01"
+		{matrix34
+			1.05 	 0 	 0
+			0 	 1.5 	 0
+			0 	 0 	 1
+			-145	 -55 	 0
+		}
+	{bone "roof_rear_left_01"
+		{matrix34
+			0 	 0   -1.0
+			0  0.75	 0
+			-1	 0   0	;x -z
+			0	50	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }	
+	{bone "roof_rear_left_02"
+		{matrix34
+			0 	 0   -1.0
+			0  0.75	 0
+			-1	 0   0	;x -z
+			0	123	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }	
+	{bone "roof_rear_left_03"
+		{matrix34
+			0 	 0   -1.0
+			0  0.75	 0
+			-1	 0   0	;x -z
+			0	196	 0 ;x -z
+		}	
+        {VolumeView "exterior01.ply"}
+    }	
+    }
+	}
+	{bone "pillar_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    0   0  ;x -z y
+		}
+	{bone "roof_rear_left_pillar_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    0   0  ;x -z y
+		}	
+    }	
+	{bone "roof_rear_left_pillar_02"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    0   0  ;x -z y
+		}	
+    }	
+	{bone "wall_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			0    0   -14  ;x -z y
+		}
+	{bone "wall_00"
+		{matrix34
+			0.5	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1   ;x -z
+			-100    -160   0  ;x -z y
+		}	
+    }	
+	{bone "wall_front"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-4    -114   0  ;x -z y
+		}	
+	{bone "wall_01"
+		{matrix34
+			0	 0.65	 0
+			0.42	 0   0
+			0 	 0 	 0.4  ;x -z
+			-130    -0   0 ;x -z y
+		}	
+    }
+	{bone "wall_02"
+		{matrix34
+			0	 0.65 	 0
+			0.42	 0   0
+			0 	 0 	 0.4  ;x -z
+			-70    -0   0 ;x -z y
+		}	
+    }	
+	{bone "wall_03"
+		{matrix34
+			0	 0.65 	 0
+			0.42	 0   0
+			0 	 0 	 0.4  ;x -z
+			-10    -0   0 ;x -z y
+		}	
+    }
+	{bone "wall_04"
+		{matrix34
+			0	 0.65 	 0
+			0.42	 0   0
+			0 	 0 	 0.4  ;x -z
+			50   -0   0 ;x -z y
+		}	
+    }
+	{bone "wall_05"
+		{matrix34
+			0	 0.65 	 0
+			0.42	 0   0
+			0 	 0 	 0.4  ;x -z
+			110   -0   0 ;x -z y
+		}	
+    }	
+    }	
+	{bone "wall_right"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			131    -60   0  ;x -z y
+		}
+	{bone "wall_06"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    -40   0 ;x -z y
+		}	
+    }	
+	{bone "wall_07"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    20   0 ;x -z y
+		}	
+    }	
+	{bone "wall_08"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    80   0 ;x -z y
+		}	
+    }	
+	{bone "wall_09"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    140   0 ;x -z y
+		}	
+    }	
+	{bone "wall_10"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			-0    200  0 ;x -z y
+		}	
+    }
+	{bone "wall_11"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			-0    260  0 ;x -z y
+		}	
+    }
+	{bone "wall_12"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.63   0
+			0 	 0 	 0.4 ;x -z
+			-0    310  0 ;x -z y
+		}	
+    }
+    }	
+	{bone "wall_rear"
+		{matrix34
+			1.14 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-21    286   5  ;x -z y
+		}	
+	{bone "wall_13"
+		{matrix34
+			0	 0.7	 0
+			0.68	 0   0
+			0 	 0 	 0.4  ;x -z
+			105   -0   0 ;x -z y
+		}	
+    }	
+	{bone "wall_14"
+		{matrix34
+			0	 0.7	 0
+			0.68	 0   0
+			0 	 0 	 0.4  ;x -z
+			40    -0   0 ;x -z y
+		}	
+    }	
+	{bone "wall_15"
+		{matrix34
+			0	 0.7	 0
+			0.68	 0   0
+			0 	 0 	 0.4  ;x -z
+			-25    -0   0 ;x -z y
+		}	
+    }	
+	{bone "wall_16"
+		{matrix34
+			0	 0.7	 0
+			0.68	 0   0
+			0 	 0 	 0.4  ;x -z
+			-90    -0   0 ;x -z y
+		}	
+    }	
+    }
+	{bone "wall_left"
+		{matrix34
+			1 	 0 	 0
+			0 	 1 	 0
+			0 	 0 	 1
+			-159    -59.5   0  ;x -z y
+		}
+	{bone "wall_17"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    -40   0 ;x -z y
+		}	
+    }	
+	{bone "wall_18"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    20   0 ;x -z y
+		}	
+    }	
+	{bone "wall_19"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    80   0 ;x -z y
+		}	
+    }	
+	{bone "wall_20"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			0    140   0 ;x -z y
+		}	
+    }	
+	{bone "wall_21"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.42   0
+			0 	 0 	 0.4 ;x -z
+			-0    200  0 ;x -z y
+		}	
+    }
+	{bone "wall_22"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.5   0
+			0 	 0 	 0.4 ;x -z
+			-0    267  0 ;x -z y
+		}	
+    }
+    }	
+	{bone "wall_inner_01"
+		{matrix34
+			0	 0.65 0
+			0.7  -0  0
+			0 	 0 	 0.80 ;x -z
+			-130.0    238.5   -24 ;x -z y
+		}	
+    }	
+	{bone "wall_inner_02"
+		{matrix34
+			0.65	 0 	 0
+			0  -0.65  0
+			0 	 0 	 0.80 ;x -z
+			-103.0    173   -24 ;x -z y
+		}	
+    }
+	{bone "wall_inner_03"
+		{matrix34
+			0	 0.60 0
+			1.07  -0  0
+			0 	 0 	 0.80 ;x -z
+			-45.0    202   -24 ;x -z y
+		}	
+    }	
+	{bone "wall_inner_04"
+		{matrix34
+			0	 0.6 0
+			0.35  -0  0
+			0 	 0 	 0.80 ;x -z
+			-86.0    238.5   -24 ;x -z y
+		}	
+    }
+	{bone "wall_inner_05"
+		{matrix34
+			0	 0.60 0
+			1.07  -0  0
+			0 	 0 	 0.80 ;x -z
+			35.0    202   -24 ;x -z y
+		}	
+    }		
+    }		
+    }
+    }		
+}
+
+{area "interior"
+	{obb2
+		{center -0.625824 7.7828}
+		{extent 308.168 326.819}
+		{axis -1 0}
+	}
+	{rotate}
+}
+
+{volume "roof_front_01"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_front_01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_front_02"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_front_02"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_front_03"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_front_03"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_left_01"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_left_01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_left_02"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_left_02"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_left_03"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_left_03"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_right_01"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_right_01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_right_02"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_right_02"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_right_03"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_right_03"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_01"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_01"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}
+{volume "roof_rear_02"
+	{box 10.111 100.139 58.7904}
+	{bone "roof_rear_02"}
+	{Position -0.1927 	 -0.8813 	 0.3677}
+}

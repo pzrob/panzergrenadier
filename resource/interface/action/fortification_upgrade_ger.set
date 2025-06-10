@@ -1,0 +1,19 @@
+{action
+	{cursor "repair"}
+	{fx "flashgreen"}
+	{item "shovel_ger_heavy"}
+	{item_in_box}
+	{target volume "fortify_upgrade_ger" able touch}
+	{button}
+	{abledrag}
+	{instructions
+		{bind range 0.5}
+		{disable_action_restart}
+		{free_hands}
+		{reserve_hands}
+		{animations "squat_repair_1" random loop totaltime 4}
+		{effect_object "weapon_upgrade"}
+		{unreserve_hands}
+		{fsm_request nocheck "hold-nothing"}
+	}
+}

@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_ver7_43_pzgren_mg_asst_1"}
+	{portrait "ger_pzgrenadier"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+	    {body mgun_ammo_belt}
+		{head ger_stalhelm_m43_cover_band}
+	}
+	{perks
+		(include "ability.inc")
+		("loader_skill_rank_2")("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "g43" filling "rifle_ger gewehr ammo" 10}
+		{item "rifle_ger gewehr ammo" 100}
+
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 2}
+		{item "pwm_l grenade" 2}
+
+		{item "mgun_ger belt ap ammo" 600}
+		{item "bandage_ger" 4}
+		{item "shovel_ger"}
+		{item "ger_ammo_box"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	(include "/properties/trench.inc")
+	{extension "emplacement_small_deep_dshk_aa.mdl"}
+	{props "sand" "foxhole_spawned" "small" "foxhole_destroy" "jettison_sandbags1" }
+	("boneLand" args "inside")
+	{obstacleid "construction"}
+	{collider "construction"}
+	{placer
+		{place "sandbag_01"
+			{entity "sandbag_framed_curved_270_indestructible"}
+			{Linkbone "sandbag_01"}
+			{handlebone "body"}
+		}
+		{place "sandbag_02"
+			{entity "sandbag_framed_curved_90_indestructible"}
+			{Linkbone "sandbag_02"}
+			{handlebone "body"}
+		}
+		
+	}
+}

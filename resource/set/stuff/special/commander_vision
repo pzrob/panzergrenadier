@@ -1,0 +1,15 @@
+;SDL
+{weapon_bullet
+	{tag "visor"}
+	{filling "light" 0}
+	{inventory {noView}}
+	{mass 0}
+	{foresight "vision_rot"}
+	{range 200 200}
+	{gravity 0}
+	{speed 1000}
+	{AimingTolerance 3}
+	{cursor "ironsights/binoculars"}
+}
+
+

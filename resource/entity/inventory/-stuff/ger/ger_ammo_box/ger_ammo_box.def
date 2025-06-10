@@ -1,0 +1,12 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	(include "/properties/resupply_ger_moded.inc")
+	("ger_ammo_box")
+	{Extension "ger_mg_box_ammo.mdl"}
+	{Volume "body"
+		{thickness 5}
+	}
+	{extender "stuff"
+		{item "ger_ammo_box"}
+	}
+}

@@ -1,0 +1,4 @@
+{from "m1_carbine"
+	{entity "m1a1_carbine"}
+	{mass 2.3}
+}

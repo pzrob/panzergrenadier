@@ -1,0 +1,104 @@
+;// TOC
+{game_entity
+	(include "/properties/construction.inc")
+	{props "wood" "construction" "parts" "small" "break_on_burn" "burning" "no_destroyed_stamp"}
+	{mass 150}
+	{extension "crate_group_02.mdl"}
+	{props "inventory_box" "spread_items"}
+	{extender "inventory"
+		{box
+			{weight 10000}
+			{size 8 12}
+			{item "m24 grenade" 5}
+			{item "m24_splinter grenade" 5}
+			{item "m24_smoke grenade" 3}
+			{item "pwm_l grenade" 2}
+			
+			{item "molotov_cocktail grenade" 2}
+			{item "molotov_bundle_fin" 1}
+			{item "dynamite_ger_x3" 2}
+			{item "dynamite_ger_x7" 2}
+			{item "hafthohlladung grenade" 3}
+			
+			{item "m24_geballteladung grenade" 3}
+			{item "geballteladung_3kg" 1}
+		}
+	}
+	
+	{volume "box001"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box002"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box0021"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box003"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box005"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box006"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box007"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box009"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box010"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box012"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box014"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box016"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box018"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box019"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{volume "box021"
+		{Tags "body" "fire"}
+		{thickness 20}
+		{able {visible 1} {touch}}
+	}
+	{lodclass "decor_medium"}
+}

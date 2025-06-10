@@ -1,0 +1,39 @@
+{game_entity
+	(include "/properties/building.inc")
+	{extension "88mm_pillbox_stage2.mdl"}
+	{props  "concrete" "construction" "big" "parts" "75mm_pillbox"}
+	("armor_heavy")
+
+	{volume "body1"
+		{Tags "body"}
+		{thickness 100}
+	}
+	{volume "body2"
+		{Tags "body"}
+		{thickness 100}
+	}
+	{volume "body3"
+		{Tags "body"}
+		{thickness 100}
+	}
+	{volume "body4"
+		{Tags "body"}
+		{thickness 100}
+	}
+	{volume "body5"
+		{Tags "body"}
+		{thickness 100}
+	}
+	{volume "body6"
+		{Tags "body"}
+		{thickness 100}
+	}
+	{volume "body7"
+		{Tags "body"}
+		{thickness 100}
+	}
+	{volume "body8"
+		{Tags "body"}
+		{thickness 100}
+	}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "pillbox_earth"}
+	{bump "pillbox_earth_bp#win"}
+	{specular "pillbox_earth_sp"}
+	{color "230 230 230 25"}
+	{lightmap "pillbox_earth_lm"}
+	{blend none}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "seelow_bunker"}
+	{bump "seelow_bunker_bp"}
+	;{bumpiness 2}
+	{specular "seelow_bunker_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,93 @@
+;Exported by: ART
+;Date:        Sun Aug 09 21:25:22 2020
+;File:        E:\Autodesk\Low poly\freelance\Carlos\Shells\Export\Ger\380mm_ger\380mm_ger_he.max
+{Skeleton
+	{bone "380mm_ger_he"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "380mm_ger_he.ply"}
+			{VolumeView "380mm_ger_he_lod1.ply"}
+			{VolumeView "380mm_ger_he_lod2.ply"}
+		}
+		{bone "tail"
+			{matrix34
+				-1 	 -0.0005 	 0
+				-0.0005 	 1 	 0
+				0 	 0 	 -1
+				-14.6455 	 -0.0164 	 0.0251
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 3.82947 29.4385}
+	{Bone "380mm_ger_he"}
+	{Matrix34
+		0	-0.000694896	-0.999999
+		-0.00137242	-0.999999	0.000694884
+		-0.999999	0.00137242	0
+		1.51423	0.0141273	0
+	}
+}
+{Volume "select"
+	{Cylinder 5.11032 32.0799}
+	{Bone "380mm_ger_he"}
+	{Matrix34
+		0	-0.000694896	-0.999999
+		-0.00137242	-0.999999	0.000694884
+		-0.999999	0.00137242	0
+		1.14187	0.0141718	0
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 1.32926	83.1999	-147.88}
+			{lookat 1.32944	0.0621893	0.0446643}
+			{fov 10.2855}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 7.36558e-005	0.0026606	-0.499993}
+			}
+			{"1"
+				{type directional}
+				{direction 0.000120224	-0.498485	0.0388881}
+				{diffuse 0xe2ecff}
+			}
+			{"2"
+				{type directional}
+				{direction -0.000186721	0.376843	0.328618}
+				{diffuse 0xffeecd}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 1.33885	56.5323	-100.919}
+			{lookat 1.33905	-0.146395	-0.0725661}
+			{fov 15.1893}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.000120242	-0.498486	0.0388881}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction -0.000186725	0.376843	0.328617}
+				{diffuse 0xffeecb}
+			}
+			{"2"
+				{type directional}
+				{direction 7.38246e-005	0.00279772	-0.499992}
+			}
+		}
+	}
+}

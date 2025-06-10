@@ -1,0 +1,146 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "m4a3_76w_field" "medium" "vision_lev04" "muzzle_75mm_76mm_sides" "smoke" "2in_wp" "muzzle_hmg_m2hb" "emplacement_tank_trench_m4"}
+    {tag "emplacement_tank_trench_m4"}
+	{extension "m4a3_76w_field2.mdl"}
+	(include  "m4a3_76w_field2.ext")
+	{PatherId "hvss"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	("crew_5_human_extended2")
+	("gunner_open" place(gunner2) bone(gunner2) visorbone(mgun_rot) door(emit4) door2(emit5) anm_left(gunner2) anm_right(gunner2) group(passenger))
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_m4_driver"} {end "seat_m4a276w_commander"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver"}}
+		}
+		{anm "co_driver"
+			{forward {begin "board_m4_crew"} {end "seat_m4a276w_commander"} {base "open_co_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_co_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_m4_crew"} {end "seat_m4a276w_commander"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_m4_crew"} {end "seat_m4a276w_commander"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_HighArmor"} {end "seat_m4a276w_commander"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor2"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit5) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit6) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor2))
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "mortareng_50 sm"}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "ammo bulletusa_76x539 apcbche" 31}	;71 rounds
+			{item "ammo bulletusa_76x539 he" 34}
+			{item "ammo bulletusa_76x539 sm" 3}
+			{item "ammo bulletusa_76x539 hvap" 2}
+			{item "ammo hmgun_usa" 500}		;600 rounds
+			{item "ammo mgun_usa" 5750}		;6250 rounds
+			{item "mortareng_50 sm" 18}		;2-inch smoke mortar
+			{item "satchel_charge_usa" 1}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_m1a2" filling "ammo bulletusa_76x539 apcbche" 1}	
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_stabilised"
+				zeroing(3.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m2" filled}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 35650}  ;with extra 2tons of plus armors
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.3) len(-0.6))
+		("mobility_tank"
+			speed(41) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(35.65) ;-------Weight in Tonnes.
+			power(450) ;---------Engine Power, in hp.	;// net HP, gross HP = 500
+			track(5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(635) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(120) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 25}
+		{speed2 5}
+	}
+	{bone "turret"
+		("turret_medium" power_traverse(24))
+	}
+	{bone "mgun_a_rot1"
+		{limits -45 45}
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{limits -15 55}
+		{speed2 60}
+	}
+}

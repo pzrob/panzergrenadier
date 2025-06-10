@@ -1,0 +1,13 @@
+{from "pattern sniper_rifle"
+	{filling "ammo rifle_rus clip" 5}
+	{entity "mosin_m27_scope"}
+	{fireSound "smallarms/s3/d1/FIN/M39/"}
+	{fireSoundclose "smallarms/s3/3p/FIN/M39/"}
+	{reloadSound "weapon_reload_loose_rifle_cartridges"}
+	{calibre 7.62}
+	{mass 4.2}
+
+	("velocity" mps(847))
+
+	("scopeview_2" scope(zoom_vignette_scope_rus_pe))
+}

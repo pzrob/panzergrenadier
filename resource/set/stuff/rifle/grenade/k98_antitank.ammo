@@ -1,0 +1,19 @@
+{bullet
+	{tag "ammo rifle_grenade_at heat dropboxed pierce 50to57 distributable"}
+	{tag  "heat_shell size2"}	; Explosive Filling 		= 0.280 kg of TNT (175g of RDX)
+	{inventory
+		{weight 20}
+		{size 2 1}
+	}
+	{entity "k98_antitank_ammo"}
+	{view "k98_antitank_ammo"}
+	{mass 0.515}
+
+	{damage blastwave
+		{energy 1.0}
+		{area 0.2 3.5}
+		{ground_interaction_radius 0.1} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{cumulative 0.7}
+}

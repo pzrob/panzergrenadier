@@ -1,0 +1,30 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "small" "steel" "shed"}
+	{lodclass "decor_medium"}
+	("armor_light")
+	{obstacleID "small_building"}
+	{Extension "metal_bed1.mdl"}
+
+	{placer
+		{place "seat" {attach} {pose "lie_sleep_idle_1"} {linkbone "seat"}}
+	}
+	{boarder
+		{door "emit"}
+		{link "emit" "seat" {forward putoff}}
+	}
+	{Volume "body1"
+		{thickness 0.6}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body2"
+		{thickness 0.6}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body"
+		{thickness 0.1}
+		{Tags "body" "attach" "seat"}
+		{able {visible 0}{touch 1}}
+		{material "fabric"}
+	}
+}

@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_light_hmg_mgun_stage.mdl"}
+}

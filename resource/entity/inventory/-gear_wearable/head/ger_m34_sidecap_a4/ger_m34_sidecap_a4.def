@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "ger_m34_sidecap_a4"}
+	}
+	{Extension "ger_m34_sidecap.mdl"}
+}

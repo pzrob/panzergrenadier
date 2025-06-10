@@ -1,0 +1,92 @@
+;Exported by:	 guita
+;Date:			 30.08.2020 17:39:55
+;File:			 D:\Git\3D_Scenes\GoH_3D_environment_export\3d_landscape\cut_entity\trenches\foxholes\soldier_foxhole\soldier_foxhole.max
+{skeleton
+	{bone "inside"
+		{parameters "commonmesh;land;align;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "inside.ply"
+			{Layer entity_opaque_biased}
+		}
+		{bone "land_outside"
+			{parameters "commonmesh;land;align;"}
+			{VolumeView "land_outside.ply"}
+		}
+		{bone "01"
+			{Position -0.1608 	 0.0307 	 -11.8228}
+		}
+		{bone "emit1"
+			{Position -0.1662 	 0.1174 	 -10.4548}
+		}
+	}
+	{bone "mgun"
+		{matrix34
+			1 	 0 	 0
+			0 	-1  0
+			0 	 0 	 1
+			11.5	 0 	5.0
+		}
+	    {bone "table_01"
+		{matrix34
+			0.5	 0 	 0
+			0 	1  0
+			0 	 0 	 0.99
+			-2	 0 	 -22.0
+		}
+	    }
+    }
+	{bone "sandbag_00"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 -0.05
+			0 	 -0.05	 1
+			15	0.0 -4.2 ;z x y
+		}
+	}
+	{bone "sandbag_01"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 -0.05
+			0 	 -0.05	 1
+			15	0.0 -5.2 ;z x y
+		}
+	}
+	{bone "mgun_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			18.5	 0.0 3.5
+		}
+	}
+	{bone "bunker_stage"
+		{matrix34
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+			18	0.0 4.5
+		}
+	}
+}
+{area "cut"
+	{polygon2
+		{radius 0}
+		{vertex 4.51573 -16.8876}
+		{vertex 17.6607 -13.6673}
+		{vertex 20.947 -1.91331}
+		{vertex 19.5386 7.90851}
+		{vertex 12.3401 15.1541}
+		{vertex 0.447027 17.8913}
+		{vertex -10.8201 14.51}
+		{vertex -19.7399 9.19659}
+		{vertex -21.3048 -1.43029}
+		{vertex -17.3926 -12.5402}
+		{vertex -7.37736 -16.5655}
+	}
+	{rotate}
+}
+

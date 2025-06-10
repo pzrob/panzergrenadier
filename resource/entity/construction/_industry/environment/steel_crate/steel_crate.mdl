@@ -1,0 +1,23 @@
+;Exported by:	 Usuario
+;Date:			 17.11.2015 10:54:04
+;File:			 C:\Users\Usuario\Documents\3dsmax\scenes\WIP\Entourage\crates\metal_box\metal_box_rusty.max
+{skeleton
+	{bone "basis"
+		{orientation
+			0 	 1 	 0
+			1 	 0 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0.0551 	 -0.056 	 0}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+
+{Volume "body"
+	{Box 33.8972 20.4216 12.2252}
+	{Bone "body"}
+	{Position 0.0838 	 -0.0135 	 6.1126}
+}

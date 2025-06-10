@@ -1,0 +1,61 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_concrete_platform_tower_window_stage.mdl"}
+	{placer	 
+		{place "window_front_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_front_01"}
+			{handlebone "body"}
+		}	
+		{place "window_front_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_front_02"}
+			{handlebone "body"}
+		}	
+		{place "window_front_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_front_03"}
+			{handlebone "body"}
+		}	 
+		{place "window_rear_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_rear_01"}
+			{handlebone "body"}
+		}	
+		{place "window_rear_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_rear_03"}
+			{handlebone "body"}
+		}	 
+		{place "window_left_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_left_01"}
+			{handlebone "body"}
+		}	
+		{place "window_left_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_left_02"}
+			{handlebone "body"}
+		}	
+		{place "window_left_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_left_03"}
+			{handlebone "body"}
+		}	  
+		{place "window_right_01"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_right_01"}
+			{handlebone "body"}
+		}	
+		{place "window_right_02"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_right_02"}
+			{handlebone "body"}
+		}	
+		{place "window_right_03"
+			{entity "f_end_c06_windows_indestructible_opened"}
+			{Linkbone "window_right_03"}
+			{handlebone "body"}
+		}	  
+	}	
+}

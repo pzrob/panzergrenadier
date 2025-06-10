@@ -1,0 +1,91 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "concrete" "parts" "construction"}
+	("armor_medium" args 1.0)
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_88mm_flak_tall.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body04"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body05"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body06"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body07"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "body08"
+		{Tags "body"}
+		{thickness 200}
+	}
+	{volume "stair_stage_01"
+		{Tags "body"}
+		{thickness 300}
+	}
+	{volume "stair_stage_02"
+		{Tags "body"}
+		{thickness 300}
+	}
+	{volume "stair_stage_03"
+		{Tags "body"}
+		{thickness 300}
+	}
+	{volume "stair_stage_04"
+		{Tags "body"}
+		{thickness 300}
+	}	
+    {Extender "land_patch"
+        {TerrainType "road" "bridge"}
+    }
+	{extender "structure"
+		{place "p01" "aar01_indestructible"}
+		{place "p02" "aar02_indestructible"}
+		{place "p03" "aar03_indestructible"}
+		{place "p04" "aar04_indestructible"}
+	}
+
+    {placer
+		{place "cut_entity_01"
+			{entity "emplacement_concrete_88mm_flak36_cut_entity_01_dummy"}
+			{Linkbone "cut_entity_01"}
+			{handlebone "body"}
+		}
+		{place "cut_entity_02"
+			{entity "emplacement_concrete_88mm_flak36_cut_entity_02_dummy"}
+			{Linkbone "cut_entity_02"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_88mm_flak36_cannon_stage_dummy"}
+		}
+		{level ;// level 2
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_88mm_flak36_shell_crate_stage_dummy"}
+		}
+	}	
+}

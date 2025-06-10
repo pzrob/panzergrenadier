@@ -1,0 +1,162 @@
+;Exported by:	 Carlos
+;Date:			 24.04.2017 18:53:19
+;File:			 C:\Users\Carlos\Documents\3dsmax\scenes\GoH_3D_gem_export\3d_environment\_military\fortifications\sandbags_new\sandbags_cannon_shallow.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "piece01"
+			{parameters "id=body;"}
+			{Position 17.4848 	 -33.0278 	 10.6294}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{parameters "id=body;"}
+			{Position 26.8976 	 -17.1328 	 5.0989}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{parameters "id=body;"}
+			{Position 23.2019 	 -27.9578 	 2.6997}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece04"
+			{parameters "id=body;"}
+			{Position 19.0693 	 28.539 	 3.7826}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{parameters "id=body;"}
+			{Position 26.3578 	 16.2152 	 2.6621}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece06"
+			{parameters "id=body;"}
+			{Position 18.2092 	 38.8512 	 9.1995}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece07"
+			{parameters "id=body;"}
+			{Position 8.8164 	 -35.7045 	 4.5353}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece08"
+			{parameters "id=body;"}
+			{Position 26.6393 	 7.4298 	 9.6267}
+			{VolumeView "piece08.ply"}
+		}
+		{bone "piece09"
+			{parameters "id=body;"}
+			{Position 26.9166 	 -11.1536 	 9.7917}
+			{VolumeView "piece09.ply"}
+		}
+		{bone "piece10"
+			{parameters "id=body;"}
+			{Position 27.1098 	 -5.5426 	 1.8807}
+			{VolumeView "piece10.ply"}
+		}
+	}
+}
+{volume "piece01"
+	{box 13.1735 9.41246 3.71524}
+	{bone "piece01"}
+	{matrix34
+		0.866 	 0.5 	 0
+		-0.5 	 0.866 	 0
+		0 	 0 	 1
+		-0.1824 	 -0.3257 	 0.202
+	}
+}
+{volume "piece02"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece02"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0.0272 	 0.5759 	 0.0402
+	}
+}
+{volume "piece03"
+	{box 13.1735 9.41246 3.71524}
+	{bone "piece03"}
+	{matrix34
+		0.766 	 0.6428 	 0
+		-0.6428 	 0.766 	 0
+		0 	 0 	 1
+		-0.1776 	 -0.0317 	 0.0042
+	}
+}
+{volume "piece04"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece04"}
+	{matrix34
+		-0.6428 	 0.766 	 0
+		-0.766 	 -0.6428 	 0
+		0 	 0 	 1
+		0.1404 	 -0.4123 	 0.0322
+	}
+}
+{volume "piece05"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece05"}
+	{matrix34
+		-0.1736 	 0.9848 	 0
+		-0.9848 	 -0.1736 	 0
+		0 	 0 	 1
+		0.0513 	 -0.3495 	 0.1122
+	}
+}
+{volume "piece06"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece06"}
+	{matrix34
+		-0.766 	 0.6428 	 0
+		-0.6428 	 -0.766 	 0
+		0 	 0 	 1
+		-0.6694 	 0.008 	 -0.2926
+	}
+}
+{volume "piece07"
+	{box 13.1735 9.41246 3.71524}
+	{bone "piece07"}
+	{matrix34
+		0.8192 	 0.5736 	 0
+		-0.5736 	 0.8192 	 0
+		0 	 0 	 1
+		-0.2465 	 0.0118 	 -0.0332
+	}
+}
+{volume "piece08_bol"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece08"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0811 	 0.1079 	 0.1777
+	}
+}
+{volume "piece09"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece09"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		0.1876 	 0.0966 	 0.3999
+	}
+}
+{volume "piece10"
+	{box 14.6226 9.41246 3.71524}
+	{bone "piece10"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		-0.0056 	 -0.1369 	 0.062
+	}
+}

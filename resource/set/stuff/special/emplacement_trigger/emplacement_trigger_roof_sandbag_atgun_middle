@@ -1,0 +1,5 @@
+{item
+	{desc "roof detector."}
+	{mass 1}
+	{entity "emplacement_trigger_roof_sandbag_atgun_middle"}
+}

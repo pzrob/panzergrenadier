@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cta - Gates of Hell (desc_vehicles_rus)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-04-28 12:16+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+
+
+msgctxt "desc/entity/emplacement_watch_tower_maxim_fin_vehicle"
+msgid "Watch Tower"
+msgstr "哨戒塔"
+
+msgctxt "info/special/emplacement_watch_tower_maxim_fin_vehicle"
+msgid "<c(c3baae)>Middle Fortification</c>"
+msgstr "<c(c3baae)>中型驻防点</c>"
+
+msgctxt "desc/entity/emplacement_maxim_fin_vehicle"
+msgid "Maxim M1910/30 Emplacement"
+msgstr "马克沁 M1910/30 机枪阵地"
+
+msgctxt "info/special/emplacement_maxim_fin_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>重机枪阵地</c>" 
+
+msgctxt "desc/entity/emplacement_concrete_bunker_ds39_fin_vehicle"
+msgid "DS-39 MG Bunker"
+msgstr "DS-39 机枪碉堡"
+
+msgctxt "info/special/emplacement_concrete_bunker_ds39_fin_vehicle"
+msgid "<c(c3baae)>Concrete Bunker</c>"
+msgstr "<c(c3baae)>混凝土碉堡</c>" 
+
+msgctxt "desc/entity/emplacement_20mm_itk35_vehicle"
+msgid "20 ItK/35 Breda Emplacement"
+msgstr "20mm ItK/35 布雷达 防空炮阵地"
+
+msgctxt "info/special/emplacement_20mm_itk35_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_20mm_itk40_vehicle"
+msgid "20 ItK/40 VKT Emplacement"
+msgstr "20mm ItK/40 VKT 防空炮阵地"
+
+msgctxt "info/special/emplacement_20mm_itk40_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_37mm_pstk36_vehicle"
+msgid "37 PstK/36 Emplacement"
+msgstr "37mm PstK/36 反坦克炮阵地"
+
+msgctxt "info/special/emplacement_37mm_pstk36_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型反坦克炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_40mm_itk38b_vehicle"
+msgid "40 ItK/38b Emplacement"
+msgstr "40 ItK/38b 防空炮阵地"
+
+msgctxt "info/special/emplacement_40mm_itk38b_vehicle"
+msgid "<c(c3baae)>Middle Emplacement</c>"
+msgstr "<c(c3baae)>中型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_50mm_krh38_vehicle"
+msgid "50 Krh/38 Emplacement"
+msgstr "50 Krh/38 迫击炮阵地"
+
+msgctxt "info/special/emplacement_50mm_krh38_vehicle"
+msgid "<c(c3baae)>Light Emplacement</c>"
+msgstr "<c(c3baae)>轻型迫击炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_75mm_k44_vehicle"
+msgid "75 K/44 Emplacement"
+msgstr "75mm K/44 反坦克炮阵地"
+
+msgctxt "info/special/emplacement_75mm_k44_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>重型反坦克炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_75mm_itk37_vehicle"
+msgid "75 ItK/37 Emplacement"
+msgstr "75mm ItK/37 防空炮阵地"
+
+msgctxt "info/special/emplacement_75mm_itk37_vehicle"
+msgid "<c(c3baae)>Heavy Emplacement</c>"
+msgstr "<c(c3baae)>重型防空炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_75mm_k40_vehicle"
+msgid "75 K/40 Emplacement"
+msgstr "75mm K/40 反坦克炮阵地"
+
+msgctxt "info/special/emplacement_75mm_k40_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型反坦克炮</c>"
+
+msgctxt "desc/entity/emplacement_76mm_k36_vehicle"
+msgid "76 K/36 Emplacement"
+msgstr "76mm K/36 反坦克炮阵地"
+
+msgctxt "info/special/emplacement_76mm_k36_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型反坦克炮</c>"
+
+msgctxt "desc/entity/emplacement_76mm_m1927_fin_vehicle"
+msgid "76 RK/27 Emplacement"
+msgstr "76mm RK/27 步兵炮阵地"
+
+msgctxt "info/special/emplacement_76mm_m1927_fin_vehicle"
+msgid "<c(c3baae)>middle Emplacement</c>"
+msgstr "<c(c3baae)>中型步兵炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_81mm_krh36_vehicle"
+msgid "81 Krh/36 Emplacement"
+msgstr "81mm Krh/36 迫击炮阵地"
+
+msgctxt "info/special/emplacement_81mm_krh36_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型迫击炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_84mm_k18_vehicle"
+msgid "84 K/18 Emplacement"
+msgstr "84mm K/18 野战炮阵地"
+
+msgctxt "info/special/emplacement_84mm_k18_vehicle"
+msgid "<c(c3baae)>middle Emplacement</c>"
+msgstr "<c(c3baae)>中型野战炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_120mm_krh40_vehicle"
+msgid "120 Krh/40 Emplacement"
+msgstr "120 Krh/40 迫击炮阵地"
+
+msgctxt "info/special/emplacement_120mm_krh40_vehicle"
+msgid "<c(c3baae)>Heavy Emplacement</c>"
+msgstr "<c(c3baae)>重型迫击炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_170mm_minewerfer_vehicle"
+msgid "17cm MinenWerfer Emplacement"
+msgstr "17cm MinenWerfer 掷雷器阵地"
+
+msgctxt "info/special/emplacement_170mm_minewerfer_vehicle"
+msgid "<c(c3baae)>Medium Emplacement</c>"
+msgstr "<c(c3baae)>中型掷雷器阵地</c>"
+
+msgctxt "desc/entity/emplacement_107mm_k10_vehicle"
+msgid "107 K/10 Emplacement"
+msgid "107mm K/10 榴弹炮阵地"
+
+msgctxt "info/special/emplacement_107mm_k10_vehicle"
+msgid "<c(c3baae)>Heavy Emplacement</c>"
+msgstr "<c(c3baae)>重型榴弹炮阵地</c>"
+
+msgctxt "desc/entity/emplacement_120mm_k78_31_vehicle"
+msgid "120 K/78-31 Emplacement"
+msgid "120mm K/78-31 榴弹炮阵地"
+
+msgctxt "info/special/emplacement_120mm_k78_31_vehicle"
+msgid "<c(c3baae)>Heavy Emplacement</c>"
+msgstr "<c(c3baae)>重型榴弹炮阵地</c>"

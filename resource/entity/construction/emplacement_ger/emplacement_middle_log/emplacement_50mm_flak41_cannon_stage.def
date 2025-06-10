@@ -1,0 +1,4 @@
+{game_entity
+	;(include "/properties/building.inc")
+	{extension "emplacement_50mm_flak41_cannon_stage.mdl"}
+}

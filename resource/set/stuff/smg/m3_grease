@@ -1,0 +1,16 @@
+{from "pattern smg"
+	{tag "pistol_shell"}
+	{filling "ammo m3_grease_mag" 30}
+	{entity "m3_grease"}
+	{fireSound 		"smallarms/s1/d1/USA/M3_GreaseGun/"}
+	{fireSoundclose 	"smallarms/s1/3p/USA/M3_GreaseGun/"}
+	{reloadSound "mp40"}
+	{calibre 11.43}
+	{mass 3.7}
+
+	("fire rate" rpm(450))
+	("velocity" mps(280))
+	("spreading_low")
+	("burst_short")
+	("stick_reload")
+}

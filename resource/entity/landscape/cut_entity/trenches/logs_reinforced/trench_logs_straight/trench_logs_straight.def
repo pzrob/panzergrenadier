@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{props "wood"}
+	{Extension "trench_logs_straight.mdl"}
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body6")
+	("volume" args "body7")
+	("volume" args "body8")
+	("boneLand"  args "trench_straight1")
+;	{extender "land_patch"
+;	}
+}

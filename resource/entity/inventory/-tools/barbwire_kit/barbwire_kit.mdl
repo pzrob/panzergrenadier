@@ -1,0 +1,127 @@
+;Exported by: butyvsky
+;Date:        Tue Mar 04 11:21:07 2008
+;File:        D:\-Projects-\-3D Work-\INVENTORY\wires_inventory_veiwer.max
+{Skeleton
+	{bone "barbwire_kit"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "barbwire_kit.ply"}
+		{bone "handle"
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				-0.0507125	0.0205149	11.2374
+			}
+		}
+	}
+}
+{Obstacle "rectangle01"
+	{Obb2
+		{Center 0.132092 -0.152341}
+		{Extent 5.98969 4.06327}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Cylinder 0.672286 9.86095}
+	{Bone "barbwire_kit"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.0563993	-0.0253969	10.0419
+	}
+}
+{Volume "body"
+	{Cylinder 3.74741 10.9566}
+	{Bone "barbwire_kit"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.119603	-0.00208314	3.95077
+	}
+}
+{Volume "select"
+	{Cylinder 4.99655 13.2246}
+	{Bone "barbwire_kit"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.077127	-0.00208357	3.95077
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -10.5721	11.3639	13.6738}
+			{lookat 6.60141	-6.69968	-1.00225}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x858585}
+			}
+			{"1"
+				{type point}
+				{position -21.7975	-2.69413	31.3419}
+			}
+			{"2"
+				{type point}
+				{position -5.28876	2.99305	38.5286}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -23.4993	24.3832	9.16768}
+			{lookat 7.09845	-8.3678	3.67195}
+			{fov 50.0108}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.630608	11.1261	25.3408}
+			}
+			{"1"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x858585}
+			}
+			{"2"
+				{type point}
+				{position -17.6464	1.98663	13.1096}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin -14.4341	14.6801	7.53943}
+			{lookat 7.09845	-8.3678	3.67195}
+			{fov 50.0108}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.630608	11.1261	25.3408}
+			}
+			{"1"
+				{type directional}
+				{direction 0	0	-0.5}
+				{ambient 0x858585}
+			}
+			{"2"
+				{type point}
+				{position -17.6464	1.98663	13.1096}
+			}
+		}
+	}
+}

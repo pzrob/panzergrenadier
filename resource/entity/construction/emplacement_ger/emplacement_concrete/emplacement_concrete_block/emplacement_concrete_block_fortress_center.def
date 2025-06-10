@@ -1,0 +1,58 @@
+{game_entity	
+(include "/properties/building.inc")
+	{props "cornered" "concrete" "construction" "wall"}
+	{obstacleID "unbreakable"}
+	{collider "nothing"}
+	{extension "emplacement_concrete_block_fortress_center.mdl"}
+	{volume "body01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{placer
+		{place "crate_fortress_northeast"
+			{entity "steel_crate_emplacement_concrete_block_fortress_ger_dummy"}
+			{Linkbone "crate_fortress_northeast"}
+			{handlebone "body"}
+		}
+		{place "crate_fortress_northwest"
+			{entity "steel_crate_emplacement_concrete_block_fortress_ger_dummy"}
+			{Linkbone "crate_fortress_northwest"}
+			{handlebone "body"}
+		}
+		{place "crate_fortress_southeast"
+			{entity "steel_crate_emplacement_concrete_block_fortress_ger_dummy"}
+			{Linkbone "crate_fortress_southeast"}
+			{handlebone "body"}
+		}
+		{place "crate_fortress_southwest"
+			{entity "steel_crate_emplacement_concrete_block_fortress_ger_dummy"}
+			{Linkbone "crate_fortress_southwest"}
+			{handlebone "body"}
+		}
+		{place "crate_maze_northwest"
+			{entity "steel_crate_emplacement_concrete_maze_dummy"}
+			{Linkbone "crate_maze_northwest"}
+			{handlebone "body"}
+		}
+		{place "crate_maze_northeast"
+			{entity "steel_crate_emplacement_concrete_maze_dummy"}
+			{Linkbone "crate_maze_northeast"}
+			{handlebone "body"}
+		}
+		{place "crate_maze_southeast"
+			{entity "steel_crate_emplacement_concrete_maze_dummy"}
+			{Linkbone "crate_maze_southeast"}
+			{handlebone "body"}
+		}
+		{place "crate_maze_southwest"
+			{entity "steel_crate_emplacement_concrete_maze_dummy"}
+			{Linkbone "crate_maze_southwest"}
+			{handlebone "body"}
+		}
+	}
+}

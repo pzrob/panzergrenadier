@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_tile/wood_01"}
+	{bump "$/_tile/wood_01_bp"}
+	{specular "$/_tile/wood_01_sp"}
+	{color "230 230 230 25"}
+	{lightmap "$/_lm/shelter-wood_lm"}
+	{blend none}
+}

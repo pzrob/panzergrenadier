@@ -1,0 +1,154 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "medium" "emplacement_tank_trench_middle" "vision_lev04" "multi_turret" "muzzle_37mm_47mm" "muzzle_75mm_76mm_2" "emplacement_tank_trench_middle"}
+    {tag "emplacement_tank_trench_middle"}
+	{extension "m3_lee.mdl"}
+	(include  "m3_lee.ext")
+	{PatherId "sherman"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	("crew_7_human")
+
+	{placer
+		{place "gunner3" {visor "main_2"}}
+	}
+	{sensor
+		{visor "main_2"
+			{vision "tank_range_200"}
+			{bone "foresight1a"}
+		}
+	}
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_t34_driver"} {end "seat_commander_hatch"} {base "open_left"}}
+			{reverse {end "emit_t34_hold"} {base "open_left"}}
+		}
+		{anm "right"
+			{forward {begin "board_t34_driver"} {end "seat_commander_hatch"} {base "open_right"}}
+			{reverse {end "emit_t34_hold"} {base "open_right"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor2"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit5) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit6) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor2))
+
+	{extender "inventory"
+		{box
+		    {item "sandbag_vehicle" 1}
+			{item "bulletusa_37 ap" 70}				; 178 rounds ;40/60% AP/HE
+			{item "bulletusa_37 he" 107}
+			{item "bulletusa_75x350 ap" 20}			; 50 rounds ;40/60% AP/HE
+			{item "bulletusa_75x350 he" 29}
+			{item "ammo mgun_usa belt" 8200}		; 9200 total
+			{item "satchel_charge_usa" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_m5" filling "bulletusa_37 ap" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_stabilised"
+				zeroing(3.1)
+				dispersion(0.5)
+			)
+		}
+		{place "gun1"
+			{RestoreIKAfterAim}
+			{weapon "75mm_m2" filling "bulletusa_75x350 he" 1}
+			{foresight "foresight1a"}
+			{gunner "gunner3"}
+			{charger "charger2 charger3" minWorkers 1}
+			("abm_dymamic_stabilised"
+				zeroing(3)
+				dispersion(0.3)
+			)
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{Barrels 2}
+			{type "hull"}
+			{weapon "browning_m19a4_x2" filled}
+			{shooter "shooter"}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "charger3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun3"
+			{type "cupola"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight6"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 27900}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.51))
+		("mobility_tank"
+			speed(42) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(8) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(27.9) ;-------Weight in Tonnes.
+			power(400) ;---------Engine Power, in hp. //engine under normal use was rated 265hp at 2600 rpm
+			track(4.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(662) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(192) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -7 60}
+		{speed2 8}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(18))
+	}
+
+	{bone "gun1_rot"
+		{limits -9 20}
+		{speed2 3}
+	}
+	{bone "aux_turret1"
+		{limits -15 15}
+		{speed2 5}
+	}
+
+	{bone "aux_turret2"
+		{speed2 30}
+	}
+}

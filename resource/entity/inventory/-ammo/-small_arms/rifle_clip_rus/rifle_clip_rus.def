@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo rifle_rus clip"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{Extension "rifle_clip_rus.mdl"}
+	{nogroupmesh 1}
+}

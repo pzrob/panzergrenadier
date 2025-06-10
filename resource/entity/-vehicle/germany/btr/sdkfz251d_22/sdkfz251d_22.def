@@ -1,0 +1,123 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "halftrack" "wheeled" "multi_board" "turret" "with_gun" "shell_eject" "muzzle_75mm_76mm_sides" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_td_light" "open_death_fx_low" "open_top" "btr_large_ammo" "emplacement_kfz13_trench"}
+	{able "emit_passangers_on_enemy"}
+	{extension "sdkfz251d_22.mdl"}
+	(include "sdkfz251d_22.ext")
+	{patherId "sdkfz251"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_medium"}
+
+	{extender "enumerator"
+		{digit_folder "np"}
+	}
+
+	{boarder
+		{anm "passenger1"
+			{forward {begin "halftrack_commander_board"} {end "halftrack_commander_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "driver"
+			{forward {begin "halftrack_driver_board"} {end "halftrack_driver_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_sd232_driver"} {end "pose_mgun_251"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner"
+			{forward {begin "board_sd232_driver"} {end "pose_m5_gunlayer"} {base "board"}}
+			{reverse {end "emit_sd222_driver" 1} {base "board"}}
+		}
+		{anm "charger"
+			{forward {begin "board_sd232_driver"} {end "pose_pdr25_charger"} {base "board"}}
+			{reverse {end "emit_sd222_driver" 1} {base "board"}}
+		}
+		{anm "commander"
+			{forward {begin "board_sd232_driver"} {end "seat_m7_com"} {base "board"}}
+			{reverse {end "emit_sd222_driver" 1} {base "board"}}
+		}
+	}
+
+	("crew" place(driver)		bone(driver)	door(emit1)		animation(driver)		visor(driver)	off({sensor}))
+	("crew" place(gunner)		bone(gunner)	door(emit2)		animation(gunner)		visor(none)		off())
+	("crew" place(charger)		bone(charger)	door(emit1)		animation(charger)		visor(none) 	off())
+	("crew" place(commander)	bone(commander)	door(emit2)		animation(commander)	visor(none)		off())
+
+	("passenger" place(seat1) bone(seat1) door(emit1)  animation(passenger1)  off({sensor}))
+
+	{sensor
+		{visor "human"
+			{vision "none"}
+		}
+		{visor "around"
+			{vision "none"}
+		}
+	}
+
+	{extender "inventory"
+		;{weapon "mgun2" {mask "mountable"}}
+		{box
+		    {item "sandbag_vehicle" 1}
+			;{item "mg42_drum" filling "ammo mgun_ger belt ap" 50 {user "mgun2"}} ;// doesn't work if same mg34_belt weapon is in both MG places
+			;{item "ammo mgun_ger belt ap" 2010}
+			{item "bulletger_75_l43 apcbche" 17}		;50 rounds
+			{item "bulletger_75_l43 he" 25}
+			{item "bulletger_75_l43 apcr" 2}
+			{item "bulletger_75_l43 heatb" 5}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "75mm_pak40" filling "bulletger_75_l43 apcbche" 1}
+			{RestoreIKAfterAim}
+			("abm_dymamic_gun"
+				zeroing(2.0)
+				dispersion(0.35)
+			)
+		}
+		{##place "mgun2"
+			{type "rear"}
+			{gunner "gunner4"}
+			{charger "gunner4"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 7810}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.49) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(53) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(9) ;---------------------------------Max speed in Reverse.
+			weight(7.81) ;--------------------------------Weight in Tonnes.
+			power(100) ;---------------------------------Horse Power.
+			fuel(160) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(150) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "mgun_a2_rot1"
+		{speed2 60}
+	}
+	{bone "mgun_a2_rot2"
+		{speed2 60}
+	}
+	{bone "gun_rot"
+		{limits -3 22}
+		{speed2 8}
+	}
+	{bone "turret"
+		{limits -20 20}
+		{speed2 6}
+	}
+}

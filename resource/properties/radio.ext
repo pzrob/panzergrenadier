@@ -1,0 +1,133 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+(include "armor.ext")
+(include "cannon_crew.ext")
+(include "cannon_armor.ext")
+(include "mobility.inc")
+(include "selection/special.inc" scale(0.5))
+
+("brain_vehicle")
+
+{PatherID "cannon.carried"}
+{collider "cannon_small"}
+
+{targetClass "cannon_bullet"}
+{targetSelector "cannon_bullet"}
+
+{props "carried" "cannon" "cannon_small" "-wood" "steel"}
+{able "emit_crew_on_injure"}
+{lodclass "cannon"}
+
+{constrain ground}
+{simulation {able 1} {disableLinked 1}}
+;{obstacleID "tank"}
+
+{extender "talk"
+	{talker "cannon"}
+}
+
+{extender "inventory"
+	{Box
+		{Size 6 10}
+		{weight 1000}
+	}
+}
+
+;{Weaponry
+	;{place "mgun"
+		;{charger "gunner"}
+		;{LinkBone "mgun"}
+		;{LinkAnimation "off"}
+	;}
+;}
+
+("crew_carried_ammo")
+
+{boarder
+	{anm "gunner"
+		{forward {end "ammo_box_gunner"}}
+	}
+	{anm "commander"
+		{forward {end "seat_driver_car"}}
+		;{forward {end "ammo_box_commander"}}
+	}
+	{anm "driver1"
+		{forward {end "ammo_box_commander_push"}}
+	}
+	{anm "driver2"
+		{forward {end "ammo_box_gunner_push"}}
+	}
+	{link "driver1" "gunner"}
+	{link "driver2" "commander"}
+}
+{placer
+	{place "driver1" remove}
+	{place "driver2" remove}
+	{place "gunner" remove}
+}
+{extender "cannon"
+	{animation
+		{switch "close"}
+		;// "gunner" 
+		{move ""}
+		{aim ""}
+	}
+		{move {workers clear} {obstacle "close"}}		;// move state: cannon being pushed and which positions play animations
+		{attack {workers "commander"} {obstacle "open"}}	;// fire/attack state: cannon aim, fire, and reload events
+}
+
+{Chassis "human_carrier"
+	("mobility_cannon"
+		speed(14) ;//----------------------------------Max speed.
+		weight(32) ;//---------------------------------Weight in Kilograms.
+	)
+	{FuelBag
+		{volume 1 } ; liters
+		{rate   0 } ; liters per kilometer
+		{remain 1 }
+		{fuel "fuel"}
+	}
+}
+
+{mass 50}
+
+("body" repair(15))
+
+{volume "body"
+	{thickness 5}
+}
+
+{perks
+	{component "body"
+		{health
+			{hp 120}
+			{hp_broken 1}
+		}
+		("global_damage_mod")
+	}
+	{blastwave_modifier 20.0}
+}
+
+{extender "stuff"}
+
+{volume "body"
+	{able clear {visible} {bullet} {select} {contact_ground} {touch} {contact}}
+}
+
+{volume "select"
+	{able clear {select} {touch}}
+	{density 0}
+}
+
+{obstacleID "stuff"}
+{collider "stuff"}
+{props "steel" "stuff" "collectable" "nocover"}
+{simulation {able 1} {disableLinked 1}}
+{constrain ground}
+{lodclass "stuff_small"}
+{NoGroupMesh 1}
+{NoVisibilityPatch}
+
+{RimLight}

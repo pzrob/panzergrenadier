@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_military/sandbag_new"}
+	{bump "$/_military/sandbag_new_bp"}
+	{specular "$/_military/sandbag_new_sp"}
+	{color "230 230 230 25"}
+	{lightmap "trench_dirt_pit_lm"}
+	{blend none}
+}

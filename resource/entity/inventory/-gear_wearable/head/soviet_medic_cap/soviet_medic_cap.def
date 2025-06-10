@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "soviet_medic_cap"}
+	}
+	{extension "sov_cap_var1.mdl"}
+}

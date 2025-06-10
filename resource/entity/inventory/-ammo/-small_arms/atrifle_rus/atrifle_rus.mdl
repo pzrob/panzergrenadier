@@ -1,0 +1,48 @@
+;Exported by:	 Carlos
+;Date:			 11.06.2021 13:32:37
+;File:			 T:\GoH_3D_human_export\3d_weapons\ptrs\at_ammo_export.max
+{skeleton
+	{bone "clip"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "clip.ply"}
+			{VolumeView "clip_lod1.ply"}
+			{VolumeView "clip_lod2.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 2.8682 0.907874 1.20444}
+	{bone "clip"}
+	{Position 0.2811 	 0.0348 	 -0.0038}
+}
+{volume "select"
+	{box 3.37088 1.21951 1.48595}
+	{bone "clip"}
+	{Position 0.3128 	 0.0182 	 0.0712}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.3056 	 -6.2817 	 -0.5295}
+			{lookat 0.2114 	 -0.0644 	 -0.0035}
+			{fov 31.2515}
+			{horizon -0.626826}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0214 	 -28.6075 	 23.9507}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0135 	 0.4954 	 -0.066}
+				{diffuse 0xff9e9e9e}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "nothing"}
+	(include "/properties/resupply_us_moded.inc")
+	("howitzer_shells_usa_crate_105mm")
+	{ObstacleId "construction"}
+	{props "-wood" "construction" "break_on_burn" "small" "burning" "parts"}
+	{extension "usa_105mm_howitzer_shell_crate.mdl"}
+
+	{Volume "body"
+		{thickness 200}
+		{able {touch}}
+	}
+	{extender "stuff"
+		{item "usa_105mm_howitzer_shell_crate"}
+	}
+	{placer
+		{place "shell_01"
+			{entity "105mm_usa_he"}
+			{Linkbone "shell_01"}
+			{handlebone "body"}
+		}
+		{place "shell_02"
+			{entity "105mm_usa_he"}
+			{Linkbone "shell_02"}
+			{handlebone "body"}
+		}
+		{place "shell_03"
+			{entity "105mm_usa_he"}
+			{Linkbone "shell_03"}
+			{handlebone "body"}
+		}
+		{place "shell_04"
+			{entity "105mm_usa_he"}
+			{Linkbone "shell_04"}
+			{handlebone "body"}
+		}
+	}
+}

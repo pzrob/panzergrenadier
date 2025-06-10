@@ -1,0 +1,53 @@
+;Exported by:	 Carlos
+;Date:			 05.06.2022 02:41:09
+;File:			 T:\goh_3d_human_fin\Weapons\Boys_mk1\boys_ammo_export.max
+{skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "magazine.ply"}
+	}
+}
+{volume "body"
+	{box 2.70162 2.10696 0.450769}
+	{bone "magazine"}
+	{matrix34
+		0.9781 	 -0.2079 	 0
+		0.2079 	 0.9781 	 0
+		0 	 0 	 1
+		0.0097 	 0.004 	 0.0024
+	}
+}
+{volume "select"
+	{box 3.25087 3.13727 0.919392}
+	{bone "magazine"}
+	{matrix34
+		0.9873 	 -0.1587 	 0
+		0.1587 	 0.9873 	 0
+		0 	 0 	 1
+		0.0731 	 -0.1672 	 0.0222
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -11.041 	 19.9328 	 87.4789}
+			{lookat 0.0034 	 0.2587 	 0.2026}
+			{fov 2.17281}
+			{horizon 167.761}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.4262 	 -6.3295 	 9.2808}
+			}
+			{"1"
+				{type directional}
+				{direction -0.097 	 -0.2641 	 -0.4133}
+			}
+		}
+	}
+}

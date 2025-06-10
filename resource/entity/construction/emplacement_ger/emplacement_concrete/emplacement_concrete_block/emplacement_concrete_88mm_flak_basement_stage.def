@@ -1,0 +1,80 @@
+{game_entity	
+	(include "/properties/building_roof.inc")
+	{props "cornered" "concrete" "construction" "wall" "parts"}
+	{obstacleID "unbreakable"}
+	{extension "emplacement_concrete_88mm_flak_basement_stage.mdl"}
+	{extender "land_patch"
+		{TerrainType "road" "bunker_floor"} 
+	}
+	{Lodclass "concrete"}
+	{volume "base_wall_block_01"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_02"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_03"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_04"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_05"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_06"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_07"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 0}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_08"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_09"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "base_wall_block_10"
+		{Tags "body"}
+		{able {visible 1}{Obstacle 1}}
+		{thickness 300}
+	}
+	{volume "exterior01"
+		{Tags "roof"}
+		{thickness 100}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{placer
+		{place "bunker_rear"
+			{entity "emplacement_concrete_block_bunker_hallway_side_exit_dummy"}
+			{Linkbone "bunker_rear"}
+			{handlebone "body"}
+		}
+	}
+	{extender "fortification"
+		{level ;// level 1
+			{steps 0}
+			{radius 1.0}
+			{buildTime 15}
+			{entity "emplacement_concrete_88mm_flak_basement_roof_stage_dummy"}
+		}
+	}
+}
