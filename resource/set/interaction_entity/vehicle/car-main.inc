@@ -1762,7 +1762,7 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 }	
-	{"blitz3_6_transport"
+{"blitz3_6_transport"
 	("opel_sound")
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
