@@ -1762,7 +1762,14 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 }	
-	{"blitz3_6_transport"
+{"blitz3_6_transport"
+	("opel_sound")
+	("animation_sound" args "open_left")
+	("animation_sound" args "open_right")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+}	
+{"blitz3_6_mg"
 	("opel_sound")
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
@@ -1799,6 +1806,14 @@
 }	
 
 {"opel_maultier"
+	("opel_maultier_sound")
+	("animation_sound" args "open_left")
+	("animation_sound" args "open_right")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+}	
+
+{"opel_maultier_mg"
 	("opel_maultier_sound")
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
