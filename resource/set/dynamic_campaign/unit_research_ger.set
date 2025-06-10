@@ -160,6 +160,7 @@
 ;//---Trucks---
 	{"inf_crate_ger"		requires	""						costs 0  position 0 9}
 	{"blitz3_6"				requires	"squad_regular_con(ger)" costs 2  position 3 18}
+	{"blitz3_6_mg"			requires	"squad_regular_con(ger)" costs 2  position 3 17}
 	{"blitz3_6_fuel"		requires	"blitz3_6_art_ammo"		costs 1  position 5 9}
 	{"infantry_cart_if8"	requires	"inf_crate_ger"			costs 0  position 1 9}
 	{"ammo_trailer"			requires	"infantry_cart_if8"		costs 1  position 2 9}
@@ -167,6 +168,7 @@
 	{"sdkfz6_ammo"			requires	"blitz3_6_art_ammo"		costs 2  position 4 10} ;//SE LIB
 	{"opel_maultier"		requires	"blitz3_6_art_ammo"		costs 1  position 3 10}
 	{"opel_maultier_transport"  requires	"blitz3_6_art_ammo"		costs 1  position 2 10}
+	{"opel_maultier_mg"     requires	"blitz3_6_art_ammo"		costs 1  position 2 8}
 	{"blitz3_6_engineering"	requires	"kettenkrad_eng"		costs 1  position 4 12}
 	{"blitz3_6_flak30"		requires	"20mm_flak30"			costs 1  position 0 26}
 	{"kubelwagen_dak"		requires	"squad_recon_con(ger)"	costs 1  position 3 20}
