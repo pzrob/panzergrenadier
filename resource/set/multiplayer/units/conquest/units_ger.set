@@ -528,10 +528,10 @@
 {"opel_maultier_transport"
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
 	{cost 10}
-	}	
+}		
 {"opel_maultier_engineering"
 	("vehicle2"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew1(miner-at:4) crew2(miner-ap:4))
-	{cost 10}
+	{cost 150}
 }
 {"opel_maultier_mg"
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))

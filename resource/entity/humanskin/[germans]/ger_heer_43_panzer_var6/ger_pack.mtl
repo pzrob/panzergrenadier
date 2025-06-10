@@ -1,0 +1,7 @@
+{material bump
+	{diffuse 	"$/_hum/ger_uniform/ger_pack"}
+	{bump 		"$/_hum/ger_uniform/ger_pack_bp"}
+	{specular 	"$/_hum/ger_uniform/ger_pack_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}
