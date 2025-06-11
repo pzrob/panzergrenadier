@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/_vehicle/sdkfz_223"}
+	{bump "$/_vehicle/sdkfz_223_bp"}
+	{specular "$/_vehicle/sdkfz_223_sp"}
+}
