@@ -3,7 +3,7 @@
 ;Date: Mon Jun 23 14:26:52 2008
 ;File: D:\-Projects-\-3DWork-\Model\Авто-мото\SDKFZ\SdKfz232\hi-poly\Sd232.max
 ;Model create/rebuild by: Frostyy
-;Last build date: Sunday 22 March 2025 [13:42:45]
+;Last build date: Thursday 11 June 2025 [14:16:21]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -400,6 +400,12 @@
             }
             {Bone "transmission"
                 {Position -1.36	0.49	0.0800025}
+            }
+            {Bone "headlightr"
+                {Position 55.9	-13.5	9.46001}
+            }
+            {Bone "headlightl"
+                {Position 55.86	12.73	9.53}
             }
         }
         {Bone "emit1"

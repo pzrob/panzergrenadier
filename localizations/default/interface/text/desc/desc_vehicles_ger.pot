@@ -1169,7 +1169,7 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz232"
-msgid "Sd.Kfz 231"
+msgid "Sd.Kfz 232"
 msgstr ""
 
 msgctxt "info/special/sdkfz232"

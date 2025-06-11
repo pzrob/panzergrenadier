@@ -330,6 +330,9 @@
 	{"sdkfz231"
 		{vehicle_view "armored_car"}
 	}
+	{"sdkfz232"
+		{vehicle_view "armored_car"}
+	}	
 	{"sdkfz234_1"
 		{vehicle_view "sdkfz234_1"}
 	}
