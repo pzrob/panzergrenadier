@@ -1,0 +1,6 @@
+{mod
+	{name "Panzergrenadier"}
+	{desc "Panzergrenadier and Volksgrenadier mod"}
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+}

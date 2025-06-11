@@ -447,10 +447,10 @@
 			}		
 						;[Tunic]
 			{LODView
-				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43.ply"}
-				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43_lod1.ply"}
-				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43_lod2.ply"}
-				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43_lod3.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_m44_tunic_unbt_var1.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_m44_tunic_unbt_var1_lod1.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_m44_tunic_unbt_var1_lod2.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_m44_tunic_unbt_var1_lod3.ply"}
 			}
 						;[Epaulettes] - (Base for rank insignia - Take off for Parkas/Smocks aka.Tarnhemds)
 

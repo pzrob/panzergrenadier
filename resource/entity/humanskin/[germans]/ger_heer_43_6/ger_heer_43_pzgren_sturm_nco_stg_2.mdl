@@ -461,10 +461,10 @@
 			}
 						;[Pants]
 			{LODView
-				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_1_boots_44.ply"}
-				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_1_boots_44_lod1.ply"}
-				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_1_boots_44_lod2.ply"}
-				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_1_boots_44_lod3.ply"}
+				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_2_boots_44.ply"}
+				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_2_boots_44_lod1.ply"}
+				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_2_boots_44_lod2.ply"}
+				{VolumeView "../[ger_source]/ger_pants_parka/ger_pants_2_boots_44_lod3.ply"}
 			}
 ;====================================================================================================
 ;===============================================GEAR=================================================	
