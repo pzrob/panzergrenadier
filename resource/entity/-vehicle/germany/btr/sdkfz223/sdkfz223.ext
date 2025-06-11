@@ -13,36 +13,37 @@
 	("turret" repair(45))
 
 	{volume "body1"		
-		{thickness 8
-			{top 6}
-			{front 15}
-			{rear 6}
+		{thickness 19
+			{top 16}
+			{front 15}		
+			{rear 16}
 		}
 	}
 	{volume "body2"			
-		{thickness 8
-			{rear 6}
+		{thickness 19
+			{top 16}		
+			{front 15}
+			{rear 16}			
 			{bottom 4}
 		}
 	}
 	{volume "body3"			
-		{thickness 8
-			{top 6}
-			{front 15}
+		{thickness 19
+			{top 16}
+			{front 16}
 		}
 	}
 	
 	{volume "engine"
-		{thickness 8
-			{top 6}
-			{front 6}		
-			{rear 4}
+		{thickness 19
+			{top 16}	
+			{rear 16}
 			{bottom 4}
 		}
 	}
 	
 	{volume "turret"		; Turret 
-		{thickness 8}
+		{thickness 10}
 		{able {holed}}
 	}
 	
