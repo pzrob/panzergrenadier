@@ -386,7 +386,7 @@
         {cost 30}
 }
 {"blitz3_6_mg"
-	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:2))
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:3))
 	{cost 80}	
 }
 {"kettenkrad_eng"
@@ -534,7 +534,7 @@
 	{cost 150}
 }
 {"opel_maultier_mg"
-	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:2))
+	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:3))
 	{cost 110}
 }
 {"sdkfz6_ammo"
