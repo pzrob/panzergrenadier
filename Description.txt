@@ -1,12 +1,15 @@
+This mod is adding new squads, uniforms for Panzergrenadiers and Volksgrenadiers, other small changes
+
 Description
 
-This mod is for who love to play with German Infantry specialy with Panzergrenadiers and Volksgrenadiers.Conquest mod
+This mod is for who love to play with German Infantry specialy with Panzergrenadiers and Volksgrenadiers. Dynamic Campaign / Conquest mod
 The year is 1945 , the Panzergrenadiers and Volksgrenadiers have been equiped with new uniforms and weapons, along with the all Panzer divisions.
 
 Added:
 
 New uniforms for Panzergrenadiers and Volksgrenadiers
-New uniforms for Panzer Lehr, late recon and  Lehr strum units
+New uniforms for Panzer Lehr, Lehr late recon and Lehr Sturm units
+New uniforms for Begleitgrenadier and Brandenburgers (mid)
 
 Added Sdkfz mortar carrier with mg in front
 Added Sdkfz7, maultier transporter, maultier miner, maultier, to conquest
@@ -32,29 +35,34 @@ The vehicles contains some veapons and ammo in inventory
 
 You can change the colour of painting for vehicles in game ( change paint vehicle skins)
 
+You can call in Air stikes with Brandenburger assistant leader ( they are random , mortar, artillery , smoke)
+
+The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with right mouse button on the ammo box in inventory , the soldier will carry in hand the ammo can, the nearby mg gunners will be resupplyed with ammo
+
+
+
 
 Credits and Thanks
 
 Thank you for the members of community for the help, I learned werry much from you all
 
-obsessivecorvid   thank you for fixing the maultier transporter
+Obsessivecorvid thank you for doing the maultier transporter
 
-BBQ   thank you for the help and the boxes wit ammo and veapons inside    https://steamcommunity.com/sharedfiles/filedetails/?id=3100056378&searchtext=toc
+BBQ thank you for the help and the boxes with ammo and veapons inside https://steamcommunity.com/sharedfiles/filedetails/?id=3100056378&searchtext=toc
 
-Doorkeeper   thank you for the help and for fixed emplacements          https://steamcommunity.com/sharedfiles/filedetails/?id=2978877382&searchtext=fixed+emplacements
+Doorkeeper thank you for the help and for fixed emplacements https://steamcommunity.com/sharedfiles/filedetails/?id=2978877382&searchtext=fixed+emplacements
 
-Frostyy   thank you for the miner maultier     https://steamcommunity.com/sharedfiles/filedetails/?id=3432518388&searchtext=germany+expanded
+Frostyy thank you for the miner maultier https://steamcommunity.com/sharedfiles/filedetails/?id=3432518388&searchtext=germany+expanded
 
-Uwo   thank you  the help and explications, thanks for the textures for the uniforms      https://steamcommunity.com/sharedfiles/filedetails/?id=2704941570&searchtext=heimatfront
+Uwo thank you the help and explications, thanks for the textures for the uniforms https://steamcommunity.com/sharedfiles/filedetails/?id=2704941570&searchtext=heimatfront
 
-Kirin Strong  thank you for letting me use the change vehicle paint     https://steamcommunity.com/sharedfiles/filedetails/?id=3297270751&searchtext=change+paint
+Kirin Strong thank you for letting me use the change vehicle paint https://steamcommunity.com/sharedfiles/filedetails/?id=3297270751&searchtext=change+paint
 
-Georider  thank you for the help with doing new skins          https://steamcommunity.com/sharedfiles/filedetails/?id=3208155051&searchtext=war+over+europe
+Georider thank you for the help with doing new skins https://steamcommunity.com/sharedfiles/filedetails/?id=3208155051&searchtext=war+over+europe
 
-Imperator Aug   thank you for help and advices
+Imperator Aug thank you for help and advices
 
-Anatoly Dyatlov  thank you for help and advices     https://steamcommunity.com/sharedfiles/filedetails/?id=2524397438&searchtext=whubu
-
+Anatoly Dyatlov thank you for help and advices. thank you for letting me use the SS texture from which I created uniforms https://steamcommunity.com/sharedfiles/filedetails/?id=2524397438&searchtext=whubu
 
 
 
