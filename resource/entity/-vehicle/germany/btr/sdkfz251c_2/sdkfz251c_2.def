@@ -10,12 +10,40 @@
 	{targetSelector "cannon_howitzer"}
 
 	{boarder
+		{anm "passenger1"
+			{forward {begin "halftrack_pass_l_01_board"} {end "halftrack_pass_l_01_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger2"
+			{forward {begin "halftrack_pass_r_01_board"} {end "halftrack_pass_r_01_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
 		{anm "passenger3"
 			{forward {begin "halftrack_pass_l_02_board"} {end "halftrack_pass_l_02_board_seat"} {base "board"}}
 			{reverse {end "emit_sd222_driver"} {base "board"}}
 		}
 		{anm "passenger4"
 			{forward {begin "halftrack_pass_r_02_board"} {end "halftrack_pass_r_02_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger5"
+			{forward {begin "halftrack_pass_l_03_board"} {end "halftrack_pass_l_03_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger6"
+			{forward {begin "halftrack_pass_r_03_board"} {end "halftrack_pass_r_03_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger7"
+			{forward {begin "halftrack_pass_l_04_board"} {end "halftrack_pass_l_04_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger8"
+			{forward {begin "halftrack_pass_r_04_board"} {end "halftrack_pass_r_04_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "passenger9"
+			{forward {begin "halftrack_commander_board"} {end "halftrack_commander_board_seat"} {base "board"}}
 			{reverse {end "emit_sd222_driver"} {base "board"}}
 		}
 		{anm "driver"
@@ -46,6 +74,14 @@
 	("crew" place(gunner4)		bone(gunner4)	door(emit2)	animation(gunner2)		visor(none)		off())
 	("crew" place(commander)	bone(commander) door(emit2)	animation(commander)	visor(none)		off({sensor}))
 
+	("passenger" place(seat1) bone(seat1) door(emit1)  animation(passenger1)  off())
+	("passenger" place(seat2) bone(seat2) door(emit2)  animation(passenger2)  off())
+	("passenger" place(seat3) bone(seat3) door(emit1)  animation(passenger3)  off())
+	("passenger" place(seat4) bone(seat4) door(emit2)  animation(passenger4)  off())
+	("passenger" place(seat5) bone(seat5) door(emit1)  animation(passenger5)  off())
+	("passenger" place(seat6) bone(seat6) door(emit2)  animation(passenger6)  off())
+	("passenger" place(seat7) bone(seat7) door(emit1)  animation(passenger7)  off())
+	("passenger" place(seat8) bone(seat8) door(emit2)  animation(passenger8)  off())
 	("passenger" place(seat9) bone(seat9) door(emit1)  animation(passenger9)  off())
 
 	{sensor
