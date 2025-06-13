@@ -1505,6 +1505,18 @@ msgctxt "desc/human/mp/ger/mid/convict_3"
 msgid "Feldwebel [Feldgendarmerie]"
 msgstr ""
 
+msgctxt "desc/human/mp/ger/late/convict_1"
+msgid "Convict [Feldgendarmerie]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/convict_2"
+msgid "Convict [Feldgendarmerie]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/convict_3"
+msgid "Feldwebel [Feldgendarmerie]"
+msgstr ""
+
 msgctxt "desc/human/mp/ger/mid/engineer_1"
 msgid "Field Engineer [Heer]"
 msgstr ""

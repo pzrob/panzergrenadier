@@ -1,13 +1,13 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_43_rfl_2"}
+	{skin "ger_heer_mot_43_rfl_2"}
 	{portrait "ger_regular"}
 	{icon "rifle"}
 	{icon_priority 0}
 	{tags "soldier"}
 	{nationality ger}
 	{armors
-		{head ger_stalhelm_m43_var3}
+		{head ger_stalhelm_m43_gog_a_down}
 	}
 	{perks
 		(include "ability.inc")

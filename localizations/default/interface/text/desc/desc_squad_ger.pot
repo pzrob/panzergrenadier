@@ -368,6 +368,10 @@ msgctxt "desc/squad/squad_strafbatallion_con(ger)"
 msgid "<c(A5A095)>(1)</c> Strafbatallion squad"
 msgstr ""
 
+msgctxt "desc/squad/squad_strafbatallion_44_con(ger)"
+msgid "<c(A5A095)>(1)</c> Feldgendarmerie squad"
+msgstr ""
+
 msgctxt "desc/squad/squad_sturm(ger)"
 msgid "Sturmgrenadiere"
 msgstr ""

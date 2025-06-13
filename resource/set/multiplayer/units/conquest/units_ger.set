@@ -141,6 +141,7 @@
 ("squad_with5types_conquest" side(ger) period(mid) min_stage(5) max_stage(8) name(squad_gebirgsjaeger_con)		c1(gebirgs_sl:1) c2(gebirgs_sl_asst:1) c3(gebirgs_rifle:6) c4(gebirgs_mg:1) c5(gebirgs_mg_asst:1))
 ("squad_with8types_conquest" side(ger) period(late) min_stage(9) max_stage(99) name(squad_gebirgsjaeger_late_con) c1(gebirgs_sl:1) c2(gebirgs_sl_asst:1) c3(gebirgs_smg:1) c4(gebirgs_smg_pzf:2) c5(gebirgs_stg:2) c6(gebirgs_rifle:1) c7(gebirgs_mg:1) c8(gebirgs_mg_asst:1))
 ("squad_with7types_conquest" side(ger) period(late) min_stage(9) max_stage(99) name(squad_gebirgs_recon_late_con) c1(gebirgs_recon_sl:1) c2(gebirgs_recon_sl_asst:1) c3(gebirgs_recon_smg_pzf:1) c4(gebirgs_recon_smg:3) c5(gebirgs_recon_rifle:2) c6(gebirgs_recon_mg:1) c7(gebirgs_recon_mg_asst:1))
+("squad_with3types_conquest" side(ger) period(late) min_stage(10) max_stage(99) name(squad_strafbatallion_44_con)		c1(convict_3:1) c2(convict_2:4) c3(convict_1:4))
 
 ("squad_with6types_conquest" side(ger) period(mid) min_stage(5) max_stage(8) name(squad_brandenburger_con)		c1(brand_1:1) c2(brand_5:1) c3(brand_6:3) c4(brand_3:2) c5(brand_2:2) c6(brand_4:3))
 ("squad_with6types_conquest" side(ger) period(late) min_stage(9) max_stage(99) name(squad_brandenburger_44_con)	c1(brand_1:1) c2(brand_5:1) c3(brand_6:3) c4(brand_3:2) c5(brand_2:2) c6(brand_4:3))
@@ -358,7 +359,7 @@
 ;|________________________________________________|
 
 {"bmw_r71"
-	("vehicle2" side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_1:1) crew2(mgun_2:1))
+	("vehicle2" side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_2:1) crew2(mgun_2:1))
 	{cost 60}
 }
 {"kfz15"
