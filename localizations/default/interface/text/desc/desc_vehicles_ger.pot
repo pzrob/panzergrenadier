@@ -637,11 +637,11 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/kfz14"
-msgid "Kfz.14 Command"
+msgid "Kfz.14"
 msgstr ""
 
 msgctxt "info/special/kfz14"
-msgid "<c(c3baae)>Armored Car</c>"
+msgid "<c(c3baae)>Command Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/kfz15"
@@ -1157,7 +1157,7 @@ msgid "Sd.Kfz 223"
 msgstr ""
 
 msgctxt "info/special/sdkfz223"
-msgid "<c(c3baae)>Armored Car</c>"
+msgid "<c(c3baae)>Command Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz231"
@@ -1165,7 +1165,7 @@ msgid "Sd.Kfz 231"
 msgstr ""
 
 msgctxt "info/special/sdkfz231"
-msgid "<c(c3baae)>Armored Car</c>"
+msgid "<c(c3baae)>Command Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz232"
