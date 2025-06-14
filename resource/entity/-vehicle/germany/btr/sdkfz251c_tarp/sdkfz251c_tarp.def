@@ -129,4 +129,6 @@
 	{bone "mgun_a_rot2"
 		{speed2 60}
 	}
+	
+	{texmod "medic"}
 }

@@ -637,11 +637,11 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/kfz14"
-msgid "Kfz.14 Command"
+msgid "Kfz.14"
 msgstr ""
 
 msgctxt "info/special/kfz14"
-msgid "<c(c3baae)>Armored Car</c>"
+msgid "<c(c3baae)>Command Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/kfz15"
@@ -1157,7 +1157,7 @@ msgid "Sd.Kfz 223"
 msgstr ""
 
 msgctxt "info/special/sdkfz223"
-msgid "<c(c3baae)>Armored Car</c>"
+msgid "<c(c3baae)>Command Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz231"
@@ -1173,7 +1173,7 @@ msgid "Sd.Kfz 232"
 msgstr ""
 
 msgctxt "info/special/sdkfz232"
-msgid "<c(c3baae)>Armored Car</c>"
+msgid "<c(c3baae)>Command Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz234_1"
@@ -1281,11 +1281,11 @@ msgid "<c(c3baae)>Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251c_tarp"
-msgid "Sd.Kfz 251/1 Medic"
+msgid "Sd.Kfz 251/1 (Medical)"
 msgstr ""
 
 msgctxt "info/special/sdkfz251c_tarp"
-msgid "<c(c3baae)>Medium Halftrack</c>"
+msgid "<c(c3baae)>Medical Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_1"
