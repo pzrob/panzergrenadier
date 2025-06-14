@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_human/ger_goggles"}
-	{bump "$/_human/ger_goggles_bp"}
-	{specular "$/_human/ger_goggles_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

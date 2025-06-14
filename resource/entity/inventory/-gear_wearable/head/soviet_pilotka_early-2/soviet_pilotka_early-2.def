@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "soviet_pilotka_early-2"}
-	}
-	{extension "sov_pilotka.mdl"}
-}

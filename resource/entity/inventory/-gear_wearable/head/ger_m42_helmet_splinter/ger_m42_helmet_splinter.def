@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "ger_m42_helmet_splinter"}
-	}
-	{Extension "stahlhelmet_m40_camo.mdl"}
-}

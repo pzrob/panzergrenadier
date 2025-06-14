@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_human/K-Ger/ger_cap_camo_sp3"}
-	{bump "$/_human/Headwear_Ger/ger_fieldcap_camo_bp"}
-	{specular "$/_human/Heer/uniforms_1943-1944/ger_fieldcap_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

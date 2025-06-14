@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_human/K-Sov/sov_tanker_cap3"}
-	{bump "$/_human/sov_tanker_cap_bp"}
-	{specular "$/_human/sov_tanker_cap_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

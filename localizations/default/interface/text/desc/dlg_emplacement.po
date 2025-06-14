@@ -1,375 +1,389 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Cta - Gates of Hell (dlg_ingame)\n"
+"Project-Id-Version: Gates of Hell German vehicles\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-04-28 12:20+0200\n"
+"PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: zh_CN\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 msgctxt "actionbar/foxhole_middle"
 msgid "Dig small foxhole"
-msgstr "挖掘中型散兵坑"
+msgstr ""
 
 msgctxt "actionbar/foxhole_middle/action"
 msgid "Dig small foxhole"
-msgstr "挖掘中型散兵坑"
+msgstr ""
 
 msgctxt "actionbar/foxhole_middle/usage"
 msgid ""
 "After clicking this button, click and drag on the map to define the position "
 "and orientation for digging a small foxhole."
-msgstr "单击该按钮，然后在地图上单击并拖动，调整中型散兵坑的位置和方向。"
+msgstr ""
 
 msgctxt "actionbar/vehicle/gun_shield_switch"
 msgid "switch on/off gun shield "
-msgstr "安装/移除枪盾(炮盾)"
+msgstr ""
 
 msgctxt "actionbar/vehicle/gun_shield_switch/usage"
 msgid "install or remove the gun shield of this weapon."
-msgstr "安装或移除该武器的枪盾(炮盾)来获取额外保护或更好的视野。"
+msgstr ""
 
 msgctxt "actionbar/bush_cover"
 msgid "Plant bush"
-msgstr "布置草丛伪装"
+msgstr ""
 
 msgctxt "actionbar/bush_cover/usage"
 msgid "After clicking this button, click and drag on the map to define the position for planting bush."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整草丛伪装的位置。"
+msgstr ""
 
 msgctxt "actionbar/concrete_wall"
 msgid "Place barricade wall"
-msgstr "设置混凝土障碍墙"
+msgstr ""
 
 msgctxt "actionbar/concrete_wall/usage"
 msgid "After clicking this button, click and drag on the map to define the position for placing barricade wall."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整混凝土障碍墙的位置。"
+msgstr ""
 
 msgctxt "actionbar/barricade_wall"
 msgid "Place barricade wall"
-msgstr "设置障碍墙"
+msgstr ""
 
 msgctxt "actionbar/barricade_wall/usage"
 msgid "After clicking this button, click and drag on the map to define the position for placing barricade wall."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整障碍墙的位置。"
+msgstr ""
 
 msgctxt "actionbar/fighting_position_shallow"
 msgid "Dig fighting position (shallow)"
-msgstr "挖掘战斗掩体(浅)"
+msgstr ""
 
 msgctxt "actionbar/fighting_position_shallow/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a fighting position."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战斗掩体的位置。"
+msgstr ""
 
 msgctxt "actionbar/fighting_position_deep"
 msgid "Dig fighting position (deep)"
-msgstr "挖掘战斗掩体(深)"
+msgstr ""
 
 msgctxt "actionbar/fighting_position_deep/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a fighting position."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战斗掩体的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_short"
 msgid "Dig trench section"
-msgstr "挖掘战壕段"
+msgstr ""
 
 msgctxt "actionbar/trench_short/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench section."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战壕的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_intersection"
 msgid "Dig trench intersection"
-msgstr "挖掘T型战壕"
+msgstr ""
 
 msgctxt "actionbar/trench_intersection/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench intersection."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整T型战壕的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_end"
 msgid "Dig trench end"
-msgstr "挖掘战壕末端"
+msgstr ""
 
 msgctxt "actionbar/trench_end/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench end."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战壕末端的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_turn"
 msgid "Dig trench turn"
-msgstr "挖掘战壕拐角"
+msgstr ""
 
 msgctxt "actionbar/trench_turn/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench turn."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战壕拐角的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_short_soldier"
 msgid "Dig trench section"
-msgstr "挖掘战壕段"
+msgstr ""
 
 msgctxt "actionbar/trench_short_soldier/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench section."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战壕的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_intersection_soldier"
 msgid "Dig trench intersection"
-msgstr "挖掘T型战壕"
+msgstr ""
 
 msgctxt "actionbar/trench_intersection_soldier/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench intersection."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整T型战壕的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_end_soldier"
 msgid "Dig trench end"
-msgstr "挖掘战壕末端"
+msgstr ""
 
 msgctxt "actionbar/trench_end_soldier/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench end."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战壕末端的位置。"
+msgstr ""
 
 msgctxt "actionbar/trench_turn_soldier"
 msgid "Dig trench turn"
-msgstr "挖掘战壕拐角"
+msgstr ""
 
 msgctxt "actionbar/trench_turn_soldier/usage"
 msgid "After clicking this button, click and drag on the map to define the position for digging a trench turn."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整战壕拐角的位置。"
+msgstr ""
 
 msgctxt "actionbar/minefield_at"
 msgid "Place anti-tank minefield"
-msgstr "布置反坦克雷区"
+msgstr ""
 
 msgctxt "actionbar/minefield_at/usage"
 msgid "After clicking this button, click and drag on the map to define the position for placing a minefield. Depoly by anti-tank mines by clicking on the mine sign again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造雷区标识牌的位置。选中工兵后再次点击雷区标识牌以安装机枪和探照灯。"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_fin"
 msgid "Place anti-tank minefield"
-msgstr "布置反坦克雷区"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_fin/usage"
 msgid "After clicking this button, click and drag on the map to define the position for placing a minefield."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造雷区的位置。"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_ger"
 msgid "Place anti-tank minefield"
-msgstr "布置反坦克雷区"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_ger/usage"
 msgid "After clicking this button, click and drag on the map to define the position for placing a minefield."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造雷区的位置。"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_rus"
 msgid "Place anti-tank minefield"
-msgstr "布置反坦克雷区"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_rus/usage"
 msgid "After clicking this button, click and drag on the map to define the position for placing a minefield."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造雷区的位置。"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_usa"
 msgid "Place anti-tank minefield"
-msgstr "布置反坦克雷区"
+msgstr ""
 
 msgctxt "actionbar/mine_sign_at_usa/usage"
 msgid "After clicking this button, click and drag on the map to define the position for placing a minefield."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造雷区的位置。"
+msgstr ""
 
 msgctxt "actionbar/watch_tower"
 msgid "Place wooden watch tower"
-msgstr "建造木制瞭望塔"
+msgstr ""
 
 msgctxt "actionbar/watch_tower/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a wooden watch tower. Upgrade the tower with a MG and a search light by clicking on the tower again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造瞭望塔的位置。选中工兵后再次点击瞭望塔以安装机枪和探照灯。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_small_deep_mg"
 msgid "Place MG emplacement"
-msgstr "建造机枪阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_small_deep_mg/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a MG emplacement. Upgrade the emplacement with a MG by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造机枪阵地的位置。选中工兵后再次点击机枪阵地以安装机枪。"
+msgstr ""
 
 msgctxt "actionbar/rus_maxim_pillbox"
 msgid "Place MG pillbox"
-msgstr "建造机枪掩体"
+msgstr ""
 
 msgctxt "actionbar/rus_maxim_pillbox/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a MG pillbox. Upgrade the emplacement with a MG by clicking on the pillbox again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造机枪阵地的位置。选中工兵后再次点击机枪掩体以安装机枪。"
+msgstr ""
 
 msgctxt "actionbar/rus_pillbox_earth_dshk"
 msgid "Place HMG pillbox"
-msgstr "建造重型机枪掩体"
+msgstr ""
 
 msgctxt "actionbar/rus_pillbox_earth_dshk/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a HMG pillbox. Upgrade the emplacement with a HMG by clicking on the pillbox again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造机枪阵地的位置。选中工兵后再次点击机枪掩体以安装重型机枪。"
+msgstr ""
 
 msgctxt "actionbar/usa_bunker_m2_50cal"
 msgid "Place HMG pillbox"
-msgstr "建造重型机枪掩体"
+msgstr ""
 
 msgctxt "actionbar/usa_bunker_m2_50cal/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a HMG pillbox. Upgrade the emplacement with a HMG by clicking on the pillbox again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造机枪阵地的位置。选中工兵后再次点击机枪掩体以安装重型机枪。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_at"
 msgid "Place anti-tank gun emplacement"
-msgstr "建造反坦克炮阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_at/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building an anti-tank gun emplacement. Upgrade the emplacement with an anti-tank gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造反坦克炮阵地的位置。选中工兵后再次点击反坦克炮阵地以安装反坦克炮。"
+msgstr ""
 
 msgctxt "actionbar/fin_75mm_k44_emplacement"
 msgid "Place heavy anti-tank gun emplacement"
-msgstr "建造重型反坦克炮阵地"
+msgstr ""
 
 msgctxt "actionbar/fin_75mm_k44_emplacement/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building an anti-tank gun emplacement. Upgrade the emplacement with a heavy anti-tank gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造反坦克炮阵地的位置。选中工兵后再次点击反坦克炮阵地以安装重型反坦克炮。"
+msgstr ""
 
 msgctxt "actionbar/rus_100mm_bs3_emplacement"
 msgid "Place heavy anti-tank gun emplacement"
-msgstr "建造重型反坦克炮阵地"
+msgstr ""
 
 msgctxt "actionbar/rus_100mm_bs3_emplacement/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building an anti-tank gun emplacement. Upgrade the emplacement with a heavy anti-tank gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造反坦克炮阵地的位置。选中工兵后再次点击反坦克炮阵地以安装重型反坦克炮。"
+msgstr ""
 
 msgctxt "actionbar/usa_76mm_m5_emplacement"
 msgid "Place heavy anti-tank gun emplacement"
-msgstr "建造重型反坦克炮阵地"
+msgstr ""
 
 msgctxt "actionbar/usa_76mm_m5_emplacement/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building an anti-tank gun emplacement. Upgrade the emplacement with a heavy anti-tank gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造反坦克炮阵地的位置。选中工兵后再次点击反坦克炮阵地以安装重型反坦克炮。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_light_aa_mg"
 msgid "Place anti-aircraft MG emplacement"
-msgstr "建造高射机枪阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_light_aa_mg/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building an anti-aircraft MG emplacement. Upgrade the emplacement with an anti-aircraft MG by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造高射机枪阵地的位置。选中工兵后再次点击防空机枪阵地以安装高射机枪。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_light_aa"
 msgid "Place anti-aircraft gun emplacement"
-msgstr "建造防空炮阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_light_aa/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building an anti-aircraft gun emplacement. Upgrade the emplacement with an anti-aircraft gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造防空炮阵地的位置。选中工兵后再次点击防空炮阵地以安装防空炮。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_aa"
 msgid "Place anti-aircraft gun emplacement"
-msgstr "建造防空炮阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_aa/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building an anti-aircraft gun emplacement. Upgrade the emplacement with an anti-aircraft gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造防空炮阵地的位置。选中工兵后再次点击防空炮阵地以安装防空炮。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_aa_heavy"
 msgid "Place heavy anti-aircraft gun emplacement"
-msgstr "建造重型防空炮阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_aa_heavy/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a heavy anti-aircraft gun emplacement. Upgrade the emplacement with a heavy anti-aircraft gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造防空炮阵地的位置。选中工兵后再次点击防空炮阵地以安装重型防空炮。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_fieldgun"
 msgid "Place field gun emplacement"
-msgstr "建造野战炮阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_fieldgun/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a field gun emplacement. Upgrade the emplacement with a field gun by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造野战炮阵地的位置。选中工兵后再次点击野战炮阵地以安装野战炮。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_howitzer"
 msgid "Place Howitzer emplacement"
-msgstr "建造榴弹炮阵地"
+msgstr ""
 
 msgctxt "actionbar/emplacement_middle_howitzer/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a howitzer emplacement. Upgrade the emplacement with a howitzer by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造榴弹炮阵地的位置。选中工兵后再次点击榴弹炮阵地以安装榴弹炮。"
+msgstr ""
 
 msgctxt "actionbar/mortar_pit_heavy"
 msgid "Place heavy mortar trench"
-msgstr "构筑重型迫击炮掩体"
+msgstr ""
 
 msgctxt "actionbar/mortar_pit_heavy/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a mortar trench. Upgrade the emplacement with a heavy mortar by clicking on the emplacement again with engineers."
-msgstr "点击此按钮后，在地面上点击并拖动，以确定重型迫击炮掩体的构筑方位。选中工兵后再次点击工事以安装重型迫击炮。"
+msgstr ""
 
 msgctxt "actionbar/fin_bunker"
 msgid "Place concrete bunker"
-msgstr "建造混凝土碉堡"
+msgstr ""
 
 msgctxt "actionbar/fin_bunker/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a concrete bunker. Upgrade the bunker with a MG by clicking on the bunker again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。选中工兵后再次点击混凝土碉堡以安装机枪。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_tower"
 msgid "Place concrete tower"
-msgstr "建造混凝土哨塔"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_tower/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a concrete tower. Upgrade the tower with a MG by clicking on the tower again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。选中工兵后再次点击混凝土哨塔以安装机枪。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_bunker"
 msgid "Place concrete bunker"
-msgstr "建造混凝土碉堡"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_bunker/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a concrete bunker. Upgrade the bunker with a MG by clicking on the bunker again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。选中工兵后再次点击混凝土碉堡以安装机枪。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_bunker_at"
 msgid "Place concrete anti-tank gun bunker"
-msgstr "建造混凝土反坦克炮碉堡"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_bunker_at/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a concrete anti-tank gun bunker. Upgrade the bunker with an anti-tank gun by clicking on the bunker again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。选中工兵后再次点击混凝土碉堡以安装反坦克炮。"
+msgstr ""
 
 msgctxt "actionbar/ger_bunker_88mm_pak4341"
 msgid "Place concrete heavy anti-tank gun bunker"
-msgstr "建造混凝土重型反坦克炮碉堡"
+msgstr ""
 
 msgctxt "actionbar/ger_bunker_88mm_pak4341/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a concrete anti-tank gun bunker. Upgrade the bunker with a heavy anti-tank gun by clicking on the bunker again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。选中工兵后再次点击混凝土碉堡以安装重型反坦克炮。"
+msgstr ""
 
 msgctxt "actionbar/ger_concrete_flak_pillbox"
 msgid "Place concrete heavy anti-aircraft gun pillbox"
-msgstr "建造混凝土防空炮工事"
+msgstr ""
 
 msgctxt "actionbar/ger_concrete_flak_pillbox/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building aheavy anti-aircraft gun pillbox. Upgrade the pillbox with a heavy anti-aircraft gun by clicking on the pillbox again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。选中工兵后再次点击混凝土工事以安装重型防空炮。"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_fortress"
 msgid "Place concrete stronghold"
-msgstr "建造混凝土要塞"
+msgstr ""
 
 msgctxt "actionbar/emplacement_concrete_fortress/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a concrete fortress. "
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。"
+msgstr ""
 
 msgctxt "actionbar/ger_bunker_large"
 msgid "Place concrete stronghold"
-msgstr "建造混凝土要塞"
+msgstr ""
 
 msgctxt "actionbar/ger_bunker_large/usage"
 msgid "After clicking this button, click and drag on the map to define the position for building a stronghold. construct the stronghold by clicking on the steel crate again with engineers."
-msgstr "点击此按钮后，在地图上单击并拖动，以调整建造混凝土工事的位置。选中工兵后再次点击铁箱以混凝土要塞。"
+msgstr ""
+
+
+
+msgctxt "actionbar/rus_coastal_gun"
+msgid "Place coastal gun emplacement"
+msgstr ""
+
+msgctxt "actionbar/rus_coastal_gun/usage"
+msgid "After clicking this button, click and drag on the map to define the position for building a coastal gun emplacement. Upgrade by clicking on concrete pad again with engineers"
+msgstr ""
+
+msgctxt "actionbar/rus_coastal_gun/action"
+msgid "Place coastal gun emplacement"
+msgstr ""
 
 msgctxt "desc/stuff/fencewood_07_pillar_sharp_trap mine"
 msgid "Spike trap"
-msgstr "尖刺陷阱"
+msgstr ""

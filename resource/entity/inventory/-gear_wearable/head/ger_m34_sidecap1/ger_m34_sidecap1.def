@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "ger_m34_sidecap1"}
-	}
-	{Extension "ger_m34_sidecap.mdl"}
-}

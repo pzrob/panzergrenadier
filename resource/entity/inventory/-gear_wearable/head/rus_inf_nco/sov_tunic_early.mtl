@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_humanskin/Soviet/early/early_tunic_rank_2_starshina"}
-	{bump "$/_humanskin/Soviet/early/early_tunic_bp"}
-	{specular "$/_humanskin/Soviet/early/early_tunic_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

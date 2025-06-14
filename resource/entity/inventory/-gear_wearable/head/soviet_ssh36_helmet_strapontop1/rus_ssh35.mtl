@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_human/K-Sov/soviet_ssh35"}
-	{bump "$/_human/K-Sov/soviet_ssh35_bp"}
-	{specular "$/_human/K-Sov/soviet_ssh35_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

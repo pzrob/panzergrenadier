@@ -1,7 +1,0 @@
-{actor
-	(include "/properties/stuff_small.ext")
-	{Extension "plac_palatka.mdl"}
-	{extender "stuff"
-		{item "plac_palatka"}
-	}
-}

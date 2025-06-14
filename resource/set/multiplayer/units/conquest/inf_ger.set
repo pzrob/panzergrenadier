@@ -400,6 +400,10 @@
 {"mp/ger/late/gebirgs_smg_pzf"				("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(20.0))} ; mp40 + pzfaust 100
 {"mp/ger/late/gebirgs_stg"					("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(30.0))} ; stg44
 
+{"mp/ger/late/convict_1"		("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(17.0))} ; k98
+{"mp/ger/late/convict_2"		("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(19.0))} ; mp40
+{"mp/ger/late/convict_3"		("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(19.0))} ; mp40
+
 {"mp/ger/late/gebirgs_recon_mg"				("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(60.0))} ; MG42 belt (100 round)
 {"mp/ger/late/gebirgs_recon_mg_asst"		("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(18.0))} ; k98
 {"mp/ger/late/gebirgs_recon_mg34"			("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(60.0))} ; MG34 belt (100 round)
