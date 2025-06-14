@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_43_aufklar_mg"}
+	{skin "ger_heer_43_elite_mg"}
 	{portrait "ger_scout"}
 	{icon "mg"}
 	{icon_priority 0}
@@ -20,7 +20,7 @@
 	}
 	{inventory
 		{item "mg34_drum" filling "mgun_ger drum ammo" 50}
-		{item "mgun_ger drum ammo" 300}
+		{item "mgun_ger drum ammo" 600}
 
 		;{item "p38" filled}
 		;{item "pistol ammo" 16 8}

@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_43_pz_aufklar_mg_asst"}
+	{skin "ger_heer_ver9_43_elite_mg_asst"}
 	{portrait "ger_scout"}
 	{icon "rifle"}
 	{icon_priority 0}

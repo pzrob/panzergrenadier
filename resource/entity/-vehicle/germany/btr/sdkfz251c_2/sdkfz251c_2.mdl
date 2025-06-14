@@ -6,13 +6,14 @@
 ;Last build date: Saturday 13 June 2025 [19:35:20]
 {Skeleton
     {Animation
-        {Sequence "board"}
-        {Sequence "start" {Speed 0.7}}
-        {Sequence "stop" {Speed 0.7}}
-        {Sequence "hit" {Speed 0.5}}
-        {Sequence "open_back" {Resume}}
-        {Sequence "close_back" {Resume}}
-        {Sequence "mgun_aa_2" {Speed 0.7} {Resume}}
+	    {sequence "board" {speed 1} {events {0 "board"}}}
+	    {sequence "start" {speed 0.7}}
+	    {sequence "stop" {speed 0.7}}
+	    {sequence "hit" {speed 0.5}}
+	    {sequence "open_back" {speed 1}{resume} {events {2 "hatch_light"}}}
+	    {sequence "close_back" {speed 1}{resume} {events {18 "hatch_light"}}}
+	    {sequence "mgun_aa" {speed 0.7}{resume}}
+	    {sequence "mgun_aa_2" {speed 0.7}{resume}}
     }
     {Bone "basis"
         {Parameters "wheelradius=0.455;steermax=30;"}
