@@ -55,7 +55,9 @@
 	{"squad_pzgren_motor_con"			requires	"squad_grenadier_con(ger)"			costs 2  position 10 17}
 	{"squad_pzgren_armor_con"			requires	"squad_pzgren_motor_con"			costs 1  position 11 17}
 	{"squad_panzergren_motor_con"		requires	"squad_pzgren_motor_con"	        costs 2  position 9 18}
+	{"squad_panzgren_motor_con"		    requires	"squad_pzgren_motor_con"	        costs 2  position 13 16}
 	{"squad_panzergren_armor_con"		requires	"squad_pzgren_armor_con"		    costs 1  position 11 18}
+	{"squad_panzgren_armor_con"		    requires	"squad_pzgren_armor_con"		    costs 1  position 13 17}
 	{"squad_sturm_pzgren_armor_con"		requires	"squad_pzgren_armor_con"			costs 2  position 12 17}
 	{"squad_gd_motor_con"				requires	"squad_regular_vet_con(ger) squad_regular_motor_con"	costs 3  position 4 16}
 	{"squad_pzg_gd_armor_con"			requires	"squad_gd_motor_con squad_pzgren_armor_con"				costs 2  position 12 16}
@@ -66,6 +68,7 @@
 	{"squad_volksg_heavy_con(ger)"		requires	"squad_volksg_sturm_con(ger)"		costs 2  position 12 19}
 	{"squad_gren_sturm_motor_con"		requires	"squad_volksg_con(ger)"		        costs 2  position 9 19}
 	{"squad_volksg_sturm_motor_con"		requires	"squad_volksg_heavy_con(ger)"		costs 2  position 13 19}
+	{"squad_volksg_motor_con"		    requires	"squad_volksg_heavy_con(ger)"		costs 2  position 13 20}
 	{"squad_sturmgren_con(ger)"			requires	"squad_volksg_con(ger)"				costs 3  position 11 20}
 	{"squad_sturmgren_heavy_con(ger)"	requires	"squad_sturmgren_con(ger)"			costs 2  position 12 20}
 	{"squad_volkssturm_con(ger)"		requires	"squad_volksg_con(ger)"				costs 0  position 10 18}

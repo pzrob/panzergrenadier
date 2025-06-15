@@ -76,7 +76,10 @@
     ("squad_vehicle5"        side(ger) period(late) min_stage(11) max_stage(99) cw(1) cp(2) vehicle(sdkfz10) crew1(volksg_1:1) crew2(volksg_2:3) crew3(volksg_3:1) crew4(volksg_4:1) crew5(volksg_1:2))
 }
 {"squad_volksg_sturm_motor_con"
-    ("squad_vehicle8"        side(ger) period(late) min_stage(11) max_stage(99) cw(1) cp(2) vehicle(blitz3_6_transport) crew1(volksg_rifle:2) crew2(volksg_sl:1) crew3(volksg_sl_asst:1) crew4(volksg_stg_pzf:4) crew5(volksg_smg_pzf:2) crew6(volksg_at:1) crew7(volksg_at2:1) crew8(volksg_rifle_pzf:2))	
+    ("squad_vehicle8"        side(ger) period(late) min_stage(11) max_stage(99) cw(1) cp(2) vehicle(blitz3_6_transport) crew1(volksg_rifle:2) crew2(volksg_sl:1) crew3(volksg_sl_asst:1) crew4(volksg_stg_pzf:4) crew5(volksg_smg_pzf:2) crew6(volksg_at:1) crew7(volksg_at2:1) crew8(volksg_rifle_pzf:2))
+}
+{"squad_volksg_motor_con"
+    ("squad_vehicle8"        side(ger) period(late) min_stage(11) max_stage(99) cw(1) cp(2) vehicle(blitz3_6_mg) crew1(volksg_rifle:2) crew2(volksg_sl_smg:1) crew3(volksg_sl_asst_smg:1) crew4(volksg_stg_pzf:2) crew5(volksg_smg_pzf:2) crew6(volksg_at:2) crew7(volksg_at2:2) crew8(volksg_stg:2))	
 }
 {"squad_regular_armor_con"
 	("squad_vehicle6"		 side(ger) period(mid) min_stage(5) max_stage(99) cw(1) cp(0) vehicle(sdkfz251c) crew1(rifleman_2:2) crew2(officer:1) crew3(nco:1) crew4(rifleman_2:4) crew5(mgun_1:2) crew6(mgun_2:2)) 
@@ -85,10 +88,16 @@
 	("squad_vehicle9"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(blitz3_6) crew1(pzgren_rifle:1) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_sa:2) crew5(pzgren_rifle_pzf2:1) crew6(pzgren_at:1) crew7(pzgren_stg:2) crew8(pzgren_mg:2) crew9(pzgren_mg_asst:2))
 }	
 {"squad_panzergren_motor_con"
-	("squad_vehicle9"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(opel_maultier_transport) crew1(pzgren_rifle:2) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_rifle_pzf:2) crew5(pzgren_rifle_pzf2:1) crew6(pzgren_at:1) crew7(pzgren_stg:2) crew8(pzgren_mg:2) crew9(pzgren_mg_asst:2))	
+	("squad_vehicle9"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(opel_maultier_transport) crew1(pzgren_rifle:2) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_rifle_pzf:2) crew5(pzgren_rifle_pzf2:1) crew6(pzgren_at:1) crew7(pzgren_stg:2) crew8(pzgren_mg:2) crew9(pzgren_mg_asst:2))
+}	
+{"squad_panzgren_motor_con"
+	("squad_vehicle8"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(opel_maultier_mg) crew1(pzgren_rifle_pzf:2) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_rifle_pzf2:1) crew5(pzgren_at:2) crew6(pzgren_stg:3) crew7(pzgren_mg:2) crew8(pzgren_mg_asst:2))	
 }
 {"squad_pzgren_armor_con"
-	("squad_vehicle7"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(sdkfz251d_1) crew1(pzgren_rifle:2) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_rifle_pzf:2) crew5(pzgren_rifle_pzf2:2) crew6(pzgren_mg:2) crew7(pzgren_mg_asst:2)) 
+	("squad_vehicle7"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(sdkfz251d_1) crew1(pzgren_rifle:2) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_rifle_pzf:2) crew5(pzgren_rifle_pzf2:2) crew6(pzgren_mg:2) crew7(pzgren_mg_asst:2))
+}
+{"squad_panzgren_armor_con"
+	("squad_vehicle6"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(sdkfz251c_2) crew1(pzgren_rifle:5) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_stg:3) crew5(pzgren_mg:2) crew6(pzgren_mg_asst:2))	
 }	
 {"squad_panzergren_armor_con"
 	("squad_vehicle7"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(sdkfz7) crew1(pzgren_rifle:1) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_sa:2) crew5(pzgren_rifle_pzf2:2) crew6(pzgren_stg:3) crew7(pzgren_at:1)) 

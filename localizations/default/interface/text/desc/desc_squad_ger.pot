@@ -1063,12 +1063,24 @@ msgctxt "desc/squad/squad_volksg_sturm_motor_con"
 msgid "<c(A5A095)>(2)</c> Motorized Volksgrenadier Squad"
 msgstr ""
 
+msgctxt "desc/squad/squad_volksg_motor_con"
+msgid "<c(A5A095)>(2)</c> Elite Volksgrenadier Squad"
+msgstr ""
+
 msgctxt "desc/squad/squad_panzergren_motor_con"
 msgid "<c(A5A095)>(2)</c> Panzergrenadier Squad (Maultier)"
 msgstr ""
 
+msgctxt "desc/squad/squad_panzgren_motor_con"
+msgid "<c(A5A095)>(2)</c> Heavy Panzergrenadier Squad"
+msgstr ""
+
 msgctxt "desc/squad/squad_panzergren_armor_con"
 msgid "<c(A5A095)>(2)</c> Elite Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_panzgren_armor_con"
+msgid "<c(A5A095)>(2)</c> Assault Panzergrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/player_paradrop_ger"
