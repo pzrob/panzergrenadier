@@ -13,27 +13,27 @@
 	("shield" args "shield" 8)
 
 	{volume "body1"
-		{thickness 58
-			{bottom 35}
+		{thickness 18
+			{bottom 15}
 		}
 		{able {holed}}
 	}
 	{volume "body2"
-		{thickness 58
-			{bottom 35}
+		{thickness 18
+			{bottom 15}
 		}
 		{able {holed}}
 	}
 	{volume "engine1"
-		{thickness 52}
+		{thickness 12}
 	}
 	{volume "engine2"
-		{thickness 55
-			{bottom 35}
+		{thickness 15
+			{bottom 15}
 		}
 	}
 	{volume "fuel"
-		{thickness 55}
+		{thickness 15}
 	}
 	{volume "hole1"
 		{tags "sticky"}

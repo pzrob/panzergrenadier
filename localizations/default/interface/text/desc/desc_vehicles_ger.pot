@@ -1583,3 +1583,36 @@ msgstr ""
 msgctxt "info/special/sdkfz6_ammo"
 msgid "<c(c3baae)>Ammo Halftrack</c>"
 msgstr ""
+
+msgctxt "desc/entity/ju-52"
+msgid "ju 52"
+msgstr ""
+
+msgctxt "info/special/ju-52"
+msgid "<c(c3baae)>Cargo Plane</c>"
+msgstr ""
+
+msgctxt "desc/entity/ju-52_para_plane"
+msgid "ju 52"
+msgstr ""
+
+msgctxt "info/special/ju-52_para_plane"
+msgid "<c(c3baae)>Cargo Plane</c>"
+msgstr ""
+
+msgctxt "desc/entity/ju-52_para_plane_player"
+msgid "ju 52"
+msgstr ""
+
+msgctxt "info/special/ju-52_para_plane_player"
+msgid "<c(c3baae)>Cargo Plane</c>"
+msgstr ""
+
+msgctxt "desc/squad/controllable_plane_ger"
+msgid "Controllable plane"
+msgstr ""
+
+msgctxt "desc/squad/goliath"
+msgid "Goliath"
+msgstr ""
+

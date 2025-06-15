@@ -1071,4 +1071,24 @@ msgctxt "desc/squad/squad_panzergren_armor_con"
 msgid "<c(A5A095)>(2)</c> Elite Panzergrenadier Squad"
 msgstr ""
 
+msgctxt "desc/squad/player_paradrop_ger"
+msgid "Fallschirmjäger Paradrop Squad"
+msgstr ""
+
+msgctxt "desc/squad/player_brandenburger_paradrop_ger"
+msgid "Brandenburger Paradrop Squad"
+msgstr ""
+
+msgctxt "desc/squad/player_paradrop_ger_recon"
+msgid "Recon Fallschirmjäger Paradrop Squad"
+msgstr ""
+
+msgctxt "desc/squad/player_paradrop_ger_late"
+msgid "Late Fallschirmjäger Paradrop Sqaud"
+msgstr ""
+
+msgctxt "desc/squad/player_paradrop_ger_command"
+msgid "Command Fallschirmjäger Paradrop Squad"
+msgstr ""
+
 
