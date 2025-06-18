@@ -7,7 +7,7 @@
 	{tags "soldier"}
 	{nationality ger}
 	{armors
-		{head ger_stalhelm_m39_cloth}
+		{head ger_stalhelm_m43_cover}
 	}
 	{perks
 		(include "ability.inc")

@@ -447,20 +447,16 @@
 			}		
 						;[Tunic]
 			{LODView
-				{VolumeView "../[ger_source]/ger_tunic_pzwrap/ger_panzerwrap_r.ply"}
-				{VolumeView "../[ger_source]/ger_tunic_pzwrap/ger_panzerwrap_r_lod1.ply"}
-				{VolumeView "../[ger_source]/ger_tunic_pzwrap/ger_panzerwrap_r_lod2.ply"}
-				{VolumeView "../[ger_source]/ger_tunic_pzwrap/ger_panzerwrap_r_lod3.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43_lod1.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43_lod2.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_parka_43_lod3.ply"}
 			}
 						;[Epaulettes] - (Base for rank insignia - Take off for Parkas/Smocks aka.Tarnhemds)
-			{LODView
-				{VolumeView "../[ger_source]/ger_tunic_pzwrap/ger_ranks/heer_epaul/ger_epaul_pzwrap_39_lehr_cav_litzen.ply"}
-				{VolumeView "../[ger_source]/ger_epaul.ply"}
-				{VolumeView "../[ger_source]/ger_null.ply"}
-			}
+
 						;[Rank] - (Rank - Contains faction insignia as well)
 			{LODView
-				{VolumeView "../[ger_source]/ger_tunic_pzwrap/ger_ranks/heer_ranks/ger_rank_heer_pzwrap_em_00_schutze.ply"}
+				{VolumeView "../[ger_source]/ger_tunics_parka/ger_ranks/heer_ranks/ger_rank_heer_44_btn_em_00_schutze#winter.ply"}
 				{VolumeView "../[ger_source]/ger_null.ply"}
 			}
 						;[Pants]

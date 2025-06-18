@@ -3334,3 +3334,15 @@ msgstr ""
 msgctxt "desc/human/mp/ger/late/tankman_scout"
 msgid "Tankman [Heer]"
 msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturmzug_sl"
+msgid "Sturmzug Squadleader [Stoormtrooper]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturmzug_sl_asst"
+msgid "Sturmzug Asst. Leader [Stoormtrooper]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturmzug_stg"
+msgid "Sturmzug  [Stoormtrooper]"
+msgstr ""

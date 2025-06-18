@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_hum/ger_uniform/ger_gasmask_lens"}
-	{bump "$/_hum/ger_uniform/ger_gasmask_lens_bp"}
-	{specular "$/_hum/ger_uniform/ger_gasmask_lens_sp"}
-	{color "230 230 230 25"}
-	{blend blend}
-}

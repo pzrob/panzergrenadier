@@ -1103,4 +1103,8 @@ msgctxt "desc/squad/player_paradrop_ger_command"
 msgid "Command Fallschirmjäger Paradrop Squad"
 msgstr ""
 
+msgctxt "desc/squad/squad_sturmzug_con(ger)"
+msgid "<c(A5A095)>(4)</c> Sturmzug Assault squad"
+msgstr ""
+
 
