@@ -476,6 +476,10 @@ msgctxt "desc/entity/blitz3_6_mg"
 msgid "Opel Blitz (MG)"
 msgstr ""
 
+msgctxt "info/special/blitz3_6_mg"
+msgid "<c(c3baae)>Armed Transport</c>"
+msgstr ""
+
 msgctxt "desc/entity/blitz3_6_transport"
 msgid "Opel Blitz (Truck)"
 msgstr ""
@@ -724,12 +728,24 @@ msgctxt "desc/entity/opel_maultier_mg"
 msgid "Opel Maultier (MG)"
 msgstr ""
 
+msgctxt "info/special/opel_maultier_mg"
+msgid "<c(c3baae)>Armed Transport</c>"
+msgstr ""
+
 msgctxt "desc/entity/opel_maultier_transport"
 msgid "Opel Maultier (Transport)"
 msgstr ""
 
+msgctxt "info/special/opel_maultier_transport"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
 msgctxt "desc/entity/opel_maultier_engineering"
 msgid "Opel Maultier (Miner)"
+msgstr ""
+
+msgctxt "info/special/opel_maultier_engineering"
+msgid "<c(c3baae)>Engineering Truck</c>"
 msgstr ""
 
 msgctxt "info/special/opel_maultier"
@@ -1623,3 +1639,12 @@ msgstr ""
 msgctxt "info/special/kfz70"
 msgid "<c(c3baae)>Transport</c>"
 msgstr ""
+
+msgctxt "desc/entity/kfz70_mg"
+msgid "Kfz.70 (MG)"
+msgstr ""
+
+msgctxt "info/special/kfz70"
+msgid "<c(c3baae)>Armed Transport</c>"
+msgstr ""
+

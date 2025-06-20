@@ -318,6 +318,9 @@
 	{"sdkfz10_pak38"
 		{vehicle_view "sdkfz10_pak"}
 	}
+	{"kfz70_mg"
+		{vehicle_view "kfz70"}
+	}	
 	{"sdkfz221"
 		{vehicle_view "sdkfz221"}
 	}
