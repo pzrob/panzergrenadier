@@ -410,7 +410,11 @@
 }
 {"kubelwagen_dak"
 	("vehicle"  side(ger) period(mid) min_stage(4) max_stage(99) cw(1) cp(0) crew(mgun_2:2))
-	{cost 70}	
+	{cost 70}
+}
+{"kfz70"
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
+	{cost 15}	
 }
 {"blitz3_6"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))

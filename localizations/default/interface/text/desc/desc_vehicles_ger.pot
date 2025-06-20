@@ -1616,3 +1616,10 @@ msgctxt "desc/squad/goliath"
 msgid "Goliath"
 msgstr ""
 
+msgctxt "desc/entity/kfz70"
+msgid "Kfz.70 (Transport)"
+msgstr ""
+
+msgctxt "info/special/kfz70"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
