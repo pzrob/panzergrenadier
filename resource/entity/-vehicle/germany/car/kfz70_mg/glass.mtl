@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/_vehicle/ger/kfz70_glass"}
+	{envmap "$/_vehicle/general/envmap_gold01"}
+	{mask "$/_vehicle/ger/kfz70_glass_sp"}
+	{blend blend}
+}
