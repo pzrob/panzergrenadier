@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/ger/kfz70"}
+	{bump "$/_vehicle/ger/kfz70_bp"}
+	{specular "$/_vehicle/ger/kfz70_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}
