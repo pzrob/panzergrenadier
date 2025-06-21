@@ -1797,6 +1797,12 @@
 	("animation_sound" args "close_rear")
 }
 
+{"kfz70_drilling"
+	("Kfz70_sound")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+}
+
 {"kfz70_mg"
 	("Kfz70_sound")
 	("animation_sound" args "open_rear")

@@ -1648,3 +1648,7 @@ msgctxt "info/special/kfz70"
 msgid "<c(c3baae)>Armed Transport</c>"
 msgstr ""
 
+msgctxt "desc/entity/kfz70_drilling"
+msgid "Kfz.70 (Drilling)"
+msgstr ""
+

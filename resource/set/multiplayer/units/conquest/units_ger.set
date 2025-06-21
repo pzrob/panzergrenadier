@@ -414,7 +414,15 @@
 }
 {"kfz70"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
-	{cost 15}	
+	{cost 15}
+}
+{"kfz70_mg"
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:3))
+	{cost 75}
+}
+{"kfz70_drilling"
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(4) crew(artilleryman:4))
+	{cost 215}	
 }
 {"blitz3_6"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
