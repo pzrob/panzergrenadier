@@ -1801,8 +1801,14 @@
 	("Kfz70_sound")
 	("animation_sound" args "open_rear")
 	("animation_sound" args "close_rear")
-}
+	
+	{on "add_weapon_sound" overload
+		("MG151_15_Drilling")
+	}
+	("multi_barrel_loop" flash(flash_gun_hmg_m2hb) smoke(ejectsmoke_big) shell(shell_hmgun) weapon(gun) head(0.081))
 
+	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
+}
 {"kfz70_mg"
 	("Kfz70_sound")
 	("animation_sound" args "open_rear")

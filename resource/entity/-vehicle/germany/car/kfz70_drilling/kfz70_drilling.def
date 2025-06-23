@@ -1,11 +1,13 @@
 {game_entity
 	(include "/properties/car.ext")
-	(include "/properties/selection/vehicle_elongated.inc" scale(1.10))
-	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_medium" "Captor"}
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "multi_board" "truck" "tank" "halftrack" "vision_lev02" "tractor" "turret" "with_gun" "automatic" "tractor_medium" "detect_tank_mg" "open_death_fx_low" "open_top" "Captor"}
 	{able "emit_on_attack"}
 	{extension "kfz70.mdl"}
 	{collider "truck"}
 	{patherId "blitz36"}
+	{targetclass "armoredcar"}
+	{targetSelector "cannon_zenite"}
 
 	{extender "shield" {on}}
 
