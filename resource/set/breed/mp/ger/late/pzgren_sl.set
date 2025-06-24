@@ -12,6 +12,7 @@
 	{perks
 		(include "ability.inc")
 		("smg_skill_rank_2")("tier2_standard")
+		("binocular_vision")
 	}
 	{veterancy
 		(include "ability.inc")
@@ -27,7 +28,7 @@
 		{item "m24_geballteladung grenade" 2}
 
 		{item "bandage_ger" 5}
-		{item "searchlight"}
+		{item "binocular"}
 		
 		{in_hands 0}
 	}

@@ -1648,3 +1648,23 @@ msgctxt "info/special/kfz70"
 msgid "<c(c3baae)>Armed Transport</c>"
 msgstr ""
 
+msgctxt "desc/entity/kfz70_drilling"
+msgid "Kfz.70 (Drilling)"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz250a_7"
+msgid "Sd.Kfz 250/7 (8cm GrW)"
+msgstr ""
+
+msgctxt "info/special/sdkfz250a_7"
+msgid "<c(c3baae)>Light Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_12cm"
+msgid "Sd.Kfz 251 Ausf.D (12cm GrW)"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz250a_5cm"
+msgid "Sd.Kfz 250 (5cm PaK 38)"
+msgstr ""
+

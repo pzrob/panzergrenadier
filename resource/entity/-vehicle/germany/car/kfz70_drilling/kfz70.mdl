@@ -9,9 +9,10 @@
         {Sequence "start" {Speed 0.6}}
         {Sequence "stop" {Speed 0.6}}
         {Sequence "wipers" {Speed 0.4} {Resume}}
-        {Sequence "board"}
-        {Sequence "close_back" {Speed 0.7}}
-        {Sequence "open_back" {Speed 0.7}}
+	{sequence "board" {speed 1}{events {0 "board"}}}
+	{sequence "close_back" {speed 0.7} {events {0 "open_rear"}}}
+	{sequence "open_back" {speed 0.7} {events {0 "close_rear"}}}
+        {sequence "mgun_aa_2" {speed 0.7}{resume}}
         {Sequence "fire00" {Speed 1.5}}
         {Sequence "fire01" {Speed 1.5}}
         {Sequence "fire02" {Speed 1.5}}

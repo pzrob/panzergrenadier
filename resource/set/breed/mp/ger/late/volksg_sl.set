@@ -12,6 +12,7 @@
 	{perks
 		(include "ability.inc")
 		("smg_skill_rank_2")("tier2_defense")
+		("binocular_vision")
 	}
 	{veterancy
 		(include "ability.inc")

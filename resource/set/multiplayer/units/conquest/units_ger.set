@@ -414,7 +414,15 @@
 }
 {"kfz70"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
-	{cost 15}	
+	{cost 15}
+}
+{"kfz70_mg"
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:3))
+	{cost 75}
+}
+{"kfz70_drilling"
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(4) crew(artilleryman:4))
+	{cost 215}	
 }
 {"blitz3_6"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
@@ -447,6 +455,10 @@
 {"sdkfz250a_3"
 	("vehicle"  side(ger) period(mid) min_stage(3) max_stage(99) cw(2) cp(0) crew(recon_rifle:3))
 	{cost 200} {not_for_player_sale 1}
+}	
+{"sdkfz250a_7"
+	("vehicle2"  side(ger) period(mid) min_stage(1) max_stage(99)  cw(2) cp(12) crew1(tankman:1) crew2(artilleryman:2))
+	{cost 260}
 }
 {"sdkfz250a_9"
 	("vehicle"  side(ger) period(mid) min_stage(7) max_stage(99) cw(2) cp(9) crew(artilleryman:3))
@@ -471,6 +483,10 @@
 {"sdkfz251d_1"
 	("vehicle"  side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(4) crew(rifleman_1:2))
 	{cost 90}
+}	
+{"sdkfz251d_12cm"
+	("vehicle2"  side(ger) period(mid) min_stage(1) max_stage(99) cw(2) cp(17) crew1(tankman:1) crew2(artilleryman:3))
+	{cost 550}
 }
 {"sdkfz251d_1_stuka"
 	("vehicle"  side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(51) crew(artilleryman:3))

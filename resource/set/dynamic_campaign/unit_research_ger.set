@@ -198,7 +198,9 @@
 	{"sdkfz251d_22"			requires	"sdkfz251d_21"			costs 4  position 9 42} ;// LIB
 
 	{"kfz13"				requires	""				costs 1  position 0 40}
-	{"kfz14"		requires	"kfz13"	costs 1  position 0 39}		
+	{"kfz14"		requires	"kfz13"	costs 1  position 0 39}
+	{"kfz70_mg"		requires	""						costs 2  position 0 8}
+	{"kfz70_drilling"		requires	"kfz70_mg"		costs 4  position 1 8}
 	{"sdkfz221"				requires	"kfz13"			costs 1  position 1 39}
 	{"sdkfz223"		requires	"sdkfz222a"	costs 1  position 3 38}		
 	{"sdkfz251c_tarp"		requires	"kfz13"			costs 1  position 0 41}

@@ -1,2 +1,0 @@
-# panzergrenadier
-panzergrenadier mod work

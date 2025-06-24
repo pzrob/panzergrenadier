@@ -1,4 +1,4 @@
-This mod is adding new squads, uniforms for Panzergrenadiers and Volksgrenadiers, other small changes
+This mod is adding new squads, uniforms for Panzergrenadiers and Volksgrenadiers, other small changes, Added Paratroopers
 
 Description
 
@@ -8,14 +8,16 @@ The year is 1945 , the Panzergrenadiers and Volksgrenadiers have been equiped wi
 Added:
 
 New uniforms for Panzergrenadiers and Volksgrenadiers
-New uniforms for Panzer Lehr, Lehr late recon and Lehr Sturm units
+New uniforms for Panzer Lehr, Lehr late recon and Lehr sturm units
 New uniforms for Begleitgrenadier and Brandenburgers (mid)
 
 Added Sdkfz mortar carrier with mg in front
 Added Sdkfz7, maultier transporter, maultier miner, maultier, to conquest
 Added sdkfz medic, opel transporter
-Added 4 new squads, 2 for Panzergrenadiers, 2 for Volksgrenadiers.
+Added 7 new squads, 4 for Panzergrenadiers, 3 for Volksgrenadiers.+ 1 Special Commando unit
+Added many new vehicles
 Added new ammo chest mg belt for some of the mg gunners and mg assistants.
+Added Kfz70 Krupp, Kfz70 Mg, Kfz70 Drilling (AA vehicle)
 
 
 Changed the inventory and weapons for many soldiers
@@ -23,6 +25,7 @@ Changed the range and efficienty of Panzerfaust 100 and Panzerschreck weapons
 Changed mortar accuracy and range
 Changed explosives, grenades, at-grenades efficienty ( they are more powerfull and bigger area of explosion)
 Changed resupply area for resupply trucks
+Changed soldiers behaviour in battle
 
 Changed many stuff also , you will discover playing
 
@@ -37,7 +40,11 @@ You can change the colour of painting for vehicles in game ( change paint vehicl
 
 You can call in Air stikes with Brandenburger assistant leader ( they are random , mortar, artillery , smoke)
 
-The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with right mouse button on the ammo box in inventory , the soldier will carry in hand the ammo can, the nearby mg gunners will be resupplyed with ammo
+The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with right mouse button on the ammo box in inventory , the soldier will carry in hand the ammo can, the nearby mg gunners will be resupplyed with ammo.
+
+Paratroopers was added, you need to select the zone where you want to paradrop, wait the plane to arrive to selected zone then deploy the paratroopers, don't wait the plane go to the margine of the map because you need to turn back manually ( 2 paratrooper unit added)
+
+
 
 
 
@@ -45,6 +52,10 @@ The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with
 Credits and Thanks
 
 Thank you for the members of community for the help, I learned werry much from you all
+
+Hawka : thank you for the paratrooper script and all the stuff that I needed for the paratroopers, thanks for the all CEv2 team  https://steamcommunity.com/sharedfiles/filedetails/?id=2899823515&searchtext=cev2
+
+AeonCypher  thank you for the help provided to add the paratroopers
 
 Obsessivecorvid thank you for doing the maultier transporter
 
@@ -68,4 +79,4 @@ Anatoly Dyatlov thank you for help and advices. thank you for letting me use the
 
 
 
-This mod is not promoting racist contest and a try to keep names and symbols in historical order not violating any international laws regarding it, it just show the uniforms and weapons of german ww2 soldiers.
+This mod is not promoting racial context or discriminate people just a try to keep names and symbols in historical order not violating any international laws regarding it, it just show the uniforms and weapons of german ww2 soldiers.
