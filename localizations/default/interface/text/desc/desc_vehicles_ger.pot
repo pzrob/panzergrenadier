@@ -472,6 +472,14 @@ msgctxt "desc/entity/blitz3_6"
 msgid "Opel Blitz (Transport)"
 msgstr ""
 
+msgctxt "desc/entity/blitz3_6m"
+msgid "Opel Blitz (Medical)"
+msgstr ""
+
+msgctxt "info/special/blitz3_6m"
+msgid "<c(c3baae)>Medical Truck</c>"
+msgstr ""
+
 msgctxt "desc/entity/blitz3_6_mg"
 msgid "Opel Blitz (MG)"
 msgstr ""

@@ -1729,6 +1729,14 @@
 	("animation_sound" args "close_rear")
 }
 
+{"blitz3_6m"
+	("opel_sound")
+	("animation_sound" args "open_left")
+	("animation_sound" args "open_right")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+}
+
 {"blitz3_6_flak30"
 	{on "add_weapon_sound" overload
 		("Autocannon_s1")

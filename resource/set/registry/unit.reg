@@ -235,6 +235,9 @@
 	{"blitz3_6"
 		{vehicle_view "car"}
 	}
+	{"blitz3_6m"
+		{vehicle_view "car"}
+	}	
 	{"blitz3_6_art_ammo"
 		{vehicle_view "car"}
 	}
