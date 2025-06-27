@@ -480,6 +480,10 @@
 	("vehicle2" side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(4) crew1(rifleman_1:2) crew2(medic:2))
 	{cost 90}
 }
+{"sdkfz251c_10"
+	("vehicle2"  side(ger) period(mid) min_stage(3) max_stage(8) cw(2) cp(4)  crew1(tankman:1) crew2(artilleryman:2))
+	{cost 260}
+}
 {"sdkfz251d_1"
 	("vehicle"  side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(4) crew(rifleman_1:2))
 	{cost 90}
@@ -512,9 +516,17 @@
 	("vehicle2" side(ger) period(mid) min_stage(3) max_stage(99) cw(2) cp(6) crew1(tankman:3) crew2(tank_commander:1))
 	{cost 230}
 }
+{"sdkfz6_3"
+	("vehicle2"  side(ger) period(mid) min_stage(1) max_stage(99) cw(2) cp(13) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 450}
+}
 {"sdkfz10_4"
 	("vehicle2" side(ger) period(mid) min_stage(3) max_stage(99) cw(2) cp(6) crew1(tankman:3) crew2(tank_commander:1))
 	{cost 260}
+}
+{"sdkfz10_5"
+	("vehicle2" side(ger) period(mid) min_stage(3) max_stage(99) cw(2) cp(6) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 280}
 }
 {"sdkfz6_2"
 	("vehicle2" side(ger) period(mid) min_stage(3) max_stage(99) cw(2) cp(8) crew1(tankman:3) crew2(tank_commander:1))

@@ -1,0 +1,5 @@
+;SDL
+
+	{volume "ammo_box"
+		{thickness 5}
+	}

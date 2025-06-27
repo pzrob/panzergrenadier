@@ -1,0 +1,9 @@
+{game_entity
+	{extension "sdkfz250a_1.mdl"}{rimlight}
+	{volume "wheelleft1"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright1"
+		{able {obstacle 0}}
+	}
+}

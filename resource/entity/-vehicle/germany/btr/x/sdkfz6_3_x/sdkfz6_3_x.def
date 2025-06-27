@@ -1,0 +1,4 @@
+{game_entity
+	{extension "sdkfz6_cargo_x.mdl"} {rimlight}
+	(include "sdkfz6_3.ext")	
+}

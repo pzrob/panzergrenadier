@@ -1606,6 +1606,36 @@
 		{ani_play "mgun_aa" -1.0 resume}
 	}
 }
+{"sdkfz6_3 tank"
+    ("hanomag_sound")
+  
+    {on "add_weapon_sound" overload    
+        ("Cannon_75to76mm")
+        ("Cannon_Breech")        
+    }
+}
+{"sdkfz251c_10 tank"
+	("hanomag_sound")
+
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("Cannon_Breech")
+	}
+
+	{on "event_no_crew" overload}
+	{on "event_with_crew" overload}
+}
+{"sdkfz10_5"
+	("hanomag_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+	}
+	{on fire "gun"
+		{view start "flashbarrel1"}
+		{view start "flashbarrel1smoke"}
+		{call "spawn_shell"}
+	}
+}
 
 ;/*=========== German Vehicles End ===========*/
 

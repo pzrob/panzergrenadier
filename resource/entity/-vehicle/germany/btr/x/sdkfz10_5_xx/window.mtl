@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/_vehicle/sdkfz104"}
+	{envmap "$/_vehicle/envmap_gold01"}
+	{mask "$/_vehicle/sdkfz104_sp"}
+	{blend blend}
+}

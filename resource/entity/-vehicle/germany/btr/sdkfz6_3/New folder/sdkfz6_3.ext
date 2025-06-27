@@ -1,0 +1,52 @@
+;SDL
+
+	("armoredcar_tier2")
+	
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+
+	("glass" args "glass1")
+	("glass" args "glass2")
+	
+	("fuel" args "fuel1")
+	("transmission" args "transmission")
+	
+	("ammo" args "ammo")
+	
+	("gun" repair(30) thickness(25))
+	("turret" repair(45))
+	("bodyback" repair(30))
+	
+	("shield" args "shield1" 8)
+	("shield" args "shield2" 8)
+	
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	{component "shieldfl" {tags "cut_part"}}
+	{component "shieldfr" {tags "cut_part"}}	
+	
+	{volume "turret"
+		{thickness 8}
+	}		
+	
+	{volume "ammo_box"
+		{thickness 5}
+	}	
+	
+	{volume "body_f22"
+		{thickness 8}
+	}
+	
+	{volume "armor1"
+		{thickness 8}
+	}
+	{volume "armor2"
+		{thickness 8}
+	}
+	{volume "armor3"
+		{thickness 8}
+	}
+	{volume "armor4"
+		{thickness 8}
+	}		

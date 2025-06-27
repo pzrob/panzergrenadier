@@ -1,0 +1,8 @@
+;SDL
+
+	{volume "wheelleft1"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright1"
+		{able {obstacle 0}}
+	}

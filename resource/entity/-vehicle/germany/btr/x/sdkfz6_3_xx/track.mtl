@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "track_sdkfz7"}
+	{bump "track_sdkfz7"}
+	{specular "track_sdkfz7"}
+	{color "230 230 230 132"}
+	{blend none}
+}

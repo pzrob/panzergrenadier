@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/sdkfz6_2_seats"}
+	{bump "$/_vehicle/sdkfz6_2_seats_bp"}
+	{specular "$/_vehicle/sdkfz6_2_seats_sp"}
+	{color "230 230 230 30"}
+	{blend none}
+}
