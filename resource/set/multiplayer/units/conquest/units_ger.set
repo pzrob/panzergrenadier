@@ -693,6 +693,7 @@
 	{cost 800}
 }
 
+
 ;MEDIUM
 {"panzer35s"
 	("vehicle2" side(ger) period(mid) min_stage(4) max_stage(7) cw(6) cp(27) crew1(tankman:2) crew2(tank_commander:1))
@@ -826,6 +827,10 @@
 {"hetzer"
 	("vehicle2" side(ger) period(mid) min_stage(8) max_stage(99) cw(4) cp(31) crew1(tankman_stug:3) crew2(tank_commander_stug:1))
 	{cost 550}
+}
+{"flakpanzer1"
+	("vehicle2" side(ger)  period(mid) min_stage(1) max_stage(99) cw(2) cp(8) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 200}	
 }
 {"grille_m"
 	("vehicle2" side(ger) period(mid) min_stage(11) max_stage(99) cw(4) cp(17) crew1(tankman_stug:2) crew2(tank_commander_stug:1))

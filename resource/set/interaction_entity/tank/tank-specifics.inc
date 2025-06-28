@@ -16,6 +16,16 @@
 		{ani_wind "binocular" begin}
 	}
 }
+{"flakpanzer1 tank"
+	("pz1_sound")
+	
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		("MG34")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+		{link_sound "action_recoil"		"weapon/shot/smallarms/s3/recoil/GER/MG42/"}
+	}	
+}
 {"sdkfz221 tank"
 	("sdkfz222_sound")
 }

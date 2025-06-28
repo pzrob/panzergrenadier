@@ -18,13 +18,17 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mp38_folded" filled}
-		{item "mp40 ammo" 64}
+		{item "stg44" filled}
+		{item "stg44 ammo" 180}  
 
 		{item "p38" filled}
-		{item "pistol ammo" 24 8}
+		{item "pistol ammo" 100}
+		
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 1}
+		{item "pwm_l grenade" 2}
 
-		{item "bandage_ger" 2.5 0.5}
+		{item "bandage_ger" 5}
 
 		{in_hands 0}
 	}
