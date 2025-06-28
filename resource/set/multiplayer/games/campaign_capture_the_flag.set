@@ -1,0 +1,92 @@
+(define "bot_state"
+	{unitset
+		{value "conquest"}
+		{available "all infantry sniper armor light medium heavy artillery airborne mechanized"}
+	}
+	{unitLimits ""}
+	{chargeFactors
+		{value "*=0"}
+		{customize "0;0.5;1.0;1.5;2.0;2.5;5.0;10.0"}
+	}
+	{budgets
+		{vehicle
+			{mode "standard"}
+			{resource
+				{start		%mpStart}
+				{finish		%mpFinish}
+				{growTime	1} ;// in seconds
+				{growTable	"1"} ;// each entry divides divides grow time: # of entries = growtime / #		
+				{payback
+					{cp			"0		10		20		30		40		51"}
+					{restore	"0		0		0		0		0		0"}
+				}
+			}
+			{buttons "inf1 inf2 empl vehicles tanks"}
+		}
+	}
+	{balancingFactorBonus {cp %cp} {mpStart 1.0} {mpFinish 1.0} {payback %payback}} ;// overridden in dynamic campaign difficulty files
+)
+
+{game
+	{order -1}
+	{parameters	"points_table_player=0/0.000,0.33/0.277,0.50/0.333,0.66/0.416,1.00/0.555;points_table_ai=0/0.000,0.33/0.277,0.50/0.333,0.66/0.416,1.00/0.555;flag_capture_time=75;flag_release_time=25;flag_capture_factor=0.9"}
+	;for score of 1000:
+	;60 min 	= 0.277
+	;50 min 	= 0.333
+	;40 min 	= 0.416
+	;30 min 	= 0.555
+	{settings
+		{difficulty				multiplayer}
+		{scoreFinal				1400}
+		{preparationTime		0}	; seconds
+		{impregnableTimeout		10}	; seconds
+		{floraRespawn			0}
+		{friendlyFire			1}
+		{showPiercing			1}
+		{showDamageReports		1}
+		{enableBots				1}
+		{randomSpawnPoints		1}
+		{useManualCharge		none}
+	}
+	{teamSettings
+		{teamsMode normal}
+		{armySelectionMode alliance}
+		{teams
+			{"a"}
+			{"b"}
+		}
+		{alliances
+			(include "presets/alliances_generic.inc")
+		}
+	}
+	{ranked
+		{enabled}
+	}
+	{presets
+		{"d:campaign"
+			{gameMode "campaign"}
+			{unitMode "all"}
+			{ranked}
+			{common
+				{unitset
+					{value "conquest"}
+					{available "all infantry sniper armor light medium heavy artillery airborne mechanized"}
+				}
+			}
+			{bots
+				{easy
+					("bot_state" cp(1.00) mpStart(1) mpFinish(1) payback(0.0))
+				}
+				{normal
+					("bot_state" cp(1.00) mpStart(1) mpFinish(1) payback(0.0))
+				}
+				{hard
+					("bot_state" cp(1.00) mpStart(1) mpFinish(1) payback(0.0))
+				}
+				{heroic
+					("bot_state" cp(1.00) mpStart(1) mpFinish(1) payback(0.0))
+				}
+			}
+		}
+	}
+}
