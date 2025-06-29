@@ -1,0 +1,95 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "halftrack" "wheeled" "automatic" "muzzle_37mm_40mm_auto" "detect_cannon_aa" "c_aa_med" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "open_death_fx_low"}
+	{able "emit_passangers_on_enemy"}
+	{extension "sdkfz251d_1.mdl"}
+	(include "sdkfz251d_1.ext")
+	{patherId "sdkfz251"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_bullet"}
+	
+	{extender "enumerator"
+		{digit_folder "np"}
+	}
+	
+	
+
+	{boarder
+		{anm "driver"
+			{forward {begin "halftrack_driver_board"} {end "halftrack_driver_board_seat"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "gunner"
+			{forward {begin "board_sd232_driver"} {end "pose_mgun_251"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}
+		{anm "charger"
+			{forward {begin "board_sd232_driver"} {end "pose_mgun_251"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}		
+		{anm "commander"
+			{forward {begin "board_sd232_driver"} {end "pose_mgun_251"} {base "board"}}
+			{reverse {end "emit_sd222_driver"} {base "board"}}
+		}		
+	}
+
+	("crew" place(driver)		bone(driver)	door(emit1)		animation(driver)		visor(driver)	off({sensor}))
+	("crew" place(gunner)		bone(gunner)	door(emit2)		animation(gunner)		visor(none)		off())
+	("crew" place(charger)		bone(charger)	door(emit2)		animation(charger)		visor(none)		off())	
+	("crew" place(commander)		bone(commander)	door(emit2)		animation(commander)		visor(none)		off())	
+
+	{sensor
+		{visor "human"
+			{vision "none"}
+		}
+		{visor "around"
+			{vision "none"}
+		}
+	}
+
+	{extender "inventory"
+		{Box
+			{item "bulletger_37_auto ap" 96}		; 50 magazines (6 rounds each)	33/66 AP/HE
+			{item "bulletger_37_auto he" 192}		
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "37mm_flak37" filling "bulletger_37_auto he" 12}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_aaa"
+				zeroing(1.95)
+				dispersion(0.24)
+			)
+		}	
+	}
+
+	{mass 7810}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.49) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(53) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(9) ;---------------------------------Max speed in Reverse.
+			weight(7.81) ;--------------------------------Weight in Tonnes.
+			power(100) ;---------------------------------Horse Power.
+			fuel(160) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(150) ;---------------------------------Range in Kilometers.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 85}
+		{speed2 50}
+	}
+	{bone "turret"
+		{limits -30 30}	
+		{speed2 50}
+	}
+}
