@@ -11,11 +11,11 @@
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_2")("tier2_defense")
+		("rifle_skill_rank_4")("tier4_defense")
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_2")
 	}
 	{inventory
 		{item "g43_marksman" filling "rifle_ger gewehr ammo" 10}

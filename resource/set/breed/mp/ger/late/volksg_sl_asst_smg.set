@@ -11,11 +11,11 @@
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_2")("tier2_defense")
+		("smg_skill_rank_3")("tier3_defense")
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "mp40_unfolded" filled}

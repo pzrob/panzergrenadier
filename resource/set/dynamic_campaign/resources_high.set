@@ -35,17 +35,17 @@
 	{ScavengedVehicleSellFactor 0.7}		;// captured enemy vehicle 
 	{RiskFactor
 		{Low
-			{BotResources 1.0}
+			{BotResources 1.1}
 			{BotVeterancy 0}
 			{Rewards 1.0}
 		}
 		{Standard
-			{BotResources 1.0}
+			{BotResources 1.2}
 			{BotVeterancy 1}
 			{Rewards 1.25}
 		}
 		{High
-			{BotResources 1.0}
+			{BotResources 1.2}
 			{BotVeterancy 2}
 			{Rewards 1.5}
 		}

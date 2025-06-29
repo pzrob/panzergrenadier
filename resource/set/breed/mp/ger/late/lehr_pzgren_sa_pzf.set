@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_ver4_43_pz_lehr_g43_1"}
+	{skin "ger_heer_ver5_43_pz_aufklar_nco_g43"}
 	{portrait "ger_pzlehr"}
 	{icon "autorifle"}
 	{icon_priority 0}

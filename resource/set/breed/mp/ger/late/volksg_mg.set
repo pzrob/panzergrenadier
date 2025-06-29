@@ -12,11 +12,11 @@
 	}
 	{perks
 		(include "ability.inc")
-		("mg_skill_rank_2")("tier2_defense")
+		("mg_skill_rank_3")("tier3_defense")
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "mg34_doubledrum" filling "mgun_ger doubledrum ammo" 75}

@@ -11,12 +11,12 @@
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_2")("tier2_defense")
+		("rifle_skill_rank_3")("tier3_defense")
 		("at_rank_3")
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "panzershreck_54 weapon" filled}

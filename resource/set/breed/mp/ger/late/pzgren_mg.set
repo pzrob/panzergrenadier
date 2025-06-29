@@ -12,11 +12,11 @@
 	}
 	{perks
 		(include "ability.inc")
-		("mg_skill_rank_2")("tier2_standard")
+		("mg_skill_rank_4")("tier4_standard")
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "mg42_belt" filling "mgun_ger belt ap ammo" 100}
