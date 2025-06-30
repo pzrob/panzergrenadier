@@ -184,12 +184,15 @@
 	{"sdkfz10"				requires	""						costs 1  position 0 30}
 	{"sdkfz7"				requires	"sdkfz10"				costs 1  position 1 29}
 	{"sdkfz10_4"			requires	"sdkfz10 20mm_flak30"	costs 0  position 0 28}
+	{"sdkfz10_5"			requires	"20mm_flak38"	        costs 1  position 2 26}
 	{"sdkfz10_pak38"		requires	"sdkfz10 50mm_pak38"	costs 0  position 4 30}
 	{"sdkfz6_2"				requires	"37mm_flak37 sdkfz10_4"	costs 1  position 2 28}
+	{"sdkfz6_3"				requires	"37mm_pak36"	        costs 2  position 0 32}
 	{"sdkfz7_1"				requires	"20mm_flakvierling38"	costs 1  position 4 26} ;//AIR
 	{"sdkfz7_2"				requires	"sdkfz6_2"				costs 2  position 3 29} ;//SE, LIB
 	{"sdkfz8_flak18"		requires	"88mm_flak18 sdkfz6_2"	costs 2  position 7 28}
 	{"sdkfz251c"			requires	"kfz13" 				costs 1  position 1 41}
+	{"sdkfz251c_10"			requires	"47mm_pakt"				costs 1  position 2 30}
 	{"sdkfz251c_2"			requires	"sdkfz251c"				costs 2  position 2 41}
 	{"sdkfz251d_12cm"		requires	"sdkfz251c_2"			costs 2  position 3 41}
 	{"sdkfz251d_1"			requires	"sdkfz251c"				costs 1  position 2 42}
@@ -243,6 +246,7 @@
 	{"pz38t_a"				requires	"pz35t"			costs 1  position 0 50}
 	{"pz38t_f"				requires	"pz38t_a"		costs 1  position 1 50}
 	{"pz38t_g"				requires	"pz38t_f"		costs 1  position 2 50}
+	{"flakpanzer1"			requires	""		        costs 2  position 0 48}
 	{"marder3m"				requires	"pz38t_g"		costs 2  position 3 50}
 	{"grille_m"				requires	"marder3m"		costs 2  position 3 49}
 	{"grille_k"				requires	"marder3m"		costs 2  position 4 49} ;//SE
