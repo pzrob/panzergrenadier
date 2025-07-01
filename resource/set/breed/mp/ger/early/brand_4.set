@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_brand_rfl_1"}
+	{skin "ger_heer_brand_mg_asst"}
 	{portrait "ger_brandenburger"}
 	{icon "autorifle"}
 	{icon_priority 0}
@@ -20,16 +20,15 @@
 	}
 	{inventory
 		{item "k98" filled}
-		{item "rifle_ger clip ammo" 60 5}
+		{item "rifle_ger clip ammo" 100 5}
 
-		{item "m24 grenade" 2.25 0.5}
-		{item "m24_smoke grenade" 1.25 0.5}
-		{item "dynamite_ger_x3" 0.5 0.5}
-		{item "m24_geballteladung grenade" 1.15 0.5}
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 1}
+		{item "dynamite_ger_x3" 1}
+		{item "m24_geballteladung grenade" 1}
 
 		{item "mgun_ger belt ammo" 600}
-		{item "bandage_ger" 5.5 0.5}
-		{item "shovel_ger"}
+		{item "bandage_ger" 5}
 		{item "knife_ger"}
 
 		{in_hands 0}

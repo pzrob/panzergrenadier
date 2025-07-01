@@ -28,6 +28,7 @@ Changed resupply area for resupply trucks
 Changed soldiers behaviour in battle
 
 Changed many stuff also , you will discover playing
+New German Portraits in game
 
 
 You can build and upgrade new fortifications ( fixed emplacements)
@@ -74,6 +75,8 @@ Georider thank you for the help with doing new skins https://steamcommunity.com/
 Imperator Aug thank you for help and advices
 
 Anatoly Dyatlov thank you for help and advices. thank you for letting me use the SS texture from which I created uniforms https://steamcommunity.com/sharedfiles/filedetails/?id=2524397438&searchtext=whubu
+
+IntendToEndYou  Thank you for letting using you mod new german portraits    https://steamcommunity.com/sharedfiles/filedetails/?id=3436135180&searchtext=new+portait
 
 
 

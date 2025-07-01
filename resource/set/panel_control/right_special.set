@@ -21,11 +21,19 @@
 		{position 0 0}
 		{condition "hatch disabled"}
 	}
+	{gc_cp_state_auto_medic
+		{position 0 0}
+		{condition "medic"}
+	}
 
 ;// second button
 	{examine
 		{position 1 0}
 		{condition "vehicle disabled"}
+	}
+	{auto_medic_place_flag
+		{position 1 0}
+		{condition "medic"}
 	}
 
 ;// third button
