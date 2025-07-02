@@ -396,6 +396,10 @@
 	("vehicle2" side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_2:1) crew2(mgun_2:1))
 	{cost 60}
 }
+{"schwimmwagen"
+	("vehicle"  side(ger) period(mid) min_stage(4) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
+	{cost 15}	
+}
 {"kfz15"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(4) cw(1) cp(0) crew(mgun_2:2))
 	{cost 70}

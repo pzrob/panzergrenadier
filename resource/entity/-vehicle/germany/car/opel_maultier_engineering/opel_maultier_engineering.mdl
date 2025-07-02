@@ -8,10 +8,10 @@
     {Animation
         {Sequence "start" {Speed 0.6}}
         {Sequence "stop" {Speed 0.6}}
-		{sequence "open_back" {speed 0.6} {events {0 "open_rear"}}}
+	{sequence "open_back" {speed 0.6} {events {0 "open_rear"}}}
         {Sequence "doorleft" {Speed 0.5}}
         {Sequence "doorright" {Speed 0.5}}
-		{sequence "board" {speed 1} {events {0 "board"}}}	
+	{sequence "board" {speed 1} {events {0 "board"}}}	
     }
     {Bone "basis"
         {Parameters "steermax=28;wheelradius=0.43;"}
