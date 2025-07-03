@@ -64,7 +64,7 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{box
-		    {item "sandbag_vehicle" 1}
+		        {item "sandbag_vehicle" 1}
 			{item "mg34_belt_long" filling "ammo mgun_ger belt ap" 300 {user "mgun"}}
 			{item "ammo mgun_ger belt ap" 1100}
 		}

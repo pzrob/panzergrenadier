@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/car.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.10))
-	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_medium" "Captor"}
+	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_medium" "Captor" "emplacement_kfz13_trench" "gun_shield"}
 	{able "emit_on_attack"}
 	{extension "kfz70.mdl"}
 	{collider "truck"}
@@ -100,6 +100,7 @@
 
 	{extender "inventory"
 		{box
+                        {item "sandbag_vehicle" 1}
 			{item "mg34_doubledrum" filling "mgun_ger doubledrum ap ammo" 75 {user "mgun"}}
 			{item "mgun_ger doubledrum ap ammo" 2010}  ; same as sdkfz 221				
 		}

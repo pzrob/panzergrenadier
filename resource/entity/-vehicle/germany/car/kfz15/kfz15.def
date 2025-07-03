@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/car.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.0))
-	{props "vision_lev01" "tractor" "tractor_heavy" "explosion_throw_crew"}
+	{props "vision_lev01" "tractor" "tractor_heavy" "explosion_throw_crew" "emplacement_kfz13_trench"}
 	{able "emit_passengers_on_enemy"}
 	{extension "kfz15.mdl"}
 	{PatherId "kfz15"}
@@ -74,6 +74,7 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{Box
+                        {item "sandbag_vehicle" 1}
 			{item "ammo mgun_ger drum" 1100}				; 24 drums (50 rounds each)
 			{item "mg34_drum" filling "ammo mgun_ger drum" 50 {user "mgun"}}
 		}

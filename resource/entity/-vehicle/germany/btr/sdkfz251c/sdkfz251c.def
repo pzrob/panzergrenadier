@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.0))
-	{props "tank" "halftrack" "wheeled" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low"}
+	{props "tank" "halftrack" "wheeled" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low" "emplacement_kfz13_trench"}
 	{able "-emit_passengers_on_enemy" "-emit_passangers_on_enemy" "emit_on_attack"}
 	{extension "sdkfz251c.mdl"}
 	(include "sdkfz251c.ext")
@@ -89,6 +89,7 @@
 		{weapon "mgun" {mask "mountable"}}
 		{weapon "mgun2" {mask "mountable"}}
 		{Box
+                        {item "sandbag_vehicle" 1}
 			{item "mg34_belt_long" filling "ammo mgun_ger belt ap" 300 {user "mgun"}}
 			{item "mg34_drum" filling "ammo mgun_ger belt ap" 50 {user "mgun2"}} ;// doesn't work if same mg34_belt weapon is in both MG places
 			{item "ammo mgun_ger belt ap" 2010}

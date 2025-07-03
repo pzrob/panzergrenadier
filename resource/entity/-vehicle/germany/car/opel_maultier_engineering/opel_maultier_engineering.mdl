@@ -6,12 +6,13 @@
 ;Last build date: Thursday 21 May 2025 [23:11:27]
 {Skeleton
     {Animation
-        {Sequence "start" {Speed 0.6}}
-        {Sequence "stop" {Speed 0.6}}
-	{sequence "open_back" {speed 0.6} {events {0 "open_rear"}}}
-        {Sequence "doorleft" {Speed 0.5}}
-        {Sequence "doorright" {Speed 0.5}}
-	{sequence "board" {speed 1} {events {0 "board"}}}	
+		{sequence "start" {speed 0.6}}
+		{sequence "stop" {speed 0.6}}
+		{sequence "close_back" {speed 0.6} {events {0 "close_rear"}}}
+		{sequence "open_back" {speed 0.6} {events {0 "open_rear"}}}
+		{sequence "doorleft" {speed 0.5} {events {0 "open_left"}}}
+		{sequence "doorright" {speed 0.5} {events {0 "open_right"}}}
+		{sequence "board" {speed 1} {events {0 "board"}}}	
     }
     {Bone "basis"
         {Parameters "steermax=28;wheelradius=0.43;"}

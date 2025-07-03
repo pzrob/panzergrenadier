@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc" scale(0.8))
-	{props "tank" "wheeled" "vision_lev01" "explosion_throw_crew" "tractor" "tractor_heavy" "detect_tank_mg"}
+	{props "tank" "wheeled" "vision_lev01" "explosion_throw_crew" "tractor" "tractor_heavy" "detect_tank_mg" "emplacement_kfz13_trench"}
 	{extension "kfz13.mdl"}
 	{extension "crew.ext"}
 	(include "kfz13.ext")
@@ -20,6 +20,7 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{Box
+                        {item "sandbag_vehicle" 1}
 			{item "ammo mgun_ger belt ap" 1000}				; 4 belts (250 rounds each)
 			{item "mg34_belt" filling "ammo mgun_ger belt ap" 100 {user "mgun"}}
 		}

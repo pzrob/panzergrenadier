@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/halftrack.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "truck" "vision_lev02" "tractor" "tractor_heavy" "explosion_throw_crew" "Captor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low"}
+	{props "truck" "vision_lev02" "tractor" "tractor_heavy" "explosion_throw_crew" "Captor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low" "emplacement_halftrack_trench_tall"}
 	{able "emit_passangers_on_enemy" "emit_on_attack"}
 	{extension "sdkfz7.mdl"}
 	{extension "crew.ext"}
@@ -31,6 +31,7 @@
 
 	{extender "inventory"
 		{Box
+                        {item "sandbag_vehicle" 1}
 		}
 	}
 

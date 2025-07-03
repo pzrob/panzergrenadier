@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc" scale(0.8))
-	{props "tank" "wheeled" "vision_lev01" "explosion_throw_crew" "detect_tank_mg" "command_vehicle"}
+	{props "tank" "wheeled" "vision_lev01" "explosion_throw_crew" "detect_tank_mg"}
 	{extension "kfz14.mdl"}
 	{extension "crew.ext"}
 	(include "kfz14.ext")

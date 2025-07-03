@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.0))
-	{props "tank" "halftrack" "wheeled" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low"}
+	{props "tank" "halftrack" "wheeled" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low" "emplacement_kfz13_trench"}
 	{able "emit_passengers_on_enemy"}
 	{extension "sdkfz250a_3.mdl"}
 	(include "sdkfz250a_3.ext")
@@ -64,6 +64,7 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{Box
+                        {item "sandbag_vehicle" 1}
 			{item "mg34_belt_long" filling "ammo mgun_ger belt ap" 300 {user "mgun"}}
 			{item "ammo mgun_ger belt ap" 1100}
 		}

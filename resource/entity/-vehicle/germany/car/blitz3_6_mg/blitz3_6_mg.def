@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
-	{props "multi_board" "truck" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "Captor"}
+	{props "multi_board" "truck" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "Captor" "emplacement_halftrack_trench_low" "gun_shield"}
 	{able "emit_on_attack"}
 	{extension "blitz3_6_mg.mdl"}
 	{collider "truck"}
@@ -94,10 +94,11 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}	
 		{box
-            {item "panzershreck_54 weapon" 1}
-            {item "panzershreck ammo" 6}
-            {item "panzerfaust_100 weapon" 5 filled}
-            {item "hafthohlladung grenade" 4}
+                        {item "sandbag_vehicle" 1}
+                        {item "panzershreck_54 weapon" 1}
+                        {item "panzershreck ammo" 6}
+                        {item "panzerfaust_100 weapon" 5 filled}
+                        {item "hafthohlladung grenade" 4}
 			{item "mg34_doubledrum" filling "mgun_ger doubledrum ap ammo" 75 {user "mgun"}}
 			{item "mgun_ger doubledrum ap ammo" 2010}  ; same as sdkfz 221			
 		}

@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
-	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_heavy" "captor"}
+	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_heavy" "captor" "emplacement_halftrack_trench_low"}
 	{able "emit_on_attack"}
 	{extension "opel_maultier_mg.mdl"}
 	{collider "truck"}
@@ -88,10 +88,11 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}	
 		{box
-            {item "panzershreck_54 weapon" 1}
-            {item "panzershreck ammo" 5}
-            {item "panzerfaust_100 weapon" 8 filled}
-            {item "hafthohlladung grenade" 5}
+                        {item "sandbag_vehicle" 1}
+                        {item "panzershreck_54 weapon" 1}
+                        {item "panzershreck ammo" 5}
+                        {item "panzerfaust_100 weapon" 8 filled}
+                        {item "hafthohlladung grenade" 5}
 			{item "mg42_belt_long" filled {user "mgun"}}
 			{item "ammo mgun_ger belt" 1000}
 		}

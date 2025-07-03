@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/car.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.0))
-	{props "multi_board" "truck" "tank" "halftrack" "vision_lev02" "tractor" "turret" "with_gun" "automatic" "tractor_medium" "detect_tank_mg" "open_death_fx_low" "open_top" "Captor"}
+	{props "multi_board" "truck" "tank" "halftrack" "vision_lev02" "tractor" "turret" "with_gun" "automatic" "tractor_medium" "detect_tank_mg" "open_death_fx_low" "open_top" "Captor" "emplacement_kfz13_trench" "gun_shield"}
 	{able "emit_on_attack"}
 	{extension "kfz70.mdl"}
 	{collider "truck"}
@@ -89,6 +89,7 @@
 
 	{extender "inventory"
 		{box
+                        {item "sandbag_vehicle" 1}
 			{item "bulletger_15_auto he" 2225}
 			{item "bulletger_15_auto ap" 325}			
 		}
