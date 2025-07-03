@@ -455,6 +455,7 @@
 {"mp/ger/late/brand_6"						("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(23.0))} ; g43 + pzfaust 60
 
 {"mp/ger/late/sturmzug_sl"						("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(18.0))} ; stg44
-{"mp/ger/late/sturmzug_sl_asst"						("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(40.0))} ; stg44 + pzschreck
+{"mp/ger/late/sturmzug_sl_asst"						("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(20.0))} ; stg44
 {"mp/ger/late/sturmzug_stg"						("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(33.0))} ; stg44 + pzfaust 100
+{"mp/ger/late/sturmzug_at"						("inf_tier4" side(ger) lvl(lvl3 lvl4) r(9) rm(99) cost(40.0))} ; stg44 + pzschreck
 
