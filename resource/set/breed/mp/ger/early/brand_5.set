@@ -22,13 +22,13 @@
 		{item "mp38_unfolded" filled}
 		{item "mp40 ammo" 300}
 
-		{item "m24 grenade" 2}
-		{item "m24_smoke grenade" 2}
+        {item "panzerfaust_100 weapon" 2 filled}
+		{item "m24 grenade" 1}
+		{item "m24_smoke grenade" 1}
 		{item "m24_geballteladung grenade" 1}
 		{item "dynamite_ger_x3" 1}
 
 		{item "bandage_ger" 5}
-		{item "shovel_ger"}
 		{item "knife_ger"}
 
 		{in_hands 0}

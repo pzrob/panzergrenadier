@@ -24,8 +24,8 @@
 
 		{item "m24 grenade" 2}
 		{item "m24_smoke grenade" 2}
-		{item "m24_geballteladung grenade" 1}
 		{item "dynamite_ger_x3" 1}
+		{item "panzerfaust_100 weapon" 1 filled}
 
 		{item "bandage_ger" 5}
 		{item "shovel_ger"}

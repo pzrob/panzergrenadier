@@ -100,7 +100,7 @@
 	("squad_vehicle6"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(sdkfz251c_2) crew1(pzgren_rifle:5) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_stg:3) crew5(pzgren_mg:2) crew6(pzgren_mg_asst:2))	
 }	
 {"squad_panzergren_armor_con"
-	("squad_vehicle7"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(sdkfz7) crew1(pzgren_rifle:1) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_sa:2) crew5(pzgren_rifle_pzf2:2) crew6(pzgren_stg:3) crew7(pzgren_at:1)) 
+	("squad_vehicle7"		 side(ger) period(mid) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(sdkfz7) crew1(pzgren_rifle:1) crew2(pzgren_sl:1) crew3(pzgren_sl_asst:1) crew4(pzgren_sa:2) crew5(pzgren_rifle_pzf2:2) crew6(pzgren_stg:3) crew7(pzgren_at:1)) 
 }
 {"squad_sturm_pzgren_armor_con"
 	("squad_vehicle5"		 side(ger) period(late) min_stage(11) max_stage(99) cw(1) cp(5) vehicle(sdkfz251d_1) crew1(pzgren_rifle:2) crew2(pzgren_sturm_sl:1) crew3(pzgren_sturm_sl_asst:1) crew4(pzgren_sturm_pzf:4) crew5(pzgren_sturm_stg:4))
@@ -398,7 +398,7 @@
 }
 {"schwimmwagen"
 	("vehicle"  side(ger) period(mid) min_stage(4) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
-	{cost 15}	
+	{cost 15}
 }
 {"kfz15"
 	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(4) cw(1) cp(0) crew(mgun_2:2))

@@ -1137,6 +1137,42 @@ msgctxt "desc/human/mp/ger/late/pzgren_stg"
 msgid "Panzergrenadier [Heer]"
 msgstr ""
 
+msgctxt "desc/human/mp/ger/mid/pzgren_at"
+msgid "Panzergrenadier AT inf. [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_mg"
+msgid "Panzergrenadier MG Operator [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_mg_asst"
+msgid "Panzergrenadier MG Asst. [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_rifle"
+msgid "Panzergrenadier [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_rifle_pzf2"
+msgid "Panzergrenadier [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_rifle_pzf"
+msgid "Panzergrenadier [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_sa"
+msgid "Panzergrenadier [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_sl"
+msgid "Panzergrenadier Squadleader [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pzgren_sl_asst"
+msgid "Panzergrenadier Asst. Leader [Heer]"
+msgstr ""
+
 msgctxt "desc/human/mp/ger/mid/pzgren_stg"
 msgid "Panzergrenadier [Heer]"
 msgstr ""
