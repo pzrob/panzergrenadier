@@ -16,7 +16,7 @@
 	("wheel" args "wheelright2")
 	("glass" args "glass")
 	("fuel" args "fuel")
-	("car_thickness" body(51.5) engine(51.5))
+	("car_thickness" body(1.5) engine(1.5))
 
 	{volume "wheelspare"
 		{thickness 0.5}

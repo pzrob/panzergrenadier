@@ -20,6 +20,7 @@ Added many new vehicles
 
 Added new ammo chest mg belt for some of the mg gunners and mg assistants.
 Added Kfz70 Krupp, Kfz70 Mg, Kfz70 Drilling (AA vehicle)
+New German Portraits (in game)
 
 
 Changed the inventory and weapons for many soldiers
@@ -47,7 +48,7 @@ The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with
 
 Paratroopers was added, you need to select the zone where you want to paradrop, wait the plane to arrive to selected zone then deploy the paratroopers, don't wait the plane go to the margine of the map because you need to turn back manually ( 2 paratrooper unit added)
 
-Added German Player Bomber to Conquest, first need to learn how to control the plane. W-go down, S-go upp, A,D-go left,right.Press Q to land the plane, need to be flat zone and no obstacles.
+Added German Player Bomber to Conquest, first need to learn how to control the plane. W-go down, S-go upp, A,D-go left,right.Press Q just once to land the plane, need to be flat zone and no obstacles.
 
 
 

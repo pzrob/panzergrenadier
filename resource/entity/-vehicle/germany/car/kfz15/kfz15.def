@@ -18,7 +18,7 @@
 	("glass" args "window1")
 	("glass" args "window2")
 	("fuel" args "fuel")
-        ("car_thickness" body(51.5) engine(51.5))
+        ("car_thickness" body(2.5) engine(1.5))
 	("transmission" args "transmission")
 
 	{volume "wheelspare1"

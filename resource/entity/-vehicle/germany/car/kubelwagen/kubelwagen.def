@@ -17,7 +17,7 @@
 	("wheel" args "wheelright2")
 	("glass" args "glass")
 	("fuel" args "fuel")
-	("car_thickness" body(31.5) engine(31.5))
+	("car_thickness" body(1.5) engine(1.5))
 
 	("shield_cover")
 

@@ -7,7 +7,6 @@
 	{tags "soldier"}
 	{nationality ger}
 	{armors
-	    {body ger_mgun_ammo}
 		{head ger_stalhelm_m43_camo3_wire}
 	}
 	{perks
@@ -31,6 +30,7 @@
 
 		{item "bandage_ger" 4}
 		{item "shovel_ger"}
+		{item "ger_mgun_ammo"}
 
 		{in_hands 0}
 	}

@@ -1,11 +1,11 @@
 {item
-	{tag "smallitemin1hand armor"}
-	{entity "mgun_ammo_belt"}
+	{tag "itemin1hand"}
+	{mass 3.0}
 	{inventory
-                {link_bone "IK_UpDown"}
-		{size 1 2}
-		{weight 100}
+ 		{link_bone "IK_UpDown"}
 		{fsm "stuff"}
+		{size 1 3}
+		{weight 10}
 	}
-	{mass 3}
+	{entity "mgun_ammo_belt"}
 }
