@@ -105,6 +105,7 @@
 	{"squad_sturmzug_con(ger)"         requires	"squad_brandenburger_44_con(ger)"		costs 6  position 6 14}
 	{"player_paradrop_ger"              requires    "squad_officer_250_3_con"           costs 7  position 8 1}
 	{"player_brandenburger_paradrop_ger" requires     "squad_officer_250_3_con"         costs 6  position 8 2}
+	{"player_plane_bomber"              requires    "squad_officer_250_3_con"           costs 10  position 6 4}
 	
 	{"squad_sturm_begleitgren_motor_con"requires	"stug3g_late"						costs 0  position 6 53} ;// only found in stug (sturmartillerie) units
 ;TOTAL:

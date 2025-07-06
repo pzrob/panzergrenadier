@@ -1628,6 +1628,10 @@ msgctxt "desc/entity/ju-52_para_plane_player"
 msgid "ju 52"
 msgstr ""
 
+msgctxt "desc/entity/bf110_e2_para_plane_player"
+msgid "Bf-110 Bomber"
+msgstr ""
+
 msgctxt "info/special/ju-52_para_plane_player"
 msgid "<c(c3baae)>Cargo Plane</c>"
 msgstr ""

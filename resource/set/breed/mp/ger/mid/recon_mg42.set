@@ -20,7 +20,7 @@
 	}
 	{inventory
 		{item "mg42_drum" filling "mgun_ger drum ammo" 50}
-		{item "mgun_ger drum ammo" 300}
+		{item "mgun_ger drum ammo" 600}
 
 		;{item "p38" filled}
 		;{item "pistol ammo" 16 8}

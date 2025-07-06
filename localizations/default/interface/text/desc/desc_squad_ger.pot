@@ -1056,7 +1056,7 @@ msgid "<c(A5A095)>(3+)</c> Pz-Lehr Armored Pz.Sturmgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gren_sturm_motor_con"
-msgid "<c(A5A095)>(2)</c> Motorized Sturm Volksgrenadier Squad"
+msgid "<c(A5A095)>(2)</c> Elite Volksgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_volksg_sturm_motor_con"
@@ -1064,7 +1064,7 @@ msgid "<c(A5A095)>(2)</c> Motorized Volksgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_volksg_motor_con"
-msgid "<c(A5A095)>(2)</c> Elite Volksgrenadier Squad"
+msgid "<c(A5A095)>(2)</c> Motorized Sturm Volksgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_panzergren_motor_con"
@@ -1091,8 +1091,8 @@ msgctxt "desc/squad/player_brandenburger_paradrop_ger"
 msgid "Brandenburger Paradrop Squad"
 msgstr ""
 
-msgctxt "desc/squad/player_paradrop_ger_recon"
-msgid "Recon Fallschirmjäger Paradrop Squad"
+msgctxt "desc/squad/player_plane_bomber"
+msgid "Bomber Plane Bf-110"
 msgstr ""
 
 msgctxt "desc/squad/player_paradrop_ger_late"

@@ -248,6 +248,10 @@
 {"mp/ger/late/volksg_stg"			("inf_tier2" side(ger) lvl(lvl1 lvl2) r(11) rm(99) cost(20.0))} ; stg44
 {"mp/ger/late/volksg_smg_pzf"		("inf_tier2" side(ger) lvl(lvl1 lvl2) r(11) rm(99) cost(10.0))} ; mp40 + pzfaust 60
 {"mp/ger/late/volksg_stg_pzf"		("inf_tier2" side(ger) lvl(lvl1 lvl2) r(11) rm(99) cost(20.0))} ; stg44 + pzfaust 60
+{"mp/ger/late/volksg_3"			    ("inf_tier2" side(ger) lvl(lvl1 lvl2) r(11) rm(99) cost(80.0))} ; pistol + pzschreck
+{"mp/ger/late/volksg_4"			    ("inf_tier2" side(ger) lvl(lvl1 lvl2) r(11) rm(99) cost(40.0))} ; mg42 belt (100 round)
+{"mp/ger/late/volksg_2"			    ("inf_tier2" side(ger) lvl(lvl1 lvl2) r(11) rm(99) cost(20.0))} ; stg44
+{"mp/ger/late/volksg_1"			    ("inf_tier2_lite" side(ger) lvl(lvl1 lvl2) r(11) rm(99) cost(13.0))} ; g43
 
 {"mp/ger/late/pz_pio_at"			("inf_tier2" side(ger) lvl(lvl1 lvl2) r(9) rm(99) cost(80.0))} ; pistol + pzschreck
 {"mp/ger/late/pz_pio_flame"			("inf_tier2" side(ger) lvl(lvl1 lvl2) r(9) rm(99) cost(60.0))} ; flamethrower

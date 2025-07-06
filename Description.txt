@@ -1,4 +1,4 @@
-This mod is adding new squads, uniforms for Panzergrenadiers and Volksgrenadiers, other small changes, Added Paratroopers
+This mod is adding new squads, uniforms for Panzergrenadiers and Volksgrenadiers, other small changes, added Paratroopers and German Player Bomber
 
 Description
 
@@ -15,7 +15,9 @@ Added Sdkfz mortar carrier with mg in front
 Added Sdkfz7, maultier transporter, maultier miner, maultier, to conquest
 Added sdkfz medic, opel transporter
 Added 7 new squads, 4 for Panzergrenadiers, 3 for Volksgrenadiers.+ 1 Special Commando unit
+
 Added many new vehicles
+
 Added new ammo chest mg belt for some of the mg gunners and mg assistants.
 Added Kfz70 Krupp, Kfz70 Mg, Kfz70 Drilling (AA vehicle)
 
@@ -44,6 +46,8 @@ You can call in Air stikes with Brandenburger assistant leader ( they are random
 The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with right mouse button on the ammo box in inventory , the soldier will carry in hand the ammo can, the nearby mg gunners will be resupplyed with ammo.
 
 Paratroopers was added, you need to select the zone where you want to paradrop, wait the plane to arrive to selected zone then deploy the paratroopers, don't wait the plane go to the margine of the map because you need to turn back manually ( 2 paratrooper unit added)
+
+Added German Player Bomber to Conquest, first need to learn how to control the plane. W-go down, S-go upp, A,D-go left,right.Press Q to land the plane, need to be flat zone and no obstacles.
 
 
 

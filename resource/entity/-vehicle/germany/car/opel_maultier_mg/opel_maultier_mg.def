@@ -94,7 +94,7 @@
                         {item "panzerfaust_100 weapon" 8 filled}
                         {item "hafthohlladung grenade" 5}
 			{item "mg42_belt_long" filled {user "mgun"}}
-			{item "ammo mgun_ger belt" 1000}
+			{item "ammo mgun_ger belt" 2000}
 		}
 	}
 	

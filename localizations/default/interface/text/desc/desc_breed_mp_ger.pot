@@ -1138,43 +1138,43 @@ msgid "Panzergrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_at"
-msgid "Panzergrenadier AT inf. [Heer]"
+msgid "Elite Panzergrenadier AT inf. [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_mg"
-msgid "Panzergrenadier MG Operator [Heer]"
+msgid "Elite Panzergrenadier MG Operator [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_mg_asst"
-msgid "Panzergrenadier MG Asst. [Heer]"
+msgid "Elite Panzergrenadier MG Asst. [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_rifle"
-msgid "Panzergrenadier [Heer]"
+msgid "Elite Panzergrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_rifle_pzf2"
-msgid "Panzergrenadier [Heer]"
+msgid "Elite Panzergrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_rifle_pzf"
-msgid "Panzergrenadier [Heer]"
+msgid "Elite Panzergrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_sa"
-msgid "Panzergrenadier [Heer]"
+msgid "Elite Panzergrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_sl"
-msgid "Panzergrenadier Squadleader [Heer]"
+msgid "Elite Panzergrenadier Squadleader [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_sl_asst"
-msgid "Panzergrenadier Asst. Leader [Heer]"
+msgid "Elite Panzergrenadier Asst. Leader [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/mid/pzgren_stg"
-msgid "Panzergrenadier [Heer]"
+msgid "Elite Panzergrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/pzgren_sturm_pzf"
@@ -1318,19 +1318,19 @@ msgid "Tankman [Panzerwaffe]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/volksg_1"
-msgid "Volksgrenadier [Heer]"
+msgid "Elite Volksgrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/volksg_2"
-msgid "Volksgrenadier [Heer]"
+msgid "Elite Volksgrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/volksg_3"
-msgid "Volksgrenadier [Heer]"
+msgid "Elite Volksgrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/volksg_4"
-msgid "Volksgrenadier [Heer]"
+msgid "Elite Volksgrenadier [Heer]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/volksg_at2"
@@ -3381,4 +3381,8 @@ msgstr ""
 
 msgctxt "desc/human/mp/ger/late/sturmzug_stg"
 msgid "Sturmzug  [Stoormtrooper]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturmzug_at"
+msgid "Sturmzug AT inf.  [Stoormtrooper]"
 msgstr ""

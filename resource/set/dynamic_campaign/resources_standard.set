@@ -8,7 +8,7 @@
 		{StartMP	1.50 min 500 attackerMultiplier 1.7}
 		{FinishMP	1.50 min 500 attackerMultiplier 1.7}
 		{CP
-			{Base "0:200"} ;// seconds : CP
+			{Base "0:170"} ;// seconds : CP
 			{RoundMultiplier "0:0.65 2:0.8 4:0.9 6:1.0 8:1.1 12:1.2 14:1.3"} ;// games played : multiplier for CP
 			{AttackMultiplier 150}
 		}
@@ -52,7 +52,7 @@
 	}
 	{Resources
 		{MP ;// Manpower (generic money)
-			{StartVal 900}
+			{StartVal 1100}
 			{WinGain "1:200 4:250 6:300 8:350 10:400 12:600 14:800"} ;// games played : MP gain 
 			{LoseGain "1:100"}
 			{MapRewards	;//Bonus resources on various game types (a game can only be one randomly chosen type). Types: Airfield, Ammodepot, Bonus, Factory, Research.
