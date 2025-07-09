@@ -19,15 +19,15 @@
 	}
 	{inventory
 		{item "mg42_belt" filling "mgun_ger belt ammo" 100}
-		{item "mgun_ger belt ammo" 600}
+		{item "mgun_ger belt ammo" 900}
 
-		;{item "p38" filled}
-		;{item "pistol ammo" 16 8}
+		{item "p38" filled}
+		{item "pistol ammo" 100}
 
-		{item "m24 grenade" 0.25 0.5}
-		{item "m24_smoke grenade" 0.25 0.5}
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 2}
 
-		{item "bandage_ger" 3.5 0.5}
+		{item "bandage_ger" 4}
 		{item "shovel_ger"}
 		{item "ger_fieldcap_m43"}
 

@@ -19,7 +19,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mp40_folded" filled}
+		{item "mp40_unfolded" filled}
 		{item "mp40 ammo" 320}
 
 		{item "panzershreck ammo" 5}
