@@ -16,7 +16,7 @@
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_3")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "panzershreck_54 weapon" filled}

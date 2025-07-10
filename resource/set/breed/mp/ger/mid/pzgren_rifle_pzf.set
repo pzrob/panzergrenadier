@@ -15,7 +15,7 @@
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_3")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "g43" filling "rifle_ger gewehr ammo" 10}

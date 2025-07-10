@@ -15,7 +15,7 @@
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_2")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "stg44" filled}

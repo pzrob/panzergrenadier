@@ -36,17 +36,17 @@
 	{RiskFactor
 		{Low
 			{BotResources 1.1}
-			{BotVeterancy 0}
+			{BotVeterancy 1}
 			{Rewards 1.0}
 		}
 		{Standard
 			{BotResources 1.2}
-			{BotVeterancy 1}
+			{BotVeterancy 3}
 			{Rewards 1.25}
 		}
 		{High
 			{BotResources 1.2}
-			{BotVeterancy 2}
+			{BotVeterancy 5}
 			{Rewards 1.5}
 		}
 	}

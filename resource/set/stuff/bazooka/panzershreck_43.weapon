@@ -9,9 +9,10 @@
 	("velocity" mps(110))
         
         {range 150 150}
-	("penetration" args 400)
+	("penetration" args 300)
 	("armor health" damage(550))
 	("human health" damage(700))
 	("standard_slope")
+        ("reload time" seconds(8))
 }
 
