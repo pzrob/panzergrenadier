@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "000000004216a738"}
+	{specular "000000004216a9f8"}
+	{color "230 230 230 25"}
+	{blend test}
+}

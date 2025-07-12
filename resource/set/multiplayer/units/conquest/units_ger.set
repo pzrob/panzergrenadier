@@ -779,6 +779,10 @@
 	("vehicle2" side(ger) period(mid) min_stage(11) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
 	{cost 590}
 }
+{"kugelblitz"
+	("vehicle2" side(ger) period(mid) min_stage(7) max_stage(99) cw(6) cp(10) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 750}
+}
 {"panzer5d"
 	("vehicle3" side(ger) period(mid) min_stage(11) max_stage(11) cw(6) cp(40) crew1(tankman:4) crew2(tank_commander:1) crew3(pzgren_stg:4))
 	{cost 1150}

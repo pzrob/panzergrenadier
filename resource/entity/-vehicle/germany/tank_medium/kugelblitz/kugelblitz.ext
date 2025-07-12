@@ -1,0 +1,210 @@
+
+
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(15))
+
+	("ammo" args "ammo")
+	("ammo" args "inventory")
+
+	;volume, component/tag
+	("make_component" args "body1" "body")
+
+	{volume "body"			; Superstructure
+		{thickness 45
+			{front 50}
+			{top 20}
+			{rear 20}
+			{bottom 15}		; Overhang (above tracks)
+		}
+	}
+	{volume "body1"			; Superstructure
+		{thickness 30
+			{front 80}
+			{top 20}
+			{rear 20}
+			{bottom 20}		; Overhang (above tracks)
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 30
+			{front 80}
+			{top 20}
+			{rear 20}
+			{bottom 20}		; Overhang (above tracks)
+		}
+	}
+	{volume "turret"
+		{thickness 20
+		}
+	}
+	{volume "turret1"
+		{thickness 20
+		}
+	}
+	{volume "shieldr5"
+		{thickness 39
+		}
+	}
+	{volume "shieldl1"
+		{thickness 5
+		}
+	}
+	{volume "shieldr1"
+		{thickness 5
+		}
+	}
+	{volume "shieldl2"
+		{thickness 5
+		}
+	}
+	{volume "shieldr2"
+		{thickness 5
+		}
+	}
+	{volume "shieldl3"
+		{thickness 5
+		}
+	}
+	{volume "shieldr3"
+		{thickness 5
+		}
+	}
+	{volume "shieldl4"
+		{thickness 5
+		}
+	}
+	{volume "shieldr4"
+		{thickness 5
+		}
+	}
+	{volume "detail5"
+		{thickness 20
+		}
+	}
+	{volume "detail6"
+		{thickness 20
+		}
+	}
+	{volume "detail7"
+		{thickness 20
+		}
+	}
+	{volume "detail8"
+		{thickness 20
+		}
+	}
+	{volume "detail9"
+		{thickness 20
+		}
+	}
+	{volume "shieldl"
+		{thickness 5
+		}
+	}
+	{volume "shieldr"
+		{thickness 5
+		}
+	}
+	{volume "shieldl1"
+		{thickness 5
+		}
+	}
+	{volume "shieldL1"
+		{thickness 15
+		}
+	}
+	{volume "shieldR1"
+		{thickness 15
+		}
+	}
+	{volume "shieldL2"
+		{thickness 15
+		}
+	}
+	{volume "shieldR2"
+		{thickness 15
+		}
+	}
+	{volume "shieldL3"
+		{thickness 15
+		}
+	}
+	{volume "shieldR3"
+		{thickness 15
+		}
+	}
+	{volume "shieldL4"
+		{thickness 15
+		}
+	}
+	{volume "shieldR4"
+		{thickness 15
+		}
+	}
+	{volume "shieldL5"
+		{thickness 15
+		}
+	}
+	{volume "shieldR5"
+		{thickness 15
+		}
+	}
+	{volume "shieldL6"
+		{thickness 15
+		}
+	}
+	{volume "shieldR6"
+		{thickness 15
+		}
+	}
+	{volume "shieldL7"
+		{thickness 15
+		}
+	}
+	{volume "shieldR7"
+		{thickness 15
+		}
+	}
+	{volume "shieldL8"
+		{thickness 15
+		}
+	}
+	{volume "shieldR8"
+		{thickness 15
+		}
+	}
+	{volume "trackl"
+		{thickness 20
+		}
+	}
+	{volume "trackr"
+		{thickness 20
+		}
+	}
+	{volume "engine"
+		{thickness 80
+		}
+	}
+	{volume "wheel"
+		{thickness 20
+		}
+	}
+	{volume "wheelr"
+		{thickness 20
+		}
+	}
+	{volume "wheell"
+		{thickness 20
+		}
+	}
+	{volume "wheelright"
+		{thickness 20
+		}
+	}
+	{volume "wheelleft"
+		{thickness 20
+		}
+	}
+
+	{extender "shield" {on}}

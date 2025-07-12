@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "e75_ts_3dst_obves_01_am"}
+	{blend test}
+}

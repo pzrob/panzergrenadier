@@ -1237,6 +1237,13 @@
 	("multi_barrel_loop" flash(tank_canon_fire_20_25_auto) smoke(smoke_zenit) shell(zenit_gilz) weapon(gun) head(0.200))
 	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
+{"kugelblitz tank"
+	("pz4_sound")
+	{on "add_weapon_sound" overload
+		("MG34")
+	}
+	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
+}
 {"ostwind tank"
 	("pz4_sound")
 	{on "add_weapon_sound" overload

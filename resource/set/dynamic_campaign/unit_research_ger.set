@@ -285,6 +285,7 @@
 	{"panzer4f1"			requires	"panzer4d"		costs 2  position 2 57}
 	{"panzer4f2"			requires	"panzer4f1"		costs 4  position 3 57}
 	{"panzer4g"				requires	"panzer4f2"		costs 4  position 4 57}
+	{"kugelblitz"			requires	"panzer4g"		costs 2  position 3 56}
 	{"wirbelwind"			requires	"panzer4g"		costs 2  position 4 56} ;//SE, LIB
 	{"ostwind"				requires	"panzer4g"		costs 2  position 5 56} ;//SE, LIB
 	{"panzer4h"				requires	"panzer4g"		costs 3  position 5 57}

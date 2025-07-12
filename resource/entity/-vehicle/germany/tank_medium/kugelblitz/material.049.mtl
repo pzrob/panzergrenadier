@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "panzeriv_k"}
+	{bump "panzeriv_k_normal"}
+	{specular "panzeriv_k_specular"}
+	{color "230 230 230 25"}
+	{blend test}
+}

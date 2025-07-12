@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "kugaltexture"}
+	{specular "kugaltexture_spec"}
+	{color "230 230 230 25"}
+	{blend test}
+}

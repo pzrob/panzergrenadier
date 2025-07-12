@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "foliage_pine_bark02a_c"}
+	{blend test}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "foliage_pine_needles_04_c"}
+	{blend test}
+}
