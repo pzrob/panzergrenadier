@@ -197,6 +197,7 @@
 	{"sdkfz251c_2"			requires	"sdkfz251c"				costs 2  position 2 41}
 	{"sdkfz251d_12cm"		requires	"sdkfz251c_2"			costs 2  position 3 41}
 	{"sdkfz251d_1"			requires	"sdkfz251c"				costs 1  position 2 42}
+	{"sdkfz251d_2cm"		requires	"sdkfz251d_1"			costs 1  position 3 42}
 	{"sdkfz251d_16"			requires	"sdkfz251d_1"			costs 2  position 5 42} ;// LIB
 	{"sdkfz251d_17"			requires	"sdkfz251d_16"			costs 1  position 6 42} ;// LIB
 	{"sdkfz251d_21"			requires	"sdkfz251d_17"			costs 2  position 8 42} ;// LIB

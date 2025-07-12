@@ -2,16 +2,16 @@
 ;Model created by: guita
 ;Date: 18.10.2023 15:11:27
 ;File: D:\Git\3D_Scenes\GoH_3D_vehicles_ger2\vehicles\btr\sdkfz251d_1_standart\SdKfz251d_1.max
-;Model create/rebuild by: Frostyy
-;Last build date: Saturday 11 July 2025 [09:02:02]
+;Model create/rebuild by: pzrob
+;Last build date: Sunday 12 July 2025 [13:05:20]
 {Skeleton
     {Animation
-        {Sequence "board"}
+        {sequence "board" {speed 1} {events {0 "board"}}}
         {Sequence "start" {Speed 0.7}}
         {Sequence "stop" {Speed 0.7}}
         {Sequence "hit" {Speed 0.5}}
-        {Sequence "open_back" {Resume}}
-        {Sequence "close_back" {Resume}}
+	{sequence "open_back" {speed 1}{resume} {events {2 "hatch_light"}}}
+	{sequence "close_back" {speed 1}{resume} {events {18 "hatch_light"}}}
         {Sequence "mgun_aa" {Speed 0.7} {Resume}}
         {Sequence "mgun_aa_2" {Speed 0.7} {Resume}}
         {Sequence "recoil" {Speed 1.5}}
@@ -157,10 +157,10 @@
                     }
                     {Bone "charger"
                         {Matrix34
-                            0.2419	-0.9703	0
-                            0.9703	0.2419	0
-                            0	0	1
-                            -23.7977	40.3099	-12.1513
+                            0.8642	-0.4411	-0.2419
+                            0.4546	0.8907	-0.0002
+                            0.2156	-0.1098	0.9703
+                            -14.8197	7.5029	5.6205
                         }
                     }
                     {Bone "aim_h"

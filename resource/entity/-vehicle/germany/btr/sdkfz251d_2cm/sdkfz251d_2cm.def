@@ -23,7 +23,7 @@
 			{reverse {end "emit_sd222_driver"} {base "board"}}
 		}
 		{anm "charger"
-			{forward {begin "board_sd232_driver"} {end "seat_flak38_loader"} {base "board"}}
+			{forward {begin "board_sd232_driver"} {end "seat_flakvierling_charger"} {base "board"}}
 			{reverse {end "emit_sd222_driver"} {base "board"}}
 		}
 	}
@@ -76,7 +76,6 @@
 	}
 	
 	{bone "gun_rot"
-		{limits 0 -20}
 		{speed2 60}
 	}
 	{bone "turret"

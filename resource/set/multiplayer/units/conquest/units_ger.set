@@ -499,6 +499,10 @@
 {"sdkfz251d_12cm"
 	("vehicle2"  side(ger) period(mid) min_stage(1) max_stage(99) cw(2) cp(17) crew1(tankman:1) crew2(artilleryman:3))
 	{cost 550}
+}	
+{"sdkfz251d_2cm"
+	("vehicle2"  side(ger) period(mid) min_stage(1) max_stage(99) cw(2) cp(17) crew1(tankman:1) crew2(artilleryman:2))
+	{cost 450}
 }
 {"sdkfz251d_1_stuka"
 	("vehicle"  side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(51) crew(artilleryman:3))

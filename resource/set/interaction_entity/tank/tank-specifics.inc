@@ -392,6 +392,14 @@
 	}
 	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
+{"sdkfz251d_2cm tank"
+	("hanomag_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+	}
+	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
+}
 {"sdkfz251d_21 tank"
 	("hanomag_sound")
 	{on "add_weapon_sound" overload

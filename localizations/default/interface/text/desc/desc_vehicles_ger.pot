@@ -1692,6 +1692,10 @@ msgctxt "desc/entity/flakpanzer1"
 msgid "Flakpanzer I Ausf. B"
 msgstr ""
 
+msgctxt "desc/entity/sdkfz251d_2cm"
+msgid "Sd.Kfz 251/1 20mm Flak"
+msgstr ""
+
 
 
 
