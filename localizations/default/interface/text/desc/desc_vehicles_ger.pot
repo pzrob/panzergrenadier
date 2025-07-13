@@ -1700,6 +1700,14 @@ msgctxt "desc/entity/kugelblitz"
 msgid "Kugelblitz"
 msgstr ""
 
+msgctxt "desc/entity/sdkfz10_1"
+msgid "Sd.Kfz 10 Halftrack"
+msgstr ""
+
+msgctxt "info/special/sdkfz10_1"
+msgid "<c(c3baae)>Transport Halftrack</c>"
+msgstr ""
+
 
 
 

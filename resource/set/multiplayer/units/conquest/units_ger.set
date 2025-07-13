@@ -452,6 +452,10 @@
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
 	{cost 25}
 }
+{"sdkfz10_1"
+	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+	{cost 25}
+}
 {"kfz13"
 	("vehicle2" side(ger) period(mid) min_stage(1) max_stage(5) cw(2) cp(4) crew1(rifleman_1:1) crew2(mgun_2:1))
 	{cost 100}
