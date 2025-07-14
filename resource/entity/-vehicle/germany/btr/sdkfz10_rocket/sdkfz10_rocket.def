@@ -1,0 +1,117 @@
+{game_entity
+	(include "/properties/halftrack.ext")
+	(include "/properties/selection/vehicle_elongated.inc" scale(1.0))
+	{props "with_gun" "katusha" "rocket" "truck" "vision_lev06" "detect_artillery" "artillery_minimap_medium" "captor" "support_open_ani"}
+	{extension "sdkfz10_rocket.mdl"}
+	{able "emit_on_attack"}
+	{targetSelector "rocket"}
+	{targetclass "howitzer"}
+	{collider "truck"}
+
+
+	("armoredcar_tier1")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+
+	("glass" args "glassr")
+	("glass" args "glassl")
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	("turret" repair(45))
+	("gun" repair(30) thickness(20))
+
+	{volume "body1" {thickness 4}}
+	{volume "body2" {able {holed}}{thickness 4}}
+	{volume "body3" {thickness 4}}
+	{volume "engine" {thickness 4}}
+	{volume "transmission" {able {NoWoundDecal 0}}}
+	{volume "trackleft1"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
+	{volume "trackright1"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
+	{volume "turret" {thickness 8} {able {holed}}}
+	{volume "turret2" {thickness 8}}
+	{volume "armor1" {thickness 2} {able {obstacle 0}}}
+	{volume "armor2" {thickness 2} {able {obstacle 0}}}
+	{volume "armor3" {thickness 2} {able {obstacle 0}}}
+	{volume "armor4" {thickness 2} {able {obstacle 0}}}
+
+	("crew_2_human")
+
+	{placer {place "commander" {group "crew"}}}
+
+	("board_animation"
+		place(driver)
+		board_begin(board_opel_driver)
+		board_end(seat_driver_car)
+		base(doorleft)
+	)
+	("board_animation"
+		place(commander)
+		board_begin(board_big-highcar)
+		board_end(seat_passenger)
+		base(doorright)
+	)
+
+	{extender "inventory"
+		{box
+			{item "ammo 82mm_bm8" 48}		;2 salvos (48 rockets each) (96 total)
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "weapon 82mm_bm8_48" filled}
+			{Barrels 48}
+			{charger "driver"}
+			{gunner "driver"}
+			{StationaryFiring}
+			("abm_dymamic_rocket"
+				zeroing(10.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+	}
+
+	{mass 8000}   ;4200+rockets?
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.50) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(65) ;----------------------------------Max speed.
+			speedatmaxturn(20) ;-------------------------Max speed at max turn.
+			reverse(15) ;--------------------------------Max speed in Reverse.
+			weight(4.7) ;--------------------------------Weight in Tonnes.
+			power(100) ;---------------------------------Horse Power.
+			fuel(110) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(150) ;---------------------------------Range in Kilometers.
+		)
+		{DisableMoveWhileFiring}
+	}
+	{bone "gun_rot"
+		{limits -0 45}
+		{speed2 5}
+	}
+	{bone "turret"
+		{limits -25 25}
+		{speed2 5}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

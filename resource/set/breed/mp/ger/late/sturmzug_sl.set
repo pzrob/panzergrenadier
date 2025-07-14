@@ -29,6 +29,7 @@
 
 		{item "bandage_ger" 5}
 		{item "ger_stalhelm_m43_cover_sumpf_band"}
+		{item "wirecutters"}
 
 		{in_hands 0}
 	}

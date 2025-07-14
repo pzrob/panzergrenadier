@@ -28,6 +28,7 @@
 		{item "m24_smoke grenade" 1}
 
 		{item "bandage_ger" 4}
+		{item "wirecutters"}
 
 		{in_hands 0}
 	}

@@ -28,6 +28,7 @@
 
 		{item "bandage_ger" 5}
 		{item "shovel_ger"}
+		{item "wirecutters"}
 
 		{in_hands 0}
 	}

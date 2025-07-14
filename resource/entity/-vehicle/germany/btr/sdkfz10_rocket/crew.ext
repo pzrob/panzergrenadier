@@ -1,0 +1,47 @@
+;SDL
+
+{boarder
+	{anm "driver"
+		{forward {begin "board_sdkfz10_driver"} {end "seat_sdkfz10_driver"}}
+		{reverse {end "emit_tank_1"}}
+	}
+	{anm "commander"
+		{forward {begin "board_sdkfz10_all"} {end "seat_sdkfz10_commander"}}
+		{reverse {end "emit_tank_1"}}
+	}
+	{anm "gunner"
+		{forward {begin "board_SdKfz251-1"} {end "pose_flak30_gunner"} }
+		{reverse {end "emit_body" 1}}
+	}
+	{anm "charger"
+		{forward {begin "board_SdKfz251-1"} {end "pose_flak30_loader"}}
+		{reverse {end "emit_body" 1}}
+	}
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {shadow}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+{sensor
+	{visor "gun"
+		{vision "cannon_main"}
+		{bone "foresight1"}
+	}
+}
+
+{placer
+	{place "gunner" {visor "gun"}{turnoff {targetable 0}}}
+}
+
+
+("crew_human" place(driver)		door(emit1) bone(driver) animation(driver) group(crew))
+("crew_human" place(commander)	door(emit2) bone(commander) animation(commander) group(crew))
+("crew_human" place(gunner)		door(emit3) bone(gunner)  animation(gunner)	 group(crew))
+("crew_human" place(charger)	door(emit4) bone(charger) animation(charger) group(crew))

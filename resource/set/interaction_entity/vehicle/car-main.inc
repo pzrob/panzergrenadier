@@ -1869,6 +1869,10 @@
 	("hanomag_sound")
 }
 
+{"sdkfz10_rocket"
+	("hanomag_sound")
+}
+
 {"sdkfz10_4"
 	("hanomag_sound")
 	{on "add_weapon_sound" overload
