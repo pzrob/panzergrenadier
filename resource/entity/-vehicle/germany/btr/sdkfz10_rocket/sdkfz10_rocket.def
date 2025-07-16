@@ -3,6 +3,7 @@
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.0))
 	{props "with_gun" "katusha" "rocket" "truck" "vision_lev06" "detect_artillery" "artillery_minimap_medium" "captor" "support_open_ani"}
 	{extension "sdkfz10_rocket.mdl"}
+        {extension "crew.ext"}
 	{able "emit_on_attack"}
 	{targetSelector "rocket"}
 	{targetclass "howitzer"}
@@ -43,23 +44,6 @@
 	{volume "armor2" {thickness 2} {able {obstacle 0}}}
 	{volume "armor3" {thickness 2} {able {obstacle 0}}}
 	{volume "armor4" {thickness 2} {able {obstacle 0}}}
-
-	("crew_2_human")
-
-	{placer {place "commander" {group "crew"}}}
-
-	("board_animation"
-		place(driver)
-		board_begin(board_opel_driver)
-		board_end(seat_driver_car)
-		base(doorleft)
-	)
-	("board_animation"
-		place(commander)
-		board_begin(board_big-highcar)
-		board_end(seat_passenger)
-		base(doorright)
-	)
 
 	{extender "inventory"
 		{box

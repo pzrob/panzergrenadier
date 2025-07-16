@@ -1716,6 +1716,14 @@ msgctxt "info/special/sdkfz10_rocket"
 msgid "<c(c3baae)>Rocket Launcher Halftrack</c>"
 msgstr ""
 
+msgctxt "desc/entity/sdkfz7_rocket"
+msgid "Sd.Kfz 7 Rocket Launcher"
+msgstr ""
+
+msgctxt "info/special/sdkfz7_rocket"
+msgid "<c(c3baae)>Rocket Launcher 300mm</c>"
+msgstr ""
+
 
 
 

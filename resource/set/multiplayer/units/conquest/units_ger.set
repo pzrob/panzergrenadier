@@ -559,6 +559,10 @@
 {"sdkfz7_2"
 	("vehicle2" side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
 	{cost 350}
+}	
+{"sdkfz7_rocket"
+	("vehicle" side(ger) period(mid) min_stage(6) max_stage(99) cw(2) cp(4) crew(tank_commander:1))
+	{cost 1075}
 }
 {"kfz14"
 	("vehicle2" side(ger) period(mid) min_stage(1) max_stage(5) cw(4) cp(4) crew1(tankman:2) crew2(tank_commander:1))
@@ -605,7 +609,7 @@
 	{cost 520}
 	}
 {"sdkfz10_rocket"
-	("vehicle2" side(ger) period(mid) min_stage(3) max_stage(99) cw(2) cp(12) crew1(tankman:3) crew2(tank_commander:1))
+	("vehicle2" side(ger) period(mid) min_stage(3) max_stage(99) cw(2) cp(12) crew1(tankman:1) crew2(tank_commander:1))
 	{cost 910}
 }
 {"sdkfz10_pak38"

@@ -526,6 +526,11 @@
 {"sdkfz7"
 	("hanomag_sound")
 }
+
+{"sdkfz7_rocket"
+	("hanomag_sound")
+}
+
 {"sdkfz7_1"
 	{on "add_weapon_sound" overload
 		("2cm_Flakvierling")

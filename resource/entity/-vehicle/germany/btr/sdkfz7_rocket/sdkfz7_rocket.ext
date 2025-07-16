@@ -1,0 +1,95 @@
+;SDL
+
+	("armoredcar_tier2")
+
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelleft1")
+
+	("turret" repair(45))
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(20))
+
+	("shield" args "shield" 4.5)
+	("shield" args "shield_gun" 4.5)
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"
+		{thickness 4}
+	}
+	{volume "body2"
+		{thickness 14.5}
+	}
+	{volume "body3"
+		{thickness 14.5
+			{top 8}
+		}
+		{able {holed}}
+	}
+	{volume "body4"
+		{thickness 4}
+	}
+	{volume "body5"
+		{thickness 4}
+	}
+	{volume "body6"
+		{thickness 4}
+	}
+	{volume "body7"
+		{thickness 4}
+	}
+	{volume "body8"
+		{thickness 4}
+	}
+	{volume "body9"
+		{thickness 4}
+	}
+	{volume "engine1"
+		{thickness 4}
+	}
+	{volume "engine2"
+		{thickness 4}
+	}
+	{volume "turret1"
+		{thickness 8}
+	}
+	{volume "turret2"
+		{thickness 8}
+	}
+	{volume "turret3"
+		{thickness 8}
+	}
+	{volume "turret4"
+		{thickness 8}
+	}
+	{volume "armor1"
+		{thickness 14.5}
+	}
+	{volume "armor2"
+		{thickness 14.5}
+	}
+	{volume "board_left"
+		{thickness 4}
+		{material "wood"}
+	}
+	{volume "board_right"
+		{thickness 4}
+		{material "wood"}
+	}
+	{volume "board_back"
+		{thickness 4}
+		{material "wood"}
+	}
+	{volume "sticky"
+		{able clear {contact 1}}
+		{tags "sticky"}
+	}
+	{volume "trackleft1"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
+	{volume "trackright1"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
