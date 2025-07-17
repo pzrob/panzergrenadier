@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.0))
-        {props "with_gun" "katusha" "truck" "vision_lev06" "detect_artillery" "artillery_minimap_medium" "captor" "support_open_ani"}
+        {props "with_gun" "katusha" "truck" "vision_lev06" "detect_artillery" "artillery_minimap_medium" "captor" "support_open_ani" "tractor" "tractor_heavy"}
 	{extension "sdkfz7_rocket.mdl"}
 	(include "sdkfz7_rocket.ext")
         {extension "crew.ext"}

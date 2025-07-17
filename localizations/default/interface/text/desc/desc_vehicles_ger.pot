@@ -1724,6 +1724,14 @@ msgctxt "info/special/sdkfz7_rocket"
 msgid "<c(c3baae)>Rocket Launcher 300mm</c>"
 msgstr ""
 
+msgctxt "desc/entity/88mm_flak36_aa"
+msgid "8.8cm FlaK 36 AA"
+msgstr ""
+
+msgctxt "info/special/88mm_flak36"
+msgid "<c(c3baae)>Heavy AA Gun</c>"
+msgstr ""
+
 
 
 

@@ -282,6 +282,10 @@
 	("vehicle"  side(ger) period(mid) min_stage(5) max_stage(99) cw(1) cp(25) crew(artilleryman:5))
 	{cost 800}
 }
+{"88mm_flak36_aa"
+	("vehicle"  side(ger) period(mid) min_stage(5) max_stage(99) cw(1) cp(25) crew(artilleryman:5))
+	{cost 750}
+}
 
 ; AT WEAPONRY
 {"28mm_pzb41"

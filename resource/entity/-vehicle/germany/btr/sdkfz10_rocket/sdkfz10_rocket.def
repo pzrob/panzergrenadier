@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/halftrack.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.0))
-	{props "with_gun" "katusha" "rocket" "truck" "vision_lev06" "detect_artillery" "artillery_minimap_medium" "captor" "support_open_ani"}
+	{props "with_gun" "katusha" "rocket" "truck" "vision_lev06" "detect_artillery" "artillery_minimap_medium" "captor" "support_open_ani" "tractor" "tractor_heavy"}
 	{extension "sdkfz10_rocket.mdl"}
         {extension "crew.ext"}
 	{able "emit_on_attack"}
