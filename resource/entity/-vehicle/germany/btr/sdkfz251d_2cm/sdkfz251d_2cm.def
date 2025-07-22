@@ -43,8 +43,8 @@
 
 	{extender "inventory"
 		{Box
-			{item "bulletger_20_auto ap" 100}		; 14 clips (20 rounds each) 33/66 AP/HE
-			{item "bulletger_20_auto he" 180}
+			{item "bulletger_20_auto ap" 200}		; 28 clips (20 rounds each) 33/66 AP/HE
+			{item "bulletger_20_auto he" 360}
 		}
 	}
 

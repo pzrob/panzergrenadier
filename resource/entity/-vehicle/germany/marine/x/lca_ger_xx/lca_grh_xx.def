@@ -1,0 +1,121 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "lca_grh_xx.mdl"}
+	
+	{Volume "ballast1"
+		{tags "float"}
+		{Able clear {float}}
+	}
+	{Volume "ballast2"
+		{tags "float"}
+		{Able clear {float}}
+	}
+	{Volume "ballast3"
+		{tags "float"}
+		{Able clear {float}}
+	}
+	{Volume "ballast4"
+		{tags "float"}
+		{Able clear {float}}
+	}
+	{Volume "ballast5"
+		{tags "float"}
+		{Able clear {float}}
+	}
+	{Volume "ballast6"
+		{tags "float"}
+		{Able clear {float}}
+	}
+	{Volume "ballast7"
+		{tags "float"}
+		{Able clear {float}}
+	}
+	{Volume "ballast8"
+		{tags "float"}
+		{Able clear {float}}
+	}
+
+	{volume "body1"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{Volume "body2"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body3"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body4"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body5"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body6"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body7"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{Volume "body8"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{volume "shield10"
+		{thickness 15}
+	}
+	{volume "shield1"
+		{thickness 15}
+	}
+	{volume "shield2"
+		{thickness 15}
+	}
+	{volume "shield3"
+		{thickness 15}
+	}
+	{volume "shield4"
+		{thickness 15}
+	}
+	{volume "shield5"
+		{thickness 15}
+	}
+	{volume "shield6"
+		{thickness 15}
+	}
+	{volume "shield7"
+		{thickness 15}
+	}
+	{volume "shield8"
+		{thickness 15}
+	}
+	{volume "shield9"
+		{thickness 15}
+	}
+}

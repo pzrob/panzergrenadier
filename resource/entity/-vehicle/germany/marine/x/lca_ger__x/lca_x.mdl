@@ -1,0 +1,158 @@
+;Exported by:	 TigerF
+;Date:			 26.05.2023 20:30:09
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_usa\vehicles\marine\Lca Barge\lca_ty_x.max
+{skeleton
+	{bone "basis"
+		{parameters "steermax=30;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0.0017
+				0 	 -0.0017 	 1
+				0.0147 	 0 	 -0.3188
+			}
+			{VolumeView "body.ply"}
+			{bone "door1"
+				{parameters "id=body;"}
+				{Position 89.7661 	 -13.5585 	 19.0951}
+				{VolumeView "door1.ply"}
+			}
+			{bone "door2"
+				{parameters "id=body;"}
+				{Position 89.7803 	 13.5713 	 9.1847}
+				{VolumeView "door2.ply"}
+			}
+			{bone "landing_door"
+				{parameters "id=body;"}
+				{matrix34
+					0.505 	 0 	 0.8631
+					0 	 1 	 0
+					-0.8631 	 0 	 0.505
+					116.924 	 -0.0016 	 7.1587
+				}
+				{VolumeView "landing_door.ply"}
+			}
+			{bone "driver_hatch1"
+				{parameters "id=body;"}
+				{Position 71.6854 	 -20.7091 	 31.4488}
+				{VolumeView "driver_hatch1.ply"}
+			}
+			{bone "driver_hatch2"
+				{parameters "id=body;"}
+				{Position 89.4914 	 -20.7091 	 31.4464}
+				{VolumeView "driver_hatch2.ply"}
+			}
+			{bone revolute "steer"
+				{parameters "id=body;"}
+				{matrix34
+					0 	 0 	 -1
+					0 	 1 	 0
+					1 	 0 	 0
+					85.7155 	 -19.6837 	 19.9814
+				}
+				{VolumeView "steer.ply"}
+			}
+			{bone revolute "steer_r"
+				{parameters "id=body;"}
+				{Position -108.277 	 -14.0244 	 3.2167}
+				{VolumeView "steer_r.ply"}
+			}
+			{bone revolute "steer_l"
+				{parameters "id=body;"}
+				{Position -108.277 	 14.0244 	 3.2168}
+				{VolumeView "steer_l.ply"}
+			}
+			{bone "detail6"
+				{parameters "id=body;"}
+				{Position -94.7167 	 9.5513 	 19.8128}
+				{VolumeView "detail6.ply"}
+			}
+			{bone "detail5"
+				{parameters "id=body;"}
+				{Position -94.7801 	 -9.4748 	 19.8131}
+				{VolumeView "detail5.ply"}
+			}
+			{bone "detail7"
+				{parameters "id=body;"}
+				{Position 13.6218 	 -16.9711 	 19.2187}
+				{VolumeView "detail7.ply"}
+			}
+			{bone "rope"
+				{parameters "id=body;"}
+				{Position 92.422 	 -0.0027 	 16.8448}
+				{VolumeView "rope.ply"}
+			}
+			{bone "ropes"
+				{parameters "id=body;"}
+				{Position -1.5233 	 -0.0047 	 10.3658}
+				{VolumeView "ropes.ply"}
+			}
+			{bone "prop1_helper"
+				{matrix34
+					0.9882 	 0 	 0.1532
+					0 	 1 	 0
+					-0.1532 	 0 	 0.9882
+					-91.4365 	 -14.7022 	 -7.1471
+				}
+				{bone "prop1"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 1 	 0
+						0 	 0 	 1
+						0 	 0 	 0
+					}
+					{VolumeView "prop1.ply"}
+				}
+			}
+			{bone "prop2_helper"
+				{matrix34
+					0.9882 	 0 	 0.1532
+					0 	 1 	 0
+					-0.1532 	 0 	 0.9882
+					-91.4365 	 14.7022 	 -7.1471
+				}
+				{bone "prop2"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 1 	 0
+						0 	 0 	 1
+						0 	 0 	 0
+					}
+					{VolumeView "prop2.ply"}
+				}
+			}
+			{bone "engine"
+				{parameters "id=engine;"}
+				{animation
+					{sequence "break" {file "engine_b.anm"}{speed 0.7}}
+				}
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 -0.0017
+					0 	 0.0017 	 1
+					-65.6893 	 -0.0075 	 16.1678
+				}
+				{VolumeView "engine.ply"}
+				{bone "eng_hatch"
+					{parameters "id=engine;"}
+					{Position 13.3285 	 2.1197 	 2.8045}
+					{VolumeView "eng_hatch.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 92.4393 	 0 	 0}
+		}
+		{bone "pivot_back"
+			{Position -15.4407 	 0 	 0}
+		}
+	}
+}

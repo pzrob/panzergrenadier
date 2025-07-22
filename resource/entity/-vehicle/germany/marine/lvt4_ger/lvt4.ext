@@ -1,0 +1,75 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 10mm
+	; barrel 20mm
+
+	("tank_light_tier1")
+
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+	("tracks" repair(30) thickness(15))
+
+	("shield" args "shield1a" 6.4)
+	("shield" args "shield1b" 6.4)
+	("shield" args "shield2a" 6.4)
+	("shield" args "shield2b" 6.4)
+	("shield" args "shield3a" 6.4)
+	("shield" args "shield3b" 6.4)
+
+	{extender "shield" {on}}
+
+	{volume "body1"
+		{thickness 6.4
+			{front 12.7}
+		}
+	}
+	{volume "body2"
+		{thickness 6.4}
+		{able {holed}}
+	}
+	{volume "body3"
+		{thickness 6.4}
+	}
+	{volume "body4"
+		{thickness 6.4}
+		{able {holed}}
+	}
+	{volume "body5"
+		{thickness 6.4
+			{left 12.7}
+		}
+	}
+	{volume "body6"
+		{thickness 6.4
+			{right 12.7}
+		}
+	}
+	{volume "body7"
+		{thickness 6.4}
+	}
+	{volume "engine1"
+		{thickness 6.4}
+	}
+	{volume "engine2"
+		{thickness 6.4}
+	}
+	{volume "shield1a"
+		{thickness 6.4}
+	}
+	{volume "shield1b"
+		{thickness 6.4}
+	}
+	{volume "shield2a"
+		{thickness 6.4}
+	}
+	{volume "shield2b"
+		{thickness 6.4}
+	}
+	{volume "shield3a"
+		{thickness 6.4}
+	}
+	{volume "shield3b"
+		{thickness 6.4}
+	}

@@ -1,0 +1,45 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "lvt4_xx.mdl"}
+
+	{volume "body1"
+		{thickness 6.4
+			{front 12.7}
+		}
+	}
+	{volume "body2"
+		{thickness 6.4}
+		{able {holed}}
+	}
+	{volume "body3"
+		{thickness 6.4}
+	}
+	{volume "body4"
+		{thickness 6.4}
+		{able {holed}}
+	}
+	{volume "body5"
+		{thickness 6.4
+			{left 12.7}
+		}
+	}
+	{volume "body6"
+		{thickness 6.4
+			{right 12.7}
+		}
+	}
+	{volume "body7"
+		{thickness 6.4}
+	}
+	{volume "engine1"
+		{thickness 6.4}
+	}
+	{volume "engine2"
+		{thickness 6.4}
+	}
+	{volume "part3"
+		{thickness 6.4}
+	}
+
+	("tracks" thickness(15))
+}

@@ -529,8 +529,8 @@
 
 {"sdkfz7_rocket"
 	("hanomag_sound")
-}
-
+}	
+	
 {"sdkfz7_1"
 	{on "add_weapon_sound" overload
 		("2cm_Flakvierling")
@@ -1664,6 +1664,14 @@
 		{view start "flashbarrel1"}
 		{view start "flashbarrel1smoke"}
 		{call "spawn_shell"}
+	}
+}
+{"lvt4_ger tank"
+	("m3_stuart_sound")
+	{on "add_weapon_sound" overload
+		("MG34")
+		("MG42")
+		
 	}
 }
 

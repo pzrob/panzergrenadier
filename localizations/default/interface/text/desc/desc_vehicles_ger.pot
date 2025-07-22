@@ -1732,6 +1732,26 @@ msgctxt "info/special/88mm_flak36"
 msgid "<c(c3baae)>Heavy AA Gun</c>"
 msgstr ""
 
+msgctxt "desc/entity/lvt4_ger"
+msgid "Landwasserschlepper"
+msgstr ""
+
+msgctxt "desc/entity/lca_grh_ger"
+msgid "Pionierlandungsboot 39"
+msgstr ""
+
+msgctxt "desc/entity/lca_ger"
+msgid "Landungsboot"
+msgstr ""
+
+msgctxt "desc/entity/opel_maultier_30mm"
+msgid "Maultier Mk103"
+msgstr ""
+
+msgctxt "info/special/opel_maultier_30mm"
+msgid "<c(c3baae)>Maultier with Mk103 30mm Gun</c>"
+msgstr ""
+
 
 
 

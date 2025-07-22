@@ -1,0 +1,26 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/rus/grass_green_transition_var"}
+			{bump "/texture/land/goh_summer/rus/grass_green_transition_var_nm"}
+			{specular "/texture/land/goh_summer/rus/grass_green_transition_var_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/rus/clay_cracked"}
+			{bump "/texture/land/goh_summer/rus/clay_cracked_nm"}
+			{specular "/texture/land/goh_summer/rus/clay_cracked_sp"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/rus/grass_green_transition_var"}
+			{bump "/texture/land/goh_summer/rus/grass_green_transition_var_nm"}
+			{specular "/texture/land/goh_summer/rus/grass_green_transition_var_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/rus/clay3"}
+			{bump "/texture/land/goh_summer/rus/clay3_nm"}
+			{specular "/texture/land/goh_summer/rus/clay3_sp"}
+		}
+	}
+}

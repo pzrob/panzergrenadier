@@ -1853,6 +1853,19 @@
 	("animation_sound" args "close_rear")
 }
 
+{"opel_maultier_30mm"
+	("opel_maultier_sound")
+	("animation_sound" args "open_left")
+	("animation_sound" args "open_right")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+	}
+	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
+}
+
 {"opel_maultier_transport"
 	("opel_maultier_sound")
 	("animation_sound" args "open_left")

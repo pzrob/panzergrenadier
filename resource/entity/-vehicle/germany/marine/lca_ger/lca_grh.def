@@ -1,0 +1,58 @@
+{game_entity
+	(include "/properties/marine.ext")
+	(include "/properties/selection/vehicle_big.inc" scale(1.3))
+	{props "lca" "marine" "with_gun" "open_without_land" "emit_on_sink" "multi_board" "explosion_throw_crew"}
+ 	{targetSelector "tank_bullet"}
+	{patherid "shallow_water_0"}
+	{extension "lca_grh.mdl"}
+	(include "lca.ext")
+	{extension "crew.ext"}
+
+	{extender "enumerator"
+		{digit_folder "us2"}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "50mm_rocket_grapnel ammo" 4}
+			{item "mg34_belt" filled {user "mgun"}}
+			{item "mgun_ger belt" 2010}
+		}
+	}
+
+	{Weaponry
+		{place "gun"
+			{Barrels 4}
+			{weapon "weapon 50mm_rocketprojector_x4" filling "50mm_rocket_grapnel" 4}
+			{gunner "driver"}
+			{charger "driver"}
+			{basic}
+			("abm_dymamic_mortar"
+				zeroing(0.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(0)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+		{place "mgun"
+			{type "hull"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 9144}
+	{chassis
+		{Locomotion ("locomotion")
+			{TurnRadius	4}
+			{MaxSpeed	19}
+			{StartTime	18}
+			{BrakeTime	6}
+			{TurnTime	45}
+		}
+	}
+}

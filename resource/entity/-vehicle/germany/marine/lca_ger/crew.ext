@@ -1,0 +1,269 @@
+;SDL
+{Placer
+	{place "driver"
+		{LinkBone "driver"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "gunner"
+		{LinkBone "gunner"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place1"
+		{LinkBone "place1"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place2"
+		{LinkBone "place2"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place3"
+		{LinkBone "place3"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place4"
+		{LinkBone "place4"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place5"
+		{LinkBone "place5"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place6"
+		{LinkBone "place6"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place7"
+		{LinkBone "place7"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place8"
+		{LinkBone "place8"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place9"
+		{LinkBone "place9"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place10"
+		{LinkBone "place10"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place11"
+		{LinkBone "place11"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place12"
+		{LinkBone "place12"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place13"
+		{LinkBone "place13"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place14"
+		{LinkBone "place14"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place15"
+		{LinkBone "place15"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place16"
+		{LinkBone "place16"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place17"
+		{LinkBone "place17"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place18"
+		{LinkBone "place18"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place19"
+		{LinkBone "place19"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place20"
+		{LinkBone "place20"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place21"
+		{LinkBone "place21"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place22"
+		{LinkBone "place22"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place23"
+		{LinkBone "place23"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place24"
+		{LinkBone "place24"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place25"
+		{LinkBone "place25"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place26"
+		{LinkBone "place26"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place27"
+		{LinkBone "place27"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place28"
+		{LinkBone "place28"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place29"
+		{LinkBone "place29"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+	{place "place30"
+		{LinkBone "place30"}
+		{turnoff {sensor} {shadow}}
+		{obstacle disable}
+	}
+}
+
+{Boarder
+	{anm "driver"
+		{forward {begin "lca_ty_pass_enter_1"} {end "seat_lca_driver"} {base "board"}}
+		{reverse {end "lca_ty_pass_exit_1"} {base "board"}}
+	}
+	{anm "gunner"
+		{forward {begin "lca_ty_pass_enter_1"} {end "seat_lca_gunner"} {base "board"}}
+		{reverse {end "lca_ty_pass_exit_2"} {base "board"} }
+	}
+	{anm "seat"
+		{forward {begin "lca_ty_pass_enter_1"} {end "seat_lca_pass"} {base "board"}}
+		{reverse {end "lca_ty_pass_exit_1"} {base "board"} }
+	}
+	{anm "seat1"
+		{forward {begin "lca_ty_pass_enter_1"}  {end "seat_lca_pass1"} {base "board"}}
+		{reverse {end "lca_ty_pass_exit_2"} {base "board"} }
+	}
+	{anm "seat2"
+		{forward {begin "lca_ty_pass_enter_1"} {end "seat_lca_pass2"} {base "board"}}
+		{reverse {end "lca_ty_pass_exit_1"} {base "board"}}
+	}
+	{anm "seat3"
+		{forward {begin "lca_ty_pass_enter_1"} {end "seat_lca_pass3"} {base "board"}}
+		{reverse {end "lca_ty_pass_exit_2"} {base "board"}}
+	}
+
+	{door "emit1"}
+	{door "emit2"}
+
+	{link "emit1" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	{link "emit2" "gunner" {anm "gunner"} {forward putoff} {reverse puton}}
+	{link "emit1" "place1" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place2" {anm "seat1"} {forward putoff} {reverse puton}}
+	{link "emit1" "place3" {anm "seat2"} {forward putoff} {reverse puton}}
+	{link "emit2" "place4" {anm "seat3"} {forward putoff} {reverse puton}}
+	{link "emit1" "place5" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place6" {anm "seat1"} {forward putoff} {reverse puton}}
+	{link "emit1" "place7" {anm "seat2"} {forward putoff} {reverse puton}}
+	{link "emit2" "place8" {anm "seat3"} {forward putoff} {reverse puton}}
+	{link "emit1" "place9" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place10" {anm "seat1"} {forward putoff} {reverse puton}}
+	{link "emit1" "place11" {anm "seat2"} {forward putoff} {reverse puton}}
+	{link "emit2" "place12" {anm "seat3"} {forward putoff} {reverse puton}}
+	{link "emit1" "place13" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place14" {anm "seat1"} {forward putoff} {reverse puton}}
+	{link "emit1" "place15" {anm "seat2"} {forward putoff} {reverse puton}}
+	{link "emit2" "place16" {anm "seat3"} {forward putoff} {reverse puton}}
+	{link "emit1" "place17" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place18" {anm "seat2"} {forward putoff} {reverse puton}}
+	{link "emit1" "place19" {anm "seat3"} {forward putoff} {reverse puton}}
+	{link "emit2" "place20" {anm "seat1"} {forward putoff} {reverse puton}}
+	{link "emit1" "place21" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place22" {anm "seat1"} {forward putoff} {reverse puton}}
+	{link "emit1" "place23" {anm "seat2"} {forward putoff} {reverse puton}}
+	{link "emit2" "place24" {anm "seat3"} {forward putoff} {reverse puton}}
+	{link "emit1" "place25" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place26" {anm "seat1"} {forward putoff} {reverse puton}}
+	{link "emit1" "place27" {anm "seat2"} {forward putoff} {reverse puton}}
+	{link "emit2" "place28" {anm "seat3"} {forward putoff} {reverse puton}}
+	{link "emit1" "place29" {anm "seat"} {forward putoff} {reverse puton}}
+	{link "emit2" "place30" {anm "seat1"} {forward putoff} {reverse puton}}
+}
+
+
+(define "define_place"
+	{Placer
+		{place "attach%place"
+			{LinkBone "%place"}
+			{turnoff {sensor} {shadow}}
+			{obstacle disable}
+		}
+	}
+)
+
+(define "define_place_jump"
+	{placer
+		{place "%i"
+			;{attach squat_lie}
+			{linkbone "attach%i"}
+			{turnoff {shadow}}
+			{obstacle disable}
+		}
+	}
+	{boarder
+		{door "emit_l1"}
+		{node "node_l1"}
+		{node "node_l2"}
+
+		{link "emit_l1" "%i" {anm "[fsm]"}{forward putoff} {reverse puton}}
+		;{link "emit_l1" "%i" {anm "%anm"} {forward putoff} {reverse puton}}
+		
+		;{link "emit_l1" "node_l1" {anm "[fsm]"}}
+		;{link "node_l1" "node_l2" {anm "[fsm]"}}
+		;{link "node_l2" "%i" {anm "%anm"} {forward putoff} {reverse puton}}
+	}
+	{Volume "place%i"
+		{tags "attach" "attach_%i"}
+		{able clear {touch 1}}
+		;{able clear}
+	}
+)
+
+;("define_place_jump" i(driver) anm(1driver))
+;("define_place_jump" i(gunner) anm(1gunner))
+;("define_place_jump" i(place1) anm(1seat))

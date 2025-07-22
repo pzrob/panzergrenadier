@@ -1,0 +1,76 @@
+;SDL
+	; armor notes
+	; bulkhead and sides 19mm
+	; top deck 6.4mm
+
+	("gun" repair(30) thickness(8))
+
+	("shield_group" args "shield1" 19 "body")
+	("shield_group" args "shield2" 19 "body")
+	("shield_group" args "shield3" 19 "body")
+	("shield_group" args "shield4" 19 "body")
+	("shield_group" args "shield5" 19 "body")
+	("shield_group" args "shield6" 19 "body")
+	("shield_group" args "shield7" 19 "body")
+	("shield_group" args "shield8" 19 "body")
+	("shield_group" args "shield9" 19 "body")
+	("shield_group" args "shield10" 19 "body")
+	("shield_group" args "shield11" 19 "body")
+
+	{volume "body1"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body2"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body3"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body4"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body5"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body6"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+		{able {holed}}
+	}
+	{Volume "body7"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{Volume "body8"
+		{thickness 19
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{Volume "engine"
+		{thickness 2}
+	}
