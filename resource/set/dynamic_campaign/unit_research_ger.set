@@ -177,6 +177,7 @@
 	{"opel_maultier"		requires	"blitz3_6_art_ammo"		costs 1  position 3 10}
 	{"opel_maultier_transport"  requires	"blitz3_6_art_ammo"		costs 1  position 2 10}
 	{"opel_maultier_mg"     requires	"blitz3_6_art_ammo"		costs 1  position 2 8}
+	{"opel_maultier_30mm"   requires	"opel_maultier_mg"		costs 3  position 3 8}
 	{"blitz3_6_engineering"	requires	"kettenkrad_eng"		costs 1  position 4 12}
 	{"blitz3_6_flak30"		requires	"20mm_flak30"			costs 1  position 0 26}
 	{"kubelwagen_dak"		requires	"squad_recon_con(ger)"	costs 1  position 3 20}
@@ -246,6 +247,7 @@
 	{"panzer2f"				requires	"panzer2c"		costs 1  position 1 47}
 	{"panzer2l"				requires	"panzer2f"		costs 1  position 3 47}
 	{"marder2"				requires	"panzer2f"		costs 3  position 2 48}
+	{"lvt4_ger"		        requires	""	            costs 4  position 0 38}
 
 	{"pz35t"				requires	"panzer2c"		costs 1  position 0 49}
 	{"pz38t_a"				requires	"pz35t"			costs 1  position 0 50}

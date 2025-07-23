@@ -2,8 +2,8 @@
 ;Model created by: guita
 ;Date: 16.06.2025 09:20:41
 ;File: G:\SVN\Working Resources\GatesOfHell\GoH_3d_vehicle_ger\vehicles\car\Krupp_protze_kfz70\kfz70.max
-;Model create/rebuild by: Frostyy
-;Last build date: Sunday 21 June 2025 [14:10:33]
+;Model create/rebuild by: pzrob
+;Last build date: Wednesday 22 July 2025 [22:28:08]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.6}}
@@ -12,7 +12,7 @@
 	{sequence "board" {speed 1}{events {0 "board"}}}
 	{sequence "close_back" {speed 0.7} {events {0 "open_rear"}}}
 	{sequence "open_back" {speed 0.7} {events {0 "close_rear"}}}
-        {sequence "mgun_aa_2" {speed 0.7}{resume}}
+        {Sequence "mgun_aa_2" {Speed 0.7} {Resume}}
         {Sequence "fire00" {Speed 1.5}}
         {Sequence "fire01" {Speed 1.5}}
         {Sequence "fire02" {Speed 1.5}}
@@ -313,16 +313,6 @@
                             0.9433	-0.0001	25.4528
                         }
                         {VolumeView "gun_rot.ply"}
-                        {Bone "gun_shield"
-                            {Parameters "id=gun;"}
-                            {Matrix34
-                                1	0	0
-                                0	0	-1
-                                0	1	0
-                                0.3348	-0.4433	-0.0003
-                            }
-                            {VolumeView "gun_shield.ply"}
-                        }
                         {Bone "gun1"
                             {Parameters "id=gun;"}
                             {Matrix34
@@ -826,11 +816,6 @@
         0	0	1
         0	0.0036	-0.1
     }
-}
-{Volume "gun_shield"
-    {Polyhedron "gun_shield.vol"}
-    {Bone "gun_shield"}
-    {Position 0.0377	-0.0002	-0.6267}
 }
 {Volume "barrel1"
     {Polyhedron "barrel1.vol"}
