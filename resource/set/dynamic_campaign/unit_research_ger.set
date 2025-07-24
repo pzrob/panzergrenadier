@@ -78,6 +78,8 @@
 	{"squad_pz_pio_302_con(ger)"		requires	"squad_pz_pio_con"					costs 1  position 6 18}
 	{"squad_pz_pio_303b_con(ger)"		requires	"squad_pz_pio_302_con(ger)"			costs 0  position 7 18}
 	{"squad_pz_pio_late_con"			requires	"squad_pz_pio_con"					costs 3  position 7 19}
+	{"squad_recon_ss_armor_con"			requires	"squad_grenadier_con(ger)"			costs 1  position 0 24}
+	{"squad_ss_panzergren_motor_con"	requires	"squad_recon_ss_armor_con"	        costs 2  position 1 24}
 
 	{"squad_recon_con(ger)"				requires	"squad_sicherung_con(ger)"			costs 1  position 1 20}
 	{"squad_recon_motor_con"			requires	"kubelwagen_dak"					costs 0  position 4 20}
@@ -116,13 +118,13 @@
 	{"panzernest_krab_ger" requires	"blitz3_6_engineering" costs 2  position 5 13} ;//Talvisota, SE
 
 ;//---MG---
-	{"mg34_lafette"	requires 	""					costs 1  position 0 24}
-	{"mg42_lafette"	requires 	"mg34_lafette"		costs 1  position 2 24}
+	{"mg34_lafette"	requires 	""					costs 1  position 0 25}
+	{"mg42_lafette"	requires 	"mg34_lafette"		costs 1  position 2 25}
 
 ;//---Mortar---
-	{"80mm_sgrw34"	requires	""					costs 2  position 4 24}
-	{"100mm_nbw35"	requires	"80mm_sgrw34"		costs 2  position 6 24}
-	{"120mm_sgrw42"	requires	"100mm_nbw35"		costs 2  position 8 24}
+	{"80mm_sgrw34"	requires	""					costs 2  position 4 25}
+	{"100mm_nbw35"	requires	"80mm_sgrw34"		costs 2  position 6 25}
+	{"120mm_sgrw42"	requires	"100mm_nbw35"		costs 2  position 8 25}
 	{"200mm_ldgw40"	requires	"blitz3_6_engineering" costs 4  position 6 12}
 
 ;//---AA---

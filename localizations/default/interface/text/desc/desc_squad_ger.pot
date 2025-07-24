@@ -1104,7 +1104,15 @@ msgid "Command Fallschirmjäger Paradrop Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sturmzug_con(ger)"
-msgid "<c(A5A095)>(4)</c> Sturmzug Assault squad"
+msgid "<c(A5A095)>(4)</c> Sturmzug Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_ss_armor_con"
+msgid "<c(A5A095)>(2)</c> Recon SS Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ss_panzergren_motor_con"
+msgid "<c(A5A095)>(2)</c> SS Panzergrenadier Squad"
 msgstr ""
 
 

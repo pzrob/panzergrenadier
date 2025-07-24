@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_ss_43_pzgren_nco_smg_feldwebel"}
+	{portrait "ger_pzgrenadier"}
+	{icon "smg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors	
+		{head ger_stalhelm_m43_camo1_wire}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")("tier4_standard")
+		("binocular_vision")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "mp40_unfolded" filled}
+		{item "mp40 ammo" 320}
+
+        {item "panzerfaust_100 weapon" 1 filled}
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 2}
+		{item "m24_geballteladung grenade" 2}
+
+		{item "bandage_ger" 5}
+		{item "binocular"}
+		
+		{in_hands 0}
+	}
+}

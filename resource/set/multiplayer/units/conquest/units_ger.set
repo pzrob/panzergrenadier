@@ -69,6 +69,9 @@
 {"squad_recon_armor_con"
 	("squad_vehicle6"		 side(ger) period(mid) min_stage(4) max_stage(99) cw(1) cp(2) vehicle(sdkfz251c) crew1(pz_recon_rifle:2) crew2(pz_recon_sl:1) crew3(pz_recon_sl_asst:1) crew4(pz_recon_rifle:4) crew5(pz_recon_mg:2) crew6(pz_recon_mg_asst:2)) 
 }
+{"squad_recon_ss_armor_con"
+	("squad_vehicle4"		 side(ger) period(mid) min_stage(4) max_stage(99) cw(1) cp(2) vehicle(sdkfz10_1) crew1(ss_pzgren_rifle:1) crew2(ss_pzgren_sl:1) crew3(ss_pzgren_sl_asst:1) crew4(ss_pzgren_rifle_pzf:5)) 
+}
 {"squad_pz_recon_armor_late_con"
 	("squad_vehicle4"		 side(ger) period(late) min_stage(10) max_stage(99) cw(1) cp(2) vehicle(sdkfz250a_1) crew1(pz_recon_rifle:3) crew2(pz_recon_sl_smg:1) crew3(pz_recon_mg:1) crew4(pz_recon_mg_asst:1))
 }
@@ -142,6 +145,9 @@
 }
 {"squad_sturm_pzg_lehr_armor_con"
 	("squad_vehicle5"		 side(ger) period(late) min_stage(10) max_stage(99) cw(3) cp(5) vehicle(sdkfz251d_1) crew1(lehr_pzgren_rifle:2) crew2(lehr_pzgren_sturm_sl:1) crew3(lehr_pzgren_sturm_sl_asst:1) crew4(lehr_pzgren_sturm_stg_pzf:4) crew5(lehr_pzgren_sturm_stg:4)) 
+}
+{"squad_ss_panzergren_motor_con"
+	("squad_vehicle8"		 side(ger) period(mid) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(blitz3_6) crew1(ss_pzgren_rifle:1) crew2(ss_pzgren_sl:1) crew3(ss_pzgren_sl_asst:1) crew4(ss_pzgren_rifle_pzf2:3) crew5(ss_pzgren_at:1) crew6(ss_pzgren_stg:3) crew7(ss_pzgren_mg:2) crew8(ss_pzgren_mg_asst:2))
 }
 
 ;// t4
