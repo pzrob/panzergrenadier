@@ -116,6 +116,12 @@
 {"mp/ger/mid/recon_sl"		("inf_tier2" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(10.0))} ; mp40
 {"mp/ger/mid/recon_sl_asst"	("inf_tier2" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(8.0))} ; k98
 
+{"mp/ger/mid/hitlerjugend_mg"		("inf_tier2" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(35.0))} ; mg34 drum
+{"mp/ger/mid/hitlerjugend_mg_asst"	("inf_tier2_lite" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(8.0))} ; k98
+{"mp/ger/mid/hitlerjugend_rifle"	("inf_tier2_lite" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(8.0))} ; k98
+{"mp/ger/mid/hitlerjugend_sl"		("inf_tier2" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(10.0))} ; mp40
+{"mp/ger/mid/hitlerjugend_sl_asst"	("inf_tier2" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(8.0))} ; stg44
+
 {"mp/ger/mid/pz_recon_mg"		("inf_tier2" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(35.0))} ; mg34 drum
 {"mp/ger/mid/pz_recon_mg_asst"	("inf_tier2_lite" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(8.0))} ; k98
 {"mp/ger/mid/pz_recon_rifle"	("inf_tier2_lite" side(ger) lvl(lvl1 lvl2) r(1) rm(8) cost(8.0))} ; k98
@@ -371,6 +377,14 @@
 {"mp/ger/late/gd_pzgren_sl_asst"			("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(21.0))} ; g43 + % pzfaust 100
 {"mp/ger/late/gd_pzgren_stg"				("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(28.0))} ; stg44 + % pzfaust 100 
 
+{"mp/ger/late/lssah_pzgren_at"				("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(75.0))} ; pistol + pzschreck
+{"mp/ger/late/lssah_pzgren_mg"				("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(55.0))} ; mg42 belt (100 round)
+{"mp/ger/late/lssah_pzgren_mg_asst"			("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(16.0))} ; k98
+{"mp/ger/late/lssah_pzgren_rifle"			("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(16.0))} ; k98		
+{"mp/ger/late/lssah_pzgren_sl"				("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(18.0))} ; mp40
+{"mp/ger/late/lssah_pzgren_sl_asst"			("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(21.0))} ; g43 + % pzfaust 60
+{"mp/ger/late/lssah_pzgren_stg"	            ("inf_tier3" side(ger) lvl(lvl2 lvl3) r(9) rm(99) cost(28.0))} ; stg44
+
 ;// tier 4
 
 {"mp/ger/mid/blau_1"		("inf_tier4" side(ger) lvl(lvl3) r(1) rm(8) cost(20.0))} ; mp40
@@ -484,4 +498,13 @@
 {"mp/ger/mid/pzgren_sl"			    ("inf_tier2" side(ger) lvl(lvl1 lvl2) r(9) rm(99) cost(10.0))} ; mp40
 {"mp/ger/mid/pzgren_sl_asst"		("inf_tier2" side(ger) lvl(lvl1 lvl2) r(9) rm(99) cost(13.0))} ; g43 + % pzfaust 60
 {"mp/ger/mid/pzgren_stg"			("inf_tier2" side(ger) lvl(lvl1 lvl2) r(9) rm(99) cost(20.0))} ; stg44
+
+{"mp/ger/late/das_reich_at"			    ("inf_tier3" side(ger) lvl() r(10) rm(99) cost(80.0))} ; pzschreck
+{"mp/ger/late/das_reich_rifle"		    ("inf_tier3" side(ger) lvl() r(10) rm(99) cost(13.0))} ; k98
+{"mp/ger/late/das_reich_mg"			    ("inf_tier3" side(ger) lvl() r(10) rm(99) cost(50.0))} ; MG42 belt (100 round)
+{"mp/ger/late/das_reich_mg_asst"		("inf_tier3" side(ger) lvl() r(10) rm(99) cost(13.0))} ; k98
+{"mp/ger/late/das_reich_sl"			    ("inf_tier3" side(ger) lvl() r(10) rm(99) cost(15.0))} ; mp40
+{"mp/ger/late/das_reich_sl_asst"		("inf_tier3" side(ger) lvl() r(10) rm(99) cost(13.0))} ; k98 + % pzfaust 100
+{"mp/ger/late/das_reich_smg"		    ("inf_tier3" side(ger) lvl() r(10) rm(99) cost(25.0))} ; mp40
+{"mp/ger/late/das_reich_stg"			("inf_tier3" side(ger) lvl() r(10) rm(99) cost(25.0))} ; stg44
 

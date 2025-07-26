@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_heer_camo_43_pzgren_mg_asst_1"}
+	{portrait "ger_scout"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_stalhelm_m43_camo1_band_var1}
+	}
+	{perks
+		(include "ability.inc")
+		("loader_skill_rank_2")("tier2_recon")
+		
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "k98" filled}
+		{item "rifle_ger clip ammo" 80 5}
+
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 1}
+		{item "m24_geballteladung grenade" 2}
+
+		{item "mgun_ger belt ammo" 900}
+		{item "bandage_ger" 4}
+		{item "mgun_ammo_belt"}
+
+		{in_hands 0}
+	}
+}

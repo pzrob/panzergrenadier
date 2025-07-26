@@ -80,6 +80,9 @@
 	{"squad_pz_pio_late_con"			requires	"squad_pz_pio_con"					costs 3  position 7 19}
 	{"squad_recon_ss_armor_con"			requires	"squad_grenadier_con(ger)"			costs 1  position 0 24}
 	{"squad_ss_panzergren_motor_con"	requires	"squad_recon_ss_armor_con"	        costs 2  position 1 24}
+	{"squad_ss_hitlerjugend_motor_con"	requires	"squad_regular_motor_con"	        costs 2  position 3 24}
+	{"squad_ss_leibstandarte_armor_con"	requires	"squad_regular_armor_con"			costs 4  position 5 24}
+	{"squad_ss_das_reich_motor_con"	    requires	"squad_regular_motor_con"			costs 6  position 6 24}
 
 	{"squad_recon_con(ger)"				requires	"squad_sicherung_con(ger)"			costs 1  position 1 20}
 	{"squad_recon_motor_con"			requires	"kubelwagen_dak"					costs 0  position 4 20}

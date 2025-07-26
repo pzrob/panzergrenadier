@@ -1115,4 +1115,16 @@ msgctxt "desc/squad/squad_ss_panzergren_motor_con"
 msgid "<c(A5A095)>(2)</c> SS Panzergrenadier Squad"
 msgstr ""
 
+msgctxt "desc/squad/squad_ss_hitlerjugend_motor_con"
+msgid "<c(A5A095)>(2)</c> 12th SS Hitlerjugend Panzer Division"
+msgstr ""
+
+msgctxt "desc/squad/squad_ss_leibstandarte_armor_con"
+msgid "<c(A5A095)>(2)</c> 1st SS Leibstandarte Adolf Hitler"
+msgstr ""
+
+msgctxt "desc/squad/squad_ss_das_reich_motor_con"
+msgid "<c(A5A095)>(2)</c> 2nd SS Division Das Reich"
+msgstr ""
+
 
