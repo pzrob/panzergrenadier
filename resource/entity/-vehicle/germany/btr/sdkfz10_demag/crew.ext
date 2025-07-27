@@ -1,0 +1,61 @@
+;SDL
+
+{boarder
+	{anm "passenger1"
+		{forward	{begin	"board_sdkfz10_all"} {end "seat_sdkfz10_passl1"} {base "open"}}
+		{reverse 	{end	"emit_tank_1"} {base "open" -1}}
+	}
+	{anm "passenger2"
+		{forward	{begin	"board_sdkfz10_all"} {end "seat_sdkfz10_passr1"} {base "open"}}
+		{reverse 	{end	"emit_tank_1"} {base "open" -1}}
+	}
+	{anm "passenger3"
+		{forward	{begin	"board_sdkfz10_all"} {end "seat_sdkfz10_passl2"} {base "open"}}
+		{reverse 	{end	"emit_tank_1"} {base "open" -1}}
+	}
+	{anm "passenger4"
+		{forward	{begin	"board_sdkfz10_all"} {end "seat_sdkfz10_passr2"} {base "open"}}
+		{reverse 	{end	"emit_tank_1"} {base "open" -1}}
+	}
+	{anm "driver"
+		{forward	{begin	"board_sdkfz10_driver"} {end "seat_sdkfz10_driver"} {base "open"}}
+		{reverse 	{end	"emit_tank_1"} {base "open" -1}}
+	}
+	{anm "commander"
+		{forward	{begin	"board_sdkfz10_all"} {end "seat_sdkfz10_commander"} {base "open"}}
+		{reverse 	{end	"emit_tank_1"} {base "open" -1}}
+	}
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {sensor} {shadow}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+{##sensor
+;    {visor "human"
+;		{bone "foresight14"}
+;	}
+	{visor "around"
+		{vision "tank_around"}
+	}
+}
+
+{placer
+	{place "driver" {visor "main"}}
+	{place "commander" {visor "around"}}
+}
+
+("crew_human" place(driver)		door(emit1) bone(driver) animation(driver)		group(crew)) 
+("crew_human" place(commander)	door(emit2) bone(commander) animation(commander)	group(crew))
+("crew_human" place(seat1)		door(emit3) bone(seat1) animation(passenger1)	group(passenger))
+("crew_human" place(seat2)		door(emit4) bone(seat2) animation(passenger2)	group(passenger))
+("crew_human" place(seat3)		door(emit3) bone(seat3) animation(passenger1)	group(passenger))
+("crew_human" place(seat4)		door(emit4) bone(seat4) animation(passenger2)	group(passenger))
+("crew_human" place(seat5)		door(emit3) bone(seat5) animation(passenger3)	group(passenger))
+("crew_human" place(seat6)		door(emit4) bone(seat6) animation(passenger4)	group(passenger))

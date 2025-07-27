@@ -1853,6 +1853,14 @@
 	("animation_sound" args "close_rear")
 }
 
+{"opel_maultier_sdkfz3"
+	("opel_maultier_sound")
+	("animation_sound" args "open_left")
+	("animation_sound" args "open_right")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+}
+
 {"opel_maultier_30mm"
 	("opel_maultier_sound")
 	("animation_sound" args "open_left")
@@ -1879,6 +1887,10 @@
 }
 
 {"sdkfz10_1"
+	("hanomag_sound")
+}
+
+{"sdkfz10_demag"
 	("hanomag_sound")
 }
 

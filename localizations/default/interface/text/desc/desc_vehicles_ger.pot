@@ -1752,6 +1752,14 @@ msgctxt "info/special/opel_maultier_30mm"
 msgid "<c(c3baae)>Maultier with Mk103 30mm Gun</c>"
 msgstr ""
 
+msgctxt "desc/entity/opel_maultier_sdkfz3"
+msgid "Opel Maultier (Sd.Kfz.3)"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz10_demag"
+msgid "Sd.Kfz 10 Demag"
+msgstr ""
+
 
 
 

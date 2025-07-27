@@ -412,7 +412,7 @@
 ;|________________________________________________|
 
 {"bmw_r71"
-	("vehicle2" side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_2:1) crew2(mgun_2:1))
+	("vehicle2" side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_2:2) crew2(mgun_2:1))
 	{cost 60}
 }
 {"schwimmwagen"
@@ -472,6 +472,10 @@
 	{cost 25}
 }
 {"sdkfz10_1"
+	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+	{cost 25}
+}
+{"sdkfz10_demag"
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
 	{cost 25}
 }
@@ -648,6 +652,10 @@
 	{cost 150}
 }	
 {"opel_maultier_transport"
+	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
+	{cost 10}
+}
+{"opel_maultier_sdkfz3"
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
 	{cost 10}
 }		
