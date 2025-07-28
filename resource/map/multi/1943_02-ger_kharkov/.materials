@@ -1,0 +1,54 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/goh_winter/snow_1a"}
+			{bump "/texture/land/goh_winter/snow_1a_nm"}
+			{specular "/texture/land/goh_winter/snow_1a_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_autlate/mud_aut"}
+			{bump "/texture/land/goh_autlate/mud_aut_nm"}
+			{specular "/texture/land/goh_autlate/mud_aut_sp"}
+			{height "/texture/land/goh_autlate/mud_aut_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/goh_winter/snow_1a"}
+			{bump "/texture/land/goh_winter/snow_1a_nm"}
+			{specular "/texture/land/goh_winter/snow_1a_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_winter/snow_muddy"}
+			{bump "/texture/land/goh_winter/snow_muddy_nm"}
+			{specular "/texture/land/goh_winter/snow_muddy_sp"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/goh_winter/snow_1a"}
+			{bump "/texture/land/goh_winter/snow_1a_nm"}
+			{specular "/texture/land/goh_winter/snow_1a_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_winter/snow_field1"}
+			{bump "/texture/land/goh_winter/snow_field1_nm"}
+			{specular "/texture/land/goh_winter/snow_field1_sp"}
+			{height "/texture/land/goh_winter/snow_field1_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/goh_winter/snow_1a"}
+			{bump "/texture/land/goh_winter/snow_1a_nm"}
+			{specular "/texture/land/goh_winter/snow_1a_sp"}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_winter/ice_splattered_light"}
+			{bump "/texture/land/goh_winter/ice_splattered_light_nm"}
+			{specular "/texture/land/goh_winter/ice_splattered_light_sp"}
+		}
+	}
+}

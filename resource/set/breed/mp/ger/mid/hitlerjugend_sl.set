@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_camo_43_pzgren_nco_smg_feldwebel"}
+	{skin "ger_heer_palm_43_smg_1"}
 	{portrait "ger_scout"}
 	{icon "smg"}
 	{icon_priority 0}

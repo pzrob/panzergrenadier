@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_ver10_43_pzgren_at_rkt"}
+	{skin "ger_heer_ss_43_pio_at_rkt"}
 	{portrait "ger_elite"}
 	{icon "bazooka"}
 	{icon_priority 0}

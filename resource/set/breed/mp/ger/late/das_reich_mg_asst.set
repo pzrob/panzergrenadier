@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_ver10_43_pzgren_mg_asst_1"}
+	{skin "ger_heer_ss_43_pio_mg_asst"}
 	{portrait "ger_elite"}
 	{icon "rifle"}
 	{icon_priority 0}
@@ -27,6 +27,7 @@
 		{item "mgun_ger belt ap ammo" 600}
 		{item "bandage_ger" 5}
 		{item "shovel_ger"}
+		{item "ger_ammo_box"}
 		{item "mgun_ammo_belt"}
 
 		{in_hands 0}

@@ -44,8 +44,11 @@
 			{"multi/1942_10-rus_stalingrad_volga:campaign_capture_the_flag"}
 			{"multi/1942_11-ger_mamayev_kurgan:campaign_capture_the_flag"}
 			{"multi/1943_02_krasny_bor:campaign_capture_the_flag"}
+			{"multi/1943_02-ger_kharkov:campaign_capture_the_flag"}
 			{"multi/1943_11_kiev:campaign_capture_the_flag"}
+			{"multi/1944_03_narva:campaign_capture_the_flag"}
 			{"multi/1944_07-rus_op_bagration:campaign_capture_the_flag"}
+			{"multi/1944_10_courland:campaign_capture_the_flag"}
 			{"multi/1945_04-rus_seelow_heights:campaign_capture_the_flag"}
 			{"multi/1945-04-ger_berlin:campaign_capture_the_flag"}
 		}
@@ -150,15 +153,18 @@
 			{"multi/dcg_verviers_airfield:campaign_capture_the_flag"}
 			
 			{"multi/1944_06_saint_lo_hills:campaign_capture_the_flag"}
+			{"multi/1944_06_02_sainte_mere_eglise:campaign_capture_the_flag"}
 			{"multi/1944_06_pointe_du_hoc:campaign_capture_the_flag"}
 			{"multi/1944_06_05_carentan:campaign_capture_the_flag"}
 			{"multi/1944_08_skirmish_falaise_pocket:campaign_capture_the_flag"}
 			{"multi/1944_09_01_nijmegen:campaign_capture_the_flag"}
-			{"multi/1944_12_03_bastogne:campaign_capture_the_flag"}
+			{"multi/1944_12_02_elsenborn:campaign_capture_the_flag"}
+			{"multi/1944_12_03_bastogne:campaign_capture_the_flag"}	
 			{"multi/1944_10_skirmish_hurtgen_forest:campaign_capture_the_flag"}
 	        {"multi/1944_12_hill400:campaign_capture_the_flag"}
 			{"multi/1944_12_skirmish_bulge:campaign_capture_the_flag"}
 			{"multi/1944_12_01_noville:campaign_capture_the_flag"}
+			{"multi/1944_12_samree:campaign_capture_the_flag"}
 			{"multi/1945_03_cologne:campaign_capture_the_flag"}
 		}
 	}

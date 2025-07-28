@@ -116,7 +116,7 @@
 	("squad_vehicle8"		 side(ger) period(late) min_stage(9) max_stage(99) cw(3) cp(5) vehicle(sdkfz251d_1) crew1(pz_pio_rifle:2) crew2(pz_pio_sl_stg:1) crew3(pz_pio_sl_asst:1) crew4(pz_pio_mine:1) crew5(pz_pio_flame:1) crew6(pz_pio_at:1) crew7(pz_pio_mg:2) crew8(pz_pio_mg_asst:2)) 
 }
 {"squad_ss_hitlerjugend_motor_con"
-    ("squad_vehicle6"        side(ger) period(mid) min_stage(9) max_stage(99) cw(1) cp(2) vehicle(blitz3_6_transport) crew1(hitlerjugend_rifle:2) crew2(hitlerjugend_sl:1) crew3(hitlerjugend_sl_asst:2) crew4(hitlerjugend_rifle:5) crew5(hitlerjugend_mg:2) crew6(hitlerjugend_mg_asst:2))
+    ("squad_vehicle6"        side(ger) period(mid) min_stage(9) max_stage(99) cw(1) cp(2) vehicle(opel_maultier_sdkfz3) crew1(hitlerjugend_rifle:2) crew2(hitlerjugend_sl:1) crew3(hitlerjugend_sl_asst:2) crew4(hitlerjugend_rifle:5) crew5(hitlerjugend_mg:2) crew6(hitlerjugend_mg_asst:2))
 }
 
 ("squad_with2types_0vehicle" side(ger) period(mid) min_stage(7) max_stage(11) name(squad_pz_pio_302_con)		c1(pz_pio_sl:1) c2(pz_pio_rifle:3) vehicle(sdkfz302))
@@ -156,7 +156,7 @@
 	("squad_vehicle7"		 side(ger) period(late) min_stage(9) max_stage(99) cw(3) cp(5) vehicle(sdkfz251d_1) crew1(lssah_pzgren_rifle:2) crew2(lssah_pzgren_sl:1) crew3(lssah_pzgren_sl_asst:1) crew4(lssah_pzgren_stg:2) crew5(lssah_pzgren_at:2) crew6(lssah_pzgren_mg:2) crew7(lssah_pzgren_mg_asst:2)) 
 }	
 {"squad_ss_das_reich_motor_con"
-	("squad_vehicle8"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(opel_maultier_mg) crew1(das_reich_rifle:3) crew2(das_reich_sl:1) crew3(das_reich_sl_asst:1) crew4(das_reich_smg:2) crew5(das_reich_at:2) crew6(das_reich_stg:2) crew7(das_reich_mg:2) crew8(das_reich_mg_asst:2))	
+	("squad_vehicle8"		 side(ger) period(late) min_stage(9) max_stage(99) cw(1) cp(5) vehicle(opel_maultier_mg) crew1(das_reich_rifle:3) crew2(das_reich_sl:1) crew3(das_reich_sl_asst:1) crew4(das_reich_at:2) crew5(das_reich_smg:2) crew6(das_reich_stg:2) crew7(das_reich_mg:2) crew8(das_reich_mg_asst:2))	
 }
 
 ;// t4
@@ -512,8 +512,12 @@
 	{cost 280}
 }
 {"sdkfz251c_tarp"
-	("vehicle2" side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(4) crew1(rifleman_1:2) crew2(medic:2))
+	("vehicle"  side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(4) crew(rifleman_1:2))
 	{cost 90}
+}
+{"sdkfz251c_medic"
+	("vehicle2" side(ger) period(mid) min_stage(8) max_stage(99) cw(2) cp(4) crew1(rifleman_1:2) crew2(medic:2))
+	{cost 200}
 }
 {"sdkfz251c_10"
 	("vehicle2"  side(ger) period(mid) min_stage(3) max_stage(8) cw(2) cp(4)  crew1(tankman:1) crew2(artilleryman:2))
@@ -653,11 +657,11 @@
 }	
 {"opel_maultier_transport"
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
-	{cost 10}
+	{cost 40}
 }
 {"opel_maultier_sdkfz3"
 	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
-	{cost 10}
+	{cost 50}
 }		
 {"opel_maultier_engineering"
 	("vehicle3"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew1(rifleman_1:2) crew2(miner-at:3) crew3(miner-ap:3))

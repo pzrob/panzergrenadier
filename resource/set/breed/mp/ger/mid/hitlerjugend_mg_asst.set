@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_camo_43_pzgren_mg_asst_1"}
+	{skin "ger_heer_palm_43_pio_mg_asst"}
 	{portrait "ger_scout"}
 	{icon "rifle"}
 	{icon_priority 0}
@@ -26,8 +26,9 @@
 		{item "m24_smoke grenade" 1}
 		{item "m24_geballteladung grenade" 2}
 
-		{item "mgun_ger belt ammo" 900}
+		{item "mgun_ger belt ammo" 600}
 		{item "bandage_ger" 4}
+		{item "ger_ammo_box"}
 		{item "mgun_ammo_belt"}
 
 		{in_hands 0}

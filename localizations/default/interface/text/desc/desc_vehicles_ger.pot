@@ -1305,11 +1305,11 @@ msgid "<c(c3baae)>Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251c_tarp"
-msgid "Sd.Kfz 251/1 (Medical)"
+msgid "Sd.Kfz 251/1 (Tarp)"
 msgstr ""
 
 msgctxt "info/special/sdkfz251c_tarp"
-msgid "<c(c3baae)>Medical Halftrack</c>"
+msgid "<c(c3baae)>Transport Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_1"
@@ -1758,6 +1758,14 @@ msgstr ""
 
 msgctxt "desc/entity/sdkfz10_demag"
 msgid "Sd.Kfz 10 Demag"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251c_medic"
+msgid "Sd.Kfz 251/1 (Medical)"
+msgstr ""
+
+msgctxt "info/special/sdkfz251c_medic"
+msgid "<c(c3baae)>Medical Halftrack</c>"
 msgstr ""
 
 

@@ -103,7 +103,7 @@
 )
 
 (define "blau"				;// Blau division
-	{"speed" 0.80}
+	{"speed" 1.00}
 	{"health" "300%"}
 )
 
@@ -111,7 +111,7 @@
 	{"stealth"}
 	{"speed" 1.20}
 	{"health" "300%"}
-	{"stamina" "250%"}
+	{"stamina" "350%"}
 	{barricade
 		{"fortifications" "bush_cover"}
 	}
@@ -122,12 +122,12 @@
 (define "vet_reg"			;// Veteran regular units
 	{"health" "300%"}
 	{"stamina" "150%"}
-	{"stamina_regeneration" "120%"}
+	{"stamina_regeneration" "150%"}
 )
 
 (define "grossdeutschland"	;// German Grossdeutschland division inf/panzergrenadiers
 	{"health" "350%"}
-	{"stamina" "180%"}
+	{"stamina" "300%"}
 	{"stamina_regeneration" "150%"}
 )
 

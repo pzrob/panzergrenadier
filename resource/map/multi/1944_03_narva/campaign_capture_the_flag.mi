@@ -1,0 +1,1148 @@
+{mission
+	{Entity "flag_point_campaign_1" 0x8001
+		{Position -5434.859 204.6016}
+		{xform zl 0}
+		{Constrain surface}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name f1}
+			{zone
+				{radius 0}
+				{zoneId "fpc1"}
+			}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "flag_point_campaign_2" 0x8002
+		{Position -473.5186 402.9932}
+		{xform zl 0}
+		{Constrain surface}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name f2}
+			{zone
+				{radius 0}
+				{zoneId "fpc2"}
+			}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "flag_point_campaign_3" 0x8003
+		{Position 3818.694 -1134.542}
+		{xform zl 0}
+		{Constrain surface}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name f3}
+			{zone
+				{radius 0}
+				{zoneId "fpc3"}
+			}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "flag_point_campaign_4" 0x8004
+		{Position 946.3388 -3168.056}
+		{xform zl 0}
+		{Constrain surface}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name f4}
+			{zone
+				{radius 0}
+				{zoneId "fpc4"}
+			}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_point_campaign_5" 0x8005
+		{Position -1974.977 3213.541}
+		{xform zl 0}
+		{Constrain surface}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name f5}
+			{zone
+				{radius 0}
+				{zoneId "fpc5"}
+			}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0x8011
+		{Position -10967.41 -2126.5}
+		{xform zl 11}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "map_point" 0x8012
+		{Position -10869.49 -142.5837}
+		{xform zl 1}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "map_point" 0x8013
+		{Position -10836.85 1676.006}
+		{xform zl -8}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 13}
+	}
+	{Entity "map_point" 0x8014
+		{Position -11000.05 3015.149}
+		{xform zl -15}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "map_point" 0x8021
+		{Position 9351.242 -3978.155}
+		{xform zl 157}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 21}
+	}
+	{Entity "map_point" 0x8022
+		{Position 10004.05 -2589.414}
+		{xform zl 165}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 22}
+	}
+	{Entity "map_point" 0x8023
+		{Position 11456.55 -109.5185}
+		{xform zl 179}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 23}
+	}
+	{Entity "map_point" 0x8024
+		{Position 11342.31 2998.617}
+		{xform zl -165}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 24}
+	}
+	{Entity "arrow_enemy" 0x8015
+		{Position -10967.41 -2126.5}
+		{xform zl -79}
+	}
+	{Entity "arrow_enemy" 0x8016
+		{Position -10869.49 -142.5837}
+		{xform zl -89}
+	}
+	{Entity "arrow_enemy" 0x8017
+		{Position -10836.85 1676.006}
+		{xform zl -98}
+	}
+	{Entity "arrow_enemy" 0x8018
+		{Position -11000.05 3015.149}
+		{xform zl -105}
+	}
+	{Entity "arrow_enemy" 0x8025
+		{Position 9351.242 -3978.155}
+		{xform zl 67}
+	}
+	{Entity "arrow_enemy" 0x8026
+		{Position 10004.05 -2589.414}
+		{xform zl 75}
+	}
+	{Entity "arrow_enemy" 0x8027
+		{Position 11456.55 -109.5185}
+		{xform zl 89}
+	}
+	{Entity "arrow_enemy" 0x8028
+		{Position 11342.31 2998.617}
+		{xform zl 105}
+	}
+	{Human "" 0x8030		{Position -5532.781 865.9069}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 30}		{FsmState "stand_noaim"}	}	{Human "" 0x8031		{Position -5402.219 932.0374}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 31}		{FsmState "stand_noaim"}	}	{Human "" 0x8032		{Position -5728.623 155.0037}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 32}		{FsmState "stand_noaim"}	}	{Human "" 0x8033		{Position -5647.022 204.6016}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 33}		{FsmState "stand_noaim"}	}	{Human "" 0x8034		{Position -5173.736 832.8416}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 34}		{FsmState "stand_noaim"}	}	{Human "" 0x8035		{Position -5826.544 221.1342}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 35}		{FsmState "stand_noaim"}	}	{Human "" 0x8036		{Position -5287.978 419.5258}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 36}		{FsmState "stand_noaim"}	}	{Human "" 0x8037		{Position -5500.141 -59.92057}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 37}		{FsmState "stand_noaim"}	}	{Human "" 0x8038		{Position -5532.781 -522.8343}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 38}		{FsmState "stand_noaim"}	}	{Human "" 0x8039		{Position -5614.382 221.1342}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 39}		{FsmState "stand_noaim"}	}	{Human "" 0x803a		{Position -4945.253 155.0037}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 40}		{FsmState "stand_noaim"}	}	{Human "" 0x803b		{Position -5712.303 -390.5732}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 41}		{FsmState "stand_noaim"}	}	{Human "" 0x803c		{Position -5630.702 188.0689}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 42}		{FsmState "stand_noaim"}	}	{Human "" 0x803d		{Position -6201.909 320.33}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 43}		{FsmState "stand_noaim"}	}	{Human "" 0x803e		{Position -5565.421 254.1995}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 44}		{FsmState "stand_noaim"}	}	{Human "" 0x803f		{Position -5353.259 287.2647}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 45}		{FsmState "stand_noaim"}	}	{Human "" 0x8040		{Position -4798.372 700.5806}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 46}		{FsmState "stand_noaim"}	}	{Human "" 0x8041		{Position -6087.667 684.0479}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 47}		{FsmState "stand_noaim"}	}	{Human "" 0x8042		{Position -5043.175 6.209961}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 48}		{FsmState "stand_noaim"}	}	{Human "" 0x8043		{Position -5190.057 965.1027}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 49}		{FsmState "stand_noaim"}	}	{Human "" 0x8044		{Position -6201.909 303.7974}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 50}		{FsmState "stand_noaim"}	}	{Human "" 0x8045		{Position -5793.904 303.7974}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 51}		{FsmState "stand_noaim"}	}	{Human "" 0x8046		{Position -5744.943 452.5911}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 52}		{FsmState "stand_noaim"}	}	{Human "" 0x8047		{Position -5761.264 -456.7038}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 53}		{FsmState "stand_noaim"}	}	{Human "" 0x8048		{Position -5287.978 -605.4975}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 54}		{FsmState "stand_noaim"}	}	{Human "" 0x8049		{Position -5451.18 -307.9101}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 55}		{FsmState "stand_noaim"}	}	{Human "" 0x804a		{Position -5369.579 105.4058}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 56}		{FsmState "stand_noaim"}	}	{Human "" 0x804b		{Position -5695.983 -357.508}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 57}		{FsmState "stand_noaim"}	}	{Human "" 0x804c		{Position -5124.776 502.189}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 58}		{FsmState "stand_noaim"}	}	{Human "" 0x804d		{Position -5630.702 485.6563}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 59}		{FsmState "stand_noaim"}	}	{Human "" 0x804e		{Position -261.356 386.4605}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 60}		{FsmState "stand_noaim"}	}	{Human "" 0x804f		{Position -930.4843 6.209961}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 61}		{FsmState "stand_noaim"}	}	{Human "" 0x8050		{Position -212.3954 353.3953}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 62}		{FsmState "stand_noaim"}	}	{Human "" 0x8051		{Position -342.957 171.5363}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 63}		{FsmState "stand_noaim"}	}	{Human "" 0x8052		{Position -163.4348 816.309}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 64}		{FsmState "stand_noaim"}	}	{Human "" 0x8053		{Position -130.7944 568.3195}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 65}		{FsmState "stand_noaim"}	}	{Human "" 0x8054		{Position -49.19341 1031.233}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 66}		{FsmState "stand_noaim"}	}	{Human "" 0x8055		{Position -277.6762 568.3195}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 67}		{FsmState "stand_noaim"}	}	{Human "" 0x8056		{Position -212.3954 965.1027}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 68}		{FsmState "stand_noaim"}	}	{Human "" 0x8057		{Position -750.962 783.2437}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 69}		{FsmState "stand_noaim"}	}	{Human "" 0x8058		{Position -440.8782 783.2437}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 70}		{FsmState "stand_noaim"}	}	{Human "" 0x8059		{Position 195.6096 816.309}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 71}		{FsmState "stand_noaim"}	}	{Human "" 0x805a		{Position -832.563 -126.0511}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 72}		{FsmState "stand_noaim"}	}	{Human "" 0x805b		{Position 195.6096 353.3953}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 73}		{FsmState "stand_noaim"}	}	{Human "" 0x805c		{Position -587.76 1113.896}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 74}		{FsmState "stand_noaim"}	}	{Human "" 0x805d		{Position -65.51361 221.1342}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 75}		{FsmState "stand_noaim"}	}	{Human "" 0x805e		{Position 162.9692 287.2647}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 76}		{FsmState "stand_noaim"}	}	{Human "" 0x805f		{Position -767.2822 254.1995}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 77}		{FsmState "stand_noaim"}	}	{Human "" 0x8060		{Position -750.962 535.2542}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 78}		{FsmState "stand_noaim"}	}	{Human "" 0x8061		{Position -538.7994 254.1995}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 79}		{FsmState "stand_noaim"}	}	{Human "" 0x8062		{Position 179.2894 601.3848}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 80}		{FsmState "stand_noaim"}	}	{Human "" 0x8063		{Position -473.5186 320.33}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 81}		{FsmState "stand_noaim"}	}	{Human "" 0x8064		{Position -538.7994 948.5701}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 82}		{FsmState "stand_noaim"}	}	{Human "" 0x8065		{Position -799.9226 270.7321}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 83}		{FsmState "stand_noaim"}	}	{Human "" 0x8066		{Position -277.6762 254.1995}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 84}		{FsmState "stand_noaim"}	}	{Human "" 0x8067		{Position -555.1196 419.5258}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 85}		{FsmState "stand_noaim"}	}	{Human "" 0x8068		{Position -65.51361 717.1132}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 86}		{FsmState "stand_noaim"}	}	{Human "" 0x8069		{Position -49.19341 667.5153}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 87}		{FsmState "stand_noaim"}	}	{Human "" 0x806a		{Position -16.55301 750.1785}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 88}		{FsmState "stand_noaim"}	}	{Human "" 0x806b		{Position -245.0358 469.1237}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 89}		{FsmState "stand_noaim"}	}	{Human "" 0x806c		{Position 3932.936 -853.487}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 90}		{FsmState "stand_noaim"}	}	{Human "" 0x806d		{Position 3753.413 -820.4217}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 91}		{FsmState "stand_noaim"}	}	{Human "" 0x806e		{Position 4161.418 -1200.672}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 92}		{FsmState "stand_noaim"}	}	{Human "" 0x806f		{Position 3720.773 -1812.38}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 93}		{FsmState "stand_noaim"}	}	{Human "" 0x8070		{Position 3916.615 -1151.074}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 94}		{FsmState "stand_noaim"}	}	{Human "" 0x8071		{Position 4259.339 -1415.597}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 95}		{FsmState "stand_noaim"}	}	{Human "" 0x8072		{Position 3720.773 -1118.009}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 96}		{FsmState "stand_noaim"}	}	{Human "" 0x8073		{Position 4014.537 -1647.053}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 97}		{FsmState "stand_noaim"}	}	{Human "" 0x8074		{Position 3998.216 -374.0406}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 98}		{FsmState "stand_noaim"}	}	{Human "" 0x8075		{Position 3998.216 -688.1606}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 99}		{FsmState "stand_noaim"}	}	{Human "" 0x8076		{Position 3769.733 -1068.411}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 100}		{FsmState "stand_noaim"}	}	{Human "" 0x8077		{Position 3508.61 -555.8996}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 101}		{FsmState "stand_noaim"}	}	{Human "" 0x8078		{Position 3606.531 -1696.651}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 102}		{FsmState "stand_noaim"}	}	{Human "" 0x8079		{Position 3296.448 -1779.314}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 103}		{FsmState "stand_noaim"}	}	{Human "" 0x807a		{Position 4194.059 -1746.249}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 104}		{FsmState "stand_noaim"}	}	{Human "" 0x807b		{Position 3427.009 -737.7585}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 105}		{FsmState "stand_noaim"}	}	{Human "" 0x807c		{Position 3361.729 -952.6828}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 106}		{FsmState "stand_noaim"}	}	{Human "" 0x807d		{Position 3345.408 -787.3564}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 107}		{FsmState "stand_noaim"}	}	{Human "" 0x807e		{Position 4112.458 -870.0196}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 108}		{FsmState "stand_noaim"}	}	{Human "" 0x807f		{Position 4438.862 -1184.14}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 109}		{FsmState "stand_noaim"}	}	{Human "" 0x8080		{Position 4030.857 -1465.194}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 110}		{FsmState "stand_noaim"}	}	{Human "" 0x8081		{Position 3345.408 -1134.542}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 111}		{FsmState "stand_noaim"}	}	{Human "" 0x8082		{Position 3231.167 -1630.521}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 112}		{FsmState "stand_noaim"}	}	{Human "" 0x8083		{Position 4373.581 -671.628}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 113}		{FsmState "stand_noaim"}	}	{Human "" 0x8084		{Position 4096.138 -1266.803}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 114}		{FsmState "stand_noaim"}	}	{Human "" 0x8085		{Position 4553.103 -820.4217}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 115}		{FsmState "stand_noaim"}	}	{Human "" 0x8086		{Position 3312.768 -1696.651}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 116}		{FsmState "stand_noaim"}	}	{Human "" 0x8087		{Position 3753.413 -936.1501}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 117}		{FsmState "stand_noaim"}	}	{Human "" 0x8088		{Position 4259.339 -1266.803}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 118}		{FsmState "stand_noaim"}	}	{Human "" 0x8089		{Position 3622.852 -1332.933}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 119}		{FsmState "stand_noaim"}	}	{Human "" 0x808a		{Position 685.2156 -2920.066}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 120}		{FsmState "stand_noaim"}	}	{Human "" 0x808b		{Position 1680.748 -3416.045}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 121}		{FsmState "stand_noaim"}	}	{Human "" 0x808c		{Position 1338.024 -3267.251}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 122}		{FsmState "stand_noaim"}	}	{Human "" 0x808d		{Position 685.2156 -3399.512}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 123}		{FsmState "stand_noaim"}	}	{Human "" 0x808e		{Position 1125.861 -3564.839}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 124}		{FsmState "stand_noaim"}	}	{Human "" 0x808f		{Position 930.0186 -3845.894}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 125}		{FsmState "stand_noaim"}	}	{Human "" 0x8090		{Position 978.9792 -3366.447}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 126}		{FsmState "stand_noaim"}	}	{Human "" 0x8091		{Position 146.649 -3201.121}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 127}		{FsmState "stand_noaim"}	}	{Human "" 0x8092		{Position 962.659 -2986.197}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 128}		{FsmState "stand_noaim"}	}	{Human "" 0x8093		{Position 1419.625 -3085.393}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 129}		{FsmState "stand_noaim"}	}	{Human "" 0x8094		{Position 407.7722 -3085.393}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 130}		{FsmState "stand_noaim"}	}	{Human "" 0x8095		{Position 473.053 -3382.98}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 131}		{FsmState "stand_noaim"}	}	{Human "" 0x8096		{Position 881.058 -3713.633}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 132}		{FsmState "stand_noaim"}	}	{Human "" 0x8097		{Position 881.058 -2953.131}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 133}		{FsmState "stand_noaim"}	}	{Human "" 0x8098		{Position 407.7722 -2771.272}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 134}		{FsmState "stand_noaim"}	}	{Human "" 0x8099		{Position 1240.102 -3796.296}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 135}		{FsmState "stand_noaim"}	}	{Human "" 0x809a		{Position 1223.782 -3349.915}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 136}		{FsmState "stand_noaim"}	}	{Human "" 0x809b		{Position 962.659 -3068.86}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 137}		{FsmState "stand_noaim"}	}	{Human "" 0x809c		{Position 1076.9 -3647.502}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 138}		{FsmState "stand_noaim"}	}	{Human "" 0x809d		{Position 848.4176 -2853.936}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 139}		{FsmState "stand_noaim"}	}	{Human "" 0x809e		{Position 881.058 -3250.719}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 140}		{FsmState "stand_noaim"}	}	{Human "" 0x809f		{Position 962.659 -3068.86}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 141}		{FsmState "stand_noaim"}	}	{Human "" 0x80a0		{Position 1158.501 -3234.186}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 142}		{FsmState "stand_noaim"}	}	{Human "" 0x80a1		{Position 766.8166 -3449.11}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 143}		{FsmState "stand_noaim"}	}	{Human "" 0x80a2		{Position 1321.703 -3267.251}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 144}		{FsmState "stand_noaim"}	}	{Human "" 0x80a3		{Position 554.654 -3845.894}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 145}		{FsmState "stand_noaim"}	}	{Human "" 0x80a4		{Position 1060.58 -2969.664}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 146}		{FsmState "stand_noaim"}	}	{Human "" 0x80a5		{Position 293.5308 -3184.588}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 147}		{FsmState "stand_noaim"}	}	{Human "" 0x80a6		{Position 1076.9 -3465.643}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 148}		{FsmState "stand_noaim"}	}	{Human "" 0x80a7		{Position 1044.26 -2853.936}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 149}		{FsmState "stand_noaim"}	}	{Human "" 0x80a8		{Position -2170.82 3907.911}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 150}		{FsmState "stand_noaim"}	}	{Human "" 0x80a9		{Position -1615.933 3180.476}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 151}		{FsmState "stand_noaim"}	}	{Human "" 0x80aa		{Position -2350.342 3461.53}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 152}		{FsmState "stand_noaim"}	}	{Human "" 0x80ab		{Position -1534.332 2535.703}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 153}		{FsmState "stand_noaim"}	}	{Human "" 0x80ac		{Position -2431.943 2833.29}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 154}		{FsmState "stand_noaim"}	}	{Human "" 0x80ad		{Position -1534.332 3907.911}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 155}		{FsmState "stand_noaim"}	}	{Human "" 0x80ae		{Position -1305.849 3610.324}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 156}		{FsmState "stand_noaim"}	}	{Human "" 0x80af		{Position -2219.78 3015.149}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 157}		{FsmState "stand_noaim"}	}	{Human "" 0x80b0		{Position -2007.617 2982.084}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 158}		{FsmState "stand_noaim"}	}	{Human "" 0x80b1		{Position -2056.578 2436.507}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 159}		{FsmState "stand_noaim"}	}	{Human "" 0x80b2		{Position -1893.376 3097.813}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 160}		{FsmState "stand_noaim"}	}	{Human "" 0x80b3		{Position -1860.736 3742.585}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 161}		{FsmState "stand_noaim"}	}	{Human "" 0x80b4		{Position -1828.095 3114.345}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 162}		{FsmState "stand_noaim"}	}	{Human "" 0x80b5		{Position -2219.78 3279.671}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 163}		{FsmState "stand_noaim"}	}	{Human "" 0x80b6		{Position -1828.095 2767.16}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 164}		{FsmState "stand_noaim"}	}	{Human "" 0x80b7		{Position -1648.573 3395.4}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 165}		{FsmState "stand_noaim"}	}	{Human "" 0x80b8		{Position -1926.016 3974.042}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 166}		{FsmState "stand_noaim"}	}	{Human "" 0x80b9		{Position -1860.736 3858.313}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 167}		{FsmState "stand_noaim"}	}	{Human "" 0x80ba		{Position -1534.332 3147.41}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 168}		{FsmState "stand_noaim"}	}	{Human "" 0x80bb		{Position -1844.415 3296.204}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 169}		{FsmState "stand_noaim"}	}	{Human "" 0x80bc		{Position -1501.691 3230.073}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 170}		{FsmState "stand_noaim"}	}	{Human "" 0x80bd		{Position -2007.617 3411.932}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 171}		{FsmState "stand_noaim"}	}	{Human "" 0x80be		{Position -1697.534 3742.585}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 172}		{FsmState "stand_noaim"}	}	{Human "" 0x80bf		{Position -1697.534 3395.4}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 173}		{FsmState "stand_noaim"}	}	{Human "" 0x80c0		{Position -1501.691 3643.389}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 174}		{FsmState "stand_noaim"}	}	{Human "" 0x80c1		{Position -1648.573 3180.476}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 175}		{FsmState "stand_noaim"}	}	{Human "" 0x80c2		{Position -1860.736 3180.476}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 176}		{FsmState "stand_noaim"}	}	{Human "" 0x80c3		{Position -1795.455 3378.867}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 177}		{FsmState "stand_noaim"}	}	{Human "" 0x80c4		{Position -2170.82 2932.486}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 178}		{FsmState "stand_noaim"}	}	{Human "" 0x80c5		{Position -2236.1 3263.139}		{Volume "ram"			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}			{disabled}		}		{Player 0}		{MID 179}		{FsmState "stand_noaim"}	}
+
+	{Tags "fpc1" "flag" 0x8001}
+	{Tags "fpc2" "flag" 0x8002}
+	{Tags "fpc3" "flag" 0x8003}
+	{Tags "fpc4" "flag" 0x8004}
+	{Tags "fpc5" "flag" 0x8005}
+	{Tags "spawn_a" "a1" 0x8011}
+	{Tags "spawn_a" "a2" 0x8012}
+	{Tags "spawn_a" "a3" 0x8013}
+	{Tags "spawn_a" "a4" 0x8014}
+	{Tags "spawn_b" "b1" 0x8021}
+	{Tags "spawn_b" "b2" 0x8022}
+	{Tags "spawn_b" "b3" 0x8023}
+	{Tags "spawn_b" "b4" 0x8024}
+	{Tags "hidden" "arrow_enemy_a" "a_1" "ignore" "arrow_enemy" 0x8015}
+	{Tags "hidden" "arrow_enemy_a" "a_2" "ignore" "arrow_enemy" 0x8016}
+	{Tags "hidden" "arrow_enemy_a" "a_3" "ignore" "arrow_enemy" 0x8017}
+	{Tags "hidden" "arrow_enemy_a" "a_4" "ignore" "arrow_enemy" 0x8018}	
+	{Tags "hidden" "arrow_enemy_b" "b_1" "ignore" "arrow_enemy" 0x8025}
+	{Tags "hidden" "arrow_enemy_b" "b_2" "ignore" "arrow_enemy" 0x8026}
+	{Tags "hidden" "arrow_enemy_b" "b_3" "ignore" "arrow_enemy" 0x8027}
+	{Tags "hidden" "arrow_enemy_b" "b_4" "ignore" "arrow_enemy" 0x8028}
+	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8030}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8031}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8032}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8033}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8034}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8035}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8036}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8037}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8038}	{Tags "cmp_def" "1_a_1-3" "1_b_1-3" 0x8039}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x803a}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x803b}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x803c}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x803d}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x803e}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x803f}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x8040}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x8041}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x8042}	{Tags "cmp_def" "1_a_2-3" "1_b_2-3" 0x8043}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x8044}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x8045}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x8046}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x8047}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x8048}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x8049}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x804a}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x804b}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x804c}	{Tags "cmp_def" "1_a_3" "1_b_3" 0x804d}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x804e}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x804f}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8050}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8051}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8052}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8053}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8054}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8055}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8056}	{Tags "cmp_def" "2_a_1-3" "2_b_1-3" 0x8057}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x8058}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x8059}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x805a}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x805b}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x805c}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x805d}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x805e}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x805f}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x8060}	{Tags "cmp_def" "2_a_2-3" "2_b_2-3" 0x8061}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8062}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8063}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8064}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8065}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8066}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8067}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8068}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x8069}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x806a}	{Tags "cmp_def" "2_a_3" "2_b_3" 0x806b}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x806c}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x806d}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x806e}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x806f}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x8070}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x8071}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x8072}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x8073}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x8074}	{Tags "cmp_def" "3_a_1-3" "3_b_1-3" 0x8075}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x8076}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x8077}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x8078}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x8079}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x807a}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x807b}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x807c}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x807d}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x807e}	{Tags "cmp_def" "3_a_2-3" "3_b_2-3" 0x807f}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8080}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8081}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8082}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8083}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8084}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8085}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8086}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8087}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8088}	{Tags "cmp_def" "3_a_3" "3_b_3" 0x8089}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x808a}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x808b}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x808c}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x808d}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x808e}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x808f}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x8090}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x8091}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x8092}	{Tags "cmp_def" "4_a_1-3" "4_b_1-3" 0x8093}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x8094}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x8095}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x8096}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x8097}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x8098}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x8099}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x809a}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x809b}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x809c}	{Tags "cmp_def" "4_a_2-3" "4_b_2-3" 0x809d}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x809e}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x809f}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a0}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a1}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a2}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a3}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a4}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a5}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a6}	{Tags "cmp_def" "4_a_3" "4_b_3" 0x80a7}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80a8}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80a9}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80aa}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80ab}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80ac}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80ad}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80ae}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80af}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80b0}	{Tags "cmp_def" "5_a_1-3" "5_b_1-3" 0x80b1}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b2}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b3}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b4}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b5}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b6}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b7}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b8}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80b9}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80ba}	{Tags "cmp_def" "5_a_2-3" "5_b_2-3" 0x80bb}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80bc}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80bd}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80be}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80bf}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80c0}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80c1}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80c2}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80c3}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80c4}	{Tags "cmp_def" "5_a_3" "5_b_3" 0x80c5}	{Inventory 0x8030		{box			{clear}		}	}	{Inventory 0x8031		{box			{clear}		}	}	{Inventory 0x8032		{box			{clear}		}	}	{Inventory 0x8033		{box			{clear}		}	}	{Inventory 0x8034		{box			{clear}		}	}	{Inventory 0x8035		{box			{clear}		}	}	{Inventory 0x8036		{box			{clear}		}	}	{Inventory 0x8037		{box			{clear}		}	}	{Inventory 0x8038		{box			{clear}		}	}	{Inventory 0x8039		{box			{clear}		}	}	{Inventory 0x803a		{box			{clear}		}	}	{Inventory 0x803b		{box			{clear}		}	}	{Inventory 0x803c		{box			{clear}		}	}	{Inventory 0x803d		{box			{clear}		}	}	{Inventory 0x803e		{box			{clear}		}	}	{Inventory 0x803f		{box			{clear}		}	}	{Inventory 0x8040		{box			{clear}		}	}	{Inventory 0x8041		{box			{clear}		}	}	{Inventory 0x8042		{box			{clear}		}	}	{Inventory 0x8043		{box			{clear}		}	}	{Inventory 0x8044		{box			{clear}		}	}	{Inventory 0x8045		{box			{clear}		}	}	{Inventory 0x8046		{box			{clear}		}	}	{Inventory 0x8047		{box			{clear}		}	}	{Inventory 0x8048		{box			{clear}		}	}	{Inventory 0x8049		{box			{clear}		}	}	{Inventory 0x804a		{box			{clear}		}	}	{Inventory 0x804b		{box			{clear}		}	}	{Inventory 0x804c		{box			{clear}		}	}	{Inventory 0x804d		{box			{clear}		}	}	{Inventory 0x804e		{box			{clear}		}	}	{Inventory 0x804f		{box			{clear}		}	}	{Inventory 0x8050		{box			{clear}		}	}	{Inventory 0x8051		{box			{clear}		}	}	{Inventory 0x8052		{box			{clear}		}	}	{Inventory 0x8053		{box			{clear}		}	}	{Inventory 0x8054		{box			{clear}		}	}	{Inventory 0x8055		{box			{clear}		}	}	{Inventory 0x8056		{box			{clear}		}	}	{Inventory 0x8057		{box			{clear}		}	}	{Inventory 0x8058		{box			{clear}		}	}	{Inventory 0x8059		{box			{clear}		}	}	{Inventory 0x805a		{box			{clear}		}	}	{Inventory 0x805b		{box			{clear}		}	}	{Inventory 0x805c		{box			{clear}		}	}	{Inventory 0x805d		{box			{clear}		}	}	{Inventory 0x805e		{box			{clear}		}	}	{Inventory 0x805f		{box			{clear}		}	}	{Inventory 0x8060		{box			{clear}		}	}	{Inventory 0x8061		{box			{clear}		}	}	{Inventory 0x8062		{box			{clear}		}	}	{Inventory 0x8063		{box			{clear}		}	}	{Inventory 0x8064		{box			{clear}		}	}	{Inventory 0x8065		{box			{clear}		}	}	{Inventory 0x8066		{box			{clear}		}	}	{Inventory 0x8067		{box			{clear}		}	}	{Inventory 0x8068		{box			{clear}		}	}	{Inventory 0x8069		{box			{clear}		}	}	{Inventory 0x806a		{box			{clear}		}	}	{Inventory 0x806b		{box			{clear}		}	}	{Inventory 0x806c		{box			{clear}		}	}	{Inventory 0x806d		{box			{clear}		}	}	{Inventory 0x806e		{box			{clear}		}	}	{Inventory 0x806f		{box			{clear}		}	}	{Inventory 0x8070		{box			{clear}		}	}	{Inventory 0x8071		{box			{clear}		}	}	{Inventory 0x8072		{box			{clear}		}	}	{Inventory 0x8073		{box			{clear}		}	}	{Inventory 0x8074		{box			{clear}		}	}	{Inventory 0x8075		{box			{clear}		}	}	{Inventory 0x8076		{box			{clear}		}	}	{Inventory 0x8077		{box			{clear}		}	}	{Inventory 0x8078		{box			{clear}		}	}	{Inventory 0x8079		{box			{clear}		}	}	{Inventory 0x807a		{box			{clear}		}	}	{Inventory 0x807b		{box			{clear}		}	}	{Inventory 0x807c		{box			{clear}		}	}	{Inventory 0x807d		{box			{clear}		}	}	{Inventory 0x807e		{box			{clear}		}	}	{Inventory 0x807f		{box			{clear}		}	}	{Inventory 0x8080		{box			{clear}		}	}	{Inventory 0x8081		{box			{clear}		}	}	{Inventory 0x8082		{box			{clear}		}	}	{Inventory 0x8083		{box			{clear}		}	}	{Inventory 0x8084		{box			{clear}		}	}	{Inventory 0x8085		{box			{clear}		}	}	{Inventory 0x8086		{box			{clear}		}	}	{Inventory 0x8087		{box			{clear}		}	}	{Inventory 0x8088		{box			{clear}		}	}	{Inventory 0x8089		{box			{clear}		}	}	{Inventory 0x808a		{box			{clear}		}	}	{Inventory 0x808b		{box			{clear}		}	}	{Inventory 0x808c		{box			{clear}		}	}	{Inventory 0x808d		{box			{clear}		}	}	{Inventory 0x808e		{box			{clear}		}	}	{Inventory 0x808f		{box			{clear}		}	}	{Inventory 0x8090		{box			{clear}		}	}	{Inventory 0x8091		{box			{clear}		}	}	{Inventory 0x8092		{box			{clear}		}	}	{Inventory 0x8093		{box			{clear}		}	}	{Inventory 0x8094		{box			{clear}		}	}	{Inventory 0x8095		{box			{clear}		}	}	{Inventory 0x8096		{box			{clear}		}	}	{Inventory 0x8097		{box			{clear}		}	}	{Inventory 0x8098		{box			{clear}		}	}	{Inventory 0x8099		{box			{clear}		}	}	{Inventory 0x809a		{box			{clear}		}	}	{Inventory 0x809b		{box			{clear}		}	}	{Inventory 0x809c		{box			{clear}		}	}	{Inventory 0x809d		{box			{clear}		}	}	{Inventory 0x809e		{box			{clear}		}	}	{Inventory 0x809f		{box			{clear}		}	}	{Inventory 0x80a0		{box			{clear}		}	}	{Inventory 0x80a1		{box			{clear}		}	}	{Inventory 0x80a2		{box			{clear}		}	}	{Inventory 0x80a3		{box			{clear}		}	}	{Inventory 0x80a4		{box			{clear}		}	}	{Inventory 0x80a5		{box			{clear}		}	}	{Inventory 0x80a6		{box			{clear}		}	}	{Inventory 0x80a7		{box			{clear}		}	}	{Inventory 0x80a8		{box			{clear}		}	}	{Inventory 0x80a9		{box			{clear}		}	}	{Inventory 0x80aa		{box			{clear}		}	}	{Inventory 0x80ab		{box			{clear}		}	}	{Inventory 0x80ac		{box			{clear}		}	}	{Inventory 0x80ad		{box			{clear}		}	}	{Inventory 0x80ae		{box			{clear}		}	}	{Inventory 0x80af		{box			{clear}		}	}	{Inventory 0x80b0		{box			{clear}		}	}	{Inventory 0x80b1		{box			{clear}		}	}	{Inventory 0x80b2		{box			{clear}		}	}	{Inventory 0x80b3		{box			{clear}		}	}	{Inventory 0x80b4		{box			{clear}		}	}	{Inventory 0x80b5		{box			{clear}		}	}	{Inventory 0x80b6		{box			{clear}		}	}	{Inventory 0x80b7		{box			{clear}		}	}	{Inventory 0x80b8		{box			{clear}		}	}	{Inventory 0x80b9		{box			{clear}		}	}	{Inventory 0x80ba		{box			{clear}		}	}	{Inventory 0x80bb		{box			{clear}		}	}	{Inventory 0x80bc		{box			{clear}		}	}	{Inventory 0x80bd		{box			{clear}		}	}	{Inventory 0x80be		{box			{clear}		}	}	{Inventory 0x80bf		{box			{clear}		}	}	{Inventory 0x80c0		{box			{clear}		}	}	{Inventory 0x80c1		{box			{clear}		}	}	{Inventory 0x80c2		{box			{clear}		}	}	{Inventory 0x80c3		{box			{clear}		}	}	{Inventory 0x80c4		{box			{clear}		}	}	{Inventory 0x80c5		{box			{clear}		}	}	{Brain 0x8030		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8031		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8032		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8033		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8034		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8035		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8036		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8037		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8038		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8039		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x803a		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x803b		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x803c		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x803d		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x803e		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x803f		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8040		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8041		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8042		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8043		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8044		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8045		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8046		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8047		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8048		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8049		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x804a		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x804b		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x804c		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x804d		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x804e		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x804f		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8050		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8051		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8052		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8053		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8054		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8055		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8056		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8057		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8058		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8059		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x805a		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x805b		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x805c		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x805d		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x805e		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x805f		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8060		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8061		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8062		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8063		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8064		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8065		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8066		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8067		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8068		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8069		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x806a		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x806b		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x806c		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x806d		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x806e		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x806f		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8070		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8071		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8072		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8073		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8074		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8075		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8076		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8077		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8078		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8079		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x807a		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x807b		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x807c		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x807d		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x807e		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x807f		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8080		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8081		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8082		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8083		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8084		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8085		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8086		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8087		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8088		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8089		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x808a		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x808b		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x808c		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x808d		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x808e		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x808f		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8090		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8091		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8092		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8093		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8094		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8095		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8096		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8097		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8098		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x8099		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x809a		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x809b		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x809c		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x809d		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x809e		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x809f		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a0		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a1		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a2		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a3		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a4		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a5		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a6		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a7		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a8		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80a9		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80aa		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80ab		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80ac		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80ad		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80ae		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80af		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b0		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b1		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b2		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b3		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b4		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b5		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b6		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b7		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b8		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80b9		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80ba		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80bb		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80bc		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80bd		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80be		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80bf		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80c0		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80c1		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80c2		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80c3		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80c4		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}	{Brain 0x80c5		{Properties			{advance_ratio 0.5}			{retreat_ratio 4}		}	}
+
+	{Environment "goh/black"}
+	{Helpers
+		{event "ai_air_on"}
+		{event "ai_air_possible"}
+		{event "airplane_set"}
+		{event "dcg"}
+		{event "flag1"}
+		{event "flag2"}
+		{event "flag3"}
+		{event "flag4"}
+		{event "flag5"}
+		{event "init"}
+		{event "init2"}
+		{event "music_detect"}
+		{event "music_intense"}
+		{event "music_regular"}
+		{event "music_reset"}
+		{event "music_rnd"}
+		{event "music_start"}
+		{event "talk_on"}
+		{zone "circle"
+			{Position -10967.41 -2126.5 0}
+			{Name "a_1"}
+			{Radius 600}
+		}
+		{zone "circle"
+			{Position -10869.49 -142.5837 0}
+			{Name "a_2"}
+			{Radius 600}
+		}
+		{zone "circle"
+			{Position -10836.85 1676.006 0}
+			{Name "a_3"}
+			{Radius 600}
+		}
+		{zone "circle"
+			{Position -11000.05 3015.149 0}
+			{Name "a_4"}
+			{Radius 600}
+		}
+		{zone "circle"
+			{Position 9351.242 -3978.155 0}
+			{Name "b_1"}
+			{Radius 600}
+		}
+		{zone "circle"
+			{Position 10004.05 -2589.414 0}
+			{Name "b_2"}
+			{Radius 600}
+		}
+		{zone "circle"
+			{Position 11456.55 -109.5185 0}
+			{Name "b_3"}
+			{Radius 600}
+		}
+		{zone "circle"
+			{Position 11342.31 2998.617 0}
+			{Name "b_4"}
+			{Radius 600}
+		}
+		{zone "poly"
+			{Position -5434.859 204.6016 0}
+			{Name "fpc1"}
+			{Point -783.3696 0}
+			{Point -391.6851 644.7727}
+			{Point 391.6846 644.7727}
+			{Point 783.3696 0}
+			{Point 391.6846 -644.7727}
+			{Point -391.6851 -644.7727}
+
+		}
+		{zone "poly"
+			{Position -473.5186 402.9932 0}
+			{Name "fpc2"}
+			{Point -783.3697 0}
+			{Point -391.6848 644.7727}
+			{Point 391.6848 644.7727}
+			{Point 783.3696 0}
+			{Point 391.6848 -644.7727}
+			{Point -391.6848 -644.7727}
+
+		}
+		{zone "poly"
+			{Position 3818.694 -1134.542 0}
+			{Name "fpc3"}
+			{Point -783.3696 0}
+			{Point -391.6848 644.7727}
+			{Point 391.6848 644.7727}
+			{Point 783.3699 0}
+			{Point 391.6848 -644.7727}
+			{Point -391.6848 -644.7727}
+
+		}
+		{zone "poly"
+			{Position 946.3388 -3168.056 0}
+			{Name "fpc4"}
+			{Point -783.3696 0}
+			{Point -391.6848 644.7727}
+			{Point 391.6849 644.7727}
+			{Point 783.3697 0}
+			{Point 391.6849 -644.7727}
+			{Point -391.6848 -644.7727}
+
+		}
+		{zone "poly"
+			{Position -1974.977 3213.541 0}
+			{Name "fpc5"}
+			{Point -783.3696 0}
+			{Point -391.6848 644.7727}
+			{Point 391.6848 644.7727}
+			{Point 783.3696 0}
+			{Point 391.6848 -644.7727}
+			{Point -391.6848 -644.7727}
+
+		}
+		{zone "poly"
+			{Position 0 0 0}
+			{Name "combat"}
+			{Point -9000 -9000}
+			{Point -9000 9000}
+			{Point 9000 9000}
+			{Point 9000 -9000}
+		}
+		{zone "poly"
+			{Position 0 0 0}
+			{Name "gamezone"}
+			{Point -9000 -9000}
+			{Point -9000 9000}
+			{Point 9000 9000}
+			{Point 9000 -9000}
+		}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{vars
+			(include "../dcg_vars.inc")
+		}
+		{triggers
+			{## "environment/spring"
+				{disabled}
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/spring/clear/evening_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/spring/clear/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/spring/cloudy/morning_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/spring/cloudy/evening_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/spring/cloudy/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/spring/clear/morning_1"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+			{## "environment/summer"
+				{disabled}
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/summer/clear/evening_01"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/summer/clear/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/summer/cloudy/morning_01"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/summer/cloudy/evening_01"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.15}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/summer/cloudy/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/summer/clear/morning_01"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+			{"environment/autumn"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/clear/morning_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/clear/evening_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/clear/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/cloudy/morning_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/cloudy/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/cloudy/midday_2"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/cloudy/midday_1b"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.13}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/cloudy/evening_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/autumn/clear/midday_1b"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+			{## "environment/winter"
+				{disabled}
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/clear/evening_01"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/clear/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/foggy/foggy_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/cloudy/morning_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/cloudy/evening_01"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/foggy/foggy_2"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/cloudy/midday_1"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/cloudy/midday_1a"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/cloudy/midday_1b"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/foggy/foggy_3"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/clear/midday_2"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/clear/midday_2b"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"environment"
+								{name "dynamic_campaign/winter/clear/morning_1"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+(include "../dcg_script.inc")
+		}
+		{waypoints
+			{"0"
+				{position 200.272 8876.7 0}
+				{radius 800}
+				{commands
+					{"entity_state"
+						{tag_add enemy_air}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{source standart}
+							{ignore_captured_by_user 0}
+							{tag enemy_air}
+						}
+						{fire_mode return}
+						{movement
+							{speed fast}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"action"
+						{selector
+							{source standart}
+							{ignore_captured_by_user 0}
+							{tag enemy_air}
+						}
+						{drop orders}
+						{action move}
+						{target
+							{ignore_captured_by_user 0}
+							{amount 1
+							}
+							{tag spawn_a}
+						}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"effect"
+						{selector
+							{source standart}
+							{ignore_captured_by_user 0}
+							{tag enemy_air}
+						}
+						{effect takeoff_load}
+					}
+				}
+			}
+			{"1"
+				{position 1129.47 2006.69 -35}
+			}
+			{"2"
+				{position -2739.25 46.0184 10}
+			}
+			{"3"
+				{position 2707.4 -1461.04 -55.2689}
+			}
+			{"4"
+				{position -5615.98 -2037.53 64}
+			}
+			{"5"
+				{position -2563.24 -3817.6 32}
+			}
+			{"6"
+				{position -22.3439 -8899.42 0}
+				{radius 800}
+				{commands
+					{"entity_state"
+						{tag_add enemy_air}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{source standart}
+							{ignore_captured_by_user 0}
+							{tag enemy_air}
+						}
+						{fire_mode return}
+						{movement
+							{speed fast}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"action"
+						{selector
+							{source standart}
+							{ignore_captured_by_user 0}
+							{tag enemy_air}
+						}
+						{drop orders}
+						{action move}
+						{target
+							{ignore_captured_by_user 0}
+							{amount 1
+							}
+							{tag spawn_b}
+						}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"effect"
+						{selector
+							{source standart}
+							{ignore_captured_by_user 0}
+							{tag enemy_air}
+						}
+						{effect takeoff_load}
+					}
+				}
+			}
+		}
+
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 0}
+	{EntityManager {Enabled}
+	}
+}
