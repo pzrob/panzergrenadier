@@ -12306,13 +12306,13 @@
 	{Entity "cow" 0x2053
 		{Position 636.9 -126.09}
 		{xform zl 75}
-		{Player 3}
+		{Player 0}
 		{MID 10011}
 	}
 	{Entity "cow" 0x2054
 		{Position 1165.93 -67.73}
 		{xform zl -61.45}
-		{Player 3}
+		{Player 0}
 		{MID 10016}
 	}
 	{Entity "smoke_black_crater" 0x10015
@@ -15951,31 +15951,31 @@
 	}
 	{Entity "chicken" 0x43d2
 		{Position 1409.88 2590.94 579.02}
-		{Player 3}
+		{Player 0}
 		{MID 10004}
 	}
 	{Entity "chicken" 0x43d3
 		{Position 1401.26 2578.26 580.05}
 		{xform zl 69.79}
-		{Player 3}
+		{Player 0}
 		{MID 10009}
 	}
 	{Entity "chicken" 0x43d4
 		{Position 1374.91 2581.87}
 		{xform zl -72.33}
-		{Player 3}
+		{Player 0}
 		{MID 10018}
 	}
 	{Entity "horse" 0x43df
 		{Position 2506.62 2966.65}
 		{xform zl -84.86}
-		{Player 3}
+		{Player 0}
 		{MID 10033}
 	}
 	{Entity "horse" 0x43e4
 		{Position 2578.35 2936.18}
 		{xform zl -7.94}
-		{Player 3}
+		{Player 0}
 		{MID 10035}
 	}
 	{Entity "euro_barrel1metal" 0x8b3
@@ -27497,26 +27497,26 @@
 	{Entity "cow" 0x6834
 		{Position -3662.39 3043.24}
 		{xform zl 37.24}
-		{Player 3}
+		{Player 0}
 		{MID 10020}
 	}
 	{Entity "cow" 0x6835
 		{Position -4269.74 2826.48}
 		{xform zl -105.36}
-		{Player 3}
+		{Player 0}
 		{MID 10021}
 	}
 	{Entity "cow" 0x6836
 		{Position -4243.18 2827.88}
 		{xform zl 90}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10042}
 	}
 	{Entity "cow" 0x6837
 		{Position -4414.65 3073.67}
 		{xform zl 175.94}
-		{Player 3}
+		{Player 0}
 		{MID 10043}
 	}
 	{Entity "euro_tracks_curve" 0x6838
@@ -29824,39 +29824,39 @@
 		{Position 5244.91 -284.26}
 		{xform zl -61.45}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10050}
 	}
 	{Entity "cow" 0x457a
 		{Position 5452.53 -107.21}
 		{xform zl 61.95}
-		{Player 3}
+		{Player 0}
 		{MID 10051}
 	}
 	{Entity "cow" 0x457c
 		{Position 5465.47 -230.22}
 		{xform zl 19.54}
 		{TexMod "1"}
-		{Player 3}
+		{Player 0}
 		{MID 10052}
 	}
 	{Entity "cow" 0x457d
 		{Position 5456.91 -671.9}
 		{xform zl -16.77}
-		{Player 3}
+		{Player 0}
 		{MID 10053}
 	}
 	{Entity "cow" 0x457e
 		{Position -4066.84 3197.76}
 		{xform zl -144.71}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10054}
 	}
 	{Entity "cow" 0x4580
 		{Position -4623.44 3383.18}
 		{xform zl 83.32}
-		{Player 3}
+		{Player 0}
 		{MID 10055}
 	}
 	{Entity "e_farm003" 0x4581
@@ -36324,39 +36324,39 @@
 	{Entity "cow" 0x13df
 		{Position 4462.44 7049.01}
 		{xform zl -75.58}
-		{Player 3}
+		{Player 0}
 		{MID 10070}
 	}
 	{Entity "cow" 0x13e0
 		{Position 4650.99 7264.77}
 		{xform zl 3.12}
-		{Player 3}
+		{Player 0}
 		{MID 10071}
 	}
 	{Entity "cow" 0x13e1
 		{Position 4683.09 7325.85}
 		{xform zl 84.17}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10072}
 	}
 	{Entity "cow" 0x13e2
 		{Position 4354.95 6199.27}
 		{xform zl 19.49}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10073}
 	}
 	{Entity "cow" 0x13e3
 		{Position 3744.21 6115.15}
 		{xform zl 142.14}
-		{Player 3}
+		{Player 0}
 		{MID 10074}
 	}
 	{Entity "cow" 0x13e4
 		{Position 4541.42 5738.38}
 		{xform zl -174.24}
-		{Player 3}
+		{Player 0}
 		{MID 10075}
 	}
 	{Entity "fencesmwood_01" 0x13e5

@@ -37028,7 +37028,7 @@
 		{xform zl -41.28}
 		{TexMod "normandy"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10001}
 	}
 	{Entity "cow" 0xb40
@@ -37036,14 +37036,14 @@
 		{xform zl 38.39}
 		{TexMod "normandy"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10002}
 	}
 	{Entity "cow" 0xb42
 		{Position -357 2737.23}
 		{xform zl 32.99}
 		{TexMod "normandy"}
-		{Player 3}
+		{Player 0}
 		{MID 10003}
 	}
 	{Entity "cow" 0xb43
@@ -37051,7 +37051,7 @@
 		{xform zl -116.72}
 		{TexMod "normandy"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10004}
 	}
 	{Entity "cow" 0xb44
@@ -37059,85 +37059,85 @@
 		{xform zl 143.08}
 		{TexMod "normandy"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10005}
 	}
 	{Entity "chicken" 0xb45
 		{Position -506.52 2335.03 106.97}
 		{xform zl 141.39}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10006}
 	}
 	{Entity "chicken" 0xb46
 		{Position -511.65 2278.94}
 		{xform zl -134.98}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10007}
 	}
 	{Entity "chicken" 0xb47
 		{Position -434.78 2266.18}
 		{xform zl -16.58}
-		{Player 3}
+		{Player 0}
 		{MID 10008}
 	}
 	{Entity "chicken" 0xb48
 		{Position -412.43 2331.3 104.11}
 		{xform zl -83.38}
-		{Player 3}
+		{Player 0}
 		{MID 10009}
 	}
 	{Entity "chicken" 0xb49
 		{Position -475.19 2406.76}
 		{xform zl 42.77}
 		{TexMod "1"}
-		{Player 3}
+		{Player 0}
 		{MID 10010}
 	}
 	{Entity "chicken" 0xb4a
 		{Position -582.27 2344.12}
 		{xform zl 36.28}
-		{Player 3}
+		{Player 0}
 		{MID 10011}
 	}
 	{Entity "chicken" 0xb4b
 		{Position 1230.6 503.52 70.97}
 		{xform zl -108}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10012}
 	}
 	{Entity "chicken" 0xb4c
 		{Position 1284.91 518.44}
 		{xform zl -24.38}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10013}
 	}
 	{Entity "chicken" 0xb4d
 		{Position 1269.81 594.89}
 		{xform zl 94.01}
-		{Player 3}
+		{Player 0}
 		{MID 10014}
 	}
 	{Entity "chicken" 0xb4e
 		{Position 1201 592.9 71.11}
 		{xform zl 27.21}
-		{Player 3}
+		{Player 0}
 		{MID 10015}
 	}
 	{Entity "chicken" 0xb4f
 		{Position 1152.43 507.62}
 		{xform zl 153.36}
 		{TexMod "1"}
-		{Player 3}
+		{Player 0}
 		{MID 10016}
 	}
 	{Entity "chicken" 0xb50
 		{Position 1248.72 429.41}
 		{xform zl 146.87}
-		{Player 3}
+		{Player 0}
 		{MID 10017}
 	}
 	{Entity "chicken" 0xb51
@@ -37145,7 +37145,7 @@
 		{xform zl 88.31}
 		{TexMod "2"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10018}
 	}
 	{Entity "chicken" 0xb52
@@ -37153,21 +37153,21 @@
 		{xform zl 171.93}
 		{TexMod "2"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10019}
 	}
 	{Entity "chicken" 0xb53
 		{Position -158.8 -1622.65}
 		{xform zl -69.66}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10020}
 	}
 	{Entity "chicken" 0xb54
 		{Position -93.32 -1601.4 102.11}
 		{xform zl -136.46}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10021}
 	}
 	{Entity "chicken" 0xb55
@@ -37175,53 +37175,53 @@
 		{xform zl -10.31}
 		{TexMod "1"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10022}
 	}
 	{Entity "chicken" 0xb56
 		{Position -185.08 -1457.91}
 		{xform zl -16.79}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10023}
 	}
 	{Entity "chicken" 0xb57
 		{Position 102.46 1450.64 89.97}
 		{xform zl -106.99}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10024}
 	}
 	{Entity "chicken" 0xb58
 		{Position 156.5 1466.52}
 		{xform zl -23.37}
 		{TexMod "2"}
-		{Player 3}
+		{Player 0}
 		{MID 10025}
 	}
 	{Entity "chicken" 0xb59
 		{Position 140.06 1542.69}
 		{xform zl 95.02}
-		{Player 3}
+		{Player 0}
 		{MID 10026}
 	}
 	{Entity "chicken" 0xb5a
 		{Position 71.29 1539.5 90.11}
 		{xform zl 28.22}
-		{Player 3}
+		{Player 0}
 		{MID 10027}
 	}
 	{Entity "chicken" 0xb5b
 		{Position 229.5 1597.08}
 		{xform zl 154.37}
 		{TexMod "1"}
-		{Player 3}
+		{Player 0}
 		{MID 10028}
 	}
 	{Entity "chicken" 0xb5c
 		{Position 121.88 1376.86}
 		{xform zl 147.88}
-		{Player 3}
+		{Player 0}
 		{MID 10029}
 	}
 	{Entity "chicken" 0xb5d
@@ -37229,7 +37229,7 @@
 		{xform zl -148.31}
 		{TexMod "2"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10030}
 	}
 	{Entity "chicken" 0xb5e
@@ -37237,21 +37237,21 @@
 		{xform zl -64.69}
 		{TexMod "2"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10031}
 	}
 	{Entity "chicken" 0xb5f
 		{Position -769.27 -2050.07}
 		{xform zl 53.7}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10032}
 	}
 	{Entity "chicken" 0xb60
 		{Position -823.04 -2007.06 94.11}
 		{xform zl -13.09}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10033}
 	}
 	{Entity "chicken" 0xb61
@@ -37259,7 +37259,7 @@
 		{xform zl 113.05}
 		{TexMod "1"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10034}
 	}
 	{Entity "sandbag_heap_pile" 0xe01

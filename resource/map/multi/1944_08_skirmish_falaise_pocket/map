@@ -38717,445 +38717,445 @@
 	{Entity "cow" 0x199e
 		{Position 2649.32 5325.93 -2.97}
 		{xform zl 40.59}
-		{Player 3}
+		{Player 0}
 		{MID 10017}
 	}
 	{Entity "cow" 0x19a0
 		{Position 2621.32 5164.04 -3.02}
 		{xform zl 152.57}
-		{Player 3}
+		{Player 0}
 		{MID 10019}
 	}
 	{Entity "cow" 0x19a2
 		{Position 1782.29 4662.09 10.95}
 		{xform zl 73.94}
-		{Player 3}
+		{Player 0}
 		{MID 10021}
 	}
 	{Entity "cow" 0x19a3
 		{Position 2080.26 4951.04 5.06}
 		{xform zl 170.66}
-		{Player 3}
+		{Player 0}
 		{MID 10022}
 	}
 	{Entity "cow" 0x19a4
 		{Position 1970.17 5372.32 7.97}
 		{xform zl -138.61}
-		{Player 3}
+		{Player 0}
 		{MID 10023}
 	}
 	{Entity "cow" 0x19a5
 		{Position 1238.26 6082.91}
 		{xform zl -151.34}
-		{Player 3}
+		{Player 0}
 		{MID 10024}
 	}
 	{Entity "cow" 0x19a7
 		{Position 683.89 5910.23 27.04}
 		{xform zl -83.64}
-		{Player 3}
+		{Player 0}
 		{MID 10026}
 	}
 	{Entity "cow" 0x19a8
 		{Position 719.76 5109.25 33.97}
 		{xform zl -167.99}
-		{Player 3}
+		{Player 0}
 		{MID 10027}
 	}
 	{Entity "cow" 0x19a9
 		{Position 1078.29 5018.18 22.01}
 		{xform zl -21.27}
-		{Player 3}
+		{Player 0}
 		{MID 10028}
 	}
 	{Entity "cow" 0x19aa
 		{Position 1865.03 6204.57}
 		{xform zl -140.32}
-		{Player 3}
+		{Player 0}
 		{MID 10029}
 	}
 	{Entity "cow" 0x19ab
 		{Position 2833.37 4416.47 2.02}
 		{xform zl 58.61}
-		{Player 3}
+		{Player 0}
 		{MID 10030}
 	}
 	{Entity "cow" 0x205c
 		{Position 3636.34 4497.34 -6.03}
 		{xform zl 35.09}
-		{Player 3}
+		{Player 0}
 		{MID 10016}
 	}
 	{Entity "cow" 0x2060
 		{Position 3827.97 4095.95}
 		{xform zl 66.97}
-		{Player 3}
+		{Player 0}
 		{MID 10018}
 	}
 	{Entity "cow" 0x2064
 		{Position 4315 4463.2 -14.97}
 		{xform zl 166.46}
-		{Player 3}
+		{Player 0}
 		{MID 10020}
 	}
 	{Entity "cow" 0x2065
 		{Position 3952.78 4872.56 -10.93}
 		{xform zl 37.34}
-		{Player 3}
+		{Player 0}
 		{MID 10025}
 	}
 	{Entity "cow" 0x2072
 		{Position 3727.66 5354.12 -11.04}
 		{xform zl 142.13}
-		{Player 3}
+		{Player 0}
 		{MID 10031}
 	}
 	{Entity "cow" 0x2073
 		{Position 3614.14 5507.16 -9.04}
 		{xform zl 93.48}
-		{Player 3}
+		{Player 0}
 		{MID 10032}
 	}
 	{Entity "cow" 0x2074
 		{Position 3931.95 6062.27 12.08}
 		{xform zl -36.06}
-		{Player 3}
+		{Player 0}
 		{MID 10033}
 	}
 	{Entity "cow" 0x2075
 		{Position -466.75 6159.73 41.04}
 		{xform zl 38.66}
-		{Player 3}
+		{Player 0}
 		{MID 10034}
 	}
 	{Entity "cow" 0x2076
 		{Position -493.72 5511.11 49.04}
 		{xform zl 131.42}
-		{Player 3}
+		{Player 0}
 		{MID 10035}
 	}
 	{Entity "cow" 0x2077
 		{Position -1274.17 5492.54 70.06}
 		{xform zl -47.42}
-		{Player 3}
+		{Player 0}
 		{MID 10036}
 	}
 	{Entity "cow" 0x2078
 		{Position -1003.76 5951.03 51.83}
 		{xform zl 85.08}
-		{Player 3}
+		{Player 0}
 		{MID 10037}
 	}
 	{Entity "cow" 0x2079
 		{Position -1093.71 6289.8}
 		{xform zl 177.1}
-		{Player 3}
+		{Player 0}
 		{MID 10038}
 	}
 	{Entity "cow" 0x207a
 		{Position -947.5 5713.62}
 		{xform zl 175.4}
-		{Player 3}
+		{Player 0}
 		{MID 10039}
 	}
 	{Entity "cow" 0x207b
 		{Position -722.21 6222.9 41.96}
 		{xform zl 55.88}
-		{Player 3}
+		{Player 0}
 		{MID 10040}
 	}
 	{Entity "cow" 0x2082
 		{Position -1659.01 6535.5}
 		{xform zl -79.36}
-		{Player 3}
+		{Player 0}
 		{MID 10041}
 	}
 	{Entity "cow" 0x2083
 		{Position -1804.43 5828.48 72.01}
 		{xform zl -153.32}
-		{Player 3}
+		{Player 0}
 		{MID 10042}
 	}
 	{Entity "cow" 0x2084
 		{Position -2590.45 6908.79 86.02}
 		{xform zl -0.08}
-		{Player 3}
+		{Player 0}
 		{MID 10043}
 	}
 	{Entity "cow" 0x2086
 		{Position -2640.66 6167.94}
 		{xform zl 128.7}
-		{Player 3}
+		{Player 0}
 		{MID 10044}
 	}
 	{Entity "cow" 0x2087
 		{Position -3380.21 6182.19 90.04}
 		{xform zl -55.7}
-		{Player 3}
+		{Player 0}
 		{MID 10045}
 	}
 	{Entity "cow" 0x2088
 		{Position -3040.11 6824.61 87.12}
 		{xform zl 57.45}
-		{Player 3}
+		{Player 0}
 		{MID 10046}
 	}
 	{Entity "cow" 0x2089
 		{Position -3624.62 6937.69 103.02}
 		{xform zl -120.9}
-		{Player 3}
+		{Player 0}
 		{MID 10047}
 	}
 	{Entity "cow" 0x208a
 		{Position -3786.96 6516.9 107.01}
 		{xform zl -146.66}
-		{Player 3}
+		{Player 0}
 		{MID 10048}
 	}
 	{Entity "cow" 0x208b
 		{Position -4090.35 6805.04 106.93}
 		{xform zl -45.28}
-		{Player 3}
+		{Player 0}
 		{MID 10049}
 	}
 	{Entity "cow" 0x208c
 		{Position -4027.26 7161.51 105.06}
 		{xform zl -37.78}
-		{Player 3}
+		{Player 0}
 		{MID 10050}
 	}
 	{Entity "cow" 0x208f
 		{Position -1502.1 -5250.34 49.81}
 		{xform zl -154.91}
-		{Player 3}
+		{Player 0}
 		{MID 10052}
 	}
 	{Entity "cow" 0x2090
 		{Position -1840.3 -5394.47 50.87}
 		{xform zl 49.63}
-		{Player 3}
+		{Player 0}
 		{MID 10053}
 	}
 	{Entity "cow" 0x2091
 		{Position -1310.86 -5913.32 45.02}
 		{xform zl -68.6}
-		{Player 3}
+		{Player 0}
 		{MID 10054}
 	}
 	{Entity "cow" 0x2093
 		{Position -1376.3 -6218.38}
 		{xform zl -152.91}
-		{Player 3}
+		{Player 0}
 		{MID 10055}
 	}
 	{Entity "cow" 0x20a2
 		{Position -695.87 -6601.5 44.97}
 		{xform zl 49.53}
-		{Player 3}
+		{Player 0}
 		{MID 10056}
 	}
 	{Entity "cow" 0x20a3
 		{Position -2460.04 -9267.44 -11.81}
 		{xform zl 122.56}
-		{Player 3}
+		{Player 0}
 		{MID 10057}
 	}
 	{Entity "cow" 0x20a4
 		{Position -2681.01 -8646.66 -3.98}
 		{xform zl -166.62}
-		{Player 3}
+		{Player 0}
 		{MID 10058}
 	}
 	{Entity "cow" 0x20a5
 		{Position -3083.29 -8603.16}
 		{xform zl 125.5}
-		{Player 3}
+		{Player 0}
 		{MID 10059}
 	}
 	{Entity "cow" 0x20a6
 		{Position -2905.58 -9143.05 -3.04}
 		{xform zl -128.09}
-		{Player 3}
+		{Player 0}
 		{MID 10060}
 	}
 	{Entity "cow" 0x20a7
 		{Position -3378.23 -9510.33 0.05}
 		{xform zl 113.69}
-		{Player 3}
+		{Player 0}
 		{MID 10061}
 	}
 	{Entity "cow" 0x20a8
 		{Position -4477.67 -6198.65 49.92}
 		{xform zl -128.03}
-		{Player 3}
+		{Player 0}
 		{MID 10062}
 	}
 	{Entity "cow" 0x20a9
 		{Position -4345.67 -6757.68 39.97}
 		{xform zl -161.86}
-		{Player 3}
+		{Player 0}
 		{MID 10063}
 	}
 	{Entity "cow" 0x20b0
 		{Position -4579.29 -7729.49 26.95}
 		{xform zl 99.97}
-		{Player 3}
+		{Player 0}
 		{MID 10064}
 	}
 	{Entity "cow" 0x20b1
 		{Position 3869.7 -6679.41}
 		{xform zl 70.96}
-		{Player 3}
+		{Player 0}
 		{MID 10065}
 	}
 	{Entity "cow" 0x20b2
 		{Position 3499 -6735.98}
 		{xform zl 20.8}
-		{Player 3}
+		{Player 0}
 		{MID 10066}
 	}
 	{Entity "cow" 0x20b3
 		{Position 4044.93 -7214.31 -77.81}
 		{xform zl -155.86}
-		{Player 3}
+		{Player 0}
 		{MID 10067}
 	}
 	{Entity "cow" 0x20b4
 		{Position 4113.38 -7832.07 -77.05}
 		{xform zl -131.78}
-		{Player 3}
+		{Player 0}
 		{MID 10068}
 	}
 	{Entity "cow" 0x20b5
 		{Position 4555.27 -7999.75 -90.75}
 		{xform zl 134.53}
-		{Player 3}
+		{Player 0}
 		{MID 10069}
 	}
 	{Entity "cow" 0x20b6
 		{Position 3630.15 -7130.73}
 		{xform zl 60.76}
-		{Player 3}
+		{Player 0}
 		{MID 10070}
 	}
 	{Entity "cow" 0x20b7
 		{Position 4322.92 -7618.92}
 		{xform zl -79.85}
-		{Player 3}
+		{Player 0}
 		{MID 10071}
 	}
 	{Entity "cow" 0x20b8
 		{Position 4479.24 -8849.59}
 		{xform zl -66.86}
-		{Player 3}
+		{Player 0}
 		{MID 10072}
 	}
 	{Entity "cow" 0x20b9
 		{Position 1094.81 -5696.27}
 		{xform zl 70.72}
-		{Player 3}
+		{Player 0}
 		{MID 10073}
 	}
 	{Entity "cow" 0x20ba
 		{Position 1223.9 -5463.86 26.04}
 		{xform zl 6.09}
-		{Player 3}
+		{Player 0}
 		{MID 10074}
 	}
 	{Entity "cow" 0x20bb
 		{Position 1042.71 -5200.19 28.02}
 		{xform zl -50.08}
-		{Player 3}
+		{Player 0}
 		{MID 10075}
 	}
 	{Entity "horse" 0x612d
 		{Position -88.74 -3474.71}
 		{xform zl -80.93}
-		{Player 3}
+		{Player 0}
 		{MID 10076}
 	}
 	{Entity "horse" 0x612e
 		{Position 140.8 -3217.34}
 		{xform zl -83.01}
-		{Player 3}
+		{Player 0}
 		{MID 10077}
 	}
 	{Entity "horse" 0x612f
 		{Position -155.44 -2637.3}
 		{xform zl 122.93}
-		{Player 3}
+		{Player 0}
 		{MID 10078}
 	}
 	{Entity "horse" 0x6130
 		{Position -377.83 -2714.99 84.01}
 		{xform zl 146.64}
-		{Player 3}
+		{Player 0}
 		{MID 10079}
 	}
 	{Entity "horse" 0x6131
 		{Position -1145.29 -3026.92}
 		{xform zl 130.39}
-		{Player 3}
+		{Player 0}
 		{MID 10080}
 	}
 	{Entity "horse" 0x6132
 		{Position -1094.55 -2878.06}
 		{xform zl -143.19}
-		{Player 3}
+		{Player 0}
 		{MID 10081}
 	}
 	{Entity "horse" 0x613d
 		{Position -1322.18 -2938.48}
 		{xform zl 62.99}
-		{Player 3}
+		{Player 0}
 		{MID 10082}
 	}
 	{Entity "cow" 0x613e
 		{Position 3740.87 -2542.68}
 		{xform zl 70.44}
-		{Player 3}
+		{Player 0}
 		{MID 10083}
 	}
 	{Entity "cow" 0x613f
 		{Position 4235.45 -2578.68}
 		{xform zl -1.42}
-		{Player 3}
+		{Player 0}
 		{MID 10084}
 	}
 	{Entity "cow" 0x6141
 		{Position 4393.94 -1808.05}
 		{xform zl 28.35}
-		{Player 3}
+		{Player 0}
 		{MID 10085}
 	}
 	{Entity "cow" 0x6142
 		{Position 3633.56 -1822.74 47.98}
 		{xform zl 131.08}
-		{Player 3}
+		{Player 0}
 		{MID 10086}
 	}
 	{Entity "cow" 0x6143
 		{Position 2994.38 -1654.81}
 		{xform zl -95.77}
-		{Player 3}
+		{Player 0}
 		{MID 10087}
 	}
 	{Entity "cow" 0x6144
 		{Position 3201.4 -2160.25}
 		{xform zl -167.01}
-		{Player 3}
+		{Player 0}
 		{MID 10088}
 	}
 	{Entity "cow" 0x6145
 		{Position 3366.19 -2736.27}
 		{xform zl -49.4}
-		{Player 3}
+		{Player 0}
 		{MID 10089}
 	}
 	{Entity "cow" 0x6157
 		{Position 3863.99 -1448.52}
 		{xform zl -34.33}
-		{Player 3}
+		{Player 0}
 		{MID 10090}
 	}
 	{Entity "crates_set01" 0x6160

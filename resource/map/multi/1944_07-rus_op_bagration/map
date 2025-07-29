@@ -43232,7 +43232,7 @@
 		{Position -3172.49 5320.77 117.02}
 		{xform scale 1.1}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10001}
 	}
 	{Entity "cow" 0xb6d
@@ -43240,7 +43240,7 @@
 		{xform zl 113.31}
 		{TexMod "1"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10002}
 	}
 	{Entity "cow" 0xb6e
@@ -43248,14 +43248,14 @@
 		{xform scale 0.9}
 		{TexMod "2"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10003}
 	}
 	{Entity "horse" 0xb6f
 		{Position 3774.65 5556.83 211.97}
 		{TexMod "light"}
 		{SpawnedInFog}
-		{Player 3}
+		{Player 0}
 		{MID 10004}
 	}
 	{Entity "sandbag_heap_pile" 0x41d1

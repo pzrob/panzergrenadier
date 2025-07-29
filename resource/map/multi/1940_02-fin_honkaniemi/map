@@ -65720,7 +65720,7 @@
 		{Position -3482.94 -3675.07 14.52}
 		{xform zl 58.61 scale 1.2}
 		{TexMod "dots"}
-		{Player 3}
+		{Player 0}
 		{MID 10001}
 	}
 	{Link 0x1f {0xac "p0"}}

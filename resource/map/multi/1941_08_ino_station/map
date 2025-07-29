@@ -49992,242 +49992,242 @@
 		{Position 1023.62 -1293.34}
 		{xform zl 180 scale 1.06}
 		{TexMod "light"}
-		{Player 3}
+		{Player 0}
 		{MID 10005}
 	}
 	{Entity "horse" 0x4835
 		{Position 942.01 -1553.05}
 		{xform scale 1.014}
-		{Player 3}
+		{Player 0}
 		{MID 10009}
 	}
 	{Entity "horse" 0x4836
 		{Position -1217.01 -1524.04}
 		{xform scale 1.008}
 		{TexMod "dots"}
-		{Player 3}
+		{Player 0}
 		{MID 10010}
 	}
 	{Entity "horse" 0x4837
 		{Position -1191.73 -1345.98}
 		{xform scale 1.028}
-		{Player 3}
+		{Player 0}
 		{MID 10011}
 	}
 	{Entity "cow" 0x4838
 		{Position 977.4 982.42}
 		{xform scale 1.065}
-		{Player 3}
+		{Player 0}
 		{MID 10025}
 	}
 	{Entity "cow" 0x4839
 		{Position 1057.18 1430.73}
 		{xform scale 1.188}
-		{Player 3}
+		{Player 0}
 		{MID 10026}
 	}
 	{Entity "cow" 0x483a
 		{Position 781.16 1848.45}
 		{xform scale 1.005}
-		{Player 3}
+		{Player 0}
 		{MID 10027}
 	}
 	{Entity "cow" 0x483b
 		{Position 718.75 1257.31}
 		{xform scale 1.177}
-		{Player 3}
+		{Player 0}
 		{MID 10034}
 	}
 	{Entity "chicken" 0x483c
 		{Position 77.33 -184.73}
 		{xform zl 14.03 scale 1.059}
-		{Player 3}
+		{Player 0}
 		{MID 10035}
 	}
 	{Entity "chicken" 0x483d
 		{Position 64.76 -186.09}
 		{xform zl -157.78 scale 1.059}
-		{Player 3}
+		{Player 0}
 		{MID 10036}
 	}
 	{Entity "chicken" 0x483e
 		{Position 84.18 -178.53}
 		{xform zl 20.81 scale 1.064}
-		{Player 3}
+		{Player 0}
 		{MID 10037}
 	}
 	{Entity "chicken" 0x483f
 		{Position 272.38 157.14}
 		{xform zl -90.41 scale 1.052}
-		{Player 3}
+		{Player 0}
 		{MID 10038}
 	}
 	{Entity "chicken" 0x4840
 		{Position 263.65 171.02}
 		{xform zl 171.89 scale 1.111}
-		{Player 3}
+		{Player 0}
 		{MID 10039}
 	}
 	{Entity "chicken" 0x4841
 		{Position 2419.83 -1795.95}
 		{xform zl -16.56 scale 1.091}
-		{Player 3}
+		{Player 0}
 		{MID 10040}
 	}
 	{Entity "chicken" 0x4842
 		{Position 2402.62 -1781.38}
 		{xform zl 117.18 scale 1.005}
-		{Player 3}
+		{Player 0}
 		{MID 10041}
 	}
 	{Entity "chicken" 0x4843
 		{Position 2401.56 -1802.04}
 		{xform zl 131.49 scale 1.132}
-		{Player 3}
+		{Player 0}
 		{MID 10042}
 	}
 	{Entity "chicken" 0x4844
 		{Position 614.93 -1949.5}
 		{xform zl 170.13 scale 1.096}
-		{Player 3}
+		{Player 0}
 		{MID 10043}
 	}
 	{Entity "chicken" 0x4845
 		{Position 627.9 -1942.83}
 		{xform zl 121.03 scale 1.188}
-		{Player 3}
+		{Player 0}
 		{MID 10044}
 	}
 	{Entity "chicken" 0x4846
 		{Position 639.08 -1936.91}
 		{xform zl 73.99 scale 1.015}
-		{Player 3}
+		{Player 0}
 		{MID 10045}
 	}
 	{Entity "chicken" 0x4847
 		{Position -2496.03 -1788.23}
 		{xform zl -130.89 scale 1.066}
-		{Player 3}
+		{Player 0}
 		{MID 10046}
 	}
 	{Entity "chicken" 0x4848
 		{Position -2486.27 -1769.33}
 		{xform zl 166.5 scale 1.008}
-		{Player 3}
+		{Player 0}
 		{MID 10047}
 	}
 	{Entity "chicken" 0x4849
 		{Position -2496.28 -1771.19}
 		{xform zl 130.14 scale 1.01}
-		{Player 3}
+		{Player 0}
 		{MID 10048}
 	}
 	{Entity "chicken" 0x484a
 		{Position -1106.5 -156.46}
 		{xform zl 117.85 scale 1.127}
-		{Player 3}
+		{Player 0}
 		{MID 10049}
 	}
 	{Entity "chicken" 0x484b
 		{Position -1102.31 -178.37}
 		{xform zl -92.07 scale 1.185}
-		{Player 3}
+		{Player 0}
 		{MID 10050}
 	}
 	{Entity "chicken" 0x484c
 		{Position -1117.42 -169.13}
 		{xform zl 160.28 scale 1.056}
-		{Player 3}
+		{Player 0}
 		{MID 10051}
 	}
 	{Entity "chicken" 0x484d
 		{Position -66.53 -1780.21}
 		{xform zl -150.75 scale 1.16}
-		{Player 3}
+		{Player 0}
 		{MID 10053}
 	}
 	{Entity "chicken" 0x484e
 		{Position -47.8 -1765.53}
 		{xform zl 105.47 scale 1.18}
-		{Player 3}
+		{Player 0}
 		{MID 10054}
 	}
 	{Entity "sheep" 0x484f
 		{Position 3325.76 -3858.58 82.97}
 		{xform scale 1.047}
-		{Player 3}
+		{Player 0}
 		{MID 10055}
 	}
 	{Entity "sheep" 0x4850
 		{Position 3239.04 -3746.85}
 		{xform scale 1.036}
-		{Player 3}
+		{Player 0}
 		{MID 10056}
 	}
 	{Entity "sheep" 0x4851
 		{Position 3420.35 -3707.03 77.53}
 		{xform scale 1.121}
-		{Player 3}
+		{Player 0}
 		{MID 10057}
 	}
 	{Entity "sheep" 0x4852
 		{Position 3399.37 -3566.9 62.52}
 		{xform scale 1.097}
-		{Player 3}
+		{Player 0}
 		{MID 10058}
 	}
 	{Entity "sheep" 0x4853
 		{Position 3559.54 -3582.64}
 		{xform scale 1.127}
-		{Player 3}
+		{Player 0}
 		{MID 10059}
 	}
 	{Entity "sheep" 0x4859
 		{Position 3657.92 -3341.35 62.52}
 		{xform scale 1.171}
-		{Player 3}
+		{Player 0}
 		{MID 10060}
 	}
 	{Entity "sheep" 0x485a
 		{Position 3822.73 -3382.3 64.97}
 		{xform scale 1.008}
 		{TexMod "black"}
-		{Player 3}
+		{Player 0}
 		{MID 10061}
 	}
 	{Entity "sheep" 0x485b
 		{Position 3849.67 -3377.83 64.96}
 		{xform scale 1.123}
 		{TexMod "black"}
-		{Player 3}
+		{Player 0}
 		{MID 10062}
 	}
 	{Entity "sheep" 0x485c
 		{Position 3382.13 -3968.09 74.85}
 		{xform zl 101.54 scale 1.008}
 		{TexMod "black"}
-		{Player 3}
+		{Player 0}
 		{MID 10063}
 	}
 	{Entity "sheep" 0x485d
 		{Position 3372.36 -3942.59 76.33}
 		{xform zl 101.54 scale 1.123}
 		{TexMod "black"}
-		{Player 3}
+		{Player 0}
 		{MID 10064}
 	}
 	{Entity "sheep" 0x485e
 		{Position 3075.02 -3864 74.96}
 		{xform zl 69.86 scale 1.008}
 		{TexMod "black"}
-		{Player 3}
+		{Player 0}
 		{MID 10065}
 	}
 	{Entity "sheep" 0x485f
 		{Position 3080.09 -3837.17 73.96}
 		{xform zl 69.86 scale 1.123}
 		{TexMod "black"}
-		{Player 3}
+		{Player 0}
 		{MID 10066}
 	}
 	{Entity "waterrun" 0x4860
