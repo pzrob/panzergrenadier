@@ -138,7 +138,7 @@
 	{"50mm_flak41"	requires	"37mm_flak37"		costs 2  position 4 27}
 	{"88mm_flak18"	requires	"50mm_flak41"		costs 2  position 6 27}
 	{"88mm_flak36"	requires	"88mm_flak18"		costs 4  position 8 27}
-	{"88mm_flak36_aa"	requires	"88mm_flak36"	costs 1  position 9 27}
+	{"88mm_flak36_aa"	requires	"88mm_flak36"	costs 0  position 9 27}
 
 ;//---AT Guns---
 	{"28mm_pzb41"	requires	"single_at(ger)"	costs 1  position 2 6}
