@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{extension "80mm_ger_mortar_fr.mdl"}
+	
+	{extender "stuff"
+		{item "ammo mortarger_80 fr"}
+	}
+}

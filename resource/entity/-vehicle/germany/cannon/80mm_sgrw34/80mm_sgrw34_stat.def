@@ -46,7 +46,8 @@
 	{extender "inventory"
 		{box
 			{item "mortarger_80 he" 50}
-			{item "mortarger_80 sm" 20}
+			{item "mortarger_80 fr" 30}
+                        {item "mortarger_80 sm" 20}
 		    {item "ger_80mm_mortar_round_crate" 1 }
 		}
 	}
