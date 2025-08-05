@@ -43,7 +43,8 @@
 
 	{extender "inventory"
 		{box
-			{item "mortarger_80 he" 80}
+			{item "mortarger_80 he" 60}
+                        {item "mortarger_80 fr" 30}
 			{item "mortarger_80 sm" 20}
 			{item "sandbag_vehicle" 2}
 		}

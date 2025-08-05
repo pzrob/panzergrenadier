@@ -99,8 +99,8 @@
 			{Barrels 4}
 			{charger "charger commander" minWorkers 1}
 			("abm_dymamic_aaa"
-				zeroing(1.2)
-				dispersion(0.15)
+				zeroing(0.3)
+				dispersion(1.15)
 			)
 		}
 	}
