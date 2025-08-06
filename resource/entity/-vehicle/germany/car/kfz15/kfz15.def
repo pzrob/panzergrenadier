@@ -75,8 +75,8 @@
 		{weapon "mgun" {mask "mountable"}}
 		{Box
                         {item "sandbag_vehicle" 1}
-			{item "ammo mgun_ger drum" 1100}				; 24 drums (50 rounds each)
-			{item "mg34_drum" filling "ammo mgun_ger drum" 50 {user "mgun"}}
+			{item "ammo mgun_ger doubledrum ap2" 1800}				; 24 drums (75 rounds each)
+			{item "mg34_doubledrum" filling "ammo mgun_ger doubledrum ap2" 75 {user "mgun"}}
 		}
 	}
 

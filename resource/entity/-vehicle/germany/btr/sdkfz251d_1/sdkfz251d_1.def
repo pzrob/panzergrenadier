@@ -92,9 +92,9 @@
 		{weapon "mgun2" {mask "mountable"}}
 		{Box
                         {item "sandbag_vehicle" 1}
-			{item "mg42_belt_long" filling "ammo mgun_ger belt ap" 300 {user "mgun"}}
-			{item "mg42_drum" filling "ammo mgun_ger belt ap" 50 {user "mgun2"}} ;// doesn't work if same mg34_belt weapon is in both MG places
-			{item "ammo mgun_ger belt ap" 2010}
+			{item "mg42_belt_long" filling "ammo mgun_ger belt ap2" 300 {user "mgun"}}
+			{item "mg42_drum" filling "ammo mgun_ger belt ap2" 50 {user "mgun2"}} ;// doesn't work if same mg34_belt weapon is in both MG places
+			{item "ammo mgun_ger belt ap2" 2010}
                         {item "panzershreck_54 weapon" 1}
                         {item "panzershreck ammo" 6}
                         {item "panzerfaust_100 weapon" 5 filled}

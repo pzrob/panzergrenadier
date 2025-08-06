@@ -22,8 +22,8 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{box
-			{item "mgun_ger doubledrum ap ammo" 2010}
-			{item "mg34_doubledrum" filling "mgun_ger doubledrum ap ammo" 75 {user "mgun"}}
+			{item "mgun_ger doubledrum ap2 ammo" 2010}
+			{item "mg34_doubledrum" filling "mgun_ger doubledrum ap2 ammo" 75 {user "mgun"}}
 		}
 	}
 

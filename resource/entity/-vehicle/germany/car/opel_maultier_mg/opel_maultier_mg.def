@@ -93,8 +93,8 @@
                         {item "panzershreck ammo" 5}
                         {item "panzerfaust_100 weapon" 8 filled}
                         {item "hafthohlladung grenade" 5}
-			{item "mg42_belt_long" filled {user "mgun"}}
-			{item "ammo mgun_ger belt" 2000}
+			{item "mg42_belt_long" filling "ammo mgun_ger belt ap2" 300  {user "mgun"}}
+			{item "ammo mgun_ger belt ap2" 2000}
 		}
 	}
 	

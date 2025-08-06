@@ -20,7 +20,7 @@
 	{inventory
 		{item "g43" filling "rifle_ger gewehr ammo" 10}
 		{item "rifle_ger gewehr ammo" 100}
-		{item "mgun_ger belt ammo" 600}
+		{item "mgun_ger belt ap ammo" 600}
 
 		{item "m24_splinter grenade" 2}
 		{item "m24_smoke grenade" 1}

@@ -444,7 +444,7 @@
 	{cost 75}
 }
 {"kfz70_drilling"
-	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(4) crew(artilleryman:4))
+	("vehicle"  side(ger) period(mid) min_stage(1) max_stage(99) cw(1) cp(8) crew(artilleryman:4))
 	{cost 215}	
 }
 {"blitz3_6"
@@ -588,7 +588,7 @@
 	{cost 350}
 }	
 {"sdkfz7_rocket"
-	("vehicle" side(ger) period(mid) min_stage(6) max_stage(99) cw(2) cp(4) crew(tank_commander:1))
+	("vehicle" side(ger) period(mid) min_stage(6) max_stage(99) cw(2) cp(24) crew(tank_commander:1))
 	{cost 1075}
 }
 {"kfz14"
@@ -672,7 +672,7 @@
 	{cost 110}
 }	
 {"opel_maultier_30mm"
-	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(artilleryman:4))
+	("vehicle"  side(ger) period(mid) min_stage(2) max_stage(99) cw(1) cp(14) crew(artilleryman:4))
 	{cost 310}
 }
 {"sdkfz6_ammo"
@@ -948,7 +948,7 @@
 	{cost 1000}
 }
 {"hummel"
-	("vehicle2" side(ger) period(mid) min_stage(9) max_stage(99) cw(4) cp(39) crew1(tankman_stug:5) crew2(tank_commander_stug:1))
+	("vehicle2" side(ger) period(mid) min_stage(9) max_stage(99) cw(4) cp(35) crew1(tankman_stug:5) crew2(tank_commander_stug:1))
 	{cost 1350}
 }
 {"sturmpanzer4"

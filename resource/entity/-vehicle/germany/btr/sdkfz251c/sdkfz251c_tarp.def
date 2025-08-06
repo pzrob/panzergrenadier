@@ -90,8 +90,8 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 		    {item "sandbag_vehicle" 1}
-			{item "mg34_belt_long" filling "ammo mgun_ger belt ap" 300 {user "mgun"}}
-			{item "ammo mgun_ger belt ap" 2010}
+			{item "mg34_belt_long" filling "ammo mgun_ger belt ap2" 300 {user "mgun"}}
+			{item "ammo mgun_ger belt ap2" 2010}
                         {item "panzershreck_54 weapon" 1}
                         {item "panzershreck ammo" 5}
                         {item "panzerfaust_100 weapon" 5 filled}

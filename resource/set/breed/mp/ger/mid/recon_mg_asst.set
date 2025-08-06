@@ -26,7 +26,7 @@
 		{item "m24_smoke grenade" 1}
 		{item "m24_geballteladung grenade" 2}
 
-		{item "mgun_ger belt ammo" 900}
+		{item "mgun_ger belt ap ammo" 900}
 		{item "bandage_ger" 4}
 		{item "ger_sidecap_m39_var2_cav"}
 
