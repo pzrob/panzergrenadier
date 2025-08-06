@@ -1768,6 +1768,14 @@ msgctxt "info/special/sdkfz251c_medic"
 msgid "<c(c3baae)>Medical Halftrack</c>"
 msgstr ""
 
+msgctxt "info/special/coelian_i"
+msgid "<c(c3baae)>Self-Propelled Anti-Aircraft Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/coelian_i"
+msgid "FlakPz.V Coelian"
+msgstr ""
+
 
 
 

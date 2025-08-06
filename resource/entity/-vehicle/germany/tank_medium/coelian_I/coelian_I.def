@@ -1,0 +1,140 @@
+{game_entity
+	(include "/properties/tank.ext")
+
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "flak" "medium" "vision_lev04"  "shield" "smoke" "nvw" "detect_tank_medium" "detect_cannon_aa" "trailer" "trailer_heavy"}
+	{Extension "coelian_I.mdl"}
+	(include "coelian_I.ext")
+	{PatherId "panzer5"}
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_zenite"}
+	
+	;Flakpanzer V «Coelian», «Gerat 554», «Flakpanzer V», «Flakpanzer 341»
+
+
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_240"}
+		}
+	}
+
+	(define "crew_human"
+		{placer	{place "%place" {group "crew"} {visor "%visor"}}}
+		{boarder {door "%door"}	{link "%door" "%place" {anm "%place"} {forward putoff} {reverse puton}}}
+	)
+
+	("crew_human" place(driver) door(emit1) visor(driver))
+    	("crew_human" place(charger)    door(emit4) visor(main))
+    	("crew_human" place(gunner) door(emit3) visor(main))
+	("crew_human" place(gunner3) door(emit2) visor(main))
+    	("crew_human" place(commander) door(emit3) visor(around))
+
+
+	{boarder
+		{anm "driver"
+			 {forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "gunner"
+			{forward {begin "board_Is-2"} {end "seat_commander_hatch"} {base "open_gunner"}}
+			{reverse {end "emit_tank_2_hold"} {base "open_gunner" -1}}
+		}
+		{anm "gunner3"
+			 {forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver2"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver2" -1}}
+		}
+		{anm "charger"
+			 {forward    {begin  "board_sturmtiger_back"} {end "seat_driver_car"} {base "open_charger"}}
+            		 {reverse    {end    "board_sturmtiger_back" -1} {base "open_charger" -1}}
+		}
+		{anm "commander"
+			{forward {begin "board_Is-2"} {end "seat_commander_hatch"} {base "open_gunner"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_gunner"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} {end "pose_seat_armor_2"}}
+			{reverse	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "pose_pz3_right"}}
+			{reverse	{end	"emit_body"}}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "grenade nbk39"}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "bulletger_37_auto ap" 750}	
+			{item "bulletger_37_auto he" 1400}
+			{item "ammo mgun_ger belt" 4000}		; 32 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+			{item "nbk39 grenade" 6}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_flak43_x2" filling "bulletger_37_auto he" 16}
+			{Barrels 2}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_aaa"
+				zeroing(1.95)
+				dispersion(0.24)
+			)
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "mg34_tank" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 42500}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(-0.7)) 
+		("mobility_tank"
+			speed(52) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(12) ;---------Max speed in reverse on road, km/h.
+			traverse(28) ;-------Track traverse, per second, in degrees.
+			weight(42.5) ;-------Weight in Tonnes.
+			power(690) ;---------Engine Power, in hp. Maybach HL230 P30.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(720) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(146) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "turret"
+		{speed2 25.5}
+	}
+    	{bone "gun_rot"
+		{limits 80 -4}
+		{speed2 8}
+    	}
+	{bone "mgun_rot"
+		{limits 5 -5}
+		{speed2 20.5}
+	}
+	{bone "mgun_rot2"
+		{limits 5 -5}
+		{speed2 20.5}
+	}
+}
+	

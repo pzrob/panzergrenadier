@@ -52,7 +52,7 @@
 	}
 	{Resources
 		{MP ;// Manpower (generic money)
-			{StartVal 2100}
+			{StartVal 2400}
 			{WinGain "1:300 4:350 6:400 8:500 10:700 12:900 14:1200"} ;// games played : MP gain
 			{LoseGain "1:50"}
 			{MapRewards	;//Bonus resources on various game types (a game can only be one randomly chosen type). Types: Airfield, Ammodepot, Bonus, Factory, Research.

@@ -1430,6 +1430,23 @@
 		("MG34")
 	}
 }
+{"coelian_i tank"
+	("pz5_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		("MG34")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+		{link_sound "action_recoil"		"weapon/shot/smallarms/s3/recoil/GER/MG42/"}
+	}
+	{on spawn
+		{add_view "tank_fire_minimum_dust_ground"		"minimum_ground_fx"		"basis"}
+   		{add_view "tank_fire_minimum_dust_sand"		"minimum_sand_fx"		"basis"}
+   		{add_view "tank_fire_minimum_dust_snow"		"minimum_snow_fx"		"basis"}
+   	}
+	{on fire "gun"  
+		{call "minimum_terrain_fx"}
+	}	
+}
 {"jagdpanther tank"
 	{on "add_weapon_sound" overload
 		("Cannon_85to100mm_HV")

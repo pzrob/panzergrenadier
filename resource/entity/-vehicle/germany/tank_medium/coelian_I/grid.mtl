@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/coelian_I/pzkpfw_v_ausf_g_panther_body_at_c"}
+	{bump "$/model/coelian_I/pzkpfw_v_ausf_g_panther_body_at_n"}
+	{specular "$/model/coelian_I/pzkpfw_v_ausf_g_panther_body_at_s"}
+	{color "230 230 230 25"}
+	{blend test}
+}

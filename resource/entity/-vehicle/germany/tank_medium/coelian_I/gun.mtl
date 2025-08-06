@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/coelian_I/xx/flpz_v_coelian_turret_c_xx"}
+	{bump "$/model/coelian_I/flpz_v_coelian_turret_n"}
+	{specular "$/model/coelian_I/flpz_v_coelian_turret_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}
