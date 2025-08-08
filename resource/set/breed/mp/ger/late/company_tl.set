@@ -11,20 +11,23 @@
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_2")("tier2_standard")
+		("smg_skill_rank_4")("tier4_standard")
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_4")
 	}
 	{inventory
 		{item "mp40_unfolded" filled}
-		{item "mp40 ammo" 192}
+		{item "mp40 ammo" 320}
 
-		{item "m24 grenade" 1.25 0.5}
-		{item "m24_smoke grenade" 2.25 0.5}
+		{item "m24 grenade" 2}
+		{item "m24_smoke grenade" 2}
+		{item "pwm_l grenade" 1}
+		{item "panzerfaust_100 weapon" 2 filled}
+		{item "no8_smoke grenade" 2}
 
-		{item "bandage_ger" 3.5 0.5}
+		{item "bandage_ger" 5}
 
 		{in_hands 0}
 	}

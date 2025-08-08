@@ -1,0 +1,84 @@
+;Exported by:	 Carlos
+;Date:			 15.10.2019 23:24:51
+;File:			 T:\GoH_3D_vehicles_ger\3d_tank_ammo\sgrw41_ammo\mortar_ammo_rus_export.max
+{skeleton
+	{bone "body"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+			{VolumeView "body_lod2.ply"}
+		}
+		{bone "tail"
+			{matrix34
+				-1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 -1
+				-4.1919 	 -0.0074 	 0.0285
+			}
+		}
+		{bone "sound_mortar"}
+	}
+}
+{volume "body"
+	{cylinder 0.920278 6.96769}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 -1
+		1 	 0 	 0
+		-0.175 	 0.0027 	 0.0024
+	}
+}
+{volume "select"
+	{cylinder 1.33175 7.18284}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 -1
+		1 	 0 	 0
+		-0.179 	 0.0027 	 0.0053
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 1.004 	 5.8353 	 12.7025}
+			{lookat -0.004 	 0.3808 	 0.9006}
+			{fov 30.5282}
+			{horizon 9.45056}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 33.4535 	 25.5171 	 14.396}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0138 	 0.0894 	 -0.4918}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 1.0145 	 5.7208 	 12.4277}
+			{lookat 0.0098 	 0.4443 	 0.9624}
+			{fov 29.9682}
+			{horizon 9.82303}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 33.4535 	 25.5171 	 14.4797}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0154 	 0.0931 	 -0.491}
+			}
+		}
+	}
+}

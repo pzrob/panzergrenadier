@@ -8,7 +8,7 @@
 
 	{cursor "ironsights/smg"}
 
-	{range 130 130}
+	{range 120 120}
 
 	{curve "bullet_pistol"}
 

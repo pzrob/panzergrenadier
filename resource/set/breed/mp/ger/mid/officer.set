@@ -7,7 +7,7 @@
 	{tags "soldier"}
 	{nationality ger_officer}
 	{armors
-		{head ger_sidecap_m39_var2_inf_off}
+		{head ger_officer_cap}
 	}
 	{perks
 		(include "ability.inc")

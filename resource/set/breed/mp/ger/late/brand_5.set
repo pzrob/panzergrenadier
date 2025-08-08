@@ -21,7 +21,7 @@
 	{inventory
 		{item "stg44" filled}
 		{item "stg44 ammo" 180}
-		{item "leuchtpistole34" filled}
+		{item "leuchtpistole" filled}
 		{item "flare ammo" 9}
 		
 		{item "m24 grenade" 1}

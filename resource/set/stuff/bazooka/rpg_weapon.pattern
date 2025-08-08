@@ -22,7 +22,7 @@
 
 	{preloaded}
 
-	{range 100 100}
+	{range 80 80}
 
 	{curve "gun_std"}
 	{AimingTolerance 3}
@@ -30,7 +30,7 @@
 	{projectileDamageThreshold 1}
 
 	("fire rate" rpm(6))
-	("reload time" seconds(8))
+	("reload time" seconds(10))
 
 	{gravity 0.75}
 

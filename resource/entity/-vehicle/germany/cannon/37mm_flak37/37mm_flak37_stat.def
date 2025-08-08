@@ -65,8 +65,8 @@
 		{place "gun"
 			{weapon "37mm_flak37" filling "bulletger_37_auto he" 12}
 			("abm_dymamic_aaa"
-				zeroing(1.95)
-				dispersion(0.24)
+				zeroing(0.4)
+				dispersion(0.9)
 			)
 		}
 	}

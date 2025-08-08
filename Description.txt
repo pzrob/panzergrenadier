@@ -42,7 +42,7 @@ The vehicles contains some veapons and ammo in inventory
 
 You can change the colour of painting for vehicles in game ( change paint vehicle skins)
 
-You can call in Air stikes with Brandenburger assistant leader ( they are random , mortar, artillery , smoke)
+You can call in Air stikes with Brandenburger assistant leader
 
 The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with right mouse button on the ammo box in inventory , the soldier will carry in hand the ammo can, the nearby mg gunners will be resupplyed with ammo.
 

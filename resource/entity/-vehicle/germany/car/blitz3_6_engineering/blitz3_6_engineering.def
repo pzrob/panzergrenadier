@@ -66,13 +66,14 @@
 		{box
 		    {item "sandbag_vehicle" 1}
 			{item "repair_kit" 5}
-			{item "tmi_35" "mine" 100}
+			{item "tmi_35" "mine" 80}
 			{item "mine_detector" 2}
 			{item "shovel_ger_heavy" 5}
 			{item "pickaxe" 5}
 			{item "geballteladung_3kg" 5}
-			{item "s" "mine" 40}
-			{item "wirecutters" 2}
+			{item "s" "mine" 80}
+			{item "wirecutters" 5}
+                        {item "panzerfaust_100 weapon" 3 filled}
 		}
 	}
 

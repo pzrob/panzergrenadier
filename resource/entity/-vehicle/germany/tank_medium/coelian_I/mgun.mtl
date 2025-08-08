@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/coelian_I/mg_34_c"}
+	{bump "$/model/coelian_I/mg_34_n"}
+	{specular "$/model/coelian_I/mg_34_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

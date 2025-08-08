@@ -53,6 +53,7 @@
 			("tex_mod" args uwo12)
 			("tex_mod" args ita)
 			("tex_mod" args stripes)
+			("tex_mod" args stripes2)
 			("tex_mod" args cam1)
 			("tex_mod" args cam2)
 			("tex_mod" args cam3)
@@ -63,6 +64,15 @@
 			("tex_mod" args cam8)
 			("tex_mod" args cam9)
 			("tex_mod" args cam10)
+			("tex_mod" args krake)
+			("tex_mod" args uberfall)
+			("tex_mod" args late4)
+			("tex_mod" args late5)
+			("tex_mod" args splinter)
+			("tex_mod" args sand)
+			("tex_mod" args sand1)
+			("tex_mod" args sand2)
+			("tex_mod" args sand3)
 			{tags add "tex_mod_"}
 		else tagged "tex_mod_"
 			{play_sound "spray_paint"}

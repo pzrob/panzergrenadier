@@ -11,21 +11,25 @@
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_3")("tier3_standard")
+		("smg_skill_rank_4")("tier4_standard")
 		("binocular_vision")
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_6")
 	}
 	{inventory
 		{item "mp40_folded" filled}
-		{item "mp40 ammo" 192}
+		{item "mp40 ammo" 320}
 
 		{item "luger" filled}
-		{item "pistol ammo" 24}
+		{item "pistol ammo" 100}
+		
+		{item "m24_splinter grenade" 2}
+		{item "m24_smoke grenade" 2}
+		{item "hafthohlladung grenade" 2}
 
-		{item "bandage_ger" 3.5 0.5}
+		{item "bandage_ger" 6}
 		{item "binocular"}
 
 		{in_hands 0}

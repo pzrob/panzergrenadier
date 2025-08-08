@@ -1,0 +1,157 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+	; spare tracks 20mm
+	; schürzen 5mm
+
+	("tank_medium_tier2")
+
+	{volume "trackright" {able {holed}}}
+	{volume "trackleft" {able {holed}}}
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("ammo" args "ammo5")
+	("ammo" args "ammo6")
+	("ammo" args "ammo7")
+	("ammo" args "ammo8")
+	("ammo" args "ammo9")
+	("ammo" args "ammo10")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("fuel" args "fuel3")
+	("fuel" args "fuel4")
+	("transmission" args "transmission")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(30))
+
+        {volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 50
+			{front 80}
+			{top 17}
+			{bottom 50}		
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 50
+			{front 80}
+			{top 17}
+			{bottom 50}		
+		}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 50
+			{front 80}
+			{top 17}
+			{bottom 50}		
+		}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 80}
+	}
+	{volume "engine1"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 50
+			{rear 40}
+			{top 17}
+			{bottom 50}		
+		}
+	}
+	{volume "engine2"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 50
+			{rear 40}
+			{top 17}
+			{bottom 50}		
+		}
+	}
+	{volume "engine3"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 50
+			{rear 40}
+			{top 17}
+			{bottom 50}		
+		}
+	}
+
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 40
+			{front 40}
+			{top 17}
+			{bottom 17}		
+		}
+	}
+
+	{volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 60}
+	}
+
+	("shield" args "wheelleft1" 20)
+	("shield" args "wheelleft2" 20)
+	("shield" args "wheelleft3" 20)
+	("shield" args "wheelleft4" 20)
+	("shield" args "wheelleft5" 20)
+	("shield" args "wheelleft6" 20)
+	("shield" args "wheelleft7" 20)
+	("shield" args "wheelleft8" 20)
+	("shield" args "wheelleft9" 20)
+	("shield" args "wheelleft10" 20)
+
+	("shield" args "wheelright1" 20)
+	("shield" args "wheelright2" 20)
+	("shield" args "wheelright3" 20)
+	("shield" args "wheelright4" 20)
+	("shield" args "wheelright5" 20)
+	("shield" args "wheelright6" 20)
+	("shield" args "wheelright7" 20)
+	("shield" args "wheelright8" 20)
+	("shield" args "wheelright9" 20)
+	("shield" args "wheelright10" 20)
+	("shield" args "wheelright11" 20)
+
+	("shield_tear" args "shieldl1" 5)
+	("shield_tear" args "shieldl2" 5)
+	("shield_tear" args "shieldl3" 5)
+	("shield_tear" args "shieldl4" 5)
+	("shield_tear" args "shieldl5" 5)
+	("shield_tear" args "shieldl6" 20)
+	("shield_tear" args "shieldl7" 20)
+	("shield_tear" args "shieldl8" 20)
+	("shield_tear" args "shieldr1" 5)
+	("shield_tear" args "shieldr2" 5)
+	("shield_tear" args "shieldr3" 5)
+	("shield_tear" args "shieldr4" 5)
+	("shield_tear" args "shieldr5" 5)
+	("shield_tear" args "shieldr6" 20)
+	("shield_tear" args "shieldr7" 20)
+	("shield_tear" args "shieldr8" 20)
+
+	("shield" args "shield1" 10)
+	("shield" args "shield2" 4)
+	("shield" args "shield3" 4)
+	("shield" args "shield4" 4)
+	("shield" args "shield5" 4)
+	("shield" args "shield6" 4)
+	("shield" args "shield7" 4)
+	("shield" args "shield8" 4)
+	("shield" args "shield9" 4)

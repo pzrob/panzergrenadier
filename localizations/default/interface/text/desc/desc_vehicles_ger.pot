@@ -1305,11 +1305,11 @@ msgid "<c(c3baae)>Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251c_tarp"
-msgid "Sd.Kfz 251/1 (Medical)"
+msgid "Sd.Kfz 251/1 (Tarp)"
 msgstr ""
 
 msgctxt "info/special/sdkfz251c_tarp"
-msgid "<c(c3baae)>Medical Halftrack</c>"
+msgid "<c(c3baae)>Transport Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_1"
@@ -1750,6 +1750,34 @@ msgstr ""
 
 msgctxt "info/special/opel_maultier_30mm"
 msgid "<c(c3baae)>Maultier with Mk103 30mm Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/opel_maultier_sdkfz3"
+msgid "Opel Maultier (Sd.Kfz.3)"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz10_demag"
+msgid "Sd.Kfz 10 Demag"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251c_medic"
+msgid "Sd.Kfz 251/1 (Medical)"
+msgstr ""
+
+msgctxt "info/special/sdkfz251c_medic"
+msgid "<c(c3baae)>Medical Halftrack</c>"
+msgstr ""
+
+msgctxt "info/special/coelian_i"
+msgid "<c(c3baae)>Self-Propelled Anti-Aircraft Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/coelian_i"
+msgid "FlakPz.V Coelian"
+msgstr ""
+
+msgctxt "desc/entity/steyr_rso"
+msgid "Raupenschlepper Ost"
 msgstr ""
 
 

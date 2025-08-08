@@ -7,7 +7,7 @@
 	{collider "cannon_small"}
 	{targetclass "car"}
 
-	("supply_ammo" supply(250))
+	("supply_ammo" supply(500))
 	("wheel" args "wheelright")
 	("wheel" args "wheelleft")
 

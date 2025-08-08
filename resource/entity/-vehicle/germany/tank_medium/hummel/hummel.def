@@ -58,8 +58,8 @@
 			{gunner "gunner gunner2"}
 			{charger "charger gunner3" minWorkers 1}
 			("abm_dymamic"
-				zeroing(8)
-				dispersion(1)
+				zeroing(4.5)
+				dispersion(0.25)
 			)
 		}
 	}

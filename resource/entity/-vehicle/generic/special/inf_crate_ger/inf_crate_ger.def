@@ -4,7 +4,7 @@
 	{extension "inf_crate.mdl"}
 	{props "vision_lev00_can" "ammo_crate" "emplacement_light_inf_crate"}
 
-	("supply_ammo" supply(250))
+	("supply_ammo" supply(500))
 
 	{extender "inventory"
 		{Box

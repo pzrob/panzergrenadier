@@ -44,6 +44,17 @@
 	}
   
 	("bodyback" repair(30))
+
+	{extender "inventory"
+		{box
+		        {item "m24_smoke grenade" 20}
+                        {item "m24_splinter grenade" 10}
+		        {item "bandage_ger" 80}
+		        {item "tent_kit" 6}
+		        {item "luger" 6}
+		        {item "pistol ammo" 600}
+		}
+	}
   
 	{mass 2100}
 	{Chassis

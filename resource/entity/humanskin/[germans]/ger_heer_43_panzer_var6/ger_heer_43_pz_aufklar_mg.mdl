@@ -476,12 +476,6 @@
 				{VolumeView "../[ger_source]/ger_equipment/ger_equip_mg_lod2.ply"}
 				{VolumeView "../[ger_source]/ger_null.ply"}
 			}
-			{LODView
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_chest_mg_belt_var1.ply"}
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_chest_mg_belt_var1_lod1.ply"}
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_chest_mg_belt_var1_lod2.ply"}
-				{VolumeView "../[ger_source]/ger_null.ply"}
-			}
 						;[Gear] - (Everything that goes on the backside of the soldier)
 			{LODView
 				{VolumeView "../[ger_source]/ger_gear/ger_gear_var1.ply"}

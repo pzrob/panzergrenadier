@@ -66,14 +66,13 @@
 	{extender "inventory"
 		{box
 			{item "repair_kit" 5}
-			{item "tmi_35" "mine" 60}
+			{item "tmi_35" "mine" 80}
 			{item "mine_detector" 2}
-			{item "shovel_ger" 5}
 			{item "pickaxe" 5}
 			{item "geballteladung_3kg" 5}
-			{item "s" "mine" 120}
-			{item "wirecutters" 2}
-                        {item "panzerfaust_100 weapon" 5 filled}
+			{item "s" "mine" 80}
+			{item "wirecutters" 5}
+                        {item "panzerfaust_100 weapon" 3 filled}
 		}
 	}
 
@@ -82,7 +81,7 @@
 		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.46) boneleft("FXtraceL3") boneright("FXtraceR3"))
 		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
 		("mobility_car"
-			speed(40) ;----------------------------------Max speed.
+			speed(55) ;----------------------------------Max speed.
 			speedatmaxturn(12) ;-------------------------Max speed at max turn.
 			reverse(15) ;--------------------------------Max speed in Reverse.
 			weight(3.8) ;--------------------------------Weight in Tonnes.

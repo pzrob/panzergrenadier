@@ -19,8 +19,8 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mg34_drum" filling "mgun_ger drum ammo" 50}
-		{item "mgun_ger drum ammo" 900}
+		{item "mg34_doubledrum" filling "mgun_ger doubledrum ap ammo" 50}
+		{item "mgun_ger doubledrum ap ammo" 900}
 
 		;{item "p38" filled}
 		;{item "pistol ammo" 100}

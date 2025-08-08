@@ -93,8 +93,8 @@
                         {item "panzershreck ammo" 5}
                         {item "panzerfaust_100 weapon" 8 filled}
                         {item "hafthohlladung grenade" 5}
-			{item "mg42_belt_long" filled {user "mgun"}}
-			{item "ammo mgun_ger belt" 2000}
+			{item "mg42_belt_long" filling "ammo mgun_ger belt ap2" 300  {user "mgun"}}
+			{item "ammo mgun_ger belt ap2" 2000}
 		}
 	}
 	
@@ -115,7 +115,7 @@
 		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.46) boneleft("FXtraceL3") boneright("FXtraceR3"))
 		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
 		("mobility_car"
-			speed(40) ;----------------------------------Max speed.
+			speed(55) ;----------------------------------Max speed.
 			speedatmaxturn(12) ;-------------------------Max speed at max turn.
 			reverse(15) ;--------------------------------Max speed in Reverse.
 			weight(3.8) ;--------------------------------Weight in Tonnes.

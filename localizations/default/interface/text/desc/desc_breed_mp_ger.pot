@@ -3426,3 +3426,83 @@ msgstr ""
 msgctxt "desc/human/mp/ger/late/sturmzug_at"
 msgid "Sturmzug AT inf.  [Stoormtrooper]"
 msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/hitlerjugend_mg"
+msgid "12th Hitlerjugend MG Operator [Waffen]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/hitlerjugend_mg_asst"
+msgid "12th Hitlerjugend MG Asst. [Waffen]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/hitlerjugend_rifle"
+msgid "12th Hitlerjugend [Waffen]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/hitlerjugend_sl"
+msgid "12th Hitlerjugend Squadleader [Waffen]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/hitlerjugend_sl_asst"
+msgid "12th Hitlerjugend Asst. Leader [Waffen]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lssah_pzgren_at"
+msgid "Leibstandarte AT inf. [LSSAH]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lssah_pzgren_mg"
+msgid "Leibstandarte MG Operator [LSSAH]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lssah_pzgren_mg_asst"
+msgid "Leibstandarte MG Asst. [LSSAH]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lssah_pzgren_rifle"
+msgid "Leibstandarte [LSSAH]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lssah_pzgren_sl"
+msgid "Leibstandarte Squadleader [LSSAH]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lssah_pzgren_sl_asst"
+msgid "Leibstandarte Asst. Leader [LSSAH]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lssah_pzgren_stg"
+msgid "Leibstandarte [LSSAH]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_at"
+msgid "Das Reich AT inf. [SS]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_mg"
+msgid "Das Reich Mg Operator [SS]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_mg_asst"
+msgid "Das Reich Mg Asst. [SS]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_rifle"
+msgid "Das Reich [SS]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_sl"
+msgid "Das Reich Squadleader [SS]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_sl_asst"
+msgid "Das Reich Asst. Leader [SS]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_smg"
+msgid "Das Reich [SS]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/das_reich_stg"
+msgid "Das Reich [SS]"
+msgstr ""

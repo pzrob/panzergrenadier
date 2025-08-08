@@ -1,0 +1,84 @@
+{game_entity
+	(include "/properties/car.ext")
+	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
+	{props "truck" "vision_lev02" "tractor" "tractor_heavy" "captor" "blast_large"}
+	{able "emit_on_attack"}
+	{collider "truck"}
+	{patherId "maultier"}
+	{Extension "steyr_rso.mdl"}	
+
+	("crew_2_human")
+	("passenger_8_human")
+
+	("board_animation"
+		place(driver)
+		board_begin(board_opel_driver)
+		board_end(seat_opel_driver)
+		base(doorright)
+	)
+	("board_animation"
+		place(commander)
+		board_begin(board_big-highcar)
+		board_end(seat_opel_commander)
+		base(doorleft)
+	)	
+
+	{boarder
+		{anm "passenger"
+			{forward	{begin "board_body"} {end "seat_passenger"} {base "board"}}
+			{reverse	{end "emit_body" 1} {base "board"}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+		}
+	}
+
+	{mass 2500}
+	{Chassis
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.46) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(30) ;----------------------------------Max speed.
+			speedatmaxturn(10) ;-------------------------Max speed at max turn.
+			reverse(10) ;--------------------------------Max speed in Reverse.
+			weight(2.5) ;--------------------------------Weight in Tonnes.
+			power(85) ;----------------------------------Horse Power.
+			fuel(180) ;-----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(160) ;----------------------------------Range in Kilometers.
+		)
+	}
+	
+	
+	{Volume "body"
+		{thickness 7} 
+	}	
+	{Volume "bodyback"
+		{tags "body"}
+		{thickness 10} 
+	}
+	{Volume "cabin"
+		{tags "body"}
+		{thickness 10} 
+	}
+	
+	("tracks" repair(30) thickness(15))
+	("bodyback" repair(30))	
+	
+	("transmission" args "transmission")		
+	("fuel" args "fuel")
+
+	{volume "trackleft"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
+	{volume "trackright"
+		{tags "mover" "track"}
+		{able {NoWoundDecal} {holed} {contact_ground 0}}
+	}
+	
+	("glass" args "window1")
+	("glass" args "window2")
+}

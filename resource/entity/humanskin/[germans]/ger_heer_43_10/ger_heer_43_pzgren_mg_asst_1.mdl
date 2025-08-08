@@ -481,15 +481,9 @@
 				{VolumeView "../[ger_source]/ger_null.ply"}
 			}
 			{LODView
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_back_mg_barrel_r.ply"}
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_back_mg_barrel_r_lod1.ply"}
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_back_mg_barrel_r_lod2.ply"}
-				{VolumeView "../[ger_source]/ger_null.ply"}
-			}
-			{LODView
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_chest_mg_belt_var2.ply"}
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_chest_mg_belt_var2_lod1.ply"}
-				{VolumeView "../[ger_source]/ger_equipment/ger_equip_chest_mg_belt_var2_lod2.ply"}
+				{VolumeView "../[ger_source]/ger_equipment/ger_equip_back_mg_asst.ply"}
+				{VolumeView "../[ger_source]/ger_equipment/ger_equip_back_mg_asst_lod1.ply"}
+				{VolumeView "../[ger_source]/ger_equipment/ger_equip_back_mg_asst_lod2.ply"}
 				{VolumeView "../[ger_source]/ger_null.ply"}
 			}
 						;[Gear] - (Everything that goes on the backside of the soldier)

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/_vehicle/styerrso_tent"}
+	{bump "$/_vehicle/styerrso_tent_bp"}
+	{blend test}
+}
