@@ -1,0 +1,151 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/steppe/steppe_field1"}
+			{bump "/texture/land/goh_summer/steppe/steppe_field1_nm"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dirt_dry_slushed"}
+			{bump "/texture/land/goh_summer/finland/dirt_dry_slushed_nm"}
+			{specular "/texture/land/goh_summer/finland/dirt_dry_slushed_sp"}
+			{height "/texture/land/goh_summer/finland/dirt_dry_slushed_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/moss"}
+			{bump "/texture/land/goh_summer/finland/moss_nm"}
+			{specular "/texture/land/goh_summer/finland/moss_sp"}
+			{height "/texture/land/goh_summer/finland/moss_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_pavement/concrete_cracked_dark"}
+			{bump "/texture/land/goh_pavement/concrete_cracked_dark_nm"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/sea_gravel"}
+			{bump "/texture/land/goh_summer/finland/sea_gravel_nm"}
+			{specular "/texture/land/goh_summer/finland/sea_gravel_sp"}
+			{height "/texture/land/goh_summer/finland/sea_gravel_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/steppe/steppe_field2"}
+			{bump "/texture/land/goh_summer/steppe/steppe_field2_nm"}
+			{height "/texture/land/goh_summer/steppe/steppe_field2_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_debris/debris_3"}
+			{bump "/texture/land/goh_debris/debris_3_nm"}
+			{specular "/texture/land/goh_debris/debris_3_sp"}
+			{height "/texture/land/goh_debris/debris_3_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl7"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/rus/field4"}
+			{bump "/texture/land/goh_summer/rus/field4_nm"}
+			{height "/texture/land/goh_summer/rus/field4_hm"}
+			{parallax_scale 1}
+		}
+	}
+	{"mtl8"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/rus/field3"}
+			{bump "/texture/land/goh_summer/rus/field3_nm"}
+		}
+	}
+	{"mtl9"
+		{layer bump
+			{diffuse "/texture/land/goh_summer/finland/dry_cracked_mud"}
+			{bump "/texture/land/goh_summer/finland/dry_cracked_mud_nm"}
+			{specular "/texture/land/goh_summer/finland/dry_cracked_mud_sp"}
+			{height "/texture/land/goh_summer/finland/dry_cracked_mud_hm"}
+			{parallax_scale 1}
+		}
+		{layer bump
+			{diffuse "/texture/land/goh_summer/rus/field5"}
+			{bump "/texture/land/goh_summer/rus/field5_nm"}
+			{specular "/texture/land/goh_summer/rus/field5_sp"}
+			{height "/texture/land/goh_summer/rus/field5_hm"}
+			{parallax_scale 1}
+		}
+	}
+}
