@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/car.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.1))
-        {props "multi_board" "td" "light" "-turret" "mantlet" "vision_lev02" "muzzle_37mm_40mm_auto_sides" "shield" "open_top" "detect_tank_light" "ammo_open_top"}
+        {props "tank" "multi_board" "td" "light" "-turret" "mantlet" "vision_lev02" "muzzle_37mm_40mm_auto_sides" "shield" "open_top" "detect_tank_light" "ammo_open_top"}
 	{extension "opel_maultier_30mm.mdl"}
 	{targetclass "tank_light"}
 	{targetSelector "tank_zenite"}

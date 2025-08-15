@@ -3,7 +3,7 @@
 	(include "/properties/shadow/tank.inc" scale(1.0))
 	(include "/properties/selection/vehicle.inc" scale(1.1))
 	(include "/properties/resupply.inc")
-	{props "truck" "vision_lev02" "tractor" "tractor_heavy"}
+	{props "tank" "truck" "vision_lev02" "tractor" "tractor_heavy"}
 	{able "emit_on_attack"}
 	{extension "opel_maultier.mdl"}
 	{collider "truck"}

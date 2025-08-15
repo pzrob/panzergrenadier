@@ -1,9 +1,10 @@
-This mod is adding new squads, uniforms for Panzergrenadiers and Volksgrenadiers, other small changes, added Paratroopers and German Player Bomber
+This mod is adding new squads,many new vehicles, uniforms for Panzergrenadiers and Volksgrenadiers plus other units, added Paratroopers and German Player Bomber, New maps, Rocket Launcher vehicles, many other changes.
 
 Description
 
 This mod is for who love to play with German Infantry specialy with Panzergrenadiers and Volksgrenadiers. Dynamic Campaign / Conquest mod
 The year is 1945 , the Panzergrenadiers and Volksgrenadiers have been equiped with new uniforms and weapons, along with the all Panzer divisions.
+This mod is for brave soldiers who like to fight to the last man , expect great enemy invasions of soldiers, tanks and bomber aircrafts (defense level 2, the air attack come earlier then the main attack, on the new maps bombers don't come ).
 
 Added:
 
@@ -11,44 +12,58 @@ New uniforms for Panzergrenadiers and Volksgrenadiers
 New uniforms for Panzer Lehr, Lehr late recon and Lehr sturm units
 New uniforms for Begleitgrenadier and Brandenburgers (mid)
 
+Added Sdkfz10 and Sdkfz7 Rocket Launcher vehicles
 Added Sdkfz mortar carrier with mg in front
-Added Sdkfz7, maultier transporter, maultier miner, maultier, to conquest
-Added sdkfz medic, opel transporter
+Added Sdkfz7, Maultier transporter, Maultier miner, Maultier with 30mm mk103 gun, Maultier Mg to conquest
+Added sdkfz medic, opel transporter, opel blitz mg
+Added Kugelblitz (AA vehicle) ,Sdkfz 251D 20mm Flak,
 Added 7 new squads, 4 for Panzergrenadiers, 3 for Volksgrenadiers.+ 1 Special Commando unit
+Added 2 amphibious vehicles for Germany in editor , 1 for conquest
 
 Added many new vehicles
+Added new skins for Heavy and Medium Tanks
+Added 4 Waffen Units (Squads)
 
 Added new ammo chest mg belt for some of the mg gunners and mg assistants.
-Added Kfz70 Krupp, Kfz70 Mg, Kfz70 Drilling (AA vehicle)
-New German Portraits (in game)
+Added Kfz70 Krupp (vanila), Kfz70 Mg, Kfz70 Drilling (AA vehicle)
+Added New German Portraits (in game)
+Added incendiary mortar shells to sgrw34 80mm german mortar (you can set fire to the forest, wood houses,cars,trucks, soldiers)
 
 
 Changed the inventory and weapons for many soldiers
-Changed the range and efficienty of Panzerfaust 100 and Panzerschreck weapons
+Changed the range and efficiency of Panzerfaust 100 and Panzerschreck weapons
 Changed mortar accuracy and range
-Changed explosives, grenades, at-grenades efficienty ( they are more powerfull and bigger area of explosion)
+Changed explosives, grenades, at-grenades efficiency ( they are more powerfull and bigger area of explosion)
 Changed resupply area for resupply trucks
 Changed soldiers behaviour in battle
+Reworked enemy attacks and defending time for player (use the time for construct emplacements and bunkers with engineers because more enemy will attack)
+Changed Hummel accuracy
+Changed accuracy for German  Flak cannons.
 
 Changed many stuff also , you will discover playing
 New German Portraits in game
+
+Added 33 maps (15 for Western Front,18 for Eastern Front) Moskow, Stalingrad,Sevastopol,Kiev,Pointe Du Hoc, Nijmegen,Bastogne,Battle of The Bulge, Hurtgen Forest,Carentan, Berlin and many other maps
+It is recommended to have all 5 DLC (not the support DLC) because of the new maps added.
 
 
 You can build and upgrade new fortifications ( fixed emplacements)
 
 Now the boxes and crates on the map have ammo and weapons inside the boxes
 
-The vehicles contains some veapons and ammo in inventory
+The vehicles contains some weapons and ammo in inventory
 
 You can change the colour of painting for vehicles in game ( change paint vehicle skins)
 
-You can call in Air stikes with Brandenburger assistant leader
+You can call in Air stikes with Brandenburger assistant leader and Company Hauptfeldwebel
 
 The volksgren and pzgren mg assistants have 2 types of ammo resupply, click with right mouse button on the ammo box in inventory , the soldier will carry in hand the ammo can, the nearby mg gunners will be resupplyed with ammo.
 
 Paratroopers was added, you need to select the zone where you want to paradrop, wait the plane to arrive to selected zone then deploy the paratroopers, don't wait the plane go to the margine of the map because you need to turn back manually ( 2 paratrooper unit added)
 
 Added German Player Bomber to Conquest, first need to learn how to control the plane. W-go down, S-go upp, A,D-go left,right.Press Q just once to land the plane, need to be flat zone and no obstacles.
+
+Its recommended to start a new campaign to all changes take effect, Thank you
 
 
 
@@ -61,7 +76,7 @@ Thank you for the members of community for the help, I learned werry much from y
 
 Hawka : thank you for the paratrooper script and all the stuff that I needed for the paratroopers, thanks for the all CEv2 team  https://steamcommunity.com/sharedfiles/filedetails/?id=2899823515&searchtext=cev2
 
-AeonCypher  thank you for the help provided to add the paratroopers
+AeonCypher  thank you for the help provided to add the paratroopers and for the request file (fixed the mg guys don't fire when in cover)
 
 Obsessivecorvid thank you for doing the maultier transporter
 
@@ -69,19 +84,27 @@ BBQ thank you for the help and the boxes with ammo and veapons inside https://st
 
 Doorkeeper thank you for the help and for fixed emplacements https://steamcommunity.com/sharedfiles/filedetails/?id=2978877382&searchtext=fixed+emplacements
 
+Vecchiounno  thank you for helping with coding and for the new maps created and thanks for let me use(you created a genial program)    https://steamcommunity.com/sharedfiles/filedetails/?id=3180617465&searchtext=noresus
+
+Major Dud  (Dudz Gaming)  thank you for the enemy plane bombers script and for all the help in Discord  https://steamcommunity.com/sharedfiles/filedetails/?id=3455128342&searchtext=pacific
+
 Frostyy thank you for the miner maultier https://steamcommunity.com/sharedfiles/filedetails/?id=3432518388&searchtext=germany+expanded
 
-Uwo thank you the help and explications, thanks for the textures for the uniforms https://steamcommunity.com/sharedfiles/filedetails/?id=2704941570&searchtext=heimatfront
+Uwo thank you for help and explications, thanks for uniforms, vehicle textures   https://steamcommunity.com/sharedfiles/filedetails/?id=2704941570&searchtext=heimatfront
 
 Kirin Strong thank you for letting me use the change vehicle paint https://steamcommunity.com/sharedfiles/filedetails/?id=3297270751&searchtext=change+paint
 
+Andy 02_Ita thank you for permission to use the Coelian Flakpanzer from M.A.C.E   https://steamcommunity.com/sharedfiles/filedetails/?id=2905667604&searchtext=mace
+
 Georider thank you for the help with doing new skins https://steamcommunity.com/sharedfiles/filedetails/?id=3208155051&searchtext=war+over+europe
+
+KRØENEN thank you for letting me use the Kugelblits from Wunderwaffe mod   https://steamcommunity.com/sharedfiles/filedetails/?id=3518430361
 
 Imperator Aug thank you for help and advices
 
-Anatoly Dyatlov thank you for help and advices. thank you for letting me use the SS texture from which I created uniforms https://steamcommunity.com/sharedfiles/filedetails/?id=2524397438&searchtext=whubu
+Anatoly Dyatlov thank you for help and advices. thank you for letting me use the SS textures from which I created humanskins https://steamcommunity.com/sharedfiles/filedetails/?id=2524397438&searchtext=whubu
 
-IntendToEndYou  Thank you for letting using you mod new german portraits    https://steamcommunity.com/sharedfiles/filedetails/?id=3436135180&searchtext=new+portait
+IntendToEndYou  Thank you for letting me using your mod new german portraits    https://steamcommunity.com/sharedfiles/filedetails/?id=3436135180&searchtext=new+portait
 
 
 

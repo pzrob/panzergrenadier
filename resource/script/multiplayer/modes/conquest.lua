@@ -6,8 +6,8 @@ local StartSpawnTime = {
 	DefenseMin = 5 * 1000, 
 	DefenseMax = 7 * 1000,
 	-- Bot is attacker
-	AttackMin = 6 * 60 * 1000, 
-	AttackMax = 8 * 60 * 1000,
+	AttackMin = 15 * 60 * 1000, 
+	AttackMax = 17 * 60 * 1000,
 }
 
 -- Time from last purchase AI will wait before attempting to buy a new unit.

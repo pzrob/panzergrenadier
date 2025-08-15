@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
-	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_heavy" "captor" "emplacement_halftrack_trench_low"}
+	{props "tank" "multi_board" "truck" "vision_lev02" "tractor" "tractor_heavy" "captor" "emplacement_halftrack_trench_low"}
 	{able "emit_on_attack"}
 	{extension "opel_maultier_mg.mdl"}
 	{collider "truck"}

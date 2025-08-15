@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/car.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
-	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_heavy" "captor"}
+	{props "tank" "multi_board" "truck" "vision_lev02" "tractor" "tractor_heavy" "captor"}
 	{able "emit_on_attack"}
 	{extension "opel_maultier_transport.mdl"}
 	{collider "truck"}

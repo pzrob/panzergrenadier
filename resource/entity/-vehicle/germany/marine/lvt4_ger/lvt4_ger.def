@@ -107,6 +107,7 @@
 			{basic}
 		}
 		{place "mgun3"
+                        {type "right"}
 			{gunner "gunner3"}
 			{charger "gunner3"}
                         {weapon "mg34_doubledrum" filled}
