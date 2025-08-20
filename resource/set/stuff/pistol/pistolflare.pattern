@@ -12,7 +12,7 @@
 
 	{curve "bullet_pistol"}
 
-	("reload time" seconds(3.25))
+	("reload time" seconds(5.25))
 	("fire rate" rpm(300))
 
 	{burst

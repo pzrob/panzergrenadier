@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_heer_ver5_44_volksg_rfl_5"}
+	{skin "ger_heer_44_volksg_rfl_4"}
 	{portrait "ger_volksgrenadier"}
 	{icon "rifle"}
 	{icon_priority 1}
