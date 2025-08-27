@@ -1,19 +1,18 @@
 {breed
 	{behaviour soldier}
-	{skin "fin_peacoat_rifle_svt"}
+	{skin "fin_m27_bg_s_svt_em1"}
 	{portrait "fin_border_guard"}
 	{icon "autorifle"}
 	{icon_priority 0}
 	{tags "soldier"}
 	{nationality fin}
 	{armors
-		{head fin_stalhelm}
+		{head fin_fieldcap_m27}
 	}
 	{perks
 		(include "ability.inc")
 		("rifle_skill_rank_4")("tier3_defense")
-        ("engineer_mine_at")
-		
+        ("engineer_mine_at")		
 	}
 	{veterancy
 		(include "ability.inc")
@@ -28,6 +27,7 @@
 		{item "m32_satchel grenade" 1}
 		{item "molotov_cocktail_fin grenade" 0.75 0.5}
 		{item "molotov_bundle_fin grenade" 0.25 0.5}
+		{item "svkkr_pm grenade" 0.75 0.5}
 		{item "m39 mine" 1 1}
 
 		{item "bandage_fin" 4.5 0.5}

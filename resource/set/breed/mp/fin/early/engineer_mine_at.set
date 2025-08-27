@@ -1,13 +1,13 @@
 {breed
 	{behaviour soldier}
-	{skin "fin_engi_rifle"}
+	{skin "fin_m36_pio_wcs_s_rfl"}
 	{portrait "fin_miner_at"}
 	{icon "tech"}
 	{icon_priority 0}
 	{tags "soldier"}
 	{nationality fin}
 	{armors
-		{head fin_stalhelm}
+		{head fin_fieldcap_m36}
 	}
 	{perks
 		(include "ability.inc")
@@ -22,7 +22,7 @@
 		{item "mosin_m27" filled}
 		{item "rifle_rus clip ammo" 60 5}
 
-		{item "m32_stick grenade" 1.25 0.5}
+		{item "m32_stick grenade" 1}
 		{item "molotov_cocktail_fin grenade" 0.5 0.5}
 		{item "m39 mine" 8.5 0.5}
 

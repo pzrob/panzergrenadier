@@ -15,7 +15,7 @@
 
 	{sensor
 		{visor "main"
-			{vision "tank_range_240"}
+			{vision "tank_range_210"}
 		}
 	}
 
